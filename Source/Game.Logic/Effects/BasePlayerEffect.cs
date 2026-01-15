@@ -1,0 +1,43 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Game.Logic.Effects.BasePlayerEffect
+// Assembly: Game.Logic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 16473518-7959-4BC8-9F81-7B522E44CF86
+// Assembly location: D:\DDTANK\Dosyalar\DDtank_6.5\Emuladores\road\Game.Logic.dll
+
+using Game.Logic.Phy.Object;
+
+#nullable disable
+namespace Game.Logic.Effects
+{
+  public class BasePlayerEffect : AbstractEffect
+  {
+    public BasePlayerEffect(eEffectType type)
+      : base(type)
+    {
+    }
+
+    public override bool Start(Living living) => living is Player && base.Start(living);
+
+    public override sealed void OnAttached(Living living)
+    {
+      if (!(living is Player))
+        return;
+      this.OnAttachedToPlayer(living as Player);
+    }
+
+    public override sealed void OnRemoved(Living living)
+    {
+      if (!(living is Player))
+        return;
+      this.OnRemovedFromPlayer(living as Player);
+    }
+
+    protected virtual void OnAttachedToPlayer(Player player)
+    {
+    }
+
+    protected virtual void OnRemovedFromPlayer(Player player)
+    {
+    }
+  }
+}

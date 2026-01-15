@@ -1,0 +1,11 @@
+08:53:01,237 - [MAIN] - ERROR - Center.Server.CenterServer - Failed to start the server
+System.Net.WebException: Uzak sunucuya baðlanýlamýyor ---> System.Net.Sockets.SocketException: Baðlanýlan uygun olarak belli bir süre içinde yanýt vermediðinden veya kurulan
+baðlantý baðlanýlan ana bilgisayar yanýt vermediðinden bir baðlantý kurulamadý 10.128.0.2:80
+   konum: System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   konum: System.Net.WebClient.DownloadString(Uri address)
+   konum: System.Net.WebClient.DownloadString(String address)
+   konum: Center.Server.CenterServer.VerificaIP() D:\DDTANK\Dosyalar\DDtank_6.5\Source\Center.Crosszone.Server\Center.Server\CenterServer.cs içinde: satýr 578
+   konum: Center.Server.CenterServer.Start() D:\DDTANK\Dosyalar\DDtank_6.5\Source\Center.Crosszone.Server\Center.Server\CenterServer.cs içinde: satýr 73

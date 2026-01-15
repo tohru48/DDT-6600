@@ -1,0 +1,13 @@
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\bin\Debug\Bussiness.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\bin\Debug\Bussiness.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\bin\Debug\Game.Base.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\bin\Debug\log4net.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\bin\Debug\SqlDataProvider.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\bin\Debug\zlib.net.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\bin\Debug\Game.Base.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\bin\Debug\SqlDataProvider.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\obj\Debug\Bussiness.csproj.AssemblyReference.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\obj\Debug\Bussiness.csproj.CoreCompileInputs.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\obj\Debug\Bussiness.csproj.Up2Date
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\obj\Debug\Bussiness.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\obj\Debug\Bussiness.pdb

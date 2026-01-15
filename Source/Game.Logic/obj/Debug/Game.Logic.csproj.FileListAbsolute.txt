@@ -1,0 +1,15 @@
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\bin\Debug\Game.Logic.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\bin\Debug\Game.Logic.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\bin\Debug\Bussiness.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\bin\Debug\Game.Base.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\bin\Debug\log4net.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\bin\Debug\SqlDataProvider.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\bin\Debug\zlib.net.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\bin\Debug\Bussiness.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\bin\Debug\Game.Base.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\bin\Debug\SqlDataProvider.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\obj\Debug\Game.Logic.csproj.AssemblyReference.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\obj\Debug\Game.Logic.csproj.CoreCompileInputs.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\obj\Debug\Game.Logic.csproj.Up2Date
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\obj\Debug\Game.Logic.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Logic\obj\Debug\Game.Logic.pdb

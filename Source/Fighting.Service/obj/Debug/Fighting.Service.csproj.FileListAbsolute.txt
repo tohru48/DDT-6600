@@ -1,0 +1,204 @@
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.AssemblyReference.cache
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\bin\Debug\Languages\Language-vn.txt
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\bin\Debug\logconfig.xml
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe.config
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe.manifest
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.application
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.pdb
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.Fody.CopyLocal.cache
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.exe.manifest
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.application
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.exe
+C:\Server7Fun\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.pdb
+C:\Server4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.AssemblyReference.cache
+C:\Server4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.SuggestedBindingRedirects.cache
+C:\Server4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\Server4100\Source\Fight.Global\Fighting.Service\bin\Debug\Languages\Language-vn.txt
+C:\Server4100\Source\Fight.Global\Fighting.Service\bin\Debug\logconfig.xml
+C:\Server4100\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe.config
+C:\Server4100\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe.manifest
+C:\Server4100\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.application
+C:\Server4100\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe
+C:\Server4100\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.pdb
+C:\Server4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.Fody.CopyLocal.cache
+C:\Server4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.exe.manifest
+C:\Server4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.application
+C:\Server4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.exe
+C:\Server4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.pdb
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\bin\Debug\Languages\Language-vn.txt
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\bin\Debug\logconfig.xml
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe.config
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe.manifest
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.application
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.pdb
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.AssemblyReference.cache
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.SuggestedBindingRedirects.cache
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.Fody.CopyLocal.cache
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.exe.manifest
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.application
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.exe
+C:\DDTANK\4100\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.pdb
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\bin\Debug\Languages\Language-vn.txt
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\bin\Debug\logconfig.xml
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe.config
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe.manifest
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.application
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.pdb
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.AssemblyReference.cache
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.SuggestedBindingRedirects.cache
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.Fody.CopyLocal.cache
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.exe.manifest
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.application
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.exe
+C:\DDTANK\Bombom321 v4.1.0\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.pdb
+C:\Bombom321\Source\Fight.Global\Fighting.Service\bin\Debug\Languages\Language-vn.txt
+C:\Bombom321\Source\Fight.Global\Fighting.Service\bin\Debug\logconfig.xml
+C:\Bombom321\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe.config
+C:\Bombom321\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe.manifest
+C:\Bombom321\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.application
+C:\Bombom321\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.exe
+C:\Bombom321\Source\Fight.Global\Fighting.Service\bin\Debug\Fighting.Service.pdb
+C:\Bombom321\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.AssemblyReference.cache
+C:\Bombom321\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.SuggestedBindingRedirects.cache
+C:\Bombom321\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\Bombom321\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.csproj.Fody.CopyLocal.cache
+C:\Bombom321\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.exe.manifest
+C:\Bombom321\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.application
+C:\Bombom321\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.exe
+C:\Bombom321\Source\Fight.Global\Fighting.Service\obj\Debug\Fighting.Service.pdb
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\bin\Debug\logconfig.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\bin\Debug\Fighting.Service.exe.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\bin\Debug\Fighting.Service.exe.manifest
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\bin\Debug\Fighting.Service.application
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\bin\Debug\Fighting.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\bin\Debug\Fighting.Service.pdb
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\bin\Debug\Game.Server.dll.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.Fody.CopyLocal.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\obj\Debug\Fighting.Service.exe.manifest
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\obj\Debug\Fighting.Service.application
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CopyComplete
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\obj\Debug\Fighting.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Fighting.Service\obj\Debug\Fighting.Service.pdb
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\bin\Debug\logconfig.xml
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\bin\Debug\Fighting.Service.exe.config
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\bin\Debug\Fighting.Service.exe.manifest
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\bin\Debug\Fighting.Service.application
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\bin\Debug\Fighting.Service.exe
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\bin\Debug\Fighting.Service.pdb
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\bin\Debug\Game.Server.dll.config
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.AssemblyReference.cache
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.SuggestedBindingRedirects.cache
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.Fody.CopyLocal.cache
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\obj\Debug\Fighting.Service.exe.manifest
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\obj\Debug\Fighting.Service.application
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CopyComplete
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\obj\Debug\Fighting.Service.exe
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Fighting.Service\obj\Debug\Fighting.Service.pdb
+C:\Bombom321\Source\Fighting.Service\bin\Debug\logconfig.xml
+C:\Bombom321\Source\Fighting.Service\bin\Debug\Fighting.Service.exe.config
+C:\Bombom321\Source\Fighting.Service\bin\Debug\Fighting.Service.exe.manifest
+C:\Bombom321\Source\Fighting.Service\bin\Debug\Fighting.Service.application
+C:\Bombom321\Source\Fighting.Service\bin\Debug\Fighting.Service.exe
+C:\Bombom321\Source\Fighting.Service\bin\Debug\Fighting.Service.pdb
+C:\Bombom321\Source\Fighting.Service\bin\Debug\Game.Server.dll.config
+C:\Bombom321\Source\Fighting.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Bombom321\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.AssemblyReference.cache
+C:\Bombom321\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.SuggestedBindingRedirects.cache
+C:\Bombom321\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\Bombom321\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.Fody.CopyLocal.cache
+C:\Bombom321\Source\Fighting.Service\obj\Debug\Fighting.Service.exe.manifest
+C:\Bombom321\Source\Fighting.Service\obj\Debug\Fighting.Service.application
+C:\Bombom321\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CopyComplete
+C:\Bombom321\Source\Fighting.Service\obj\Debug\Fighting.Service.exe
+C:\Bombom321\Source\Fighting.Service\obj\Debug\Fighting.Service.pdb
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\bin\Debug\logconfig.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\bin\Debug\Fighting.Service.exe.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\bin\Debug\Fighting.Service.exe.manifest
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\bin\Debug\Fighting.Service.application
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\bin\Debug\Fighting.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\bin\Debug\Fighting.Service.pdb
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\bin\Debug\Game.Server.dll.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.Fody.CopyLocal.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\obj\Debug\Fighting.Service.exe.manifest
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\obj\Debug\Fighting.Service.application
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CopyComplete
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\obj\Debug\Fighting.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Fighting.Service\obj\Debug\Fighting.Service.pdb
+C:\Bombom321\Server 3 Source\Fighting.Service\bin\Debug\logconfig.xml
+C:\Bombom321\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.exe.config
+C:\Bombom321\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.exe.manifest
+C:\Bombom321\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.application
+C:\Bombom321\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.exe
+C:\Bombom321\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.pdb
+C:\Bombom321\Server 3 Source\Fighting.Service\bin\Debug\Game.Server.dll.config
+C:\Bombom321\Server 3 Source\Fighting.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Bombom321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.AssemblyReference.cache
+C:\Bombom321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.SuggestedBindingRedirects.cache
+C:\Bombom321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\Bombom321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.Fody.CopyLocal.cache
+C:\Bombom321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.exe.manifest
+C:\Bombom321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.application
+C:\Bombom321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CopyComplete
+C:\Bombom321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.exe
+C:\Bombom321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.pdb
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Debug\logconfig.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.exe.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.exe.manifest
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.application
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.pdb
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Debug\Game.Server.dll.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.Fody.CopyLocal.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.exe.manifest
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.application
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CopyComplete
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.pdb
+C:\DDTANK321\Server 3 Source\Fighting.Service\bin\Debug\logconfig.xml
+C:\DDTANK321\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.exe.config
+C:\DDTANK321\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.exe.manifest
+C:\DDTANK321\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.application
+C:\DDTANK321\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.exe
+C:\DDTANK321\Server 3 Source\Fighting.Service\bin\Debug\Fighting.Service.pdb
+C:\DDTANK321\Server 3 Source\Fighting.Service\bin\Debug\Game.Server.dll.config
+C:\DDTANK321\Server 3 Source\Fighting.Service\bin\Debug\Newtonsoft.Json.xml
+C:\DDTANK321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.AssemblyReference.cache
+C:\DDTANK321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\DDTANK321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.Fody.CopyLocal.cache
+C:\DDTANK321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.exe.manifest
+C:\DDTANK321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.application
+C:\DDTANK321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CopyComplete
+C:\DDTANK321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.exe
+C:\DDTANK321\Server 3 Source\Fighting.Service\obj\Debug\Fighting.Service.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Service\bin\Debug\logconfig.xml
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Service\bin\Debug\Fighting.Service.exe.config
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Service\bin\Debug\Fighting.Service.exe.manifest
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Service\bin\Debug\Fighting.Service.application
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Service\bin\Debug\Fighting.Service.exe
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Service\bin\Debug\Fighting.Service.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.AssemblyReference.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.CoreCompileInputs.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Service\obj\Debug\Fighting.Service.csproj.Fody.CopyLocal.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Service\obj\Debug\Fighting.Service.exe.manifest
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Service\obj\Debug\Fighting.Service.application
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Service\obj\Debug\Fighting.Service.exe
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Service\obj\Debug\Fighting.Service.pdb

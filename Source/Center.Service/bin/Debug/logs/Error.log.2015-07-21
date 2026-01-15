@@ -1,0 +1,90 @@
+21:00:00,719 - [6159] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidOperationException: Não foi possível localizar o elemento de ponto de extremidade padrão que referencia o contrato 'CenterService.ICenterService' na seção de configuração do ServiceModel cliente. Isso pode ter ocorrido devido à falta de um arquivo de configuração para o seu aplicativo ou porque nenhum elemento de ponto de extremidade correspondendo a este contrato pôde ser encontrado no elemento cliente.
+   em System.ServiceModel.Description.ConfigLoader.LoadChannelBehaviors(ServiceEndpoint serviceEndpoint, String configurationName)
+   em System.ServiceModel.ChannelFactory.InitializeEndpoint(String configurationName, EndpointAddress address)
+   em System.ServiceModel.ChannelFactory`1..ctor(String endpointConfigurationName, EndpointAddress remoteAddress)
+   em System.ServiceModel.ConfigurationEndpointTrait`1.CreateSimplexFactory()
+   em System.ServiceModel.ClientBase`1.CreateChannelFactoryRef(EndpointTrait`1 endpointTrait)
+   em System.ServiceModel.ClientBase`1.InitializeChannelFactoryRef()
+   em Bussiness.CenterService.CenterServiceClient..ctor() na h:\dandantang\source\Bussiness\Service References\CenterService\Reference.cs:linha 256
+   em Bussiness.PlayerBussiness.SendMail(MailInfo mail) na h:\dandantang\source\Bussiness\PlayerBussiness.cs:linha 2857
+21:00:00,813 - [6159] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidOperationException: Não foi possível localizar o elemento de ponto de extremidade padrão que referencia o contrato 'CenterService.ICenterService' na seção de configuração do ServiceModel cliente. Isso pode ter ocorrido devido à falta de um arquivo de configuração para o seu aplicativo ou porque nenhum elemento de ponto de extremidade correspondendo a este contrato pôde ser encontrado no elemento cliente.
+   em System.ServiceModel.Description.ConfigLoader.LoadChannelBehaviors(ServiceEndpoint serviceEndpoint, String configurationName)
+   em System.ServiceModel.ChannelFactory.InitializeEndpoint(String configurationName, EndpointAddress address)
+   em System.ServiceModel.ChannelFactory`1..ctor(String endpointConfigurationName, EndpointAddress remoteAddress)
+   em System.ServiceModel.ConfigurationEndpointTrait`1.CreateSimplexFactory()
+   em System.ServiceModel.ClientBase`1.CreateChannelFactoryRef(EndpointTrait`1 endpointTrait)
+   em System.ServiceModel.ClientBase`1.InitializeChannelFactoryRef()
+   em Bussiness.CenterService.CenterServiceClient..ctor() na h:\dandantang\source\Bussiness\Service References\CenterService\Reference.cs:linha 256
+   em Bussiness.PlayerBussiness.SendMail(MailInfo mail) na h:\dandantang\source\Bussiness\PlayerBussiness.cs:linha 2857
+21:00:00,813 - [6159] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidOperationException: Não foi possível localizar o elemento de ponto de extremidade padrão que referencia o contrato 'CenterService.ICenterService' na seção de configuração do ServiceModel cliente. Isso pode ter ocorrido devido à falta de um arquivo de configuração para o seu aplicativo ou porque nenhum elemento de ponto de extremidade correspondendo a este contrato pôde ser encontrado no elemento cliente.
+   em System.ServiceModel.Description.ConfigLoader.LoadChannelBehaviors(ServiceEndpoint serviceEndpoint, String configurationName)
+   em System.ServiceModel.ChannelFactory.InitializeEndpoint(String configurationName, EndpointAddress address)
+   em System.ServiceModel.ChannelFactory`1..ctor(String endpointConfigurationName, EndpointAddress remoteAddress)
+   em System.ServiceModel.ConfigurationEndpointTrait`1.CreateSimplexFactory()
+   em System.ServiceModel.ClientBase`1.CreateChannelFactoryRef(EndpointTrait`1 endpointTrait)
+   em System.ServiceModel.ClientBase`1.InitializeChannelFactoryRef()
+   em Bussiness.CenterService.CenterServiceClient..ctor() na h:\dandantang\source\Bussiness\Service References\CenterService\Reference.cs:linha 256
+   em Bussiness.PlayerBussiness.SendMail(MailInfo mail) na h:\dandantang\source\Bussiness\PlayerBussiness.cs:linha 2857
+21:00:00,829 - [6159] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidOperationException: Não foi possível localizar o elemento de ponto de extremidade padrão que referencia o contrato 'CenterService.ICenterService' na seção de configuração do ServiceModel cliente. Isso pode ter ocorrido devido à falta de um arquivo de configuração para o seu aplicativo ou porque nenhum elemento de ponto de extremidade correspondendo a este contrato pôde ser encontrado no elemento cliente.
+   em System.ServiceModel.Description.ConfigLoader.LoadChannelBehaviors(ServiceEndpoint serviceEndpoint, String configurationName)
+   em System.ServiceModel.ChannelFactory.InitializeEndpoint(String configurationName, EndpointAddress address)
+   em System.ServiceModel.ChannelFactory`1..ctor(String endpointConfigurationName, EndpointAddress remoteAddress)
+   em System.ServiceModel.ConfigurationEndpointTrait`1.CreateSimplexFactory()
+   em System.ServiceModel.ClientBase`1.CreateChannelFactoryRef(EndpointTrait`1 endpointTrait)
+   em System.ServiceModel.ClientBase`1.InitializeChannelFactoryRef()
+   em Bussiness.CenterService.CenterServiceClient..ctor() na h:\dandantang\source\Bussiness\Service References\CenterService\Reference.cs:linha 256
+   em Bussiness.PlayerBussiness.SendMail(MailInfo mail) na h:\dandantang\source\Bussiness\PlayerBussiness.cs:linha 2857
+21:00:00,844 - [6159] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidOperationException: Não foi possível localizar o elemento de ponto de extremidade padrão que referencia o contrato 'CenterService.ICenterService' na seção de configuração do ServiceModel cliente. Isso pode ter ocorrido devido à falta de um arquivo de configuração para o seu aplicativo ou porque nenhum elemento de ponto de extremidade correspondendo a este contrato pôde ser encontrado no elemento cliente.
+   em System.ServiceModel.Description.ConfigLoader.LoadChannelBehaviors(ServiceEndpoint serviceEndpoint, String configurationName)
+   em System.ServiceModel.ChannelFactory.InitializeEndpoint(String configurationName, EndpointAddress address)
+   em System.ServiceModel.ChannelFactory`1..ctor(String endpointConfigurationName, EndpointAddress remoteAddress)
+   em System.ServiceModel.ConfigurationEndpointTrait`1.CreateSimplexFactory()
+   em System.ServiceModel.ClientBase`1.CreateChannelFactoryRef(EndpointTrait`1 endpointTrait)
+   em System.ServiceModel.ClientBase`1.InitializeChannelFactoryRef()
+   em Bussiness.CenterService.CenterServiceClient..ctor() na h:\dandantang\source\Bussiness\Service References\CenterService\Reference.cs:linha 256
+   em Bussiness.PlayerBussiness.SendMail(MailInfo mail) na h:\dandantang\source\Bussiness\PlayerBussiness.cs:linha 2857
+21:00:00,844 - [6159] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidOperationException: Não foi possível localizar o elemento de ponto de extremidade padrão que referencia o contrato 'CenterService.ICenterService' na seção de configuração do ServiceModel cliente. Isso pode ter ocorrido devido à falta de um arquivo de configuração para o seu aplicativo ou porque nenhum elemento de ponto de extremidade correspondendo a este contrato pôde ser encontrado no elemento cliente.
+   em System.ServiceModel.Description.ConfigLoader.LoadChannelBehaviors(ServiceEndpoint serviceEndpoint, String configurationName)
+   em System.ServiceModel.ChannelFactory.InitializeEndpoint(String configurationName, EndpointAddress address)
+   em System.ServiceModel.ChannelFactory`1..ctor(String endpointConfigurationName, EndpointAddress remoteAddress)
+   em System.ServiceModel.ConfigurationEndpointTrait`1.CreateSimplexFactory()
+   em System.ServiceModel.ClientBase`1.CreateChannelFactoryRef(EndpointTrait`1 endpointTrait)
+   em System.ServiceModel.ClientBase`1.InitializeChannelFactoryRef()
+   em Bussiness.CenterService.CenterServiceClient..ctor() na h:\dandantang\source\Bussiness\Service References\CenterService\Reference.cs:linha 256
+   em Bussiness.PlayerBussiness.SendMail(MailInfo mail) na h:\dandantang\source\Bussiness\PlayerBussiness.cs:linha 2857
+21:00:00,876 - [6159] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidOperationException: Não foi possível localizar o elemento de ponto de extremidade padrão que referencia o contrato 'CenterService.ICenterService' na seção de configuração do ServiceModel cliente. Isso pode ter ocorrido devido à falta de um arquivo de configuração para o seu aplicativo ou porque nenhum elemento de ponto de extremidade correspondendo a este contrato pôde ser encontrado no elemento cliente.
+   em System.ServiceModel.Description.ConfigLoader.LoadChannelBehaviors(ServiceEndpoint serviceEndpoint, String configurationName)
+   em System.ServiceModel.ChannelFactory.InitializeEndpoint(String configurationName, EndpointAddress address)
+   em System.ServiceModel.ChannelFactory`1..ctor(String endpointConfigurationName, EndpointAddress remoteAddress)
+   em System.ServiceModel.ConfigurationEndpointTrait`1.CreateSimplexFactory()
+   em System.ServiceModel.ClientBase`1.CreateChannelFactoryRef(EndpointTrait`1 endpointTrait)
+   em System.ServiceModel.ClientBase`1.InitializeChannelFactoryRef()
+   em Bussiness.CenterService.CenterServiceClient..ctor() na h:\dandantang\source\Bussiness\Service References\CenterService\Reference.cs:linha 256
+   em Bussiness.PlayerBussiness.SendMail(MailInfo mail) na h:\dandantang\source\Bussiness\PlayerBussiness.cs:linha 2857
+21:00:00,891 - [6159] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidOperationException: Não foi possível localizar o elemento de ponto de extremidade padrão que referencia o contrato 'CenterService.ICenterService' na seção de configuração do ServiceModel cliente. Isso pode ter ocorrido devido à falta de um arquivo de configuração para o seu aplicativo ou porque nenhum elemento de ponto de extremidade correspondendo a este contrato pôde ser encontrado no elemento cliente.
+   em System.ServiceModel.Description.ConfigLoader.LoadChannelBehaviors(ServiceEndpoint serviceEndpoint, String configurationName)
+   em System.ServiceModel.ChannelFactory.InitializeEndpoint(String configurationName, EndpointAddress address)
+   em System.ServiceModel.ChannelFactory`1..ctor(String endpointConfigurationName, EndpointAddress remoteAddress)
+   em System.ServiceModel.ConfigurationEndpointTrait`1.CreateSimplexFactory()
+   em System.ServiceModel.ClientBase`1.CreateChannelFactoryRef(EndpointTrait`1 endpointTrait)
+   em System.ServiceModel.ClientBase`1.InitializeChannelFactoryRef()
+   em Bussiness.CenterService.CenterServiceClient..ctor() na h:\dandantang\source\Bussiness\Service References\CenterService\Reference.cs:linha 256
+   em Bussiness.PlayerBussiness.SendMail(MailInfo mail) na h:\dandantang\source\Bussiness\PlayerBussiness.cs:linha 2857
+21:00:00,907 - [6159] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidOperationException: Não foi possível localizar o elemento de ponto de extremidade padrão que referencia o contrato 'CenterService.ICenterService' na seção de configuração do ServiceModel cliente. Isso pode ter ocorrido devido à falta de um arquivo de configuração para o seu aplicativo ou porque nenhum elemento de ponto de extremidade correspondendo a este contrato pôde ser encontrado no elemento cliente.
+   em System.ServiceModel.Description.ConfigLoader.LoadChannelBehaviors(ServiceEndpoint serviceEndpoint, String configurationName)
+   em System.ServiceModel.ChannelFactory.InitializeEndpoint(String configurationName, EndpointAddress address)
+   em System.ServiceModel.ChannelFactory`1..ctor(String endpointConfigurationName, EndpointAddress remoteAddress)
+   em System.ServiceModel.ConfigurationEndpointTrait`1.CreateSimplexFactory()
+   em System.ServiceModel.ClientBase`1.CreateChannelFactoryRef(EndpointTrait`1 endpointTrait)
+   em System.ServiceModel.ClientBase`1.InitializeChannelFactoryRef()
+   em Bussiness.CenterService.CenterServiceClient..ctor() na h:\dandantang\source\Bussiness\Service References\CenterService\Reference.cs:linha 256
+   em Bussiness.PlayerBussiness.SendMail(MailInfo mail) na h:\dandantang\source\Bussiness\PlayerBussiness.cs:linha 2857

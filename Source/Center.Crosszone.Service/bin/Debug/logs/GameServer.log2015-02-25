@@ -1,0 +1,394 @@
+03:16:56,692 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+03:16:58,005 - [MAIN] - INFO  - Center.Server.CenterServer - Recompile Scripts: True
+03:16:58,161 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+03:16:58,161 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+03:16:58,161 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+03:16:58,161 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:9203: True
+03:16:58,224 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+03:16:58,224 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+03:16:58,224 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+03:16:58,224 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+03:16:58,239 - [MAIN] - INFO  - Center.Server.CenterServer - Init ConsortiaLevelMgr: True
+03:16:58,380 - [MAIN] - INFO  - Center.Server.CenterServer - Init MacroDropMgr: True
+03:16:58,380 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+03:16:58,380 - [MAIN] - INFO  - Center.Server.CenterServer - WorldActivityMgr Init: True
+03:16:58,396 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+03:16:58,396 - [MAIN] - INFO  - Center.Server.SystemNoticeMgr - Total 4 syterm notice loaded.
+03:16:58,411 - [MAIN] - INFO  - Center.Server.CenterServer - SystemNoticeMgr Init: True
+03:16:58,411 - [MAIN] - INFO  - Center.Server.CenterServer - EventMgr Init: True
+03:16:58,411 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+03:16:58,427 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+03:16:58,427 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+03:16:58,427 - [MAIN] - INFO  - Center.Server.CenterServer - GameCrosszoneServer is now open for connections!
+03:16:58,427 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+03:17:58,429 - [5] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:17:58,429 - [5] - DEBUG - Center.Server.CenterServer - Scan ThreadId=5
+03:17:58,429 - [5] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:18:58,427 - [10] - INFO  - Center.Server.CenterServer - System Notice ...
+03:18:58,427 - [10] - DEBUG - Center.Server.CenterServer - Save ThreadId=10
+03:18:58,427 - [10] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:18:58,442 - [10] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:18:58,442 - [10] - DEBUG - Center.Server.CenterServer - Scan ThreadId=10
+03:18:58,442 - [10] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:19:58,446 - [12] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:19:58,446 - [12] - DEBUG - Center.Server.CenterServer - Scan ThreadId=12
+03:19:58,446 - [12] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:20:17,509 - [8] - INFO  - Game.Base.BaseServer - Incoming connection from 192.99.18.199:50462
+03:20:58,438 - [16] - INFO  - Center.Server.CenterServer - System Notice ...
+03:20:58,438 - [16] - DEBUG - Center.Server.CenterServer - Save ThreadId=16
+03:20:58,438 - [16] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:20:58,454 - [16] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:20:58,454 - [16] - DEBUG - Center.Server.CenterServer - Scan ThreadId=16
+03:20:58,454 - [16] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:21:58,465 - [19] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:21:58,465 - [19] - DEBUG - Center.Server.CenterServer - Scan ThreadId=19
+03:21:58,465 - [19] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:22:58,459 - [22] - INFO  - Center.Server.CenterServer - System Notice ...
+03:22:58,459 - [22] - DEBUG - Center.Server.CenterServer - Save ThreadId=22
+03:22:58,459 - [22] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:22:58,474 - [22] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:22:58,474 - [22] - DEBUG - Center.Server.CenterServer - Scan ThreadId=22
+03:22:58,474 - [22] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:23:58,477 - [23] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:23:58,477 - [23] - DEBUG - Center.Server.CenterServer - Scan ThreadId=23
+03:23:58,477 - [23] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:24:58,461 - [28] - INFO  - Center.Server.CenterServer - System Notice ...
+03:24:58,461 - [28] - DEBUG - Center.Server.CenterServer - Save ThreadId=28
+03:24:58,461 - [28] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:24:58,492 - [28] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:24:58,492 - [28] - DEBUG - Center.Server.CenterServer - Scan ThreadId=28
+03:24:58,492 - [28] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:25:58,494 - [31] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:25:58,494 - [31] - DEBUG - Center.Server.CenterServer - Scan ThreadId=31
+03:25:58,494 - [31] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:26:58,474 - [34] - INFO  - Center.Server.CenterServer - System Notice ...
+03:26:58,474 - [34] - DEBUG - Center.Server.CenterServer - Save ThreadId=34
+03:26:58,474 - [34] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:26:58,505 - [34] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:26:58,505 - [34] - DEBUG - Center.Server.CenterServer - Scan ThreadId=34
+03:26:58,505 - [34] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:27:58,519 - [38] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:27:58,519 - [38] - DEBUG - Center.Server.CenterServer - Scan ThreadId=38
+03:27:58,519 - [38] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:28:58,482 - [41] - INFO  - Center.Server.CenterServer - System Notice ...
+03:28:58,482 - [41] - DEBUG - Center.Server.CenterServer - Save ThreadId=41
+03:28:58,482 - [41] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:28:58,529 - [41] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:28:58,529 - [41] - DEBUG - Center.Server.CenterServer - Scan ThreadId=41
+03:28:58,529 - [41] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:29:58,533 - [45] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:29:58,533 - [45] - DEBUG - Center.Server.CenterServer - Scan ThreadId=45
+03:29:58,533 - [45] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:30:58,497 - [48] - INFO  - Center.Server.CenterServer - System Notice ...
+03:30:58,497 - [48] - DEBUG - Center.Server.CenterServer - Save ThreadId=48
+03:30:58,497 - [48] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:30:58,543 - [48] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:30:58,543 - [48] - DEBUG - Center.Server.CenterServer - Scan ThreadId=48
+03:30:58,543 - [48] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:31:58,547 - [51] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:31:58,547 - [51] - DEBUG - Center.Server.CenterServer - Scan ThreadId=51
+03:31:58,547 - [51] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:32:58,515 - [54] - INFO  - Center.Server.CenterServer - System Notice ...
+03:32:58,515 - [54] - DEBUG - Center.Server.CenterServer - Save ThreadId=54
+03:32:58,515 - [54] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:32:58,562 - [54] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:32:58,562 - [54] - DEBUG - Center.Server.CenterServer - Scan ThreadId=54
+03:32:58,562 - [54] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:33:58,577 - [58] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:33:58,577 - [58] - DEBUG - Center.Server.CenterServer - Scan ThreadId=58
+03:33:58,577 - [58] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:34:58,534 - [61] - INFO  - Center.Server.CenterServer - System Notice ...
+03:34:58,534 - [61] - DEBUG - Center.Server.CenterServer - Save ThreadId=61
+03:34:58,534 - [61] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:34:58,581 - [61] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:34:58,581 - [61] - DEBUG - Center.Server.CenterServer - Scan ThreadId=61
+03:34:58,581 - [61] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:35:58,587 - [65] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:35:58,587 - [65] - DEBUG - Center.Server.CenterServer - Scan ThreadId=65
+03:35:58,587 - [65] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:36:58,549 - [68] - INFO  - Center.Server.CenterServer - System Notice ...
+03:36:58,549 - [68] - DEBUG - Center.Server.CenterServer - Save ThreadId=68
+03:36:58,549 - [68] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:36:58,595 - [68] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:36:58,595 - [68] - DEBUG - Center.Server.CenterServer - Scan ThreadId=68
+03:36:58,595 - [68] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:37:02,892 - [69] - INFO  - Game.Base.BaseClient - Disconnecting client (192.99.18.199:50462), received bytes=0
+03:37:58,609 - [72] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:37:58,609 - [72] - DEBUG - Center.Server.CenterServer - Scan ThreadId=72
+03:37:58,609 - [72] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:38:13,817 - [69] - INFO  - Game.Base.BaseServer - Incoming connection from 192.99.18.199:50496
+03:38:58,555 - [78] - INFO  - Center.Server.CenterServer - System Notice ...
+03:38:58,555 - [78] - DEBUG - Center.Server.CenterServer - Save ThreadId=78
+03:38:58,555 - [78] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:38:58,617 - [78] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:38:58,617 - [78] - DEBUG - Center.Server.CenterServer - Scan ThreadId=78
+03:38:58,617 - [78] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:39:58,622 - [82] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:39:58,622 - [82] - DEBUG - Center.Server.CenterServer - Scan ThreadId=82
+03:39:58,622 - [82] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:40:26,762 - [79] - INFO  - Game.Base.BaseClient - Disconnecting client (192.99.18.199:50496), received bytes=0
+03:40:58,571 - [86] - INFO  - Center.Server.CenterServer - System Notice ...
+03:40:58,571 - [86] - DEBUG - Center.Server.CenterServer - Save ThreadId=86
+03:40:58,571 - [86] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:40:58,633 - [86] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:40:58,633 - [86] - DEBUG - Center.Server.CenterServer - Scan ThreadId=86
+03:40:58,633 - [86] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:41:46,172 - [84] - INFO  - Game.Base.BaseServer - Incoming connection from 192.99.18.199:50508
+03:41:58,645 - [92] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:41:58,645 - [92] - DEBUG - Center.Server.CenterServer - Scan ThreadId=92
+03:41:58,645 - [92] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:42:58,573 - [94] - INFO  - Center.Server.CenterServer - System Notice ...
+03:42:58,573 - [94] - DEBUG - Center.Server.CenterServer - Save ThreadId=94
+03:42:58,573 - [94] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:42:58,651 - [94] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:42:58,651 - [94] - DEBUG - Center.Server.CenterServer - Scan ThreadId=94
+03:42:58,651 - [94] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:43:58,656 - [98] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:43:58,656 - [98] - DEBUG - Center.Server.CenterServer - Scan ThreadId=98
+03:43:58,656 - [98] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:44:58,587 - [101] - INFO  - Center.Server.CenterServer - System Notice ...
+03:44:58,587 - [101] - DEBUG - Center.Server.CenterServer - Save ThreadId=101
+03:44:58,587 - [101] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:44:58,665 - [101] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:44:58,665 - [101] - DEBUG - Center.Server.CenterServer - Scan ThreadId=101
+03:44:58,665 - [101] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:45:58,676 - [105] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:45:58,676 - [105] - DEBUG - Center.Server.CenterServer - Scan ThreadId=105
+03:45:58,676 - [105] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:46:58,591 - [108] - INFO  - Center.Server.CenterServer - System Notice ...
+03:46:58,591 - [108] - DEBUG - Center.Server.CenterServer - Save ThreadId=108
+03:46:58,591 - [108] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:46:58,685 - [108] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:46:58,685 - [108] - DEBUG - Center.Server.CenterServer - Scan ThreadId=108
+03:46:58,685 - [108] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:47:58,688 - [111] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:47:58,688 - [111] - DEBUG - Center.Server.CenterServer - Scan ThreadId=111
+03:47:58,688 - [111] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:48:58,603 - [114] - INFO  - Center.Server.CenterServer - System Notice ...
+03:48:58,603 - [114] - DEBUG - Center.Server.CenterServer - Save ThreadId=114
+03:48:58,603 - [114] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:48:58,697 - [114] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:48:58,697 - [114] - DEBUG - Center.Server.CenterServer - Scan ThreadId=114
+03:48:58,697 - [114] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:49:58,698 - [117] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:49:58,698 - [117] - DEBUG - Center.Server.CenterServer - Scan ThreadId=117
+03:49:58,698 - [117] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:50:58,610 - [120] - INFO  - Center.Server.CenterServer - System Notice ...
+03:50:58,610 - [120] - DEBUG - Center.Server.CenterServer - Save ThreadId=120
+03:50:58,610 - [120] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:50:58,703 - [120] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:50:58,703 - [120] - DEBUG - Center.Server.CenterServer - Scan ThreadId=120
+03:50:58,703 - [120] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:51:58,715 - [124] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:51:58,715 - [124] - DEBUG - Center.Server.CenterServer - Scan ThreadId=124
+03:51:58,715 - [124] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:52:58,620 - [128] - INFO  - Center.Server.CenterServer - System Notice ...
+03:52:58,620 - [128] - DEBUG - Center.Server.CenterServer - Save ThreadId=128
+03:52:58,620 - [128] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:52:58,729 - [128] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:52:58,729 - [128] - DEBUG - Center.Server.CenterServer - Scan ThreadId=128
+03:52:58,729 - [128] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:53:58,745 - [132] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:53:58,745 - [132] - DEBUG - Center.Server.CenterServer - Scan ThreadId=132
+03:53:58,745 - [132] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:54:58,635 - [135] - INFO  - Center.Server.CenterServer - System Notice ...
+03:54:58,635 - [135] - DEBUG - Center.Server.CenterServer - Save ThreadId=135
+03:54:58,635 - [135] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:54:58,760 - [135] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:54:58,760 - [135] - DEBUG - Center.Server.CenterServer - Scan ThreadId=135
+03:54:58,760 - [135] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:55:58,763 - [138] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:55:58,763 - [138] - DEBUG - Center.Server.CenterServer - Scan ThreadId=138
+03:55:58,763 - [138] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:56:58,641 - [141] - INFO  - Center.Server.CenterServer - System Notice ...
+03:56:58,641 - [141] - DEBUG - Center.Server.CenterServer - Save ThreadId=141
+03:56:58,641 - [141] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:56:58,766 - [141] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:56:58,766 - [141] - DEBUG - Center.Server.CenterServer - Scan ThreadId=141
+03:56:58,766 - [141] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:57:58,777 - [145] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:57:58,777 - [145] - DEBUG - Center.Server.CenterServer - Scan ThreadId=145
+03:57:58,777 - [145] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:58:58,650 - [148] - INFO  - Center.Server.CenterServer - System Notice ...
+03:58:58,650 - [148] - DEBUG - Center.Server.CenterServer - Save ThreadId=148
+03:58:58,650 - [148] - INFO  - Center.Server.CenterServer - System Notice complete!
+03:58:58,790 - [148] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:58:58,790 - [148] - DEBUG - Center.Server.CenterServer - Scan ThreadId=148
+03:58:58,790 - [148] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+03:59:58,794 - [152] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+03:59:58,794 - [152] - DEBUG - Center.Server.CenterServer - Scan ThreadId=152
+03:59:58,794 - [152] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:00:58,662 - [155] - INFO  - Center.Server.CenterServer - System Notice ...
+04:00:58,662 - [155] - DEBUG - Center.Server.CenterServer - Save ThreadId=155
+04:00:58,662 - [155] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:00:58,803 - [155] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:00:58,803 - [155] - DEBUG - Center.Server.CenterServer - Scan ThreadId=155
+04:00:58,803 - [155] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:01:58,809 - [158] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:01:58,809 - [158] - DEBUG - Center.Server.CenterServer - Scan ThreadId=158
+04:01:58,809 - [158] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:02:58,676 - [161] - INFO  - Center.Server.CenterServer - System Notice ...
+04:02:58,676 - [161] - DEBUG - Center.Server.CenterServer - Save ThreadId=161
+04:02:58,676 - [161] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:02:58,816 - [162] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:02:58,816 - [162] - DEBUG - Center.Server.CenterServer - Scan ThreadId=162
+04:02:58,816 - [162] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:03:58,832 - [165] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:03:58,832 - [165] - DEBUG - Center.Server.CenterServer - Scan ThreadId=165
+04:03:58,832 - [165] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:04:58,692 - [168] - INFO  - Center.Server.CenterServer - System Notice ...
+04:04:58,692 - [168] - DEBUG - Center.Server.CenterServer - Save ThreadId=168
+04:04:58,692 - [168] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:04:58,833 - [168] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:04:58,833 - [168] - DEBUG - Center.Server.CenterServer - Scan ThreadId=168
+04:04:58,833 - [168] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:05:58,837 - [172] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:05:58,837 - [172] - DEBUG - Center.Server.CenterServer - Scan ThreadId=172
+04:05:58,837 - [172] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:06:58,702 - [175] - INFO  - Center.Server.CenterServer - System04:18:26,810 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+04:18:28,138 - [MAIN] - INFO  - Center.Server.CenterServer - Recompile Scripts: True
+04:18:28,279 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+04:18:28,279 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+04:18:28,279 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+04:18:28,279 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:9203: True
+04:18:28,341 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+04:18:28,341 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+04:18:28,357 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+04:18:28,357 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+04:18:28,372 - [MAIN] - INFO  - Center.Server.CenterServer - Init ConsortiaLevelMgr: True
+04:18:28,497 - [MAIN] - INFO  - Center.Server.CenterServer - Init MacroDropMgr: True
+04:18:28,513 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+04:18:28,513 - [MAIN] - INFO  - Center.Server.CenterServer - WorldActivityMgr Init: True
+04:18:28,529 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+04:18:28,529 - [MAIN] - INFO  - Center.Server.SystemNoticeMgr - Total 4 syterm notice loaded.
+04:18:28,529 - [MAIN] - INFO  - Center.Server.CenterServer - SystemNoticeMgr Init: True
+04:18:28,529 - [MAIN] - INFO  - Center.Server.CenterServer - EventMgr Init: True
+04:18:28,544 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+04:18:28,544 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+04:18:28,544 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+04:18:28,560 - [MAIN] - INFO  - Center.Server.CenterServer - GameCrosszoneServer is now open for connections!
+04:18:28,560 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+04:19:28,554 - [11] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:19:28,554 - [11] - DEBUG - Center.Server.CenterServer - Scan ThreadId=11
+04:19:28,554 - [11] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:20:28,558 - [10] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:20:28,558 - [10] - DEBUG - Center.Server.CenterServer - Scan ThreadId=10
+04:20:28,558 - [15] - INFO  - Center.Server.CenterServer - System Notice ...
+04:20:28,558 - [15] - DEBUG - Center.Server.CenterServer - Save ThreadId=15
+04:20:28,558 - [15] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:20:28,558 - [10] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:20:45,403 - [8] - INFO  - Game.Base.BaseServer - Incoming connection from 192.99.18.199:50574
+04:21:28,575 - [18] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:21:28,575 - [18] - DEBUG - Center.Server.CenterServer - Scan ThreadId=18
+04:21:28,575 - [18] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:22:28,560 - [22] - INFO  - Center.Server.CenterServer - System Notice ...
+04:22:28,560 - [22] - DEBUG - Center.Server.CenterServer - Save ThreadId=22
+04:22:28,560 - [22] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:22:28,591 - [22] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:22:28,591 - [22] - DEBUG - Center.Server.CenterServer - Scan ThreadId=22
+04:22:28,591 - [22] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:23:28,607 - [26] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:23:28,607 - [26] - DEBUG - Center.Server.CenterServer - Scan ThreadId=26
+04:23:28,607 - [26] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:24:28,560 - [29] - INFO  - Center.Server.CenterServer - System Notice ...
+04:24:28,560 - [29] - DEBUG - Center.Server.CenterServer - Save ThreadId=29
+04:24:28,560 - [29] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:24:28,622 - [29] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:24:28,622 - [29] - DEBUG - Center.Server.CenterServer - Scan ThreadId=29
+04:24:28,622 - [29] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:25:28,638 - [30] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:25:28,638 - [30] - DEBUG - Center.Server.CenterServer - Scan ThreadId=30
+04:25:28,638 - [30] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:26:28,576 - [35] - INFO  - Center.Server.CenterServer - System Notice ...
+04:26:28,576 - [35] - DEBUG - Center.Server.CenterServer - Save ThreadId=35
+04:26:28,576 - [35] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:26:28,654 - [35] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:26:28,654 - [35] - DEBUG - Center.Server.CenterServer - Scan ThreadId=35
+04:26:28,654 - [35] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:27:28,657 - [38] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:27:28,658 - [38] - DEBUG - Center.Server.CenterServer - Scan ThreadId=38
+04:27:28,659 - [38] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:28:28,581 - [41] - INFO  - Center.Server.CenterServer - System Notice ...
+04:28:28,581 - [41] - DEBUG - Center.Server.CenterServer - Save ThreadId=41
+04:28:28,581 - [41] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:28:28,659 - [41] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:28:28,659 - [41] - DEBUG - Center.Server.CenterServer - Scan ThreadId=41
+04:28:28,659 - [41] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:29:28,660 - [44] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:29:28,660 - [44] - DEBUG - Center.Server.CenterServer - Scan ThreadId=44
+04:29:28,661 - [44] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:29:52,188 - [23] - INFO  - Game.Base.BaseClient - Disconnecting client (192.99.18.199:50574), received bytes=0
+04:30:28,594 - [46] - INFO  - Center.Server.CenterServer - System Notice ...
+04:30:28,594 - [46] - DEBUG - Center.Server.CenterServer - Save ThreadId=46
+04:30:28,595 - [46] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:30:28,669 - [46] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:30:28,669 - [46] - DEBUG - Center.Server.CenterServer - Scan ThreadId=46
+04:30:28,670 - [46] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:31:08,215 - [23] - INFO  - Game.Base.BaseServer - Incoming connection from 192.99.18.199:50739
+04:31:28,671 - [52] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:31:28,671 - [52] - DEBUG - Center.Server.CenterServer - Scan ThreadId=52
+04:31:28,672 - [52] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:32:28,595 - [55] - INFO  - Center.Server.CenterServer - System Notice ...
+04:32:28,595 - [55] - DEBUG - Center.Server.CenterServer - Save ThreadId=55
+04:32:28,596 - [55] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:32:28,671 - [55] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:32:28,671 - [55] - DEBUG - Center.Server.CenterServer - Scan ThreadId=55
+04:32:28,672 - [55] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:33:28,685 - [59] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:33:28,686 - [59] - DEBUG - Center.Server.CenterServer - Scan ThreadId=59
+04:33:28,686 - [59] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:34:28,608 - [62] - INFO  - Center.Server.CenterServer - System Notice ...
+04:34:28,608 - [62] - DEBUG - Center.Server.CenterServer - Save ThreadId=62
+04:34:28,609 - [62] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:34:28,687 - [62] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:34:28,687 - [62] - DEBUG - Center.Server.CenterServer - Scan ThreadId=62
+04:34:28,688 - [62] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:35:28,688 - [65] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:35:28,688 - [65] - DEBUG - Center.Server.CenterServer - Scan ThreadId=65
+04:35:28,689 - [65] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:36:28,608 - [68] - INFO  - Center.Server.CenterServer - System Notice ...
+04:36:28,608 - [68] - DEBUG - Center.Server.CenterServer - Save ThreadId=68
+04:36:28,609 - [68] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:36:28,698 - [68] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:36:28,698 - [68] - DEBUG - Center.Server.CenterServer - Scan ThreadId=68
+04:36:28,699 - [68] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:37:28,700 - [72] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:37:28,701 - [72] - DEBUG - Center.Server.CenterServer - Scan ThreadId=72
+04:37:28,702 - [72] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:37:35,547 - [69] - INFO  - Game.Base.BaseClient - Disconnecting client (192.99.18.199:50739), received bytes=0
+04:38:28,610 - [75] - INFO  - Center.Server.CenterServer - System Notice ...
+04:38:28,610 - [75] - DEBUG - Center.Server.CenterServer - Save ThreadId=75
+04:38:28,610 - [75] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:38:28,704 - [75] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:38:28,704 - [75] - DEBUG - Center.Server.CenterServer - Scan ThreadId=75
+04:38:28,704 - [75] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:38:55,205 - [69] - INFO  - Game.Base.BaseServer - Incoming connection from 192.99.18.199:50788
+04:39:28,705 - [79] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:39:28,705 - [79] - DEBUG - Center.Server.CenterServer - Scan ThreadId=79
+04:39:28,705 - [79] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:40:24,472 - [69] - INFO  - Game.Base.BaseClient - Disconnecting client (192.99.18.199:50788), received bytes=0
+04:40:28,612 - [83] - INFO  - Center.Server.CenterServer - System Notice ...
+04:40:28,612 - [83] - DEBUG - Center.Server.CenterServer - Save ThreadId=83
+04:40:28,612 - [83] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:40:28,706 - [83] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:40:28,706 - [83] - DEBUG - Center.Server.CenterServer - Scan ThreadId=83
+04:40:28,706 - [83] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:41:28,708 - [86] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:41:28,708 - [86] - DEBUG - Center.Server.CenterServer - Scan ThreadId=86
+04:41:28,708 - [86] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:41:54,472 - [82] - INFO  - Game.Base.BaseServer - Incoming connection from 192.99.18.199:50856
+04:42:28,613 - [91] - INFO  - Center.Server.CenterServer - System Notice ...
+04:42:28,613 - [91] - DEBUG - Center.Server.CenterServer - Save ThreadId=91
+04:42:28,613 - [91] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:42:28,715 - [91] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:42:28,715 - [91] - DEBUG - Center.Server.CenterServer - Scan ThreadId=91
+04:42:28,715 - [91] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:43:28,715 - [95] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:43:28,715 - [95] - DEBUG - Center.Server.CenterServer - Scan ThreadId=95
+04:43:28,715 - [95] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+04:44:21,436 - [92] - INFO  - Game.Base.BaseClient - Disconnecting client (192.99.18.199:50856), received bytes=0
+04:44:28,613 - [99] - INFO  - Center.Server.CenterServer - System Notice ...
+04:44:28,613 - [99] - DEBUG - Center.Server.CenterServer - Save ThreadId=99
+04:44:28,613 - [99] - INFO  - Center.Server.CenterServer - System Notice complete!
+04:44:28,716 - [99] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+04:44:28,716 - [99] - DEBUG - Center.Server.CenterServer - Scan ThreadId=99

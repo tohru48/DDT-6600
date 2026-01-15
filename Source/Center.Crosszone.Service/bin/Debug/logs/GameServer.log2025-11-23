@@ -1,0 +1,1114 @@
+13:36:16,434 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+13:36:27,019 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,025 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property Edition,keep it default value!
+13:36:27,026 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,027 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MustComposeGold,keep it default value!
+13:36:27,028 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,028 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MustFusionGold,keep it default value!
+13:36:27,028 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,030 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MustStrengthenGold,keep it default value!
+13:36:27,030 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,031 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property CheckRewardItem,keep it default value!
+13:36:27,031 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,032 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property CheckCount,keep it default value!
+13:36:27,033 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,034 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HymenealMoney,keep it default value!
+13:36:27,034 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,035 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DivorcedMoney,keep it default value!
+13:36:27,036 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,036 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DivorcedDiscountMoney,keep it default value!
+13:36:27,036 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,038 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MarryRoomCreateMoney,keep it default value!
+13:36:27,040 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,040 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property BoxAppearCondition,keep it default value!
+13:36:27,041 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,041 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DisableCommands,keep it default value!
+13:36:27,042 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,042 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property AssState,keep it default value!
+13:36:27,044 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,044 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DailyAwardState,keep it default value!
+13:36:27,045 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,045 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property Cess,keep it default value!
+13:36:27,046 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,046 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property BeginAuction,keep it default value!
+13:36:27,047 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,048 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property EndAuction,keep it default value!
+13:36:27,048 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,048 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HotSpringExp,keep it default value!
+13:36:27,049 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,049 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ConsortiaStrengthenEx,keep it default value!
+13:36:27,050 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,051 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property RuneLevelUpExp,keep it default value!
+13:36:27,051 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,054 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property VIPExpForEachLv,keep it default value!
+13:36:27,055 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,055 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HoleLevelUpExpList,keep it default value!
+13:36:27,056 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,057 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property VIPStrengthenEx,keep it default value!
+13:36:27,057 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,057 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property CustomLimit,keep it default value!
+13:36:27,058 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,058 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsLimitCount,keep it default value!
+13:36:27,059 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,061 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LimitCount,keep it default value!
+13:36:27,061 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,062 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsLimitMoney,keep it default value!
+13:36:27,063 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,063 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LimitMoney,keep it default value!
+13:36:27,064 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,064 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsLimitAuction,keep it default value!
+13:36:27,065 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,065 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LimitAuction,keep it default value!
+13:36:27,066 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,066 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsLimitMail,keep it default value!
+13:36:27,067 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,068 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LimitMail,keep it default value!
+13:36:27,070 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,070 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property TestActive,keep it default value!
+13:36:27,071 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,071 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WishBeadLimitLv,keep it default value!
+13:36:27,072 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,072 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsWishBeadLimit,keep it default value!
+13:36:27,073 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,074 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property BagMailEnable,keep it default value!
+13:36:27,075 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,075 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property FreeMoney,keep it default value!
+13:36:27,075 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,076 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property FreeExp,keep it default value!
+13:36:27,076 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,077 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property BigExp,keep it default value!
+13:36:27,078 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,078 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property PetExp,keep it default value!
+13:36:27,079 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,079 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsActiveMoney,keep it default value!
+13:36:27,080 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,081 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsDDTMoneyActive,keep it default value!
+13:36:27,082 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,082 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NewChickenBeginTime,keep it default value!
+13:36:27,084 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,085 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NewChickenEndTime,keep it default value!
+13:36:27,086 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,086 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NewChickenEagleEyePrice,keep it default value!
+13:36:27,086 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,087 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NewChickenOpenCardPrice,keep it default value!
+13:36:27,088 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,088 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NewChickenFlushPrice,keep it default value!
+13:36:27,089 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,089 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DiceBeginTime,keep it default value!
+13:36:27,090 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,090 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DiceEndTime,keep it default value!
+13:36:27,091 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,091 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DiceRefreshPrice,keep it default value!
+13:36:27,093 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,094 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property CommonDicePrice,keep it default value!
+13:36:27,095 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,095 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleDicePrice,keep it default value!
+13:36:27,096 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,096 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property BigDicePrice,keep it default value!
+13:36:27,097 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,097 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SmallDicePrice,keep it default value!
+13:36:27,098 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,098 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property PyramidBeginTime,keep it default value!
+13:36:27,099 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,100 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property PyramidEndTime,keep it default value!
+13:36:27,101 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,101 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property PyramidRevivePrice,keep it default value!
+13:36:27,102 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,102 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property PyramydTurnCardPrice,keep it default value!
+13:36:27,102 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,102 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DragonBoatBeginDate,keep it default value!
+13:36:27,105 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,105 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DragonBoatEndDate,keep it default value!
+13:36:27,106 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,106 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property FightFootballTime,keep it default value!
+13:36:27,106 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,107 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property KingBuffPrice,keep it default value!
+13:36:27,108 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,108 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property RunePackageID,keep it default value!
+13:36:27,109 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,109 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property OpenRunePackageMoney,keep it default value!
+13:36:27,110 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,110 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property OpenRunePackageRange,keep it default value!
+13:36:27,111 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,111 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property VIPQuestFinishDirect,keep it default value!
+13:36:27,113 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,113 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MustTransferGold,keep it default value!
+13:36:27,114 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,114 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LuckStarActivityBeginDate,keep it default value!
+13:36:27,115 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,117 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LuckStarActivityEndDate,keep it default value!
+13:36:27,118 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,118 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MinUseNum,keep it default value!
+13:36:27,119 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,119 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property YearMonsterBeginDate,keep it default value!
+13:36:27,120 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,120 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property YearMonsterEndDate,keep it default value!
+13:36:27,120 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,121 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property YearMonsterBoxInfo,keep it default value!
+13:36:27,122 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,122 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property YearMonsterBuffMoney,keep it default value!
+13:36:27,123 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,123 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property YearMonsterFightNum,keep it default value!
+13:36:27,124 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,124 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property YearMonsterHP,keep it default value!
+13:36:27,125 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,126 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property YearMonsterOpenLevel,keep it default value!
+13:36:27,127 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,128 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DiceGameAwardAndCount,keep it default value!
+13:36:27,128 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,129 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LightRiddleAnswerScore,keep it default value!
+13:36:27,130 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,130 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LightRiddleBeginDate,keep it default value!
+13:36:27,131 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,132 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LightRiddleEndDate,keep it default value!
+13:36:27,133 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,133 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LightRiddleBeginTime,keep it default value!
+13:36:27,134 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,134 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LightRiddleEndTime,keep it default value!
+13:36:27,135 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,136 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LightRiddleFreeHitNum,keep it default value!
+13:36:27,137 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,137 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LightRiddleFreeComboNum,keep it default value!
+13:36:27,138 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,138 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LightRiddleComboMoney,keep it default value!
+13:36:27,139 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,139 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LightRiddleHitMoney,keep it default value!
+13:36:27,140 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,140 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LightRiddleAnswerTime,keep it default value!
+13:36:27,141 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,142 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LightRiddleOpenLevel,keep it default value!
+13:36:27,143 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,143 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WarriorFamRaidPricePerMin,keep it default value!
+13:36:27,144 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,144 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WarriorFamRaidPriceSmall,keep it default value!
+13:36:27,145 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,145 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WarriorFamRaidPriceBig,keep it default value!
+13:36:27,146 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,147 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WarriorFamRaidDDTPrice,keep it default value!
+13:36:27,149 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,150 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WarriorFamRaidTimeRemain,keep it default value!
+13:36:27,150 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,151 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ChristmasBeginDate,keep it default value!
+13:36:27,151 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,152 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ChristmasEndDate,keep it default value!
+13:36:27,153 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,153 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ChristmasGifts,keep it default value!
+13:36:27,154 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,154 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ChristmasGiftsMaxNum,keep it default value!
+13:36:27,155 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,155 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ChristmasBuildSnowmanDoubleMoney,keep it default value!
+13:36:27,156 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,156 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ChristmasBuyTimeMoney,keep it default value!
+13:36:27,157 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,157 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ChristmasMinute,keep it default value!
+13:36:27,158 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,158 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ChristmasBuyMinute,keep it default value!
+13:36:27,159 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,159 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DragonBoatByMoney,keep it default value!
+13:36:27,160 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,161 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DragonBoatByProps,keep it default value!
+13:36:27,161 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,161 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DragonBoatMaxScore,keep it default value!
+13:36:27,163 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,164 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DragonBoatMinScore,keep it default value!
+13:36:27,165 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,165 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DragonBoatAreaMinScore,keep it default value!
+13:36:27,166 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,166 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DragonBoatProp,keep it default value!
+13:36:27,167 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,167 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DragonBoatConvertHours,keep it default value!
+13:36:27,169 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,169 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property PromotePackagePrice,keep it default value!
+13:36:27,170 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,170 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsPromotePackageOpen,keep it default value!
+13:36:27,171 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,171 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SearchGoodsFreeLimit,keep it default value!
+13:36:27,172 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,173 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SearchGoodsPayMoney,keep it default value!
+13:36:27,173 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,174 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SearchGoodsFreeCount,keep it default value!
+13:36:27,175 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,175 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SearchGoodsTakeCardMoney,keep it default value!
+13:36:27,176 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,176 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MaxMissionEnergy,keep it default value!
+13:36:27,177 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,177 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property OpenMagicBoxMoney,keep it default value!
+13:36:27,178 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,180 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property FastGrowSubTime,keep it default value!
+13:36:27,181 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,181 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property FastGrowNeedMoney,keep it default value!
+13:36:27,182 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,182 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HalloweenMinNum,keep it default value!
+13:36:27,183 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,183 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HalloweenBeginDate,keep it default value!
+13:36:27,184 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,184 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HalloweenEndDate,keep it default value!
+13:36:27,185 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,185 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DanDanBuffPrice,keep it default value!
+13:36:27,186 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,186 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ArenaChallengeCD,keep it default value!
+13:36:27,188 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,188 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ArenaRankMaxNum,keep it default value!
+13:36:27,189 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,190 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ArenaChallengeMaxNum,keep it default value!
+13:36:27,191 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,191 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ArenaCleanCDMoney,keep it default value!
+13:36:27,192 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,192 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ArenaChallengeBuyNum,keep it default value!
+13:36:27,193 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,193 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ArenaChallengeBuyMoney,keep it default value!
+13:36:27,194 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,195 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ArenaRewardIntervalSecond,keep it default value!
+13:36:27,196 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,196 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ArenaRewardNumPerInterval,keep it default value!
+13:36:27,197 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,197 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property CryptBossOpenDay,keep it default value!
+13:36:27,198 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,198 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MagicRoomJuniorWeaponList,keep it default value!
+13:36:27,199 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,199 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MagicRoomMidWeaponList,keep it default value!
+13:36:27,200 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,200 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MagicRoomSeniorWeaponList,keep it default value!
+13:36:27,201 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,201 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MagicRoomJuniorAddAttribute,keep it default value!
+13:36:27,202 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,202 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MagicRoomMidAddAttribute,keep it default value!
+13:36:27,204 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,205 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MagicRoomSeniorAddAttribute,keep it default value!
+13:36:27,205 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,205 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MagicRoomBoxNeedMoney,keep it default value!
+13:36:27,207 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,207 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MagicRoomLevelUpCount,keep it default value!
+13:36:27,208 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,208 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MagicRoomOpenNeedMoney,keep it default value!
+13:36:27,209 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,209 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WorshipMoonBeginDate,keep it default value!
+13:36:27,210 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,211 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WorshipMoonEndDate,keep it default value!
+13:36:27,212 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,212 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WorshipMoonProb,keep it default value!
+13:36:27,213 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,214 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WorshipMoonReward,keep it default value!
+13:36:27,215 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,215 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WorshipMoonGift,keep it default value!
+13:36:27,216 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,216 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WorshipMoonGiftShowList,keep it default value!
+13:36:27,217 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,217 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property WorshipMoonPriceInfo,keep it default value!
+13:36:27,218 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,218 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SummerAcitveBeginTime,keep it default value!
+13:36:27,220 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,220 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SummerAcitveEndTime,keep it default value!
+13:36:27,221 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,221 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SummerAcitveGifts,keep it default value!
+13:36:27,222 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,223 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property AreaSummerAcitveTitle,keep it default value!
+13:36:27,223 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,223 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SummerAcitveTitle,keep it default value!
+13:36:27,224 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,224 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SummerAcitveConvertHours,keep it default value!
+13:36:27,225 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,227 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property SummerAcitveMonsters,keep it default value!
+13:36:27,228 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,228 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property TanabataActiveEventNum,keep it default value!
+13:36:27,229 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,230 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property TanabataActivePrice,keep it default value!
+13:36:27,230 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,231 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property TanabataActiveDestinationAWardID,keep it default value!
+13:36:27,232 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,232 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property TanabataActiveBeginTime,keep it default value!
+13:36:27,234 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,234 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property TanabataActiveEndTime,keep it default value!
+13:36:27,235 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,235 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property IsTanabataTreasure,keep it default value!
+13:36:27,236 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,236 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property TanabataTreasureLimit,keep it default value!
+13:36:27,238 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,238 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MysteryShopOpenTime,keep it default value!
+13:36:27,239 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,239 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MysteryShopFreshTime,keep it default value!
+13:36:27,240 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,241 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HorseGameBuffConfig,keep it default value!
+13:36:27,243 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,243 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HorseGamePlayerCount,keep it default value!
+13:36:27,244 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,245 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HorseGameEachDayMaxCount,keep it default value!
+13:36:27,245 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,246 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HorseGameUsePapawMoney,keep it default value!
+13:36:27,247 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,247 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HorseGameBeginTime,keep it default value!
+13:36:27,248 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,249 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HorseGameEndTime,keep it default value!
+13:36:27,250 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,250 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HorseGameCostMoneyCount,keep it default value!
+13:36:27,251 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,252 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HorseGameEachDayMaxCostCount,keep it default value!
+13:36:27,254 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,254 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property HorseGameBeginWeek,keep it default value!
+13:36:27,255 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,255 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DDPlayBeginDate,keep it default value!
+13:36:27,256 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,257 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DDPlayEndDate,keep it default value!
+13:36:27,258 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,259 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DDPlayMoney,keep it default value!
+13:36:27,260 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,260 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ExchangeFold,keep it default value!
+13:36:27,261 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,261 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property CloudBuyLotteryEndDate,keep it default value!
+13:36:27,263 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,263 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property CloudBuyLotteryExchangeScore,keep it default value!
+13:36:27,264 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,265 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property GPRate,keep it default value!
+13:36:27,265 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,267 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MoneyRateLost,keep it default value!
+13:36:27,267 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,268 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DDTMoneyRateLost,keep it default value!
+13:36:27,270 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,270 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ExpRateLost,keep it default value!
+13:36:27,271 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,273 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property MoneyRateWin,keep it default value!
+13:36:27,275 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,275 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DDTMoneyRateWin,keep it default value!
+13:36:27,276 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,276 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property ExpRateWin,keep it default value!
+13:36:27,277 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,277 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LeagueMoneyLose,keep it default value!
+13:36:27,278 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,278 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property LeagueMoneyWin,keep it default value!
+13:36:27,279 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,280 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DDTMoneyActive,keep it default value!
+13:36:27,281 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,281 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property GoldHour,keep it default value!
+13:36:27,282 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,282 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DisibleBonusMoneyHour,keep it default value!
+13:36:27,285 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,285 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property BonusBaseScore,keep it default value!
+13:36:27,286 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,286 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleMoneyActive,keep it default value!
+13:36:27,287 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,288 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleMoneyRate,keep it default value!
+13:36:27,290 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,290 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleDDTMoneyActive,keep it default value!
+13:36:27,291 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,291 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleDDTMoneyRate,keep it default value!
+13:36:27,293 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,293 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleExpActive,keep it default value!
+13:36:27,294 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,294 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property DoubleExpRate,keep it default value!
+13:36:27,295 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,296 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property VirtualName,keep it default value!
+13:36:27,296 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,298 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property RemoteEnable,keep it default value!
+13:36:27,299 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,299 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NewbieEnable,keep it default value!
+13:36:27,300 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,300 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property BeginLevel,keep it default value!
+13:36:27,301 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,301 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NeedBox1GoguAward,keep it default value!
+13:36:27,302 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,303 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NeedBox2GoguAward,keep it default value!
+13:36:27,304 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,305 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property NeedBox3GoguAward,keep it default value!
+13:36:27,306 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,306 - [MAIN] - INFO  - Bussiness.GameProperties - Cannot find server property FindMinePrice,keep it default value!
+13:36:27,307 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\ServiceBussiness.cs içinde: satýr 283
+13:36:27,308 - 13:39:38,560 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+13:39:38,698 - [MAIN] - INFO  - Center.Server.CenterServer - Recompile Scripts: True
+13:39:38,701 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+13:39:38,701 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+13:39:38,701 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+13:39:38,703 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:9203: True
+13:39:39,081 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+13:39:39,081 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+13:39:39,092 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+13:39:39,092 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+13:39:39,102 - [MAIN] - INFO  - Center.Server.CenterServer - Init ConsortiaLevelMgr: True
+13:39:39,106 - [MAIN] - INFO  - Center.Server.CenterServer - Init MacroDropMgr: True
+13:39:39,115 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+13:39:39,115 - [MAIN] - INFO  - Center.Server.CenterServer - WorldActivityMgr Init: True
+13:39:39,117 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+13:39:39,120 - [MAIN] - INFO  - Center.Server.SystemNoticeMgr - Total 10 syterm notice loaded.
+13:39:39,122 - [MAIN] - INFO  - Center.Server.CenterServer - SystemNoticeMgr Init: True
+13:39:39,123 - [MAIN] - INFO  - Center.Server.CenterServer - EventMgr Init: True
+13:39:39,123 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+13:39:39,126 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+13:39:39,126 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+13:39:39,129 - [MAIN] - INFO  - Center.Server.CenterServer - GameCrosszoneServer is now open for connections!
+13:39:39,129 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+13:40:08,264 - [8] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:7047
+13:40:39,140 - [17] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:40:39,140 - [17] - DEBUG - Center.Server.CenterServer - Scan ThreadId=17
+13:40:39,141 - [17] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:41:39,140 - [19] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:41:39,141 - [19] - DEBUG - Center.Server.CenterServer - Scan ThreadId=19
+13:41:39,141 - [19] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:41:39,141 - [20] - INFO  - Center.Server.CenterServer - System Notice ...
+13:41:39,143 - [20] - DEBUG - Center.Server.CenterServer - Save ThreadId=20
+13:41:39,143 - [20] - INFO  - Center.Server.CenterServer - System Notice complete!
+13:42:39,156 - [21] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:42:39,156 - [21] - DEBUG - Center.Server.CenterServer - Scan ThreadId=21
+13:42:39,158 - [21] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:43:39,144 - [23] - INFO  - Center.Server.CenterServer - System Notice ...
+13:43:39,144 - [23] - DEBUG - Center.Server.CenterServer - Save ThreadId=23
+13:43:39,144 - [23] - INFO  - Center.Server.CenterServer - System Notice complete!
+13:43:39,160 - [23] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:43:39,160 - [23] - DEBUG - Center.Server.CenterServer - Scan ThreadId=23
+13:43:39,161 - [23] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:44:39,172 - [27] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:44:39,173 - [27] - DEBUG - Center.Server.CenterServer - Scan ThreadId=27
+13:44:39,173 - [27] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:45:39,163 - [30] - INFO  - Center.Server.CenterServer - System Notice ...
+13:45:39,163 - [30] - DEBUG - Center.Server.CenterServer - Save ThreadId=30
+13:45:39,163 - [30] - INFO  - Center.Server.CenterServer - System Notice complete!
+13:45:39,178 - [30] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:45:39,178 - [30] - DEBUG - Center.Server.CenterServer - Scan ThreadId=30
+13:45:39,178 - [30] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:46:39,184 - [31] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:46:39,184 - [31] - DEBUG - Center.Server.CenterServer - Scan ThreadId=31
+13:46:39,184 - [31] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:47:39,168 - [36] - INFO  - Center.Server.CenterServer - System Notice ...
+13:47:39,169 - [36] - DEBUG - Center.Server.CenterServer - Save ThreadId=36
+13:47:39,169 - [36] - INFO  - Center.Server.CenterServer - System Notice complete!
+13:47:39,199 - [36] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:47:39,199 - [36] - DEBUG - Center.Server.CenterServer - Scan ThreadId=36
+13:47:39,200 - [36] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:48:39,208 - [40] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:48:39,208 - [40] - DEBUG - Center.Server.CenterServer - Scan ThreadId=40
+13:48:39,209 - [40] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:49:39,180 - [43] - INFO  - Center.Server.CenterServer - System Notice ...
+13:49:39,180 - [43] - DEBUG - Center.Server.CenterServer - Save ThreadId=43
+13:49:39,181 - [43] - INFO  - Center.Server.CenterServer - System Notice complete!
+13:49:39,211 - [43] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:49:39,211 - [43] - DEBUG - Center.Server.CenterServer - Scan ThreadId=43
+13:49:39,211 - [43] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:50:39,223 - [46] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:50:39,224 - [46] - DEBUG - Center.Server.CenterServer - Scan ThreadId=46
+13:50:39,224 - [46] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:51:39,191 - [49] - INFO  - Center.Server.CenterServer - System Notice ...
+13:51:39,191 - [49] - DEBUG - Center.Server.CenterServer - Save ThreadId=49
+13:51:39,192 - [49] - INFO  - Center.Server.CenterServer - System Notice complete!
+13:51:39,223 - [49] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:51:39,223 - [49] - DEBUG - Center.Server.CenterServer - Scan ThreadId=49
+13:51:39,224 - [49] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:52:39,232 - [53] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:52:39,232 - [53] - DEBUG - Center.Server.CenterServer - Scan ThreadId=53
+13:52:39,233 - [53] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:53:39,202 - [56] - INFO  - Center.Server.CenterServer - System Notice ...
+13:53:39,202 - [56] - DEBUG - Center.Server.CenterServer - Save ThreadId=56
+13:53:39,202 - [56] - INFO  - Center.Server.CenterServer - System Notice complete!
+13:53:39,235 - [56] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+13:53:39,235 - [56] - DEBUG - Center.Server.CenterServer - Scan ThreadId=56
+13:53:39,235 - [56] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+13:54:23,046 - [50] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:7047), received bytes=0
+13:54:28,944 - [MAIN] - DEBUG - Game.Base.BaseServer - Stopping server! - Entering method
+13:54:28,944 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is no longer listening for incoming connections!
+13:54:28,944 - [MAIN] - DEBUG - Game.Base.BaseServer - Stopping server! - Cleaning up client list!
+13:54:28,946 - [MAIN] - DEBUG - Game.Base.BaseServer - Stopping server! - End of method!
+13:54:28,944 - [62] - INFO  - Game.Base.BaseServer - Incoming connection from socket disconnected
+14:56:16,319 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+14:56:16,438 - [MAIN] - INFO  - Center.Server.CenterServer - Recompile Scripts: True
+14:56:16,441 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+14:56:16,442 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+14:56:16,442 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+14:56:16,443 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:9203: True
+14:56:16,823 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+14:56:16,824 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+14:56:16,834 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+14:56:16,836 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+14:56:16,847 - [MAIN] - INFO  - Center.Server.CenterServer - Init ConsortiaLevelMgr: True
+14:56:16,850 - [MAIN] - INFO  - Center.Server.CenterServer - Init MacroDropMgr: True
+14:56:16,858 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+14:56:16,859 - [MAIN] - INFO  - Center.Server.CenterServer - WorldActivityMgr Init: True
+14:56:16,861 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+14:56:16,864 - [MAIN] - INFO  - Center.Server.SystemNoticeMgr - Total 10 syterm notice loaded.
+14:56:16,866 - [MAIN] - INFO  - Center.Server.CenterServer - SystemNoticeMgr Init: True
+14:56:16,866 - [MAIN] - INFO  - Center.Server.CenterServer - EventMgr Init: True
+14:56:16,866 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+14:56:16,868 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+14:56:16,868 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+14:56:16,871 - [MAIN] - INFO  - Center.Server.CenterServer - GameCrosszoneServer is now open for connections!
+14:56:16,871 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+14:56:33,798 - [15] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:65510
+14:57:16,871 - [4] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+14:57:16,873 - [4] - DEBUG - Center.Server.CenterServer - Scan ThreadId=4
+14:57:16,873 - [4] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+14:58:16,869 - [20] - INFO  - Center.Server.CenterServer - System Notice ...
+14:58:16,870 - [20] - DEBUG - Center.Server.CenterServer - Save ThreadId=20
+14:58:16,871 - [20] - INFO  - Center.Server.CenterServer - System Notice complete!
+14:58:16,884 - [20] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+14:58:16,884 - [20] - DEBUG - Center.Server.CenterServer - Scan ThreadId=20
+14:58:16,884 - [20] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+14:59:16,891 - [23] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+14:59:16,891 - [23] - DEBUG - Center.Server.CenterServer - Scan ThreadId=23
+14:59:16,891 - [23] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:00:16,883 - [26] - INFO  - Center.Server.CenterServer - System Notice ...
+15:00:16,883 - [26] - DEBUG - Center.Server.CenterServer - Save ThreadId=26
+15:00:16,884 - [26] - INFO  - Center.Server.CenterServer - System Notice complete!
+15:00:16,898 - [26] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:00:16,898 - [26] - DEBUG - Center.Server.CenterServer - Scan ThreadId=26
+15:00:16,899 - [26] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:01:16,908 - [30] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:01:16,908 - [30] - DEBUG - Center.Server.CenterServer - Scan ThreadId=30
+15:01:16,908 - [30] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:02:16,884 - [33] - INFO  - Center.Server.CenterServer - System Notice ...
+15:02:16,884 - [33] - DEBUG - Center.Server.CenterServer - Save ThreadId=33
+15:02:16,885 - [33] - INFO  - Center.Server.CenterServer - System Notice complete!
+15:02:16,915 - [33] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:02:16,915 - [33] - DEBUG - Center.Server.CenterServer - Scan ThreadId=33
+15:02:16,916 - [33] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:03:16,917 - [34] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:03:16,918 - [34] - DEBUG - Center.Server.CenterServer - Scan ThreadId=34
+15:03:16,918 - [34] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:04:16,898 - [38] - INFO  - Center.Server.CenterServer - System Notice ...
+15:04:16,898 - [38] - DEBUG - Center.Server.CenterServer - Save ThreadId=38
+15:04:16,899 - [38] - INFO  - Center.Server.CenterServer - System Notice complete!
+15:04:16,944 - [38] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:04:16,944 - [38] - DEBUG - Center.Server.CenterServer - Scan ThreadId=38
+15:04:16,945 - [38] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:05:16,955 - [42] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:05:16,956 - [42] - DEBUG - Center.Server.CenterServer - Scan ThreadId=42
+15:05:16,956 - [42] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:06:16,902 - [45] - INFO  - Center.Server.CenterServer - System Notice ...
+15:06:16,902 - [45] - DEBUG - Center.Server.CenterServer - Save ThreadId=45
+15:06:16,903 - [45] - INFO  - Center.Server.CenterServer - System Notice complete!
+15:06:16,964 - [45] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:06:16,964 - [45] - DEBUG - Center.Server.CenterServer - Scan ThreadId=45
+15:06:16,964 - [45] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:07:16,991 - [48] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:07:16,992 - [48] - DEBUG - Center.Server.CenterServer - Scan ThreadId=48
+15:07:16,992 - [48] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:08:16,916 - [51] - INFO  - Center.Server.CenterServer - System Notice ...
+15:08:16,916 - [51] - DEBUG - Center.Server.CenterServer - Save ThreadId=51
+15:08:16,917 - [51] - INFO  - Center.Server.CenterServer - System Notice complete!
+15:08:16,994 - [51] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:08:16,994 - [51] - DEBUG - Center.Server.CenterServer - Scan ThreadId=51
+15:08:16,995 - [51] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:09:17,005 - [55] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:09:17,005 - [55] - DEBUG - Center.Server.CenterServer - Scan ThreadId=55
+15:09:17,005 - [55] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:10:16,924 - [58] - INFO  - Center.Server.CenterServer - System Notice ...
+15:10:16,924 - [58] - DEBUG - Center.Server.CenterServer - Save ThreadId=58
+15:10:16,926 - [58] - INFO  - Center.Server.CenterServer - System Notice complete!
+15:10:17,018 - [58] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:10:17,019 - [58] - DEBUG - Center.Server.CenterServer - Scan ThreadId=58
+15:10:17,019 - [58] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:11:17,027 - [61] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:11:17,028 - [61] - DEBUG - Center.Server.CenterServer - Scan ThreadId=61
+15:11:17,028 - [61] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:12:16,933 - [64] - INFO  - Center.Server.CenterServer - System Notice ...
+15:12:16,934 - [64] - DEBUG - Center.Server.CenterServer - Save ThreadId=64
+15:12:16,935 - [64] - INFO  - Center.Server.CenterServer - System Notice complete!
+15:12:17,028 - [64] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:12:17,029 - [64] - DEBUG - Center.Server.CenterServer - Scan ThreadId=64
+15:12:17,030 - [64] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+15:13:17,032 - [67] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+15:13:17,032 - [67] - DEBUG - Center.Server.CenterServer - Scan ThreadId=67
+15:13:17,033 - [67] - INFO  - Center.Server.CenterServer -19:09:25,780 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+19:09:25,987 - [MAIN] - INFO  - Center.Server.CenterServer - Recompile Scripts: True
+19:09:25,990 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+19:09:25,990 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+19:09:25,990 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+19:09:25,991 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:9203: True
+19:09:26,398 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+19:09:26,399 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+19:09:26,408 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+19:09:26,409 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+19:09:26,419 - [MAIN] - INFO  - Center.Server.CenterServer - Init ConsortiaLevelMgr: True
+19:09:26,431 - [MAIN] - INFO  - Center.Server.CenterServer - Init MacroDropMgr: True
+19:09:26,439 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+19:09:26,439 - [MAIN] - INFO  - Center.Server.CenterServer - WorldActivityMgr Init: True
+19:09:26,455 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+19:09:26,474 - [MAIN] - INFO  - Center.Server.SystemNoticeMgr - Total 10 syterm notice loaded.
+19:09:26,476 - [MAIN] - INFO  - Center.Server.CenterServer - SystemNoticeMgr Init: True
+19:09:26,476 - [MAIN] - INFO  - Center.Server.CenterServer - EventMgr Init: True
+19:09:26,477 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+19:09:26,479 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+19:09:26,479 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+19:09:26,481 - [MAIN] - INFO  - Center.Server.CenterServer - GameCrosszoneServer is now open for connections!
+19:09:26,481 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+19:09:53,629 - [15] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:39487
+19:10:26,478 - [18] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+19:10:26,479 - [18] - DEBUG - Center.Server.CenterServer - Scan ThreadId=18
+19:10:26,479 - [18] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+19:11:26,482 - [20] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+19:11:26,483 - [20] - DEBUG - Center.Server.CenterServer - Scan ThreadId=20
+19:11:26,483 - [20] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+19:11:26,483 - [21] - INFO  - Center.Server.CenterServer - System Notice ...
+19:11:26,484 - [21] - DEBUG - Center.Server.CenterServer - Save ThreadId=21
+19:11:26,485 - [21] - INFO  - Center.Server.CenterServer - System Notice complete!
+19:12:26,490 - [23] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+19:12:26,491 - [23] - DEBUG - Center.Server.CenterServer - Scan ThreadId=23
+19:12:26,491 - [23] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+19:13:26,494 - [25] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+19:13:26,494 - [25] - DEBUG - Center.Server.CenterServer - Scan ThreadId=25
+19:13:26,496 - [25] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+19:13:26,494 - [26] - INFO  - Center.Server.CenterServer - System Notice ...
+19:13:26,497 - [26] - DEBUG - Center.Server.CenterServer - Save ThreadId=26
+19:13:26,497 - [26] - INFO  - Center.Server.CenterServer - System Notice complete!
+19:14:26,494 - [30] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+19:14:26,494 - [30] - DEBUG - Center.Server.CenterServer - Scan ThreadId=30
+19:14:26,495 - [30] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+19:15:26,507 - [33] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+19:15:26,508 - [33] - DEBUG - Center.Server.CenterServer - Scan ThreadId=33
+19:15:26,508 - [33] - INFO  - Center.Server.CenterServer - Scan WorldEvent c21:48:30,630 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+21:48:30,820 - [MAIN] - INFO  - Center.Server.CenterServer - Recompile Scripts: True
+21:48:30,823 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+21:48:30,823 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+21:48:30,823 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+21:48:30,825 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:9203: True
+21:48:31,199 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+21:48:31,199 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+21:48:31,210 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+21:48:31,211 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+21:48:31,222 - [MAIN] - INFO  - Center.Server.CenterServer - Init ConsortiaLevelMgr: True
+21:48:31,226 - [MAIN] - INFO  - Center.Server.CenterServer - Init MacroDropMgr: True
+21:48:31,234 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+21:48:31,234 - [MAIN] - INFO  - Center.Server.CenterServer - WorldActivityMgr Init: True
+21:48:31,236 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+21:48:31,240 - [MAIN] - INFO  - Center.Server.SystemNoticeMgr - Total 10 syterm notice loaded.
+21:48:31,241 - [MAIN] - INFO  - Center.Server.CenterServer - SystemNoticeMgr Init: True
+21:48:31,241 - [MAIN] - INFO  - Center.Server.CenterServer - EventMgr Init: True
+21:48:31,241 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+21:48:31,243 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+21:48:31,243 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+21:48:31,247 - [MAIN] - INFO  - Center.Server.CenterServer - GameCrosszoneServer is now open for connections!
+21:48:31,247 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+21:48:50,804 - [12] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:46117
+21:49:31,247 - [18] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:49:31,247 - [18] - DEBUG - Center.Server.CenterServer - Scan ThreadId=18
+21:49:31,247 - [18] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:49:33,263 - [17] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:46117), received bytes=0
+21:50:31,247 - [20] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:50:31,248 - [20] - DEBUG - Center.Server.CenterServer - Scan ThreadId=20
+21:50:31,249 - [20] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:50:31,249 - [22] - INFO  - Center.Server.CenterServer - System Notice ...
+21:50:31,249 - [22] - DEBUG - Center.Server.CenterServer - Save ThreadId=22
+21:50:31,250 - [22] - INFO  - Center.Server.CenterServer - System Notice complete!
+21:51:31,261 - [23] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:51:31,263 - [23] - DEBUG - Center.Server.CenterServer - Scan ThreadId=23
+21:51:31,264 - [23] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:52:31,253 - [25] - INFO  - Center.Server.CenterServer - System Notice ...
+21:52:31,253 - [25] - DEBUG - Center.Server.CenterServer - Save ThreadId=25
+21:52:31,254 - [25] - INFO  - Center.Server.CenterServer - System Notice complete!
+21:52:31,268 - [25] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:52:31,268 - [25] - DEBUG - Center.Server.CenterServer - Scan ThreadId=25
+21:52:31,270 - [25] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:53:31,273 - [28] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:53:31,273 - [28] - DEBUG - Center.Server.CenterServer - Scan ThreadId=28
+21:53:31,273 - [28] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:54:31,257 - [31] - INFO  - Center.Server.CenterServer - System Notice ...
+21:54:31,257 - [31] - DEBUG - Center.Server.C

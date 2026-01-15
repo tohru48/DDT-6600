@@ -1,0 +1,241 @@
+20:51:49,995 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+20:51:52,355 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+20:51:52,542 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+20:51:52,683 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+20:51:52,683 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+20:51:52,683 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+20:51:52,683 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+20:51:52,901 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1317 is not exist!
+20:51:52,917 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1294 is not exist!
+20:51:52,917 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1293 is not exist!
+20:51:53,011 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+20:51:53,276 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+20:51:53,276 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+20:51:53,386 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+20:51:53,448 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+20:51:53,589 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+20:51:53,620 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+20:51:53,683 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+20:51:53,761 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+20:51:53,776 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+20:51:53,808 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+20:51:53,823 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+20:51:53,839 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 17 spell handlers from GameServer Assembly!
+20:51:53,855 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+20:51:53,917 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+20:52:01,058 - [6] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:50783
+20:52:01,714 - [6] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:50786
+21:45:19,183 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - RoomMgr execute action error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartWithNpcUnsafe(ProxyRoom room) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 417
+   em Fighting.Server.Rooms.AddRoomAction.Execute() na h:\dandantang\source\Fighting.Server\Rooms\AddRoomAction.cs:linha 23
+   em Fighting.Server.Rooms.ProxyRoomMgr.jDfoMvPq9m() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 150
+21:45:53,573 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:46:03,558 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:46:13,589 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:46:23,573 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:46:33,558 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:46:43,589 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:46:53,573 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:47:03,558 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:47:13,542 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:47:23,573 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:47:33,558 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:47:43,542 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:47:53,573 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:48:03,558 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:48:13,542 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:48:23,573 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:48:33,558 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:48:43,540 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:48:53,527 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:49:03,562 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:49:13,558 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:49:23,542 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:49:33,537 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:49:43,542 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:49:53,527 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:50:03,558 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:50:13,542 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:50:23,527 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:50:33,511 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:50:43,527 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:50:53,511 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:51:03,542 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:51:13,526 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:51:23,511 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.GetMapIndex(Int32 index, Byte type, Int32 serverId) na h:\dandantang\source\Game.Logic\MapMgr.cs:linha 249
+   em Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 380
+   em Fighting.Server.Rooms.ProxyRoomMgr.MKhowDt3jN(Int64  ) na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 298
+   em Fighting.Server.Rooms.ProxyRoomMgr.H85o8LE73P() na h:\dandantang\source\Fighting.Server\Rooms\ProxyRoomMgr.cs:linha 95
+21:51:33,542 - [7] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.MapMgr.

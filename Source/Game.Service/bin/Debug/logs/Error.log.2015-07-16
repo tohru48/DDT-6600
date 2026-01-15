@@ -1,0 +1,3 @@
+18:59:13,813 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+18:59:13,813 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+18:59:14,876 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb

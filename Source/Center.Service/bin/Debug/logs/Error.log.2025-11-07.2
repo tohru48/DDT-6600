@@ -1,0 +1,16 @@
+09:10:23,395 - [MAIN] - ERROR - Center.Server.CenterService - Start center server failed:System.ServiceModel.AddressAccessDeniedException: HTTP, http://+:2008/CenterService/ URL kaydýný yapamadý. Ýþleminizin bu ad alanýna eriþim izni yok (ayrýntýlar için bkz. http://go.microsoft.com/fwlink/?LinkId=70353 ). ---> System.Net.HttpListenerException: Eriþim engellendi
+   konum: System.Net.HttpListener.AddAllPrefixes()
+   konum: System.Net.HttpListener.Start()
+   konum: System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   konum: System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   konum: System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   konum: System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   konum: System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   konum: System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   konum: System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   konum: System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   konum: System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   konum: System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   konum: Center.Server.CenterService.Start() D:\DDTANK\Dosyalar\DDtank_6.5\Source\Center.Server\Center.Server\CenterService.cs içinde: satýr 246

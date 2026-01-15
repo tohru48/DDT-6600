@@ -1,0 +1,11 @@
+05:16:10,136 - [MAIN] - ERROR - Center.Server.SystemNoticeMgr - BattleMgr setup error:
+System.Xml.XmlException: 'href' é um símbolo inesperado. O símbolo esperado é '='. Linha 7, posição 23.
+   em System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   em System.Xml.XmlTextReaderImpl.ParseAttributes()
+   em System.Xml.XmlTextReaderImpl.ParseElement()
+   em System.Xml.XmlTextReaderImpl.ParseElementContent()
+   em System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   em System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   em System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   em System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   em Center.Server.SystemNoticeMgr.LoadNotice(String path) na h:\dandantang\source\Center.Crosszone.Server\SystemNoticeMgr.cs:linha 48

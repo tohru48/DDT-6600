@@ -1,0 +1,14 @@
+20:06:47,719 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+20:06:47,719 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+20:06:48,719 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb
+20:09:07,329 - [19] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SceneChatHandler  client: 201.7.19.160:3401)
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Game.Server.Packets.Client.SceneChatHandler.verificarAdm(String nick)
+   em Game.Server.Packets.Client.SceneChatHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+20:09:07,344 - [19] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 38 0C 39 00 13 00 00 29 2A 00 00 00 00   q..8.9....)*....
+0010: 00 00 00 00 05 00 00 0A 4A 75 6C 69 6F 43 65 7A   ........JulioCez
+0020: 61 72 00 14 40 40 3B 61 6C 6C 3B 20 6F 69 69 69   ar..@@;all; oiii
+0030: 69 69 69 69 69 69 69 69                           iiiiiiii        
+

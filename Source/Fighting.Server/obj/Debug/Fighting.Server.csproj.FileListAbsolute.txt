@@ -1,0 +1,17 @@
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\bin\Debug\Fighting.Server.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\bin\Debug\Fighting.Server.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\bin\Debug\Bussiness.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\bin\Debug\Game.Base.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\bin\Debug\Game.Logic.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\bin\Debug\log4net.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\bin\Debug\SqlDataProvider.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\bin\Debug\zlib.net.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\bin\Debug\Bussiness.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\bin\Debug\Game.Base.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\bin\Debug\Game.Logic.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\bin\Debug\SqlDataProvider.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\obj\Debug\Fighting.Server.csproj.AssemblyReference.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\obj\Debug\Fighting.Server.csproj.CoreCompileInputs.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\obj\Debug\Fighting.AE85E515.Up2Date
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\obj\Debug\Fighting.Server.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Fighting.Server\obj\Debug\Fighting.Server.pdb

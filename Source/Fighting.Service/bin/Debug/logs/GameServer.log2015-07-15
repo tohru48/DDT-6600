@@ -1,0 +1,44 @@
+14:02:09,454 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+14:02:09,829 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+14:02:11,532 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+14:02:11,563 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+14:02:11,563 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+14:02:11,563 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+14:02:11,563 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+14:02:11,782 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+14:02:11,782 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+14:02:11,876 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+14:02:12,079 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+14:02:12,094 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+14:02:12,126 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+14:02:12,141 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+14:02:12,173 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb
+14:02:12,251 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+14:02:12,251 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+14:02:12,329 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+14:02:12,344 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+14:02:12,376 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+14:02:12,376 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+14:02:12,391 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+14:02:12,391 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+14:02:12,391 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+14:02:12,438 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+14:02:16,157 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:54325
+14:02:33,298 - [3] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+14:03:26,672 - [8] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:54328
+14:03:26,860 - [8] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:54331
+17:14:39,580 - [33] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+17:14:39,580 - [63] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+17:15:21,313 - [63] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:54407
+17:15:21,547 - [63] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:54410
+17:32:52,594 - [63] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+17:32:52,594 - [57] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+17:33:16,282 - [57] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:54418
+17:33:16,516 - [57] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:54421
+17:42:11,641 - [54] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+17:42:11,641 - [14] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+17:42:56,219 - [45] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:54427
+17:42:56,423 - [45] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:54430
+17:49:16,344 - [45] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+17:49:16,344 - [84] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+17:49:58,876 - [84] - INFO  - Game.Base.Ba

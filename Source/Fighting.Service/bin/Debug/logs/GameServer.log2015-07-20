@@ -1,0 +1,54 @@
+19:59:27,376 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+19:59:27,969 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+19:59:29,079 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+19:59:29,532 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+19:59:29,532 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+19:59:29,532 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+19:59:29,532 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+19:59:30,360 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+19:59:30,394 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+19:59:30,610 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+19:59:31,657 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+19:59:31,688 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+19:59:31,797 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+19:59:31,907 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+19:59:31,985 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb
+19:59:32,079 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+19:59:32,094 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+19:59:32,485 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+19:59:33,266 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+19:59:33,344 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+19:59:33,391 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+19:59:33,407 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+19:59:33,422 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+19:59:33,422 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+19:59:33,516 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+19:59:37,157 - [6] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:58846
+19:59:37,438 - [6] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:58849
+20:56:18,548 - [9] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+21:34:21,110 - [9] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+22:01:49,782 - [9] - ERROR - Game.Logic.BaseGame - Map update error:
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fighting.Server.ServerClient.SendPlayerConsortiaFight(Int32 playerId, Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth)
+   em Fighting.Server.GameObjects.ProxyPlayer.ConsortiaFight(Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth, Int32 count)
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+22:31:34,407 - [9] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)

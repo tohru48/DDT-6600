@@ -1,0 +1,97 @@
+21:05:18,915 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+21:05:18,958 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+21:05:18,959 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+21:05:18,992 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+21:05:18,994 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+21:05:18,994 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+21:05:18,996 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+21:05:19,059 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+21:05:19,063 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+21:05:19,072 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+21:05:20,180 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+21:05:20,181 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+21:05:23,152 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+21:05:23,221 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+21:05:23,336 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+21:05:23,340 - [MAIN] - INFO  - Game.Server.GameServer - AccumulActiveLoginMgr Init: True
+21:05:25,174 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+21:05:25,178 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+21:05:25,180 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+21:05:25,184 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+21:05:25,187 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+21:05:25,190 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+21:05:25,197 - [MAIN] - INFO  - Game.Server.GameServer - ActivityQuestMgr Init: True
+21:05:25,201 - [MAIN] - INFO  - Game.Server.GameServer - ActivityHalloweenItemsMgr Init: True
+21:05:25,204 - [MAIN] - INFO  - Game.Server.GameServer - ChargeSpendRewardTemplateMgr Init: True
+21:05:25,243 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+21:05:25,247 - [MAIN] - INFO  - Game.Server.GameServer - LotteryShowTemplateMgr Init: True
+21:05:25,251 - [MAIN] - INFO  - Game.Server.GameServer - TreeTemplateMgr Init: True
+21:05:25,256 - [MAIN] - INFO  - Game.Server.GameServer - NewTitleMgr Init: True
+21:05:25,259 - [MAIN] - INFO  - Game.Server.GameServer - PetMoePropertyMgr Init: True
+21:05:25,261 - [MAIN] - INFO  - Game.Server.GameServer - RankTemplateMgr Init: True
+21:05:25,265 - [MAIN] - INFO  - Game.Server.GameServer - DailyLeagueAwardMgr Init: True
+21:05:25,270 - [MAIN] - INFO  - Game.Server.GameServer - SearchGoodsMgr Init: True
+21:05:25,273 - [MAIN] - INFO  - Game.Server.GameServer - SuitMgr Init: True
+21:05:25,277 - [MAIN] - INFO  - Game.Server.GameServer - DiceGameAwardMgr Init: True
+21:05:25,284 - [MAIN] - INFO  - Game.Server.GameServer - EveryDayActiveMgr Init: True
+21:05:25,317 - [MAIN] - INFO  - Game.Server.GameServer - GmActivityMgr Init: True
+21:05:25,320 - [MAIN] - INFO  - Game.Server.GameServer - FightLabDropItemMgr Init: True
+21:05:25,322 - [MAIN] - INFO  - Game.Server.GameServer - HelpGameRewardMgr Init: True
+21:05:25,326 - [MAIN] - INFO  - Game.Server.GameServer - MagicItemTemplateMgr Init: True
+21:05:25,328 - [MAIN] - INFO  - Game.Server.GameServer - AllQuestionsMgr Init: True
+21:05:25,331 - [MAIN] - INFO  - Game.Server.GameServer - ChargeActiveTemplateMgr Init: True
+21:05:25,340 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+21:05:25,345 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+21:05:25,347 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+21:05:25,355 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+21:05:25,385 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+21:05:25,392 - [MAIN] - INFO  - Game.Server.GameServer - AvatarColectionMgr Init: True
+21:05:25,394 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+21:05:25,399 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+21:05:25,409 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+21:05:25,411 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+21:05:25,500 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+21:05:25,594 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+21:05:25,648 - [MAIN] - INFO  - Game.Server.GameServer - ActiveMgr Init: True
+21:05:25,652 - [MAIN] - INFO  - Game.Server.GameServer - GypsyShopMgr Init: True
+21:05:25,660 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+21:05:25,665 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+21:05:25,668 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+21:05:25,689 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+21:05:25,699 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+21:05:25,715 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+21:05:25,719 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+21:05:25,724 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+21:05:25,730 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+21:05:25,733 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+21:05:25,739 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+21:05:25,743 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+21:05:25,749 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneMgr Init: True
+21:05:25,753 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+21:05:25,754 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+21:05:25,760 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+21:05:26,584 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+21:05:26,593 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr Setup: True
+21:05:26,597 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr Init: True
+21:05:26,603 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr Init: True
+21:05:26,607 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr Init: True
+21:05:26,616 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr Setup: True
+21:05:26,620 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelMgr Setup: True
+21:05:26,626 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr Setup: True
+21:05:26,633 - [MAIN] - INFO  - Game.Server.GameServer - TreasurePuzzledMgr Setup: True
+21:05:26,641 - [MAIN] - INFO  - Game.Server.GameServer - MountMgr Init: True
+21:05:26,644 - [MAIN] - INFO  - Game.Server.GameServer - CloudBuyLotteryMgr Setup: True
+21:05:26,660 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr Setup: True
+21:05:26,676 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+21:05:26,680 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+21:05:26,680 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+21:05:26,694 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 127.0.0.1:9208 loaded...
+21:05:26,697 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+21:05:26,698 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr Setup: True
+21:05:26,701 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9208
+21:05:26,730 - [MAIN] - INFO  - Game.Server.GameServer - RingStation Int: True
+21:05:26,731 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+21:05:26,731 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Setup: True
+21:05:26,740 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 172 handlers from GameServer Assembly!
+21:05:26,744 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+21:05:26,747 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9802

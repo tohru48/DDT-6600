@@ -1,0 +1,3 @@
+05:25:51,444 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+05:25:51,445 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+05:25:51,804 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb

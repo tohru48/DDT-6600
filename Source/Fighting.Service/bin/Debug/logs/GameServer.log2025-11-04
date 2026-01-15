@@ -1,0 +1,98 @@
+02:47:58,568 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+02:47:58,724 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+02:47:59,077 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+02:47:59,095 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+02:47:59,095 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+02:47:59,097 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+02:47:59,097 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+02:48:00,292 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+02:48:00,293 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+02:48:03,685 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+02:48:03,761 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+02:48:03,767 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+02:48:03,799 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+02:48:03,811 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+02:48:03,843 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb
+02:48:05,462 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+02:48:05,466 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+02:48:05,494 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+02:48:05,512 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+02:48:05,586 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+02:48:05,592 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+02:48:05,608 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+02:48:05,611 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+02:48:05,614 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+02:48:05,618 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+02:49:37,659 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:10779
+02:49:37,716 - [11] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:10782
+02:53:59,751 - [19] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+02:53:59,751 - [11] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+02:54:47,999 - [19] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:53075
+02:54:48,075 - [19] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:53078
+03:58:33,767 - [105] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+03:58:33,767 - [115] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+03:58:42,891 - [115] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:52579
+03:58:42,948 - [105] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:52582
+04:58:20,143 - [37] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+04:58:20,143 - [18] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+04:58:20,425 - [18] - INFO  - Game.Base.BaseServer - Incoming connection from socket disconnected
+04:59:23,832 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+04:59:23,931 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+04:59:24,127 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+04:59:24,142 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+04:59:24,143 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+04:59:24,143 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+04:59:24,144 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+04:59:24,177 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+04:59:24,179 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+04:59:24,256 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+04:59:24,334 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+04:59:24,342 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+04:59:24,380 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+04:59:24,395 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+04:59:24,406 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb
+04:59:24,537 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+04:59:24,542 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+04:59:24,574 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+04:59:24,589 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+04:59:24,618 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+04:59:24,623 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+04:59:24,626 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+04:59:24,636 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+04:59:24,637 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+04:59:24,640 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+04:59:31,086 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:2535
+04:59:31,175 - [10] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:2538
+05:22:02,605 - [10] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+05:22:02,605 - [50] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+05:22:02,900 - [50] - INFO  - Game.Base.BaseServer - Incoming connection from socket disconnected
+05:22:24,633 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+05:22:24,831 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+05:22:25,123 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+05:22:25,140 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+05:22:25,140 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+05:22:25,142 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+05:22:25,142 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+05:22:26,578 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+05:22:26,579 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+05:22:30,596 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+05:22:30,675 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+05:22:30,683 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+05:22:30,711 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+05:22:30,725 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+05:22:30,755 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb
+05:22:32,527 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+05:22:32,530 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+05:22:32,572 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+05:22:32,586 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+05:22:32,655 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+05:22:32,660 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+05:22:32,677 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+05:22:32,681 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+05:22:32,683 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+05:22:32,687 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+05:23:06,013 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:11363
+05:23:06,064 - [10] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:11366
+05:28:07,881 - [10] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+05:28:09,521 - [10] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+05:28:09,956 - [10] - INFO  - Game.Base.BaseServer - Incoming connection from socket disconnected

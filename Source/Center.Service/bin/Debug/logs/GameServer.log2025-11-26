@@ -1,0 +1,49 @@
+21:05:00,304 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+21:05:00,380 - [MAIN] - INFO  - Center.Server.CenterServer - Recompile Scripts: True
+21:05:00,382 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+21:05:00,384 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+21:05:00,384 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+21:05:00,385 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:9802: True
+21:05:00,767 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+21:05:00,767 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+21:05:00,769 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+21:05:00,769 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+21:05:00,772 - [MAIN] - INFO  - Center.Server.CenterServer - Init ConsortiaLevelMgr: True
+21:05:00,776 - [MAIN] - INFO  - Center.Server.CenterServer - Init MacroDropMgr: True
+21:05:00,778 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+21:05:00,791 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+21:05:00,798 - [MAIN] - INFO  - Center.Server.CenterServer - WorldMgr Init: True
+21:05:00,798 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+21:05:00,801 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+21:05:00,801 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+21:05:00,803 - [MAIN] - INFO  - Center.Server.CenterServer - GameServer is now open for connections!
+21:05:00,804 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+21:05:26,750 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:43376
+21:06:00,805 - [25] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:06:00,807 - [29] - INFO  - Center.Server.CenterServer - Saving database...
+21:06:00,807 - [29] - DEBUG - Center.Server.CenterServer - Save ThreadId=29
+21:06:00,807 - [23] - INFO  - Center.Server.CenterServer - Saving Record...
+21:06:00,807 - [23] - DEBUG - Center.Server.CenterServer - Save ThreadId=23
+21:06:00,805 - [26] - INFO  - Center.Server.CenterServer - Saving Record...
+21:06:00,805 - [24] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+21:06:00,807 - [25] - DEBUG - Center.Server.CenterServer - Scan ThreadId=25
+21:06:00,808 - [24] - DEBUG - Center.Server.CenterServer - Scan ThreadId=24
+21:06:00,807 - [26] - DEBUG - Center.Server.CenterServer - Save ThreadId=26
+21:06:00,809 - [24] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+21:06:00,810 - [25] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:06:00,810 - [26] - INFO  - Center.Server.CenterServer - Saving Record complete!
+21:06:00,811 - [29] - INFO  - Center.Server.CenterServer - Saving database complete!
+21:06:00,812 - [29] - INFO  - Center.Server.CenterServer - Saved all databases 15ms
+21:06:00,817 - [23] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+21:07:00,817 - [27] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+21:07:00,817 - [27] - DEBUG - Center.Server.CenterServer - Scan ThreadId=27
+21:07:00,818 - [27] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+21:07:00,817 - [32] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:07:00,818 - [32] - DEBUG - Center.Server.CenterServer - Scan ThreadId=32
+21:07:00,817 - [30] - INFO  - Center.Server.CenterServer - Saving Record...
+21:07:00,818 - [30] - DEBUG - Center.Server.CenterServer - Save ThreadId=30
+21:07:00,818 - [32] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:07:00,817 - [31] - INFO  - Center.Server.CenterServer - Saving Record...
+21:07:00,819 - [31] - DEBUG - Center.Server.CenterServer - Save ThreadId=31
+21:07:00,819 - [31] - INFO  - Center.Server.CenterServer - Saving Record complete!
+21:07:00,817 - [22] - INFO  - Center.

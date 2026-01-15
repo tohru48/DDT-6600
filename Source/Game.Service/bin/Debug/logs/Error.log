@@ -1,0 +1,6 @@
+14:23:36,799 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+14:23:36,801 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+14:25:46,957 - [34] - ERROR - Game.Server.GameServer - Center Cross Server Disconnect!
+14:25:46,959 - [34] - ERROR - Game.Server.GameServer - Start Reconect Center Cross Server again after 5 second
+14:25:47,689 - [33] - ERROR - Game.Server.GameServer - Center Server Disconnect! Stopping Server
+14:25:47,689 - [33] - ERROR - Game.Server.GameServer - Start the game server again after 1 second,and left try times:3

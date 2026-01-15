@@ -1,0 +1,33 @@
+05:48:50,251 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+05:48:50,548 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+05:48:50,891 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+05:48:50,970 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+05:48:50,970 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+05:48:50,970 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+05:48:50,970 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+05:48:51,157 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+05:48:51,157 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+05:48:51,297 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+05:48:51,626 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+05:48:51,641 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+05:48:51,719 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+05:48:51,751 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+05:48:51,798 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb
+05:48:52,001 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+05:48:52,016 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+05:48:52,188 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+05:48:52,235 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+05:48:52,282 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+05:48:52,282 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+05:48:52,298 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+05:48:52,329 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+05:48:52,329 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+05:48:52,360 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+05:49:09,344 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:59470
+05:49:09,407 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:59473
+21:34:55,329 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)

@@ -1,0 +1,8 @@
+21:56:44,086 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+21:56:44,087 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+21:57:27,655 - [23] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+21:58:01,017 - [27] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095

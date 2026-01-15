@@ -1,0 +1,12 @@
+21:05:20,180 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+21:05:20,181 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+21:06:05,701 - [22] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+21:08:23,061 - [31] - ERROR - Game.Server.GameServer - Center Cross Server Disconnect!
+21:08:23,061 - [31] - ERROR - Game.Server.GameServer - Start Reconect Center Cross Server again after 5 second
+21:08:23,564 - [32] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+21:08:23,755 - [32] - ERROR - Game.Server.GameServer - Center Server Disconnect! Stopping Server
+21:08:23,755 - [32] - ERROR - Game.Server.GameServer - Start the game server again after 1 second,and left try times:3

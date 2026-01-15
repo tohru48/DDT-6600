@@ -1,0 +1,41 @@
+19:36:50,673 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+19:36:50,688 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+19:36:51,735 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb
+20:21:37,657 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SceneChatHandler  client: 200.103.123.7:16329)
+System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\DDTank\Arquivos_6.5\Emuladores_6.5\road\configDDtank.txt'.
+Nome do arquivo: 'C:\DDTank\Arquivos_6.5\Emuladores_6.5\road\configDDtank.txt'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding)
+   em System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   em System.IO.File.ReadAllLines(String path)
+   em Game.Server.Packets.Client.SceneChatHandler.verificarAdm(String nick)
+   em Game.Server.Packets.Client.SceneChatHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+20:21:37,688 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 3D 0C 53 00 13 00 00 29 2A 00 00 00 00   q..=.S....)*....
+0010: 00 00 00 00 05 00 00 0A 4A 75 6C 69 6F 43 65 7A   ........JulioCez
+0020: 61 72 00 19 40 40 3B 61 6C 6C 3B 54 45 54 53 54   ar..@@;all;TETST
+0030: 45 54 53 54 53 54 45 54 53 54 53 54 45            ETSTSTETSTSTE   
+
+20:25:02,516 - [21] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SceneChatHandler  client: 200.103.123.7:16329)
+System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\DDTank\Arquivos_6.5\Emuladores_6.5\road\configDDtank.txt'.
+Nome do arquivo: 'C:\DDTank\Arquivos_6.5\Emuladores_6.5\road\configDDtank.txt'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding)
+   em System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   em System.IO.File.ReadAllLines(String path)
+   em Game.Server.Packets.Client.SceneChatHandler.verificarAdm(String nick)
+   em Game.Server.Packets.Client.SceneChatHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+20:25:02,532 - [21] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 35 0A 04 00 13 00 00 29 2A 00 00 00 00   q..5......)*....
+0010: 00 00 00 00 05 00 00 0A 4A 75 6C 69 6F 43 65 7A   ........JulioCez
+0020: 61 72 00 11 40 40 3B 61 6C 6C 3B 4F 49 49 49 49   ar..@@;all;OIIII
+0030: 49 49 49 49 49                                    IIIII           
+

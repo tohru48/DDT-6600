@@ -1,0 +1,22 @@
+19:59:27,885 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+19:59:27,886 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+20:00:42,936 - [23] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+20:01:59,411 - [27] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+20:31:17,340 - [22] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+20:51:05,829 - [50] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+20:53:25,601 - [23] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+20:56:57,047 - [42] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+20:57:26,422 - [41] - ERROR - Game.Server.GameServer - Center Server Disconnect! Stopping Server
+20:57:26,423 - [41] - ERROR - Game.Server.GameServer - Start the game server again after 1 second,and left try times:3

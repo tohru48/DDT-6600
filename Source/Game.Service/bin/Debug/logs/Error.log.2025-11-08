@@ -1,0 +1,7 @@
+04:53:18,712 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+04:53:18,713 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+04:53:22,337 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb
+05:04:40,747 - [52] - ERROR - Game.Server.GameServer - Center Cross Server Disconnect!
+05:04:40,748 - [52] - ERROR - Game.Server.GameServer - Start Reconect Center Cross Server again after 5 second
+05:04:41,653 - [55] - ERROR - Game.Server.GameServer - Center Server Disconnect! Stopping Server
+05:04:41,654 - [55] - ERROR - Game.Server.GameServer - Start the game server again after 1 second,and left try times:3

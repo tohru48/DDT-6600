@@ -1,0 +1,770 @@
+00:02:49,235 - [170] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+00:19:09,860 - [99] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+00:19:09,922 - [99] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+00:19:09,922 - [99] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+00:19:09,938 - [99] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+00:19:09,954 - [99] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+00:33:01,407 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team)
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+00:45:46,407 - [12] - ERROR - Game.Logic.PVEGame - Can't create game mission ai :GameServerScript.AI.Messions.TVT12304
+00:45:46,501 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.BaseGame.method_10(Int32 int_4)
+   em Game.Logic.PVEGame.StartLoading()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+00:46:39,376 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+00:49:09,922 - [128] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+00:49:09,922 - [128] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+00:49:10,079 - [128] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+00:59:32,938 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team)
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+01:10:55,641 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team)
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+01:14:01,235 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+01:14:38,204 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+01:19:09,891 - [110] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+01:19:09,891 - [110] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+01:19:09,922 - [110] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+01:19:09,922 - [110] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+01:31:34,235 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+01:49:09,907 - [71] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+01:49:09,938 - [71] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+01:49:09,954 - [71] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+01:52:46,704 - [52] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:46,704 - [52] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+2015-07-22 01:52:47,657 - [133] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+2015-07-22 01:52:47,673 - [133] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+2015-07-22 01:52:47,829 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+2015-07-22 01:52:47,844 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+2015-07-22 01:52:47,985 - [133] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:48,001 - [133] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:48,172 - [133] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:48,188 - [133] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:48,344 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:48,344 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:48,548 - [133] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:48,548 - [133] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:48,735 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:48,751 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:48,907 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:48,907 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:49,126 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:49,126 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:49,422 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:49,422 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:49,657 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:49,657 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:50,094 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:50,110 - [58] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:50,501 - [52] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:50,516 - [52] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:50,751 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:50,751 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:50,938 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:50,938 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:51,251 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:51,266 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:52:54,235 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:52:54,235 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 05 54 00 44 00 00 29 64 00 00 00 00   q..!.T.D..)d....
+0010: 00 00 00 00 04 00 00 00 00 00 00 00 0C FF FF FF   ................
+0020: FF                                                .               
+
+01:55:43,641 - [12] - ERROR - Game.Logic.PVEGame - <log4net.Error>Exception during StringFormat: Índice (baseado em zero) deve ser maior ou igual a zero e menor que o tamanho da lista de argumentos. <format>game ai script m_gameAI.DoOther() error:{1}</format><args>{System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em GameServerScript.AI.Messions.DLN5104.DoOther() na c:\DDTank\Arquivos_6.5\Emuladores_6.5\road\scripts\AI\Messions\DLN5104.cs:linha 192
+   em Game.Logic.PVEGame.DoOther()}</args></log4net.Error>
+01:55:44,063 - [12] - ERROR - Game.Logic.PVEGame - <log4net.Error>Exception during StringFormat: Índice (baseado em zero) deve ser maior ou igual a zero e menor que o tamanho da lista de argumentos. <format>game ai script m_gameAI.DoOther() error:{1}</format><args>{System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em GameServerScript.AI.Messions.DLN5104.DoOther() na c:\DDTank\Arquivos_6.5\Emuladores_6.5\road\scripts\AI\Messions\DLN5104.cs:linha 192
+   em Game.Logic.PVEGame.DoOther()}</args></log4net.Error>
+01:58:58,844 - [60] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.210.145.60:61067)
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Game.Server.GameUtils.PetAbstractInventory.RenamePet(Int32 place, String name)
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+01:58:58,860 - [60] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1E 05 32 00 44 00 00 29 64 00 00 00 00   q....2.D..)d....
+0010: 00 00 00 00 09 FF FF FF FF 00 02 31 32 00         ...........12.  
+
+02:19:09,938 - [364] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+02:19:10,001 - [364] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+02:19:10,032 - [364] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+02:49:09,985 - [322] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+02:49:10,094 - [322] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+02:57:06,891 - [327] - ERROR - Game.Base.Packets.StreamProcessor - AsyncTcpSendCallback
+System.ObjectDisposedException: SafeHandle foi fechado
+   em System.Net.Sockets.Socket.SendAsync(SocketAsyncEventArgs e)
+   em Game.Base.BaseClient.SendAsync(SocketAsyncEventArgs e) na h:\dandantang\source\Game.Base\BaseClient.cs:linha 297
+   em Game.Base.Packets.StreamProcessor.eOs4gn4Wu(Object  , SocketAsyncEventArgs  ) na h:\dandantang\source\Game.Base\Packets\StreamProcessor.cs:linha 257
+03:11:23,797 - [13] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+03:19:09,938 - [13] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+03:19:09,954 - [13] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+03:27:38,704 - [99] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+03:49:09,954 - [48] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+03:49:09,969 - [48] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+04:24:12,516 - [66] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+04:45:33,547 - [12] - ERROR - Game.Logic.Phy.Object.SimpleNpc - <log4net.Error>Exception during StringFormat: Índice (baseado em zero) deve ser maior ou igual a zero e menor que o tamanho da lista de argumentos. <format>SimpleNpc BeginNewTurn error:{1}</format><args>{System.InvalidCastException: Não é possível converter um objeto do tipo 'Game.Logic.Phy.Object.SimpleNpc' no tipo 'Game.Logic.Phy.Object.SimpleBoss'.
+   em GameServerScript.AI.NPC.WorldCupBossFor14002.OnBeginNewTurn() na c:\DDTank\Arquivos_6.5\Emuladores_6.5\road\scripts\AI\NPC\WorldCupBossFor14002.cs:linha 28
+   em Game.Logic.Phy.Object.SimpleNpc.PrepareNewTurn()}</args></log4net.Error>
+04:45:33,594 - [12] - ERROR - Game.Logic.Phy.Object.SimpleNpc - <log4net.Error>Exception during StringFormat: Índice (baseado em zero) deve ser maior ou igual a zero e menor que o tamanho da lista de argumentos. <format>SimpleNpc BeginNewTurn error:{1}</format><args>{System.InvalidCastException: Não é possível converter um objeto do tipo 'Game.Logic.Phy.Object.SimpleNpc' no tipo 'Game.Logic.Phy.Object.SimpleBoss'.
+   em GameServerScript.AI.NPC.WorldCupBossFor14002.OnBeginNewTurn() na c:\DDTank\Arquivos_6.5\Emuladores_6.5\road\scripts\AI\NPC\WorldCupBossFor14002.cs:linha 28
+   em Game.Logic.Phy.Object.SimpleNpc.PrepareNewTurn()}</args></log4net.Error>
+04:45:52,297 - [12] - ERROR - Game.Logic.Phy.Object.SimpleNpc - <log4net.Error>Exception during StringFormat: Índice (baseado em zero) deve ser maior ou igual a zero e menor que o tamanho da lista de argumentos. <format>SimpleNpc BeginNewTurn error:{1}</format><args>{System.InvalidCastException: Não é possível converter um objeto do tipo 'Game.Logic.Phy.Object.SimpleNpc' no tipo 'Game.Logic.Phy.Object.SimpleBoss'.
+   em GameServerScript.AI.NPC.WorldCupBossFor14002.OnBeginNewTurn() na c:\DDTank\Arquivos_6.5\Emuladores_6.5\road\scripts\AI\NPC\WorldCupBossFor14002.cs:linha 28
+   em Game.Logic.Phy.Object.SimpleNpc.PrepareNewTurn()}</args></log4net.Error>
+04:46:09,688 - [12] - ERROR - Game.Logic.Phy.Object.SimpleNpc - <log4net.Error>Exception during StringFormat: Índice (baseado em zero) deve ser maior ou igual a zero e menor que o tamanho da lista de argumentos. <format>SimpleNpc BeginNewTurn error:{1}</format><args>{System.InvalidCastException: Não é possível converter um objeto do tipo 'Game.Logic.Phy.Object.SimpleNpc' no tipo 'Game.Logic.Phy.Object.SimpleBoss'.
+   em GameServerScript.AI.NPC.WorldCupBossFor14002.OnBeginNewTurn() na c:\DDTank\Arquivos_6.5\Emuladores_6.5\road\scripts\AI\NPC\WorldCupBossFor14002.cs:linha 28
+   em Game.Logic.Phy.Object.SimpleNpc.PrepareNewTurn()}</args></log4net.Error>
+04:46:12,501 - [12] - ERROR - Game.Logic.Phy.Object.SimpleNpc - <log4net.Error>Exception during StringFormat: Índice (baseado em zero) deve ser maior ou igual a zero e menor que o tamanho da lista de argumentos. <format>SimpleNpc BeginNewTurn error:{1}</format><args>{System.InvalidCastException: Não é possível converter um objeto do tipo 'Game.Logic.Phy.Object.SimpleNpc' no tipo 'Game.Logic.Phy.Object.SimpleBoss'.
+   em GameServerScript.AI.NPC.WorldCupBossFor14002.OnBeginNewTurn() na c:\DDTank\Arquivos_6.5\Emuladores_6.5\road\scripts\AI\NPC\WorldCupBossFor14002.cs:linha 28
+   em Game.Logic.Phy.Object.SimpleNpc.PrepareNewTurn()}</args></log4net.Error>
+04:46:12,501 - [12] - ERROR - Game.Logic.Phy.Object.SimpleNpc - <log4net.Error>Exception during StringFormat: Índice (baseado em zero) deve ser maior ou igual a zero e menor que o tamanho da lista de argumentos. <format>SimpleNpc BeginNewTurn error:{1}</format><args>{System.InvalidCastException: Não é possível converter um objeto do tipo 'Game.Logic.Phy.Object.SimpleNpc' no tipo 'Game.Logic.Phy.Object.SimpleBoss'.
+   em GameServerScript.AI.NPC.WorldCupBossFor14002.OnBeginNewTurn() na c:\DDTank\Arquivos_6.5\Emuladores_6.5\road\scripts\AI\NPC\WorldCupBossFor14002.cs:linha 28
+   em Game.Logic.Phy.Object.SimpleNpc.PrepareNewTurn()}</args></log4net.Error>
+04:46:15,313 - [12] - ERROR - Game.Logic.Phy.Object.SimpleNpc - <log4net.Error>Exception during StringFormat: Índice (baseado em zero) deve ser maior ou igual a zero e menor que o tamanho da lista de argumentos. <format>SimpleNpc BeginNewTurn error:{1}</format><args>{System.InvalidCastException: Não é possível converter um objeto do tipo 'Game.Logic.Phy.Object.SimpleNpc' no tipo 'Game.Logic.Phy.Object.SimpleBoss'.
+   em GameServerScript.AI.NPC.WorldCupBossFor14002.OnBeginNewTurn() na c:\DDTank\Arquivos_6.5\Emuladores_6.5\road\scripts\AI\NPC\WorldCupBossFor14002.cs:linha 28
+   em Game.Logic.Phy.Object.SimpleNpc.PrepareNewTurn()}</args></log4net.Error>
+04:46:15,313 - [12] - ERROR - Game.Logic.Phy.Object.SimpleNpc - <log4net.Error>Exception during StringFormat: Índice (baseado em zero) deve ser maior ou igual a zero e menor que o tamanho da lista de argumentos. <format>SimpleNpc BeginNewTurn error:{1}</format><args>{System.InvalidCastException: Não é possível converter um objeto do tipo 'Game.Logic.Phy.Object.SimpleNpc' no tipo 'Game.Logic.Phy.Object.SimpleBoss'.
+   em GameServerScript.AI.NPC.WorldCupBossFor14002.OnBeginNewTurn() na c:\DDTank\Arquivos_6.5\Emuladores_6.5\road\scripts\AI\NPC\WorldCupBossFor14002.cs:linha 28
+   em Game.Logic.Phy.Object.SimpleNpc.PrepareNewTurn()}</args></log4net.Error>
+04:46:15,313 - [12] - ERROR - Game.Logic.Phy.Object.SimpleNpc - <log4net.Error>Exception during StringFormat: Índice (baseado em zero) deve ser maior ou igual a zero e menor que o tamanho da lista de argumentos. <format>SimpleNpc BeginNewTurn error:{1}</format><args>{System.InvalidCastException: Não é possível converter um objeto do tipo 'Game.Logic.Phy.Object.SimpleNpc' no tipo 'Game.Logic.Phy.Object.SimpleBoss'.
+   em GameServerScript.AI.NPC.WorldCupBossFor14002.OnBeginNewTurn() na c:\DDTank\Arquivos_6.5\Emuladores_6.5\road\scripts\AI\NPC\WorldCupBossFor14002.cs:linha 28
+   em Game.Logic.Phy.Object.SimpleNpc.PrepareNewTurn()}</args></log4net.Error>
+04:46:30,735 - [12] - ERROR - Game.Logic.Phy.Object.SimpleNpc - <log4net.Error>Exception during StringFormat: Índice (baseado em zero) deve ser maior ou igual a zero e menor que o tamanho da lista de argumentos. <format>SimpleNpc BeginNewTurn error:{1}</format><args>{System.InvalidCastException: Não é possível converter um objeto do tipo 'Game.Logic.Phy.Object.SimpleNpc' no tipo 'Game.Logic.Phy.Object.SimpleBoss'.
+   em GameServerScript.AI.NPC.WorldCupBossFor14002.OnBeginNewTurn() na c:\DDTank\Arquivos_6.5\Emuladores_6.5\road\scripts\AI\NPC\WorldCupBossFor14002.cs:linha 28
+   em Game.Logic.Phy.Object.SimpleNpc.PrepareNewTurn()}</args></log4net.Error>
+04:46:30,782 - [12] - ERROR - Game.Logic.Phy.Object.SimpleNpc - <log4net.Error>Exception during StringFormat: Índice (baseado em zero) deve ser maior ou igual a zero e menor que o tamanho da lista de argumentos. <format>SimpleNpc BeginNewTurn error:{1}</format><args>{System.InvalidCastException: Não é possível converter um objeto do tipo 'Game.Logic.Phy.Object.SimpleNpc' no tipo 'Game.Logic.Phy.Object.SimpleBoss'.
+   em GameServerScript.AI.NPC.WorldCupBossFor14002.OnBeginNewTurn() na c:\DDTank\Arquivos_6.5\Emuladores_6.5\road\scripts\AI\NPC\WorldCupBossFor14002.cs:linha 28
+   em Game.Logic.Phy.Object.SimpleNpc.PrepareNewTurn()}</args></log4net.Error>
+05:17:16,204 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+05:50:44,563 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVEGame.method_75(PVEGame pvegame_0, IGamePlayer igamePlayer_0)
+   em Game.Logic.PVEGame.AddPlayer(IGamePlayer gp)
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+06:13:39,376 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team)
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+06:40:48,266 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team)
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+06:44:37,626 - [12] - ERROR - Game.Logic.PVEGame - Can't create game mission ai :GameServerScript.AI.Messions.TVT12304
+06:44:37,719 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.BaseGame.method_10(Int32 int_4)
+   em Game.Logic.PVEGame.StartLoading()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+06:44:54,860 - [380] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserChangeItemPlaceHandler  client: 186.237.62.38:52867)
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Game.Server.GameUtils.PlayerEquipInventory.MoveItem(Int32 fromSlot, Int32 toSlot, Int32 count)
+   em Game.Server.Packets.Client.UserChangeItemPlaceHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+06:44:54,860 - [380] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 23 05 33 00 31 00 00 29 5B 00 00 00 00   q..#.3.1..)[....
+0010: 00 00 00 00 00 00 00 00 0A 00 FF FF FF FF 00 00   ................
+0020: 00 01 00                                          ...             
+
+06:44:55,579 - [380] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.UserChangeItemPlaceHandler  client: 186.237.62.38:52867)
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Game.Server.GameUtils.PlayerEquipInventory.MoveItem(Int32 fromSlot, Int32 toSlot, Int32 count)
+   em Game.Server.Packets.Client.UserChangeItemPlaceHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+06:44:55,579 - [380] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 23 05 37 00 31 00 00 29 5B 00 00 00 00   q..#.7.1..)[....
+0010: 00 00 00 00 00 00 00 00 0E 00 FF FF FF FF 00 00   ................
+0020: 00 01 00                                          ...             
+
+06:44:56,094 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+07:35:44,907 - [428] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+07:43:00,360 - [427] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+08:32:24,360 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team)
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+08:49:10,094 - [433] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+09:00:30,313 - [292] - ERROR - Game.Server.GameServer - RsaCryptor
+System.Security.Cryptography.CryptographicException: Dados inválidos.
+
+   em System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   em System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   em System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   em Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, GSPacketIn packet)
+09:19:10,110 - [411] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+09:19:10,110 - [411] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+09:38:26,923 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+09:49:10,094 - [406] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+09:49:10,110 - [406] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+09:49:10,110 - [406] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+09:50:06,313 - [12] - ERROR - Game.Logic.PVEGame - Can't create game mission ai :GameServerScript.AI.Messions.TVN12101
+09:50:06,407 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.BaseGame.method_10(Int32 int_4)
+   em Game.Logic.PVEGame.StartLoading()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+09:50:25,860 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+09:51:27,969 - [12] - ERROR - Game.Logic.PVEGame - Can't create game mission ai :GameServerScript.AI.Messions.TVN12101
+09:51:28,063 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.BaseGame.method_10(Int32 int_4)
+   em Game.Logic.PVEGame.StartLoading()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+09:51:53,985 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+10:02:39,266 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+10:02:42,719 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+10:03:15,219 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+10:03:16,844 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+10:03:17,047 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+10:03:17,251 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+10:03:17,454 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+10:03:17,657 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+10:07:45,594 - [12] - ERROR - Game.Logic.PVEGame - Can't create game mission ai :GameServerScript.AI.Messions.TVN12101
+10:07:45,688 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.BaseGame.method_10(Int32 int_4)
+   em Game.Logic.PVEGame.StartLoading()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+10:07:57,594 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+10:13:02,063 - [411] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+10:19:10,110 - [385] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+10:19:10,141 - [385] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+10:25:31,422 - [12] - ERROR - Game.Logic.PVEGame - Can't create game mission ai :GameServerScript.AI.Messions.TVH12204
+10:25:31,516 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.BaseGame.method_10(Int32 int_4)
+   em Game.Logic.PVEGame.StartLoading()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+10:25:36,954 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+10:46:17,969 - [411] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+10:49:10,141 - [103] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+10:49:10,172 - [103] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+10:49:10,172 - [103] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+10:49:10,188 - [103] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+2015-07-22 10:59:11,719 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+10:59:44,829 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+11:19:10,141 - [426] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+11:19:10,157 - [426] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+11:19:10,188 - [426] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+11:19:10,235 - [426] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+11:28:31,891 - [432] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+11:28:38,313 - [424] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+11:30:59,188 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team)
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+11:32:59,516 - [427] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+11:37:23,657 - [12] - ERROR - Game.Logic.PVEGame - Can't create game mission ai :GameServerScript.AI.Messions.TVH12204
+11:37:23,751 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.BaseGame.method_10(Int32 int_4)
+   em Game.Logic.PVEGame.StartLoading()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+11:37:51,829 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+11:40:05,094 - [409] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+2015-07-22 11:41:59,829 - [283] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Class14  client: 200.237.131.79:26496)
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Server.GameUtils.CardAbstractInventory.ExchangeCards(Int32 fromSlot, Int32 toSlot)
+   em Game.Server.GameUtils.CardAbstractInventory.MoveCard(Int32 fromSlot, Int32 toSlot)
+   em Class14.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+2015-07-22 11:41:59,829 - [283] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 62 00 D8 00 00 2A CA 00 00 00 00   q.. .b....*.....
+0010: 00 00 00 00 00 00 00 00 00 00 00 0F 00 00 00 10   ................
+
+11:43:57,844 - [128] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+11:49:10,126 - [405] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+11:49:10,157 - [405] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+11:49:10,204 - [405] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+11:49:10,204 - [405] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+11:49:10,313 - [405] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+11:49:10,329 - [405] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+12:09:49,391 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team)
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+12:11:48,813 - [428] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+12:19:10,141 - [399] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+12:19:10,188 - [399] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+12:19:10,204 - [399] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+12:19:10,235 - [399] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+12:19:59,563 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+12:20:13,063 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team)
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+12:49:10,157 - [423] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+12:49:10,188 - [423] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+12:49:10,235 - [423] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+12:58:41,204 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+13:01:22,688 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+13:01:22,891 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+13:01:23,094 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+13:16:41,610 - [382] - ERROR - Game.Server.GameServer - RsaCryptor
+System.Security.Cryptography.CryptographicException: Dados inválidos.
+
+   em System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   em System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   em System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   em Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, GSPacketIn packet)
+13:19:10,204 - [431] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+13:19:10,297 - [431] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+13:19:10,344 - [431] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+2015-07-22 13:26:54,297 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVEGame.method_75(PVEGame pvegame_0, IGamePlayer igamePlayer_0)
+   em Game.Logic.PVEGame.AddPlayer(IGamePlayer gp)
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+2015-07-22 13:34:05,626 - [287] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+2015-07-22 13:40:03,751 - [97] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:179.222.247.108:50409, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet)
+13:40:32,173 - [128] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+13:49:10,204 - [185] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+13:49:10,251 - [185] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+13:49:10,266 - [185] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+13:49:10,438 - [185] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+13:49:10,469 - [185] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+13:50:36,954 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team)
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+13:54:15,548 - [305] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19

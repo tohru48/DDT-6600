@@ -1,0 +1,16 @@
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Release\logconfig.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Release\Fighting.Service.exe.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Release\Fighting.Service.exe.manifest
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Release\Fighting.Service.application
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Release\Fighting.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Release\Fighting.Service.pdb
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Release\Game.Server.dll.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\bin\Release\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Release\Fighting.Service.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Release\Fighting.Service.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Release\Fighting.Service.csproj.Fody.CopyLocal.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Release\Fighting.Service.exe.manifest
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Release\Fighting.Service.application
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Release\Fighting.Service.csproj.CopyComplete
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Release\Fighting.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Fighting.Service\obj\Release\Fighting.Service.pdb

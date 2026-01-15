@@ -1,0 +1,12 @@
+18:31:13,131 - [MAIN] - ERROR - Center.Server.SystemNoticeMgr - BattleMgr setup error:
+System.Xml.XmlException: Fim inesperado da análise de arquivo Comment. Linha 16, posição 17.
+   em System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   em System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   em System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   em System.Xml.XmlTextReaderImpl.ParseComment()
+   em System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   em System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r)
+   em System.Xml.Linq.XContainer.ReadContentFrom(XmlReader r, LoadOptions o)
+   em System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   em System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   em Center.Server.SystemNoticeMgr.LoadNotice(String path) na h:\dandantang\source\Center.Crosszone.Server\SystemNoticeMgr.cs:linha 48

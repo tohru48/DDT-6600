@@ -1,0 +1,1111 @@
+13:39:59,611 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+13:39:59,666 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+13:39:59,667 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+13:39:59,705 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+13:39:59,705 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+13:39:59,705 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+13:39:59,707 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+13:39:59,835 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+13:39:59,838 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+13:39:59,850 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+13:40:01,358 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+13:40:01,359 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+13:40:05,337 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+13:40:05,409 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+13:40:05,543 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+13:40:05,550 - [MAIN] - INFO  - Game.Server.GameServer - AccumulActiveLoginMgr Init: True
+13:40:05,578 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb
+13:40:06,926 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+13:40:06,931 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+13:40:06,934 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+13:40:06,938 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+13:40:06,942 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+13:40:06,947 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+13:40:06,955 - [MAIN] - INFO  - Game.Server.GameServer - ActivityQuestMgr Init: True
+13:40:06,960 - [MAIN] - INFO  - Game.Server.GameServer - ActivityHalloweenItemsMgr Init: True
+13:40:06,965 - [MAIN] - INFO  - Game.Server.GameServer - ChargeSpendRewardTemplateMgr Init: True
+13:40:06,982 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+13:40:06,985 - [MAIN] - INFO  - Game.Server.GameServer - LotteryShowTemplateMgr Init: True
+13:40:06,990 - [MAIN] - INFO  - Game.Server.GameServer - TreeTemplateMgr Init: True
+13:40:06,995 - [MAIN] - INFO  - Game.Server.GameServer - NewTitleMgr Init: True
+13:40:07,000 - [MAIN] - INFO  - Game.Server.GameServer - PetMoePropertyMgr Init: True
+13:40:07,002 - [MAIN] - INFO  - Game.Server.GameServer - RankTemplateMgr Init: True
+13:40:07,006 - [MAIN] - INFO  - Game.Server.GameServer - DailyLeagueAwardMgr Init: True
+13:40:07,011 - [MAIN] - INFO  - Game.Server.GameServer - SearchGoodsMgr Init: True
+13:40:07,018 - [MAIN] - INFO  - Game.Server.GameServer - SuitMgr Init: True
+13:40:07,022 - [MAIN] - INFO  - Game.Server.GameServer - DiceGameAwardMgr Init: True
+13:40:07,032 - [MAIN] - INFO  - Game.Server.GameServer - EveryDayActiveMgr Init: True
+13:40:07,042 - [MAIN] - INFO  - Game.Server.GameServer - GmActivityMgr Init: True
+13:40:07,044 - [MAIN] - INFO  - Game.Server.GameServer - FightLabDropItemMgr Init: True
+13:40:07,048 - [MAIN] - INFO  - Game.Server.GameServer - HelpGameRewardMgr Init: True
+13:40:07,050 - [MAIN] - INFO  - Game.Server.GameServer - MagicItemTemplateMgr Init: True
+13:40:07,055 - [MAIN] - INFO  - Game.Server.GameServer - AllQuestionsMgr Init: True
+13:40:07,057 - [MAIN] - INFO  - Game.Server.GameServer - ChargeActiveTemplateMgr Init: True
+13:40:07,068 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+13:40:07,074 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+13:40:07,078 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+13:40:07,089 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+13:40:07,119 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+13:40:07,126 - [MAIN] - INFO  - Game.Server.GameServer - AvatarColectionMgr Init: True
+13:40:07,130 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+13:40:07,134 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+13:40:07,151 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+13:40:07,158 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+13:40:07,251 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+13:40:07,302 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+13:40:07,361 - [MAIN] - INFO  - Game.Server.GameServer - ActiveMgr Init: True
+13:40:07,365 - [MAIN] - INFO  - Game.Server.GameServer - GypsyShopMgr Init: True
+13:40:07,376 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+13:40:07,380 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+13:40:07,384 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+13:40:07,404 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+13:40:07,418 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+13:40:07,445 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+13:40:07,449 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+13:40:07,454 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+13:40:07,458 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+13:40:07,461 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+13:40:07,464 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+13:40:07,467 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+13:40:07,471 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneMgr Init: True
+13:40:07,475 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+13:40:07,476 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+13:40:07,482 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+13:40:08,097 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+13:40:08,106 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr Setup: True
+13:40:08,110 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr Init: True
+13:40:08,114 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr Init: True
+13:40:08,118 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr Init: True
+13:40:08,124 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr Setup: True
+13:40:08,127 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelMgr Setup: True
+13:40:08,132 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr Setup: True
+13:40:08,141 - [MAIN] - INFO  - Game.Server.GameServer - TreasurePuzzledMgr Setup: True
+13:40:08,154 - [MAIN] - INFO  - Game.Server.GameServer - MountMgr Init: True
+13:40:08,157 - [MAIN] - INFO  - Game.Server.GameServer - CloudBuyLotteryMgr Setup: True
+13:40:08,174 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr Setup: True
+13:40:08,189 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+13:40:08,193 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+13:40:08,193 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+13:40:08,211 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 127.0.0.1:9208 loaded...
+13:40:08,211 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+13:40:08,212 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr Setup: True
+13:40:08,217 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9208
+13:40:08,245 - [MAIN] - INFO  - Game.Server.GameServer - RingStation Int: True
+13:40:08,245 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+13:40:08,246 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Setup: True
+13:40:08,254 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 172 handlers from GameServer Assembly!
+13:40:08,259 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+13:40:08,263 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9802
+13:40:08,263 - [MAIN] - INFO  - Game.Server.GameServer - Login To CenterServer: True
+13:40:08,264 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9203
+13:40:08,264 - [MAIN] - INFO  - Game.Server.GameServer - Login To CenterCrooszoneServer: True
+13:40:08,266 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9208
+13:40:08,267 - [MAIN] - INFO  - Game.Server.GameServer - base.Start(): True
+13:40:08,364 - [MAIN] - INFO  - Game.Server.GameServer - GameServer is now open for connections!
+13:40:50,949 - [26] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:18575
+13:40:50,956 - [26] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:18575), received bytes=0
+13:40:50,978 - [26] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:18576
+13:40:51,484 - [21] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+13:41:08,171 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:41:08,172 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:41:08,236 - [22] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:41:08,251 - [25] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:41:08,251 - [25] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:41:08,252 - [25] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+13:41:08,323 - [22] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:42:08,180 - [25] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:42:08,180 - [25] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:42:08,243 - [28] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:42:08,258 - [22] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:42:08,258 - [22] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:42:08,258 - [22] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+13:42:08,289 - [28] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:42:55,497 - [31] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:18576), received bytes=0
+13:42:55,504 - [31] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+13:43:08,200 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:43:08,200 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:43:08,247 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:43:08,247 - [23] - INFO  - Game.Server.GameServer - Begin ping check....
+13:43:08,248 - [23] - INFO  - Game.Server.GameServer - End ping check....
+13:43:08,249 - [23] - INFO  - Game.Server.GameServer - Begin ping center check....
+13:43:08,249 - [23] - INFO  - Game.Server.GameServer - End ping center check....
+13:43:08,260 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:43:08,263 - [22] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:43:08,263 - [22] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:43:08,264 - [22] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+13:43:21,984 - [30] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:48029
+13:43:21,989 - [30] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:48029), received bytes=0
+13:43:22,016 - [30] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:48030
+13:43:22,174 - [21] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+13:43:54,933 - [36] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:48030), received bytes=0
+13:43:54,936 - [36] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+13:44:08,207 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:44:08,207 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:44:08,254 - [23] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:44:08,258 - [23] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:44:08,269 - [28] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:44:08,269 - [28] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:44:08,269 - [28] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+13:45:08,166 - [22] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - Begin Save CloudBuyLottery to DB ....
+13:45:08,176 - [22] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - End CloudBuyLottery Scan....
+13:45:08,214 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:45:08,214 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:45:08,245 - [23] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+13:45:08,245 - [22] - INFO  - Game.Server.GameServer - Saving Record...
+13:45:08,246 - [23] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+13:45:08,247 - [22] - INFO  - Game.Server.GameServer - Saving Record complete!
+13:45:08,261 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:45:08,274 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:45:08,276 - [28] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:45:08,276 - [28] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:45:08,276 - [28] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+13:45:33,425 - [35] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:48090
+13:45:33,428 - [39] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:48090), received bytes=0
+13:45:33,474 - [35] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:48091
+13:45:33,578 - [21] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+13:46:00,711 - [40] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:48091), received bytes=0
+13:46:00,714 - [40] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+13:46:00,748 - [40] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFarm(UserFarmInfo info) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7012
+13:46:00,754 - [40] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:46:00,757 - [40] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:46:00,758 - [40] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:46:00,761 - [40] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:46:00,763 - [40] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:46:00,764 - [40] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:46:00,766 - [40] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:46:00,768 - [40] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:46:08,232 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:46:08,233 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:46:08,248 - [23] - INFO  - Game.Server.GameServer - Begin ping check....
+13:46:08,248 - [23] - INFO  - Game.Server.GameServer - End ping check....
+13:46:08,248 - [23] - INFO  - Game.Server.GameServer - Begin ping center check....
+13:46:08,248 - [23] - INFO  - Game.Server.GameServer - End ping center check....
+13:46:08,264 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:46:08,268 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:46:08,279 - [28] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:46:08,279 - [28] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:46:08,279 - [28] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+13:47:08,244 - [23] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:47:08,244 - [23] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:47:08,275 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:47:08,290 - [28] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:47:08,290 - [28] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:47:08,290 - [28] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+13:47:08,292 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:47:54,370 - [42] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:48162
+13:47:54,372 - [44] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:48162), received bytes=0
+13:47:54,433 - [42] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:48163
+13:47:54,563 - [22] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+13:48:08,272 - [25] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:48:08,274 - [25] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:48:08,288 - [28] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:48:08,294 - [28] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:48:08,304 - [23] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:48:08,304 - [23] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:48:08,304 - [23] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+13:49:08,259 - [25] - INFO  - Game.Server.GameServer - Begin ping check....
+13:49:08,259 - [25] - INFO  - Game.Server.GameServer - End ping check....
+13:49:08,261 - [25] - INFO  - Game.Server.GameServer - Begin ping center check....
+13:49:08,261 - [25] - INFO  - Game.Server.GameServer - End ping center check....
+13:49:08,275 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:49:08,275 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:49:08,291 - [23] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:49:08,306 - [22] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:49:08,306 - [22] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:49:08,306 - [22] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+13:49:08,334 - [23] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:50:08,173 - [23] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - Begin Save CloudBuyLottery to DB ....
+13:50:08,186 - [23] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - End CloudBuyLottery Scan....
+13:50:08,252 - [52] - INFO  - Game.Server.GameServer - Saving Record...
+13:50:08,252 - [51] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+13:50:08,252 - [51] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+13:50:08,252 - [25] - INFO  - Game.Server.GameServer - Saving database...
+13:50:08,252 - [52] - INFO  - Game.Server.GameServer - Saving Record complete!
+13:50:08,283 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:50:08,283 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:50:08,299 - [22] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:50:08,315 - [28] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:50:08,315 - [28] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:50:08,315 - [28] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+13:50:08,331 - [22] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:50:08,357 - [25] - INFO  - Game.Server.GameServer - Saving database complete!
+13:50:08,357 - [25] - INFO  - Game.Server.GameServer - Saved all databases and 1 players in 109ms
+13:51:08,299 - [28] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:51:08,299 - [28] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:51:08,315 - [22] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:51:08,330 - [25] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:51:08,331 - [25] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:51:08,331 - [25] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+13:51:08,362 - [22] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:52:08,265 - [52] - INFO  - Game.Server.GameServer - Begin ping check....
+13:52:08,265 - [52] - INFO  - Game.Server.GameServer - End ping check....
+13:52:08,266 - [52] - INFO  - Game.Server.GameServer - Begin ping center check....
+13:52:08,266 - [52] - INFO  - Game.Server.GameServer - End ping center check....
+13:52:08,311 - [64] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:52:08,311 - [64] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:52:08,327 - [23] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:52:08,342 - [51] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:52:08,342 - [51] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:52:08,342 - [51] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+13:52:08,370 - [23] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:53:00,183 - [69] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:48163), received bytes=0
+13:53:00,208 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+13:53:00,263 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFarm(UserFarmInfo info) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7012
+13:53:00,268 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:53:00,270 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:53:00,273 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:53:00,276 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:53:00,278 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:53:00,282 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:53:00,284 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:53:00,287 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:53:08,316 - [52] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:53:08,317 - [52] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:53:08,331 - [51] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:53:08,346 - [62] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:53:08,347 - [62] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:53:08,347 - [62] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+13:53:08,372 - [51] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:53:46,042 - [70] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:13789
+13:53:46,045 - [70] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:13789), received bytes=0
+13:53:46,088 - [70] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:13790
+13:53:46,206 - [62] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+13:54:08,325 - [28] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+13:54:08,325 - [28] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+13:54:08,340 - [62] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+13:54:08,346 - [62] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+13:54:08,355 - [63] - INFO  - Game.Server.GameServer - Buff Scaning ...
+13:54:08,355 - [63] - INFO  - Game.Server.GameServer - Buff Scan complete!
+13:54:08,355 - [63] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+13:54:12,940 - [69] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:13790), received bytes=0
+13:54:12,945 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+13:54:12,986 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFarm(UserFarmInfo info) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7012
+13:54:12,992 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:54:12,994 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:54:12,997 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:54:13,000 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:54:13,001 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:54:13,003 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:54:13,006 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:54:13,007 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.AddFields(UserFieldInfo item) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 7089
+13:54:23,045 - [71] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+13:54:23,046 - [MAIN] - INFO  - Game.Server.GameServer - Server Stopped!
+13:54:23,046 - [72] - INFO  - Game.Base.BaseServer - Incoming connection from socket disconnected
+13:54:23,045 - [69] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+14:56:30,567 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+14:56:30,611 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+14:56:30,612 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+14:56:30,643 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+14:56:30,643 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+14:56:30,643 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+14:56:30,646 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+14:56:30,701 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+14:56:30,705 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+14:56:30,714 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+14:56:30,761 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+14:56:30,762 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+14:56:30,829 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+14:56:30,896 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+14:56:31,009 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+14:56:31,014 - [MAIN] - INFO  - Game.Server.GameServer - AccumulActiveLoginMgr Init: True
+14:56:32,653 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+14:56:32,655 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+14:56:32,658 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+14:56:32,660 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+14:56:32,662 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+14:56:32,665 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+14:56:32,669 - [MAIN] - INFO  - Game.Server.GameServer - ActivityQuestMgr Init: True
+14:56:32,671 - [MAIN] - INFO  - Game.Server.GameServer - ActivityHalloweenItemsMgr Init: True
+14:56:32,674 - [MAIN] - INFO  - Game.Server.GameServer - ChargeSpendRewardTemplateMgr Init: True
+14:56:32,688 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+14:56:32,690 - [MAIN] - INFO  - Game.Server.GameServer - LotteryShowTemplateMgr Init: True
+14:56:32,694 - [MAIN] - INFO  - Game.Server.GameServer - TreeTemplateMgr Init: True
+14:56:32,698 - [MAIN] - INFO  - Game.Server.GameServer - NewTitleMgr Init: True
+14:56:32,700 - [MAIN] - INFO  - Game.Server.GameServer - PetMoePropertyMgr Init: True
+14:56:32,702 - [MAIN] - INFO  - Game.Server.GameServer - RankTemplateMgr Init: True
+14:56:32,705 - [MAIN] - INFO  - Game.Server.GameServer - DailyLeagueAwardMgr Init: True
+14:56:32,709 - [MAIN] - INFO  - Game.Server.GameServer - SearchGoodsMgr Init: True
+14:56:32,713 - [MAIN] - INFO  - Game.Server.GameServer - SuitMgr Init: True
+14:56:32,716 - [MAIN] - INFO  - Game.Server.GameServer - DiceGameAwardMgr Init: True
+14:56:32,722 - [MAIN] - INFO  - Game.Server.GameServer - EveryDayActiveMgr Init: True
+14:56:32,730 - [MAIN] - INFO  - Game.Server.GameServer - GmActivityMgr Init: True
+14:56:32,733 - [MAIN] - INFO  - Game.Server.GameServer - FightLabDropItemMgr Init: True
+14:56:32,735 - [MAIN] - INFO  - Game.Server.GameServer - HelpGameRewardMgr Init: True
+14:56:32,736 - [MAIN] - INFO  - Game.Server.GameServer - MagicItemTemplateMgr Init: True
+14:56:32,739 - [MAIN] - INFO  - Game.Server.GameServer - AllQuestionsMgr Init: True
+14:56:32,742 - [MAIN] - INFO  - Game.Server.GameServer - ChargeActiveTemplateMgr Init: True
+14:56:32,749 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+14:56:32,754 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+14:56:32,757 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+14:56:32,764 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+14:56:32,791 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+14:56:32,796 - [MAIN] - INFO  - Game.Server.GameServer - AvatarColectionMgr Init: True
+14:56:32,801 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+14:56:32,804 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+14:56:32,814 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+14:56:32,817 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+14:56:32,908 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+14:56:32,976 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+14:56:33,030 - [MAIN] - INFO  - Game.Server.GameServer - ActiveMgr Init: True
+14:56:33,034 - [MAIN] - INFO  - Game.Server.GameServer - GypsyShopMgr Init: True
+14:56:33,041 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+14:56:33,045 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+14:56:33,048 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+14:56:33,070 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+14:56:33,079 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+14:56:33,094 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+14:56:33,096 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+14:56:33,102 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+14:56:33,106 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+14:56:33,109 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+14:56:33,111 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+14:56:33,113 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+14:56:33,118 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneMgr Init: True
+14:56:33,121 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+14:56:33,122 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+14:56:33,128 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+14:56:33,672 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+14:56:33,681 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr Setup: True
+14:56:33,684 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr Init: True
+14:56:33,686 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr Init: True
+14:56:33,689 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr Init: True
+14:56:33,695 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr Setup: True
+14:56:33,699 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelMgr Setup: True
+14:56:33,703 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr Setup: True
+14:56:33,708 - [MAIN] - INFO  - Game.Server.GameServer - TreasurePuzzledMgr Setup: True
+14:56:33,716 - [MAIN] - INFO  - Game.Server.GameServer - MountMgr Init: True
+14:56:33,720 - [MAIN] - INFO  - Game.Server.GameServer - CloudBuyLotteryMgr Setup: True
+14:56:33,735 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr Setup: True
+14:56:33,736 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+14:56:33,742 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+14:56:33,743 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+14:56:33,746 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 127.0.0.1:9208 loaded...
+14:56:33,749 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+14:56:33,750 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr Setup: True
+14:56:33,752 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9208
+14:56:33,778 - [MAIN] - INFO  - Game.Server.GameServer - RingStation Int: True
+14:56:33,779 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+14:56:33,780 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Setup: True
+14:56:33,789 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 172 handlers from GameServer Assembly!
+14:56:33,794 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+14:56:33,796 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9802
+14:56:33,796 - [MAIN] - INFO  - Game.Server.GameServer - Login To CenterServer: True
+14:56:33,797 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9203
+14:56:33,797 - [MAIN] - INFO  - Game.Server.GameServer - Login To CenterCrooszoneServer: True
+14:56:33,798 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9208
+14:56:33,800 - [MAIN] - INFO  - Game.Server.GameServer - base.Start(): True
+14:56:33,872 - [MAIN] - INFO  - Game.Server.GameServer - GameServer is now open for connections!
+14:57:33,735 - [26] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+14:57:33,736 - [26] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+14:57:33,766 - [28] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+14:57:33,782 - [22] - INFO  - Game.Server.GameServer - Buff Scaning ...
+14:57:33,783 - [22] - INFO  - Game.Server.GameServer - Buff Scan complete!
+14:57:33,783 - [22] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+14:57:33,785 - [28] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+14:57:54,649 - [30] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:1038
+14:57:54,652 - [30] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:1038), received bytes=0
+14:57:54,677 - [30] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:1039
+14:57:55,110 - [24] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+14:58:33,744 - [27] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+14:58:33,744 - [27] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+14:58:33,775 - [22] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+14:58:33,791 - [28] - INFO  - Game.Server.GameServer - Buff Scaning ...
+14:58:33,791 - [28] - INFO  - Game.Server.GameServer - Buff Scan complete!
+14:58:33,792 - [28] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+14:58:33,846 - [22] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+14:59:03,466 - [33] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:1039), received bytes=0
+14:59:03,488 - [33] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+14:59:33,746 - [26] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+14:59:33,746 - [26] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+14:59:33,778 - [29] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+14:59:33,793 - [29] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+14:59:33,794 - [21] - INFO  - Game.Server.GameServer - Buff Scaning ...
+14:59:33,794 - [21] - INFO  - Game.Server.GameServer - Buff Scan complete!
+14:59:33,794 - [21] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+14:59:33,794 - [23] - INFO  - Game.Server.GameServer - Begin ping check....
+14:59:33,795 - [23] - INFO  - Game.Server.GameServer - End ping check....
+14:59:33,795 - [23] - INFO  - Game.Server.GameServer - Begin ping center check....
+14:59:33,795 - [23] - INFO  - Game.Server.GameServer - End ping center check....
+14:59:34,516 - [31] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:33937
+14:59:34,525 - [31] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:33937), received bytes=0
+14:59:34,563 - [31] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:33938
+14:59:34,664 - [29] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+15:00:30,506 - [30] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:33938), received bytes=0
+15:00:30,519 - [30] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+15:00:33,764 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:00:33,764 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:00:33,780 - [26] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:00:33,810 - [24] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:00:33,810 - [24] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:00:33,810 - [24] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+15:00:33,850 - [26] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:01:10,342 - [20] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:64322
+15:01:10,346 - [20] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:64322), received bytes=0
+15:01:10,404 - [20] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:64323
+15:01:10,501 - [29] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+15:01:33,733 - [28] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - Begin Save CloudBuyLottery to DB ....
+15:01:33,738 - [28] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - End CloudBuyLottery Scan....
+15:01:33,764 - [23] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:01:33,764 - [23] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:01:33,780 - [22] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:01:33,780 - [29] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+15:01:33,780 - [27] - INFO  - Game.Server.GameServer - Saving Record...
+15:01:33,781 - [27] - INFO  - Game.Server.GameServer - Saving Record complete!
+15:01:33,781 - [29] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+15:01:33,781 - [22] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:01:33,811 - [23] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:01:33,811 - [23] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:01:33,811 - [23] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:02:33,769 - [23] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:02:33,769 - [23] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:02:33,785 - [21] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:02:33,800 - [28] - INFO  - Game.Server.GameServer - Begin ping check....
+15:02:33,800 - [28] - INFO  - Game.Server.GameServer - End ping check....
+15:02:33,801 - [28] - INFO  - Game.Server.GameServer - Begin ping center check....
+15:02:33,801 - [28] - INFO  - Game.Server.GameServer - End ping center check....
+15:02:33,816 - [27] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:02:33,816 - [27] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:02:33,817 - [27] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:02:33,830 - [21] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:03:33,787 - [26] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:03:33,787 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:03:33,788 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:03:33,818 - [29] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:03:33,818 - [29] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:03:33,818 - [29] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:03:33,832 - [26] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:04:33,799 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:04:33,799 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:04:33,799 - [21] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:04:33,830 - [26] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:04:33,830 - [26] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:04:33,830 - [26] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:04:33,846 - [21] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:05:33,815 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:05:33,815 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:05:33,815 - [24] - INFO  - Game.Server.GameServer - Begin ping check....
+15:05:33,817 - [24] - INFO  - Game.Server.GameServer - End ping check....
+15:05:33,817 - [24] - INFO  - Game.Server.GameServer - Begin ping center check....
+15:05:33,817 - [24] - INFO  - Game.Server.GameServer - End ping center check....
+15:05:33,815 - [29] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:05:33,831 - [26] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:05:33,831 - [26] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:05:33,832 - [26] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:05:33,861 - [29] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:06:33,737 - [21] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - Begin Save CloudBuyLottery to DB ....
+15:06:33,747 - [21] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - End CloudBuyLottery Scan....
+15:06:33,784 - [23] - INFO  - Game.Server.GameServer - Saving Record...
+15:06:33,784 - [23] - INFO  - Game.Server.GameServer - Saving Record complete!
+15:06:33,784 - [29] - INFO  - Game.Server.GameServer - Saving database...
+15:06:33,784 - [24] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+15:06:33,785 - [24] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+15:06:33,815 - [27] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:06:33,815 - [27] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:06:33,815 - [21] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:06:33,845 - [28] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:06:33,845 - [28] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:06:33,845 - [28] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:06:33,856 - [21] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:06:33,869 - [29] - INFO  - Game.Server.GameServer - Saving database complete!
+15:06:33,869 - [29] - INFO  - Game.Server.GameServer - Saved all databases and 1 players in 94ms
+15:07:33,822 - [29] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:07:33,822 - [23] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:07:33,823 - [23] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:07:33,852 - [27] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:07:33,852 - [27] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:07:33,852 - [27] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:07:33,868 - [29] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:08:33,828 - [24] - INFO  - Game.Server.GameServer - Begin ping check....
+15:08:33,828 - [24] - INFO  - Game.Server.GameServer - End ping check....
+15:08:33,828 - [24] - INFO  - Game.Server.GameServer - Begin ping center check....
+15:08:33,829 - [24] - INFO  - Game.Server.GameServer - End ping center check....
+15:08:33,828 - [29] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:08:33,828 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:08:33,831 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:08:33,859 - [22] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:08:33,859 - [22] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:08:33,860 - [22] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:08:33,874 - [29] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:09:33,835 - [28] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:09:33,835 - [27] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:09:33,837 - [27] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:09:33,867 - [29] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:09:33,867 - [29] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:09:33,867 - [29] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:09:33,911 - [28] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:10:33,845 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:10:33,845 - [21] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:10:33,845 - [27] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:10:33,876 - [29] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:10:33,877 - [29] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:10:33,877 - [29] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:10:33,920 - [27] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:11:33,744 - [22] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - Begin Save CloudBuyLottery to DB ....
+15:11:33,763 - [22] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - End CloudBuyLottery Scan....
+15:11:33,791 - [27] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+15:11:33,791 - [21] - INFO  - Game.Server.GameServer - BagMail Scaning ...
+15:11:33,791 - [27] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+15:11:33,791 - [29] - INFO  - Game.Server.GameServer - Saving Record...
+15:11:33,792 - [29] - INFO  - Game.Server.GameServer - Saving Record complete!
+15:11:33,792 - [21] - INFO  - Game.Server.GameServer - BagMail Scan complete!
+15:11:33,838 - [26] - INFO  - Game.Server.GameServer - Begin ping check....
+15:11:33,838 - [26] - INFO  - Game.Server.GameServer - End ping check....
+15:11:33,838 - [26] - INFO  - Game.Server.GameServer - Begin ping center check....
+15:11:33,839 - [26] - INFO  - Game.Server.GameServer - End ping center check....
+15:11:33,854 - [21] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:11:33,854 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:11:33,855 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:11:33,884 - [29] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:11:33,884 - [29] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:11:33,885 - [29] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:11:33,911 - [21] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:12:33,877 - [29] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:12:33,877 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:12:33,879 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:12:33,893 - [26] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:12:33,893 - [26] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:12:33,893 - [26] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:12:33,968 - [29] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:13:33,892 - [24] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:13:33,892 - [29] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:13:33,892 - [29] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:13:33,908 - [27] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:13:33,908 - [27] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:13:33,909 - [27] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:13:33,936 - [24] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:14:33,840 - [23] - INFO  - Game.Server.GameServer - Begin ping check....
+15:14:33,840 - [23] - INFO  - Game.Server.GameServer - End ping check....
+15:14:33,841 - [23] - INFO  - Game.Server.GameServer - Begin ping center check....
+15:14:33,841 - [23] - INFO  - Game.Server.GameServer - End ping center check....
+15:14:33,903 - [28] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:14:33,903 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:14:33,904 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:14:33,919 - [27] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:14:33,919 - [27] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:14:33,921 - [27] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:14:33,946 - [28] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:15:33,905 - [26] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+15:15:33,906 - [26] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+15:15:33,905 - [29] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+15:15:33,920 - [28] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:15:33,920 - [28] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:15:33,921 - [28] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:15:33,950 - [29] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+15:16:33,747 - [26] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - Begin Save CloudBuyLottery to DB ....
+15:16:33,756 - [26] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - End CloudBuyLottery Scan....
+15:16:33,794 - [21] - INFO  - Game.Server.GameServer - Saving Record...
+15:16:33,794 - [21] - INFO  - Game.Server.GameServer - Saving Record complete!
+15:16:33,794 - [27] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+15:16:33,794 - [27] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+15:16:33,794 - [22] - INFO  - Game.Server.GameServer - Saving database...
+15:16:33,878 - [22] - INFO  - Game.Server.GameServer - Saving database complete!
+15:16:33,878 - [22] - INFO  - Game.Server.GameServer - Saved all databases and 1 players in 78ms
+15:16:33,920 - [21] - INFO  - Game.Server.GameServer - Buff Scaning ...
+15:16:33,920 - [21] - INFO  - Game.Server.GameServer - Buff Scan complete!
+15:16:33,920 - [21] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+15:16:33,920 - [27] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begi19:09:44,675 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+19:09:44,721 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+19:09:44,721 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+19:09:44,760 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+19:09:44,761 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+19:09:44,761 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+19:09:44,763 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+19:09:44,885 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+19:09:44,889 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+19:09:44,898 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+19:09:46,262 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+19:09:46,263 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+19:09:50,076 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+19:09:50,154 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+19:09:50,276 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+19:09:50,284 - [MAIN] - INFO  - Game.Server.GameServer - AccumulActiveLoginMgr Init: True
+19:09:52,305 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+19:09:52,308 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+19:09:52,312 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+19:09:52,313 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+19:09:52,317 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+19:09:52,321 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+19:09:52,327 - [MAIN] - INFO  - Game.Server.GameServer - ActivityQuestMgr Init: True
+19:09:52,331 - [MAIN] - INFO  - Game.Server.GameServer - ActivityHalloweenItemsMgr Init: True
+19:09:52,334 - [MAIN] - INFO  - Game.Server.GameServer - ChargeSpendRewardTemplateMgr Init: True
+19:09:52,352 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+19:09:52,354 - [MAIN] - INFO  - Game.Server.GameServer - LotteryShowTemplateMgr Init: True
+19:09:52,358 - [MAIN] - INFO  - Game.Server.GameServer - TreeTemplateMgr Init: True
+19:09:52,361 - [MAIN] - INFO  - Game.Server.GameServer - NewTitleMgr Init: True
+19:09:52,364 - [MAIN] - INFO  - Game.Server.GameServer - PetMoePropertyMgr Init: True
+19:09:52,368 - [MAIN] - INFO  - Game.Server.GameServer - RankTemplateMgr Init: True
+19:09:52,395 - [MAIN] - INFO  - Game.Server.GameServer - DailyLeagueAwardMgr Init: True
+19:09:52,400 - [MAIN] - INFO  - Game.Server.GameServer - SearchGoodsMgr Init: True
+19:09:52,406 - [MAIN] - INFO  - Game.Server.GameServer - SuitMgr Init: True
+19:09:52,411 - [MAIN] - INFO  - Game.Server.GameServer - DiceGameAwardMgr Init: True
+19:09:52,420 - [MAIN] - INFO  - Game.Server.GameServer - EveryDayActiveMgr Init: True
+19:09:52,429 - [MAIN] - INFO  - Game.Server.GameServer - GmActivityMgr Init: True
+19:09:52,433 - [MAIN] - INFO  - Game.Server.GameServer - FightLabDropItemMgr Init: True
+19:09:52,436 - [MAIN] - INFO  - Game.Server.GameServer - HelpGameRewardMgr Init: True
+19:09:52,440 - [MAIN] - INFO  - Game.Server.GameServer - MagicItemTemplateMgr Init: True
+19:09:52,442 - [MAIN] - INFO  - Game.Server.GameServer - AllQuestionsMgr Init: True
+19:09:52,445 - [MAIN] - INFO  - Game.Server.GameServer - ChargeActiveTemplateMgr Init: True
+19:09:52,452 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+19:09:52,458 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+19:09:52,462 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+19:09:52,471 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+19:09:52,502 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+19:09:52,508 - [MAIN] - INFO  - Game.Server.GameServer - AvatarColectionMgr Init: True
+19:09:52,513 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+19:09:52,515 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+19:09:52,528 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+19:09:52,531 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+19:09:52,630 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+19:09:52,701 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+19:09:52,759 - [MAIN] - INFO  - Game.Server.GameServer - ActiveMgr Init: True
+19:09:52,765 - [MAIN] - INFO  - Game.Server.GameServer - GypsyShopMgr Init: True
+19:09:52,773 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+19:09:52,778 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+19:09:52,782 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+19:09:52,803 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+19:09:52,818 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+19:09:52,832 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+19:09:52,835 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+19:09:52,840 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+19:09:52,844 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+19:09:52,847 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+19:09:52,849 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+19:09:52,852 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+19:09:52,858 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneMgr Init: True
+19:09:52,861 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+19:09:52,863 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+19:09:52,868 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+19:09:53,462 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+19:09:53,471 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr Setup: True
+19:09:53,476 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr Init: True
+19:09:53,478 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr Init: True
+19:09:53,484 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr Init: True
+19:09:53,491 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr Setup: True
+19:09:53,495 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelMgr Setup: True
+19:09:53,499 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr Setup: True
+19:09:53,506 - [MAIN] - INFO  - Game.Server.GameServer - TreasurePuzzledMgr Setup: True
+19:09:53,515 - [MAIN] - INFO  - Game.Server.GameServer - MountMgr Init: True
+19:09:53,519 - [MAIN] - INFO  - Game.Server.GameServer - CloudBuyLotteryMgr Setup: True
+19:09:53,539 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr Setup: True
+19:09:53,557 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+19:09:53,562 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+19:09:53,563 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+19:09:53,578 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 127.0.0.1:9208 loaded...
+19:09:53,580 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+19:09:53,581 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr Setup: True
+19:09:53,583 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9208
+19:09:53,609 - [MAIN] - INFO  - Game.Server.GameServer - RingStation Int: True
+19:09:53,611 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+19:09:53,612 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Setup: True
+19:09:53,619 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 172 handlers from GameServer Assembly!
+19:09:53,624 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+19:09:53,626 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9802
+19:09:53,627 - [MAIN] - INFO  - Game.Server.GameServer - Login To CenterServer: True
+19:09:53,627 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9203
+19:09:53,627 - [MAIN] - INFO  - Game.Server.GameServer - Login To CenterCrooszoneServer: True
+19:09:53,629 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9208
+19:09:53,631 - [MAIN] - INFO  - Game.Server.GameServer - base.Start(): True
+19:09:53,798 - [MAIN] - INFO  - Game.Server.GameServer - GameServer is now open for connections!
+19:10:23,997 - [16] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:39519
+19:10:24,001 - [16] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:39519), received bytes=0
+19:10:24,026 - [16] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:39520
+19:10:24,475 - [22] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+19:10:53,521 - [25] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+19:10:53,521 - [25] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+19:10:53,600 - [23] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+19:10:53,614 - [21] - INFO  - Game.Server.GameServer - Buff Scaning ...
+19:10:53,614 - [21] - INFO  - Game.Server.GameServer - Buff Scan complete!
+19:10:53,616 - [21] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+19:10:53,645 - [23] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+19:11:16,611 - [29] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:39520), received bytes=0
+19:11:16,648 - [29] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+19:11:53,529 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+19:11:53,529 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+19:11:53,607 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+19:11:53,621 - [23] - INFO  - Game.Server.GameServer - Buff Scaning ...
+19:11:53,621 - [23] - INFO  - Game.Server.GameServer - Buff Scan complete!
+19:11:53,623 - [23] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+19:11:53,644 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+19:12:47,998 - [32] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:7342
+19:12:48,004 - [32] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:7342), received bytes=0
+19:12:48,029 - [32] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:7343
+19:12:48,151 - [24] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+19:12:53,540 - [23] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+19:12:53,540 - [23] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+19:12:53,618 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+19:12:53,618 - [22] - INFO  - Game.Server.GameServer - Begin ping check....
+19:12:53,619 - [22] - INFO  - Game.Server.GameServer - End ping check....
+19:12:53,619 - [22] - INFO  - Game.Server.GameServer - Begin ping center check....
+19:12:53,619 - [22] - INFO  - Game.Server.GameServer - End ping center check....
+19:12:53,634 - [21] - INFO  - Game.Server.GameServer - Buff Scaning ...
+19:12:53,634 - [21] - INFO  - Game.Server.GameServer - Buff Scan complete!
+19:12:53,634 - [21] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+19:12:53,647 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+19:13:20,303 - [34] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+19:13:52,564 - [34] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:61765
+19:13:52,568 - [34] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:61765), received bytes=0
+19:13:52,595 - [34] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:61766
+19:13:52,656 - [24] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+19:13:53,552 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+19:13:53,552 - [22] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+19:13:53,632 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+19:13:53,634 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+19:13:53,648 - [22] - INFO  - Game.Server.GameServer - Buff Scaning ...
+19:13:53,648 - [22] - INFO  - Game.Server.GameServer - Buff Scan complete!
+19:13:53,648 - [22] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+19:14:53,523 - [24] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - Begin Save CloudBuyLottery to DB ....
+19:14:53,568 - [23] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+19:14:53,580 - [23] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+19:14:53,615 - [22] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+19:14:53,615 - [21] - INFO  - Game.Server.GameServer - Saving Record...
+19:14:53,646 - [23] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+19:14:53,663 - [44] - INFO  - Game.Server.GameServer - Buff Scaning ...
+19:14:53,760 - [23] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+19:14:53,799 - [21] - INFO  - Game.Server.GameServer - Saving Record complete!
+19:14:53,834 - [22] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+19:14:53,835 - [44] - INFO  - Game.Server.GameServer - Buff Scan complete!
+19:14:53,854 - [44] - INFO  - Game.Server.GameServer - Buff all 1 players in 171ms
+19:14:53,864 - [24] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - End CloudBuyLottery Scan....
+19:15:53,573 - [45] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+19:15:53,573 - [45] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+19:15:53,621 - [24] - INFO  - Game.Server.GameServer - Begin ping check....
+19:15:53,621 - [24] - INFO  - Game.Server.GameServer - End ping check....
+19:15:53,621 - [24] - INFO  - Game.Server.GameServer - Begin ping center check....
+19:15:53,622 - [24] - INFO  - Game.Server.GameServer - End ping center check....
+19:15:53,653 - [21] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+19:15:53,669 - [23] - INFO  - Game.Server.GameServer - Buff Scaning ...
+19:15:53,669 - [23] - INFO  - Game.Server.GameServer - Buff Scan complete!
+19:15:53,669 - [23] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+19:15:53,693 - [21] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+19:16:53,577 - [44] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+19:16:53,577 - [44] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+19:16:53,654 - [21] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+19:16:53,669 - [45] - INFO  - Game.Server.GameServer - Buff Scaning ...
+19:16:53,669 - [45] - INFO  - Game.Server.GameServer - Buff Scan complete!
+19:16:53,669 - [45] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+19:16:53,704 - [21] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+19:17:01,074 - [49] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:61766), received bytes=0
+19:17:01,115 - [49] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+19:17:36,898 - [51] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:11447
+19:17:36,904 - [51] - INFO  - Game.Base.BaseClient - Disconnecting client (127.0.0.1:11447), received bytes=0
+19:17:36,930 - [51] - INFO  - Game.Base.BaseServer - Incoming connection from 127.0.0.1:11448
+19:17:37,047 - [44] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.UpdatePlayer(PlayerInfo player) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 2095
+19:17:53,583 - [44] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+19:17:53,583 - [44] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+19:17:53,661 - [22] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+19:17:53,667 - [22] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+19:17:53,677 - [24] - INFO  - Game.Server.GameServer - Buff Scaning ...
+19:17:53,677 - [24] - INFO  - Game.Server.GameServer - Buff Scan complete!
+19:17:53,677 - [24] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+19:18:53,588 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+19:18:53,588 - [24] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+19:18:53,637 - [45] - INFO  - Game.Server.GameServer - Begin ping check....
+19:18:53,637 - [45] - INFO  - Game.Server.GameServer - End ping check....
+19:18:53,638 - [45] - INFO  - Game.Server.GameServer - Begin ping center check....
+19:18:53,638 - [45] - INFO  - Game.Server.GameServer - End ping center check....
+19:18:53,667 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - Begin Scan RingStation Info....
+19:18:53,683 - [23] - INFO  - Game.Server.GameServer - Buff Scaning ...
+19:18:53,683 - [23] - INFO  - Game.Server.GameServer - Buff Scan complete!
+19:18:53,683 - [23] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+19:18:53,703 - [25] - INFO  - Game.Server.RingStation.RingStationMgr - End Scan RingStation Info....
+19:19:53,533 - [24] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - Begin Save CloudBuyLottery to DB ....
+19:19:53,541 - [24] - INFO  - Game.Server.Managers.CloudBuyLotteryMgr - End CloudBuyLottery Scan....
+19:19:53,597 - [45] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+19:19:53,597 - [45] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+19:19:53,612 - [25] - INFO  - Game.Server.GameServer - Saving database...
+19:19:53,627 - [44] - INFO  - Game.Server.GameServer - Saving Record...
+19:19:53,627 - [44] - INFO  - Game.Server.GameServer - Saving Record complete!
+19:19:53,627 - [21] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+19:19:53,629 - [21] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+19:19:53,674 - [23] - INFO  - Game.Server.RingStat21:48:48,791 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+21:48:48,837 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+21:48:48,838 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+21:48:48,874 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+21:48:48,874 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+21:48:48,875 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+21:48:48,876 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+21:48:48,945 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+21:48:48,950 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+21:48:48,960 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+21:48:48,994 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+21:48:48,995 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+21:48:49,090 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+21:48:49,161 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+21:48:49,277 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+21:48:49,283 - [MAIN] - INFO  - Game.Server.GameServer - AccumulActiveLoginMgr Init: True
+21:48:49,595 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+21:48:49,597 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+21:48:49,601 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+21:48:49,602 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+21:48:49,605 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+21:48:49,608 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+21:48:49,614 - [MAIN] - INFO  - Game.Server.GameServer - ActivityQuestMgr Init: True
+21:48:49,618 - [MAIN] - INFO  - Game.Server.GameServer - ActivityHalloweenItemsMgr Init: True
+21:48:49,620 - [MAIN] - INFO  - Game.Server.GameServer - ChargeSpendRewardTemplateMgr Init: True
+21:48:49,637 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+21:48:49,641 - [MAIN] - INFO  - Game.Server.GameServer - LotteryShowTemplateMgr Init: True
+21:48:49,644 - [MAIN] - INFO  - Game.Server.GameServer - TreeTemplateMgr Init: True
+21:48:49,649 - [MAIN] - INFO  - Game.Server.GameServer - NewTitleMgr Init: True
+21:48:49,653 - [MAIN] - INFO  - Game.Server.GameServer - PetMoePropertyMgr Init: True
+21:48:49,654 - [MAIN] - INFO  - Game.Server.GameServer - RankTemplateMgr Init: True
+21:48:49,658 - [MAIN] - INFO  - Game.Server.GameServer - DailyLeagueAwardMgr Init: True
+21:48:49,663 - [MAIN] - INFO  - Game.Server.GameServer - SearchGoodsMgr Init: True
+21:48:49,667 - [MAIN] - INFO  - Game.Server.GameServer - SuitMgr Init: True
+21:48:49,672 - [MAIN] - INFO  - Game.Server.GameServer - DiceGameAwardMgr Init: True
+21:48:49,680 - [MAIN] - INFO  - Game.Server.GameServer - EveryDayActiveMgr Init: True
+21:48:49,688 - [MAIN] - INFO  - Game.Server.GameServer - GmActivityMgr Init: True
+21:48:49,691 - [MAIN] - INFO  - Game.Server.GameServer - FightLabDropItemMgr Init: True
+21:48:49,694 - [MAIN] - INFO  - Game.Server.GameServer - HelpGameRewardMgr Init: True
+21:48:49,697 - [MAIN] - INFO  - Game.Server.GameServer - MagicItemTemplateMgr Init: True
+21:48:49,699 - [MAIN] - INFO  - Game.Server.GameServer - AllQuestionsMgr Init: True
+21:48:49,701 - [MAIN] - INFO  - Game.Server.GameServer - ChargeActiveTemplateMgr Init: True
+21:48:49,708 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+21:48:49,713 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+21:48:49,717 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+21:48:49,724 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+21:48:49,752 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+21:48:49,759 - [MAIN] - INFO  - Game.Server.GameServer - AvatarColectionMgr Init: True
+21:48:49,762 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+21:48:49,765 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+21:48:49,776 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+21:48:49,778 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+21:48:49,878 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+21:48:49,947 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+21:48:50,000 - [MAIN] - INFO  - Game.Server.GameServer - ActiveMgr Init: True
+21:48:50,005 - [MAIN] - INFO  - Game.Server.GameServer - GypsyShopMgr Init: True
+21:48:50,014 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+21:48:50,017 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+21:48:50,022 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+21:48:50,043 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+21:48:50,054 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+21:48:50,069 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+21:48:50,072 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+21:48:50,077 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+21:48:50,081 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+21:48:50,084 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+21:48:50,087 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+21:48:50,089 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+21:48:50,093 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneMgr Init: True
+21:48:50,096 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+21:48:50,097 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+21:48:50,101 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+21:48:50,665 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+21:48:50,675 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr Setup: True
+21:48:50,678 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr Init: True
+21:48:50,683 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr Init: True
+21:48:50,685 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr Init: True
+21:48:50,691 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr Setup: True
+21:48:50,694 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelMgr Setup: True
+21:48:50,699 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr Setup: True
+21:48:50,704 - [MAIN] - INFO  - Game.Server.GameServer - TreasurePuzzledMgr Setup: True
+21:48:50,711 - [MAIN] - INFO  - Game.Server.GameServer - MountMgr Init: True
+21:48:50,715 - [MAIN] - INFO  - Game.Server.GameServer - CloudBuyLotteryMgr Setup: True
+21:48:50,738 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr Setup: True
+21:48:50,741 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+21:48:50,745 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+21:48:50,746 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+21:48:50,754 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 127.0.0.1:9208 loaded...
+21:48:50,755 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+21:48:50,756 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr Setup: True
+21:48:50,759 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9208
+21:48:50,786 - [MAIN] - INFO  - Game.Server.GameServer - RingStation Int: True
+21:48:50,787 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+21:48:50,787 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Setup: True
+21:48:50,795 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 172 handlers from GameServer Assembly!
+21:48:50,799 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+21:48:50,802 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9802
+21:56:43,894 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+21:56:43,936 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+21:56:43,938 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+21:56:43,976 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+21:56:43,976 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+21:56:43,976 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+21:56:43,978 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+21:56:44,035 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+21:56:44,039 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+21:56:44,047 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+21:56:44,086 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+21:56:44,087 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+21:56:44,148 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+21:56:44,231 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+21:56:44,360 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+21:56:44,367 - [MAIN] - INFO  - Game.Server.GameServer - AccumulActiveLoginMgr Init: True
+21:56:44,470 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+21:56:44,477 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+21:56:44,480 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+21:56:44,484 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+21:56:44,491 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+21:56:44,495 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+21:56:44,501 - [MAIN] - INFO  - Game.Server.GameServer - ActivityQuestMgr Init: True
+21:56:44,507 - [MAIN] - INFO  - Game.Server.GameServer - ActivityHalloweenItemsMgr Init: True
+21:56:44,510 - [MAIN] - INFO  - Game.Server.GameServer - ChargeSpendRewardTemplateMgr Init: True
+21:56:44,529 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+21:56:44,531 - [MAIN] - INFO  - Game.Server.GameServer - LotteryShowTemplateMgr Init: True
+21:56:44,536 - [MAIN] - INFO  - Game.Server.GameServer - TreeTemplateMgr Init: True
+21:56:44,542 - [MAIN] - INFO  - Game.Server.GameServer - NewTitleMgr Init: True
+21:56:44,547 - [MAIN] - INFO  - Game.Server.GameServer - PetMoePropertyMgr Init: True
+21:56:44,551 - [MAIN] - INFO  - Game.Server.GameServer - RankTemplateMgr Init: True
+21:56:44,556 - [MAIN] - INFO  - Game.Server.GameServer - DailyLeagueAwardMgr Init: True
+21:56:44,563 - [MAIN] - INFO  - Game.Server.GameServer - SearchGoodsMgr Init: True
+21:56:44,570 - [MAIN] - INFO  - Game.Server.GameServer - SuitMgr Init: True
+21:56:44,574 - [MAIN] - INFO  - Game.Server.GameServer - DiceGameAwardMgr Init: True
+21:56:44,583 - [MAIN] - INFO  - Game.Server.GameServer - EveryDayActiveMgr Init: True
+21:56:44,596 - [MAIN] - INFO  - Game.Server.GameServer - GmActivityMgr Init: True
+21:56:44,598 - [MAIN] - INFO  - Game.Server.GameServer - FightLabDropItemMgr Init: True
+21:56:44,602 - [MAIN] - INFO  - Game.Server.GameServer - HelpGameRewardMgr Init: True
+21:56:44,606 - [MAIN] - INFO  - Game.Server.GameServer - MagicItemTemplateMgr Init: True
+21:56:44,609 - [MAIN] - INFO  - Game.Server.GameServer - AllQuestionsMgr Init: True
+21:56:44,611 - [MAIN] - INFO  - Game.Server.GameServer - ChargeActiveTemplateMgr Init: True
+21:56:45,102 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+21:56:45,109 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+21:56:45,111 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+21:56:45,122 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+21:56:45,264 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+21:56:45,272 - [MAIN] - INFO  - Game.Server.GameServer - AvatarColectionMgr Init: True
+21:56:45,276 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+21:56:45,278 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+21:56:45,292 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+21:56:45,317 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+21:56:45,409 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+21:56:45,487 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+21:56:45,553 - [MAIN] - INFO  - Game.Server.GameServer - ActiveMgr Init: True
+21:56:45,558 - [MAIN] - INFO  - Game.Server.GameServer - GypsyShopMgr Init: True
+21:56:45,587 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+21:56:45,596 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+21:56:45,600 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+21:56:45,623 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+21:56:45,641 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+21:56:45,684 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+21:56:45,689 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+21:56:45,694 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+21:56:45,702 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+21:56:45,707 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+21:56:45,711 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+21:56:45,715 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+21:56:45,722 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneMgr Init: True
+21:56:45,727 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+21:56:45,728 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+21:56:45,737 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+21:56:46,580 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+21:56:46,593 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr Setup: True
+21:56:46,598 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr Init: True
+21:56:46,602 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr Init: True
+21:56:46,609 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr Init: True
+21:56:46,616 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr Setup: True
+21:56:46,620 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelMgr Setup: True
+21:56:46,626 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr Setup: True
+21:56:46,635 - [MAIN] - INFO  - Game.Server.GameServer - TreasurePuzzledMgr Setup: True
+21:56:46,650 - [MAIN] - INFO  - Game.Server.GameServer - MountMgr Init: True
+21:56:46,654 - [MAIN] - INFO  - Game.Server.GameServer - CloudBuyLotteryMgr Setup: True
+21:56:46,673 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr Setup: True
+21:56:46,675 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+21:56:46,680 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+21:56:46,680 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+21:56:46,684 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 127.0.0.1:9208 loaded...
+21:56:46,687 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+21:56:46,687 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr Setup: True
+21:56:46,690 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9208
+21:56:46,736 - [MAIN] - INFO  - Game.Server.GameServer - RingStation Int: True
+21:56:46,736 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+21:56:46,737 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Setup: True
+21:56:46,745 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 172 handlers from GameServer Assembly!
+21:56:46,749 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 26 spell handlers from GameServer Assembly!
+21:56:46,751 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 127.0.0.1:9802

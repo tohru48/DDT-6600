@@ -1,0 +1,37 @@
+using Game.Logic;
+using Game.Server.GameObjects;
+using SqlDataProvider.Data;
+
+namespace Game.Server.Quests
+{
+	public class FinishGameCondition : BaseCondition
+	{
+		public FinishGameCondition(BaseQuest quest, QuestConditionInfo info, int value)
+			: base(quest, info, value)
+		{
+		}
+
+		public override void AddTrigger(GamePlayer player)
+		{
+			player.GameOver += method_0;
+		}
+
+		private void method_0(AbstractGame abstractGame_0, bool bool_0, int int_1)
+		{
+			if (base.Value < m_info.Para1)
+			{
+				base.Value++;
+			}
+		}
+
+		public override void RemoveTrigger(GamePlayer player)
+		{
+			player.GameOver -= method_0;
+		}
+
+		public override bool IsCompleted(GamePlayer player)
+		{
+			return base.Value <= 0;
+		}
+	}
+}

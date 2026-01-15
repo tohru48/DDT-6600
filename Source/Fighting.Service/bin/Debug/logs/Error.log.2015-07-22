@@ -1,0 +1,30 @@
+00:25:31,407 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+10:31:05,735 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+10:57:22,485 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+11:37:04,079 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+13:07:17,235 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)

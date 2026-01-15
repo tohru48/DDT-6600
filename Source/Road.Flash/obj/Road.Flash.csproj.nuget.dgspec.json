@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DDTANK\\Dosyalar\\DDtank_6.5\\Source\\Road.Flash\\Road.Flash.csproj": {}
+  },
+  "projects": {
+    "D:\\DDTANK\\Dosyalar\\DDtank_6.5\\Source\\Road.Flash\\Road.Flash.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DDTANK\\Dosyalar\\DDtank_6.5\\Source\\Road.Flash\\Road.Flash.csproj",
+        "projectName": "Road.Flash",
+        "projectPath": "D:\\DDTANK\\Dosyalar\\DDtank_6.5\\Source\\Road.Flash\\Road.Flash.csproj",
+        "packagesPath": "C:\\Users\\Emrullah\\.nuget\\packages\\",
+        "outputPath": "D:\\DDTANK\\Dosyalar\\DDtank_6.5\\Source\\Road.Flash\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emrullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "D:\\DDTANK\\Dosyalar\\DDtank_6.5\\Source\\SqlDataProvider\\SqlDataProvider.csproj": {
+                "projectPath": "D:\\DDTANK\\Dosyalar\\DDtank_6.5\\Source\\SqlDataProvider\\SqlDataProvider.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DDTANK\\Dosyalar\\DDtank_6.5\\Source\\SqlDataProvider\\SqlDataProvider.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\DDTANK\\Dosyalar\\DDtank_6.5\\Source\\SqlDataProvider\\SqlDataProvider.csproj",
+        "projectName": "SqlDataProvider",
+        "projectPath": "D:\\DDTANK\\Dosyalar\\DDtank_6.5\\Source\\SqlDataProvider\\SqlDataProvider.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}

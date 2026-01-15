@@ -1,0 +1,1276 @@
+19:59:30,719 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+19:59:30,719 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+19:59:32,672 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb
+20:14:07,751 - [33] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+20:23:21,813 - [81] - ERROR - Game.Server.GameServer - RsaCryptor
+System.Security.Cryptography.CryptographicException: Dados inválidos.
+
+   em System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   em System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   em System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   em Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, GSPacketIn packet)
+20:29:37,063 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,079 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,094 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,110 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,110 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,126 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,141 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,141 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,157 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,173 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,188 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,204 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,220 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,235 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,235 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,266 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,282 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,297 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,297 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,313 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,329 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,344 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,360 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,376 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,376 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,391 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,407 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,423 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,423 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,438 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,454 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,454 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,469 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,469 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,485 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,485 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,485 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,501 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,501 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,516 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,532 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,532 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,547 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,547 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,563 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:29:37,579 - [100] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:37:27,548 - [131] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:37:35,298 - [137] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:50:22,829 - [192] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:50:31,938 - [131] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,110 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,126 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,157 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,188 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,188 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,204 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,219 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,219 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,235 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,251 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,266 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,266 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,297 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,297 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,329 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,360 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,391 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,407 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,422 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,438 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,454 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,469 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,469 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,485 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,501 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,516 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,532 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,547 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,563 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,610 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,626 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,626 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,641 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,657 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,688 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,735 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,751 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,782 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,797 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,813 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,829 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,845 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,891 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,907 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,923 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,939 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,970 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,970 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:37,985 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:38,001 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+20:59:38,016 - [134] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:09:11,266 - [206] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:13:47,672 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+21:14:26,594 - [203] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 200.171.201.138:51804)
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em System.Collections.Generic.List`1.set_Item(Int32 index, T value)
+   em Game.Server.GameUtils.PetAbstractInventory.SetSkillEquip(UsersPetinfo pet, Int32 place, String skill)
+   em Game.Server.GameUtils.PetAbstractInventory.EquipSkillPet(Int32 place, Int32 killId, Int32 killindex)
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+21:14:26,626 - [203] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 01 3A 00 44 00 00 29 4C 00 00 00 00   q..!.:.D..)L....
+0010: 00 00 00 00 07 00 00 00 04 00 00 00 7B 00 00 00   ............{...
+0020: 04                                                .               
+
+21:20:28,469 - [206] - ERROR - Game.Server.GameServer - RsaCryptor
+System.Security.Cryptography.CryptographicException: Dados inválidos.
+
+   em System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   em System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   em System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   em Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, GSPacketIn packet)
+21:24:49,813 - [172] - ERROR - Bussiness.BaseBussiness - SP_VIPRenewal_Single
+System.InvalidCastException: Conversão especificada não é válida.
+   em Bussiness.PlayerBussiness.method_0(String nickName, Int32 renewalDays, DateTime& ExpireDayOut)
+21:26:03,610 - [174] - ERROR - Game.Server.GameServer - RsaCryptor
+System.Security.Cryptography.CryptographicException: Dados inválidos.
+
+   em System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   em System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   em System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   em Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, GSPacketIn packet)
+21:27:54,735 - [166] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,094 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,110 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,126 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,157 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,188 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,205 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,219 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,235 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,235 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,251 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,283 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,298 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,298 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,298 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,329 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,345 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,360 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,376 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,391 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,407 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,423 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,454 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,454 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,470 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,485 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,501 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,517 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,532 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,547 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,579 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,595 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,626 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,641 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,657 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,673 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,688 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,704 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,735 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,751 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,751 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,782 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,797 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,813 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,829 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,907 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,954 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:37,969 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:38,001 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:38,016 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:38,016 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:38,032 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:38,079 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:38,094 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:38,110 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:38,126 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:38,141 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:38,188 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:29:38,204 - [224] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:30:34,969 - [168] - ERROR - Bussiness.BaseBussiness - SP_VIPRenewal_Single
+System.InvalidCastException: Conversão especificada não é válida.
+   em Bussiness.PlayerBussiness.method_0(String nickName, Int32 renewalDays, DateTime& ExpireDayOut)
+21:30:36,829 - [164] - ERROR - Bussiness.BaseBussiness - SP_VIPRenewal_Single
+System.InvalidCastException: Conversão especificada não é válida.
+   em Bussiness.PlayerBussiness.method_0(String nickName, Int32 renewalDays, DateTime& ExpireDayOut)
+21:30:38,172 - [168] - ERROR - Bussiness.BaseBussiness - SP_VIPRenewal_Single
+System.InvalidCastException: Conversão especificada não é válida.
+   em Bussiness.PlayerBussiness.method_0(String nickName, Int32 renewalDays, DateTime& ExpireDayOut)
+21:30:40,079 - [157] - ERROR - Bussiness.BaseBussiness - SP_VIPRenewal_Single
+System.InvalidCastException: Conversão especificada não é válida.
+   em Bussiness.PlayerBussiness.method_0(String nickName, Int32 renewalDays, DateTime& ExpireDayOut)
+21:32:50,720 - [169] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:32:59,266 - [172] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:44:15,266 - [134] - ERROR - Game.Server.GameServer - RsaCryptor
+System.Security.Cryptography.CryptographicException: Dados inválidos.
+
+   em System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   em System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   em System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   em Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, GSPacketIn packet)
+21:59:37,110 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,141 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,204 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,220 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,235 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,251 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,251 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,282 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,282 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,298 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,329 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,329 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,360 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,376 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,391 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,407 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,454 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,469 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,469 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,485 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,501 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,516 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,516 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,532 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,548 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,563 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,579 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,594 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,626 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,642 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,642 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,673 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,720 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,735 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,767 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,782 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,797 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,876 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,892 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,907 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,954 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,954 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:37,985 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:38,032 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:38,032 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+21:59:38,063 - [216] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:01:20,391 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+22:01:20,594 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+22:01:20,798 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+22:01:21,001 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+22:01:21,204 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+22:01:24,454 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+22:01:24,657 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+22:04:30,547 - [216] - ERROR - Game.Server.GameServer - AsynProcessPacket
+System.ArgumentException: A matriz de destino não era longa o suficiente. Verifique destIndex e o comprimento, bem como os limites inferiores da matriz.
+   em System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   em System.Collections.Generic.List`1.ToArray()
+   em Game.Server.Quests.QuestInventory.UpdateChangedQuests()
+   em Game.Server.Quests.QuestInventory.OnQuestsChanged(BaseQuest quest)
+   em Game.Server.Quests.BaseQuest.Update()
+   em Game.Server.Quests.BaseCondition.set_Value(Int32 value)
+   em Game.Server.Quests.GameKillByRoomCondition.method_1(AbstractGame abstractGame_0, Int32 int_1, Int32 int_2, Boolean bool_0, Int32 int_3)
+   em Game.Server.GameObjects.GamePlayer.PlayerGameKillEventHandel.Invoke(AbstractGame game, Int32 type, Int32 id, Boolean isLiving, Int32 demage)
+   em Game.Server.GameObjects.GamePlayer.OnKillingLiving(AbstractGame game, Int32 type, Int32 id, Boolean isLiving, Int32 damage)
+   em Game.Server.Battle.FightServerConnector.method_6(GSPacketIn gspacketIn_0)
+   em Game.Server.Battle.FightServerConnector.AsynProcessPacket(Object state)
+22:04:39,641 - [220] - ERROR - Game.Base.Packets.StreamProcessor - AsyncTcpSendCallback
+System.ObjectDisposedException: SafeHandle foi fechado
+   em System.Net.Sockets.Socket.SendAsync(SocketAsyncEventArgs e)
+   em Game.Base.BaseClient.SendAsync(SocketAsyncEventArgs e) na h:\dandantang\source\Game.Base\BaseClient.cs:linha 297
+   em Game.Base.Packets.StreamProcessor.eOs4gn4Wu(Object  , SocketAsyncEventArgs  ) na h:\dandantang\source\Game.Base\Packets\StreamProcessor.cs:linha 257
+22:09:46,376 - [120] - ERROR - Game.Server.GameServer - RsaCryptor
+System.Security.Cryptography.CryptographicException: Dados inválidos.
+
+   em System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   em System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   em System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   em Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, GSPacketIn packet)
+22:14:54,985 - [205] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:20:23,173 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+22:27:42,376 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+22:27:42,579 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+22:29:37,126 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,126 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,157 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,157 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,172 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,172 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,188 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,188 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,204 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,220 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,235 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,251 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,267 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,282 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,298 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,313 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,313 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,329 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,344 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,344 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,360 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,376 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,391 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,407 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,422 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,438 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,438 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,454 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,469 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,469 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,485 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,579 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,595 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,595 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,610 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:29:37,657 - [180] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:42:38,626 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+22:47:58,813 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+22:49:06,064 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+22:59:37,141 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,219 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,235 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,235 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,251 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,266 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,282 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,313 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,313 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,329 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,344 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,360 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,376 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,376 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,376 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,376 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,391 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,391 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,391 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,407 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,407 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,407 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,407 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,407 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,422 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,422 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,422 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,438 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,438 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,485 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,517 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,532 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,548 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,548 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+22:59:37,563 - [193] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:01:32,969 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team)
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+23:02:44,391 - [198] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+23:02:46,641 - [134] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+23:05:55,907 - [197] - ERROR - Game.Server.GameServer - RsaCryptor
+System.Security.Cryptography.CryptographicException: Dados inválidos.
+
+   em System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   em System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   em System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   em Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, GSPacketIn packet)
+23:12:42,376 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+23:16:33,751 - [178] - ERROR - Game.Server.GameServer - RsaCryptor
+System.Security.Cryptography.CryptographicException: Dados inválidos.
+
+   em System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   em System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   em System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   em Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, GSPacketIn packet)
+23:19:06,110 - [12] - ERROR - Game.Logic.PVEGame - Can't create game mission ai :GameServerScript.AI.Messions.TVT12304
+23:19:06,204 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.BaseGame.method_10(Int32 int_4)
+   em Game.Logic.PVEGame.StartLoading()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+23:19:12,720 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+23:20:04,063 - [153] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 186.214.16.94:49219)
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em System.Collections.Generic.List`1.set_Item(Int32 index, T value)
+   em Game.Server.GameUtils.PetAbstractInventory.SetSkillEquip(UsersPetinfo pet, Int32 place, String skill)
+   em Game.Server.GameUtils.PetAbstractInventory.EquipSkillPet(Int32 place, Int32 killId, Int32 killindex)
+   em Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet)
+   em Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet)
+23:20:04,080 - [153] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 01 79 00 44 00 00 29 8B 00 00 00 00   q..!.y.D..).....
+0010: 00 00 00 00 07 00 00 00 04 00 00 00 7B 00 00 00   ............{...
+0020: 04                                                .               
+
+23:22:15,126 - [170] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,188 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,188 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,188 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,204 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,219 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,236 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,266 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,344 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,344 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,360 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,376 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,376 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,391 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,407 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,438 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,454 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,454 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,454 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,469 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,485 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,485 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,501 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,501 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,610 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,641 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,657 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,672 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,672 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:29:37,688 - [161] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:39:36,766 - [217] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:40:38,782 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+23:43:54,454 - [176] - ERROR - Game.Server.GameServer - RsaCryptor
+System.Security.Cryptography.CryptographicException: Dados inválidos.
+
+   em System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   em System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   em System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   em Game.Server.Packets.Client.UserLoginHandler.HandlePacket(GameClient client, GSPacketIn packet)
+23:44:12,797 - [12] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   em Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team)
+   em Game.Logic.PVEGame.StartGame()
+   em Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+23:46:09,766 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+23:55:39,907 - [196] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+23:55:41,376 - [193] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+23:55:42,719 - [179] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+23:55:44,063 - [193] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+23:55:45,188 - [158] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+23:55:46,360 - [213] - ERROR - Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor -  RingStationLogic OnGameData is Error: System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Game.Server.RingStation.RoomGamePkg.TankHandle.GameCommandMgr.LoadCommandHandler(Int32 code)
+   em Game.Server.RingStation.RoomGamePkg.RingStationRoomLogicProcessor.OnGameData(RoomGame room, RingStationGamePlayer player, GSPacketIn packet), type: 19
+23:57:20,563 - [11] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: O índice estava fora dos limites da matriz.
+   em Class24.Execute()
+   em Game.Server.Rooms.RoomMgr.smethod_1()
+23:59:37,157 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,188 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,204 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,219 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,235 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,266 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,282 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,329 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,378 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,378 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,392 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,407 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,438 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,438 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,469 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,485 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,501 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,501 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,516 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,516 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,532 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,594 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,626 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,641 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,657 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,657 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,672 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)
+23:59:37,720 - [179] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.AddActiveSystem(ActiveSystemInfo info)

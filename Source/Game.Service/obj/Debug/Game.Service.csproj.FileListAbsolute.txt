@@ -1,0 +1,268 @@
+C:\Server7Fun\Source\Game.Service\bin\Debug\battle.xml
+C:\Server7Fun\Source\Game.Service\bin\Debug\logconfig.xml
+C:\Server7Fun\Source\Game.Service\bin\Debug\Game.Service.exe.config
+C:\Server7Fun\Source\Game.Service\bin\Debug\Game.Service.exe
+C:\Server7Fun\Source\Game.Service\bin\Debug\Game.Service.pdb
+C:\Server7Fun\Source\Game.Service\bin\Debug\Game.Server.dll.config
+C:\Server7Fun\Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Server7Fun\Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+C:\Server7Fun\Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+C:\Server7Fun\Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+C:\Server7Fun\Source\Game.Service\obj\Debug\Game.Service.csproj.CopyComplete
+C:\Server7Fun\Source\Game.Service\obj\Debug\Game.Service.exe
+C:\Server7Fun\Source\Game.Service\obj\Debug\Game.Service.pdb
+C:\Fun\Source\Game.Service\bin\Debug\battle.xml
+C:\Fun\Source\Game.Service\bin\Debug\logconfig.xml
+C:\Fun\Source\Game.Service\bin\Debug\Game.Service.exe.config
+C:\Fun\Source\Game.Service\bin\Debug\Game.Service.exe
+C:\Fun\Source\Game.Service\bin\Debug\Game.Service.pdb
+C:\Fun\Source\Game.Service\bin\Debug\Game.Server.dll.config
+C:\Fun\Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Fun\Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+C:\Fun\Source\Game.Service\obj\Debug\Game.Service.csproj.SuggestedBindingRedirects.cache
+C:\Fun\Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+C:\Fun\Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+C:\Fun\Source\Game.Service\obj\Debug\Game.Service.csproj.CopyComplete
+C:\Fun\Source\Game.Service\obj\Debug\Game.Service.exe
+C:\Fun\Source\Game.Service\obj\Debug\Game.Service.pdb
+C:\Server7Fun\Source\Game.Service\obj\Debug\Game.Service.csproj.SuggestedBindingRedirects.cache
+C:\Server4100\Source\Game.Service\bin\Debug\battle.xml
+C:\Server4100\Source\Game.Service\bin\Debug\logconfig.xml
+C:\Server4100\Source\Game.Service\bin\Debug\Game.Service.exe.config
+C:\Server4100\Source\Game.Service\bin\Debug\Game.Service.exe
+C:\Server4100\Source\Game.Service\bin\Debug\Game.Service.pdb
+C:\Server4100\Source\Game.Service\bin\Debug\Game.Server.dll.config
+C:\Server4100\Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Server4100\Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+C:\Server4100\Source\Game.Service\obj\Debug\Game.Service.csproj.SuggestedBindingRedirects.cache
+C:\Server4100\Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+C:\Server4100\Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+C:\Server4100\Source\Game.Service\obj\Debug\Game.Service.csproj.CopyComplete
+C:\Server4100\Source\Game.Service\obj\Debug\Game.Service.exe
+C:\Server4100\Source\Game.Service\obj\Debug\Game.Service.pdb
+C:\DDTANK\4100\Source\Game.Service\bin\Debug\battle.xml
+C:\DDTANK\4100\Source\Game.Service\bin\Debug\logconfig.xml
+C:\DDTANK\4100\Source\Game.Service\bin\Debug\Game.Service.exe.config
+C:\DDTANK\4100\Source\Game.Service\bin\Debug\Game.Service.exe
+C:\DDTANK\4100\Source\Game.Service\bin\Debug\Game.Service.pdb
+C:\DDTANK\4100\Source\Game.Service\bin\Debug\Game.Server.dll.config
+C:\DDTANK\4100\Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+C:\DDTANK\4100\Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+C:\DDTANK\4100\Source\Game.Service\obj\Debug\Game.Service.csproj.SuggestedBindingRedirects.cache
+C:\DDTANK\4100\Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+C:\DDTANK\4100\Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+C:\DDTANK\4100\Source\Game.Service\obj\Debug\Game.Service.csproj.CopyComplete
+C:\DDTANK\4100\Source\Game.Service\obj\Debug\Game.Service.exe
+C:\DDTANK\4100\Source\Game.Service\obj\Debug\Game.Service.pdb
+C:\DDTANK\4100\Source\Game.Service\obj\Debug\Game.Service.csproj.GenerateResource.cache
+C:\DDTANK\4100\Source\Game.Service\obj\Debug\Game.Service.info.resources
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\bin\Debug\battle.xml
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\bin\Debug\logconfig.xml
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\bin\Debug\Game.Service.exe.config
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\bin\Debug\Game.Service.exe
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\bin\Debug\Game.Service.pdb
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\bin\Debug\Game.Server.dll.config
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\obj\Debug\Game.Service.csproj.SuggestedBindingRedirects.cache
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\obj\Debug\Game.Service.GameAdminManager.resources
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\obj\Debug\Game.Service.csproj.GenerateResource.cache
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\obj\Debug\Game.Service.csproj.CopyComplete
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\obj\Debug\Game.Service.exe
+C:\DDTANK\Bombom321 v4.1.0\Source\Game.Service\obj\Debug\Game.Service.pdb
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\bin\Debug\battle.xml
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\bin\Debug\logconfig.xml
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\bin\Debug\Game.Service.exe.config
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\bin\Debug\Game.Service.exe
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\bin\Debug\Game.Service.pdb
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\bin\Debug\Game.Server.dll.config
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\obj\Debug\Game.Service.csproj.SuggestedBindingRedirects.cache
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\obj\Debug\Game.Service.GameAdminManager.resources
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\obj\Debug\Game.Service.csproj.GenerateResource.cache
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\obj\Debug\Game.Service.csproj.CopyComplete
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\obj\Debug\Game.Service.exe
+C:\Bombom321\Bombom321 (Backups)\21.01.2023\Source\Game.Service\obj\Debug\Game.Service.pdb
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\bin\Debug\battle.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\bin\Debug\logconfig.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\bin\Debug\Game.Service.exe.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\bin\Debug\Game.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\bin\Debug\Game.Service.pdb
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\bin\Debug\Game.Server.dll.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\bin\Debug\CircularProgressBar.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\bin\Debug\WinFormAnimation.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.DataManagament.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.Home.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.MessageArea.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.UserManagament.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.AdminPanelService.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.GameAdminManager.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.Properties.Resources.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.csproj.CopyComplete
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Source\Game.Service\obj\Debug\Game.Service.pdb
+C:\Bombom321\Source\Game.Service\bin\Debug\battle.xml
+C:\Bombom321\Source\Game.Service\bin\Debug\logconfig.xml
+C:\Bombom321\Source\Game.Service\bin\Debug\Game.Service.exe.config
+C:\Bombom321\Source\Game.Service\bin\Debug\Game.Service.exe
+C:\Bombom321\Source\Game.Service\bin\Debug\Game.Service.pdb
+C:\Bombom321\Source\Game.Service\bin\Debug\Game.Server.dll.config
+C:\Bombom321\Source\Game.Service\bin\Debug\CircularProgressBar.xml
+C:\Bombom321\Source\Game.Service\bin\Debug\WinFormAnimation.xml
+C:\Bombom321\Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.csproj.SuggestedBindingRedirects.cache
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.DataManagament.resources
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.Home.resources
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.MessageArea.resources
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.UserManagament.resources
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.AdminPanelService.resources
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.GameAdminManager.resources
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.Properties.Resources.resources
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.csproj.GenerateResource.cache
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.csproj.CopyComplete
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.exe
+C:\Bombom321\Source\Game.Service\obj\Debug\Game.Service.pdb
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\bin\Debug\battle.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\bin\Debug\logconfig.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\bin\Debug\Game.Service.exe.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\bin\Debug\Game.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\bin\Debug\Game.Service.pdb
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\bin\Debug\Game.Server.dll.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\bin\Debug\CircularProgressBar.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\bin\Debug\WinFormAnimation.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.DataManagament.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.Home.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.MessageArea.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.UserManagament.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.AdminPanelService.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.GameAdminManager.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.Properties.Resources.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.csproj.CopyComplete
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 2 Source\Game.Service\obj\Debug\Game.Service.pdb
+C:\Bombom321\Server 3 Source\Game.Service\bin\Debug\battle.xml
+C:\Bombom321\Server 3 Source\Game.Service\bin\Debug\logconfig.xml
+C:\Bombom321\Server 3 Source\Game.Service\bin\Debug\Game.Service.exe.config
+C:\Bombom321\Server 3 Source\Game.Service\bin\Debug\Game.Service.exe
+C:\Bombom321\Server 3 Source\Game.Service\bin\Debug\Game.Service.pdb
+C:\Bombom321\Server 3 Source\Game.Service\bin\Debug\Game.Server.dll.config
+C:\Bombom321\Server 3 Source\Game.Service\bin\Debug\CircularProgressBar.xml
+C:\Bombom321\Server 3 Source\Game.Service\bin\Debug\WinFormAnimation.xml
+C:\Bombom321\Server 3 Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.SuggestedBindingRedirects.cache
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.DataManagament.resources
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.Home.resources
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.MessageArea.resources
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.UserManagament.resources
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.AdminPanelService.resources
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.GameAdminManager.resources
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Properties.Resources.resources
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.GenerateResource.cache
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.CopyComplete
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.exe
+C:\Bombom321\Server 3 Source\Game.Service\obj\Debug\Game.Service.pdb
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\bin\Debug\battle.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\bin\Debug\logconfig.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\bin\Debug\Game.Service.exe.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\bin\Debug\Game.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\bin\Debug\Game.Service.pdb
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\bin\Debug\Game.Server.dll.config
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\bin\Debug\CircularProgressBar.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\bin\Debug\WinFormAnimation.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.DataManagament.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.Home.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.MessageArea.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.UserManagament.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.AdminPanelService.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.GameAdminManager.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.Properties.Resources.resources
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.CopyComplete
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.exe
+C:\Users\Administrator\Documents\Bombom321 Dev Area\Server 3 Source\Game.Service\obj\Debug\Game.Service.pdb
+C:\DDTANK321\Server 3 Source\Game.Service\bin\Debug\battle.xml
+C:\DDTANK321\Server 3 Source\Game.Service\bin\Debug\logconfig.xml
+C:\DDTANK321\Server 3 Source\Game.Service\bin\Debug\Game.Service.exe.config
+C:\DDTANK321\Server 3 Source\Game.Service\bin\Debug\Game.Service.exe
+C:\DDTANK321\Server 3 Source\Game.Service\bin\Debug\Game.Service.pdb
+C:\DDTANK321\Server 3 Source\Game.Service\bin\Debug\Game.Server.dll.config
+C:\DDTANK321\Server 3 Source\Game.Service\bin\Debug\CircularProgressBar.xml
+C:\DDTANK321\Server 3 Source\Game.Service\bin\Debug\WinFormAnimation.xml
+C:\DDTANK321\Server 3 Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.DataManagament.resources
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.Home.resources
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.MessageArea.resources
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.UserManagament.resources
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.AdminPanelService.resources
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.GameAdminManager.resources
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Properties.Resources.resources
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.GenerateResource.cache
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.CopyComplete
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.exe
+C:\DDTANK321\Server 3 Source\Game.Service\obj\Debug\Game.Service.pdb
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\bin\Debug\battle.xml
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\bin\Debug\logconfig.xml
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\bin\Debug\Game.Service.exe.config
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\bin\Debug\Game.Service.exe
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\bin\Debug\Game.Service.pdb
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\bin\Debug\Game.Server.dll.config
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\bin\Debug\CircularProgressBar.xml
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\bin\Debug\WinFormAnimation.xml
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.DataManagament.resources
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.Home.resources
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.MessageArea.resources
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Admin.Area.AdminPanel.Pages.UserManagament.resources
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Service.AdminPanelService.resources
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Service.GameAdminManager.resources
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Service.Properties.Resources.resources
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.GenerateResource.cache
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Ser.1388B043.Up2Date
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Service.exe
+D:\DDTANK\DDT321\Server 3 Source\Game.Service\obj\Debug\Game.Service.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Service\bin\Debug\battle.xml
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Service\bin\Debug\logconfig.xml
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Service\bin\Debug\Game.Service.exe.config
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Service\bin\Debug\Game.Service.exe
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Service\bin\Debug\Game.Service.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Service\bin\Debug\WinFormAnimation.xml
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Service\bin\Debug\Newtonsoft.Json.xml
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Service\obj\Debug\Game.Service.csproj.AssemblyReference.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Service\obj\Debug\Game.Service.csproj.CoreCompileInputs.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Service\obj\Debug\Game.Service.csproj.Fody.CopyLocal.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Service\obj\Debug\Game.Ser.1388B043.Up2Date
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Service\obj\Debug\Game.Service.exe
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\Game.Service\obj\Debug\Game.Service.pdb

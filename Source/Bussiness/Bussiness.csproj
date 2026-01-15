@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\DDTANK\Dosyalar\DDtank_6.5\Emuladores\road\Bussiness.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8547118-9279-473D-88EE-1E74D60AF85C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Bussiness</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="log4net">
+      <HintPath>lib\log4net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class0.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Enum1.cs" />
+    <Compile Include="Bussiness\BaseBussiness.cs" />
+    <Compile Include="Bussiness\ActiveBussiness.cs" />
+    <Compile Include="Bussiness\AreaBussiness.cs" />
+    <Compile Include="Bussiness\AreaPlayerBussiness.cs" />
+    <Compile Include="Bussiness\Base64.cs" />
+    <Compile Include="Bussiness\BuffType.cs" />
+    <Compile Include="Bussiness\ChatInputView.cs" />
+    <Compile Include="Bussiness\CheckCode.cs" />
+    <Compile Include="Bussiness\ConsortiaBussiness.cs" />
+    <Compile Include="Bussiness\CookieInfoBussiness.cs" />
+    <Compile Include="Bussiness\CountBussiness.cs" />
+    <Compile Include="Bussiness\GameProperties.cs" />
+    <Compile Include="Bussiness\IniReader.cs" />
+    <Compile Include="Bussiness\ItemRecordBussiness.cs" />
+    <Compile Include="Bussiness\LanguageMgr.cs" />
+    <Compile Include="Bussiness\ManageBussiness.cs" />
+    <Compile Include="Bussiness\MapBussiness.cs" />
+    <Compile Include="Bussiness\MemberShipBussiness.cs" />
+    <Compile Include="Bussiness\OrderBussiness.cs" />
+    <Compile Include="Bussiness\PlayerBussiness.cs" />
+    <Compile Include="Bussiness\ProduceBussiness.cs" />
+    <Compile Include="Bussiness\PveBussiness.cs" />
+    <Compile Include="Bussiness\RemoteBussiness.cs" />
+    <Compile Include="Bussiness\ServiceBussiness.cs" />
+    <Compile Include="Bussiness\StaticFunction.cs" />
+    <Compile Include="Bussiness\Statistics.cs" />
+    <Compile Include="Bussiness\ThreadSafeRandom.cs" />
+    <Compile Include="Bussiness\UserInfoBussiness.cs" />
+    <Compile Include="Bussiness\XmlExtends.cs" />
+    <Compile Include="Bussiness\CenterService\ICenterService.cs" />
+    <Compile Include="Bussiness\CenterService\CenterServiceClient.cs" />
+    <Compile Include="Bussiness\CenterService\ICenterServiceChannel.cs" />
+    <Compile Include="Bussiness\CenterService\ServerData.cs" />
+    <Compile Include="Bussiness\Interface\BaseInterface.cs" />
+    <Compile Include="Bussiness\Interface\DWInterface.cs" />
+    <Compile Include="Bussiness\Interface\QYInterface.cs" />
+    <Compile Include="Bussiness\Interface\SRInterface.cs" />
+    <Compile Include="Bussiness\Managers\AccumulActiveLoginMgr.cs" />
+    <Compile Include="Bussiness\Managers\AchievementMgr.cs" />
+    <Compile Include="Bussiness\Managers\ActiveMgr.cs" />
+    <Compile Include="Bussiness\Managers\ActivityHalloweenItemsMgr.cs" />
+    <Compile Include="Bussiness\Managers\ActivityQuestMgr.cs" />
+    <Compile Include="Bussiness\Managers\AllQuestionsMgr.cs" />
+    <Compile Include="Bussiness\Managers\AvatarColectionMgr.cs" />
+    <Compile Include="Bussiness\Managers\ChargeActiveTemplateMgr.cs" />
+    <Compile Include="Bussiness\Managers\ChargeSpendRewardTemplateMgr.cs" />
+    <Compile Include="Bussiness\Managers\CommunalActiveMgr.cs" />
+    <Compile Include="Bussiness\Managers\DailyLeagueAwardMgr.cs" />
+    <Compile Include="Bussiness\Managers\DiceGameAwardMgr.cs" />
+    <Compile Include="Bussiness\Managers\DiceLevelAwardMgr.cs" />
+    <Compile Include="Bussiness\Managers\DropMgr.cs" />
+    <Compile Include="Bussiness\Managers\EventAwardMgr.cs" />
+    <Compile Include="Bussiness\Managers\EveryDayActiveMgr.cs" />
+    <Compile Include="Bussiness\Managers\ExerciseMgr.cs" />
+    <Compile Include="Bussiness\Managers\FightLabDropItemMgr.cs" />
+    <Compile Include="Bussiness\Managers\FightSpiritTemplateMgr.cs" />
+    <Compile Include="Bussiness\Managers\FusionMgr.cs" />
+    <Compile Include="Bussiness\Managers\GmActivityMgr.cs" />
+    <Compile Include="Bussiness\Managers\GoldEquipMgr.cs" />
+    <Compile Include="Bussiness\Managers\HelpGameRewardMgr.cs" />
+    <Compile Include="Bussiness\Managers\ItemBoxMgr.cs" />
+    <Compile Include="Bussiness\Managers\ItemMgr.cs" />
+    <Compile Include="Bussiness\Managers\ItemStrengThenDataMgr.cs" />
+    <Compile Include="Bussiness\Managers\LightriddleQuestMgr.cs" />
+    <Compile Include="Bussiness\Managers\LotteryShowTemplateMgr.cs" />
+    <Compile Include="Bussiness\Managers\MagicItemTemplateMgr.cs" />
+    <Compile Include="Bussiness\Managers\MagicStoneMgr.cs" />
+    <Compile Include="Bussiness\Managers\MissionEnergyMgr.cs" />
+    <Compile Include="Bussiness\Managers\NewTitleMgr.cs" />
+    <Compile Include="Bussiness\Managers\PetMoePropertyMgr.cs" />
+    <Compile Include="Bussiness\Managers\QQTipsMgr.cs" />
+    <Compile Include="Bussiness\Managers\QuestMgr.cs" />
+    <Compile Include="Bussiness\Managers\RankTemplateMgr.cs" />
+    <Compile Include="Bussiness\Managers\SearchGoodsMgr.cs" />
+    <Compile Include="Bussiness\Managers\ShopMgr.cs" />
+    <Compile Include="Bussiness\Managers\SubActiveMgr.cs" />
+    <Compile Include="Bussiness\Managers\SuitMgr.cs" />
+    <Compile Include="Bussiness\Managers\TotemHonorMgr.cs" />
+    <Compile Include="Bussiness\Managers\TotemMgr.cs" />
+    <Compile Include="Bussiness\Managers\TreasureAwardMgr.cs" />
+    <Compile Include="Bussiness\Managers\TreeTemplateMgr.cs" />
+    <Compile Include="Bussiness\Managers\WorldEventMgr.cs" />
+    <Compile Include="Bussiness\Protocol\eDropType.cs" />
+    <Compile Include="Bussiness\Protocol\eReloadType.cs" />
+    <Compile Include="Bussiness\WebLogin\ChenckValidateRequest.cs" />
+    <Compile Include="Bussiness\WebLogin\ChenckValidateRequestBody.cs" />
+    <Compile Include="Bussiness\WebLogin\ChenckValidateResponse.cs" />
+    <Compile Include="Bussiness\WebLogin\ChenckValidateResponseBody.cs" />
+    <Compile Include="Bussiness\WebLogin\Get_UserSexRequest.cs" />
+    <Compile Include="Bussiness\WebLogin\Get_UserSexRequestBody.cs" />
+    <Compile Include="Bussiness\WebLogin\Get_UserSexResponse.cs" />
+    <Compile Include="Bussiness\WebLogin\Get_UserSexResponseBody.cs" />
+    <Compile Include="Bussiness\WebLogin\PassPortSoap.cs" />
+    <Compile Include="Bussiness\WebLogin\PassPortSoapChannel.cs" />
+    <Compile Include="Bussiness\WebLogin\PassPortSoapClient.cs" />
+    <Compile Include="Game\Server\Managers\ConsortiaExtraMgr.cs" />
+    <Compile Include="Game\Server\Managers\FairBattleRewardMgr.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Game.Base\Game.Base.csproj">
+      <Project>{aede72ec-b7b8-4bb6-ad96-246a67d316e7}</Project>
+      <Name>Game.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SqlDataProvider\SqlDataProvider.csproj">
+      <Project>{cb43ef40-a637-40e0-81df-ba65b912e86a}</Project>
+      <Name>SqlDataProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

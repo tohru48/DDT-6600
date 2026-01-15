@@ -1,0 +1,25 @@
+namespace Game.Server.Packets
+{
+	public enum SevenDoublePackageType
+	{
+		START_OR_END = 1,
+		CALL = 3,
+		START_GAME = 6,
+		CANCEL_GAME = 7,
+		ENTER_GAME = 8,
+		READY = 9,
+		ALL_READY = 16,
+		MOVE = 17,
+		REFRESH_ITEM = 19,
+		REFRESH_BUFF = 20,
+		USE_SKILL = 21,
+		DESTROY = 22,
+		ARRIVE = 23,
+		RANK_LIST = 24,
+		RE_ENTER_ALL_INFO = 34,
+		IS_CAN_ENTER = 35,
+		REFRESH_FIGHT_STATE = 36,
+		ENTER_OR_LEAVE_SCENE = 38,
+		REFRESH_ENTER_COUNT = 39
+	}
+}

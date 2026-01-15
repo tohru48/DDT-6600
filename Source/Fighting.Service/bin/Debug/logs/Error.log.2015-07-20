@@ -1,0 +1,30 @@
+19:59:30,360 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+19:59:30,394 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+19:59:31,985 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb
+20:56:18,548 - [9] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+21:34:21,110 - [9] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+22:01:49,782 - [9] - ERROR - Game.Logic.BaseGame - Map update error:
+System.Collections.Generic.KeyNotFoundException: A chave fornecida não estava presente no dicionário.
+   em System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   em Fighting.Server.ServerClient.SendPlayerConsortiaFight(Int32 playerId, Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth)
+   em Fighting.Server.GameObjects.ProxyPlayer.ConsortiaFight(Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth, Int32 count)
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)
+22:31:34,407 - [9] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Game.Logic.PVPGame.method_66(List`1 players, Int32 int_6)
+   em Game.Logic.PVPGame.GameOver()
+   em Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick)
+   em Game.Logic.BaseGame.Update(Int64 tick)

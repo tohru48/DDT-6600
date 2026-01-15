@@ -1,0 +1,6 @@
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\SqlDataProvider\bin\Debug\SqlDataProvider.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\SqlDataProvider\bin\Debug\SqlDataProvider.pdb
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\SqlDataProvider\obj\Debug\SqlDataProvider.csproj.AssemblyReference.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\SqlDataProvider\obj\Debug\SqlDataProvider.csproj.CoreCompileInputs.cache
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\SqlDataProvider\obj\Debug\SqlDataProvider.dll
+D:\DDTANK\Dosyalar\DDtank_6.5\Source\SqlDataProvider\obj\Debug\SqlDataProvider.pdb

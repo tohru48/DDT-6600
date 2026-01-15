@@ -1,0 +1,44 @@
+18:41:41,136 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+18:41:44,401 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+18:41:44,698 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+18:41:45,042 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+18:41:45,042 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+18:41:45,042 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+18:41:45,042 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+18:41:45,589 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1999 is not exist!
+18:41:45,589 - [MAIN] - ERROR - Game.Logic.MapMgr - Map's file1998 is not exist!
+18:41:45,839 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+18:41:47,277 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+18:41:47,323 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+18:41:47,683 - [MAIN] - INFO  - Fighting.Server.FightServer - PetMgr Init: True
+18:41:47,933 - [MAIN] - INFO  - Fighting.Server.FightServer - MountMgr Init: True
+18:41:48,011 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11.bomb
+18:41:48,198 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+18:41:48,230 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+18:41:48,417 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+18:41:48,480 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+18:41:48,526 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+18:41:48,558 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+18:41:48,573 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+18:41:48,620 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 17 spell handlers from GameServer Assembly!
+18:41:48,620 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+18:41:48,667 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+18:41:55,167 - [6] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:53138
+18:41:55,683 - [6] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:53141
+21:07:56,901 - [38] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+21:07:56,901 - [16] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+21:08:23,433 - [16] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:53177
+21:08:23,667 - [16] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:53180
+21:16:58,136 - [50] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+21:16:58,136 - [38] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+21:17:26,526 - [50] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:53191
+21:17:26,761 - [50] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:53194
+21:32:24,308 - [50] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+21:32:24,308 - [50] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+21:35:39,886 - [50] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:53206
+21:35:40,417 - [50] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:53209
+21:39:36,386 - [50] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+21:39:36,386 - [26] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+21:50:24,824 - [26] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:53221
+21:50:25,401 - [26] - INFO  - Game.Base.BaseServer - Incoming connection from 177.93.106.31:53224
+21:52:23,026 - [26] - INFO  - Game.Base.BaseClient
