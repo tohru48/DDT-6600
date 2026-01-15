@@ -1,0 +1,51 @@
+package dayActivity.items
+{
+   import com.pickgliss.ui.ComponentFactory;
+   import com.pickgliss.ui.core.Disposeable;
+   import com.pickgliss.ui.text.FilterFrameText;
+   import com.pickgliss.utils.ObjectUtils;
+   import ddt.manager.LanguageMgr;
+   import flash.display.Bitmap;
+   import flash.display.Sprite;
+   
+   public class DayActivityLeftTitleItem extends Sprite implements Disposeable
+   {
+      
+      private var _back:Bitmap;
+      
+      private var _txt:FilterFrameText;
+      
+      public function DayActivityLeftTitleItem(str:String, num:int)
+      {
+         super();
+         this.initView(str,num);
+      }
+      
+      private function initView(str:String, num:int) : void
+      {
+         this._back = ComponentFactory.Instance.creat(str);
+         addChild(this._back);
+         this._txt = ComponentFactory.Instance.creatComponentByStylename("day.activityView.left.txt1");
+         this._txt.text = LanguageMgr.GetTranslation("ddt.dayActivity.activityNoOver",num);
+         addChild(this._txt);
+      }
+      
+      public function setTxt(str:String) : void
+      {
+         this._txt.text = str;
+      }
+      
+      public function dispose() : void
+      {
+         while(Boolean(numChildren))
+         {
+            ObjectUtils.disposeObject(getChildAt(0));
+         }
+         if(Boolean(parent))
+         {
+            parent.removeChild(this);
+         }
+      }
+   }
+}
+

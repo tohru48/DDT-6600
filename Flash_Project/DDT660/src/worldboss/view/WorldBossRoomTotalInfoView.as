@@ -1,0 +1,239 @@
+package worldboss.view
+{
+   import com.pickgliss.toplevel.StageReferance;
+   import com.pickgliss.ui.ComponentFactory;
+   import com.pickgliss.ui.controls.SimpleBitmapButton;
+   import com.pickgliss.ui.core.Disposeable;
+   import com.pickgliss.ui.image.ScaleBitmapImage;
+   import com.pickgliss.ui.image.ScaleFrameImage;
+   import com.pickgliss.ui.text.FilterFrameText;
+   import com.pickgliss.utils.ObjectUtils;
+   import ddt.manager.LanguageMgr;
+   import ddt.manager.SoundManager;
+   import flash.display.Sprite;
+   import flash.events.Event;
+   import flash.events.MouseEvent;
+   import worldboss.WorldBossManager;
+   import worldboss.player.RankingPersonInfo;
+   
+   public class WorldBossRoomTotalInfoView extends Sprite implements Disposeable
+   {
+      
+      private var _totalInfoBg:ScaleBitmapImage;
+      
+      private var _totalInfo_time:FilterFrameText;
+      
+      private var _totalInfo_yourSelf:FilterFrameText;
+      
+      private var _totalInfo_timeTxt:FilterFrameText;
+      
+      private var _totalInfo_yourSelfTxt:FilterFrameText;
+      
+      private var _selfHonor:FilterFrameText;
+      
+      private var _selfHonorText:FilterFrameText;
+      
+      private var _txtArr:Array;
+      
+      private var _show_totalInfoBtnIMG:ScaleFrameImage;
+      
+      private var _open_show:Boolean = true;
+      
+      private var _show_totalInfoBtn:SimpleBitmapButton;
+      
+      public function WorldBossRoomTotalInfoView()
+      {
+         super();
+         this._txtArr = new Array();
+         this.initView();
+         this.addEvent();
+      }
+      
+      private function initView() : void
+      {
+         this._totalInfoBg = ComponentFactory.Instance.creat("worldBossRoom.totalInfoBg");
+         addChild(this._totalInfoBg);
+         this.creatTxtInfo();
+         this._show_totalInfoBtn = ComponentFactory.Instance.creatComponentByStylename("worldBossRoom.showTotalBtn");
+         addChild(this._show_totalInfoBtn);
+         this._open_show = true;
+         this._show_totalInfoBtnIMG = ComponentFactory.Instance.creatComponentByStylename("asset.worldBossRoom.showTotalBtnIMG");
+         this._show_totalInfoBtnIMG.setFrame(1);
+         this._show_totalInfoBtn.addChild(this._show_totalInfoBtnIMG);
+      }
+      
+      private function creatTxtInfo() : void
+      {
+         var txt:FilterFrameText = null;
+         this._totalInfo_time = ComponentFactory.Instance.creat("worldBossRoom.totalInfo.time");
+         this._totalInfo_yourSelf = ComponentFactory.Instance.creat("worldBossRoom.totalInfo.yourself");
+         this._totalInfo_timeTxt = ComponentFactory.Instance.creat("worldBossRoom.totalInfo.timeTxt");
+         this._totalInfo_yourSelfTxt = ComponentFactory.Instance.creat("worldBossRoom.totalInfo.yourselfTxt");
+         this._selfHonorText = ComponentFactory.Instance.creatComponentByStylename("worldBossRoom.totalInfo.selfHonorText");
+         this._selfHonor = ComponentFactory.Instance.creatComponentByStylename("worldBossRoom.totalInfo.selfHonor");
+         addChild(this._totalInfo_time);
+         addChild(this._totalInfo_yourSelf);
+         addChild(this._totalInfo_timeTxt);
+         addChild(this._totalInfo_yourSelfTxt);
+         addChild(this._selfHonor);
+         addChild(this._selfHonorText);
+         this._totalInfo_timeTxt.text = LanguageMgr.GetTranslation("worldboss.totalInfo.time");
+         this._totalInfo_yourSelfTxt.text = LanguageMgr.GetTranslation("worldboss.totalInfo.yourself");
+         this._selfHonorText.text = LanguageMgr.GetTranslation("worldboss.totalInfo.selfHonor");
+         for(var i:int = 0; i < 20; i++)
+         {
+            if(i < 3)
+            {
+               txt = ComponentFactory.Instance.creat("worldBossRoom.rankingTxt.No" + (i + 1));
+            }
+            else if(i < 10)
+            {
+               txt = ComponentFactory.Instance.creat("worldBossRoom.rankingTxt.NoOtherLeft");
+            }
+            else if(i < 13)
+            {
+               txt = ComponentFactory.Instance.creat("worldBossRoom.rankingTxt.No" + (i + 1));
+            }
+            else
+            {
+               txt = ComponentFactory.Instance.creat("worldBossRoom.rankingTxt.NoOtherRight");
+            }
+            txt.y += int(i % 10) * 24;
+            addChild(txt);
+            this._txtArr.push(txt);
+         }
+         if(WorldBossManager.Instance.bossInfo.fightOver)
+         {
+            this._txtArr[0].text = LanguageMgr.GetTranslation("worldboss.ranking.over");
+         }
+         else
+         {
+            this._txtArr[0].text = LanguageMgr.GetTranslation("worldbossRoom.ranking.proploading");
+         }
+      }
+      
+      private function addEvent() : void
+      {
+         this._show_totalInfoBtn.addEventListener(MouseEvent.CLICK,this.__showTotalInfo);
+         WorldBossManager.Instance.addEventListener(Event.CHANGE,this.__onUpdata);
+      }
+      
+      protected function __onUpdata(event:Event) : void
+      {
+         this.updata_yourSelf_damage();
+      }
+      
+      private function removeEvent() : void
+      {
+         if(Boolean(this._show_totalInfoBtn))
+         {
+            this._show_totalInfoBtn.removeEventListener(MouseEvent.CLICK,this.__showTotalInfo);
+         }
+         WorldBossManager.Instance.removeEventListener(Event.CHANGE,this.__onUpdata);
+      }
+      
+      private function __showTotalInfo(evt:MouseEvent) : void
+      {
+         SoundManager.instance.play("008");
+         this._show_totalInfoBtnIMG.setFrame(this._open_show ? 2 : 1);
+         addEventListener(Event.ENTER_FRAME,this.__totalViewShowOrHide);
+      }
+      
+      private function __totalViewShowOrHide(evt:Event) : void
+      {
+         if(this._open_show)
+         {
+            this.x += 20;
+            if(this.x >= StageReferance.stageWidth - 25)
+            {
+               removeEventListener(Event.ENTER_FRAME,this.__totalViewShowOrHide);
+               this.x = StageReferance.stageWidth - 46;
+               this._open_show = !this._open_show;
+            }
+         }
+         else
+         {
+            this.x -= 20;
+            if(this.x <= StageReferance.stageWidth - this.width)
+            {
+               removeEventListener(Event.ENTER_FRAME,this.__totalViewShowOrHide);
+               this.x = StageReferance.stageWidth - this.width - 6;
+               this._open_show = !this._open_show;
+            }
+         }
+      }
+      
+      public function updata_yourSelf_damage() : void
+      {
+         if(Boolean(this._totalInfo_yourSelf))
+         {
+            this._totalInfo_yourSelf.text = WorldBossManager.Instance.bossInfo.myPlayerVO.myDamage.toString();
+         }
+         if(Boolean(this._selfHonor))
+         {
+            this._selfHonor.text = WorldBossManager.Instance.bossInfo.myPlayerVO.myHonor.toString();
+         }
+      }
+      
+      public function setTimeCount(num:int) : void
+      {
+         this._totalInfo_time.text = this.setFormat(int(num / 3600)) + ":" + this.setFormat(int(num / 60 % 60)) + ":" + this.setFormat(int(num % 60));
+      }
+      
+      public function updataRanking(arr:Array) : void
+      {
+         var personInfo:RankingPersonInfo = null;
+         for(var i:int = 0; i < arr.length; i++)
+         {
+            personInfo = arr[i] as RankingPersonInfo;
+            this._txtArr[i].text = i + 1 + "." + personInfo.name;
+            this._txtArr[i + 10].text = personInfo.damage + "(" + personInfo.getPercentage(WorldBossManager.Instance.bossInfo.total_Blood) + ")";
+         }
+      }
+      
+      private function testshowRanking() : void
+      {
+         for(var i:int = 0; i < 10; i++)
+         {
+            this._txtArr[i].text = i + 1 + ".哈王00" + i;
+            this._txtArr[i + 10].text = (9 - i) * 3 * 10000 + "(2.152%)";
+         }
+      }
+      
+      public function restTimeInfo() : void
+      {
+         this._totalInfo_time.text = "00:00:00";
+      }
+      
+      private function setFormat(value:int) : String
+      {
+         var str:String = value.toString();
+         if(value < 10)
+         {
+            str = "0" + str;
+         }
+         return str;
+      }
+      
+      public function dispose() : void
+      {
+         ObjectUtils.disposeAllChildren(this);
+         if(Boolean(parent))
+         {
+            this.parent.removeChild(this);
+         }
+         this.removeEvent();
+         this._totalInfoBg = null;
+         this._totalInfo_time = null;
+         this._totalInfo_yourSelf = null;
+         this._totalInfoBg = null;
+         this._totalInfoBg = null;
+         this._show_totalInfoBtn = null;
+         this._show_totalInfoBtnIMG = null;
+         this._selfHonorText = null;
+         this._selfHonor = null;
+         this._txtArr = null;
+      }
+   }
+}
+

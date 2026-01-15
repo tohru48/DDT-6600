@@ -1,0 +1,16 @@
+package ddt.data.analyze
+{
+   import com.pickgliss.loader.DataAnalyzer;
+   
+   public class MyClubEventAnalyzer extends DataAnalyzer
+   {
+      
+      public var list:Array;
+      
+      public function MyClubEventAnalyzer(onCompleteCall:Function)
+      {
+         super(onCompleteCall);
+      }
+   }
+}
+

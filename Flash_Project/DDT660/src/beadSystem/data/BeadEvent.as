@@ -1,0 +1,44 @@
+package beadSystem.data
+{
+   import ddt.data.goods.ItemTemplateInfo;
+   import flash.events.Event;
+   
+   public class BeadEvent extends Event
+   {
+      
+      public static const EQUIPBEAD:String = "equip";
+      
+      public static const UNEQUIPBEAD:String = "unequip";
+      
+      public static const LIGHTBTN:String = "lightButton";
+      
+      public static const BEADCELLCHANGED:String = "beadCellChanged";
+      
+      public static const OPENBEADHOLE:String = "openBeadHole";
+      
+      public static const BEADBAGCELLCHANGED:String = "beadBagCellChanged";
+      
+      public static const AUTOOPENBEAD:String = "autoOpenBead";
+      
+      public static const PLAYUPGRADEMC:String = "playUpgradeMC";
+      
+      public static const SELECT_OPEN_CELL:String = "selectOpenCell";
+      
+      private var _cellID:int;
+      
+      private var _beadInfo:ItemTemplateInfo;
+      
+      public function BeadEvent(type:String, pCellID:int = -1, pBeadInfo:ItemTemplateInfo = null, bubbles:Boolean = false, cancelable:Boolean = false)
+      {
+         super(type,bubbles,cancelable);
+         this._cellID = pCellID;
+         this._beadInfo = pBeadInfo;
+      }
+      
+      public function get CellId() : int
+      {
+         return this._cellID;
+      }
+   }
+}
+

@@ -1,0 +1,34 @@
+package store.events
+{
+   import flash.events.Event;
+   
+   public class StoreIIEvent extends Event
+   {
+      
+      public static const ITEM_CLICK:String = "itemclick";
+      
+      public static const UPPREVIEW:String = "upPreview";
+      
+      public static const EMBED_CLICK:String = "embedClick";
+      
+      public static const EMBED_INFORCHANGE:String = "embedInfoChange";
+      
+      public static const TRANSFER_LIGHT:String = "transferLight";
+      
+      public static const EXALT_FINISH:String = "exaltFinish";
+      
+      public static const EXALT_FAIL:String = "exaltFail";
+      
+      public var data:Object;
+      
+      public var bool:Boolean;
+      
+      public function StoreIIEvent(type:String, obj:Object = null, value:Boolean = false, bubbles:Boolean = false, cancelable:Boolean = false)
+      {
+         this.data = obj;
+         this.bool = value;
+         super(type,bubbles,cancelable);
+      }
+   }
+}
+

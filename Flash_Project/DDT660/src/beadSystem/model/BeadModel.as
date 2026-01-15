@@ -1,0 +1,96 @@
+package beadSystem.model
+{
+   import beadSystem.controls.DrillItemInfo;
+   import com.pickgliss.ui.ComponentFactory;
+   import ddt.data.EquipType;
+   import ddt.data.goods.InventoryItemInfo;
+   import ddt.manager.PlayerManager;
+   import ddt.manager.ServerConfigManager;
+   import road7th.data.DictionaryData;
+   import store.data.HoleExpModel;
+   
+   public class BeadModel
+   {
+      
+      private static var _holeExpModel:HoleExpModel;
+      
+      public static var upgradeCellInfo:InventoryItemInfo;
+      
+      public static var _allBeadList:Vector.<InventoryItemInfo> = new Vector.<InventoryItemInfo>();
+      
+      public static var drillInfo:DictionaryData = new DictionaryData();
+      
+      public static var beadRequestBtnIndex:int = -1;
+      
+      public static var beadCanUpgrade:Boolean = false;
+      
+      public static var upgradeCellBeadLv:int = -1;
+      
+      public static var isHoleOpendComplete:Boolean = false;
+      
+      public static var tempHoleLv:int = -1;
+      
+      public static var _BeadCells:DictionaryData = new DictionaryData();
+      
+      public static var isBeadCellIsBind:Boolean = false;
+      
+      public function BeadModel()
+      {
+         super();
+      }
+      
+      public static function getDrills() : DictionaryData
+      {
+         var item:InventoryItemInfo = null;
+         var _drillBag:DictionaryData = new DictionaryData();
+         for each(item in PlayerManager.Instance.Self.PropBag.items)
+         {
+            if(EquipType.isDrill(item))
+            {
+               _drillBag.add(_drillBag.length,item);
+            }
+         }
+         return _drillBag;
+      }
+      
+      public static function getDrillsIgnoreBindState() : DictionaryData
+      {
+         var item:InventoryItemInfo = null;
+         var info:DrillItemInfo = null;
+         var _drills:DictionaryData = new DictionaryData();
+         for each(item in PlayerManager.Instance.Self.PropBag.items)
+         {
+            if(EquipType.isDrill(item))
+            {
+               if(_drills[item.TemplateID] != null)
+               {
+                  DrillItemInfo(_drills[item.TemplateID]).amount = DrillItemInfo(_drills[item.TemplateID]).amount + item.Count;
+               }
+               else
+               {
+                  info = new DrillItemInfo();
+                  info.itemInfo = item;
+                  info.amount = item.Count;
+                  _drills.add(item.TemplateID,info);
+               }
+            }
+         }
+         return _drills;
+      }
+      
+      public static function getHoleMaxOpLv() : int
+      {
+         if(_holeExpModel == null)
+         {
+            _holeExpModel = ComponentFactory.Instance.creatCustomObject("BeadHoleModel");
+         }
+         return _holeExpModel.getMaxOpLv();
+      }
+      
+      public static function getHoleExpByLv(lv:int) : int
+      {
+         return ServerConfigManager.instance.getBeadHoleUpExp()[lv];
+      }
+   }
+}
+

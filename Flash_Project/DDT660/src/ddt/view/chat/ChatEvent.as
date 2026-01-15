@@ -1,0 +1,44 @@
+package ddt.view.chat
+{
+   import flash.events.Event;
+   
+   public class ChatEvent extends Event
+   {
+      
+      public static const ADD_CHAT:String = "addChat";
+      
+      public static const CAN_SHOW_BUGGLE:String = "canShowBuggle";
+      
+      public static const CUSTOM_SET_PRIVATE_CHAT_TO:String = "customSetPrivateChatTo";
+      
+      public static const INPUT_CHANNEL_CHANNGED:String = "inputChannelChanged";
+      
+      public static const INPUT_TEXT_CHANGED:String = "inputTextChanged";
+      
+      public static const NICKNAME_CLICK_TO_OUTSIDE:String = "nicknameClickToOutside";
+      
+      public static const SCROLL_CHANG:String = "scrollChanged";
+      
+      public static const SHOW_FACE:String = "addFace";
+      
+      public static const DELETE:String = "delete";
+      
+      public static const SEND_CONSORTIA:String = "sendConsortia";
+      
+      public static const SET_FACECONTIANER_LOCTION:String = "setFacecontainerLoction";
+      
+      public var data:Object;
+      
+      public function ChatEvent(type:String, data:Object = null, bubbles:Boolean = false, cancelable:Boolean = false)
+      {
+         super(type,bubbles,cancelable);
+         this.data = data;
+      }
+      
+      override public function clone() : Event
+      {
+         return new ChatEvent(type,this.data);
+      }
+   }
+}
+

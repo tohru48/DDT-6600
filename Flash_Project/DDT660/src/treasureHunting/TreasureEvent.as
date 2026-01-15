@@ -1,0 +1,20 @@
+package treasureHunting
+{
+   import flash.events.Event;
+   
+   public class TreasureEvent extends Event
+   {
+      
+      public static const MOVIE_START:String = "movieStart";
+      
+      public static const MOVIE_COMPLETE:String = "movieComplete";
+      
+      public var data:*;
+      
+      public function TreasureEvent(type:String, bubbles:Boolean = false, cancelable:Boolean = false)
+      {
+         super(type,bubbles,cancelable);
+      }
+   }
+}
+

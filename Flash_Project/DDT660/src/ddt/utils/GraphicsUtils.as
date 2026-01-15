@@ -1,0 +1,105 @@
+package ddt.utils
+{
+   import flash.display.BitmapData;
+   import flash.display.DisplayObject;
+   import flash.display.Shape;
+   import flash.display.Sprite;
+   
+   public class GraphicsUtils
+   {
+      
+      public function GraphicsUtils()
+      {
+         super();
+      }
+      
+      public static function drawSector(x:Number, y:Number, radius:Number, sAngle:Number, lAngle:Number) : Sprite
+      {
+         var nx:Number = NaN;
+         var ny:Number = NaN;
+         var sprite:Sprite = new Sprite();
+         var sx:Number = radius;
+         var sy:Number = 0;
+         if(sAngle != 0)
+         {
+            sx = Math.cos(sAngle * Math.PI / 180) * radius;
+            sy = Math.sin(sAngle * Math.PI / 180) * radius;
+         }
+         sprite.graphics.beginFill(16776960,1);
+         sprite.graphics.moveTo(x,y);
+         sprite.graphics.lineTo(x + sx,y - sy);
+         var a:Number = lAngle * Math.PI / 180 / lAngle;
+         var cos:Number = Math.cos(a);
+         var sin:Number = Math.sin(a);
+         for(var i:Number = 0; i < lAngle; i++)
+         {
+            nx = cos * sx - sin * sy;
+            ny = cos * sy + sin * sx;
+            sx = nx;
+            sy = ny;
+            sprite.graphics.lineTo(sx + x,-sy + y);
+         }
+         sprite.graphics.lineTo(x,y);
+         sprite.graphics.endFill();
+         return sprite;
+      }
+      
+      public static function drawDisplayMask(source:DisplayObject) : DisplayObject
+      {
+         var j:uint = 0;
+         var col:uint = 0;
+         var alphaChannel:uint = 0;
+         var alphaValue:Number = NaN;
+         var textBitmapData:BitmapData = new BitmapData(source.width,source.height,true,16711680);
+         textBitmapData.draw(source);
+         var textGraphics:Shape = new Shape();
+         textGraphics.cacheAsBitmap = true;
+         for(var i:uint = 0; i < textBitmapData.width; i++)
+         {
+            for(j = 0; j < textBitmapData.height; j++)
+            {
+               col = textBitmapData.getPixel32(i,j);
+               alphaChannel = uint(col >> 24 & 0xFF);
+               alphaValue = alphaChannel / 255;
+               if(col > 0)
+               {
+                  textGraphics.graphics.beginFill(0,alphaValue);
+                  textGraphics.graphics.drawCircle(i,j,1);
+               }
+            }
+         }
+         return textGraphics;
+      }
+      
+      public static function changeSectorAngle(sprite:Sprite, x:Number, y:Number, radius:Number, sAngle:Number, lAngle:Number) : void
+      {
+         var nx:Number = NaN;
+         var ny:Number = NaN;
+         sprite.graphics.clear();
+         var sx:Number = radius;
+         var sy:Number = 0;
+         if(sAngle != 0)
+         {
+            sx = Math.cos(sAngle * Math.PI / 180) * radius;
+            sy = Math.sin(sAngle * Math.PI / 180) * radius;
+         }
+         sprite.graphics.beginFill(16776960,1);
+         sprite.graphics.moveTo(x,y);
+         sprite.graphics.lineTo(x + sx,y - sy);
+         var a:Number = lAngle * Math.PI / 180 / lAngle;
+         var cos:Number = Math.cos(a);
+         var sin:Number = Math.sin(a);
+         for(var i:Number = 0; i < lAngle; i++)
+         {
+            nx = cos * sx - sin * sy;
+            ny = cos * sy + sin * sx;
+            sx = nx;
+            sy = ny;
+            sprite.graphics.lineTo(sx + x,-sy + y);
+         }
+         sprite.graphics.lineTo(x,y);
+         sprite.graphics.endFill();
+      }
+   }
+}
+

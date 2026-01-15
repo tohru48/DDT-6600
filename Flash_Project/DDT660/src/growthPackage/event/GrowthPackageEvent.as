@@ -1,0 +1,21 @@
+package growthPackage.event
+{
+   import flash.events.Event;
+   
+   public class GrowthPackageEvent extends Event
+   {
+      
+      public static const DATA_CHANGE:String = "dataChange";
+      
+      public static const ICON_CLOSE:String = "icon_close";
+      
+      public var resultData:Object;
+      
+      public function GrowthPackageEvent(type:String, _resultData:Object = null, bubbles:Boolean = false, cancelable:Boolean = false)
+      {
+         this.resultData = _resultData;
+         super(type,bubbles,cancelable);
+      }
+   }
+}
+

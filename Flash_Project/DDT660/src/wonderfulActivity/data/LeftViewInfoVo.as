@@ -1,0 +1,21 @@
+package wonderfulActivity.data
+{
+   public class LeftViewInfoVo
+   {
+      
+      public var viewType:int;
+      
+      public var label:String;
+      
+      public var unitIndex:int;
+      
+      public function LeftViewInfoVo(viewType:int, label:String = "", unitIndex:int = 2)
+      {
+         super();
+         this.viewType = viewType;
+         this.label = label;
+         this.unitIndex = unitIndex;
+      }
+   }
+}
+

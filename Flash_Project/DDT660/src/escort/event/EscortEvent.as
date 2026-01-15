@@ -1,0 +1,16 @@
+package escort.event
+{
+   import flash.events.Event;
+   
+   public class EscortEvent extends Event
+   {
+      
+      public var data:Object;
+      
+      public function EscortEvent(type:String, bubbles:Boolean = false, cancelable:Boolean = false)
+      {
+         super(type,bubbles,cancelable);
+      }
+   }
+}
+

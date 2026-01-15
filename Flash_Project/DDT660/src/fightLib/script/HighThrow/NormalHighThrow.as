@@ -1,0 +1,42 @@
+package fightLib.script.HighThrow
+{
+   import ddt.manager.LanguageMgr;
+   import fightLib.command.BaseFightLibCommand;
+   import fightLib.command.PopupFrameCommand;
+   import fightLib.script.BaseScript;
+   
+   public class NormalHighThrow extends BaseScript
+   {
+      
+      public function NormalHighThrow(fightView:Object)
+      {
+         super(fightView);
+      }
+      
+      override protected function initializeScript() : void
+      {
+         var command2:BaseFightLibCommand = new PopupFrameCommand(LanguageMgr.GetTranslation("tank.command.fightLibCommands.script.HighThrow.NormalHighThrow.command2"),LanguageMgr.GetTranslation("tank.command.fightLibCommands.script.MeasureScree.startTrain"),this.startTrain);
+         _commonds.push(command2);
+         super.initializeScript();
+      }
+      
+      private function startTrain() : void
+      {
+         _host.continueGame();
+      }
+      
+      override public function start() : void
+      {
+         _host.sendClientScriptStart();
+         super.start();
+      }
+      
+      override public function finish() : void
+      {
+         super.finish();
+         _host.sendClientScriptEnd();
+         _host.enableExist();
+      }
+   }
+}
+

@@ -1,0 +1,35 @@
+package farm.view.compose.event
+{
+   import flash.events.Event;
+   
+   public class SelectComposeItemEvent extends Event
+   {
+      
+      public static const ITEM_CLICK:String = "itemclick";
+      
+      public static const COMPOSE_COUNT:String = "compose_count";
+      
+      public static const KILLCROP_SHOW:String = "killcropshow";
+      
+      public static const KILLCROP_CLICK:String = "killcropClick";
+      
+      public static const KILLCROP_ICON:String = "killcropIcon";
+      
+      public static const SELECT_FOOD:String = "selectFood";
+      
+      public static const SELECT_SEED:String = "selectSeed";
+      
+      public static const SELECT_FERTILIZER:String = "selectFertilizer";
+      
+      public static const SELECT_ALL:String = "selectall";
+      
+      public var data:Object;
+      
+      public function SelectComposeItemEvent(type:String, obj:Object = null, bubbles:Boolean = false, cancelable:Boolean = false, ctrlKey:Boolean = false)
+      {
+         this.data = obj;
+         super(type,bubbles,cancelable);
+      }
+   }
+}
+

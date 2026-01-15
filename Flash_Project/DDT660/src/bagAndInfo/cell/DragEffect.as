@@ -1,0 +1,40 @@
+package bagAndInfo.cell
+{
+   import ddt.interfaces.IAcceptDrag;
+   import ddt.interfaces.IDragable;
+   
+   public class DragEffect
+   {
+      
+      public static const NONE:String = "none";
+      
+      public static const MOVE:String = "move";
+      
+      public static const LINK:String = "link";
+      
+      public static const SPLIT:String = "split";
+      
+      public var source:IDragable;
+      
+      public var target:IAcceptDrag;
+      
+      public var action:String;
+      
+      public var data:*;
+      
+      public function DragEffect(source:IDragable, data:*, action:String = "none", target:IAcceptDrag = null)
+      {
+         super();
+         this.source = source;
+         this.target = target;
+         this.action = action;
+         this.data = data;
+      }
+      
+      public function get hasAccpeted() : Boolean
+      {
+         return this.target != null;
+      }
+   }
+}
+

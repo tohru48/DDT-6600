@@ -1,0 +1,22 @@
+package store.events
+{
+   import ddt.data.goods.ItemTemplateInfo;
+   import flash.events.Event;
+   
+   public class StoreDargEvent extends Event
+   {
+      
+      public static const START_DARG:String = "startDarg";
+      
+      public static const STOP_DARG:String = "stopDarg";
+      
+      public var sourceInfo:ItemTemplateInfo;
+      
+      public function StoreDargEvent(source:ItemTemplateInfo, type:String, bubbles:Boolean = false, cancelable:Boolean = false)
+      {
+         this.sourceInfo = source;
+         super(type,bubbles,cancelable);
+      }
+   }
+}
+

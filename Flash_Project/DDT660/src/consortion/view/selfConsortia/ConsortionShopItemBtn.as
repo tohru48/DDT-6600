@@ -1,0 +1,55 @@
+package consortion.view.selfConsortia
+{
+   import com.pickgliss.ui.ComponentFactory;
+   import com.pickgliss.ui.core.Disposeable;
+   import com.pickgliss.ui.image.MutipleImage;
+   import com.pickgliss.ui.text.FilterFrameText;
+   import com.pickgliss.utils.ObjectUtils;
+   import flash.display.Sprite;
+   
+   public class ConsortionShopItemBtn extends Sprite implements Disposeable
+   {
+      
+      private var _bg:MutipleImage;
+      
+      private var _day:FilterFrameText;
+      
+      private var _pay:FilterFrameText;
+      
+      public function ConsortionShopItemBtn()
+      {
+         super();
+         this.initView();
+      }
+      
+      private function initView() : void
+      {
+         buttonMode = true;
+         this._bg = ComponentFactory.Instance.creatComponentByStylename("consortion.shopItem.btnBG");
+         this._day = ComponentFactory.Instance.creatComponentByStylename("consortion.shopItemBtn.day");
+         this._pay = ComponentFactory.Instance.creatComponentByStylename("consortion.shopItemBtn.Pay");
+         addChild(this._bg);
+         addChild(this._day);
+         addChild(this._pay);
+      }
+      
+      public function setValue(day:String, pay:String) : void
+      {
+         this._day.text = day;
+         this._pay.text = pay;
+      }
+      
+      public function dispose() : void
+      {
+         ObjectUtils.disposeAllChildren(this);
+         this._bg = null;
+         this._day = null;
+         this._pay = null;
+         if(Boolean(this.parent))
+         {
+            this.parent.removeChild(this);
+         }
+      }
+   }
+}
+

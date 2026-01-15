@@ -1,0 +1,55 @@
+package tofflist.data
+{
+   import ddt.data.player.PlayerInfo;
+   
+   public class TofflistPlayerInfo extends PlayerInfo
+   {
+      
+      public var AddDayGP:int;
+      
+      public var AddDayOffer:int;
+      
+      public var AddWeekGP:int;
+      
+      public var AddWeekOffer:int;
+      
+      public var AreaName:String;
+      
+      public var AddDayAchievementPoint:int;
+      
+      public var AddWeekAchievementPoint:int;
+      
+      public var GiftGp:int;
+      
+      public var GiftLevel:int;
+      
+      public var AddDayGiftGp:int;
+      
+      public var AddWeekGiftGp:int;
+      
+      public var AddWeekLeagueScore:int;
+      
+      public var TotalPrestige:int;
+      
+      public var MountsLevel:int = 0;
+      
+      private var _mountsLevelInfo:String;
+      
+      public function TofflistPlayerInfo()
+      {
+         super();
+      }
+      
+      public function get MountsLevelInfo() : String
+      {
+         return this._mountsLevelInfo;
+      }
+      
+      public function set MountLv(value:int) : void
+      {
+         this.MountsLevel = value / 10;
+         this._mountsLevelInfo = (this.MountsLevel + 1).toString() + "   " + String(value % 10);
+      }
+   }
+}
+

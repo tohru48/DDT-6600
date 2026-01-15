@@ -1,0 +1,70 @@
+package game.animations
+{
+   import flash.display.DisplayObject;
+   import flash.geom.Point;
+   
+   public class StrLinearTween extends BaseStageTween
+   {
+      
+      private var _speed:int = 1;
+      
+      private var _duration:int = 0;
+      
+      public function StrLinearTween(data:TweenObject = null)
+      {
+         super(data);
+      }
+      
+      override public function get type() : String
+      {
+         return "StrLinearTween";
+      }
+      
+      override public function update(movie:DisplayObject) : Point
+      {
+         if(!_prepared)
+         {
+            return null;
+         }
+         var result:Point = new Point(movie.x,movie.y);
+         var p:Point = new Point(target.x - movie.x,target.y - movie.y);
+         if(p.length >= this.speed)
+         {
+            p.normalize(this.speed);
+            result.x += p.x;
+            result.y += p.y;
+         }
+         else
+         {
+            result = target;
+         }
+         return result;
+      }
+      
+      public function set speed(value:int) : void
+      {
+         this._speed = value;
+      }
+      
+      public function get speed() : int
+      {
+         return this._speed;
+      }
+      
+      public function set duration(value:int) : void
+      {
+         this._duration = value;
+      }
+      
+      public function get duration() : int
+      {
+         return this._duration;
+      }
+      
+      override protected function get propertysNeed() : Array
+      {
+         return ["target","speed","duration"];
+      }
+   }
+}
+

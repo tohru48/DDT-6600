@@ -1,0 +1,41 @@
+package treasure.events
+{
+   import flash.events.Event;
+   
+   public class TreasureEvents extends Event
+   {
+      
+      public static const ENTER_TREASURE:String = "enterTreasure";
+      
+      public static const BEREPAIR_FRIEND_FARM_SEND:String = "beRepairFriendFarmSend";
+      
+      public static const RETURN_TREASURE:String = "returnTreasure";
+      
+      public static const BEGIN_GAME:String = "beginGame";
+      
+      public static const END_GAME:String = "endGame";
+      
+      public static const DIG:String = "dig";
+      
+      public static const FIELD_CHANGE:String = "fieldChange";
+      
+      private var _info:Object = null;
+      
+      public function TreasureEvents(type:String, info:Object = null, bubbles:Boolean = false, cancelable:Boolean = false)
+      {
+         this._info = info;
+         super(type,bubbles,cancelable);
+      }
+      
+      public function get info() : Object
+      {
+         return this._info;
+      }
+      
+      public function set info(value:Object) : void
+      {
+         this._info = value;
+      }
+   }
+}
+

@@ -1,0 +1,16 @@
+package ddt.events
+{
+   import flash.events.Event;
+   
+   public class WebSpeedEvent extends Event
+   {
+      
+      public static const STATE_CHANE:String = "stateChange";
+      
+      public function WebSpeedEvent(type:String)
+      {
+         super(type,bubbles,cancelable);
+      }
+   }
+}
+
