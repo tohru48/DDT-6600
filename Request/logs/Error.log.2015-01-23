@@ -1,0 +1,153 @@
+2015-01-23 23:23:04,122 - [52] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:23:11,981 - [76] - ERROR - Tank.Request.Login - mistherphelps: 211144f8-daac-46b6-9c2e-312808a8820a
+2015-01-23 23:23:25,669 - [52] - ERROR - Tank.Request.Login - Dudumts: e99d393c-01f2-480d-a3b2-40fcd9775a98
+2015-01-23 23:23:36,618 - [70] - ERROR - Tank.Request.Login - lotogeral: 2cf4e940-e7c1-463d-8e1e-44c81bc62b7d
+2015-01-23 23:23:39,023 - [54] - ERROR - Tank.Request.Login - junior974: e367d461-fa0a-41f4-b3dd-2dd9bb7f0939
+2015-01-23 23:23:56,519 - [71] - ERROR - Tank.Request.Login - SadNeZ: 2e31c381-f70b-4d14-81d9-6113ef7975b5
+2015-01-23 23:24:05,684 - [70] - ERROR - Tank.Request.Login - samanta: fced6823-ff78-485a-8b19-8c274d476395
+2015-01-23 23:24:21,205 - [73] - ERROR - Tank.Request.Login - luizgeyer: 54307bec-0353-48d2-9b19-56616b8dc874
+2015-01-23 23:24:33,562 - [71] - ERROR - Tank.Request.Login - evertthon: 9da21bc3-578c-4f0f-ae64-acf6694b1b00
+2015-01-23 23:24:42,594 - [67] - ERROR - Tank.Request.Login - MCQUEENN: 16923e5c-58ca-428e-8a99-87a5702ad544
+2015-01-23 23:24:48,313 - [76] - ERROR - Tank.Request.Login - Hashirama223: c4cfbab0-a640-4b9d-9c77-a329b78e4ffd
+2015-01-23 23:25:15,948 - [72] - ERROR - Tank.Request.Login - billsdeus123: 4a310b0f-4530-44b1-821f-5511b94f4a05
+2015-01-23 23:25:23,089 - [72] - ERROR - Tank.Request.Login - samulets: 453c9324-daf1-4195-8710-2cda38affaf1
+2015-01-23 23:25:31,208 - [74] - ERROR - Tank.Request.Login - sergio234: d8d5c305-28e8-4d6d-acfe-fd8627e7c356
+2015-01-23 23:25:54,145 - [72] - ERROR - Tank.Request.Login - buduga56: 0c699e3b-38e1-4387-abdb-6ee57ded83b8
+2015-01-23 23:26:06,892 - [63] - ERROR - Tank.Request.Login - ALDAIR11: cb814c5f-1066-44ae-9907-5994f7fe8676
+2015-01-23 23:26:44,480 - [57] - ERROR - Tank.Request.Login - hurlox: 0ccef66b-fe43-471b-94bb-7f80ae30c7a4
+2015-01-23 23:27:02,425 - [68] - ERROR - Tank.Request.Login - vitormlk: ffae778e-5637-4484-bf35-32b19c2d196c
+2015-01-23 23:27:26,901 - [72] - ERROR - Tank.Request.Login - 123edu12345: 8f8ba0dd-675d-4bcc-8b25-34c859fd773d
+2015-01-23 23:28:34,311 - [73] - ERROR - Tank.Request.Login - lalulo: 32931946-a5aa-4507-a009-aa7bf58a8fda
+2015-01-23 23:28:40,267 - [64] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:28:48,184 - [75] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:29:21,600 - [65] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:29:48,058 - [70] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:30:18,227 - [64] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:31:42,134 - [75] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:32:07,509 - [44] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:35:40,362 - [42] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:35:59,769 - [45] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:37:06,259 - [55] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:40:11,766 - [71] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:40:33,658 - [66] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:40:35,080 - [46] - ERROR - Tank.Request.Login - User Login error
+System.Security.Cryptography.CryptographicException: Bad Data.
+
+   at System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   at System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   at System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   at Road.Flash.CryptoHelper.RsaDecryt2(RSACryptoServiceProvider rsa, String src)
+   at Tank.Request.Login.ProcessRequest(HttpContext context)
+2015-01-23 23:41:11,382 - [71] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:43:36,019 - [64] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:43:46,930 - [49] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:43:58,745 - [68] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:44:04,327 - [55] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:44:38,750 - [69] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:45:16,549 - [61] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:46:17,925 - [63] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:47:27,981 - [68] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:49:18,605 - [59] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:49:18,730 - [57] - ERROR - Tank.Request.Login - luquete2015: 7ebd8699-0412-4802-8442-d7543e41a7a3
+2015-01-23 23:55:53,302 - [41] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-01-23 23:58:22,610 - [60] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)

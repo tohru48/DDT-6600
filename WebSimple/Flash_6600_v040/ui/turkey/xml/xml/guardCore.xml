@@ -1,0 +1,65 @@
+<style name="guardCore" version="5.1.0" source="ui/turkey/swf/guardCore.swf">
+<sets>
+	
+	<set stylename="guardCore.needTextTF1" args="Arial,12,0x24FF00,true" type="flash.text.TextFormat" />
+	<set stylename="guardCore.needTextGF1" args="0x123b03,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="guardCore.needTextTF2" args="Arial,12,0xFF2400,true" type="flash.text.TextFormat" />
+	<set stylename="guardCore.needTextGF2" args="0x4A0000,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="guardCore.haveTextTF" args="Arial,12,0xFFF226,true" type="flash.text.TextFormat" />
+	<set stylename="guardCore.haveTextGF" args="0x411D00,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="guardCore.guardLevelTextTF" args="Arial,16,0xFBE422,true" type="flash.text.TextFormat" />
+	<set stylename="guardCore.guardLevelTextGF" args="0x6A0A00,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="guardCore.itemBtnTextTF" args="Arial,14,0xFFEAD9" type="flash.text.TextFormat" />
+	<set stylename="guardCore.itemBtnTextGF" args="0x76251E,1,4,4,30" type="flash.filters.GlowFilter" />
+
+	<set stylename="guardCore.tipsDescribeTF" args="Arial,12,0xFFFFFF" type="flash.text.TextFormat" />
+	<set stylename="guardCore.tipsDescribeGF" args="0x000000,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="guardCore.tipsNextTF" args="Arial,12,0x000000,true" type="flash.text.TextFormat" />
+	<set stylename="guardCore.tipsNextGF" args="0xFFFFFF,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="guardCore.tipsNameTF" args="Arial,14,0xB94FFF,true" type="flash.text.TextFormat" />
+	<set stylename="guardCore.tipsNameGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter" />
+
+	
+</sets>
+<customDisplay>
+	<custom classname="flash.geom.Point" stylename="guardCore.needGoldPos" x="180" y="87" />
+	<custom classname="flash.geom.Point" stylename="guardCore.needExpPos" x="274" y="87"/>
+	<custom classname="flash.geom.Point" stylename="guardCore.needGuardPos" x="347" y="87"/>
+	<custom classname="flash.geom.Point" stylename="guardCore.goldPos" x="180" y="130"/>
+	<custom classname="flash.geom.Point" stylename="guardCore.expPos" x="274" y="130"/>
+	<custom classname="flash.geom.Point" stylename="guardCore.guardPos" x="347" y="130"/>
+	<custom classname="flash.geom.Point" stylename="guardCore.containerPos" x="85" y="259"/>
+	<custom classname="flash.geom.Point" stylename="guardCore.guardIconPos" x="421" y="86"/>
+	
+</customDisplay>
+<components>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="guardCore.upgradeBtn" backStyle="asset.guardCore.upgradeBtn" x="213" y="165"/>
+	
+	<component classname="guardCore.view.GuardCoreView" stylename="guardCore.GuardCoreView" parentStyle="BaseFrame" escEnable="true" width="556" height="521" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guardCore.needText" textFormatStyle="guardCore.needTextTF1,guardCore.needTextTF2" filterString="guardCore.needTextGF1,guardCore.needTextGF2" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guardCore.haveText" textFormatStyle="guardCore.haveTextTF" filterString="guardCore.haveTextGF" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guardCore.guardLevelText" textFormatStyle="guardCore.guardLevelTextTF" filterString="guardCore.guardLevelTextGF" text="10" x="141" y="179"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guardCore.itemBtnText" textFormatStyle="guardCore.itemBtnTextTF" filterString="guardCore.itemBtnTextGF" />
+	
+	<component classname="com.pickgliss.ui.controls.TextButton"
+			stylename="guardCore.itemBtn" backStyle="core.bg6904"
+			textStyle="guardCore.itemBtnText"
+			backgoundInnerRectString="15,20,7,10,-1" x="-8" y="71" />
+			
+	<component classname="com.pickgliss.ui.core.Component" stylename="guardCore.itemTips" tipStyle="guardCore.view.GuardCoreTips" tipDirctions="2,5,7" buttonMode="true" x="0" y="0" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guardCore.tipsName" textFormatStyle="guardCore.tipsNameTF" filterString="guardCore.tipsNameGF" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guardCore.tipsDescribe" textFormatStyle="guardCore.tipsDescribeTF" filterString="guardCore.tipsDescribeGF" autoSize="none" width="210" height="70" wordWrap="true" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guardCore.tipsDescribe1" textFormatStyle="guardCore.tipsDescribeTF" filterString="guardCore.tipsDescribeGF" autoSize="none" width="210" height="20" wordWrap="true" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guardCore.tipsNext" textFormatStyle="guardCore.tipsNextTF" filterString="guardCore.tipsNextGF" />
+	
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="guardCore.tipsVBox" spacing="5" x="4" y="8"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="guardCore.TipsBg"
+			resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40" width="230" height="178"/>
+		
+</components>
+<bitmaps>
+	<bitmapData resourceLink="asset.guardCore.bg" x="17" y="43"/>
+</bitmaps>
+</style>

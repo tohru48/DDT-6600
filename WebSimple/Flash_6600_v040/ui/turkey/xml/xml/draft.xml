@@ -1,0 +1,96 @@
+<style name="draft" version="1.0.1" source="ui/turkey/swf/draft.swf">
+<sets>
+	<set stylename="draftView.TF1" args="Arial,16,0xfff9bb,true" type="flash.text.TextFormat" align="center"/>
+	<set stylename="draftView.GF1" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+
+	<set stylename="draftView.TF2" type="flash.text.TextFormat" args="Arial,12,0xfff8d6,,,,,,center"/>
+	<set stylename="draftView.GF2" type="flash.filters.GlowFilter" args="0x4b270d,1,4,4,30"/>
+
+	<set stylename="draftView.TF3-1" type="flash.text.TextFormat" args="Arial,14,0xff7200,true,,,,,center" letterSpacing="2"/>
+	<set stylename="draftView.TF3-2" type="flash.text.TextFormat" args="Arial,14,0xffa100,true,,,,,center" letterSpacing="2"/>
+	<set stylename="draftView.TF3-3" type="flash.text.TextFormat" args="Arial,14,0xf35bff,true,,,,,center" letterSpacing="2"/>
+	<set stylename="draftView.TF3-4" type="flash.text.TextFormat" args="Arial,14,0xd0db31,true,,,,,center" letterSpacing="2"/>
+	<set stylename="draftView.GF3" type="flash.filters.GlowFilter" args="0x2b0000,2,4,4,30"/>
+
+	<set stylename="draftView.TF4" type="flash.text.TextFormat" args="Arial,14,0xdea5a0,true,,,,,center"/>
+	<set stylename="draftView.GF4" type="flash.filters.GlowFilter" args="0x190900,2,4,4,30"/>
+
+	<set stylename="draftView.TF5" type="flash.text.TextFormat" args="Arial,14,0xffeaad,true" leading="126" letterSpacing="3"/>
+	<set stylename="draftView.GF5" type="flash.filters.GlowFilter" args="0x602b00,2,4,4,30"/>
+
+	<set stylename="draftView.TF6" type="flash.text.TextFormat" args="Arial,14,0xffffff,true" leading="12" letterSpacing="3"/>
+	<set stylename="draftView.GF6" type="flash.filters.GlowFilter" args="0x850019,2,4,4,30"/>
+
+	<set stylename="draftView.TF7" type="flash.text.TextFormat" args="Arial,12,0xd11901"/>
+	<set stylename="draftView.GF7" type="flash.filters.GlowFilter" args="0x000000,1,4,4,30"/>
+</sets>
+<components>
+
+	<component classname="draft.view.DraftView" backStyle="asset.draftView.viewBg"
+			closestyle="core.roundClosebt" closeInnerRectString="42,3,92,42,14" stylename="draftView.mainframe"
+			escEnable="true" width="855" height="573" />
+
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="draftView.freeTicket.num" 
+		textFormatStyle="draftView.TF1"  filterString="draftView.GF1" autoSize="none" width="20" height="24" x="268" y="127"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="draftView.competitionBtn" 
+		backStyle="asset.draftView.competitionBtn" x="675" y="125"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="draftView.lastWeek.rewardRecord" 
+		backStyle="asset.draftView.lastWeek.rewardRecord" x="189" y="512"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="draftView.foreBtn" 
+		backStyle="asset.draftView.foreBtn" x="633" y="517"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="draftView.nextBtn" 
+		backStyle="asset.draftView.nextBtn" x="750" y="517"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="draftView.pageTxt" 
+		textFormatStyle="draftView.TF2" filterString="draftView.GF2" 
+		autoSize="none" width="65" height="20" x="687" y="521"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="draftView.pageInput" 
+		parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="65" height="24" x="687" y="517" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="draftView.player.platform" 
+		resourceLink="asset.draftView.player.platform1,asset.draftView.player.platform2,asset.draftView.player.platform3,asset.draftView.player.platform4" x="8" y="197"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="draftView.player.lightBg" 
+		resourceLink="asset.draftView.player.lightBg1,asset.draftView.player.lightBg2,asset.draftView.player.lightBg3" x="0" y="44"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="draftView.player.ticketNum" 
+		textFormatStyle="draftView.TF3-1,draftView.TF3-2,draftView.TF3-3,draftView.TF3-4"  filterString="draftView.GF3" x="51" y="261"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="draftView.player.rankNum" 
+		textFormatStyle="draftView.TF4"  filterString="draftView.GF4" x="55" y="226"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="draftView.player.voteBtn" 
+		backStyle="asset.draftView.player.voteBtn" x="31" y="286"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="draftView.vote.textInfo" 
+		textFormatStyle="draftView.TF5"  filterString="draftView.GF5" x="64" y="20"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="draftView.vote.ticketInfo" 
+		textFormatStyle="draftView.TF6"  filterString="draftView.GF6" x="177" y="49"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="draftView.vote.noticeInfo" 
+		textFormatStyle="draftView.TF7"  filterString="draftView.GF7" x="19" y="196"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="draftView.vote.confirmBtn" 
+		backStyle="asset.draft.voteView.confirm" x="167" y="222"/>
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="draftView.vote.ticketSelect"
+		parentStyle="ddtshop.CartItemSelectBtn" x="45" y="40" />
+	
+</components>
+<bitmaps>
+	<bitmapData resourceLink="asset.draftView.viewBg" x="0" y="0"/>
+	<bitmapData resourceLink="asset.draftView.freeTicket" x="37" y="128"/>
+	<bitmapData resourceLink="asset.draftView.mondayReward" x="40" y="517"/>
+	<bitmapData resourceLink="asset.draftView.normalBg" x="16" y="45"/>
+</bitmaps>
+<customs>
+	<custom classname="flash.geom.Point" stylename="draftView.closeBtn.Pos" x="818" y="88"/>
+	<custom classname="flash.geom.Point" stylename="draftView.player.lightPos" x="13" y="121"/>
+	<custom classname="flash.geom.Point" stylename="draftView.player.namePos" x="47" y="0"/>
+	<custom classname="flash.geom.Point" stylename="voteView.closeBtn.Pos" x="389" y="-13"/>
+	<custom classname="flash.geom.Point" stylename="voteView.ticketBg.Pos" x="219" y="127"/>
+	<custom classname="flash.geom.Point" stylename="voteView.ticketNum.Pos" x="217" y="131"/>
+	<custom classname="flash.geom.Point" stylename="voteView.money.Pos" x="229" y="161"/>
+	<custom classname="flash.geom.Point" stylename="voteView.selectBtn.Pos1" x="152" y="49"/>
+	<custom classname="flash.geom.Point" stylename="voteView.selectBtn.Pos2" x="152" y="75"/>
+	<custom classname="flash.geom.Point" stylename="voteView.selectBtn.Pos3" x="152" y="101"/>
+	<custom classname="flash.geom.Point" stylename="voteView.selectBtn.Pos4" x="152" y="127"/>
+	<custom classname="flash.geom.Point" stylename="lastRankView.closeBtn.Pos" x="547" y="-17"/>
+	<custom classname="flash.geom.Point" stylename="lastRankView.ticket.Pos1" x="66" y="309"/>
+	<custom classname="flash.geom.Point" stylename="lastRankView.ticket.Pos2" x="66" y="295"/>
+	<custom classname="flash.geom.Point" stylename="lastRankView.ticket.Pos3" x="69" y="284"/>
+	<custom classname="flash.geom.Point" stylename="lastRankView.player.Pos0" x="225" y="13"/>
+	<custom classname="flash.geom.Point" stylename="lastRankView.player.Pos1" x="61" y="40"/>
+	<custom classname="flash.geom.Point" stylename="lastRankView.player.Pos2" x="379" y="64"/>
+</customs>
+</style>

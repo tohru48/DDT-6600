@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtcivil" version="1.0.1" source="ui/turkey/swf/ddtcivil.swf"> 
+  <sets> 
+    <set stylename="civil.marriedTF" args="Arial,14,0xf5adf9" type="flash.text.TextFormat"/>  
+    <set stylename="civil.marriedGF" args="0x390004d,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="civil.register.MatrimonyFieldTF" args="Arial,12,0xFFFFFF" type="flash.text.TextFormat"/>  
+    <set stylename="civil.SelectBGPlayerNameTF" args="Arial,14,0xFFFFFF" type="flash.text.TextFormat"/>  
+    <set stylename="civil.SelectBGPlayerNameFilter" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <!-- 查看装备...四个按钮 -->  
+    <set stylename="ddtcivil.TF1" args="Arial,14,0xfff6a8,ture" type="flash.text.TextFormat" letterSpacing="2"/>  
+    <set stylename="ddtcivil.GF1" args="0x715008,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!-- 名称 工会 -->  
+    <set stylename="ddtcivil.TF2" args="Arial,14,0xfffad7,ture" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcivil.GF2" args="0x5c0d00,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcivil.TF3" args="Arial,14,0xffe65d" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcivil.GF3" args="0x681800,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!-- 排名 -->  
+    <set stylename="ddtcivil.TF4" args="Arial,14,0xffffff" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcivil.GF4" args="0x4f0000,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!-- 个人介绍 -->  
+    <set stylename="ddtcivil.TextAreaInputTF" args="Arial,14,0xfff1cd" type="flash.text.TextFormat" leading="6"/>  
+    <set stylename="ddtcivil.TextAreaInputGF" args="0x703d24,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!-- 玩家列表 -->  
+    <set stylename="ddtcivil.TFList" args="Arial,14,0xffea9c,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcivil.GFList" args="0x4f3700,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!-- 搜索 -->  
+    <set stylename="ddtcivil.searchTF" args="Arial,12,0xfff8d6," type="flash.text.TextFormat"/>  
+    <set stylename="ddtcivil.searchGF" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcivil.searchBtnTF" args="Arial,14,0xfff1b0,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcivil.searchBtnGF" args="0x771c00,1,4,4,400" type="flash.filters.GlowFilter"/>  
+    <set stylename="civil.pageTF" args="Arial,12,0xfff8d6,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="civil.pageGF" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!-- 修改资料 -->  
+    <set stylename="ddtcivil.TF5" args="Arial,14,0xfff4d4" leading="5" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcivil.GF5" args="0x643712,1,4,4,600" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcivil.GF55" args="0x644022,1,4,4,600" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcivil.TF6" args="Arial,12,0xFFFFFF" leading="5" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcivil.GF6" args="0x0066ff,1,3,3,10,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="civil.register.BlackBorder" args="0x77341c,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcivil.TF1_1" args="Arial,12,0xfff6a8,ture" type="flash.text.TextFormat"/>
+    <set stylename="ddtcivil.TF1_2" args="Arial,11,0xfff6a8,ture" type="flash.text.TextFormat"/>
+    <set stylename="ddtcivil.TF1_3" args="Arial,11,0xfff6a8,ture,,,,,center" type="flash.text.TextFormat"/>
+    
+    <set stylename="ddtcivil.TF12" args="Arial,12,0xfff6a8" type="flash.text.TextFormat" letterSpacing="0"/>
+  </sets>  
+  <customDisplay> 
+    <custom classname="flash.geom.Point" stylename="civil.playerPos" x="199" y="160"/>  
+    <custom classname="civil.view.CivilPlayerInfoList" stylename="civil.view.CivilPlayerInfoList" y="4"/>  
+    <custom classname="flash.geom.Point" stylename="civil.register.RegisterPos" x="-2" y="0"/>  
+    <custom classname="ddt.view.common.LevelIcon" stylename="ddtcivil.levelIcon" x="452" y="59"/>  
+    <custom classname="ddt.view.common.LevelIcon" stylename="ddtcivil.levelIcon_list" x="248" y="3"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcivil.bgPos" x="5" y="39"/>  
+    <!-- CivilLeftView -->  
+    <!-- 排名背景 -->  
+    <custom classname="flash.geom.Point" stylename="ddtcivil.leftSmallBg1" x="272" y="101"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcivil.leftSmallBg2" x="272" y="127"/>  
+    <!-- 个人介绍 -->  
+    <custom classname="flash.geom.Point" stylename="ddtcivil.IntroBg" x="271" y="168"/>  
+    <!-- CivilRightView -->  
+    <custom classname="flash.geom.Point" stylename="ddtcivil.rightListBg" x="526" y="113"/>  
+    <!-- 按钮背景 -->  
+    <custom classname="flash.geom.Point" stylename="ddtcivil.lefeBtnBg" x="273" y="292"/>  
+    <!-- 修改信息弹窗 --> 
+  </customDisplay>  
+  <components> 
+    <!--CivilRightView-->  
+    <!-- 背景 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtcivil.rightView.bg" resourceLink="asset.core.btmc011" width="460" height="416" x="517" y="102" scaleGridString="20,20,60,40"/>  
+    <!-- 金边 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtcivil.goldlinebg" parentStyle="core.ScaleBitmapImage1" width="244" height="295" x="29" y="91" scaleGridString="20,20,60,40"/>  
+    <!-- 搜索 -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtcivil.searchBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="146" height="26" x="753" y="68"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.searchTextStyle" textFormatStyle="ddtcivil.searchTF" filterString="ddtcivil.searchGF" multiline="false" wordwrap="false" autoSize="none"/>  
+    <component classname="com.pickgliss.ui.controls.TextInput" stylename="ddtcivil.searchText" textStyle="ddtcivil.searchTextStyle" x="760" y="73" autoSize="none" width="124" height="20" maxChars="14" multiline="false" wordwrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtcivil.equipBtnTxt" textFormatStyle="ddtcivil.searchBtnTF" filterString="ddtcivil.searchBtnGF" autoSize="none" x="8" y="5" width="78" height="20" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.ddtcivil.searchBtn" backStyle="asset.core.btmc018" textStyle="asset.ddtcivil.equipBtnTxt" backgoundInnerRectString="20,24,7,11,-1" filterString="null,lightFilter,null,grayFilter" x="903" y="65" useLogID="87"/>  
+    <!-- 列表框 -->  
+    <!-- 小分割线 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtcivil.formIine1" resourceLink="asset.corel.formLine" x="218" y="4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtcivil.formIine2" resourceLink="asset.corel.formLine" x="302" y="4"/>  
+    <!-- 表格行底 -->  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="ddtcivil.rightview.signalLineBg1bg" parentStyle="core.ScaleleftrightImage.lineBg3" width="416" height="28"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="ddtcivil.rightview.signalLineBg2bg" parentStyle="core.ScaleleftrightImage.lineBg2" width="416" height="28"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtcivil.rightview.signalLineBg" resourceLink="ddtcivil.rightview.signalLineBg1bg,ddtcivil.rightview.signalLineBg2bg"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtcivil.rightview.signalLine.selected" parentStyle="core.Scale9CornerImage.scale9CornerSparkBG" width="426" height="36" x="-5" y="-4"/>  
+    <!-- 大分割线 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtcivil.formIineBig1" resourceLink="asset.corel.formLineBig" x="838" y="115"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtcivil.formIineBig2" resourceLink="asset.corel.formLineBig" x="755" y="115"/>  
+    <!-- 内容显示 -->  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="civil.memberList" spacing="2" x="537" y="148" width="419" height="48"/>  
+    <!-- 翻页背景 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.page" textFormatStyle="civil.pageTF" filterString="civil.pageGF" x="597" y="473" autoSize="none" width="96" height="22" type="dynamic" text="1/1" aotuSize="none"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtcivil.pagePreBg" resourceLink="asset.core.pagePreBg" x="539" y="462" width="210" height="40"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtcivil.pageLastBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="85" height="20" x="602" y="471"/>  
+    <!--GenderButton-->  
+    <!-- 男/女 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="male_sel_btn" parentStyle="core.bg6901" width="116" height="46"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcivil.maleBtnSel" resourceLink="male_sel_btn,asset.ddtcivil.male_selAsset" x="527" y="58"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="male_unsel_btn" parentStyle="core.bg6900" width="100" height="38"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcivil.maleBtnUnsel" resourceLink="male_unsel_btn,asset.ddtcivil.maleAsset" x="530" y="61"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.ddtcivil.maleButton" selectedStyle="ddtcivil.maleBtnSel" unSelectedStyle="ddtcivil.maleBtnUnsel"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="female_sel_btn" parentStyle="core.bg6901" width="106" height="46"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcivil.femaleBtnSel" resourceLink="female_sel_btn,asset.ddtcivil.female_selAsset" x="627" y="58"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="female_unsel_btn" parentStyle="core.bg6900" width="100" height="38"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcivil.femaleBtnUnsel" resourceLink="female_unsel_btn,asset.ddtcivil.femaleAsset" x="631" y="61"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.ddtcivil.femaleButton" selectedStyle="ddtcivil.femaleBtnSel" unSelectedStyle="ddtcivil.femaleBtnUnsel" x="16"/>  
+    <!-- 上一页/下一页 -->  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtcivil.preBtn" backStyle="asset.ddtcore.leftBtn" x="545" y="469"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtcivil.nextBtn" backStyle="asset.ddtcore.rightBtn" x="689" y="469"/>  
+    <!--ItemFrame-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.SelectBGPlayerName" textFormatStyle="civil.SelectBGPlayerNameTF" filterString="civil.SelectBGPlayerNameFilter" x="21" y="6" autoSize="none" isAutoFitLength="true" width="179" height="19" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtcivil.state_icon" resourceLink="asset.ddtcivil.online_maleAsset,asset.ddtcivil.online_femaleAsset,asset.ddtcivil.offlineAsset" x="313" y="9"/>  
+    <!-- 名称等级状态 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.nameTitle" textFormatStyle="ddtcivil.TFList" filterString="ddtcivil.GFList" autoSize="none" isAutoFitLength="true" x="618" y="120" width="50" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.levelTitle" textFormatStyle="ddtcivil.TFList" filterString="ddtcivil.GFList" autoSize="none" isAutoFitLength="true" x="782" y="120" width="50" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.stateTitle" textFormatStyle="ddtcivil.TFList" filterString="ddtcivil.GFList" autoSize="none" isAutoFitLength="true" x="885" y="120" width="50" height="22" type="dynamic"/>  
+    <!-- 修改资料\加好友 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtcivil.registerTxt" textFormatStyle="ddtcivil.TF1" filterString="ddtcivil.GF1" autoSize="none" x="0" y="0" width="78" height="20" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.ddtcivil.registerTxtBtn" backStyle="core.bg6905" textStyle="asset.ddtcivil.registerTxt1" backgoundInnerRectString="11,12,10,12,-1" filterString="null,lightFilter,null,grayFilter" x="749" y="465" useLogID="83"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcivil.addBigBtnTxtImage" resourceLink="asset.core.btmc012,asset.cityWide.addFirendsAsset" imageRectString=",11|90|5|29|13" width="114" height="42"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtcivil.addBigTxtBtn" backStyle="ddtcivil.addBigBtnTxtImage" x="853" y="463"/>  
+    <!--CivilLeftView-->  
+    <!-- 名称/公会 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.player" textFormatStyle="ddtcivil.TF2" filterString="ddtcivil.GF2" autoSize="none" isAutoFitLength="true" x="33" y="66" width="50" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.guild" textFormatStyle="ddtcivil.TF2" filterString="ddtcivil.GF2" autoSize="none" isAutoFitLength="true" x="263" y="67" width="50" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.playerName" textFormatStyle="civil.SelectBGPlayerNameTF" filterString="civil.SelectBGPlayerNameFilter" autoSize="none" isAutoFitLength="true" x="78" y="66" width="190" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.guildName" textFormatStyle="ddtcivil.TF3" filterString="ddtcivil.GF3" autoSize="none" isAutoFitLength="true" x="305" y="67" width="143" height="22" type="dynamic"/>  
+    <!-- 排名 婚姻 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.repute" textFormatStyle="ddtcivil.TF2" filterString="ddtcivil.GF2" autoSize="none" isAutoFitLength="true" x="280" y="102" width="80" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.married" textFormatStyle="ddtcivil.TF2" filterString="ddtcivil.GF2" autoSize="none" isAutoFitLength="true" x="280" y="128" width="110" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.reputeTxt" textFormatStyle="ddtcivil.TF4" filterString="ddtcivil.GF4" x="394" y="103" width="70" height="17" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.marriedTxt" textFormatStyle="civil.marriedTF" filterString="civil.marriedGF" x="394" y="129" width="135" height="22" type="dynamic"/>  
+    <!-- 个人介绍 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.TextAreaDy" textFormatStyle="ddtcivil.TextAreaInputTF" filterString="ddtcivil.TextAreaInputGF" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="ddtcivil.IntroductionText" parentStyle="core.SimpleTextArea" textStyle="ddtcivil.TextAreaDy" vScrollProxy="0" viewportInnerRectString="-15,40,28,20,0" x="319" y="177" width="180" height="100" vUnitIncrement="10"/>  
+    <!-- 人物显示 -->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtcivil.sexBg" resourceLink="asset.ddtcivil.male_bgAsset,asset.ddtcivil.female_bgAsset" x="36" y="98"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtcivil.leftView.bg" resourceLink="asset.core.btmc011" width="485" height="330" x="21" y="57" scaleGridString="20,20,60,40"/>  
+    <!-- 查看装备 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtcivil.equipTxt" textFormatStyle="ddtcivil.TF1_3" filterString="ddtcivil.GF1" autoSize="none" x="0" y="0" width="85" height="40" type="dynamic" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.ddtcivil.equipTxtBtn" backStyle="core.bg6905" textStyle="asset.ddtcivil.equipTxt" backgoundInnerRectString="5,31,7,9,-1" filterString="null,lightFilter,null,grayFilter" x="387" y="293"/>  
+    <!-- 私聊 -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcivil.talkBtn" resourceLink="core.bg6905,core.talkImage" imageRectString="0|90|0|44|13,11|21|13|19|13"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtcivil.talkTxt" textFormatStyle="ddtcivil.TF1_2" filterString="ddtcivil.GF1" autoSize="none" x="0" y="0" width="85" height="40" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.ddtcivil.talkTxtBtn" backStyle="ddtcivil.talkBtn" textStyle="asset.ddtcivil.talkTxt" backgoundInnerRectString="34,15,7,12,-1" filterString="null,lightFilter,null,grayFilter" x="286" y="293"/>  
+    <!-- 加为好友 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtcivil.addTxt" textFormatStyle="ddtcivil.TF1_3" filterString="ddtcivil.GF1" autoSize="none" x="0" y="0" width="85" height="40" type="dynamic" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.ddtcivil.addTxtBtn" backStyle="core.bg6905" textStyle="asset.ddtcivil.addTxt" backgoundInnerRectString="5,24,8,8,-1" filterString="null,lightFilter,null,grayFilter" x="387" y="335"/>  
+    <!-- 求婚 -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcivil.courtshipBtn" resourceLink="core.bg6905,core.redHeart" imageRectString="0|90|0|44|13,9|21|15|19|13"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtcivil.courtshipTxt" textFormatStyle="ddtcivil.TF1_2" filterString="ddtcivil.GF1" autoSize="none" x="0" y="0" width="85" height="20" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.ddtcivil.courtshipTxtBtn" backStyle="ddtcivil.courtshipBtn" textStyle="asset.ddtcivil.courtshipTxt" backgoundInnerRectString="33,16,15,11,-1" filterString="null,lightFilter,null,grayFilter" x="286" y="335"/>  
+    <!-- 修改资料弹窗 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtcivil.register.bg" resourceLink="asset.core.btmc011" width="414" height="288" x="22" y="43" scaleGridString="20,20,60,40"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtcivil.register.RegisterTitle" resourceLink="asset.ddtcivil.title2Asset,asset.ddtcivil.title3Asset" x="38" y="52"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="register.nameBg" resourceLink="asset.ddtcivil.leftSmallBgAsset" x="35" y="102" width="392" height="30"/>  
+    <!-- 文字 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.register.NicknameLabel" textFormatStyle="ddtcivil.TF2" filterString="ddtcivil.GF2" x="44" y="108"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.register.NicknameField" textFormatStyle="ddtcivil.TF5" filterString="ddtcivil.GF5" x="96" y="108"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.register.MatrimonyLabel" textFormatStyle="ddtcivil.TF2" filterString="ddtcivil.GF2" x="266" y="108"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.register.MatrimonyField" textFormatStyle="ddtcivil.TF6" filterString="ddtcivil.GF6" x="377" y="108"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.register.IntroductionLabel" textFormatStyle="ddtcivil.TF2" filterString="ddtcivil.GF2" x="44" y="141"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcivil.register.IntroductionInput" textFormatStyle="ddtcivil.TF5" filterString="ddtcivil.GF55" type="input" multiline="true" wordWrap="true"/>  
+    <!-- 输入框 -->  
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="ddtcivil.register.IntroductionField" parentStyle="core.SimpleTextArea" backgoundStyle="core.Scale9CornerImage.scale9CornerImageInputBG" backgoundInnerRectString="5,3,4,6,-1" textStyle="ddtcivil.register.IntroductionInput" vScrollProxy="0" viewportInnerRectString="7,40,7,15,0" x="40" y="169" width="382" height="110" vUnitIncrement="10"/>  
+    <!-- 按钮 -->  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="ddtcivil.register.SubmitButton" parentStyle="core.simplebt" x="86" y="346"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="ddtcivil.register.CancelButton" parentStyle="core.simplebt" x="290" y="346"/>  
+    <component classname="civil.view.CivilRegisterFrame" stylename="civil.register.CivilRegisterFrame" backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="18,11,5" closeInnerRectString="44,15,5,31,14" moveInnerRectString="0,30,0,30,1" width="460" height="400" moveEnable="false" escEnable="true" enterEnable="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.register.PublicEquipLabel" textFormatStyle="civil.register.MatrimonyFieldTF" filterString="civil.register.BlackBorder" x="16" y="-2"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="civil.register.PublicEquipButton" parentStyle="core.simpleSelectBtn" displacement="true" textStyle="civil.register.PublicEquipLabel" x="42" y="300"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.ddtcivil.titleBgImg" resourceLink="asset.ddtcivil.titleBg" x="206" y="1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtcivil.registerTxt1" textFormatStyle="ddtcivil.TF1_1" filterString="ddtcivil.GF1" autoSize="none" x="0" y="0" width="85" height="20" type="dynamic"/>
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.ddtcivil.titleText" x="385" y="4"/>  
+    <bitmapData resourceLink="asset.ddtcivil.titleBgAsset" x="18" y="61"/>  
+    <bitmapData resourceLink="asset.ddtcivil.introducntionAsset" x="278" y="159"/>  
+    <bitmapData resourceLink="asset.civil.search_bgAsset" x="766" y="90"/>  
+    <bitmapData resourceLink="asset.ddtcivil.male_selAsset" x="19" y="12"/>  
+    <bitmapData resourceLink="asset.ddtcivil.maleAsset" x="17" y="6"/>  
+    <bitmapData resourceLink="asset.ddtcivil.female_selAsset" x="19" y="12"/>  
+    <bitmapData resourceLink="asset.ddtcivil.femaleAsset" x="17" y="6"/> 
+  </bitmaps> 
+</style>

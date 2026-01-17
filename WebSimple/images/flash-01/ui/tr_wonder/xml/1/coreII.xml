@@ -1,0 +1,43 @@
+<style name="coreII" version="1.0.1" source="ui/spain/swf/coreII.swf">
+	<sets>
+		<set args="0x6b0000,1,5,5,10" stylename="core.upgradeMoive.GF" type="flash.filters.GlowFilter"/>
+		<set stylename="core.upgradeMoive.TF" args="宋体,20,0xffdb31,true,,,,,center" leading="2" type="flash.text.TextFormat"/>	
+	<set stylename="petbags.petName.TF" args="宋体,13,0x000000,true,,,,,center" type="flash.text.TextFormat"/>  		 
+    <set stylename="petbags.petName.GF" args="0xffffff,1,2,2,2,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="petbags.petTip.TF" args="Arial,13,0xFF9933,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="petbags.petTip.TF2" args="Arial,13,0xFF9933,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="petbags.petTip.GF" args="1,95,0x000000,1,1,1,10" type="flash.filters.DropShadowFilter"/>  
+    <set stylename="petbags.petTip.GF2" args="1,95,0x000000,1,1,1,10" type="flash.filters.DropShadowFilter"/>  
+		<set stylename="core.goodTip.LimitGradeTxtFormat" args="Arial,12,0xff0000" leading="0" type="flash.text.TextFormat"/> 
+	</sets>
+	
+	<components>
+		<!--  背包翻页按钮 -->
+		<component classname="bagAndInfo.bag.BagPageButton" stylename="core.bag.upBtn" 
+			backStyle="asset.ddtcore.bagPageBtnUp" filterString="null,lightFilter,null,grayFilter"
+			x="134" y="260"
+		/>
+		<component classname="bagAndInfo.bag.BagPageButton" stylename="core.bag.downBtn" 
+			backStyle="asset.ddtcore.bagPageBtnDown" filterString="null,lightFilter,null,grayFilter"
+			x="134" y="260"
+		/>	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.upgradeMoive.text" 
+			filterString="core.upgradeMoive.GF" textFormatStyle="core.upgradeMoive.TF" autoSize="none" width="72" height="44" x="75" y="-6"/>
+		<!-- PetTip -->  
+    	<component classname="ddt.view.tips.PetTip" stylename="core.PetTip" widht="114" height="70"/>  
+    	 <!-- 背包宠物成长值tips -->  
+		 <!--启灵-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.goodTip.ghostDescTxt" textFormatStyle="core.goodTip.ghostDescTxtTF" filterString="core.goodTip.ghostDescTxtGF" multiline="true" wordWrap="true" x="4" selectable="false" />
+	<set stylename="core.goodTip.ghostDescTxtTF" args="宋体,12,0xffea00" leading="4" type="flash.text.TextFormat"/>
+	<set stylename="core.goodTip.ghostDescTxtGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter" />
+	
+	
+	<!--启灵-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="core.GoodsTipItemNameTxtString" filterString="P_g1" textFormatStyle="PFormat_6"/>
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="petGrowUpTips.line" parentStyle="HRuleAsset" width="100" x="5" y="47"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petbags.text.petGrowUpTipName" textFormatStyle="petbags.petTip.TF" filterString="petbags.petTip.GF" x="10" y="25" width="50" height="21"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petbags.text.petGrowUpTipValue" textFormatStyle="petbags.petTip.TF2" filterString="petbags.petTip.GF2" x="10" y="25" autoSize="none" width="60" height="21"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petbags.text.petName" textFormatStyle="petbags.petName.TF" filterString="petbags.petName.GF" x="10" y="10" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.goodTip.LimitGradeTxt" textFormatStyle="core.goodTip.LimitGradeTxtFormat" multiline="true" wordWrap="true" x="4" width="150" height="25" selectable="false"/>	
+	</components>
+</style>

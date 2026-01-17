@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="pyramid" version="2.0.1" source="ui/turkey/swf/pyramid.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="assets.pyramid.myLevelTxtTF" args="Arial,14,0xffedb0,true,,,,,left"/>  
+    <set type="flash.filters.GlowFilter" stylename="assets.pyramid.myLevelTxtGF" args="0x3f250d,1,4,4,10"/>  
+    <set type="flash.text.TextFormat" stylename="assets.pyramid.countMsgTxtTF" args="Arial,12,0xffffff,,,,,,left" leading="2"/>  
+    <set type="flash.filters.GlowFilter" stylename="assets.pyramid.countMsgTxtGF" args="0x000000,1,4,4,10"/>  
+    <set type="flash.text.TextFormat" stylename="assets.pyramid.countTxtTF" args="Arial,16,0xff2d68,false,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="assets.pyramid.countTxtGF" args="0xffffff,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="assets.pyramid.helpViewScriptTxtTF" args="Arial,14,0xe3d9a9,,,,,,left" leading="2"/>  
+    <set type="flash.filters.GlowFilter" stylename="assets.pyramid.helpViewScriptTxtGF" args="0x5f3d11,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="pyramid.view.activeTimeTitleTF" args="Arial,16,0xffedb0,,,,,,left"/>  
+    <set type="flash.filters.GlowFilter" stylename="pyramid.view.activeTimeTitleGF" args="0x730000,1,4,4,10"/>  
+    <set type="flash.text.TextFormat" stylename="pyramid.view.activeTimeTxtTF" args="Arial,15,0xffedb0,true,,,,,left"/>  
+    <set type="flash.filters.GlowFilter" stylename="pyramid.view.activeTimeTxtGF" args="0x4a270a,1,4,4,10"/>  
+    <set type="flash.text.TextFormat" stylename="pyramid.view.shopItemPriceTxtTF" args="Arial,12,0xe8ce97,true,,,,,left"/>  
+    <set type="flash.filters.GlowFilter" stylename="pyramid.view.shopItemPriceTxtGF" args="0x5c3d11,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="pyramid.view.shopItemNameTxtTF" args="Arial,12,0xffcc00,,,,,,left"/>  
+    <set type="flash.filters.GlowFilter" stylename="pyramid.view.shopItemNameTxtGF" args="0x5b3100,1,4,4,10"/>  
+    <set type="flash.text.TextFormat" stylename="pyramid.view.shopItemPriceTitleTF" args="Arial,12,0xffcc00,,,,,,right"/>  
+    <set type="flash.text.TextFormat" stylename="pyramid.view.cardFrameReviveCountTF" args="Arial,14,0xff0000,true,,,,,left"/>  
+    <set type="flash.filters.GlowFilter" stylename="pyramid.view.cardFrameReviveCountGF" args="0xffffff,1,4,4,10"/>  
+    <set stylename="pyramid.buyFrameSelectedCheckButtonTextTF" args="Arial,12,0xfff4d4,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="pyramid.buyFrameSelectedCheckButtonTextGF" args="0x57c4519,1,4,4,30" type="flash.filters.GlowFilter"/> 
+    
+    <set stylename="pyramid.selectedCheckAutoOpenCardTxtGF" args="0x000000,1,4,4,30" type="flash.filters.GlowFilter"/>
+<set stylename="pyramid.selectedCheckAutoOpenCardTxtTF" args="Arial,12,0xffffff,,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="pyramid.autoCountSelectFrame.TextTF" args="Arial,16,0xffeebf,true" letterSpacing="2" type="flash.text.TextFormat"/>
+<set stylename="pyramid.autoCountSelectFrame.TextGF" args="0x442006,1,4,4,30" type="flash.filters.GlowFilter"/>
+<set type="flash.text.TextFormat" stylename="pyramid.TipTxt.tf" args="Arial,12,0xffffff"/>
+<set type="flash.filters.GlowFilter" stylename="pyramid.TipTxt.gf" args="0xe00000,1,2,2,30"/>
+  </sets>  
+  <customs> 
+    <custom classname="pyramid.view.PyramidReturnBar" stylename="asset.pyramid.returnMenu" x="906" y="545"/>  
+    <custom classname="flash.geom.Point" stylename="asset.pyramid.returnBar.position" x="906" y="966"/>  
+    <custom classname="pyramid.view.PyramidLeftView" stylename="pyramid.view.leftView" x="2" y="5"/>  
+    <custom classname="pyramid.view.PyramidShopView" stylename="pyramid.view.shopView" x="645" y="0"/>  
+    <custom classname="pyramid.view.PyramidHelpView" stylename="pyramid.view.helpView" x="645" y="378"/>  
+    <custom classname="flash.display.Sprite" stylename="pyramid.view.goodItemContainerAll" spacing="2" x="14" y="45"/>  
+    <custom classname="flash.display.Sprite" stylename="pyramid.view.navigationBarContainer" x="-130" y="-145"/>  
+    <custom classname="pyramid.view.PyramidShopItem" stylename="pyramid.view.pyramidShopItem"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.shopGoodItemCellPos" x="0" y="0"/>  
+    <custom classname="pyramid.view.PyramidTopBox" stylename="pyramid.topBox" x="190" y="0"/>  
+    <custom classname="pyramid.view.PyramidCards" stylename="pyramid.view.pyramidCards" x="75" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.shufflePos" x="-187" y="-121"/>  
+    <!-- 金字塔卡牌坐标（用x/y控制更加灵活，以免动画带来的效果偏差）-->  
+    <!-- <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos8_1"  x="190" y="0" /> -->  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos7_1" x="194" y="107"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos7_2" x="249" y="107"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos6_1" x="164" y="163"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos6_2" x="221" y="163"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos6_3" x="279" y="163"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos5_1" x="138" y="222.5"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos5_2" x="194" y="222.5"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos5_3" x="249" y="222.5"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos5_4" x="305" y="222.5"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos4_1" x="107" y="278"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos4_2" x="165" y="278"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos4_3" x="222" y="278"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos4_4" x="280" y="278"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos4_5" x="337" y="278"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos3_1" x="83" y="339"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos3_2" x="139" y="339"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos3_3" x="194" y="339"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos3_4" x="249" y="339"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos3_5" x="305" y="339"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos3_6" x="361" y="339"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos2_1" x="49" y="398"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos2_2" x="106" y="398"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos2_3" x="164" y="398"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos2_4" x="221" y="398"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos2_5" x="279" y="398"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos2_6" x="336" y="398"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos2_7" x="392" y="398"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos1_1" x="28" y="457"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos1_2" x="83" y="457"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos1_3" x="139" y="457"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos1_4" x="194" y="457"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos1_5" x="250" y="457"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos1_6" x="306" y="457"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos1_7" x="361" y="457"/>  
+    <custom classname="flash.geom.Point" stylename="pyramid.view.cardPos1_8" x="417" y="457"/> 
+    <custom classname="flash.geom.Point" stylename="pyramid.view.autoCountPos" x="303" y="75"/>
+  </customs>  
+  <components> 
+  <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="pyramid.autoCountSelectFrame.Text" textFormatStyle="pyramid.autoCountSelectFrame.TextTF" 
+
+filterString="pyramid.autoCountSelectFrame.TextGF" x="29" y="75"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="pyramid.TipTxt" textFormatStyle="pyramid.TipTxt.tf" filterString="pyramid.TipTxt.gf" autoSize="none" width="330" height="22" x="58" 
+
+y="121"/>
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.pyramid.returnBar.returnBtn" backStyle="asset.pyramid.returnBar.returnBtn.back" x="34" y="4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.pyramid.returnBar.returnBtn.back" resourceLink="asset.pyramid.returnBar.btnImg,asset.pyramid.returnBar.btnImg.selected,asset.pyramid.returnBar.btnImg.selected,asset.pyramid.returnBar.btnImg.selected"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.pyramid.returnBar.stretchBtn" unSelectedStyle="asset.pyramid.returnBar.unselected" selectedStyle="asset.pyramid.returnBar.selected" filterString="null,lightFilter,null,grayFilter" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.pyramid.leftView.startBtn" backStyle="assets.pyramid.startBtnBg" x="180" y="508"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.pyramid.leftView.endBtn" backStyle="assets.pyramid.endBtnBg" x="180" y="508"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="assets.pyramid.myLevelTxt" filterString="assets.pyramid.myLevelTxtGF" textFormatStyle="assets.pyramid.myLevelTxtTF" autoSize="none" height="30" width="200" x="122" y="15"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="assets.pyramid.myScoreTxt" filterString="assets.pyramid.myLevelTxtGF" textFormatStyle="assets.pyramid.myLevelTxtTF" autoSize="none" height="30" width="200" x="525" y="15"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="assets.pyramid.scoreAdd" filterString="assets.pyramid.myLevelTxtGF" textFormatStyle="assets.pyramid.myLevelTxtTF" autoSize="none" height="30" width="200" x="143" y="554"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="assets.pyramid.currentGetScore" filterString="assets.pyramid.myLevelTxtGF" textFormatStyle="assets.pyramid.myLevelTxtTF" autoSize="none" height="30" width="200" x="570" y="554"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="assets.pyramid.countMsgTxt" filterString="assets.pyramid.countMsgTxtGF" textFormatStyle="assets.pyramid.countMsgTxtTF" autoSize="none" height="45" width="230" x="21" y="506" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="assets.pyramid.countTxt" filterString="assets.pyramid.countTxtGF" textFormatStyle="assets.pyramid.countTxtTF" autoSize="none" height="30" width="50" x="28" y="504"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="assets.pyramid.helpViewScriptTxt" filterString="assets.pyramid.helpViewScriptTxtGF" textFormatStyle="assets.pyramid.helpViewScriptTxtTF" autoSize="none" width="315" height="300" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="assets.pyramid.helpViewVBox" spacing="5" x="0" y="5" height="110"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="assets.pyramid.helpViewScrollpanel" parentStyle="core.ScrollPanel" width="325" height="130" hScrollProxy="2" vScrollProxy="0" x="15" y="25"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="pyramid.view.activeTimeTitle" filterString="pyramid.view.activeTimeTitleGF" textFormatStyle="pyramid.view.activeTimeTitleTF" autoSize="none" height="30" width="200" x="645" y="548"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="pyramid.view.activeTimeTxt" filterString="pyramid.view.activeTimeTxtGF" textFormatStyle="pyramid.view.activeTimeTxtTF" autoSize="none" height="30" width="250" x="645" y="570"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="assets.pyramid.shopViewItemBg" resourceLink="assets.pyramid.shopViewItemBg1,assets.pyramid.shopViewItemBg2" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="pyramid.view.shopItemNameTxt" filterString="pyramid.view.shopItemNameTxtGF" textFormatStyle="pyramid.view.shopItemNameTxtTF" autoSize="none" height="20" width="87" x="67" y="10" isAutoFitLength="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="pyramid.view.shopItemPriceTxt" filterString="pyramid.view.shopItemPriceTxtGF" textFormatStyle="pyramid.view.shopItemPriceTxtTF" autoSize="none" height="20" width="87" x="67" y="25"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="pyramid.view.shopItemPriceTitle" filterString="pyramid.view.shopItemPriceTxtGF" textFormatStyle="pyramid.view.shopItemPriceTitleTF" autoSize="none" height="20" width="87" x="71" y="25"/>  
+    <component classname="com.pickgliss.ui.image.TiledImage" stylename="pyramid.view.shopItemDotLine" resourceLink="asset.ddtcore.line" x="69" y="42" width="83" height="3"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="pyramid.view.shopViewItemBtn" backStyle="assets.pyramid.shopViewItemBtn" x="97" y="44"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="pyramid.view.cardFrameReviveCount" filterString="pyramid.view.cardFrameReviveCountGF" textFormatStyle="pyramid.view.cardFrameReviveCountTF" autoSize="none" height="20" width="360" x="136" y="69"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="pyramid.buyFrameSelectedCheckButton" parentStyle="core.simpleSelectBtn" textStyle="pyramid.buyFrameSelectedCheckButtonText" displacement="false" fieldX="18" fieldY="-2" x="188" y="57"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="pyramid.buyFrameSelectedCheckButtonText" textFormatStyle="pyramid.buyFrameSelectedCheckButtonTextTF" filterString="pyramid.buyFrameSelectedCheckButtonTextGF" autoSize="none" width="230" height="30"/> 
+  	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="pyramid.selectedCheckAutoOpenCardTxt" textFormatStyle="pyramid.selectedCheckAutoOpenCardTxtTF" filterString="pyramid.selectedCheckAutoOpenCardTxtGF" autoSize="none" width="230" height="30"/>
+<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="pyramid.selectedCheckAutoOpenCard" parentStyle="core.simpleSelectBtn" x="460" y="520" textStyle="pyramid.selectedCheckAutoOpenCardTxt" fieldX="20" fieldY="-3"/>
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.pyramid.returnBar.btnImg" x="9" y="2"/>  
+    <bitmapData resourceLink="asset.pyramid.returnBar.unselected" x="4" y="8"/>  
+    <bitmapData resourceLink="asset.pyramid.returnBar.selected" x="4" y="8"/>  
+    <bitmapData resourceLink="asset.pyramid.returnBar.btnImg.selected" x="2" y="-2"/> 
+  </bitmaps> 
+</style>

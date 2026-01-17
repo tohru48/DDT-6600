@@ -1,0 +1,263 @@
+<style name="catchInsect" version="5.1.0" source="ui/turkey/swf/catchInsect.swf">
+<sets>
+		<set type="flash.text.TextFormat" stylename="catchInsect.chooseFrame.timeTxtTF" args="Arial,12,0xffffff"/>
+		<set type="flash.filters.GlowFilter" stylename="catchInsect.chooseFrame.timeTxtGF" args="0x252423,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="catchInsect.chooseFrame.descTxtTF" args="Arial,12,0xffe35f" leading="7"/>
+		<set type="flash.filters.GlowFilter" stylename="catchInsect.chooseFrame.descTxtGF" args="0x572525,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="catchInsect.topBtnTxtTF" args="Arial,14,0xf3e494,bold,,,,,center" />
+		<set type="flash.filters.GlowFilter" stylename="catchInsect.topBtnTxtGF" args="0x674219,1,4,4,30" />
+		<set type="flash.text.TextFormat" stylename="catchInsect.scoreTxtTF" args="Arial,14,0xfff8d6" />
+		<set type="flash.filters.GlowFilter" stylename="catchInsect.scoreTxtGF" args="0x4b270d,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="catchInsect.tipsTxtTF" args="Arial,14,0xffd200" />
+		<set type="flash.filters.GlowFilter" stylename="catchInsect.tipsTxtGF" args="0x3e0801,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="catchInsect.requestTxtTF" args="Arial,16,0xe8ce97,true" />
+		<set type="flash.filters.GlowFilter" stylename="catchInsect.requestTxtGF" args="0x5a2200,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="catchInsect.titleTxtTF" args="Arial,14,0xffea9c,true" />
+		<set type="flash.filters.GlowFilter" stylename="catchInsect.titleTxtGF" args="0x4f3700,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="catchInsect.rankTxtTF" args="Arial,16,0xffd800,true" />
+		<set type="flash.filters.GlowFilter" stylename="catchInsect.rankTxtGF" args="0x251200,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="catchInsect.nextDescTxtTF" args="Arial,14,0xffcc00,true" />
+		<set type="flash.filters.GlowFilter" stylename="catchInsect.nextDescTxtGF" args="0x441201,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="catchInsect.nextTxtTF" args="Arial,16,0xff0000,true,,,,,center" />
+		<set type="flash.filters.GlowFilter" stylename="catchInsect.nextTxtGF" args="0x351a01,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat"  stylename="catchInsect.pureWhiteTxtTF" args="Arial,16,0xffffff,,,,,,center" />
+		
+		<set type="flash.text.TextFormat"  stylename="catchInsect.scene.infoTxtTF" args="Arial,16,0xfff1bf,true" />		
+		<set type="flash.filters.GlowFilter" stylename="catchInsect.scene.infoTxtGF" args="0x632f00,1,4,4,30"/>
+		<set type="flash.text.TextFormat"  stylename="catchInsect.nameTF" args="Arial,16,0x5BFF09,true"  />
+		<set type="flash.text.TextFormat"  stylename="catchInsect.WaitingView.TxtTF" args="Arial Black,64,0xFFFFFF,,,,,,center" />
+  		<set type="flash.filters.GlowFilter" stylename="catchInsect.WaitingView.TxtGF" args="0xFF0000,1,12,12,2" />
+  		
+	 	<set stylename="catchInsect.pageTF" args="Arial,12,0xFFF8D6,,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="catchInsect.pageGF" args="0x4b270d,1,4,4,30"  type="flash.filters.GlowFilter" />
+		<set stylename="catchInsect.orangeTF" args="Arial,12,0xff8400"  type="flash.text.TextFormat"/>
+		<set stylename="catchInsect.orangeGF" args="0x2a0e02,1,2,2,30" type="flash.filters.GlowFilter"/> 
+		<set stylename="catchInsect.redTF" args="Arial,12,0xe21a1a,true" letterSpacing="2" type="flash.text.TextFormat"/>
+		<set stylename="catchInsect.redGF" args="0x2a0e02,1,2,2,30" type="flash.filters.GlowFilter"/> 
+		<set stylename="catchInsect.redTF2" args="Arial,12,0xff0000,true,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="catchInsect.redGF2" args="0xffffff,1,2,2,500" type="flash.filters.GlowFilter"/> 
+		<set stylename="catchInsect.shopFrame.scoreTxtGF"args="0x5b3100,1,4,4,500"  type="flash.filters.GlowFilter"/>
+		<set stylename="catchInsect.shopFrame.scoreTxtTF" args="Arial,14,0xffcc00,true,,,,,center" type="flash.text.TextFormat"/>
+</sets>
+<customDisplay>
+	<custom classname="flash.geom.Point" stylename="catchInsect.viewPos" x="6" y="42"/>
+	<custom classname="flash.geom.Point" stylename="catchInsect.cellPos" x="178" y="6"/>
+	<custom classname="flash.geom.Point" stylename="catchInsect.txtBgPos" x="102" y="325"/>
+	<custom classname="flash.geom.Point" stylename="catchInsect.titleNamePos" x="362" y="37"/>	
+	<custom classname="flash.geom.Point" stylename="catchInsect.titleNamePos1" x="300" y="35"/>	
+	<custom classname="flash.geom.Point" stylename="catchInsect.nameTxtPos" x="67" y="9"/>	
+	<custom classname="flash.geom.Point" stylename="catchInsect.numTxtPos" x="174" y="9"/>	
+	<custom classname="catchInsect.componets.RoomMenuView" stylename="catchInsect.room.menuView" x="909" y="530" />
+	<custom classname="flash.geom.Point" stylename="catchInsect.room.sceneMapVOPosII" x="160" y="1080"/>
+	<custom classname="flash.geom.Point" stylename="catchInsect.fightIconPos" x="3" y="-150"/>	
+	<custom classname="flash.geom.Point" stylename="catchInsect.ballCountTxtPos" x="914" y="67"/>	
+	<custom classname="flash.geom.Point" stylename="catchInsect.netCountTxtPos" x="914" y="94"/>	
+<!-- 	积分商城 -->
+	<custom classname="catchInsect.view.CatchInsectShopFrame" stylename="catchInsect.shopFrame"  backStyle="SimpleFrameBackgoundOneIII" 
+		width="480" height="521" titleStyle="FrameTitleTextStyle" escEnable = "true" parentStyle="BaseFrame"  type="1" 
+		closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" cancelButtonStyle="catchInsect.core.simplebt"
+		moveEnable="true" buttonToBottom="13" containerX="20" containerY="40" titleOuterRectPosString="12,11,5"/>
+	<custom classname="asset.ddtshop.RightItemLightMc" stylename="catchInsect.shopFrame.RightItemLightMc" 
+		x="9" y="8" width="70" height="75" />
+	<custom classname="flash.display.Sprite" stylename="catchInsect.shopFrame.GoodItemContainerAll" spacing="2" x="7" y="10"/>
+	<custom classname="flash.display.Sprite" stylename="catchInsect.shopFrame.navigationBarContainer" x="28" y="-122"/>		
+	<custom classname="flash.geom.Point" stylename="catchInsect.shopFrame.itemCell.pos" x="5" y="5" />	
+	<custom classname="catchInsect.componets.InsectProBar" stylename="catchInsect.propBar" backStyle="asset.game.prop.CustomBack" x="654" y="57" />
+	<custom classname="flash.geom.Point" stylename="catchInsect.HelpButtonPos" x="698" y="1" />	
+</customDisplay>
+<components>
+<!-- 	选择界面 -->
+	<component classname="catchInsect.view.CatchInsectChooseFrame" backStyle="SimpleFrameBackgound"
+		closestyle="core.closebt" stylename="catchInsect.chooseFrame" titleStyle="FrameTitleTextStyle"
+		titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+		closeInnerRectString="44,19,6,30,14" width="442" height="536" />	
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="catchInsect.chooseFrame.bg" 
+		x="0" y="-2" width="398" height="471" scaleGridString="20,20,60,40"  resourceLink="asset.core.btmc011" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.chooseFrame.timeTxt" 
+		filterString="catchInsect.chooseFrame.timeTxtGF" textFormatStyle="catchInsect.chooseFrame.timeTxtTF" 
+		x="83" y="305" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.chooseFrame.descTxt" 
+		textFormatStyle="catchInsect.chooseFrame.descTxtTF" filterString="catchInsect.chooseFrame.descTxtGF" 
+		x="17" y="355" wordWrap="true" width="370" height="30"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="catchInsect.chooseFrame.gotoForestBtn" 
+		x="222" y="405" backStyle="catchInsect.gotoForest" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="catchInsect.chooseFrame.checkGeinBtn" 
+		x="23" y="409" backStyle="catchInsect.checkGein" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="catchInsect.chooseFrame.helpBtn"  backStyle="asset.ddtcore.helpbuttonSmall"
+		x="323" y="-41"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="catchInsect.chooseFrame.bottomBg" parentStyle="asset.core.btmBimap" 
+		x="9" y="399" width="380" height="62"/>
+<!-- 查看奖励	 -->
+	<component classname="catchInsect.view.CatchInsectCheckGeinFrame" backStyle="SimpleFrameBackgound"
+		closestyle="core.closebt" stylename="catchInsect.checkGeinFrame" titleStyle="FrameTitleTextStyle"
+		titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+		closeInnerRectString="44,19,6,30,14" width="538" height="546" />	
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="catchInsect.checkGeinFrame.bg" 
+		x="0" y="-2" width="493" height="478" scaleGridString="20,20,60,40"  resourceLink="asset.core.btmc011" />
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="catchInsect.checkGeinFrame.hBox"   spacing="13"
+		x="0" y="5"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="catchInsect.HelpButton" 
+		backStyle="asset.ddtcore.helpbutton" x="387" y="4"/>
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.topBtnTxt" 
+		textFormatStyle="catchInsect.topBtnTxtTF" filterString="catchInsect.topBtnTxtGF" type="dynamic"/>
+<!-- 		个人奖励按钮 -->
+	<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="catchInsect.indivPrizeBtn" 
+		selectedStyle="catchInsect.indivPrizeSelected" unSelectedStyle="core.bg6900" filterString="null,lightFilter,null,grayFilter" 
+		textStyle=",catchInsect.topBtnTxt" backgoundInnerRectString=",9|12|8|14|-1" unSelectedButtonOuterRectPosString="24,4,5"/>	
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="catchInsect.indivPrizeSelected"
+		 x="0" y="0"  width="128" height="39"  imageRectString="108|40|0|0|9,75|24|7|0|9" resourceLink="core.bg6901,catchInsect.indivPrizeTxt"/>
+<!-- 		 本区排名按钮 -->
+	<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="catchInsect.selfZoneBtn" 
+		selectedStyle="catchInsect.selfZoneSelected" unSelectedStyle="core.bg6900" filterString="null,lightFilter,null,grayFilter" 
+		textStyle=",catchInsect.topBtnTxt" backgoundInnerRectString=",9|12|8|14|-1" unSelectedButtonOuterRectPosString="15,4,5"/>	
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="catchInsect.selfZoneSelected"
+		 x="8" y="0"  width="128" height="39"  imageRectString="130|40|0|0|9,109|24|7|0|9" resourceLink="core.bg6901,catchInsect.selfZoneTxt"/>
+<!-- 		 跨区排名按钮		 -->
+	<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="catchInsect.crossZoneBtn" 
+		selectedStyle="catchInsect.crossZoneSelected" unSelectedStyle="core.bg6900" filterString="null,lightFilter,null,grayFilter" 
+		textStyle=",catchInsect.topBtnTxt" backgoundInnerRectString=",9|12|8|14|-1" unSelectedButtonOuterRectPosString="3,4,5"/>	
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="catchInsect.crossZoneSelected"
+		 x="-1" y="0"  width="128" height="39"  imageRectString="120|40|0|0|9,100|24|7|0|9" resourceLink="core.bg6901,catchInsect.crossZoneTxt"/>
+		 
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="catchInsect.txtBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"
+		 x="109" y="405"  width="115" height="24"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.scoreTxt" 
+		textFormatStyle="catchInsect.scoreTxtTF" filterString="catchInsect.scoreTxtGF" 
+		x="153" y="408" width="80" height="30"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="catchInsect.convertBtn" 
+		x="290" y="396" backStyle="catchInsect.convert" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.tipsTxt" 
+		textFormatStyle="catchInsect.tipsTxtTF" filterString="catchInsect.tipsTxtGF" 
+		x="17" y="444" wordWrap="true"  width="460" height="40"/>	
+	
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="catchInsect.indivPrize.vBox" spacing="4" x="0" y="0" />
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="catchInsect.indivPrize.scrollpanel" parentStyle="core.ScrollPanel" 
+		x="9" y="41" width="460" height="300" hScrollProxy="2" vScrollProxy="0" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.requestTxt" 
+		textFormatStyle="catchInsect.requestTxtTF" filterString="catchInsect.requestTxtGF" 
+		x="20" y="20" width="80" height="30"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="catchInsect.getPrizeBtn" 
+		x="325" y="16" backStyle="catchInsect.getPrize" />	
+		
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="catchInsect.indivPrize.vBox2" spacing="3" x="0" y="0" />		
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="catchInsect.indivPrize.scrollpanel2" parentStyle="core.ScrollPanel" 
+		x="9" y="52" width="465" height="255" hScrollProxy="2" vScrollProxy="0" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.titleTxt" 
+		textFormatStyle="catchInsect.titleTxtTF" filterString="catchInsect.titleTxtGF" 
+		x="30" y="16" width="300" height="30"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.rankTxt" 
+		textFormatStyle="catchInsect.rankTxtTF" filterString="catchInsect.rankTxtGF" 
+		x="114" y="328" width="80" height="30"/>		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.nextDescTxt" 
+		textFormatStyle="catchInsect.nextDescTxtTF" filterString="catchInsect.nextDescTxtGF" 
+		x="246" y="317" width="250" height="30"/>	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.nextTxt" 
+		textFormatStyle="catchInsect.nextTxtTF"  filterString="catchInsect.nextTxtGF"  autoSize="none"
+		x="244" y="316" width="60" height="25"/>		
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="catchInsect.lightImg"  resourceLink="catchInsect.light" 
+		width="223" height="43" />	
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="catchInsect.topThree" 
+		x="15" y="0" resourceLink="catchInsect.orderNo1Asset,catchInsect.orderNo2Asset,catchInsect.orderNo3Asset"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.pureWhiteTxt"
+		textFormatStyle="catchInsect.pureWhiteTxtTF" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.placeTxt"  parentStyle="catchInsect.pureWhiteTxt"
+		x="0" y="9" autoSize="none" width="75" height="26"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.nameTxt"  parentStyle="catchInsect.pureWhiteTxt"
+		x="73" y="9" autoSize="none" width="130" height="26"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.numTxt"  parentStyle="catchInsect.pureWhiteTxt"
+		x="202" y="9" autoSize="none" width="100" height="26"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.zoneTxt"  parentStyle="catchInsect.pureWhiteTxt"
+		x="347" y="9" autoSize="none" width="90" height="26"/>		
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="catchInsect.selfZoneCellBg" 
+		x="0" y="0"	resourceLink="catchInsect.selfZoneCellBg0,catchInsect.selfZoneCellBg1" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="catchInsect.crossZoneCellBg" 
+		x="0" y="0"	resourceLink="catchInsect.crossZoneCellBg0,catchInsect.crossZoneCellBg1" />
+	
+<!-- 	场景	 -->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.scene.infoTxt" 
+		textFormatStyle="catchInsect.scene.infoTxtTF" filterString="catchInsect.scene.infoTxtGF" 
+		x="953" y="9"  width="80" height="30"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="catchInsect.room.buyBallBtn" 
+		backStyle="catchInsect.room.buyBtn" x="934" y="66"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="catchInsect.room.buyNetBtn" 
+		backStyle="catchInsect.room.buyBtn" x="934" y="92"/>		
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="catchInsect.room.useCakeBtn"  
+		backStyle="catchInsect.useCake" x="917" y="127" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="1"/>		
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="catchInsect.room.switchBtn" 
+		backStyle="catchInsect.room.menu.switchBtn1" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="catchInsect.room.switchIMG" 
+		resourceLink="catchInsect.room.menu.close,catchInsect.room.menu.open" x="10" y="10" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="catchInsect.room.returnBtnOver" 
+		resourceLink="catchInsect.room.menu.selected,catchInsect.room.menu.return" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="catchInsect.room.returnBtnIMG" 
+		resourceLink="catchInsect.room.menu.return,catchInsect.room.returnBtnOver,catchInsect.room.menu.return" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="catchInsect.room.returnBtn" 
+		backStyle="catchInsect.room.returnBtnIMG" x="45" y="6" />
+   	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.room.characterPlayerNameAsset" 
+    	textFormatStyle="catchInsect.nameTF"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.WaitingView.loadingText" 
+		textFormatStyle="catchInsect.WaitingView.TxtTF" filterString="catchInsect.WaitingView.TxtGF" x="322" y="211"/>	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.WaitingView.timeText" 
+		textFormatStyle="catchInsect.WaitingView.TxtTF" filterString="catchInsect.WaitingView.TxtGF" x="439" y="317"/>
+<!-- 	积分商城	 -->
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="catchInsect.core.simplebt"
+			backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle"
+			backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter" x="196" y="446"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="catchInsect.shopFrame.GoodItemContainerBg" 
+		x="1" y="5"		parentStyle="ddtshop.GoodItemContainerBg" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="catchInsect.shopFrame.coinBG" 
+		x="95" y="367" width="88" height="23" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.shopFrame.scoreText" autoSize="none" 
+		textFormatStyle="catchInsect.shopFrame.scoreTxtTF" filterString="catchInsect.shopFrame.scoreTxtGF" 
+		x="-1" y="369" width="110" height="24" type="dynamic"  />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.shopFrame.scoreNumTxt" 
+		parentStyle="catchInsect.shopFrame.pageTxt" 
+		x="98" y="371" width="83" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="catchInsect.shopFrame.BtnPrePage" 
+		backStyle="asset.ddtcore.leftBtn" filterString="null,lightFilter,null,grayFilter" 
+		x="221" y="488"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="catchInsect.shopFrame.BtnNextPage" 
+		backStyle="asset.ddtcore.rightBtn" filterString="null,lightFilter,null,grayFilter" 
+		x="336" y="488"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="catchInsect.shopFrame.CurrentPageInput" 
+		parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" 
+		x="275" y="490" width="62" height="23"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.shopFrame.pageTxt" 
+		textFormatStyle="catchInsect.pageTF" filterString="catchInsect.pageGF" 
+		x="273" y="494" autoSize="none" width="70" type="dynamic" height="20" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.shopFrame.needScoreTxt" 
+		textFormatStyle="catchInsect.orangeTF" filterString="catchInsect.orangeGF" 
+		x="89" y="31" autoSize="none" width="70" type="dynamic" height="20" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.shopFrame.scoreNotEnoughTxt" 
+		textFormatStyle="catchInsect.redTF" filterString="catchInsect.redGF" 
+		x="105" y="61" autoSize="none" width="100" type="dynamic" height="20" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchInsect.shopFrame.label" 
+		textFormatStyle="catchInsect.redTF2" filterString="catchInsect.redGF2"  autoSize="none"
+		x="22" y="397" width="390" height="23" type="dynamic" />
+<!-- 		快速购买 -->
+	<component classname="catchInsect.componets.InsectQuickBuyAlert"  stylename="catchInsect.quickBuyAlert" 
+		backStyle="SimpleFrameBackgoundOneIII" parentStyle="BaseFrame" 
+		containerY="30" width="350" height="190"/>	
+<!-- 			帮助 -->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="catchInsect.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" 
+		x="-14" y="-20" width="470" height="376" />
+	<component classname="store.HelpPrompt" stylename="catchInsect.HelpPrompt" bg9ScalseStyle="catchInsect.HelpFrame.FrameBg" contentStyle="catchInsect.helpTxt" 
+		x="31" y="64" />
+	<component classname="store.HelpFrame" stylename="catchInsect.HelpFrame" parentStyle="BaseFrame" width="504" height="484" />
+	<component classname="com.pickgliss.ui.core.Component" stylename="catchInsectRankCell.collectionItem.titleTipContent" 
+			tipStyle="core.CallPropTxtTips" x="415" y="76" tipDirctions="2,5,7" tipWidth="150" tipGapH="50" tipGapV="10"/>
+</components>
+<bitmaps>
+	<bitmapData resourceLink="catchInsect.myScore" x="21" y="404"/>
+	<bitmapData resourceLink="catchInsect.prizeItemBg" x="0" y="0"/>
+	<bitmapData resourceLink="catchInsect.cellBg" x="174" y="3"/>
+	<bitmapData resourceLink="catchInsect.myRank" x="14" y="324"/>
+	<bitmapData resourceLink="catchInsect.room.infoView" x="800" y="0"/>	
+    <bitmapData resourceLink="catchInsect.room.menu.selected" x="-10" y="-3"/>
+    <bitmapData resourceLink="catchInsect.cakeIcon" x="-18" y="-215"/>
+    <bitmapData resourceLink="catchInsect.useNetTips" x="511" y="383"/>
+    <bitmapData resourceLink="catchInsect.useBallTips" x="460" y="312"/>
+</bitmaps>
+</style>

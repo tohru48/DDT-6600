@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="grouppurchase" version="2.0.1" source="ui/turkey/swf/grouppurchase.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="groupPurchase.countDownTxt.tf" args="Arial,12,0xffffff,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="groupPurchase.countDownTxt.gf" args="0x462222,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="groupPurchase.nextNeedNumTxt.tf" args="Arial,12,0xfff1c1,true" letterSpacing="1"/>  
+    <set type="flash.filters.GlowFilter" stylename="groupPurchase.nextNeedNumTxt.gf" args="0x4d2d0b,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="groupPurchase.totalNumTxt.tf" args="Arial,14,0xfff8d6,true,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="groupPurchase.totalNumTxt.gf" args="0x4b270d,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="groupPurchase.miniNeedNumTxt.tf" args="Arial,12,0xfff3bc"/>  
+    <set type="flash.filters.GlowFilter" stylename="groupPurchase.miniNeedNumTxt.gf" args="0x623509,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="groupPurchase.buyTipTxt.tf" args="Arial,12,0xfff4d5"/>  
+    <set type="flash.filters.GlowFilter" stylename="groupPurchase.buyTipTxt.gf" args="0x7c0415,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="groupPurchase.rankCell.rankTxt.tf" args="Arial,14,0xffffff,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="groupPurchase.rankCell.rankTxt.gf" args="0x000000,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="groupPurchase.rankCell.numTxt.tf" args="Arial,12,0xfff8d6,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="groupPurchase.rankCell.numTxt.gf" args="0x4b270d,1,4,4,30"/> 
+  </sets>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="groupPurchase.mainViewPos" x="17" y="102"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.curDiscountTxtPos" x="262" y="24"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.nextDiscountTxtPos" x="307" y="48"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.myNumTxtPos" x="133" y="131"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.curRebatePos" x="368" y="105"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.nextRebatePos" x="368" y="132"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.buyTipSpritePos" x="8" y="50"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.shopItemCellPos" x="28" y="18.5"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.rankFramePos" x="760" y="27"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.wonderfulFramePos" x="7" y="27"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.awardCellPos1" x="57" y="230"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.awardCellPos2" x="117" y="231"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.awardCellPos3" x="179" y="231"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.awardCellPos4" x="269" y="230"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.awardCellPos5" x="329" y="231"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.awardCellPos6" x="391" y="231"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.awardCellPos7" x="57" y="322"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.awardCellPos8" x="117" y="323"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.awardCellPos9" x="179" y="323"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.awardCellPos10" x="269" y="322"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.awardCellPos11" x="329" y="323"/>  
+    <custom classname="flash.geom.Point" stylename="groupPurchase.awardCellPos12" x="391" y="323"/>  
+    <custom classname="asset.groupPurchase.helpPromptTxt" stylename="asset.groupPurchase.helpPromptTxt" x="-9" y="-29"/>
+    
+    <custom classname="flash.geom.Point" stylename="groupPurchase.HelpFrame.submit" x="174" y="450"/>
+  </customs>  
+  <components> 
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="groupPurchase.countDownTxt" textFormatStyle="groupPurchase.countDownTxt.tf" filterString="groupPurchase.countDownTxt.gf" autoSize="none" width="150" height="22" x="280" y="-20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="groupPurchase.nextNeedNumTxt" textFormatStyle="groupPurchase.nextNeedNumTxt.tf" filterString="groupPurchase.nextNeedNumTxt.gf" autoSize="none" width="250" height="22" x="109" y="72"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="groupPurchase.totalNumTxt" textFormatStyle="groupPurchase.totalNumTxt.tf" filterString="groupPurchase.totalNumTxt.gf" autoSize="none" width="94" height="22" x="133" y="105"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="groupPurchase.miniNeedNumTxt" textFormatStyle="groupPurchase.miniNeedNumTxt.tf" filterString="groupPurchase.miniNeedNumTxt.gf" autoSize="none" width="435" height="22" x="35" y="387"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="groupPurchase.buyTipTxt" textFormatStyle="groupPurchase.buyTipTxt.tf" filterString="groupPurchase.buyTipTxt.gf" x="0" y="-1" autoSize="none" isAutoFitLength="true" width="60" height="21"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="groupPurchase.rankBtn" backStyle="asset.groupPurchase.rankBtn" x="366" y="64"/>  
+    <component classname="groupPurchase.view.GroupPurchaseRankFrame" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" stylename="GroupPurchaseRankFrame" titleOuterRectPosString="15,10,5" containerX="17" containerY="43" escEnable="true" closeInnerRectString="44,19,6,30,14" width="234" height="547"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="groupPurchase.rankCell.rankTxt" textFormatStyle="groupPurchase.rankCell.rankTxt.tf" filterString="groupPurchase.rankCell.rankTxt.gf" autoSize="none" width="40" height="22" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="groupPurchase.rankCell.nameTxt" textFormatStyle="groupPurchase.rankCell.rankTxt.tf" filterString="groupPurchase.rankCell.rankTxt.gf" autoSize="none" width="90" height="22" x="44" y="0"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="groupPurchase.rankCell.numTxt" textFormatStyle="groupPurchase.rankCell.numTxt.tf" filterString="groupPurchase.rankCell.numTxt.gf" autoSize="none" width="45" height="22" x="136" y="2"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="groupPurchase.HelpButton" backStyle="asset.ddtcore.helpbutton" x="364" y="14"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="groupPurchase.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" width="370" height="376"/>  
+    <component classname="store.HelpPrompt" stylename="groupPurchase.HelpPrompt" bg9ScalseStyle="groupPurchase.HelpFrame.FrameBg" contentStyle="asset.groupPurchase.helpPromptTxt" x="180" y="213"/>  
+    <component classname="store.HelpFrame" stylename="groupPurchase.HelpFrame" parentStyle="BaseFrame" width="404" height="484"/>  
+    <component classname="groupPurchase.view.GroupPurchaseQuickBuyFrame" backStyle="SimpleFrameBackgoundOneIII" stylename="groupPurchase.QuickFrame" parentStyle="BaseFrame" containerY="30" width="355" height="190"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.groupPurchase.bg" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.groupPurchase.topBg" x="-1" y="-85"/>  
+    <bitmapData resourceLink="asset.groupPurchase.rankViewBg" x="0" y="0"/> 
+  </bitmaps> 
+</style>

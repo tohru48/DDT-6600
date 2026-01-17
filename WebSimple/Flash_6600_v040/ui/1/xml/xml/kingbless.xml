@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="kingbless" version="2.0.1" source="ui/turkey/swf/kingbless.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="kingBlessFrame.iconNameTxt.tf" args="Arial,12,0xfffbe9,true" leading="-1" align="center"/>  
+    <set type="flash.filters.GlowFilter" stylename="kingBlessFrame.iconNameTxt.gf" args="0x442006,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="kingBlessFrame.tipTxt.tf" args="Arial,12,0xfffd48"/>  
+    <set type="flash.filters.GlowFilter" stylename="kingBlessFrame.tipTxt.gf" args="0x3b2415,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="kingBlessFrame.descTxt.tf" args="Arial,12,0xfff8d6" leading="6" letterSpacing="2"/>  
+    <set type="flash.filters.GlowFilter" stylename="kingBlessFrame.descTxt.gf" args="0x4b270d,0.7,4,4,30"/> 
+  </sets>  
+  <customs>
+    <custom classname="asset.kingbless.text1" stylename="asset.kingbless.t1" x="0" y="0"/>
+    <custom classname="asset.kingbless.text3" stylename="asset.kingbless.t3" x="0" y="0"/>
+    <custom classname="asset.kingbless.text2" stylename="asset.kingbless.t2" x="0" y="0"/>
+  </customs>  
+  <components> 
+    <component classname="com.pickgliss.ui.image.Image" stylename="kingBlessFrame.discountIcon" resourceLink="asset.kingBless.DiscountIcon" x="125" y="128"/>  
+    <component classname="kingBless.view.KingBlessMainFrame" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" stylename="KingBlessMainFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" containerX="20" containerY="40" escEnable="true" closeInnerRectString="44,19,6,30,14" width="540" height="490"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="kingBlessFrame.awardIcon" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="22" y="25"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="kingBlessFrame.sixMonthBtn" selectedStyle="kingBlessFrame.sixMonthBtnSelectedImage" unSelectedStyle="asset.kingbless.sixMonthBtn" filterString="null,lightFilter,null,grayFilter" x="10" y="137"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="kingBlessFrame.sixMonthBtnSelectedImage" resourceLink="asset.kingbless.sixMonthBtn,core.Scale9CornerImage.scale9CornerImage16" imageRectString="0|179|0|92|13,0|184|0|92|13"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="kingBlessFrame.threeMonthBtn" selectedStyle="kingBlessFrame.threeMonthBtnSelectedImage" unSelectedStyle="asset.kingbless.threeMonthBtn" filterString="null,lightFilter,null,grayFilter" x="198" y="137"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="kingBlessFrame.threeMonthBtnSelectedImage" resourceLink="asset.kingbless.threeMonthBtn,core.Scale9CornerImage.scale9CornerImage16" imageRectString="0|153|0|90|13,0|158|0|90|13"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="kingBlessFrame.oneMonthBtn" selectedStyle="kingBlessFrame.oneMonthBtnSelectedImage" unSelectedStyle="asset.kingbless.oneMonthBtn" filterString="null,lightFilter,null,grayFilter" x="362" y="137"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="kingBlessFrame.oneMonthBtnSelectedImage" resourceLink="asset.kingbless.oneMonthBtn,core.Scale9CornerImage.scale9CornerImage16" imageRectString="0|114|0|93|13,0|117|0|93|13"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="kingBlessFrame.openBtn" backStyle="asset.kingbless.openBtn" x="53" y="375"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="kingBlessFrame.openFriendBtn" backStyle="asset.kingbless.openFriendBtn" x="285" y="375"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="kingBlessFrame.iconNameTxt" textFormatStyle="kingBlessFrame.iconNameTxt.tf" filterString="kingBlessFrame.iconNameTxt.gf" autoSize="none" width="80" height="50" x="11" y="82" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="kingBlessFrame.tipTxt" textFormatStyle="kingBlessFrame.tipTxt.tf" filterString="kingBlessFrame.tipTxt.gf" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="kingBlessFrame.descTxt" textFormatStyle="kingBlessFrame.descTxt.tf" filterString="kingBlessFrame.descTxt.gf" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="kingBlessFrame.txtVBox" spacing="7" y="0" x="0"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="kingBlessFrame.txtScrollPanel" parentStyle="core.ScrollPanel" vScrollProxy="0" width="440" height="90" x="26" y="246"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="kingBlessFrame.sixMonthBtnSelectedImage.sns" resourceLink="asset.kingbless.sixMonthBtn.sns,core.Scale9CornerImage.scale9CornerImage16" imageRectString="0|179|0|92|13,0|184|0|92|13"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="kingBlessFrame.oneMonthBtn.sns" selectedStyle="kingBlessFrame.oneMonthBtnSelectedImage.sns" unSelectedStyle="asset.kingbless.oneMonthBtn.sns" filterString="null,lightFilter,null,grayFilter" x="362" y="137"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="kingBlessFrame.oneMonthBtnSelectedImage.sns" resourceLink="asset.kingbless.oneMonthBtn.sns,core.Scale9CornerImage.scale9CornerImage16" imageRectString="0|114|0|93|13,0|117|0|93|13"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="kingBlessFrame.sixMonthBtn.sns" selectedStyle="kingBlessFrame.sixMonthBtnSelectedImage.sns" unSelectedStyle="asset.kingbless.sixMonthBtn.sns" filterString="null,lightFilter,null,grayFilter" x="10" y="137"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="kingBlessFrame.threeMonthBtn.sns" selectedStyle="kingBlessFrame.threeMonthBtnSelectedImage.sns" unSelectedStyle="asset.kingbless.threeMonthBtn.sns" filterString="null,lightFilter,null,grayFilter" x="198" y="137"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="kingBlessFrame.threeMonthBtnSelectedImage.sns" resourceLink="asset.kingbless.threeMonthBtn.sns,core.Scale9CornerImage.scale9CornerImage16" imageRectString="0|153|0|90|13,0|158|0|90|13"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.kingbless.awardIconBtnBg" x="-5" y="4"/>  
+    <bitmapData resourceLink="asset.kingbless.monthBtnBg" x="2" y="96"/>  
+    <bitmapData resourceLink="asset.kingbless.bottomBg" x="4" y="368"/>  
+    <bitmapData resourceLink="asset.kingbless.txtBg" x="15" y="234"/> 
+    
+    <bitmapData resourceLink="asset.kingbless.threeMonthBtn" x="6" y="0"/>
+	<bitmapData resourceLink="asset.kingbless.oneMonthBtn" x="7" y="0"/>
+  </bitmaps> 
+</style>

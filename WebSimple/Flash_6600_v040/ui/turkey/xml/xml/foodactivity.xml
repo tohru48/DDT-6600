@@ -1,0 +1,64 @@
+<style name="foodactivity" version="1.0.1" source="ui/turkey/swf/foodactivity.swf">
+	<sets>
+		<set stylename="foodActivity.boxNumTF" args="Arial,12,0xffddbc" type="flash.text.TextFormat"/>
+		<set stylename="foodActivity.boxNumGF" args="0x790011,2,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="foodActivity.ripeTF" args="Arial,14,0xfec21f" type="flash.text.TextFormat"/>
+		<set stylename="foodActivity.ripeGF" args="0x3c1d06,2,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="foodActivity.countTF" args="黑体,24,0xffffff,false,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="foodActivity.countGF" args="0x2e1900,2,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set type="flash.filters.GlowFilter" args="0x000000,1,2,2,10" stylename="foodActivity.commonGF" />
+		<set type="flash.text.TextFormat" args="Arial,12,0xffffff"  stylename="foodActivity.commonTF" />
+	</sets>
+	
+	<customDisplay>
+		<!--Frame-->
+		<custom classname="foodActivity.view.FoodActivityFrame" stylename="foodActivity.frame"
+			backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame"
+			closestyle="core.closebt" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="24,10,5" closeInnerRectString="44,22,6,30,14"
+			moveInnerRectString="0,30,0,30,1" width="615" height="495" escEnable="true" />
+	</customDisplay>
+	
+	<components>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="foodActivity.boxNumTxt" textFormatStyle="foodActivity.boxNumTF"
+			filterString="foodActivity.boxNumGF"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="foodActivity.ripeTxt" textFormatStyle="foodActivity.ripeTF"
+			filterString="foodActivity.ripeGF" x="354" y="181"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="foodActivity.countTxt" textFormatStyle="foodActivity.countTF"
+			filterString="foodActivity.countGF" autoSize="none" width="30" height="30" x="388" y="204"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="foodActivity.buttonBackBg" parentStyle="asset.core.btmBimap"
+			width="569" height="63" x="23" y="410" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="foodActivity.simpleBtn" 
+			backStyle="foodActivity.simpleButton" x="80" y="419" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="foodActivity.payBtn" 
+			backStyle="foodActivity.payButton" x="307" y="419" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="foodActivity.commonTxt"
+			textFormatStyle="foodActivity.commonTF" filterString="foodActivity.commonGF" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="foodActivity.helpBtn" 
+			backStyle="foodActivity.helpButton" x="514" y="6" />	
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="foodActivity.frame.HelpFrame.FrameBg" 
+			parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" 
+			width="370" height="376" />
+		<component classname="store.HelpPrompt" stylename="foodActivity.frame.HelpPrompt0" 
+			bg9ScalseStyle="foodActivity.frame.HelpFrame.FrameBg" contentStyle="foodActivity.frame.helpPromptTxt0" 
+			x="180" y="213" />
+		<component classname="store.HelpPrompt" stylename="foodActivity.frame.HelpPrompt1" 
+			bg9ScalseStyle="foodActivity.frame.HelpFrame.FrameBg" contentStyle="foodActivity.frame.helpPromptTxt1" 
+			x="180" y="213" />
+		<component classname="store.HelpFrame" stylename="foodActivity.frame.HelpFrame" parentStyle="BaseFrame" 
+			width="404" height="484" />
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="foodActivity.bg" x="17" y="41"/>
+		<bitmapData resourceLink="foodActivity.countBg" x="205" y="181"/>
+		<bitmapData resourceLink="foodActivity.progress" x="148" y="130"/>
+	</bitmaps>
+</style>

@@ -1,0 +1,7 @@
+<style name="escortleicon" version="5.1.0" source="ui/turkey/swf/escorticon.swf">
+	<components>
+		<component classname="store.HelpPrompt" stylename="escort.HelpPrompt" bg9ScalseStyle="escort.HelpFrame.FrameBg" contentStyle="asset.escort.helpPromptTxt" x="180" y="213"/>
+<component classname="store.HelpFrame" stylename="escort.HelpFrame" parentStyle="BaseFrame" width="404" height="513"/>
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="escort.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" width="370" height="405"/>
+	</components>
+</style>

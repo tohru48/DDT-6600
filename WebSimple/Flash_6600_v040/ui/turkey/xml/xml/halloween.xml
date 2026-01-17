@@ -1,0 +1,90 @@
+<style name="halloween" version="1.0.1" source="ui/turkey/swf/halloween.swf">
+	<sets>
+		<set stylename="asset.halloween.TF1" args="Arial,16,0xf3f3f3,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="asset.halloween.GF1" args="0x251200,2,4,4,30" type="flash.filters.GlowFilter"/>
+		<set stylename="asset.halloween.GF1_1" args="0x251200,1,2,2,10" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="asset.halloween.TF2" args="Arial,10,0xffe35f,false,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="asset.halloween.GF2" args="0x572525,2,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="asset.halloween.TF3" args="Arial,10,0x03ffe4,false,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="asset.halloween.GF3" args="0x051a4c,1,2,2,10" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="asset.halloween.TF4" args="Arial,14,0x17ef07,true,,true,,,center" type="flash.text.TextFormat" />
+		<set stylename="asset.halloween.GF4" args="0x0b0e08,1,2,2,10" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="asset.halloween.TF5" args="Arial,14,0xffea9c,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="asset.halloween.GF5" args="0x4f3700,2,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="asset.halloween.TF6" args="Arial,12,0xfff2b8,false,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="asset.halloween.GF6" args="0x783b00,2,4,4,30" type="flash.filters.GlowFilter"/>
+	</sets>
+	<bitmaps>
+		<bitmapData resourceLink="asset.halloween.bg" x="0" y="0"/>
+		<bitmapData resourceLink="asset.halloween.prize.bg" x="0" y="0"/>
+		<bitmapData resourceLink="asset.halloween.rank.bg" x="0" y="0"/>
+		<bitmapData resourceLink="asset.halloween.prize.cell" x="0" y="0"/>
+		<bitmapData resourceLink="asset.halloween.rank.lightLine" x="0" y="0"/>
+		<bitmapData resourceLink="asset.halloween.rank.darkLine" x="0" y="0"/>
+		<bitmapData resourceLink="asset.halloween.rightBg" x="386" y="49"/>
+		<bitmapData resourceLink="asset.halloween.prize.btn.select" x="-14" y="-2"/>
+		<bitmapData resourceLink="asset.halloween.rank.btn.select" x="-14" y="-2"/>
+	</bitmaps>
+	<components>
+		<component classname="halloween.HalloweenView" stylename="asset.halloween.HalloweenView" backStyle="SimpleFrameBackgoundOne" 
+			parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,14,6,30,14"
+			containerX="15" containerY="38" titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1"
+			width="830" height="540" moveEnable="false" escEnable="true" />
+		
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="asset.halloween.scrollpanel" parentStyle="core.ScrollPanel" width="390" height="290" hScrollProxy="2" vScrollProxy="0" x="5" y="47"/>
+		
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.halloween.rankTxt" textFormatStyle="asset.halloween.TF1" filterString="asset.halloween.GF1" x="503" y="419" autoSize="none" width="55" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.halloween.myCardTxt" textFormatStyle="asset.halloween.TF1" filterString="asset.halloween.GF1" x="666" y="419" autoSize="none" width="105" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.halloween.refreshTimeTxt" textFormatStyle="asset.halloween.TF6" filterString="asset.halloween.GF6" x="635" y="23" width="40" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.halloween.desTxt" textFormatStyle="asset.halloween.TF2" filterString="asset.halloween.GF2" x="406" y="443" width="350" height="50" wordWrap="true"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.halloween.openTimeTxt" textFormatStyle="asset.halloween.TF3" filterString="asset.halloween.GF3" x="25" y="417" width="40" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.halloween.questTxt" textFormatStyle="asset.halloween.TF4" filterString="asset.halloween.GF4" x="39" y="447" width="320" height="50" wordWrap="true"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.halloween.titleName" textFormatStyle="asset.halloween.TF5" filterString="asset.halloween.GF5" x="400" y="100" width="40" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.halloween.rank.itemTxt" textFormatStyle="asset.halloween.TF1" filterString="asset.halloween.GF1" x="0" y="7" autoSize="none" width="70" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.halloween.rank.nameTxt" textFormatStyle="asset.halloween.TF1" filterString="asset.halloween.GF1_1" x="72" y="7" autoSize="none" width="128" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.halloween.rank.numTxt" textFormatStyle="asset.halloween.TF1" filterString="asset.halloween.GF1_1" x="207" y="9" autoSize="none" width="150" height="20"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.halloween.rankBtn" 
+			unSelectedStyle="asset.halloween.rank.btn.unselect" selectedStyle="asset.halloween.rank.btn.select" 
+			x="525" y="14" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.halloween.prizeBtn" 
+			unSelectedStyle="asset.halloween.prize.btn.unselect" selectedStyle="asset.halloween.prize.btn.select" 
+			x="400" y="14" />
+		
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="asset.halloween.prize.vbox" 
+			spacing="8" x="167" y="51" />
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="asset.halloween.rank.vbox" 
+			spacing="1" x="7" y="48" />
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="halloween.frame.helpBtn" 
+			backStyle="asset.halloween.helpBtn" x="721" y="-33" />
+		<component classname="store.HelpFrame" stylename="halloween.frame.HelpFrame" parentStyle="BaseFrame" 
+			width="404" height="484" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="halloween.frame.HelpFrame.FrameBg" 
+			parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" 
+			width="370" height="376" />
+		<component classname="store.HelpPrompt" stylename="halloween.frame.HelpPrompt" 
+			bg9ScalseStyle="halloween.frame.HelpFrame.FrameBg" contentStyle="asset.halloween.frame.helpPromptTxt" x="180" y="213" />
+			
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.halloween.topThreeRank" 
+			resourceLink="asset.coreIcon.orderNo1Asset,asset.coreIcon.orderNo2Asset,asset.coreIcon.orderNo3Asset" x="12" y="7"/>
+	</components>
+	<customs>
+		<custom classname="flash.geom.Point" stylename="asset.pos.title1" x="61" y="13"/>
+		<custom classname="flash.geom.Point" stylename="asset.pos.title2" x="267" y="13"/>
+		<custom classname="flash.geom.Point" stylename="asset.pos.title3" x="24" y="13"/>
+		<custom classname="flash.geom.Point" stylename="asset.pos.title4" x="122" y="13"/>
+		<custom classname="flash.geom.Point" stylename="asset.pos.title5" x="287" y="13"/>
+		
+		<custom classname="halloween.HalloweenRankView" stylename="asset.halloween.rankView" x="389" y="51"/>
+		<custom classname="halloween.HalloweenPrizeView" stylename="asset.halloween.prizeView" x="389" y="51"/>
+	</customs>
+</style>

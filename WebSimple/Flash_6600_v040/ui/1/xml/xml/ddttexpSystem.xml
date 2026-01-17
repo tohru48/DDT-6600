@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddttexpSystem" version="1.0.1" source="ui/turkey/swf/ddttexpSystem.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="texpSystem.zh2TF" args="Arial,14,0xffffff"/>  
+    <set type="flash.text.TextFormat" stylename="texpSystem.zh3TF" args="Arial,16,0xffea9c,true" letterSpacing="4"/>  
+    <set type="flash.text.TextFormat" stylename="texpSystem.zh4TF" args="Arial,14,0xFFFFFF,true"/>  
+    <set type="flash.text.TextFormat" stylename="texpSystem.tip1Tf" args="Arial,14,0xffffff,true"/>  
+    <set type="flash.text.TextFormat" stylename="texpSystem.tip2Tf" leading="8" args="Arial,14,0x000000,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="texpSystem.tip2Gf" args="0xFFFFFF,1,4,4,5,1"/>  
+    <set type="flash.text.TextFormat" stylename="texpSystem.buyTf" args="Arial,14,0xfff3bc"/>  
+    <set type="flash.text.TextFormat" stylename="texpSystem.num2TF" args="Arial,16,0xffffff"/>  
+    <set type="flash.text.TextFormat" stylename="texpSystem.num1TF" args="Arial,14,0xffad4e,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="texpSystem.glow1" args="0x53340f,1,4,4,30"/>  
+    <set type="flash.filters.GlowFilter" stylename="texpSystem.glow2" args="0x2a0000,0.7,4,4,5,1"/>  
+    <set type="flash.filters.GlowFilter" stylename="texpSystem.glow3" args="0x290202,0.7,4,4,5,1"/>  
+    <set type="flash.filters.GlowFilter" stylename="texpSystem.glow4" args="0x673a0f,0.7,4,4,5,1"/>  
+    <set type="flash.filters.GlowFilter" stylename="texpSystem.glow5" args="0xff0000,1,4,4,30"/>  
+    <set type="flash.filters.GlowFilter" stylename="texpSystem.tip1Gf" args="0x000000,1,4,4,5,1"/>  
+    <set type="flash.filters.GlowFilter" stylename="texpSystem.buyGf" args="0x5c2302,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="texpSystem.attLevel.TF" args="Arial,12,0xf9ffb7,true "/>  
+    <set type="flash.filters.GlowFilter" stylename="texpSystem.attLevel.GF" args="0x911400,1,4,4,30"/>  
+    <set stylename="texpSystem.levelProgressTF" args="Arial,12,0xfffeb4,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="texpSystem.levelProgressGF" args="0x661a03,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="texpSystem.lblCurrentLv.TF" args="Arial,16,0xffec8c,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="texpSystem.lblCurrentLv.GF" args="0x512e0b,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="texpSystem.TexpCountSelectFrame.TextTF" args="Arial,16,0xffeebf,true" letterSpacing="2" type="flash.text.TextFormat"/>  
+    <set stylename="texpSystem.TexpCountSelectFrame.TextGF" args="0x442006,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="texpSystem.TexpCountSelectFrame.NeedTextTF" args="Arial,12,0xffeebf,true" letterSpacing="0" type="flash.text.TextFormat"/> 
+  </sets>  
+  <customDisplay> 
+    <custom classname="texpSystem.view.TexpView" stylename="texpSystem.main" x="6" y="-1"/>  
+    <custom classname="texpSystem.view.TexpInfoView" stylename="texpSystem.texpInfoView.main" x="23" y="75"/>  
+    <custom classname="texpSystem.view.TexpCell" stylename="texpSystem.texpCell" x="164" y="122"/>  
+    <custom classname="flash.geom.Rectangle" stylename="texpSystem.texpCell.content" width="80" height="80" x="13" y="13"/> 
+  </customDisplay>  
+  <components> 
+    <component classname="com.pickgliss.ui.controls.Frame" stylename="texpSystem.help.main" parentStyle="BaseFrame" width="408" height="488" moveEnable="true" escEnable="true" moveInnerRectString="0,30,0,30,1"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="texpSystem.bg1" resourceLink="asset.ddttexpSytem.BG" width="418" height="440" x="6" y="6"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="texpSystem.bg2" resourceLink="asset.ddttexpsystem.bg1,asset.ddttexpsystem.bg2,asset.ddttexpsystem.bg3,asset.ddttexpsystem.bg4,asset.ddttexpsystem.bg5,asset.ddttexpsystem.bg6,asset.ddttexpsystem.bg7,asset.ddttexpsystem.bg8,asset.ddttexpsystem.bg9" width="413" height="290" x="8" y="9"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="texpSystem.bg3" parentStyle="core.Scale9CornerImage.scale9CornerImage26" width="417" height="142" x="6" y="301"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="texpSystemBGAsset1" resourceLink="bagScaleBGAssetOne,bagAndInfo.info.paper2" width="390" height="70" imageRectString=",6|2|36|-25|0"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="texpSystemBGAsset2" resourceLink="bagScaleBGAssetTwo,bagAndInfo.info.paper2" imageRectString=",4|8|6|5|0"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="texpSystem.bg5" resourceLink="texpSystemBGAsset1,texpSystemBGAsset2" width="390" height="90" imageRectString=",9|6|37|-26|0" x="17" y="311"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="texpSystem.help.btnOk" parentStyle="core.simplebt" x="150" y="434"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.attLevel" filterString="texpSystem.attLevel.GF" textFormatStyle="texpSystem.attLevel.TF" x="75" y="96"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.hpLevel" parentStyle="texpSystem.attLevel" x="201" y="96"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.lukLevel" parentStyle="texpSystem.attLevel" x="322" y="96"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.defLevel" parentStyle="texpSystem.attLevel" x="75" y="220"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.spdLevel" parentStyle="texpSystem.attLevel" x="322" y="220"/>  
+    <!-- 经验条 -->  
+    <component classname="com.pickgliss.ui.core.Component" stylename="texpSystem.expComponent"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.info.LevelProgressText" textFormatStyle="texpSystem.levelProgressTF" filterString="texpSystem.levelProgressGF" autoSize="none" width="104" height="18" x="27" y="-1"/>  
+    <component classname="texpSystem.view.TexpLevelPro" stylename="TexpLevelProgress" x="166" y="369" width="141" height="18"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.lblTexpName" filterString="texpSystem.glow3" textFormatStyle="texpSystem.zh3TF" x="195" y="317"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.lblCurrentLv" filterString="texpSystem.lblCurrentLv.GF" textFormatStyle="texpSystem.lblCurrentLv.TF" x="100" y="365"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.lblCurrentEffect" filterString="texpSystem.glow2" textFormatStyle="texpSystem.zh2TF" x="37" y="395"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.lblUpEffect" filterString="texpSystem.glow2" textFormatStyle="texpSystem.zh2TF" x="203" y="395"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.txtCurrEffect" filterString="texpSystem.glow1" textFormatStyle="texpSystem.num1TF" x="132" y="395"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.txtUpEffect" filterString="texpSystem.glow1" textFormatStyle="texpSystem.num1TF" x="342" y="395"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.txtAttEff" filterString="texpSystem.glow4" textFormatStyle="texpSystem.zh4TF" width="113" height="28" y="326"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.txtDefEff" filterString="texpSystem.glow4" textFormatStyle="texpSystem.zh4TF" width="113" height="28" y="360"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.txtHpEff" filterString="texpSystem.glow4" textFormatStyle="texpSystem.zh4TF" width="113" height="28" y="395"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.txtLukEff" filterString="texpSystem.glow4" textFormatStyle="texpSystem.zh4TF" width="113" height="28" y="326"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.txtSpdEff" filterString="texpSystem.glow4" textFormatStyle="texpSystem.zh4TF" width="113" height="28" y="360"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="texpSystem.hp2" backStyle="asset.texpSystem.hp" tipStyle="texpSystem.view.TexpTip" tipDirctions="7,2,3" tipGapH="-15" tipGapV="0" displacement="false" x="173" y="118"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="texpSystem.att2" backStyle="asset.texpSystem.att" tipStyle="texpSystem.view.TexpTip" tipDirctions="7,2,3" tipGapH="-15" tipGapV="0" displacement="false" x="66" y="50"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="texpSystem.def2" backStyle="asset.texpSystem.def" tipStyle="texpSystem.view.TexpTip" tipDirctions="7,2,3" tipGapH="-15" tipGapV="0" displacement="false" x="66" y="185"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="texpSystem.spd2" backStyle="asset.texpSystem.spd" tipStyle="texpSystem.view.TexpTip" tipDirctions="7,2,3" tipGapH="-15" tipGapV="0" displacement="false" x="280" y="185"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="texpSystem.luk2" backStyle="asset.texpSystem.luk" tipStyle="texpSystem.view.TexpTip" tipDirctions="7,2,3" tipGapH="-15" tipGapV="0" displacement="false" x="280" y="50"/>  
+    <!-- texpTip -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="texpSystem.texpTip.bg" parentStyle="core.commonTipBg" width="145" height="88"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.texpTip.name" filterString="texpSystem.tip1Gf" textFormatStyle="texpSystem.tip1Tf" x="10" y="6"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.texpTip.content" filterString="texpSystem.tip2Gf" textFormatStyle="texpSystem.tip2Tf" x="10" y="29"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddttexpSystem.buyText" filterString="texpSystem.buyGf" textFormatStyle="texpSystem.buyTf" x="-13" y="6"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddttexpSystem.buyText1" filterString="texpSystem.buyGf" textFormatStyle="texpSystem.buyTf" x="-3" y="6"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.txtCount" filterString="texpSystem.glow5" textFormatStyle="texpSystem.num2TF" x="70" y="71"/>  
+    <custom classname="asset.texpSystem.helpContent" stylename="texpSystem.help.content" x="48" y="72"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="texpSystem.btnHelp" backStyle="asset.ddtcore.helpbuttonShort" filterString="null,lightFilter,null,grayFilter" x="767" y="-40"/>  
+    <component classname="texpSystem.view.TexpBuyButton" stylename="texpSystem.btnBuy" backStyle="asset.core.PayBuyBtn" filterString="null,lightFilter,lightFilter,grayFilter" tipStyle="core.GoodsTip" tipDirctions="7,0" x="332" y="243"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.core.PayBuyBtn" resourceLink="PayBuyBtn.red,asset.ddtbagAndInfo.Icon1" imageRectString="87|30|0|0|9,22|22|4|-70|9"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="PayBuyBtn.red" parentStyle="core.bg6921"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="texpSystem.att" unSelectedStyle="asset.texpSystem.unatt" selectedStyle="asset.texpSystem.att" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="7,2,3" tipGapH="-15" tipGapV="0" filterString="null,lightFilter,null,grayFilter" displacement="false" x="52" y="26"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="texpSystem.hp" unSelectedStyle="asset.texpSystem.unhp" selectedStyle="asset.texpSystem.hp" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="7,2,3" tipGapH="-15" tipGapV="0" filterString="null,lightFilter,null,grayFilter" displacement="false" x="176" y="26"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="texpSystem.luk" unSelectedStyle="asset.texpSystem.unluk" selectedStyle="asset.texpSystem.luk" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="7,2,3" tipGapH="-15" tipGapV="0" filterString="null,lightFilter,null,grayFilter" displacement="false" x="297" y="26"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="texpSystem.def" unSelectedStyle="asset.texpSystem.undef" selectedStyle="asset.texpSystem.def" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="7,2,3" tipGapH="-15" tipGapV="0" filterString="null,lightFilter,null,grayFilter" displacement="false" x="52" y="150"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="texpSystem.spd" unSelectedStyle="asset.texpSystem.unspd" selectedStyle="asset.texpSystem.spd" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="7,2,3" tipGapH="-15" tipGapV="0" filterString="null,lightFilter,null,grayFilter" displacement="false" x="297" y="150"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="texpSystem.btnTexp" backStyle="core.bgTexp" x="213" y="235"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg68991" parentStyle="core.bg6899" width="100"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.bgTexp" resourceLink="core.bg68991,asset.core.font01" imageRectString="150|45|0|0|9,85|35|4|-74|9"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="texpSystem.help.bgHelp" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" width="373" height="379" x="17" y="44"/>  
+    <component classname="texpSystem.view.TexpCountSelectFrame" stylename="texpSystem.TexpCountSelectFrame" parentStyle="BaseFrame" moveEnable="false" width="400" height="220" containerX="15" containerY="5" x="142" y="79"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.TexpCountSelectFrame.Text" textFormatStyle="texpSystem.TexpCountSelectFrame.TextTF" filterString="texpSystem.TexpCountSelectFrame.TextGF" x="25" y="80"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="texpSystem.TexpCountSelectFrame.NeedText" textFormatStyle="texpSystem.TexpCountSelectFrame.NeedTextTF" filterString="texpSystem.TexpCountSelectFrame.TextGF" x="20" y="124"/> 
+ 	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="texpSystem.allInjectSCB" parentStyle="core.selectedCheck2" filterString="null,lightFilter,null,grayFilter" displacement="true" 
+
+backStyle="texpSystem.allInject" x="115" y="244"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="texpSystem.allInject" resourceLink="asset.texpSystem.allInject" x="-70" y="5"/>
+  </components>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="texpSystem.posTxtBg1" x="119" y="315"/>  
+    <custom classname="flash.geom.Point" stylename="texpSystem.posInfoTxtBg1" x="96" y="323"/>  
+    <custom classname="flash.geom.Point" stylename="texpSystem.posInfoTxtBg2" x="96" y="357"/>  
+    <custom classname="flash.geom.Point" stylename="texpSystem.posInfoTxtBg3" x="96" y="392"/>  
+    <custom classname="flash.geom.Point" stylename="texpSystem.posInfoTxtBg4" x="296" y="323"/>  
+    <custom classname="flash.geom.Point" stylename="texpSystem.posInfoTxtBg5" x="296" y="357"/>  
+    <custom classname="flash.geom.Point" stylename="texpSystem.expBackground1Pos" x="84" y="359"/>  
+    <custom classname="flash.geom.Point" stylename="texpSystem.expBackground2Pos" x="-7" y="-7"/>  
+    <custom classname="flash.geom.Point" stylename="texpSystem.expCountSelecterPos" x="142" y="79"/> 
+  </customs>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.texpSystem.bg4" width="381" height="257" x="24" y="25"/>  
+    <bitmapData resourceLink="asset.texpSystem.bg5" width="381" height="257" x="24" y="25"/>  
+    <bitmapData resourceLink="asset.texpSystem.itemBg1" width="102" height="104"/>  
+    <bitmapData resourceLink="asset.texpSystem.txtBg1" width="189" height="26"/>  
+    <bitmapData resourceLink="asset.texpSystem.txtHp" width="68" height="21" x="24" y="396"/>  
+    <bitmapData resourceLink="asset.texpSystem.txtAtt" width="68" height="21" x="24" y="327"/>  
+    <bitmapData resourceLink="asset.texpSystem.txtDef" width="67" height="21" x="24" y="361"/>  
+    <bitmapData resourceLink="asset.texpSystem.txtSpd" width="68" height="21" x="224" y="361"/>  
+    <bitmapData resourceLink="asset.texpSystem.txtLuk" width="68" height="21" x="224" y="327"/>  
+    <bitmapData resourceLink="asset.texpSystem.infoTxtBg" width="113" height="28"/>  
+    <bitmapData resourceLink="asset.texpSystem.texpNum" x="112" y="212"/> 
+  </bitmaps> 
+</style>

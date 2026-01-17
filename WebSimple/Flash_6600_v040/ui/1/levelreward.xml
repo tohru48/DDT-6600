@@ -1,0 +1,77 @@
+﻿<rewards>
+	<reward level="2">
+			<rewardItem sort="1" title="遊戲大廳功能:" content="創建房間進行戰鬥的場所" items="|"/>
+			<rewardItem sort="2" title="任務道具獲得:" content="" items="10008|10008"/>
+			<rewardItem sort="3" title="任務獲得任意款衣服:" content="" items="5229,5242,5243,5247|5106,5103,5163,5180"/>
+	</reward>
+	<reward level="3">
+			<rewardItem sort="1" title="背包功能:" content="用於存放武器、裝備和貨幣" items="|"/>
+			<rewardItem sort="2" title="任務獲得道具及武器:" content="" items="7009,10003,10024,10025|7009,10003,10024,10025"/>
+			<rewardItem sort="3" title="任務獲得任意款髮型:" content="" items="3214,3235,3237,3236|3107,3110,3129,3150"/>
+	</reward>
+	<reward level="4">
+			<rewardItem sort="1" title="任務獲得道具:" content="" items="10001,10007,10012,10009|10001,10007,10012,10009"/>
+			<rewardItem sort="2" title="任務獲得任意款眼鏡:" content="" items="2204,2207,2221,2223|2104,2123,2126,2127"/>
+			<rewardItem sort="3" title="任務獲得任意款帽子:" content="" items="1203,1211,1217,1252|1112,1137,1144,1189"/>
+	</reward>
+	<reward level="5">
+			<rewardItem sort="1" title="交友中心功能:" content="在此可以結識很多朋友" items="|"/>
+			<rewardItem sort="2" title="任務獲得道具:" content="" items="10006,10005,10004,10017|10006,10005,10004,10017"/>
+			<rewardItem sort="3" title="任務獲得任意款戒指和翅膀:" content="" items="9002,9005,15005,15007|9002,9005,15005,15007"/>
+	</reward>
+	<reward level="6">
+			<rewardItem sort="1" title="師徒聖殿功能:" content="拜師可以加速升級且獎勵極其豐厚" items="|"/>
+			<rewardItem sort="2" title="任務獲得道具和任意款手鐲:" content="" items="10018,8006,8004|10018,8006,8004"/>
+			<rewardItem sort="3" title="任務獲得任意款臉飾:" content="" items="4214,4221,4234,4248|4113,4120,4133,4147"/>
+	</reward>
+	<reward level="7">
+			<rewardItem sort="1" title="工會俱樂部功能:" content="加入工會可以更容易獲益，享受庇護與榮譽" items="|"/>
+			<rewardItem sort="2" title="任務獲得武器和道具:" content="" items="7011,10010,10011,10016|7011,10010,10011,10016"/>
+			<rewardItem sort="3" title="任務獲得任意款眼睛:" content="" items="6208,6213,6225,6232|6112,6122,6114,6118"/>
+	</reward>
+	<reward level="8">
+			<rewardItem sort="1" title="遠征碼頭功能:" content="打怪通關，獎勵優厚的神秘之地入口" items="|"/>
+			<rewardItem sort="2" title="鐵匠鋪功能:" content="大幅加強武器威力的地方，這裡沒有失敗！" items="10015|10015"/>
+			<rewardItem sort="3" title="任務獲得道具:" content="" items="11025|11025"/>
+	</reward>
+	<reward level="9">
+			<rewardItem sort="1" title="商城功能:" content="實現你更漂亮，更強大，更與眾不同的願望的道具商店" items="|"/>
+			<rewardItem sort="2" title="合成功能:" content="" items="11001,11005,11009,11013|11001,11005,11009,11013"/>
+			<rewardItem sort="3" title="任務獲得道具:" content="" items="11025|11025"/>
+	</reward>
+	<reward level="10">
+			<rewardItem sort="1" title="熔煉功能:" content="鐵匠鋪功能，將4個低級物品熔煉成1個高級物品" items="|"/>
+			<rewardItem sort="2" title="任務獲得任意武器:" content="" items="7006,7012|7006,7012"/>
+			<rewardItem sort="3" title="任務獲得道具:" content="" items="11001,11025|11001,11025"/>
+	</reward>
+	<reward level="11">
+			<rewardItem sort="1" title="鑲嵌功能:" content="鐵匠鋪功能，鑲嵌寶珠到裝備上可以使你的實力大增哦！" items="|"/>
+			<rewardItem sort="2" title="任務獲得攻擊寶珠:" content="" items="311101|311101"/>
+			<rewardItem sort="3" title="任務獲得道具:" content="" items="11025|11025"/>
+	</reward>
+	<reward level="12">
+			<rewardItem sort="1" title="名人堂功能:" content="彈彈堂世界中最有面子的人都在這裡哦！" items="|"/>
+			<rewardItem sort="2" title="挑戰功能:" content="可以向指定的某人發起挑戰哦！" items="13144,13145|13144,13145"/>
+			<rewardItem sort="3" title="一元大禮包:" content="充值1元可獲得價值100元人民幣的物品哦！" items="13136,13137|13136,13137"/>
+	</reward>
+	<reward level="13">
+			<rewardItem sort="1" title="溫泉功能:" content="在這泡澡可以交朋友又可以得大量經驗哦！" items="|"/>
+			<rewardItem sort="2" title="任務獲得任意武器:" content="" items="7013,7014|7013,7014"/>
+			<rewardItem sort="3" title="任務獲得道具:" content="" items="11025|11025"/>
+	</reward>
+	<reward level="14">
+			<rewardItem sort="1" title="拍賣場功能:" content="這裡是套淘取寶貝和寄賣物品的地方哦！" items="|"/>
+			<rewardItem sort="2" title="任務獲得道具:" content="" items="11014,11010|11014,11010"/>
+			<rewardItem sort="3" title="任務獲得道具:" content="" items="312101|312101"/>
+	</reward>
+	<reward level="15">
+			<rewardItem sort="1" title="作战实验室功能:" content="學會戰鬥技巧和敲門，晉身高手行列的捷徑！" items="|"/>
+			<rewardItem sort="2" title="任務獲得任意武器:" content="" items="9106,9106|9106,9106"/>
+			<rewardItem sort="3" title="任務獲得道具:" content="" items="5253,11997|5153,11997"/>
+	</reward>
+	<reward level="16">
+			<rewardItem sort="1" title="禮品盒功能:" content="收取或贈送禮物，看看你的魅力指數" items="|"/>
+			<rewardItem sort="2" title="任務獲得道具:" content="" items="11003,11007|11003,11007"/>
+			<rewardItem sort="3" title="任務獲得道具:" content="" items="11011,11015|11011,11015"/>
+	</reward>
+</rewards>

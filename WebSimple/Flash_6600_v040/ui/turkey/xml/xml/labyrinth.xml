@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="labyrinth" version="1.0.1" source="ui/turkey/swf/labyrinth.swf"> 
+  <sets> 
+    <set args="0x251200,1,3,3,100" stylename="ddt.labyrinth.LabyrinthFrame.text1GF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.LabyrinthFrame.text1TF" args="Arial,16,0xffd200,true" type="flash.text.TextFormat"/>  
+    <set args="0x251200,1,3,3,100" stylename="ddt.labyrinth.LabyrinthFrame.text2GF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.LabyrinthFrame.text2TF" args="Arial,16,0xffd200,true" type="flash.text.TextFormat"/>  
+    <set args="0x542209,1,3,3,100" stylename="ddt.labyrinth.LabyrinthFrame.text3GF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.LabyrinthFrame.text3TF" args="Arial,16,0xccff8a,true" type="flash.text.TextFormat"/>  
+    <set args="0x542209,1,3,3,100" stylename="ddt.labyrinth.LabyrinthFrame.text4GF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.LabyrinthFrame.text4TF" args="Arial,12,0xe6d085,true" type="flash.text.TextFormat"/>  
+    <set args="0x542209,1,3,3,100" stylename="ddt.labyrinth.LabyrinthFrame.text5GF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.LabyrinthFrame.text5TF" args="Arial,12,0xf2e0a2,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddt.labyrinth.LabyrinthFrame.SelectedCheckButtonTextTF" args="Arial,12,0xfff4d4,true" letterSpacing="0" type="flash.text.TextFormat"/>  
+    <set stylename="ddt.labyrinth.LabyrinthFrame.SelectedCheckButtonTextGF" args="0x7c4519,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="BoxTextTF" args="Arial,13,0x000000,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="BoxTextGF" args="0x251200,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set args="0x4f3700,1,4,4,500" stylename="labyrinth.rankingListFrame.titleTextGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="labyrinth.rankingListFrame.titleTextTF" args="Arial,14,0xffea9c,true" type="flash.text.TextFormat"/>  
+    <set args="0x4f3700,1,4,4,500" stylename="ddt.labyrinth.RankingListItem.textGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.RankingListItem.textTF" args="Arial,14,0xffea9c,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set args="0x5b3100,1,4,4,500" stylename="ddt.labyrinth.LabyrinthShopFrame.coinTextGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.LabyrinthShopFrame.coinTextTF" args="Arial,12,0xffcc00,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set args="0x5b3100,1,4,4,500" stylename="ddt.labyrinth.CleanOutFrame.rightLabelGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.CleanOutFrame.rightLabelTF" args="Arial,14,0x000000,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set args="0x4b2806,1,4,4,500" stylename="ddt.labyrinth.CleanOutFrame.tipTitleGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.CleanOutFrame.tipTitleTF" args="Arial,14,0xffd200,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set args="0x693812,1,4,4,500" stylename="ddt.labyrinth.CleanOutFrame.tipContentGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.CleanOutFrame.tipContentTF" args="Arial,12,0xf6eeba,true,,,,,left" letterSpacing="0" type="flash.text.TextFormat"/>  
+    <set args="0x693812,1,4,4,500" stylename="ddt.labyrinth.CleanOutContentItem.expTitleGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.CleanOutContentItem.expTitleTF" args="Arial,12,0xffd800,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set args="0x693812,1,4,4,500" stylename="ddt.labyrinth.CleanOutContentItem.floorNumContentGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.CleanOutContentItem.floorNumContentTF" args="Arial,14,0xf6eeba,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set args="0x693812,1,4,4,500" stylename="ddt.labyrinth.CleanOutContentItem.expNumGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.CleanOutContentItem.expNumTF" args="Arial,11,0xffeb8e,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set args="0x482300,1,4,4,500" stylename="ddt.labyrinth.CleanOutFrame.rightValueGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.CleanOutFrame.rightValueTF" args="Arial,12,0xffd800,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set args="0x7c4519,1,2,2,500" stylename="ddt.labyrinth.CleanOutFrame.rightValueIIGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.CleanOutFrame.rightValueIITF" args="Arial,14,0xfff4d4,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set args="0x532900,1,4,4,500" stylename="ddt.labyrinth.LabyrinthFrame.currentFloorGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.LabyrinthFrame.currentFloorTF" args="Arial,12,0xffea00,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set args="0x482300,1,4,4,500" stylename="ddt.labyrinth.LabyrinthFrame.currentFloorNumGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.LabyrinthFrame.currentFloorNumTF" args="Arial,14,0xfffcca,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set args="0x482300,1,4,4,500" stylename="ddt.labyrinth.LabyrinthFrame.currentFloorNumGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.LabyrinthIconTips.labelTF" args="Arial,14,0xffffff,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set args="0x482300,1,4,4,500" stylename="ddt.labyrinth.LabyrinthFrame.currentFloorNumGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.LabyrinthIconTips.contentTF" args="Arial,14,0xb132ff,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set args="0xffffff,1,2,2,500" stylename="ddt.labyrinth.LabyrinthShopFrame.lableGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.LabyrinthShopFrame.lableTF" args="Arial,12,0xff0000,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="ddt.labyrinth.LabyrinthFrame.BuyFrameSelectedCheckButtonTextTF" args="Arial,14,0xfff4d4,true,,,,,center" letterSpacing="0" type="flash.text.TextFormat"/>  
+    <set stylename="ddt.labyrinth.LabyrinthFrame.BuyFrameSelectedCheckButtonTextGF" args="0x57c4519,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.labyrinth.LabyrinthFrame.BuyFrameSelectedCheckButtonTextTF2" args="Arial,12,0xfff4d4,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="labyrinth.rankingListFrame.titleTextTF1" args="Arial,12,0xffea9c,true" type="flash.text.TextFormat"/>
+  </sets>  
+  <customDisplay> 
+  <custom classname="flash.geom.Point" stylename="ddt.labyrinth.vipIconPos" x="364" y="177"/>
+    <custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="ddt.labyrinth.BoxTextList" x="55" y="113" hSpace="245" vSpace="-3"/>  
+    <custom classname="labyrinth.view.LabyrinthFrame" stylename="labyrinth.labyrinthFrame" 
+			backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame" closestyle="core.closebt"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="24,10,5"
+			closeInnerRectString="44,12,6,30,14" moveInnerRectString="0,30,0,30,1" 
+			width="737" height="540" escEnable="true"/>  
+    <custom classname="labyrinth.view.RankingListFrame" stylename="labyrinth.rankingListFrame" backStyle="labyrinth.rankingListFrame.bgII" parentStyle="BaseFrame" submitButtonStyle="labyrinth.RankingListFrame.closeButton" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="24,10,5" closeInnerRectString="44,12,6,30,14" moveInnerRectString="0,30,0,30,1" width="414" height="523" escEnable="true"/>  
+    <custom classname="labyrinth.view.LabyrinthShopFrame" backStyle="SimpleFrameBackgoundOneIII" width="480" height="521" stylename="labyrinth.view.labyrinthShopFrame" escEnable="true" parentStyle="BaseFrame" closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" cancelButtonStyle="ddt.labyrinth.core.simplebt" moveEnable="true" buttonToBottom="13" containerX="20" containerY="40" titleOuterRectPosString="12,11,5"/>  
+    <custom classname="labyrinth.view.CleanOutFrame" backStyle="SimpleFrameBackgoundOne" width="592" height="317" stylename="labyrinth.view.cleanOutFrame" escEnable="true" parentStyle="BaseFrame" closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" titleStyle="FrameTitleTextStyle" moveEnable="true" buttonToBottom="13" containerX="0" containerY="0" titleOuterRectPosString="12,11,5"/>  
+    <custom classname="flash.display.Sprite" stylename="labyrinth.LabyrinthShopFrame.GoodItemContainerAll" spacing="2" x="7" y="10"/>  
+    <custom classname="flash.display.Sprite" stylename="labyrinth.CleanOutFrame.tipContainer" spacing="2" x="10" y="10"/>  
+    <custom classname="asset.ddtshop.RightItemLightMc" stylename="labyrinth.LabyrinthShopFrame.RightItemLightMc" width="70" height="75" x="9" y="5"/>  
+    <custom classname="flash.display.Sprite" stylename="labyrinth.LabyrinthShopFrame.navigationBarContainer" x="33" y="-115"/>  
+    <custom classname="flash.display.Sprite" stylename="labyrinth.LabyrinthFrame.cleanOutContainer" x="0" y="0"/>  
+    <custom classname="flash.display.Sprite" stylename="labyrinth.LabyrinthFrame.startContainer" x="-4" y="8"/>  
+    <custom classname="ddt.LabyrinthFrame.help" stylename="ddt.labyrinth.LabyrinthFrame.help" x="18" y="46"/>  
+    <custom classname="labyrinth.view.LabyrinthShopItem" stylename="labyrinth.view.labyrinthShopItem"/>  
+    <custom classname="flash.geom.Point" stylename="dt.labyrinth.LabyrinthFrame.helpFrame.submitButtonPos" x="154" y="404"/>  
+    <custom classname="flash.geom.Point" stylename="dt.labyrinth.LabyrinthFrame.TryAgainPos" x="-11" y="-22"/>  
+    <custom classname="labyrinth.view.BuyFrame" backStyle="SimpleFrameBackgoundOneIII" width="360" height="210" stylename="labyrinth.view.buyFrame" titleStyle="FrameTitleTextStyle" escEnable="true" parentStyle="BaseFrame" submitButtonStyle="core.simplebt" closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" cancelButtonStyle="ddt.labyrinth.core.simplebt" moveEnable="true" buttonToBottom="13" containerX="20" containerY="40" titleOuterRectPosString="12,11,5"/>  
+    <custom classname="flash.geom.Point" stylename="dt.labyrinth.LabyrinthFrame.newtitlePos" x="-6" y="-29"/> 
+    <custom classname="labyrinth.view.LabyrinthNightmareShopFrame" backStyle="SimpleFrameBackgoundOneIII" width="480" height="521" stylename="labyrinth.view.labyrinthNightmareShopFrame" titleStyle="FrameTitleTextStyle" escEnable="true" parentStyle="BaseFrame" type="1" closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" cancelButtonStyle="ddt.labyrinth.core.simplebt" moveEnable="true" buttonToBottom="13" containerX="20" containerY="40" titleOuterRectPosString="12,11,5"/>
+<custom classname="flash.geom.Point" stylename="ddt.labyrinth.contentPos" x="0" y="40"/>
+<custom classname="ddt.LabyrinthFrame.help2" stylename="ddt.labyrinth.LabyrinthFrame.help2" x="18" y="47"/>
+    
+  </customDisplay>  
+  <components> 
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddt.view.labyrinth.ScaleBG" resourceLink="asset.core.btmc011" width="693" height="433" x="22" y="46" scaleGridString="20,20,60,40"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.view.labyrinth.StartGmaeBtn" backStyle="ddt.labyrinth.startGmaeBtn" enable="true" x="582" y="397"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.view.LabyrinthFrame.CleanOutBtn" backStyle="ddt.labyrinth.LabyrinthFrame.CleanOut" enable="true" x="461" y="397"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.view.LabyrinthFrame.resetBtn" backStyle="ddt.labyrinth.LabyrinthFrame.resetBtn" enable="true" x="581" y="397"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.view.LabyrinthFrame.continueGameBtn" backStyle="ddt.LabyrinthFrame.continueGameBtn" enable="true" x="465" y="416"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.view.LabyrinthFrame.continueCleabOut" backStyle="ddt.LabyrinthFrame.continueCleabOut" enable="true" x="465" y="371"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.view.labyrinth.RankingBtn" backStyle="ddt.labyrinth.RankingBtn" enable="true" x="604" y="183"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.view.labyrinth.shopBtn" backStyle="ddt.labyrinth.shopBtn" enable="true" x="444" y="63"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.view.labyrinth.helpBtn" backStyle="ddt.labyrinth.helpBtn" enable="true" x="608" y="45"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthFrame.text1" textFormatStyle="ddt.labyrinth.LabyrinthFrame.text1TF" filterString="ddt.labyrinth.LabyrinthFrame.text1GF" autoSize="none" x="130" y="66" width="100" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthFrame.text2" textFormatStyle="ddt.labyrinth.LabyrinthFrame.text2TF" filterString="ddt.labyrinth.LabyrinthFrame.text2GF" autoSize="none" x="562" y="188" width="100" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthFrame.text3" textFormatStyle="ddt.labyrinth.LabyrinthFrame.text3TF" filterString="ddt.labyrinth.LabyrinthFrame.text3GF" autoSize="none" x="611" y="286" width="100" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthFrame.text4" textFormatStyle="ddt.labyrinth.LabyrinthFrame.text4TF" filterString="ddt.labyrinth.LabyrinthFrame.text4GF" autoSize="none" x="466" y="228" width="230" height="55" type="dynamic" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthFrame.text5" textFormatStyle="ddt.labyrinth.LabyrinthFrame.text5TF" filterString="ddt.labyrinth.LabyrinthFrame.text5GF" autoSize="none" x="41" y="436" width="300" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="labyrinth.rankingListFrame.titleText" textFormatStyle="labyrinth.rankingListFrame.titleTextTF" filterString="labyrinth.rankingListFrame.titleTextGF" autoSize="none" x="42" y="56" width="80" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="labyrinth.rankingListFrame.titleTextI" textFormatStyle="labyrinth.rankingListFrame.titleTextTF" filterString="labyrinth.rankingListFrame.titleTextGF" autoSize="none" x="157" y="56" width="80" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="labyrinth.rankingListFrame.titleTextII" textFormatStyle="labyrinth.rankingListFrame.titleTextTF1" filterString="labyrinth.rankingListFrame.titleTextGF" autoSize="none" x="261" y="56" width="120" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.BoxTextTF" textFormatStyle="BoxTextTF" autoSize="none" width="55" height="25"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="ddt.labyrinth.BoxText" textFieldStyle="ddt.labyrinth.BoxTextTF" colors="0xffffff,0xf1b105" filterString="BoxTextGF" alphas="1,1" ratios="30,255" x="0" y="45"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthFrame.SelectedCheckButtonText" textFormatStyle="ddt.labyrinth.LabyrinthFrame.SelectedCheckButtonTextTF" filterString="ddt.labyrinth.LabyrinthFrame.SelectedCheckButtonTextGF" wordWrap="true" width="196" height="50"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddt.labyrinth.LabyrinthFrame.CheckButton" parentStyle="core.selectedCheck2" textStyle="ddt.labyrinth.LabyrinthFrame.SelectedCheckButtonText" fieldX="37" fieldY="-1" width="103" height="30" x="466" y="317"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="labyrinth.RankingListFrame.closeButton" backStyle="ddt.labyrinth.RankingListFrame.close" enable="true" x="120"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="labyrinth.rankingListFrame.bgII" parentStyle="SimpleFrameBackgoundOneIII" imageRectString=",17|17|58|17|4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="labyrinth.RankingListItem。itemBG" resourceLink="ddt.labyrinth.RankingListFrame.itemBG1,ddt.labyrinth.RankingListFrame.itemBG2"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.RankingListItem.text1" textFormatStyle="ddt.labyrinth.RankingListItem.textTF" filterString="ddt.labyrinth.RankingListItem.textGF" autoSize="none" x="2" y="5" width="70" height="24" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.RankingListItem.text2" textFormatStyle="ddt.labyrinth.RankingListItem.textTF" filterString="ddt.labyrinth.RankingListItem.textGF" autoSize="none" x="72" y="5" width="158" height="24" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.RankingListItem.text3" textFormatStyle="ddt.labyrinth.RankingListItem.textTF" filterString="ddt.labyrinth.RankingListItem.textGF" autoSize="none" x="228" y="5" width="110" height="24" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="ddt.labyrinth.RankingListFrame.List" hScrollbarStyle="core.HScrollbar" vScrollbarStyle="core.VScrollbar" hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,4,0,0,3" viewportInnerRectString="2,0,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|labyrinth.view.RankingListItem,38,344" listStyle="com.pickgliss.ui.controls.list.List" width="366" height="353" x="25" y="88" hScrollProxy="2" vUnitIncrement="10"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="ddt.labyrinth.core.simplebt" backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle" backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter" x="196" y="446"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddt.labyrinth.LabyrinthShopFrame.GoodItemContainerBg" parentStyle="ddtshop.GoodItemContainerBg" x="1" y="5"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddt.labyrinth.LabyrinthShopFrame.coinBG" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="140" y="374" width="88" height="23"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthShopFrame.coinText" textFormatStyle="ddt.labyrinth.LabyrinthShopFrame.coinTextTF" filterString="ddt.labyrinth.LabyrinthShopFrame.coinTextGF" autoSize="none" x="11" y="376" width="130" height="24" type="dynamic" text="秘境硬币:"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthShopFrame.coinNumText" parentStyle="ddtshop.CurrentPage" x="145" y="377" width="83" text="123123"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddt.view.CleanOutFrame.ScaleBG" resourceLink="asset.core.btmc011" width="546" height="246" x="22" y="46" scaleGridString="20,20,60,40"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.view.CleanOutFrame.startCleanOutButton" backStyle="ddt.labyrinth.CleanOutFrame.CleanOut" enable="true" x="366" y="208"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.view.CleanOutFrame.speededUpButton" backStyle="ddt.labyrinth.CleanOutFrame.speededUp" enable="true" x="328" y="210"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.view.CleanOutFrame.cancelButton" backStyle="ddt.labyrinth.CleanOutFrame.cancel" enable="true" x="439" y="210"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.CleanOutFrame.rightLabelText" textFormatStyle="ddt.labyrinth.CleanOutFrame.rightLabelTF" autoSize="none" x="-1" y="372" width="110" height="24" type="dynamic" text="秘境硬币:"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="ddt.labyrinth.CleanOutFrame.rightLabel" textFieldStyle="ddt.labyrinth.CleanOutFrame.rightLabelText" colors="0xffffff,0xffba00" filterString="ddt.labyrinth.CleanOutFrame.rightLabelGF" alphas="1,1" ratios="30,255" x="348" y="-286" text="扫荡层数"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="ddt.labyrinth.CleanOutFrame.rightLabelI" textFieldStyle="ddt.labyrinth.CleanOutFrame.rightLabelText" colors="0xffffff,0xffba00" filterString="ddt.labyrinth.CleanOutFrame.rightLabelGF" alphas="1,1" ratios="30,255" x="348" y="-249" text="扫荡层数I"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="ddt.labyrinth.CleanOutFrame.rightLabelII" textFieldStyle="ddt.labyrinth.CleanOutFrame.rightLabelText" colors="0xffffff,0xffba00" filterString="ddt.labyrinth.CleanOutFrame.rightLabelGF" alphas="1,1" ratios="30,255" x="348" y="-216" text="扫荡层数II"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.CleanOutFrame.tipTitleText" textFormatStyle="ddt.labyrinth.CleanOutFrame.tipTitleTF" filterString="ddt.labyrinth.CleanOutFrame.tipTitleGF" autoSize="none" x="34" y="51" width="150" height="24" type="dynamic" text="秘境硬币:"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.CleanOutFrame.tipContentText" textFormatStyle="ddt.labyrinth.CleanOutFrame.tipContentTF" filterString="ddt.labyrinth.CleanOutFrame.tipContentGF" autoSize="none" x="32" y="75" width="246" height="190" type="dynamic" text="秘境硬币:" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="ddt.labyrinth.CleanOutFrame.List" hScrollbarStyle="core.HScrollbar" vScrollbarStyle="core.VScrollbar" hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,4,0,0,3" viewportInnerRectString="2,0,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|labyrinth.view.CleanOutContentItem,48,212" listStyle="com.pickgliss.ui.controls.list.List" width="245" height="209" x="45" y="66" hScrollProxy="2" vUnitIncrement="10"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.CleanOutContentItem.expTitle" textFormatStyle="ddt.labyrinth.CleanOutContentItem.expTitleTF" filterString="ddt.labyrinth.CleanOutContentItem.expTitleGF" autoSize="none" x="0" y="21" width="110" height="24" type="dynamic" text="经验：2054"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.CleanOutContentItem.floorNumContent" textFormatStyle="ddt.labyrinth.CleanOutContentItem.floorNumContentTF" filterString="ddt.labyrinth.CleanOutContentItem.floorNumContentGF" autoSize="none" x="0" y="-2" width="200" height="24" type="dynamic" text="第5层扫荡"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.CleanOutContentItem.expNum" textFormatStyle="ddt.labyrinth.CleanOutContentItem.expNumTF" filterString="ddt.labyrinth.CleanOutContentItem.expNumGF" autoSize="none" x="35" y="16" width="178" height="35" type="dynamic" text="第5层扫荡" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.CleanOutFrame.rightValue" textFormatStyle="ddt.labyrinth.CleanOutFrame.rightValueTF" filterString="ddt.labyrinth.CleanOutFrame.rightValueGF" autoSize="none" x="346" y="103" width="160" height="27" type="dynamic" text="已扫荡 5 层扫荡"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.CleanOutFrame.rightValueI" textFormatStyle="ddt.labyrinth.CleanOutFrame.rightValueIITF" filterString="ddt.labyrinth.CleanOutFrame.rightValueIIGF" autoSize="none" x="448" y="123" width="140" height="27" type="dynamic" text="00:35:00"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.CleanOutFrame.rightValueII" textFormatStyle="ddt.labyrinth.CleanOutFrame.rightValueIITF" filterString="ddt.labyrinth.CleanOutFrame.rightValueIIGF" autoSize="none" x="489" y="157" width="140" height="27" type="dynamic" text="500000"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthFrame.currentFloor" textFormatStyle="ddt.labyrinth.LabyrinthFrame.currentFloorTF" filterString="ddt.labyrinth.LabyrinthFrame.currentFloorGF" autoSize="none" x="466" y="291" width="435" height="30" type="dynamic" text="当前层数："/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthFrame.currentFloorNum" textFormatStyle="ddt.labyrinth.LabyrinthFrame.currentFloorNumTF" filterString="ddt.labyrinth.LabyrinthFrame.currentFloorNumGF" autoSize="none" x="572" y="291" width="435" height="30" type="dynamic" text="10"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthFrame.accumulateExp" textFormatStyle="ddt.labyrinth.LabyrinthFrame.currentFloorTF" filterString="ddt.labyrinth.LabyrinthFrame.currentFloorGF" autoSize="none" x="466" y="323" width="435" height="30" type="dynamic" text="累计获得经验："/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthFrame.accumulateExpNum" textFormatStyle="ddt.labyrinth.LabyrinthFrame.currentFloorNumTF" filterString="ddt.labyrinth.LabyrinthFrame.currentFloorNumGF" autoSize="none" x="624" y="323" width="435" height="30" type="dynamic" text="500000"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddt.labyrinth.LabyrinthIconTips.BG" resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40" width="176" height="80"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthIconTips.label" textFormatStyle="ddt.labyrinth.LabyrinthIconTips.labelTF" autoSize="none" x="6" y="9" width="120" height="22" type="dynamic" text="本层掉落"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthIconTips.content" textFormatStyle="ddt.labyrinth.LabyrinthIconTips.contentTF" autoSize="none" x="9" y="39" width="185" height="44" type="dynamic" text="战魂丹/n秘境硬币"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddt.labyrinth.LabyrinthIconTips.line" parentStyle="HRuleAsset" width="155" x="3" y="35"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthShopFrame.lable" textFormatStyle="ddt.labyrinth.LabyrinthShopFrame.lableTF" filterString="ddt.labyrinth.LabyrinthShopFrame.lableGF" autoSize="none" wordWrap="true" x="15" y="397" width="410" height="50" type="dynamic" text="注：秘境商城内"/>  
+    <component classname="roulette.HelpFrame" backStyle="SimpleFrameBackgoundOneIII" stylename="ddt.labyrinth.LabyrinthFrame.helpFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,11,5" containerX="8" containerY="31" width="410" height="490" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddt.labyrinth.LabyrinthFrame.BuyFrameSelectedCheckButton" parentStyle="core.simpleSelectBtn" textStyle="ddt.labyrinth.LabyrinthFrame.BuyFrameSelectedCheckButtonText" displacement="false" fieldX="18" fieldY="-2" x="93" y="81"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthFrame.BuyFrameSelectedCheckButtonText" textFormatStyle="ddt.labyrinth.LabyrinthFrame.BuyFrameSelectedCheckButtonTextTF" filterString="ddt.labyrinth.LabyrinthFrame.BuyFrameSelectedCheckButtonTextGF" autoSize="none" width="180" height="30"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.LabyrinthFrame.BuyFrameContentText" textFormatStyle="ddt.labyrinth.LabyrinthFrame.BuyFrameSelectedCheckButtonTextTF" filterString="ddt.labyrinth.LabyrinthFrame.BuyFrameSelectedCheckButtonTextGF" autoSize="none" width="300" height="45" x="13" y="41" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.labyrinth.chatButton" tipStyle="ddt.view.tips.OneLineTip" backStyle="ddt.labyrinth.CleanOutFrame.chat" tipDirctions="0,4,5" x="518" y="70"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="labyrinth.RankingListItem.itemBG" resourceLink="ddt.labyrinth.RankingListFrame.itemBG1,ddt.labyrinth.RankingListFrame.itemBG2"/> 
+ <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.labyrinth.freeAccTips" textFormatStyle="ddt.labyrinth.CleanOutFrame.rightValueTF" 
+
+filterString="ddt.labyrinth.CleanOutFrame.rightValueGF" autoSize="none" x="409" y="186" width="140" height="27" type="dynamic"/>
+<component classname="labyrinth.view.CleanOutConfirmView" stylename="labyrinth.cleanOutConfirmView" parentStyle="SimpleAlert" buttonToBottom="12" textStyle="simpleAlertContentText" 
+
+titleOuterRectPosString="13,12,5" titleStyle="FrameTitleTextStyle" containerX="20" containerY="66" frameInnerRectString="77,60,53,170,-1" closeInnerRectString="44,6,3,30,14" frameMiniW="421" 
+
+frameMiniH="250"/>
+ <component classname="com.pickgliss.ui.image.Image" stylename="asset.nightmareBtnSelected" resourceLink="ddt.labyrinth.nightmareBtnSelected"/>
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="labyrinth.nightmareBtn" unSelectedStyle="asset.nightmareBtnUnSelected" selectedStyle="asset.nightmareBtnSelected" filterString="null,lightFilter,null,grayFilter" x="170" y="42"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="asset.warriorBtnSelected" resourceLink="ddt.labyrinth.warriorBtnSelected"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="asset.nightmareBtnUnSelected" resourceLink="ddt.labyrinth.nightmareBtnUnSelected" x="5" y="2"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="asset.warriorBtnUnSelected" resourceLink="ddt.labyrinth.warriorBtnUnSelected" x="5" y="2"/>
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="labyrinth.warriorBtn" unSelectedStyle="asset.warriorBtnUnSelected" selectedStyle="asset.warriorBtnSelected" filterString="null,lightFilter,null,grayFilter" x="28" y="42"/>
+ 
+ 
+ <!-- 魔幻秘境按钮 -->
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddt.labyrinth.leftBG" resourceLink="ddt.labyrinth.leftBG1,ddt.labyrinth.leftBG2" x="31" y="55"/>
+ 
+ 
+  </components>  
+  <bitmaps> 
+    <!-- bitmapData -->  
+    <bitmapData resourceLink="ddt.labyrinth.leftBG" x="31" y="55"/>  
+    <bitmapData resourceLink="ddt.labyrinth.rightBG" x="442" y="57"/>  
+    <bitmapData resourceLink="ddt.labyrinth.myProgress" x="43" y="67"/>  
+    <bitmapData resourceLink="ddt.labyrinth.myRankingBG" x="463" y="188"/>  
+    <bitmapData resourceLink="ddt.labyrinth.todayNum" x="466" y="287"/>  
+    <bitmapData resourceLink="ddt.labyrinth.Box" x="0" y="0"/>  
+    <bitmapData resourceLink="ddt.labyrinth.RankingListFrame.BG" x="19" y="45"/>  
+    <bitmapData resourceLink="ddt.labyrinth.CleanOutFrame.leftBG" x="31" y="55"/>  
+    <bitmapData resourceLink="ddt.labyrinth.CleanOutFrame.rightBG" x="305" y="55"/>  
+    <bitmapData resourceLink="ddt.labyrinth.doubleAwardIcon" x="415" y="270"/>  
+    <bitmapData resourceLink="asset.login.chooseRoleFrame.deletedIcon" x="218" y="-5"/> 
+    <bitmapData resourceLink="ddt.labyrinth.CleanOutFrame.VIP6cut" x="41" y="36"/>
+<bitmapData resourceLink="ddt.labyrinth.CleanOutFrame.VIP9cut" x="210" y="36"/>
+    
+  </bitmaps>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="labyrinth.view.PrePagePos4" x="367" y="486"/>  
+    <custom classname="flash.geom.Point" stylename="labyrinth.view.PrePagePos1" x="242" y="486"/>  
+    <custom classname="flash.geom.Point" stylename="labyrinth.view.PrePagePos3" x="297" y="489"/>  
+    <custom classname="flash.geom.Point" stylename="labyrinth.view.PrePagePos2" x="300" y="487"/> 
+  </customs> 
+</style>

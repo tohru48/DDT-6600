@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2013-06-08T20:26:07.1326178-07:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>H:\DDTank\DDTankII\quest.ldg</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AASGetState.aspx">
+      <publishTime>08/07/2010 16:08:30</publishTime>
+    </File>
+    <File Include="AASUpdateState.aspx">
+      <publishTime>08/07/2010 16:08:36</publishTime>
+    </File>
+    <File Include="AccountRegister.ashx">
+      <publishTime>09/18/2011 08:47:02</publishTime>
+    </File>
+    <File Include="ActiveList.ashx">
+      <publishTime>08/07/2010 16:08:38</publishTime>
+    </File>
+    <File Include="ActivePullDown.ashx">
+      <publishTime>09/07/2012 11:04:11</publishTime>
+    </File>
+    <File Include="activitysystemitems.ashx">
+      <publishTime>04/01/2014 23:38:24</publishTime>
+    </File>
+    <File Include="AdvanceQuestionRead.ashx">
+      <publishTime>07/17/2013 22:23:03</publishTime>
+    </File>
+    <File Include="AdvanceQuestionRead~.ashx">
+      <publishTime>07/17/2013 22:20:20</publishTime>
+    </File>
+    <File Include="AdvanceQuestTime.ashx">
+      <publishTime>10/09/2011 07:30:02</publishTime>
+    </File>
+    <File Include="ApprenticeshipClubList.ashx">
+      <publishTime>10/24/2011 07:14:53</publishTime>
+    </File>
+    <File Include="AuctionPageList.ashx">
+      <publishTime>08/07/2010 16:08:42</publishTime>
+    </File>
+    <File Include="BallList.ashx">
+      <publishTime>06/28/2012 01:22:43</publishTime>
+    </File>
+    <File Include="bin/Ajax.dll">
+      <publishTime>08/07/2010 16:02:14</publishTime>
+    </File>
+    <File Include="bin/Bussiness.dll">
+      <publishTime>04/27/2014 22:32:38</publishTime>
+    </File>
+    <File Include="bin/Bussiness.pdb">
+      <publishTime>06/08/2013 20:25:59</publishTime>
+    </File>
+    <File Include="bin/Game.Base.dll">
+      <publishTime>04/27/2014 22:32:37</publishTime>
+    </File>
+    <File Include="bin/Game.Base.pdb">
+      <publishTime>04/22/2013 14:25:32</publishTime>
+    </File>
+    <File Include="bin/Languages/Language-vn.txt">
+      <publishTime>01/25/2014 21:15:07</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>08/07/2010 16:02:36</publishTime>
+    </File>
+    <File Include="bin/log4net.xml">
+      <publishTime>08/07/2010 16:03:04</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/07/2010 16:02:24</publishTime>
+    </File>
+    <File Include="bin/Road.Flash.dll">
+      <publishTime>04/27/2014 22:33:24</publishTime>
+    </File>
+    <File Include="bin/Road.Flash.pdb">
+      <publishTime>06/08/2013 20:25:58</publishTime>
+    </File>
+    <File Include="bin/SqlDataProvider.dll">
+      <publishTime>04/27/2014 22:32:37</publishTime>
+    </File>
+    <File Include="bin/SqlDataProvider.pdb">
+      <publishTime>06/08/2013 20:25:58</publishTime>
+    </File>
+    <File Include="bin/SZ7thRoad.Crypto.dll">
+      <publishTime>08/27/2012 15:19:36</publishTime>
+    </File>
+    <File Include="bin/SZ7thRoad.Utility.dll">
+      <publishTime>05/06/2010 13:41:16</publishTime>
+    </File>
+    <File Include="bin/Tank.Request.dll">
+      <publishTime>04/27/2014 22:33:25</publishTime>
+    </File>
+    <File Include="bin/Tank.Request.pdb">
+      <publishTime>06/08/2013 20:25:59</publishTime>
+    </File>
+    <File Include="bin/zlib.net.dll">
+      <publishTime>08/07/2010 16:03:24</publishTime>
+    </File>
+    <File Include="BombConfig.ashx">
+      <publishTime>06/28/2012 01:33:58</publishTime>
+    </File>
+    <File Include="CelebList/CelebByConsortiaDayHonor.ashx">
+      <publishTime>08/07/2010 16:38:48</publishTime>
+    </File>
+    <File Include="CelebList/CelebByConsortiaDayRiches.ashx">
+      <publishTime>08/07/2010 16:38:50</publishTime>
+    </File>
+    <File Include="CelebList/CelebByConsortiaHonor.ashx">
+      <publishTime>08/07/2010 16:38:52</publishTime>
+    </File>
+    <File Include="CelebList/CelebByConsortiaLevel.ashx">
+      <publishTime>08/07/2010 16:38:54</publishTime>
+    </File>
+    <File Include="CelebList/CelebByConsortiaRiches.ashx">
+      <publishTime>08/07/2010 16:38:54</publishTime>
+    </File>
+    <File Include="CelebList/CelebByConsortiaWeekHonor.ashx">
+      <publishTime>08/07/2010 16:38:56</publishTime>
+    </File>
+    <File Include="CelebList/CelebByConsortiaWeekRiches.ashx">
+      <publishTime>08/07/2010 16:38:58</publishTime>
+    </File>
+    <File Include="CelebList/CelebByDayBestEquip.ashx">
+      <publishTime>08/07/2010 16:39:00</publishTime>
+    </File>
+    <File Include="CelebList/CelebByDayFightPowerList.ashx">
+      <publishTime>08/07/2010 16:39:02</publishTime>
+    </File>
+    <File Include="CelebList/CelebByDayGPList.ashx">
+      <publishTime>08/07/2010 16:39:04</publishTime>
+    </File>
+    <File Include="CelebList/CelebByDayOfferList.ashx">
+      <publishTime>08/07/2010 16:39:06</publishTime>
+    </File>
+    <File Include="CelebList/CelebByGpList.ashx">
+      <publishTime>08/07/2010 16:39:06</publishTime>
+    </File>
+    <File Include="CelebList/CelebByOfferList.ashx">
+      <publishTime>08/07/2010 16:39:08</publishTime>
+    </File>
+    <File Include="CelebList/CelebByWeekGPList.ashx">
+      <publishTime>08/07/2010 16:39:10</publishTime>
+    </File>
+    <File Include="CelebList/CelebByWeekOfferList.ashx">
+      <publishTime>08/07/2010 16:39:14</publishTime>
+    </File>
+    <File Include="CelebList/CreateAllCeleb.ashx">
+      <publishTime>08/07/2010 16:39:14</publishTime>
+    </File>
+    <File Include="ChargeMoney.aspx">
+      <publishTime>08/07/2010 16:10:12</publishTime>
+    </File>
+    <File Include="ChargeTest.ashx">
+      <publishTime>08/07/2010 16:10:16</publishTime>
+    </File>
+    <File Include="CheckRegistration.ashx">
+      <publishTime>08/03/2011 09:07:55</publishTime>
+    </File>
+    <File Include="click.aspx">
+      <publishTime>08/07/2010 16:14:00</publishTime>
+    </File>
+    <File Include="commitweeklyuserrecord.ashx">
+      <publishTime>09/28/2012 15:32:10</publishTime>
+    </File>
+    <File Include="ConsortiaAllyList.ashx">
+      <publishTime>08/07/2010 16:10:18</publishTime>
+    </File>
+    <File Include="ConsortiaApplyAllyList.ashx">
+      <publishTime>08/07/2010 16:10:26</publishTime>
+    </File>
+    <File Include="ConsortiaApplyUsersList.ashx">
+      <publishTime>08/07/2010 16:10:28</publishTime>
+    </File>
+    <File Include="ConsortiaCandidateList.ashx">
+      <publishTime>09/14/2012 21:14:32</publishTime>
+    </File>
+    <File Include="ConsortiaDutyList.ashx">
+      <publishTime>08/07/2010 16:10:28</publishTime>
+    </File>
+    <File Include="ConsortiaEquipControl.ashx">
+      <publishTime>08/07/2010 16:10:34</publishTime>
+    </File>
+    <File Include="ConsortiaEquipControlList.ashx">
+      <publishTime>08/07/2010 16:10:36</publishTime>
+    </File>
+    <File Include="ConsortiaEventList.ashx">
+      <publishTime>08/07/2010 16:10:38</publishTime>
+    </File>
+    <File Include="ConsortiaIMList.ashx">
+      <publishTime>08/07/2010 16:10:40</publishTime>
+    </File>
+    <File Include="ConsortiaInviteUsersList.ashx">
+      <publishTime>08/07/2010 16:10:42</publishTime>
+    </File>
+    <File Include="ConsortiaLevelList.ashx">
+      <publishTime>08/07/2010 16:10:46</publishTime>
+    </File>
+    <File Include="ConsortiaList.ashx">
+      <publishTime>08/07/2010 16:10:48</publishTime>
+    </File>
+    <File Include="ConsortiaNameCheck.ashx">
+      <publishTime>09/14/2012 21:11:34</publishTime>
+    </File>
+    <File Include="ConsortiaUsersList.ashx">
+      <publishTime>08/07/2010 16:10:52</publishTime>
+    </File>
+    <File Include="consortiawarconsortiarank.ashx">
+      <publishTime>02/15/2014 16:29:06</publishTime>
+    </File>
+    <File Include="consortiawarplayerrank.ashx">
+      <publishTime>02/15/2014 16:17:11</publishTime>
+    </File>
+    <File Include="CreateAllXml.ashx">
+      <publishTime>08/07/2010 16:10:54</publishTime>
+    </File>
+    <File Include="CreateLogin.aspx">
+      <publishTime>08/07/2010 16:10:56</publishTime>
+    </File>
+    <File Include="DailyAwardList.ashx">
+      <publishTime>08/07/2010 16:10:58</publishTime>
+    </File>
+    <File Include="dailyloglist.ashx">
+      <publishTime>08/10/2012 19:56:40</publishTime>
+    </File>
+    <File Include="directlogin.ashx">
+      <publishTime>01/22/2014 08:13:06</publishTime>
+    </File>
+    <File Include="DropItemForNewRegister.ashx">
+      <publishTime>09/28/2012 15:33:42</publishTime>
+    </File>
+    <File Include="ExitGameTransit.ashx">
+      <publishTime>08/07/2010 16:11:04</publishTime>
+    </File>
+    <File Include="ExperienceRate.aspx">
+      <publishTime>08/07/2010 16:11:06</publishTime>
+    </File>
+    <File Include="FarmGetUserFieldInfos.ashx">
+      <publishTime>09/14/2012 21:17:40</publishTime>
+    </File>
+    <File Include="FavoriteTransit.ashx">
+      <publishTime>08/07/2010 16:11:10</publishTime>
+    </File>
+    <File Include="GetSID.ashx">
+      <publishTime>08/07/2010 16:11:12</publishTime>
+    </File>
+    <File Include="GiftRecieveLog.ashx">
+      <publishTime>07/11/2013 08:57:41</publishTime>
+    </File>
+    <File Include="GiftSendLog.ashx">
+      <publishTime>09/14/2012 21:18:19</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/07/2010 16:11:14</publishTime>
+    </File>
+    <File Include="Illegalcharacters/Illegalcharacters.txt">
+      <publishTime>08/07/2010 16:39:18</publishTime>
+    </File>
+    <File Include="IMFriendsBbs.ashx">
+      <publishTime>08/07/2010 16:11:16</publishTime>
+    </File>
+    <File Include="IMFriendsGood.ashx">
+      <publishTime>08/07/2010 16:11:18</publishTime>
+    </File>
+    <File Include="IMListLoad.ashx">
+      <publishTime>08/07/2010 16:11:20</publishTime>
+    </File>
+    <File Include="IMRecentContactsList.ashx">
+      <publishTime>10/09/2011 09:11:22</publishTime>
+    </File>
+    <File Include="ItemStrengthenList.ashx">
+      <publishTime>08/07/2010 16:11:22</publishTime>
+    </File>
+    <File Include="KeyGenerator.ashx">
+      <publishTime>08/07/2010 16:11:26</publishTime>
+    </File>
+    <File Include="KitoffUser.aspx">
+      <publishTime>08/07/2010 16:11:28</publishTime>
+    </File>
+    <File Include="LoadBoxTemp.ashx">
+      <publishTime>07/29/2012 21:16:45</publishTime>
+    </File>
+    <File Include="LoadItemsCategory.ashx">
+      <publishTime>08/07/2010 16:11:32</publishTime>
+    </File>
+    <File Include="LoadMapsItems.ashx">
+      <publishTime>08/07/2010 16:11:36</publishTime>
+    </File>
+    <File Include="LoadPVEItems.ashx">
+      <publishTime>08/07/2010 16:11:38</publishTime>
+    </File>
+    <File Include="LoadUserEquip.ashx">
+      <publishTime>08/07/2010 16:11:46</publishTime>
+    </File>
+    <File Include="LoadUserItems.ashx">
+      <publishTime>08/07/2010 16:11:56</publishTime>
+    </File>
+    <File Include="LoadUserMail.ashx">
+      <publishTime>08/07/2010 16:11:58</publishTime>
+    </File>
+    <File Include="LoadUsersSort.ashx">
+      <publishTime>08/07/2010 16:12:02</publishTime>
+    </File>
+    <File Include="LogClickTip.ashx">
+      <publishTime>09/14/2012 21:17:14</publishTime>
+    </File>
+    <File Include="Login.ashx">
+      <publishTime>08/03/2011 09:08:06</publishTime>
+    </File>
+    <File Include="LoginSelectList.ashx">
+      <publishTime>08/07/2010 16:12:06</publishTime>
+    </File>
+    <File Include="LoginTest.aspx">
+      <publishTime>08/07/2010 16:12:10</publishTime>
+    </File>
+    <File Include="LogTime.ashx">
+      <publishTime>10/18/2011 11:34:11</publishTime>
+    </File>
+    <File Include="luckstaractivityrank.ashx">
+      <publishTime>02/15/2014 13:32:54</publishTime>
+    </File>
+    <File Include="MailSenderList.ashx">
+      <publishTime>08/07/2010 16:12:16</publishTime>
+    </File>
+    <File Include="MapServerList.ashx">
+      <publishTime>08/07/2010 16:12:24</publishTime>
+    </File>
+    <File Include="MapWeekList.ashx">
+      <publishTime>08/07/2010 16:12:26</publishTime>
+    </File>
+    <File Include="MarryInfoPageList.ashx">
+      <publishTime>08/07/2010 16:12:28</publishTime>
+    </File>
+    <File Include="missionenergyprice.ashx">
+      <publishTime>04/01/2014 19:52:41</publishTime>
+    </File>
+    <File Include="NickNameCheck.ashx">
+      <publishTime>08/07/2010 16:12:34</publishTime>
+    </File>
+    <File Include="NoticeServerUpdate.aspx">
+      <publishTime>08/07/2010 16:12:38</publishTime>
+    </File>
+    <File Include="NPCInfoList.ashx">
+      <publishTime>08/07/2010 16:12:30</publishTime>
+    </File>
+    <File Include="PayTransit.ashx">
+      <publishTime>08/07/2010 16:12:40</publishTime>
+    </File>
+    <File Include="phpresponse.ashx">
+      <publishTime>03/14/2014 22:33:04</publishTime>
+    </File>
+    <File Include="QuestList.ashx">
+      <publishTime>08/07/2010 16:12:48</publishTime>
+    </File>
+    <File Include="RenameConsortiaName.ashx">
+      <publishTime>08/07/2010 16:12:50</publishTime>
+    </File>
+    <File Include="RenameNick.ashx">
+      <publishTime>08/07/2010 16:12:52</publishTime>
+    </File>
+    <File Include="SameCityIMLoad.ashx">
+      <publishTime>09/14/2012 21:19:07</publishTime>
+    </File>
+    <File Include="scenecollecrandomnpc.ashx">
+      <publishTime>04/09/2014 21:26:29</publishTime>
+    </File>
+    <File Include="searchgoodstemp.ashx">
+      <publishTime>04/02/2014 23:28:28</publishTime>
+    </File>
+    <File Include="SendActiveKeySystem.ashx">
+      <publishTime>09/14/2012 21:20:06</publishTime>
+    </File>
+    <File Include="SendItemTest.aspx">
+      <publishTime>08/07/2010 16:12:56</publishTime>
+    </File>
+    <File Include="SentReward.ashx">
+      <publishTime>08/07/2010 16:13:00</publishTime>
+    </File>
+    <File Include="SentRewardTest.aspx">
+      <publishTime>08/07/2010 16:13:02</publishTime>
+    </File>
+    <File Include="ServerList.ashx">
+      <publishTime>08/07/2010 16:13:06</publishTime>
+    </File>
+    <File Include="ServerList.aspx">
+      <publishTime>08/07/2010 16:13:08</publishTime>
+    </File>
+    <File Include="shopcheapitemlist.ashx">
+      <publishTime>08/10/2012 19:57:15</publishTime>
+    </File>
+    <File Include="ShopGoodsShowList.ashx">
+      <publishTime>07/29/2012 21:17:04</publishTime>
+    </File>
+    <File Include="ShopItemList.ashx">
+      <publishTime>08/07/2010 16:13:10</publishTime>
+    </File>
+    <File Include="subactivelist.ashx">
+      <publishTime>12/24/2013 21:10:16</publishTime>
+    </File>
+    <File Include="SubmitTest.aspx">
+      <publishTime>08/07/2010 16:13:18</publishTime>
+    </File>
+    <File Include="SystemNotice.aspx">
+      <publishTime>08/07/2010 16:13:20</publishTime>
+    </File>
+    <File Include="teambuyactiveawardinfo.ashx">
+      <publishTime>12/24/2013 21:10:56</publishTime>
+    </File>
+    <File Include="TemplateAllList.ashx">
+      <publishTime>08/07/2010 16:13:32</publishTime>
+    </File>
+    <File Include="UpdateVersion.ashx">
+      <publishTime>09/28/2012 16:31:23</publishTime>
+    </File>
+    <File Include="UserApprenticeshipInfoList.ashx">
+      <publishTime>10/24/2011 07:16:07</publishTime>
+    </File>
+    <File Include="UserGetActiveState.ashx">
+      <publishTime>09/14/2012 21:16:49</publishTime>
+    </File>
+    <File Include="UserGoodsInfo.ashx">
+      <publishTime>08/07/2010 16:13:40</publishTime>
+    </File>
+    <File Include="UserNameCheck.aspx">
+      <publishTime>08/07/2010 16:13:42</publishTime>
+    </File>
+    <File Include="UserQuestList.ashx">
+      <publishTime>08/07/2010 16:13:46</publishTime>
+    </File>
+    <File Include="UserRankDate.ashx">
+      <publishTime>09/14/2012 21:20:26</publishTime>
+    </File>
+    <File Include="ValidateCode.aspx">
+      <publishTime>08/07/2010 16:13:48</publishTime>
+    </File>
+    <File Include="VisualizeItemLoad.ashx">
+      <publishTime>08/07/2010 16:13:52</publishTime>
+    </File>
+    <File Include="VisualizeRegister.ashx">
+      <publishTime>08/07/2010 16:13:54</publishTime>
+    </File>
+    <File Include="VoteSubmit.ashx">
+      <publishTime>09/28/2012 15:30:18</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/27/2014 22:33:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

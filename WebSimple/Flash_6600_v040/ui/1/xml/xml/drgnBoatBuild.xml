@@ -1,0 +1,99 @@
+<style name="drgnBoatBuild" version="5.1.0" source="ui/turkey/swf/drgnBoatBuild.swf">
+<sets>
+	<set stylename="drgnBoatBuild.progressTxtTF" args="Arial,12,0xffe8b0,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="drgnBoatBuild.progressTxtGF"  args="0x711802,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="drgnBoatBuild.descriptionTxtTF" args="Arial,12,0xe7cb99" type="flash.text.TextFormat"  leading="5" />
+	<set stylename="drgnBoatBuild.descriptionTxtGF"  args="0x62410e,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="drgnBoatBuild.ownedTxtTF" args="Arial,16,0xffd800,true" type="flash.text.TextFormat" />
+	<set stylename="drgnBoatBuild.ownedTxtGF"  args="0x4a2609,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="drgnBoatBuild.countTxtTF" args="Arial,12,0x000000,true" type="flash.text.TextFormat" />
+	<set stylename="drgnBoatBuild.countTxtGF"  args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter" />
+	<set stylename="drgnBoatBuild.titleTxtTF" args="Arial,16,0xfade5d,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="drgnBoatBuild.titleTxtGF"  args="0x340707,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="drgnBoatBuild.list.nameTxtTF" args="Arial,14,0x000000,true" type="flash.text.TextFormat" />
+	<set stylename="drgnBoatBuild.list.nameTxtGF"  args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter" />
+</sets>
+<customDisplay>
+	<custom classname="flash.geom.Point" stylename="drgnBoatBuild.leftViewPos" x="24" y="42"/>
+	<custom classname="flash.geom.Point" stylename="drgnBoatBuild.rightViewPos" x="400" y="56"/>
+	<custom classname="flash.geom.Point" stylename="drgnBoatBuild.progressPos" x="77" y="264"/>
+	<custom classname="flash.geom.Point" stylename="drgnBoatBuild.ownedTxtPos2" x="119" y="381"/>
+	<custom classname="flash.geom.Point" stylename="drgnBoatBuild.descriptionTxtPos" x="144" y="322"/>
+	
+	<custom classname="drgnBoatBuild.components.DrgnBoatBuildListCell" stylename="drgnBoatBuild.listItemStyle" />
+	<custom classname="flash.geom.Point" stylename="drgnBoatBuild.levelIconPos" x="19" y="7"/>
+	<custom classname="flash.geom.Point" stylename="drgnBoatBuild.cellPos" x="53" y="332"/>	
+	<custom classname="flash.geom.Point" stylename="drgnBoatBuild.tipsPos" x="70" y="-24"/>	
+</customDisplay>
+<components>
+	<component classname="drgnBoatBuild.views.DrgnBoatBuildFrame" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="drgnBoatBuild.DrgnBoatBuildFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" x="-160" y="-40"
+			closeInnerRectString="44,19,6,30,14" width="680" height="500" />
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="drgnBoatBuild.bg" 
+		x="20" y="45" width="640" height="435"  parentStyle="core.bg6920"/>
+<!-- 		帮助 -->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoatBuild.helpBtn"  backStyle="asset.ddtcore.helpbuttonSmall"
+		x="582" y="6"/>	
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="drgnBoatBuild.HelpFrame.FrameBg" 
+		parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" 
+		x="-163" y="-170"  width="370" height="305" />
+	<component classname="store.HelpPrompt" stylename="drgnBoatBuild.HelpPrompt" 
+		bg9ScalseStyle="drgnBoatBuild.HelpFrame.FrameBg" contentStyle="asset.drgnBoatBuild.helpPromptTxt" 
+		x="180" y="213" />
+	<component classname="store.HelpFrame" stylename="drgnBoatBuild.HelpFrame" parentStyle="BaseFrame" 
+		width="404" height="413" />
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoatBuild.progressTxt" 
+		textFormatStyle="drgnBoatBuild.progressTxtTF" filterString="drgnBoatBuild.progressTxtGF" 
+		x="40" y="-12" autoSize="none" width="150"  height="20" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoatBuild.descriptionTxt" 
+		textFormatStyle="drgnBoatBuild.descriptionTxtTF" filterString="drgnBoatBuild.descriptionTxtGF" 
+		x="49" y="312" autoSize="none" width="300"  height="40" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoatBuild.ownedTxt" 
+		textFormatStyle="drgnBoatBuild.ownedTxtTF" filterString="drgnBoatBuild.ownedTxtGF" 
+		x="135" y="356" autoSize="none" width="100"  height="25" /> 
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoatBuild.commitBtn"  backStyle="drgnBoatBuild.commit"
+		x="205" y="354" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoatBuild.countTxt" 
+		textFormatStyle="drgnBoatBuild.countTxtTF" filterString="drgnBoatBuild.countTxtGF" 
+		x="87" y="375" autoSize="none" width="30"  height="25" /> 
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoatBuild.secondBuildBtn"  backStyle="drgnBoatBuild.secondBuild"
+		x="154" y="347" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoatBuild.thirdBuildBtn"  backStyle="drgnBoatBuild.thirdBuild"
+		x="154" y="347" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoatBuild.finalBuildBtn"  backStyle="drgnBoatBuild.finalBuild"
+		x="154" y="347" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoatBuild.helpBuildBtn"  backStyle="drgnBoatBuild.helpBuild"
+		x="52" y="353" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoatBuild.backBtn"  backStyle="drgnBoatBuild.back"
+		x="215" y="370" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoatBuild.titleTxt" 
+		textFormatStyle="drgnBoatBuild.titleTxtTF" filterString="drgnBoatBuild.titleTxtGF" 
+		x="87" y="22" autoSize="none" width="200"  height="30" /> 
+		
+	<component classname="com.pickgliss.ui.controls.ListPanel"  stylename="drgnBoatBuild.listPanel" 
+		vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0"
+		factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|drgnBoatBuild.listItemStyle,34,235"
+		listStyle="com.pickgliss.ui.controls.list.List" width="240" height="350"
+		x="4" y="46" vUnitIncrement="20" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoatBuild.list.nameTxt"  
+		textFormatStyle="drgnBoatBuild.list.nameTxtTF" filterString="drgnBoatBuild.list.nameTxtGF" autoSize="none" width="100" height="20"
+		x="54" y="12"  isAutoFitLength="true" />
+	<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="drgnBoatBuild.cellBg0" 
+		x="4" y="6" width="213" height="35" resourceLink="asset.core.ScaleLeftRightImage2.1,asset.core.ScaleLeftRightImage2.2,asset.core.ScaleLeftRightImage2.3"/>
+	<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="drgnBoatBuild.cellBg1" 
+		x="4" y="6" width="213" height="35" resourceLink="asset.core.ScaleLeftRightImage3.1,asset.core.ScaleLeftRightImage3.2,asset.core.ScaleLeftRightImage3.3"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="drgnBoatBuild.cellBg" resourceLink="drgnBoatBuild.cellBg0,drgnBoatBuild.cellBg1"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="drgnboatBuild.light"  resourceLink="drgnBoatBuild.selecetedLight" 
+		width="223" height="43" />
+</components>
+<bitmaps>
+	<bitmapData  resourceLink="drgnBoatBuild.title"  x="133"  y="18"/>
+	<bitmapData resourceLink="drgnBoatBuild.progressImg" x="24" y="5"/>
+	<bitmapData resourceLink="drgnBoatBuild.ownImg" x="31" y="355"/>
+	<bitmapData resourceLink="drgnBoatBuild.itemBg" x="44" y="324"/>
+	<bitmapData resourceLink="drgnBoatBuild.buildComplete" x="68" y="330"/>	
+	<bitmapData resourceLink="drgnBoatBuild.canIcon" x="168" y="10"/>	
+</bitmaps>
+</style>

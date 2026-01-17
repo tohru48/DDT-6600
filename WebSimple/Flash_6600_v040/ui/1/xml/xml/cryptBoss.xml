@@ -1,0 +1,102 @@
+<style name="cryptBoss" version="1.0.1" source="ui/turkey/swf/cryptBoss.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="cryptBoss.comboxListCell.TF" args="Arial,12,0xfff8d6,,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="cryptBoss.comboxListCell.GF" args="0x583619,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="cryptBoss.comboxListCell.TF2" args="Arial,14,0xffffff,,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="cryptBoss.comboxListCell.GF2" args="0x000000,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="cryptBoss.vipNumberTxt.TF" args="Arial,14,0xfcff00,,,,,,left"/>
+<set type="flash.filters.GlowFilter" stylename="cryptBoss.vipNumberTxt.GF" args="0x440000,1,2,2,30"/>
+	</sets>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="cryptBoss.notOpen.starPos" x="-10" y="111"/>
+		<custom classname="flash.geom.Point" stylename="cryptBoss.open.starPos" x="25" y="167"/>
+		
+		<custom classname="flash.geom.Point" stylename="cryptBoss.open.itemPos1" x="31" y="58"/>
+		<custom classname="flash.geom.Point" stylename="cryptBoss.open.itemPos2" x="151" y="208"/>
+		<custom classname="flash.geom.Point" stylename="cryptBoss.open.itemPos3" x="262" y="20"/>
+		<custom classname="flash.geom.Point" stylename="cryptBoss.open.itemPos4" x="382" y="208"/>
+		<custom classname="flash.geom.Point" stylename="cryptBoss.open.itemPos5" x="518" y="20"/>
+		<custom classname="flash.geom.Point" stylename="cryptBoss.open.itemPos6" x="593" y="263"/>
+		
+		<custom classname="flash.geom.Point" stylename="cryptBoss.notOpen.itemPos1" x="44" y="68"/>
+		<custom classname="flash.geom.Point" stylename="cryptBoss.notOpen.itemPos2" x="176" y="243"/>
+		<custom classname="flash.geom.Point" stylename="cryptBoss.notOpen.itemPos3" x="302" y="45"/>
+		<custom classname="flash.geom.Point" stylename="cryptBoss.notOpen.itemPos4" x="417" y="246"/>
+		<custom classname="flash.geom.Point" stylename="cryptBoss.notOpen.itemPos5" x="569" y="65"/>
+		<custom classname="flash.geom.Point" stylename="cryptBoss.notOpen.itemPos6" x="618" y="311"/>
+		
+		<custom classname="flash.geom.Point" stylename="cryptBoss.setFrame.bossPos" x="-1" y="-40"/>
+	</customs>
+	
+	<components>
+	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="cryptBoss.helpBtn"  backStyle="asset.ddtcore.helpbuttonSmall"
+			x="697" y="-77"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="cryptBoss.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" 
+			x="-14" y="-20" width="390" height="376" />
+		<component classname="store.HelpPrompt" stylename="cryptBoss.HelpPrompt" bg9ScalseStyle="cryptBoss.HelpFrame.FrameBg" contentStyle="cryptBoss.helpTxt" 
+			x="31" y="64" />
+		<component classname="store.HelpFrame" stylename="cryptBoss.HelpFrame" parentStyle="BaseFrame" width="424" height="484" />
+		
+		<component classname="cryptBoss.view.CryptBossMainFrame" backStyle="SimpleFrameBackgound"
+			closestyle="core.closebt" stylename="CryptBossMainFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="21" containerY="83" escEnable="true"
+			closeInnerRectString="44,19,6,30,14" width="814" height="573" />
+		
+		<custom classname="cryptBoss.view.CryptBossSetFrame" backStyle="SimpleFrameBackgound"
+			closestyle="core.closebt" stylename="CryptBossSetFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="21" containerY="83" escEnable="true"
+			closeInnerRectString="44,19,6,30,14" width="392" height="455" />
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="cryptBoss.fightBtn" backStyle="asset.cryptBoss.fightBtn" x='102' y='301' />	
+			
+		<!-- 难度选择 -->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="cryptBoss.levelChooseItembg" parentStyle="core.redItembg" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="cryptBoss.levelChooseListCellAsset" resourceLink=",cryptBoss.levelChooseItembg,cryptBoss.levelChooseItembg"
+			fillAlphaRect="true" />
+		<component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter"
+			stylename="cryptBoss.levelChooseListCell" backStyle="cryptBoss.levelChooseListCellAsset"
+			textStyle="cryptBoss.comboxListCellTxt2" backgoundInnerRectString="1,10,2,5,-1"
+			autoSizeAble="false" width="110" height="22" />
+		<component classname="com.pickgliss.ui.controls.ListPanel"
+			stylename="cryptBoss.levelChooseListpanel" vScrollbarStyle="core.VScrollbar"
+			vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,0,22,0,5"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|cryptBoss.levelChooseListCell,24,150"
+			listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.GoodsTipBg"
+			backgoundInnerRectString="2,2,6,3,-1" hScrollProxy="2" vScrollProxy="1"
+			vUnitIncrement="5" />
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="cryptBoss.levelChoosecomboxButton" backStyle="cryptBoss.levelChooseButtonAsset"
+			height="28" width="200" displacement="false" />
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="cryptBoss.levelChooseButtonAsset" resourceLink="core.comboxInputbg2,asset.core.comboxBtn3"
+			imageRectString="125|28|2|0|9,1|3|20|19|12" />
+		<component classname="com.pickgliss.ui.controls.ComboBox"
+			stylename="cryptBoss.levelChooseComboBox" listPanelStyle="cryptBoss.levelChooseListpanel"
+			buttonStyle="cryptBoss.levelChoosecomboxButton" width="125"
+			height="30" textStyle="cryptBoss.comboxListCellTxt" listInnerRectString="5,33,10,75,18"
+			textInnerRectString="4,25,7,0,0" x="210" y="133" snapItemHeight="true"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="cryptBoss.comboxListCellTxt" 
+			textFormatStyle="cryptBoss.comboxListCell.TF" filterString="cryptBoss.comboxListCell.GF" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="cryptBoss.comboxListCellTxt2" 
+			textFormatStyle="cryptBoss.comboxListCell.TF2" filterString="cryptBoss.comboxListCell.GF2" />
+			
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="cryptBoss.setFrame.dropListPanel"  
+			parentStyle="core.ScrollPanel" x="11" y="226" width="330" height="60"/>
+		<custom classname="flash.geom.Rectangle" stylename="cryptBoss.setFrame.cellRect" x="3" y="3" width="56" height="56"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CryptBossMainFrame.vipNumberTxt" textFormatStyle="cryptBoss.vipNumberTxt.TF" filterString="cryptBoss.vipNumberTxt.GF" x="10" y="19"/>
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.cryptBoss.bg" x="-1" y="-40"/>
+		<bitmapData resourceLink="asset.cryptBoss.itemBg" x="-1" y="179"/>
+		<bitmapData resourceLink="asset.cryptBoss.levelSelect" x="8" y="129"/>
+		<bitmapData resourceLink="cryptBoss.dropCellBgAsset" x="0" y="0"/>
+	</bitmaps>
+</style>

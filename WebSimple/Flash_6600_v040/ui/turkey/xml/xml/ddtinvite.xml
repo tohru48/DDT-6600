@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtinvite" version="2.0.1" source="ui/turkey/swf/ddtinvite.swf"> 
+  <sets> 
+    <set stylename="asset.ddtinvite.TF1" args="Arial,12,0xcae1a3" letterSpacing="0" type="flash.text.TextFormat"/>  
+    <set stylename="asset.ddtinvite.TF2" args="Arial,11,0xcae1a3,,,,,,center" type="flash.text.TextFormat" leading="-2"/>  
+    <set stylename="asset.ddtinvite.TF3" args="Arial,14,0xffffff" type="flash.text.TextFormat"/>  
+    <set stylename="asset.ddtinvite.TF4" args="Arial,12,0xe1ffc1" type="flash.text.TextFormat"/>  
+    <set stylename="asset.ddtinvite.TF11" args="Arial,12,0xcae1a3" type="flash.text.TextFormat"/>  
+    <set stylename="asset.ddtinvite.GF1" args="0x0d5954,1,3,3,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="asset.ddtinvite.GF2" args="0xffffff,1,3,3,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="asset.ddtinvite.GF3" args="0x025600,1,3,3,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="asset.ddtinvite.GF4" args="0.3, 0.59, 0.11, 0, 0, 0.3, 0.59, 0.11, 0, 0, 0.3, 0.59, 0.11, 0, 0, 0, 0, 0, 1, 0" type="flash.filters.ColorMatrixFilter"/>  
+    <set stylename="asset.ddtinvite.GF11" args="0x0d5954,1,3,3,10" type="flash.filters.GlowFilter"/> 
+    <set stylename="asset.ddtinvite.TF5" args="Arial,12,0xfff3bc" type="flash.text.TextFormat"/>
+<set stylename="asset.ddtinvite.GF5" args="0x4b270d,1,3,3,10" type="flash.filters.GlowFilter"/>
+  </sets>  
+  <components> 
+    <component classname="invite.InviteFrame" stylename="asset.ddtInviteFrame" parentStyle="BaseFrame" moveEnable="false" escEnable="true" enterEnable="true" width="294" height="377"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.ddtInviteFrame.itembg" resourceLink="asset.ddtinvite.itembg"/>  
+    <component classname="com.pickgliss.ui.image.TiledImage" stylename="asset.ddtinvite.item.line" resourceLink="asset.ddtcore.line"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.ddtInviteFrame.bg" resourceLink="core.bg6919,asset.ddtInviteFrame.itembg,asset.ddtInviteFrame.itembg,asset.ddtInviteFrame.itembg,asset.ddtinvite.item.line,asset.ddtinvite.item.line,asset.ddtinvite.item.line,asset.ddtinvite.item.line,asset.ddtinvite.item.line,asset.ddtinvite.item.line" imageRectString=",3|23|35|34|1,3|23|101|34|1,3|23|167|34|1,3|23|33|3|1,2|23|68|3|1,2|23|99|3|1,2|23|135|3|1,2|23|166|3|1,2|23|200|3|1" width="258" height="241" x="18" y="77"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.ddtinvite.RefreshButton" parentStyle="core.simplebt" x="24" y="323"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.ddtinvite.CancelButton" parentStyle="core.simplebt" x="192" y="323"/>  
+    <component classname="com.pickgliss.ui.controls.container.HBox" stylename="asset.ddtinvite.hbox" spacing="-3" x="22" y="41"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.ddtinvite.HallButton.selected" resourceLink="core.bg6903,asset.ddtinvite.hallAsset" imageRectString="0|69|0|40|13,2|67|2|47|13" width="69" height="49"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.ddtinvite.friendButton.selected" resourceLink="core.bg6903,asset.ddtinvite.friendAsset" imageRectString="0|69|0|40|13,2|67|2|47|13" width="69" height="49"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.ddtinvite.consortiaButton.selected" resourceLink="core.bg6903,asset.ddtinvite.consortiaAsset" imageRectString="0|69|0|40|13,2|65|2|47|13" width="69" height="49"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.ddtinvite.recentButton.selected" resourceLink="core.bg6903,asset.ddtinvite.recentAsset" imageRectString="0|80|0|40|13,5|71|3|42|13" width="80" height="49" y="1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtinvite.HallButton.unselected.text" textFormatStyle="asset.ddtinvite.TF1" filterString="asset.ddtinvite.GF1" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtinvite.HallButton.unselected2.text" textFormatStyle="asset.ddtinvite.TF11" filterString="asset.ddtinvite.GF11" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtinvite.recentButton.unselected.text" textFormatStyle="asset.ddtinvite.TF2" filterString="asset.ddtinvite.GF1" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="asset.ddtinvite.HallButton" selectedStyle="asset.ddtinvite.HallButton.selected" unSelectedStyle="core.bg6902" textStyle=",asset.ddtinvite.recentButton.unselected.text" backgoundInnerRectString=",12|60|1|32|13" unSelectedButtonOuterRectPosString="0,3,5"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="asset.ddtinvite.friendButton" parentStyle="asset.ddtinvite.HallButton" selectedStyle="asset.ddtinvite.friendButton.selected" textStyle=",asset.ddtinvite.HallButton.unselected.text" backgoundInnerRectString=",5|60|6|32|13"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="asset.ddtinvite.consortiaButton" parentStyle="asset.ddtinvite.HallButton" selectedStyle="asset.ddtinvite.consortiaButton.selected" textStyle=",asset.ddtinvite.HallButton.unselected.text" backgoundInnerRectString=",12|60|6|32|13"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="asset.ddtinvite.recentButton" parentStyle="asset.ddtinvite.HallButton" selectedStyle="asset.ddtinvite.recentButton.selected" textStyle=",asset.ddtinvite.recentButton.unselected.text" backgoundInnerRectString=",9|60|0|32|13" unSelectedButtonOuterRectPosString="1,3,5"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="asset.ddtinvite.List" parentStyle="core.ScrollPanel" vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="0" hScrollProxy="2" vUnitIncrement="3" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|invite.view.InviteListCell,33,177" listStyle="com.pickgliss.ui.controls.list.List" width="257" height="232" x="21" y="80"/>  
+    <!-- item -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtinvite.cell.playerItemName" textFormatStyle="asset.ddtinvite.TF3" filterString="asset.ddtinvite.GF2" autoSize="none" isAutoFitLength="true" width="120" height="20" x="65" y="8"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.ddtinvite.cell.masterRelationIcon" parentStyle="core.im.masterRelationIcon" visible="false" x="41" y="6"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtinvite.cell.inviteBtnText" textFormatStyle="asset.ddtinvite.TF4" filterString="asset.ddtinvite.GF3"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.ddtinvite.cell.inviteBtn" backStyle="core.littleGreen" textStyle="asset.ddtinvite.cell.inviteBtnText" backgoundInnerRectString="11,11,4,8,-1" x="168" y="4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtinvite.titleItemBg" resourceLink="asset.ddtinvite.title_1,asset.ddtinvite.title_2" y="0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtinvite.triangle" resourceLink="asset.ddtinvite.triangle_1,asset.ddtinvite.triangle_2" x="12" y="10"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.ddtinvite.FastInviteButton" parentStyle="core.simplebt" x="160" y="323"/> 
+ 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtinvite.cell.unInviteBtnText" textFormatStyle="asset.ddtinvite.TF5" filterString="asset.ddtinvite.GF5"/>
+<component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.ddtinvite.cell.uninviteBtn" backStyle="core.littleGreen" textStyle="asset.ddtinvite.cell.unInviteBtnText" backgoundInnerRectString="11,11,4,8,-1" x="167" y="4" width="46" height="24"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.horseracing.bg" resourceLink="core.bg6919,asset.ddtInviteFrame.itembg,asset.ddtInviteFrame.itembg,asset.ddtInviteFrame.itembg,asset.ddtinvite.item.line,asset.ddtinvite.item.line,asset.ddtinvite.item.line,asset.ddtinvite.item.line,asset.ddtinvite.item.line,asset.ddtinvite.item.line" imageRectString=",3|23|35|34|1,3|23|101|34|1,3|23|167|34|1,3|23|33|3|1,2|23|68|3|1,2|23|99|3|1,2|23|135|3|1,2|23|166|3|1,2|23|200|3|1" width="260" height="240" x="17" y="15"/>
+ 
+  </components>  
+  <customDisplay> 
+    <custom classname="ddt.view.common.LevelIcon" stylename="asset.ddtinvite.cell.LevelIcon" x="10" y="4"/>  
+    <custom classname="ddt.view.common.SexIcon" stylename="asset.ddtinvite.cell.SexIcon" x="40" y="5"/>  
+    <custom classname="flash.geom.Point" stylename="ddtinvite.titleTxtPos" x="26" y="6"/> 
+  </customDisplay>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.ddtinvite.title_1" width="232"/>  
+    <bitmapData resourceLink="asset.ddtinvite.title_2" width="232"/> 
+  </bitmaps> 
+</style>

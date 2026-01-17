@@ -1,0 +1,62 @@
+﻿<style name="choicefigure" version="1.0.1" source="ui/zh_cn/swf/choicefigure.swf">
+	<sets>
+		<set stylename="choicefigure.StyleNickname" args="宋体,22,0x001c38,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="choicefigure.StyleNicknameUnvaialabel" args="宋体,22,0x9c2f4c,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="choicefigure.inputTipname" args="宋体,20,0xdddddd,true,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="choicefigure.inputTipnameII" args="微软雅黑,22,0x02213f,,,,,,left" type="flash.text.TextFormat"/>
+		
+		<set stylename="choicefigure.inputNickname" args="宋体,14,0xfaf19f,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="choicefigure.AvialableNickname" args="宋体,14,0x36d706,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="choicefigure.UnavialableNickname" args="宋体,14,0xeb0000,true,,,,,center" type="flash.text.TextFormat"/>
+		
+		
+		<set stylename="choicefigure.AvialableNicknameGF" args="0x000000,1,2,2,10,1" type="flash.filters.GlowFilter" />
+		
+		<set args="0.3, 0.59, 0.11, 0, 0, 0.3, 0.59, 0.11, 0, 0, 0.3, 0.59, 0.11, 0, 0, 0, 0, 0, 1, 0" stylename="filter.register.ButtonDisenable" type="flash.filters.ColorMatrixFilter"/>
+	</sets>
+	<components>
+		<!-- Movie -->
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.chociefigure.selectMovie" 
+		resourceLink="asset.chociefigure.selectMovieAsset" x="562" y="215"/>
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.chociefigure.selectBoyShine" 
+		resourceLink="asset.choicefigure.selectBoyShineAsset" x="356" y="397"/>
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.chociefigure.selectGirlShine" 
+		resourceLink="asset.choicefigure.selectGirlShineAsset" x="647" y="397" />
+		
+		<!-- ButtonEnterGame -->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="choicefigure.ButtonEnterGame" backStyle="asset.choicefigure.btnEnterGame_up" x="390" y="523" width="219" height="84"/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="choicefigure.clearBtn" backStyle="asset.choicefigure.deleteAsset" x="630" y="454" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="choicefigure.checkNameStateAsset" resourceLink="asset.choicefigure.hook" x="675" y="447"/>
+		
+		<!-- ButtonCharactorBoy -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="choicefigure.boyButtonAsset" resourceLink="asset.choicefigure.character_boy_selected,asset.choicefigure.character_boy_selected,asset.choicefigure.character_boy_selected,asset.choicefigure.character_boy_selected"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="choicefigure.ButtonBoy" backStyle="choicefigure.boyButtonAsset" x="294" y="362"/>
+		
+		<!-- ButtonCharactorGirl -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="choicefigure.girlButtonAsset" resourceLink="asset.choicefigure.character_girl_selected,asset.choicefigure.character_girl_selected,asset.choicefigure.character_girl_selected,asset.choicefigure.character_girl_selected"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="choicefigure.ButtonGirl" backStyle="choicefigure.girlButtonAsset" x="586" y="362" />
+		
+		<!-- InputNickname -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="choicefigure.InputNickName" textFormatStyle="choicefigure.StyleNickname"
+			x="461" y="452" autoSize="none" width="170" height="30" type="input"  text="" maxChars="14" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="choicefigure.InputTipName" textFormatStyle="choicefigure.inputTipnameII" 
+			x="471" y="450" autoSize="none" width="190" height="30" type="input"  text="请点这里输入昵称" maxChars="14"  />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="choicefigure.inputBgAsset" 
+		resourceLink="asset.choicefigure.inputBlueBg,asset.choicefigure.inputRedBg" x="449" y="442"/>
+		
+		<!-- NicknameAvailable -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="choicefigure.NicknameAvailable"
+		x="360" y="495" autoSize="none" width="330" height="26" text="可输入中英文或数字，长度不超过14个字符。" />
+		
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.choicefigure.nickname_prompt" x="292" y="460"/>
+	</bitmaps>
+	<customDisplay>
+		<custom classname="register.view.RegisterView" stylename="register.view.RegisterView" x="0" y="0"/>
+		<custom classname="register.view.CharactorMovieView" stylename="register.view.CharactorMovieView"/>
+		
+	</customDisplay>
+</style>

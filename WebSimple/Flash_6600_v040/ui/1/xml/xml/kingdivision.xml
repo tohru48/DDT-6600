@@ -1,0 +1,283 @@
+<style name="kingdivision" version="1.0.1" source="ui/turkey/swf/kingdivision.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="assets.qualificationFrame.ruleTxtTF" args="Arial,12,0xc9bc81" leading="0" letterSpacing="0"/>
+		<set type="flash.filters.GlowFilter" stylename="assets.qualificationFrame.ruleTxtGF" args="0x410101,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="assets.qualificationFrame.pointsTxtTF" args="Arial,14,0xfff8d6,true,,,,,left" />
+		<set type="flash.filters.GlowFilter" stylename="assets.qualificationFrame.pointsTxtGF" args="0x180a00,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="assets.qualificationFrame.titleNameTxtTF" args="Arial,14,0xffea9c,true,,,,,center" leading="-5" />
+		<set type="flash.filters.GlowFilter" stylename="assets.qualificationFrame.titleNameTxtGF" args="0x4f3700,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="assets.qualificationFrame.numberTxtTF" args="Arial,14,0xff0000,true,,,,,left" />
+		<set type="flash.filters.GlowFilter" stylename="assets.qualificationFrame.numberTxtGF" args="0xffffff,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="assets.progressBarView.dateAndTimeTxtTF" args="Arial,12,0xfff8d6,true,,,,,left" />
+		<set type="flash.filters.GlowFilter" stylename="assets.progressBarView.dateAndTimeTxtGF" args="0x180a00,1,2,2,10"/>
+		
+		<set stylename="clubView.TF1" args="Arial,14,0xFFFFFF,,,,,,center" type="flash.text.TextFormat" /> 
+		<set stylename="clubView.GF1" args="1,45,0x000000,1,1,1,10" type="flash.filters.DropShadowFilter"/>
+		
+		<set stylename="assets.rankingRoundView.kingTxtTF" args="Arial,16,0x000000,true" type="flash.text.TextFormat"/>
+		<set stylename="assets.rankingRoundView.kingTxtGF" args="0x441300,1,2,2,10" type="flash.filters.GlowFilter"/>
+	
+		<set stylename="asset.timeText.TF4" args="Arial,38,0xFFCC66,true" letterSpacing='6' type="flash.text.TextFormat"/>
+		<set stylename="asset.timeText.GF4" args="0x000000,1,8,8,5,1" type="flash.filters.GlowFilter"/>
+	</sets>
+	<customs>
+		<!-- 资格赛界面 -->
+		<custom classname="kingDivision.view.QualificationsFrame" stylename="kingDivisionFrame.qualificationsFrame" x="-234" y="-26"/>
+		<!-- 进度条界面 -->
+		<custom classname="kingDivision.view.ProgressBarView" stylename="kingDivisionFrame.progressBarView" x="-201" y="440"/>
+		<!-- 进度条所有赛程MC -->
+		<custom classname="asset.progressbar.allprogress" stylename="asset.progressbar.proBarAllMovie" x="-12" y="1"/>
+		<!-- 公会列表Item Pos -->
+		<custom classname="flash.geom.Point" stylename="kingDivision.consortionClubItem.badge.pos" x="3" y="1"/>
+		<custom classname="flash.geom.Point" stylename="rewardGoodsListItem.cellPos" x="3" y="3"/>
+		<!-- 排名赛界面 -->
+		<custom classname="kingDivision.view.RankingRoundView" stylename="kingDivisionFrame.rankingRoundView" x="-234" y="-26"/>
+		<custom classname="asset.rankingRoundView.firewords" stylename="asset.rankingRoundView.fireWorkds" x="283" y="10"/>
+		
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.1" x="59" y="52"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.2" x="59" y="99"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.3" x="59" y="149"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.4" x="59" y="196"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.5" x="59" y="245"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.6" x="59" y="293"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.7" x="59" y="342"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.8" x="59" y="390"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.9" x="799" y="52"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.10" x="799" y="99"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.11" x="799" y="148"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.12" x="799" y="196"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.13" x="799" y="245"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.14" x="799" y="293"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.15" x="799" y="343"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.1.16" x="799" y="391"/>
+		
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.2.1" x="144" y="76"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.2.2" x="144" y="173"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.2.3" x="144" y="269"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.2.4" x="144" y="366"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.2.5" x="712" y="76"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.2.6" x="712" y="173"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.2.7" x="712" y="269"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.2.8" x="712" y="366"/>
+		
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.3.1" x="213" y="125"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.3.2" x="214" y="317"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.3.3" x="643" y="125"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.3.4" x="643" y="317"/>
+		
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.4.1" x="288" y="225"/>
+		<custom classname="kingDivision.view.KingCell" stylename="kingdivision.rankingRoundView.4.2" x="568" y="225"/>
+		
+	</customs>
+	<components>
+		<!-- 主界面 -->
+		<component classname="kingDivision.view.KingDivisionFrame" backStyle="SimpleFrameBackgound"
+			closestyle="core.closebt" stylename="kingdivision.frame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+			closeInnerRectString="577,44,-7,30,13" width="442" height="536" />
+		<!-- 本区按钮 -->
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="kingdivision.kingdivisionFrame.thisZoneTabBtn" 
+			selectedStyle="asset.kingdivision.thiszone.select" 
+			unSelectedStyle="asset.kingdivision.thiszone.noselect" x="-203" y="-56" 
+			displacement="false" />
+		<!-- 全区按钮 -->
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="kingdivision.kingdivisionFrame.allZoneTabBtn" 
+			selectedStyle="asset.kingdivision.allzone.select" 
+			unSelectedStyle="asset.kingdivision.allzone.noselect" x="-120" y="-56" 
+			displacement="false" />
+		<!-- 主界面帮助按钮 -->
+		<component classname="store.HelpFrame" stylename="kingdivision.HelpFrame" parentStyle="BaseFrame" width="404" height="484" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="kingdivision.HelpFrame.FrameBg" 
+			parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" 
+			x="0" y="0" width="370" height="376" />
+		<component classname="store.HelpPrompt" stylename="kingdivision.HelpPrompt" 
+			bg9ScalseStyle="kingdivision.HelpFrame.FrameBg" contentStyle="asset.kingdivision.helpWord"
+			x="17" y="43" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="kingdivision.kingdivisionFrame.helpBtn" 
+			backStyle="asset.kingdivision.help" x="525" y="-54"/>
+		<!-- 查看奖励按钮 -->
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="qualificationsFrame.awardsBtn" backStyle="asset.qualificationsframe.awardsBtn"
+			filterString="null,lightFilter,lightFilter,grayFilter" x="93" y="395"/>
+		<!-- 规则说明 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="qualificationsFrame.ruleTxt" 
+			filterString="assets.qualificationFrame.ruleTxtGF" 
+			textFormatStyle="assets.qualificationFrame.ruleTxtTF" autoSize="none" wordWrap="true" width="240" height="250" />
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="assets.qualificationsFrame.ruleTxtVBox" 
+			spacing="5" x="0" y="5"  height="120"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="assets.qualificationsFrame.ruleTxtScrollpanel" 
+			parentStyle="core.ScrollPanel" width="260" height="270" hScrollProxy="2" vScrollProxy="2" x="18" y="47" />
+		<!-- 积分文本 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="qualificationsFrame.pointsTxt" 
+			filterString="assets.qualificationFrame.pointsTxtGF" 
+			textFormatStyle="assets.qualificationFrame.pointsTxtTF" autoSize="none" width="100" height="25" x="122" y="360"/>
+		<!-- 资格赛标题文本 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="qualificationsFrame.titleNameTxt0" 
+			filterString="assets.qualificationFrame.titleNameTxtGF" 
+			textFormatStyle="assets.qualificationFrame.titleNameTxtTF" autoSize="none" width="100" height="35" x="283" y="7"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="qualificationsFrame.titleNameTxt1" 
+			filterString="assets.qualificationFrame.titleNameTxtGF" 
+			textFormatStyle="assets.qualificationFrame.titleNameTxtTF" autoSize="none" width="100" height="25" x="401" y="13"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="qualificationsFrame.titleNameTxt2" 
+			filterString="assets.qualificationFrame.titleNameTxtGF" 
+			textFormatStyle="assets.qualificationFrame.titleNameTxtTF" autoSize="none" width="100" height="25" x="508" y="13"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="qualificationsFrame.titleNameTxt3" 
+			filterString="assets.qualificationFrame.titleNameTxtGF" 
+			textFormatStyle="assets.qualificationFrame.titleNameTxtTF" autoSize="none" width="100" height="25" x="614" y="13"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="qualificationsFrame.titleNameTxt4" 
+			filterString="assets.qualificationFrame.titleNameTxtGF" 
+			textFormatStyle="assets.qualificationFrame.titleNameTxtTF" autoSize="none" width="100" height="35" x="734" y="6"/>
+		<!-- 资格赛场次文本 -->	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="qualificationsFrame.numberTxt" 
+			filterString="assets.qualificationFrame.numberTxtGF" 
+			textFormatStyle="assets.qualificationFrame.numberTxtTF" autoSize="none" width="100" height="25" x="736" y="403"/>
+		<!-- 资格赛开始按钮 -->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="qualificationsFrame.startBtn" 
+			backStyle="asset.qualificationsFrame.startBtn" x="488" y="375"/>
+		<!-- 资格赛取消按钮 -->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="qualificationsFrame.cancelBtn" 
+			backStyle="asset.qualificationsFrame.cancelBtn" x="488" y="375"/>	
+		<!-- 选择本区或者全区的图片选择 -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="kingDivision.progressBarView.zoneImg" 
+			resourceLink="asset.progressbar.thiszone,asset.progressbar.allzone" x="-18" y="-18" />
+		<!-- 日期和时间 -->	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="progressBarView.dateAndTimeTxt0" 
+			filterString="assets.progressBarView.dateAndTimeTxtGF" 
+			textFormatStyle="assets.progressBarView.dateAndTimeTxtTF" autoSize="none" width="100" height="25" x="-21" y="38"/>	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="progressBarView.dateAndTimeTxt1" 
+			filterString="assets.progressBarView.dateAndTimeTxtGF" 
+			textFormatStyle="assets.progressBarView.dateAndTimeTxtTF" autoSize="none" width="100" height="25" x="172" y="38"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="progressBarView.dateAndTimeTxt2" 
+			filterString="assets.progressBarView.dateAndTimeTxtGF" 
+			textFormatStyle="assets.progressBarView.dateAndTimeTxtTF" autoSize="none" width="100" height="25" x="365" y="38"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="progressBarView.dateAndTimeTxt3" 
+			filterString="assets.progressBarView.dateAndTimeTxtGF" 
+			textFormatStyle="assets.progressBarView.dateAndTimeTxtTF" autoSize="none" width="100" height="25" x="559" y="38"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="progressBarView.dateAndTimeTxt4" 
+			filterString="assets.progressBarView.dateAndTimeTxtGF" 
+			textFormatStyle="assets.progressBarView.dateAndTimeTxtTF" autoSize="none" width="100" height="25" x="722" y="38"/>	
+		<!-- 显示公会信息 -->	
+		<component classname="kingDivision.view.KingDivisionConsortionList"  stylename="kingDivision.consortionList" x="29" y="128" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="kingDivision.consortionClub.MemberListItem"  
+			resourceLink="kingDivision.MemberItem.ScaleLeftRightImage1,kingDivision.MemberItem.ScaleLeftRightImage2" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="kingDivision.consortionName"  textFormatStyle="clubView.TF1" filterString="clubView.GF1" 	autoSize="none" width="130" height="22" x="95" y="6" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="kingDivision.count" 	parentStyle="kingDivision.consortionName" autoSize="none"   width="60" x="454" y="6" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="kingDivision.level"  parentStyle="kingDivision.consortionName"  autoSize="none"  width="58"  x="237" y="6" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="kingDivision.points"  parentStyle="kingDivision.consortionName"  autoSize="none"  width="130"  x="307" y="6" />
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="assets.qualificationsFrame.consorPanel" 
+			parentStyle="core.ScrollPanel" width="550" height="320" hScrollProxy="2" vScrollProxy="0" x="292" y="44" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="kingDivision.toffilist.topThreeRink" 
+			resourceLink="asset.coreIcon.orderNo1Asset,asset.coreIcon.orderNo2Asset,asset.coreIcon.orderNo3Asset" x="22" y="3"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="kingDivision.ring"  parentStyle="kingDivision.consortionName"  autoSize="none"  width="58"  x="16" y="6" />	
+		<!-- 奖励界面 -->
+		<component classname="kingDivision.view.RewardView" backStyle="SimpleFrameBackgound"
+			closestyle="core.closebt" stylename="qualificationsFrame.RewardView" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+			closeInnerRectString="355,44,7,30,13" width="415" height="523" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="rewardView.thisZoneBtn" 
+			textStyle="asset.rewardView.thiszonereward" fieldX="28" fieldY="2" unSelectedStyle="asset.core.check2UnSelected" 
+			selectedStyle="asset.core.check2Selected" x="8" y="2" displacement="false"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="rewardView.allZoneBtn" 
+			textStyle="asset.rewardView.allzonereward" fieldX="28" fieldY="2" unSelectedStyle="asset.core.check2UnSelected" 
+			selectedStyle="asset.core.check2Selected" x="173" y="2" displacement="false"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="kingDivision.RewardListItem.topThreeRink" 
+			resourceLink="asset.rewardView.firstprize,asset.rewardView.secondprize,asset.rewardView.thirdprize,asset.rewardView.fourprize,asset.rewardView.fiveprize" 
+			x="1" y="-5"/>
+		<component classname="kingDivision.view.RewardList"  stylename="kingDivision.RewardList" x="29" y="128" />
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="assets.rewardView.consorPanel" 
+			parentStyle="core.ScrollPanel" width="342" height="400" hScrollProxy="2" vScrollProxy="0" x="17" y="43" />
+		<component classname="kingDivision.view.RewardGoodsList"  stylename="kingDivision.RewardGoodsList" x="26" y="27" />
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="kingDivision.RewardListItem.leftBtn" backStyle="asset.rewardView.left"
+			filterString="null,lightFilter,lightFilter,grayFilter" x="5" y="34"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="kingDivision.RewardListItem.rightBtn" backStyle="asset.rewardView.right"
+			filterString="null,lightFilter,lightFilter,grayFilter" x="296" y="34"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="assets.RewardListItem.consorPanel" 
+			parentStyle="core.ScrollPanel" width="290" height="50" hScrollProxy="2" vScrollProxy="2" x="26" y="26" />	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="rankingRoundView.pointsTxt" 
+			filterString="assets.qualificationFrame.pointsTxtGF" 
+			textFormatStyle="assets.qualificationFrame.pointsTxtTF" autoSize="none" width="100" height="25" x="125" y="15"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="rankingRoundView.awardsBtn" backStyle="asset.qualificationsframe.awardsBtn"
+			filterString="null,lightFilter,lightFilter,grayFilter" x="725" y="10"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="rankingRoundView.numberTxt" 
+			filterString="assets.qualificationFrame.numberTxtGF" 
+			textFormatStyle="assets.qualificationFrame.numberTxtTF" autoSize="none" width="100" height="25" x="564" y="423"/>
+		<!-- 排名赛开始按钮 -->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="rankingRoundView.startBtn" 
+			backStyle="asset.qualificationsFrame.startBtn" x="345" y="352"/>
+		<!-- 排名赛取消按钮 -->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="rankingRoundView.cancelBtn" 
+			backStyle="asset.qualificationsFrame.cancelBtn" x="345" y="352"/>	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="kingTxtFFT" 
+			textFormatStyle="assets.rankingRoundView.kingTxtTF" autoSize="none" width="130" height="25" isAutoFitLength="true"/>
+		<component classname="com.pickgliss.ui.text.GradientText" stylename="rankingRoundView.kingTxt" textFieldStyle="kingTxtFFT" 
+			colors="0xf3ff32,0xff9600" filterString="assets.rankingRoundView.kingTxtGF" alphas="1,1" ratios="30,255" x="390" y="340"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.qualificationsFrame.timeTxt" 
+			textFormatStyle="asset.timeText.TF4" filterString="asset.timeText.GF4" x="535" y="162" width="173" height="40"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.rankingRoundView.timeTxt" 
+			textFormatStyle="asset.timeText.TF4" filterString="asset.timeText.GF4" x="396" y="183" width="173" height="40"/>
+	
+	</components>
+	
+	<bitmaps>
+		 <bitmapData resourceLink="asset.kingdivision.frameImg" x="-278" y="-68"/>
+		 <bitmapData resourceLink="asset.kingdivision.title" x="-235" y="-87"/>
+		 <bitmapData resourceLink="asset.qualificationsframe.number" x="677" y="389"/>
+		 <bitmapData resourceLink="asset.progressbar.fristRound" x="177" y="-18"/>
+		 <bitmapData resourceLink="asset.progressbar.secondRound" x="370" y="-18"/>
+		 <bitmapData resourceLink="asset.progressbar.semifinal" x="562" y="-18"/>
+		 <bitmapData resourceLink="asset.progressbar.finals" x="750" y="-18"/>
+		 <bitmapData resourceLink="asset.rewardView.bg" x="-1" y="-4"/>
+		 <bitmapData resourceLink="asset.rewardView.midsole" x="0" y="15"/>
+		 <bitmapData resourceLink="asset.rankingRoundView.number" x="504" y="408"/>
+		 <bitmapData resourceLink="asset.rankingRoundView.base" x="337" y="213"/>
+		 <bitmapData resourceLink="asset.rankingRoundView.cup" x="374" y="97"/>
+		 <bitmapData resourceLink="asset.kingdivision.king" x="357" y="333"/>
+		 <bitmapData resourceLink="asset.kingdivision.kingbase" x="303" y="331"/>
+		 <bitmapData resourceLink="asset.qualificationsFrame.smallblind" x="287" y="37"/>
+		 <bitmapData resourceLink="asset.qualificationsFrame.smallmatch" x="427" y="205"/>
+		 <bitmapData resourceLink="asset.rankingRoundView.blind" x="2" y="2"/>
+		 <bitmapData resourceLink="asset.rankingRoundView.match" x="257" y="237"/>
+		 
+		 <bitmapData resourceLink="asst.kingdivision.16.1" x="58" y="60"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.2" x="58" y="117"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.3" x="58" y="157"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.4" x="58" y="213"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.5" x="58" y="253"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.6" x="58" y="309"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.7" x="58" y="350"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.8" x="58" y="406"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.9" x="728" y="59"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.10" x="728" y="117"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.11" x="728" y="156"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.12" x="728" y="213"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.13" x="728" y="252"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.14" x="728" y="309"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.15" x="728" y="349"/>
+		 <bitmapData resourceLink="asst.kingdivision.16.16" x="728" y="406"/>
+		 
+		 <bitmapData resourceLink="asst.kingdivision.8.1" x="146" y="89"/>
+		 <bitmapData resourceLink="asst.kingdivision.8.2" x="146" y="167"/>
+		 <bitmapData resourceLink="asst.kingdivision.8.3" x="146" y="281"/>
+		 <bitmapData resourceLink="asst.kingdivision.8.4" x="146" y="359"/>
+		 <bitmapData resourceLink="asst.kingdivision.8.5" x="657" y="89"/>
+		 <bitmapData resourceLink="asst.kingdivision.8.6" x="657" y="167"/>
+		 <bitmapData resourceLink="asst.kingdivision.8.7" x="657" y="281"/>
+		 <bitmapData resourceLink="asst.kingdivision.8.8" x="657" y="359"/>
+		 
+		 <bitmapData resourceLink="asst.kingdivision.4.1" x="217" y="143"/>
+		 <bitmapData resourceLink="asst.kingdivision.4.2" x="217" y="269"/>
+		 <bitmapData resourceLink="asst.kingdivision.4.3" x="583" y="143"/>
+		 <bitmapData resourceLink="asst.kingdivision.4.4" x="583" y="269"/>
+		 
+		 <bitmapData resourceLink="asst.kingdivision.2.1" x="290" y="239"/>
+		 <bitmapData resourceLink="asst.kingdivision.2.2" x="431" y="239"/>
+	</bitmaps>
+</style>

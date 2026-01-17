@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="superwinner" version="2.0.1" source="ui/turkey/swf/superwinner.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="superWinner.endTimeTxtTF" args="Arial,12,0xFFFFFF,true,,,,,left"/>  
+    <set type="flash.filters.GlowFilter" stylename="superWinner.endTimeTxtGF" args="0x000000,1,2,2,20"/>  
+    <set type="flash.text.TextFormat" stylename="superWinner.bigAwardTxtTF" args="Arial,12,0xFFFFFF,true,,,,,right"/>  
+    <set type="flash.filters.GlowFilter" stylename="superWinner.bigAwardTxtGF" args="0x000000,1,2,2,20"/>  
+    <set type="flash.text.TextFormat" stylename="superWinner.smallAwardTxtTF" args="Arial,12,0xFFFFFF,,,,,,right"/>  
+    <set type="flash.filters.GlowFilter" stylename="superWinner.smallAwardTxtGF" args="0x000000,1,2,2,20"/>  
+    <set stylename="asset.superWinner.playerlist.nameGF" args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="asset.superWinner.playerlist.nameTF" args="Arial,14,0xffffff" type="flash.text.TextFormat"/> 
+  </sets>  
+  <bitmaps> 
+    <!--超级大赢家背景 -->  
+    <bitmapData resourceLink="superwinner.bg" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.returnBar.btnImg" x="9" y="2"/>  
+    <bitmapData resourceLink="asset.superWinner.returnBar.unselected" x="4" y="8"/>  
+    <bitmapData resourceLink="asset.superWinner.returnBar.selected" x="4" y="8"/>  
+    <bitmapData resourceLink="asset.superWinner.returnBar.btnImg.selected" x="2" y="-2"/>  
+    <bitmapData resourceLink="asset.superWinner.lastRound" x="378" y="175"/>  
+    <bitmapData resourceLink="asset.superWinner.rollDiceTxt" x="662" y="569"/>  
+    <bitmapData resourceLink="asset.superWinner.championBg" x="261" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.noChampionBg" x="261" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.championIcon" x="250" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.myPrizeBg" x="795" y="380"/>  
+    <bitmapData resourceLink="asset.superWinner.prizeBg" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.translucentArticle" x="483" y="537"/>  
+    <bitmapData resourceLink="asset.superWinner.smallAward1" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.smallAward2" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.smallAward3" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.smallAward4" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.smallAward5" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.smallAward6" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.bigAward1" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.bigAward2" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.bigAward3" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.bigAward4" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.bigAward5" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.superWinner.bigAward6" x="0" y="0"/> 
+  </bitmaps>  
+  <customs> 
+    <custom classname="superWinner.view.SuperWinnerReturn" stylename="asset.superWinner.returnMenu" x="904" y="541"/>  
+    <custom classname="superWinner.view.bigAwards.SuperWinnerBigAwardView" stylename="asset.superWinner.superWinnerBigAwardView" x="10" y="74"/>  
+    <custom classname="superWinner.view.smallAwards.SuperWinnerSmallAwardView" stylename="asset.superWinner.superWinnerSmallAwardView" x="810" y="400"/>  
+    <custom classname="flash.geom.Point" stylename="asset.superWinner.returnBar.position" x="906" y="966"/>  
+    <custom classname="superWinner.smallDice" stylename="asset.superWinner.smallDice" resourceLink="superWinner.smallDice"/>  
+    <custom classname="superWinner.view.DicesMovieSprite" stylename="asset.superWinner.DicesMovieSprite" x="341" y="213"/>  
+    <custom classname="superWinner.view.SuperWinnerProgressBar" stylename="asset.superWinner.progressBar" x="684" y="628"/>  
+    <custom classname="superWinner.dicesMovie" stylename="asset.superWinner.DicesMovie" resourceLink="superWinner.dicesMovie"/>  
+    <custom classname="superWinner.progressBar" stylename="asset.superWinner.ProgressBar" resourceLink="superWinner.progressBar"/>  
+    <custom classname="flash.geom.Point" stylename="playerList.bg.point" x="800" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="playerHead.point" x="300" y="30"/>  
+    <custom classname="flash.geom.Point" stylename="asset.superWinner.DicesBanner" x="400" y="206"/>  
+    <custom classname="flash.geom.Point" stylename="asset.superWinner.DicesBanner2" x="445" y="36"/>  
+    <custom classname="flash.geom.Point" stylename="asset.superWinner.Champion" x="288" y="43"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.smallAward6" x="3" y="17"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.smallAward5" x="68" y="17"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.smallAward4" x="133" y="17"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.smallAward3" x="3" y="79"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.smallAward2" x="68" y="79"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.smallAward1" x="133" y="79"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.bigAward6" x="86" y="3"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.bigAward5" x="28" y="98"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.bigAward4" x="144" y="100"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.bigAward3" x="6" y="190"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.bigAward2" x="85" y="189"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.bigAward1" x="165" y="190"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.awardTip6" x="161" y="73"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.awardTip5" x="103" y="168"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.awardTip4" x="219" y="170"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.awardTip3" x="81" y="260"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.awardTip2" x="160" y="259"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.awardTip1" x="240" y="260"/>  
+    <custom classname="ddt.view.common.SexIcon" stylename="asset.superWinner.PlayerItem.SexIcon" size="0.8" x="153" y="2"/>  
+    <custom classname="superWinner.view.SuperWinnerPlayerItem" stylename="asset.superWinner.PlayerItem"/>  
+    <custom classname="superWinner.help" stylename="asset.superWinner.help" x="11" y="13"/>  
+    <custom classname="flash.geom.Point" stylename="superWinner.helpFrame.submitBtnPos" x="154" y="452"/> 
+  </customs>  
+  <components> 
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="superWinner.helpBtn" backStyle="asset.superWinner.helpBtn" enable="true" x="664" y="25"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="superWinner.TipText" textFormatStyle="core.commonTipTF"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="superWinner.tips" resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40"/>  
+    <!--  返回按钮  -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.superWinner.returnBar.returnBtn" backStyle="asset.superWinner.returnBar.returnBtn.back" x="33" y="6"/>  
+    <bitmapData resourceLink="asset.superWinner.playerList.bg" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.superWinner.returnBar.returnBtn.back" resourceLink="asset.superWinner.returnBar.btnImg,asset.superWinner.returnBar.btnImg.selected,asset.superWinner.returnBar.btnImg.selected,asset.superWinner.returnBar.btnImg.selected"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.superWinner.returnBar.stretchBtn" unSelectedStyle="asset.superWinner.returnBar.unselected" selectedStyle="asset.superWinner.returnBar.selected" filterString="null,lightFilter,null,grayFilter"/>  
+    <!-- 开始投骰子按钮 -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.superWinner.rollDice" backStyle="asset.superWinner.rollDiceBtn" enable="false" x="498" y="541" filterString="null,lightFilter,lightFilter,grayFilter"/>  
+    <!-- 玩家列表背景 -->  
+    <component classname="com.pickgliss.ui.image.Image" stylename="superWinner.playerList.bg" resourceLink="asset.superWinner.playerList.bg" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="superWinner.endTimeTxt" filterString="superWinner.endTimeTxtGF" textFormatStyle="superWinner.endTimeTxtTF" autoSize="none" height="20" width="500" x="271" y="88"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="superWinner.bigAwardTxt" filterString="superWinner.bigAwardTxtGF" textFormatStyle="superWinner.bigAwardTxtTF" autoSize="none" height="25" width="40" x="13" y="37"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="superWinner.smallAwardTxt" filterString="superWinner.smallAwardTxtGF" textFormatStyle="superWinner.smallAwardTxtTF" autoSize="none" height="25" width="40" x="3" y="28"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="asset.superWinner.PlayerList" hScrollbarStyle="core.HScrollbar" vScrollbarStyle="core.VScrollbar" hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,4,0,0,3" viewportInnerRectString="2,0,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|asset.superWinner.PlayerItem,24,177" listStyle="com.pickgliss.ui.controls.list.List" width="195" height="240" x="16" y="40" hScrollProxy="2" vUnitIncrement="10"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.superWinner.playerlist.name" textFormatStyle="asset.superWinner.playerlist.nameTF" filterString="asset.superWinner.playerlist.nameGF" autoSize="none" width="132" height="20" isAutoFitLength="true" x="30" y="3"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="superWinner.ChatViewBg" parentStyle="core.Scale9CornerImage.scale9CornerImage27" width="480" height="155" x="5" y="443"/>  
+    <component classname="superWinner.view.SuperWinnerHelpFrame" backStyle="SimpleFrameBackgoundOneIII" stylename="ddt.superWinner.helpFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,11,5" containerX="8" containerY="31" width="410" height="538" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/> 
+  </components> 
+</style>

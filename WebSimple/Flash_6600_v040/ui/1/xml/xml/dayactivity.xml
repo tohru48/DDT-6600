@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="dayactivity" version="1.0.1" source="ui/turkey/swf/dayactivity.swf"> 
+  <sets> 
+    <set stylename="dayActivityTF1" args="Arial,16,0xffde00,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="dayActivityGF1" args="0x7b220b,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="dayActivityTF2" args="Arial,12,0x942d05,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="dayActivityGF2" args="0x7b220b,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="dayActivityTF3" args="Arial,12,0x6a3a17,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="dayActivityGF3" args="0x7b220b,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="dayActivityTF4" args="Arial,12,0xffe981,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="dayActivityGF4" args="0x5c310e,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="dayActivityTF5" args="Arial,14,0xffffff,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="dayActivityGF5" args="0x00453b,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="dayActivityTF6" args="Arial,10,0xf1f0d6,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="dayActivityGF6" args="0x7d2c05,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="dayActivityTF7" args="Arial,10,0xf9ea96,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="dayActivityGF7" args="0x5c3d11,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="dayActivityTF8" args="Arial,14,0xffea9c,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="dayActivityGF8" args="0x4f3700,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="dayActivityTF9" args="Arial,14,0xffea9c,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="dayActivityGF9" args="0x402d03,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="dayActivityTF10" args="Arial,12,0xb0aea8,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="dayActivityGF10" args="0x402d03,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="dayActivityTF11" args="Arial,14,0x1dd70a,true,,true,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="dayActivityGF11" args="0x402d03,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="dayActivityTF12" args="Arial,14,0xe60000,true,,true,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="dayActivityGF12" args="0x402d03,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="dayActivityTF13" args="Arial,14,0xffff99,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="dayActivityGF13" args="0x572525,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="dayActivityTF14" args="Arial,12,0xb0aea8,true,,,,,left" type="flash.text.TextFormat"/> 
+    
+    <set stylename="dayActivityServerTimeTF" args="Arial,14,0xe60000,true,,,,,left" type="flash.text.TextFormat"/>
+	<set stylename="dayActivityServerTimeGF" args="0x402d03,1,2,2,10" type="flash.filters.GlowFilter"/>
+  </sets>  
+  <components> 
+    <component classname="dayActivity.ActivityFrame" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" stylename="dayActivity.ActivityFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" x="-160" y="-40" closeInnerRectString="44,19,6,30,14" width="770" height="555"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activityView.left.Itemtxt1" textFormatStyle="dayActivityTF2" x="0" y="4" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activityView.left.Itemtxt2" textFormatStyle="dayActivityTF3" x="240" y="4" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activityView.left.txt1" textFormatStyle="dayActivityTF1" x="10" y="5" filterString="dayActivityGF1" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activityView.right.txt1" textFormatStyle="dayActivityTF4" x="9" y="136" filterString="dayActivityGF4" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activityView.right.txt2" textFormatStyle="dayActivityTF6" x="179" y="139" filterString="dayActivityGF6" multiline="false" wordWrap="false" autoSize="none" width="400" height="22"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activityView.right.expBarTxt" textFormatStyle="dayActivityTF5" x="123" y="9" filterString="dayActivityGF5" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activityView.right.itemTxt" textFormatStyle="dayActivityTF7" x="275" y="23" filterString="dayActivityGF7" multiline="false" wordWrap="false" autoSize="none" width="87" height="40"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activieView.title.itemTxt" textFormatStyle="dayActivityTF8" x="290" y="23" filterString="dayActivityGF8" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activieView.item.txt1" textFormatStyle="dayActivityTF9" x="290" y="23" autoSize="none" width="100" height="36" filterString="dayActivityGF9" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activieView.item.txt2" textFormatStyle="dayActivityTF9" x="290" y="23" autoSize="none" width="170" height="36" filterString="dayActivityGF9" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activieView.item.txt3" textFormatStyle="dayActivityTF9" x="290" y="23" autoSize="none" width="170" height="36" filterString="dayActivityGF9" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activieView.item.txt4" textFormatStyle="dayActivityTF9" x="290" y="23" autoSize="none" width="200" height="36" filterString="dayActivityGF9" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activieView.item.ctxt1" textFormatStyle="dayActivityTF10" x="290" y="23" autoSize="none" width="100" height="36" filterString="dayActivityGF10" multiline="true" wordWrap="true" isAutoFitLength="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activieView.item.ctxt2" textFormatStyle="dayActivityTF10" x="290" y="23" autoSize="none" width="170" height="36" filterString="dayActivityGF10" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activieView.item.ctxt3" textFormatStyle="dayActivityTF10" x="290" y="23" autoSize="none" width="170" height="36" filterString="dayActivityGF10" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activieView.item.ctxt4" textFormatStyle="dayActivityTF10" x="290" y="23" autoSize="none" width="200" height="36" filterString="dayActivityGF10" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activieView.item.closetxt" textFormatStyle="dayActivityTF12" x="290" y="23" filterString="dayActivityGF12" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activieView.item.opentxt" textFormatStyle="dayActivityTF11" x="290" y="23" filterString="dayActivityGF11" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="day.activieView.txt" textFormatStyle="dayActivityTF13" x="187" y="489" filterString="dayActivityGF13" multiline="false" wordWrap="false"/>  
+    <!-- 每日活动 -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.activityBtn1" resourceLink="dayActivity.ActivityFrame.btn1,day.activityBtn1" imageRectString="105|39|0|0|9,98|22|7|0|9" width="120" height="35" x="-9" y="5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.activityBtn2" resourceLink="dayActivity.ActivityFrame.btn2,day.activityBtn2" imageRectString="120|39|0|0|9,99|26|8|0|9" width="120" height="35" x="-9" y="5"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="dayActivity.ActivityFrame.seleBtn1" unSelectedStyle="asset.activityBtn1" selectedStyle="asset.activityBtn2" filterString="null,lightFilter,null,grayFilter" x="150" y="38"/>
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dayActivity.activityFrame.tiem.txt" textFormatStyle="dayActivityTF6" x="590"  y="55" filterString="dayActivityGF6" multiline="false" wordWrap="false" />  
+    <!--活跃度 -->  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="dayActivity.ActivityFrame.seleBtn2" unSelectedStyle="asset.activeBtn1" selectedStyle="asset.activeBtn2" filterString="null,lightFilter,null,grayFilter" x="43" y="38"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.activeBtn1" resourceLink="dayActivity.ActivityFrame.btn1,day.activeBtn1" imageRectString="105|39|0|0|9,98|24|7|0|9" width="120" height="35" x="-9" y="5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.activeBtn2" resourceLink="dayActivity.ActivityFrame.btn2,day.activeBtn2" imageRectString="120|39|0|0|9,103|26|7|0|9" width="120" height="35" x="-9" y="5"/>  
+    <!-- 限时活动 -->  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="dayActivity.ActivityFrame.seleBtn3" unSelectedStyle="asset.tViewBtn1" selectedStyle="asset.tViewBtn2" filterString="null,lightFilter,null,grayFilter" x="258" y="38"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.tViewBtn1" resourceLink="dayActivity.ActivityFrame.btn1,day.timeViewBtn1" imageRectString="100|39|0|0|9,81|22|7|0|9" width="120" height="35" x="-9" y="5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.tViewBtn2" resourceLink="dayActivity.ActivityFrame.btn2,day.timeViewBtn2" imageRectString="120|39|0|0|9,76|26|7|0|9" width="120" height="35" x="-9" y="5"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="dayActivity.ActivityFrame.btn1" parentStyle="core.bg6900"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="dayActivity.ActivityFrame.btn2" parentStyle="core.bg6901"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="dayActivity.quikeBtn" backStyle="day.activity.jinduBtn" x="250" y="6" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="dayActivity.receiveOverBtn" backStyle="day.receiveOver" x="286" y="18"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="dayActivity.day.receiveBtn" backStyle="day.receive" x="290" y="18"/>  
+    <!-- 世界Boss战斗助手按钮 -->  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="day.activity.worldBossHelper.helperBtn" backStyle="day.activity.worldBossHelper"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="dayActivityView.right.goodsBack" resourceLink="day.goodsBack" width="50" height="50"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="dayActiveView.paihangItemBG" resourceLink="badLuck.GridBG1,badLuck.GridBG2" width="760" height="31"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="dayActivityView.right.itemBack" parentStyle="core.goldlinebg" width="365" height="65"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="dayActiveView.GridBG1" parentStyle="core.ScaleleftrightImage.lineBg2"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="dayActiveView.GridBG2" parentStyle="core.ScaleleftrightImage.lineBg3"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="dayActiveView.scale9cornerImageTree2" parentStyle="core.Scale9CornerImage.scale9CornerImage19" width="695" height="62" x="34" y="469"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="day.activity.dailyCollectionBtn" backStyle="day.activity.dailyCollection" x="318" y="2"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.activityAdvBtn1" resourceLink="dayActivity.ActivityFrame.btn1,day.activityAdvBtn1" imageRectString="100|39|0|0|9,80|25|7|0|9" width="120" height="35" x="-9" y="5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.activityAdvBtn2" resourceLink="dayActivity.ActivityFrame.btn2,day.activityAdvBtn2" imageRectString="120|39|0|0|9,88|26|8|0|9" width="120" height="35" x="-9" y="5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="dayActivityView.right.SignedAwardBack" width="390" height="450" resourceLink="core.Scale9CornerImage.BGAsset8,core.Scale9CornerImage.BGAsset9" imageRectString=",3|3|3|5|0"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="dayActivityView.left.ActivityStateBg" resourceLink="core.Scale9CornerImage.Scale9CornerImage18,core.Scale9CornerImage.weilipaper,core.ScaleBitmapImage2" imageRectString="0|330|0|452|13,7|316|7|436|13,7|316|10|432|13,24|390|21|36|13" width="320" height="450" x="0" y="-2"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="dayActivityView.left.vBox" spacing="5" x="45" y="160"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="dayActivity.scale9cornerImageTree" width="735" height="455" x="18" y="81" parentStyle="core.bg6920"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="dayActivityView.left.scrollpanel" parentStyle="core.ScrollPanel" width="320" height="410" hScrollProxy="2" vScrollProxy="0" x="0" y="35"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="day.todayActivie" x="-2" y="30"/>  
+    <bitmapData resourceLink="day.activity.over" x="0" y="0"/>  
+    <bitmapData resourceLink="day.activity.goodsContent" x="-16" y="15"/>  
+    <bitmapData resourceLink="day.activity.noover" x="0" y="0"/>  
+    <bitmapData resourceLink="day.activity.barBack" x="0" y="0"/>  
+    <bitmapData resourceLink="day.activity.barfram" x="-225" y="9"/>  
+    <bitmapData resourceLink="day.activity.tiaojian" x="44" y="487"/>  
+    <bitmapData resourceLink="day.activity.huawen" x="-16" y="15"/>  
+    <bitmapData resourceLink="day.line" x="-3" y="23"/>  
+    <bitmapData resourceLink="day.receiveOver"/>  
+    <bitmapData resourceLink="day.receive"/>  
+    <bitmapData resourceLink=" day.actiity.groundBack" x="21" y="84"/> 
+  </bitmaps>  
+  <customDisplay> 
+    <custom classname="flash.geom.Point" stylename="activityAdv.viewPos" x="23" y="121"/> 
+  </customDisplay> 
+</style>

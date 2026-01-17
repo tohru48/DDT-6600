@@ -1,0 +1,67 @@
+<style name="homeLaboratory" version="6.7.0" source="ui/turkey/swf/homeLaboratory.swf">
+<sets>
+	<set type="flash.text.TextFormat" stylename="homeLaboratory.homeLaboratoryRightView.energyCountTxtTF" args="Arial,13,0xfcf3a7,,,,,,center"/>
+	<set type="flash.filters.GlowFilter" stylename="homeLaboratory.homeLaboratoryRightView.energyCountTxtGF" args="0x4e2f10,1,4,4,30"/>
+	<set type="flash.text.TextFormat" stylename="homeLaboratory.rightView.previewTxtTF" args="Arial,13,0xe4b56b,true"/>
+	<set type="flash.filters.GlowFilter" stylename="homeLaboratory.rightView.previewTxtGF" args="0x4c2c0a,1,4,4,30"/>
+	<set type="flash.text.TextFormat" stylename="homeLaboratory.StoreIIStrengthBG.GoodCellTextTF" args="Arial,14,0xac7750,true,,,,,center"/>
+	<set type="flash.filters.GlowFilter" stylename="homeLaboratory.StoreIIStrengthBG.GoodCellTextGF" args="0x5c3316,1,4,4,30"/>
+	<set type="flash.text.TextFormat" stylename="homeLaboratory.rightView.cellCountTxtTF" args="Arial,14,0xffde97,,,,,,right"/>
+	<set type="flash.filters.GlowFilter" stylename="homeLaboratory.rightView.cellCountTxtGF" args="0x160d06,1,2,2,10"/>
+	<set type="flash.text.TextFormat" stylename="homeLaboratory.rightView.successTipTxtTF" args="Arial,14,0xfcf3a7,true"/>
+	<set type="flash.filters.GlowFilter" stylename="homeLaboratory.rightView.successTipTxtGF" args="0x4e2f10,1,4,4,30"/>
+	<set type="flash.text.TextFormat" stylename="homeLaboratory.rightView.needMoneyNumTxtTF" args="Arial,14,0xffef3b,true"/>
+	<set type="flash.filters.GlowFilter" stylename="homeLaboratory.rightView.needMoneyNumTxtGF" args="0x400202,1,4,4,30"/>
+	<set type="flash.text.TextFormat" stylename="homeLaboratory.rightView.fusionNameTxtTF" args="Arial,14,0xffed89,,,,,,center"/>
+	<set type="flash.filters.GlowFilter" stylename="homeLaboratory.rightView.fusionNameTxtGF" args="0x3e2b17,1,4,4,30"/>
+	<set type="flash.text.TextFormat" stylename="homeLaboratory.rightView.successRateTxtTF" args="Arial,14,0x00ff00,,,,,,center"/>
+	<set type="flash.filters.GlowFilter" stylename="homeLaboratory.rightView.successRateTxtGF" args="0x3e2b17,1,4,4,30"/>
+	
+	<set type="flash.text.TextFormat" stylename="homeLaboratory.cellNameTxtTF" args="Arial,14,0xfff0b5,true"/>
+	<set type="flash.filters.GlowFilter" stylename="homeLaboratory.cellNameTxtGF" args="0x663518,1,4,4,30"/>
+	
+	<set type="flash.text.TextFormat" stylename="homeLaboratory.cellNameTxtSelectedTF" args="Arial,14,0xff5400,true"/>
+	<set type="flash.filters.GlowFilter" stylename="homeLaboratory.cellNameTxtSelectedGF" args="0xffffff,1,4,4,30"/>
+	
+	<set type="flash.text.TextFormat" stylename="homeLaboratory.cellCountTxtTF" args="Arial,13,0xfff0b5,true,,,,,center"/>
+	<set type="flash.filters.GlowFilter" stylename="homeLaboratory.cellCountTxtGF" args="0x663518,1,4,4,30"/>
+	
+</sets>
+<customs>
+	<custom classname="flash.geom.Point" stylename="homeLaboratory.HomeLaboratoryViewPos" x="41" y="70"/>
+	<custom classname="flash.geom.Point" stylename="homeLaboratory.homeLaboratoryView.rightViewPos" x="281" y="-1"/>
+   	<custom classname="flash.geom.Point" stylename="homeLaboratory.equipmentCellBgPos" x="50" y="90"/>
+    <custom classname="flash.geom.Point" stylename="homeLaboratory.rightView.materialTipTxtPos" x="13" y="24"/>
+    <custom classname="flash.geom.Point" stylename="homeLaboratory.rightView.materialItemCellPos" x="7" y="7"/>
+   	<custom classname="flash.geom.Point" stylename="homeLaboratory.rightView.needMoneyTipTxtPos" x="239" y="304"/>
+   	<custom classname="flash.geom.Point" stylename="homeLaboratory.helpBtnPos" x="735" y="14"/>
+   	<custom classname="asset.homeLaboratory.HelpText" stylename="asset.homeLaboratory.HelpText" x="182" y="240"/>
+</customs>
+<components>
+	<component classname="homeLaboratory.view.HomeLaboratoryFrame" stylename="homeLaboratory.homeLaboratoryFrame" width="812" height="518" moveEnable="false" backStyle="asset.homeLaboratory.homeLaboratoryFrameBg" closestyle="core.roundClosebt" closeInnerRectString="42,0,6,42,14" moveInnerRectString="0,30,0,30,1"/>
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="homeLaboratory.homeLaboratoryView.canMakeSCB" parentStyle="core.selectedCheck2" filterString="null,lightFilter,null,grayFilter" displacement="true" backStyle="asset.homeLaboratory.canMake" x="13" y="367"/>
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="homeLaboratory.homeLaboratoryView.unitScrollPanel" parentStyle="core.ScrollPanel" x="11" y="15" width="260" height="353" hScrollProxy="2" vScrollProxy="0" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="homeLaboratory.homeLaboratoryRightView.developBtn" backStyle="asset.homeLaboratory.developBtn" x="156" y="339"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeLaboratory.homeLaboratoryRightView.energyCountTxt" textFormatStyle="homeLaboratory.homeLaboratoryRightView.energyCountTxtTF" filterString="homeLaboratory.homeLaboratoryRightView.energyCountTxtGF" x="20" y="305"/>
+	<component classname="com.pickgliss.ui.controls.ListPanel" stylename="homeLaboratory.homeLaboratoryView.unitCellList" parentStyle="core.ScrollPanel" vScrollbarStyle="core.VScroll2bar" vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="1" hScrollProxy="2" vUnitIncrement="3" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|homeLaboratory.view.HomeLaboratoryUnitListCell,37,210" listStyle="com.pickgliss.ui.controls.list.List" width="230" height="202" x="6" y="52" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeLaboratory.rightView.previewTxt" textFormatStyle="homeLaboratory.rightView.previewTxtTF" filterString="homeLaboratory.rightView.previewTxtGF" x="78" y="145"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeLaboratory.StoreIIStrengthBG.GoodCellText" textFormatStyle="homeLaboratory.StoreIIStrengthBG.GoodCellTextTF" filterString="homeLaboratory.StoreIIStrengthBG.GoodCellTextGF" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeLaboratory.rightView.cellCountTxt" textFormatStyle="homeLaboratory.rightView.cellCountTxtTF" filterString="homeLaboratory.rightView.cellCountTxtGF" autoSize="none" width="65" height="22" x="8" y="57"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeLaboratory.rightView.successTipTxt" textFormatStyle="homeLaboratory.rightView.successTipTxtTF" filterString="homeLaboratory.rightView.successTipTxtGF" x="241" y="271"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeLaboratory.rightView.successRateTxt" textFormatStyle="homeLaboratory.rightView.successRateTxtTF" filterString="homeLaboratory.rightView.successRateTxtGF" x="344" y="271"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeLaboratory.rightView.needMoneyNumTxt" textFormatStyle="homeLaboratory.rightView.needMoneyNumTxtTF" filterString="homeLaboratory.rightView.needMoneyNumTxtGF" x="323" y="304"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeLaboratory.rightView.fusionNameTxt" textFormatStyle="homeLaboratory.rightView.fusionNameTxtTF" filterString="homeLaboratory.rightView.fusionNameTxtGF" autoSize="none" width="180" height="22" x="29" y="212"/>
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="homeLaboratory.functionPropBtn" unSelectedStyle="asset.homeLaboratory.functionProp" selectedStyle="asset.homeLaboratory.functionPropSelected" x="0" y="0" />
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="homeLaboratory.taskGoodsBtn" unSelectedStyle="asset.homeLaboratory.taskGoods" selectedStyle="asset.homeLaboratory.taskGoodsSelected" x="0" y="0" />
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="homeLaboratory.homeDressBtn" unSelectedStyle="asset.homeLaboratory.homeDress" selectedStyle="asset.homeLaboratory.homeDressSelected" x="0" y="0" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeLaboratory.cellNameTxt" textFormatStyle="homeLaboratory.cellNameTxtTF" filterString="homeLaboratory.cellNameTxtGF" isAutoFitLength="true" autoSize="none" width="145" height="20" x="20" y="9"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeLaboratory.cellCountTxt" textFormatStyle="homeLaboratory.cellCountTxtTF" filterString="homeLaboratory.cellCountTxtGF" autoSize="none" width="50" height="20" x="150" y="10"/>
+	
+	
+</components>
+<bitmaps>
+	<bitmapData resourceLink="asset.homeLaboratory.rightViewBg" x="0" y="0" />
+	<bitmapData resourceLink="asset.homeLaboratory.successBg" x="209" y="266" />
+	<bitmapData resourceLink="asset.homeLaboratory.canMake" x="28" y="2" />
+</bitmaps>
+</style>

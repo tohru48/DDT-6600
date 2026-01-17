@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="trainer6" version="1.0.1" source="ui/turkey/swf/trainer6.swf"> 
+  <customDisplay> 
+    <custom classname="trainer.view.ExplainThreeFourFive" stylename="trainer.ExplainThreeFourFive" width="1008" height="608"/> 
+  </customDisplay>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="trainer.explain.posThreeUpBg" x="276" y="273"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.explain.posFourBg" x="424" y="273"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.explain.posFiveBg" x="569" y="273"/> 
+  </customs>  
+  <components> 
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.explain.txtThreeFourFive" filterString="trainer.explain.glow1" textFormatStyle="trainer6.explain.tfThree" x="277" y="356"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.explain.txtPsThreeFourFive" filterString="trainer.explain.glow2" textFormatStyle="trainer6.explain.tfPs" x="266" y="415"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.explain.nameBg1" width="146" height="31"/>  
+    <bitmapData resourceLink="asset.explain.threeUp" width="65" height="65" x="315" y="189"/>  
+    <bitmapData resourceLink="asset.explain.bmpThreeUp" width="139" height="36" x="278" y="272"/>  
+    <bitmapData resourceLink="asset.explain.four" width="65" height="65" x="464" y="189"/>  
+    <bitmapData resourceLink="asset.explain.bmpFour" width="133" height="36" x="429" y="270"/>  
+    <bitmapData resourceLink="asset.explain.five" width="65" height="65" x="610" y="189"/>  
+    <bitmapData resourceLink="asset.explain.bmpFive" width="135" height="36" x="576" y="271"/> 
+  </bitmaps>  
+  <sets>
+    <set type="flash.text.TextFormat" stylename="trainer6.explain.tfThree" args="Arial,20,0xffffff"/>
+    <set type="flash.text.TextFormat" stylename="trainer6.explain.tfPs" args="Arial,14,0xff0000,true"/>
+  </sets>
+</style>

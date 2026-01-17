@@ -1,0 +1,129 @@
+<style name="ddplay" version="1.0.1" source="ui/turkey/swf/ddplay.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="DDPlay.view.explameTxt.tf" args="Arial,12,0xf9ff50,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="DDPlay.view.explameTxt.gf" args="0x4b0000,2,4,4,30"/>		
+		<set type="flash.text.TextFormat" stylename="DDPlay.view.coinsTxt.tf" args="Arial,12,0xdadada,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="DDPlay.view.coinsTxt.gf" args="0x2f1200,2,4,4,30"/>		
+		<set type="flash.text.TextFormat" stylename="DDPlay.exchange.frame.currentScoreTxt.tf" args="Arial,14,0xffc95d,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="DDPlay.exchange.frame.currentScoreTxt.gf" args="0x653d0c,2,4,4,30"/>		
+		<set type="flash.text.TextFormat" stylename="DDPlay.exchange.frame.currentScoreTxt2.tf" args="Arial,14,0xe4e0b4,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="DDPlay.exchange.frame.currentScoreTxt2.gf" args="0x5d3809,2,4,4,30"/>
+	<set type="flash.text.TextFormat" stylename="DDPlay.view.cuponTxt.tf" args="Arial,12,0xf9ff50"/>
+	</sets>
+	
+	<components>		
+		<component classname="DDPlay.DDPlayView" backStyle=""
+			closestyle="DDPlay.view.closebt" stylename="ddPlay.view.ddPlayView" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,19,5" containerX="0" containerY="0" escEnable="true"
+			closeInnerRectString="38,7,70,38,14" width="689" height="544" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="DDPlay.view.closebt"
+			backStyle="DDPlay.view.closeBtn"/>
+
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="DDPlay.view.upBtn" 
+			backStyle="DDPlay.view.upBtnImage" x="269" y="475"/>			
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="DDPlay.view.upBtnImage" resourceLink="core.bg6899,DDPlay.view.start"
+			imageRectString="0|151|0|54|13,0|151|0|54|13" width="151" height="54" />			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="DDPlay.view.stopUpBtn" 
+			backStyle="DDPlay.view.stopUpBtnImage" x="269" y="475"/>			
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="DDPlay.view.stopUpBtnImage" resourceLink="core.bg6899,DDPlay.view.stop"
+			imageRectString="0|151|0|54|13,0|151|-1|54|13" width="151" height="54" />
+		
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="DDPlay.view.SelectedCheckButton" parentStyle="DDPlay.view.simpleSelectBtn" x="555" y="485" fieldX="22" fieldY="0" width="103" height="30" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton"
+			stylename="DDPlay.view.simpleSelectBtn" unSelectedStyle="DDPlay.view.unSelectedCheck"
+			selectedStyle="DDPlay.view.selectedCheck" displacement="false"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="DDPlay.view.unSelectedCheck"
+			resourceLink="DDPlay.view.continuous.unSelected,DDPlay.view.continuous.onUnSelected,DDPlay.view.continuous.unSelected,DDPlay.view.continuous.onUnSelected"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="DDPlay.view.selectedCheck"
+			resourceLink="DDPlay.view.continuous.selected,DDPlay.view.continuous.onSelected,DDPlay.view.continuous.selected,DDPlay.view.continuous.onSelected"/>
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="DDPlay.view.exchangeBaseBtn" backStyle="DDPlay.view.exchangeBtn" filterString="null,lightFilter,null,grayFilter" x="544" y="428"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="DDPlay.view.explameTxt" 
+			textFormatStyle="DDPlay.view.explameTxt.tf" filterString="DDPlay.view.explameTxt.gf" 
+			autoSize="none" width="400" height="25" x="146" y="404"/>			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="DDPlay.view.coinsTxt" 
+			textFormatStyle="DDPlay.view.coinsTxt.tf" filterString="DDPlay.view.coinsTxt.gf" 
+			autoSize="none" width="58" height="25" x="321" y="435"/>			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="DDPlay.view.scoreTxt" 
+			textFormatStyle="DDPlay.view.coinsTxt.tf" filterString="DDPlay.view.coinsTxt.gf" 
+			autoSize="none" width="60" height="25" x="452" y="435"/>
+		
+		<component classname="DDPlay.DDPlayExchangeFrame" stylename="DDPlay.exchange.frame" width="400" height="255" moveEnable="false" 
+			backStyle="DDPlay.exchange.frame.bg" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,11,5"  	
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="DDPlay.exchange.frame.bg"	
+			parentStyle="SimpleFrameBackgoundOneIII" imageRectString=",17|17|58|17|4" />
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="DDPlay.exchange.frame.frameBtn" 
+			backStyle="DDPlay.exchange.frame.frameBtnImage" x="128" y="185"/>			
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="DDPlay.exchange.frame.frameBtnImage" resourceLink="core.bg6899,DDPlay.exchange.exchangeBtn"
+			imageRectString="0|150|0|50|13,16|114|11|29|13" width="114" height="29" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="DDPlay.exchange.frame.background" 
+			parentStyle="core.bg6920" width="362" height="130" x="19" y="45" scaleGridString="5,10,80,20" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="DDPlay.exchange.frame.InputBg" 
+			parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"  x="248" y="25" width="89" height="31" />
+		<component classname="DDPlay.DDPlayExchangeNumberSekecter" stylename="DDPlay.exchange.frame.NumberSelecter" 
+			backStyle="core.ddtshop.NumberSelecterTextBg"
+			targetFieldStyle='core.ddtshop.NumberSelecterTxt' 
+			upStyle="core.ddtshop.ShopDownButton" 
+			downStyle="core.ddtshop.ShopUpButton" 
+			valueLimit="0,999999999"
+			x='152' y='80'	/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="DDPlay.exchange.frame.currentScoreTxt" 
+			textFormatStyle="DDPlay.exchange.frame.currentScoreTxt.tf" filterString="DDPlay.exchange.frame.currentScoreTxt.gf" 
+			autoSize="none" width="75" height="25" x="128" y="136"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="DDPlay.exchange.frame.currentScoreTxt2" 
+			textFormatStyle="DDPlay.exchange.frame.currentScoreTxt2.tf" filterString="DDPlay.exchange.frame.currentScoreTxt2.gf" 
+			autoSize="none" width="80" height="25" x="201" y="136"/>
+			
+		<custom classname="DDPlay.DDPlayQuickBuy" stylename="DDPlay.quickBuyCoins.frame" backStyle="SimpleFrameBackgoundOneIII" 
+			submitButtonStyle="core.simplebt" width="330" height="300" containerX="45" containerY="45" closestyle="core.closebt" 
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,10,5" closeInnerRectString="44,6,6,30,14"/>
+		
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="DDPlay.quickBox" x="5" y="15" spacing="25"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="DDPlay.view.cuponTxt" textFormatStyle="DDPlay.view.cuponTxt.tf" filterString="DDPlay.view.explameTxt.gf" autoSize="none" width="400" height="25" x="146" y="404"/>
+		
+	</components>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.2Bogu1" y="86" />	
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.1Bogu1" y="-39" />	
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.3Bogu1" y="-164" />	
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.2Bogu2" y="-289" />		
+		<custom classname="flash.geom.Point" stylename="DDPlay.cuponTxtPos" x="146" y="436"/>
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.maskPos1" x="76" y="176" />
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.maskPos2" x="259" y="176" />
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.maskPos3" x="442" y="176" />		
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.sixBogu1" x="95" y="-39" />
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.sixBogu2" x="278" y="-289" />
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.sixBogu3" x="461" y="-164" />	
+		
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.lights" x="35" y="94" />
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.shine1" x="295" y="312" />
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.shine2" x="477" y="312" />
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.shine3" x="660" y="312" />
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.finallyLight" x="325" y="302" />
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.titleshine" x="309" y="341" />
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.titlelight" x="40" y="116" />
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.tripleMc" x="324" y="302" />
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.fivefoldMc" x="324" y="302" />
+		<custom classname="flash.geom.Point" stylename="DDPlay.view.temfoldMc" x="324" y="302" />
+		
+		<custom classname="flash.geom.Point" stylename="DDPlay.quickBuy.listPos" x="72" y="15"/>
+		<custom classname="flash.geom.Point" stylename="DDPlay.quickBuy.font1Pos" x="24" y="162"/>
+		<custom classname="flash.geom.Point" stylename="DDPlay.quickBuy.font2Pos" x="163" y="162"/>
+		<custom classname="flash.geom.Point" stylename="DDPlay.quickBuy.moneybgPos" x="-27" y="155"/>
+	</customs>
+	
+	<bitmaps>
+		<bitmapData resourceLink="DDPlay.view.triple" x="156" y="126"/>
+		<bitmapData resourceLink="DDPlay.view.fiveFold" x="342" y="125"/>
+		<bitmapData resourceLink="DDPlay.view.tenFold" x="525" y="126"/>
+		<bitmapData resourceLink="DDPlay.exchange.exchangeNumber" x="47" y="80"/>
+		<bitmapData resourceLink="DDPlay.exchange.currentScoreBg" x="23" y="132"/>
+	</bitmaps>
+</style>

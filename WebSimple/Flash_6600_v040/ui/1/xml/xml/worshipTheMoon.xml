@@ -1,0 +1,50 @@
+<style name="worshipTheMoon" version="6.4.0" source="ui/turkey/swf/worshipTheMoon.swf">
+	<components>
+	<component classname="midAutumnWorshipTheMoon.view.WorshipTheMoonMainFrame"
+			closestyle="core.closebt" titleOuterRectPosString="24,10,5" titleStyle="FrameTitleTextStyle" backStyle="SimpleFrameBackgoundOne" 
+			closeInnerRectString="44,14,6,30,14" stylename="worship.mainframe"
+			 x="-160" y="-140" escEnable="true"
+			width="858" height="518" />
+<!-- 		购买1次 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="worshipTheMoon.btn.buyOnce" backStyle="worshipTheMoon.btn.once" x="114" y="434"/>
+<!-- 		购买10次 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="worshipTheMoon.btn.buyTenTimes" backStyle="worshipTheMoon.btn.tenTimes"x="378" y="434"/>
+
+<component classname="magicStone.components.MagicStoneConfirmView" stylename="worship.confirmView"  parentStyle="SimpleAlert"/>
+<!-- 		剩余次数文本框 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worshipTheMoon.txt.TimesRemain" 
+		textFormatStyle="wtm.txtFormat.timesRemain" filterString="wtm.filter.timesRemain"  type="dynamic"
+		x="547" y="54" width="30" height="20"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worshipTheMoon.txt.TimesUsed" 
+		textFormatStyle="wtm.txtFormat.timesUsed" filterString="wtm.filter.timesUsed"  type="dynamic"
+		x="765" y="343" width="50" height="20"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worshipTheMoon.txt.details" 
+		textFormatStyle="wtm.txtFormat.details" filterString="wtm.filter.details"  type="dynamic"
+		x="602" y="357" width="230" height="108" wordWrap="true"/>
+	</components>
+	<sets>
+		<set stylename="wtm.txtFormat.timesRemain" args="Arial,14,0x54b1ff,true" type="flash.text.TextFormat"/>
+		<set stylename="wtm.filter.timesRemain" args="0x000565,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="wtm.txtFormat.timesUsed" args="Arial,14,0xfffaad,true" type="flash.text.TextFormat"/>
+		<set stylename="wtm.filter.timesUsed" args="0x471e00,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="wtm.txtFormat.details" args="Arial,10,0xfcf3a7"  type="flash.text.TextFormat"/>
+		<set stylename="wtm.filter.details" args="0x5a2c00,1,2,2,20" type="flash.filters.GlowFilter"/>
+	</sets>
+	<customs>
+	</customs>
+	<bitmaps>
+		
+		<bitmapData  resourceLink="worship.alreadyGet"  x="20" y="-3"/>
+		<bitmapData  resourceLink="worshipTheMoon.clickToGain"  x="5" y="43"/>
+		<bitmapData  resourceLink="worshipTheMoon.BG"  x="18" y="45"/>
+		<bitmapData resourceLink="worshipTheMoon.bm.timesRemainTitle"  x="438" y="52"/>
+	</bitmaps>
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="worshipTheMoon.pt.on200" x="687" y="261"/>
+		<custom classname="flash.geom.Point" stylename="worshipTheMoon.pt.animation" x="122" y="425"/>
+	</customDisplay>
+</style>

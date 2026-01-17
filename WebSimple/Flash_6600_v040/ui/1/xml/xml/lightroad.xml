@@ -1,0 +1,76 @@
+<style name="lightroad" version="2.0.1" source="ui/turkey/swf/lightroad.swf">
+
+
+
+	<sets>
+		<set type="flash.text.TextFormat" stylename="lightRoad.gift.NumberTxt1TF" args="Arial,12,0xFFFF00,true,,,,,right"/>
+		<set type="flash.filters.GlowFilter" stylename="lightRoad.gift.NumberTxt1GF" args="0x471E00,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="lightRoad.gift.NumberTxt2TF" args="Arial,13,0xFFFF00,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="lightRoad.gift.NumberTxt2GF" args="0x471E00,1,2,2,10"/>
+	
+		<set type="flash.text.TextFormat" stylename="lightRoad.gift.DayTxtTF" args="Arial,12,0xFFFAAD,,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="lightRoad.gift.DayTxtGF" args="0x471E00,1,2,2,10"/>
+	</sets>
+	
+	
+	
+
+
+	<components>
+		<!-- 光辉征途主界面 -->
+		<component classname="lightRoad.view.MainFrame" backStyle="SimpleFrameBackgound"
+		closestyle="core.closebt" stylename="lightRoad.MainFrame" titleStyle="FrameTitleTextStyle"
+		titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+		closeInnerRectString="44,19,6,30,14" width="890" height="588" />
+		<!-- 帮助按钮 -->
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="lightroad.help.btn" backStyle="asset.lightroad.swf.help.png" x="773" y="-41" filterString="null,lightFilter,lightFilter,grayFilter"/>
+		
+		
+		<!-- 帮助窗口 -->
+		<component classname="lightRoad.view.LightRoadHelpFrame" stylename="LightRoad.HelpFrame" parentStyle="BaseFrame" width="414" height="454" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="lightRoad.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="0" y="0" width="390" height="356" />
+		<component classname="store.HelpPrompt" stylename="lightRoad.HelpPrompt" bg9ScalseStyle="lightRoad.HelpFrame.FrameBg" contentStyle="lightRoad.helpFrame.ContentText" x="12" y="38" />
+		
+		<!-- 物品上的文字 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="lightRoad.gift.Number1Txt" filterString="lightRoad.gift.NumberTxt1GF" textFormatStyle="lightRoad.gift.NumberTxt1TF" autoSize="none" height="20" width="40" x="8" y="30"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="lightRoad.gift.Number2Txt" filterString="lightRoad.gift.NumberTxt2GF" textFormatStyle="lightRoad.gift.NumberTxt2TF" autoSize="none" height="20" width="40" x="6" y="33"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="lightRoad.gift.DayTxt" filterString="lightRoad.gift.DayTxtGF" textFormatStyle="lightRoad.gift.DayTxtTF" autoSize="none" height="20" width="410" x="104" y="490"/>
+		
+		
+		
+		<!-- 按钮 -->
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="lightRoad.Gift.activation.btn" backStyle="asset.lightroad.swf.activationBtn.png" x="-5" y="55" filterString="null,lightFilter,lightFilter,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="lightRoad.Gift.draw.btn" backStyle="asset.lightroad.swf.drawBtn.png" x="-2" y="60" filterString="null,lightFilter,lightFilter,grayFilter"/>
+		
+		
+		
+		
+	</components>
+	
+	
+	
+	<bitmaps>
+		
+		<bitmapData resourceLink="asset.lightroad.swf.backGround.png" x="0" y="0"/>
+		
+		
+	</bitmaps>
+	
+	
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="light.getCartoonPos5" x="200" y="183"/>
+		<custom classname="flash.geom.Point" stylename="light.getCartoonPos6" x="200" y="383"/>
+		<custom classname="flash.geom.Point" stylename="light.getCartoonPos8" x="331" y="286"/>
+		<custom classname="flash.geom.Point" stylename="light.getCartoonPos11" x="463" y="229"/>
+		<custom classname="flash.geom.Point" stylename="light.getCartoonPos12" x="463" y="340"/>
+		<custom classname="flash.geom.Point" stylename="light.getCartoonPos14" x="602" y="183"/>
+		<custom classname="flash.geom.Point" stylename="light.getCartoonPos16" x="602" y="381"/>
+		<custom classname="flash.geom.Point" stylename="light.getCartoonPos17" x="773" y="283"/>
+		
+		<custom classname="flash.geom.Point" stylename="light.giftItem.Pos2" x="-3" y="-3"/>
+		
+	</customs>
+	
+</style>

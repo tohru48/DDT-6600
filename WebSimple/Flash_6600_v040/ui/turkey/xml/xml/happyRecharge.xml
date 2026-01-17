@@ -1,0 +1,146 @@
+<style name="happyRecharge" version="6.4.0" source="ui/turkey/swf/happyRecharge.swf">
+	<components>
+		<component classname="HappyRecharge.HappyRechargeFrame" stylename="happyrecharge.mainframe" 
+			titleStyle="FrameTitleTextStyle" closestyle="happyrecharge.mainframe.closebt" titleOuterRectPosString="15,10,5" 
+			containerX="0" containerY="0" escEnable="true" closeInnerRectString="690,42,30,42,13" width="730" height="447" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="happyrecharge.mainframe.closebt"
+			backStyle="happyRecharge.mainFrame.closeBtn"/>	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="happyrecharge.mainframe.helpbt"
+			backStyle="happyRecharge.mainFrame.helpBtn" x="668" y="22" />
+		
+		<!-- tipStyle="core.CallPropTxtTips" tipDirctions="2,5,7" tipWidth="150" tipGapH="120" tipGapV="10" -->
+		<component classname="com.pickgliss.ui.image.Image" stylename="mainframe.bigcell.9" 
+			resourceLink="happyRecharge.mainFrame.bigcell.image.9"
+			tipStyle="HappyRecharge.HappyRechargeSpecialItemTip" tipDirctions="2,5,7" tipWidth="150" tipGapH="20" tipGapV="10"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="mainframe.bigcell.10" 
+			resourceLink="happyRecharge.mainFrame.bigcell.image.10"
+			tipStyle="HappyRecharge.HappyRechargeSpecialItemTip" tipDirctions="2,5,7" tipWidth="150" tipGapH="20" tipGapV="10"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="mainframe.bigcell.11" 
+			resourceLink="happyRecharge.mainFrame.bigcell.image.11"
+			tipStyle="HappyRecharge.HappyRechargeSpecialItemTip" tipDirctions="2,5,7" tipWidth="150" tipGapH="20" tipGapV="10"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="mainframe.bigcell.12" 
+			resourceLink="happyRecharge.mainFrame.bigcell.image.12"
+			tipStyle="HappyRecharge.HappyRechargeSpecialItemTip" tipDirctions="2,5,7" tipWidth="150" tipGapH="20" tipGapV="10"/>
+		
+		<!-- <component classname="flash.display.SimpleButton" stylename="mainFrame.startBtn" x="172" y="164" resourceLink="happyRecharge.mainFrame.startBtn" />×××× --> 
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="exchangeview.dirTxt" 
+			textFormatStyle="exchangeview.Txt.tf" filterString="exchangeview.Txt.gf" x="34" y="9"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="exchangeview.numTxt" 
+			textFormatStyle="exchangeview.Txt.tf" filterString="exchangeview.Txt.gf" x="90" y="9"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="exchangeview.exchangeBtn"
+			backStyle="happyRecharge.exchangeView.exchangeBtn" x="165" y="6" />
+		
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="mainframe.recordViewList" parentStyle="core.ScrollPanel"
+			hScrollProxy="2" vScrollProxy="1" width="260" height="120" x="450" y="129" vUnitIncrement="10" />
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="mainframe.recordView.Vbox" x="0" y="0" spacing="0" />	
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="mainframe.exchangeViewList" parentStyle="core.ScrollPanel"
+			hScrollProxy="2" vScrollProxy="1" width="260" height="120" x="450" y="280" vUnitIncrement="10" />
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="mainframe.exchangeView.Vbox" x="0" y="0" spacing="2" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="happyRecharge.mainFrame.startAllBtn" backStyle="happyRecharge.mainFrame.startAllBtnBG" x="172" y="218"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="happyRecharge.mainFrame.stopAutoBtn" backStyle="happyRecharge.mainFrame.stopAutoBtnBG" x="172" y="218"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="happyRecharge.mainFrame.startBtn" backStyle="happyRecharge.mainFrame.startBtnBG" x="172" y="164"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="mainframe.activityData.Txt" 
+			textFormatStyle="mainframe.activityData.Txt.tf" filterString="mainframe.activityData.Txt.gf" x="363" y="412"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="mainframe.record.commondTxt" 
+			textFormatStyle="mainframe.record.commondTxt.tf" filterString="mainframe.record.commondTxt.gf" autoSize="none" width="236" height="38" wordWrap="true" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="mainframe.record.specialTxt" 
+			textFormatStyle="mainframe.record.specialTxt.tf" filterString="mainframe.record.specialTxt.gf" autoSize="none" width="236" height="38" wordWrap="true" x="0" y="0"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="mainframe.specialitemtip.titleTxt" 
+			textFormatStyle="mainframe.specialitemtip.title.tf" filterString="mainframe.specialitemtip.title.gf" x="8" y="14"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="mainframe.specialitemtip.bodyTxt" 
+			textFormatStyle="mainframe.specialitemtip.body.tf" filterString="mainframe.specialitemtip.body.gf" autoSize="none" width="188" height="44" wordWrap="true" x="8" y="42"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="mainframe.helpframe.contentTxt" 
+			textFormatStyle="mainframe.helpframe.contentTxt.tf" filterString="mainframe.helpframe.contentTxt.gf" autoSize="none" width="330" height="330" wordWrap="true" x="34" y="75"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="exchangeItemCellCountText" 
+			textFormatStyle="exchange.itemcell.countTF" filterString="P_g4" x="0" y="0" autoSize="none" width="30" height="20"/>	
+	</components>
+	<sets>
+		<set type="flash.text.TextFormat" stylename="exchangeview.Txt.tf" args="Arial,12,0xdddddd"/>
+		<set type="flash.filters.GlowFilter" stylename="exchangeview.Txt.gf" args="0x2e2001,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="mainframe.activityData.Txt.tf" args="Arial,12,0xddc762,true"/>
+		<set type="flash.filters.GlowFilter" stylename="mainframe.activityData.Txt.gf" args="0x1a0000,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="mainframe.record.commondTxt.tf" args="Arial,12,0x8ba1b5" leading="3"/>
+		<set type="flash.filters.GlowFilter" stylename="mainframe.record.commondTxt.gf" args="0x0d0700,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="mainframe.record.specialTxt.tf" args="Arial,12,0xe70202" leading="3"/>
+		<set type="flash.filters.GlowFilter" stylename="mainframe.record.specialTxt.gf" args="0x0d0700,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="mainframe.specialitemtip.title.tf" args="Arial,14,0xefff00,true" />
+		<set type="flash.filters.GlowFilter" stylename="mainframe.specialitemtip.title.gf" args="0x000000,1,1,1,10"/>
+		<set type="flash.text.TextFormat" stylename="mainframe.specialitemtip.body.tf" args="Arial,12,0xffffff,true" />
+		<set type="flash.filters.GlowFilter" stylename="mainframe.specialitemtip.body.gf" args="0x0000000,1,1,1,10"/>
+		<set type="flash.text.TextFormat" stylename="mainframe.helpframe.contentTxt.tf" args="Arial,12,0xf5edb9,true" leading="15"/>
+		<set type="flash.filters.GlowFilter" stylename="mainframe.helpframe.contentTxt.gf" args="0x693812,1,4,4,10"/>
+		<set stylename="exchange.itemcell.countTF" args="Arial,14,0x000000,,,,,,right" type="flash.text.TextFormat"/>
+	</sets>
+	<customs>
+	</customs>
+	<bitmaps>
+		<bitmapData resourceLink="happyRecharge.mainFrame.pointerbigcircleback" x="103" y="95"/>
+		<bitmapData resourceLink="happyRecharge.mainFrame.startsmallcircleback" x="167" y="159"/>
+	</bitmaps>
+	<customDisplay>
+		<!-- <custom classname="happyRecharge.mainFrame.helpContent" stylename="happyRecharge.mainFrame.help.content" x="34" y="75"/> -->
+		
+		<custom classname="flash.geom.Point" stylename="mainframe.lotterycount.pos" x="461" y="14"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizecount.pos" x="661" y="63"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizecount.x.pos" x="646" y="61"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizecell.pos" x="600" y="52"/>
+		
+		<custom classname="flash.geom.Point" stylename="mainframe.prizeAreacell.pos.0" x="236" y="47"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizeAreacell.pos.1" x="312" y="86"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizeAreacell.pos.2" x="347" y="156"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizeAreacell.pos.3" x="349" y="236"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizeAreacell.pos.4" x="308" y="307"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizeAreacell.pos.5" x="238" y="348"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizeAreacell.pos.6" x="158" y="345"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizeAreacell.pos.7" x="89" y="306"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizeAreacell.pos.8" x="50" y="234"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizeAreacell.pos.9" x="50" y="159"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizeAreacell.pos.10" x="85" y="84"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.prizeAreacell.pos.11" x="159" y="47"/>
+		
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshinemc.pos.0" x="263" y="73"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshinemc.pos.1" x="337" y="111"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshinemc.pos.2" x="369" y="182"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshinemc.pos.3" x="372" y="263"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshinemc.pos.4" x="334" y="331"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshinemc.pos.5" x="265" y="372"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshinemc.pos.6" x="182" y="370"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshinemc.pos.7" x="115" y="332"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshinemc.pos.8" x="74" y="258"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshinemc.pos.9" x="75" y="184"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshinemc.pos.10" x="108" y="111"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshinemc.pos.11" x="185" y="72"/>
+		
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshineobject.pos.0" x="241" y="51"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshineobject.pos.1" x="316" y="89"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshineobject.pos.2" x="351" y="160"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshineobject.pos.3" x="352" y="240"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshineobject.pos.4" x="312" y="311"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshineobject.pos.5" x="241" y="352"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshineobject.pos.6" x="162" y="350"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshineobject.pos.7" x="92" y="310"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshineobject.pos.8" x="53" y="238"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshineobject.pos.9" x="54" y="163"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshineobject.pos.10" x="89" y="88"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.cellshineobject.pos.11" x="162" y="51"/>
+		
+		<custom classname="flash.geom.Point" stylename="mainframe.pointerbackhalo.mc.pos" x="147" y="96"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.pointer.mc.pos" x="224" y="219"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.bottomBack.mc.pos" x="63" y="237"/>
+		
+		<custom classname="flash.geom.Point" stylename="exchangeView.cell.pos" x="-5" y="-6"/>
+		<custom classname="flash.geom.Point" stylename="exchangeView.ticket.pos" x="136" y="1"/>
+		
+		<custom classname="flash.geom.Point" stylename="mainframe.specialitemtip.line.pos" x="6" y="36"/>
+		<custom classname="flash.geom.Point" stylename="mainframe.specialitemtip.tipwidthandheight" x="205" y="110"/>
+		
+		<custom classname="flash.geom.Point" stylename="mainframe.startBtn.pos" x="172" y="164"/>
+		<custom classname="flash.geom.Point" stylename="exchangeview.itemcount.txt.pos" x="4" y="14"/>
+	</customDisplay>
+</style>

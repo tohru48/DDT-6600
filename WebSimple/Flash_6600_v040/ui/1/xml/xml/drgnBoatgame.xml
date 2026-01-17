@@ -1,0 +1,124 @@
+<style name="drgnBoatgame" version="5.1.0" source="ui/turkey/swf/drgnBoatgame.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="drgnBoat.rankView.titleTxt.tf" args="Arial,14,0xffba00,true"/>
+		<set type="flash.filters.GlowFilter" stylename="drgnBoat.rankView.titleTxt.gf" args="0x000000,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="drgnBoat.countDownView.txt.tf" args="Arial,14,0xffffff"/>
+		<set type="flash.filters.GlowFilter" stylename="drgnBoat.countDownView.txt.gf" args="0x781f00,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="drgnBoat.rankView.cellTxt.tf" args="Arial,14,0xffffff"/>
+		<set type="flash.filters.GlowFilter" stylename="drgnBoat.rankView.cellTxt.gf" args="0x000000,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="drgnBoat.rankView.cellNameTxt.tf" args="Arial,14,0xffffff,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="drgnBoat.rankView.cellNameTxt.gf" args="0x000000,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="drgnBoat.game.playerNameTxt.tf" args="Arial,12,0xffffff,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="drgnBoat.game.playerNameTxt.gf" args="0x000000,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="drgnBoat.game.buffTitleTxt.tf" args="Arial,14,0xff0000,true"/>
+		<set type="flash.filters.GlowFilter" stylename="drgnBoat.game.buffTitleTxt.gf" args="0x000000,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="drgnBoat.game.buffCountDownTxt.tf" args="Arial,14,0xff0000"/>
+		<set type="flash.filters.GlowFilter" stylename="drgnBoat.game.buffCountDownTxt.gf" args="0x000000,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="drgnBoat.missileFrame.labelTxt.tf" args="Arial,14,0xf6eeba,true"/>
+		<set type="flash.filters.GlowFilter" stylename="drgnBoat.missileFrame.labelTxt.gf" args="0x693816,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="drgnBoat.missileFrame.nameTxt.tf" args="Arial,18,0xFFFFFF,,,,,,center" />
+		<set type="flash.filters.GlowFilter" stylename="drgnBoat.missileFrame.nameTxt.gf" args="0x000000,1,2,2,10"  />
+		<set type="flash.text.TextFormat" stylename="drgnBoat.paopaoTxtTF" args="Arial,12,0x000000"  leading="6"/>
+		<set type="flash.filters.GlowFilter" stylename="drgnBoat.paopaoTxtGF" args="0xffffff,1,2,2,10"/>
+	</sets>	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="drgnBoat.game.waitStartGamePromptPos" x="522" y="249"/>
+		
+		<custom classname="flash.geom.Point" stylename="drgnBoat.rankView.nameTitleTxtPos" x="87" y="37"/>
+		<custom classname="flash.geom.Point" stylename="drgnBoat.rankView.rateTitleTxtPos" x="160" y="37"/>
+		<custom classname="flash.geom.Point" stylename="drgnBoat.rankView.sprintTitleTxtPos" x="220" y="37"/>
+
+		<custom classname="flash.geom.Point" stylename="drgnBoat.gameStart.countDownViewPos" x="485" y="217"/>
+		
+		<custom classname="flash.geom.Point" stylename="drgnBoat.rankView.cellNameTxtPos" x="60" y="1"/>
+		<custom classname="flash.geom.Point" stylename="drgnBoat.rankView.cellRateTxtPos" x="148" y="0"/>
+		<custom classname="flash.geom.Point" stylename="drgnBoat.rankView.cellAwardCellPos" x="179" y="-6"/>
+		
+		<custom classname="flash.geom.Point" stylename="drgnBoat.gamePlayer.fightMcPos" x="2" y="-93"/>
+		
+		<custom classname="flash.geom.Point" stylename="drgnBoat.missileFrame.btnPos" x="44" y="159"/>
+		<custom classname="flash.geom.Point" stylename="drgnBoat.game.npcPlayerTipsPos" x="44" y="-30"/>
+		<custom classname="flash.geom.Point" stylename="drgnBoat.paopaoPos" x="11" y="16"/>
+	</customs>
+	<components>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoat.moveOutBtn" 
+			backStyle="drgnBoat.moveOutBtnMC" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoat.moveInBtn" 
+			backStyle="drgnBoat.moveInBtnMC" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoat.returnBtn" 
+			backStyle="drgnBoat.returnBtnMC" x="35" y="4"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoat.leapBtn" 
+			backStyle="drgnBoat.leapBtnImg" tipStyle="ddt.view.tips.OneLineTip"  tipDirctions="0,4,1" 
+			x="23" y="13"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoat.invisibilityBtn" 
+			backStyle="drgnBoat.invisibilityBtnImg" tipStyle="ddt.view.tips.OneLineTip"  tipDirctions="0,4,1" 
+			x="23" y="57"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoat.cleanBtn" 
+			backStyle="drgnBoat.cleanBtnImg" tipStyle="ddt.view.tips.OneLineTip"  tipDirctions="0,4,1" 
+			x="23" y="100"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoat.missileBtn" 
+			backStyle="drgnBoat.missileBtnImg" tipStyle="ddt.view.tips.OneLineTip"  tipDirctions="0,4,1" 
+			x="23" y="144"/>
+
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoat.countDownView.txt" 
+			textFormatStyle="drgnBoat.countDownView.txt.tf" filterString="drgnBoat.countDownView.txt.gf" 
+			x="39" y="10"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoat.rankViewMoveOutBtn" 
+			backStyle="drgnBoat.rankViewMoveOutBtnImg" x="-24" y="37"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoat.rankViewMoveInBtn" 
+			backStyle="drgnBoat.rankViewMoveInBtnImg" x="-24" y="37"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoat.rankView.titleTxt" 
+			textFormatStyle="drgnBoat.rankView.titleTxt.tf" filterString="drgnBoat.rankView.titleTxt.gf" 
+			x="10" y="37"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="drgnBoat.HelpButton" 
+			backStyle="asset.ddtcore.helpbutton" x="646" y="-2"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoat.rankView.cellTxt" 
+			textFormatStyle="drgnBoat.rankView.cellTxt.tf" filterString="drgnBoat.rankView.cellTxt.gf" 
+			x="0" y="0"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoat.rankView.cellNameTxt" 
+			textFormatStyle="drgnBoat.rankView.cellNameTxt.tf" filterString="drgnBoat.rankView.cellNameTxt.gf" 
+			autoSize="none" width="100" height="18" x="35" y="0"/>
+
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoat.game.playerNameTxt" 
+			textFormatStyle="drgnBoat.game.playerNameTxt.tf" filterString="drgnBoat.game.playerNameTxt.gf" 
+			autoSize="none" x="-220" y="-77" width="250" height="18"/>		
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoat.game.buffTitleTxt" 
+			textFormatStyle="drgnBoat.game.buffTitleTxt.tf" filterString="drgnBoat.game.buffTitleTxt.gf" 
+			x="4" y="2"/>	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoat.game.buffCountDownTxt" 
+			textFormatStyle="drgnBoat.game.buffCountDownTxt.tf" filterString="drgnBoat.game.buffCountDownTxt.gf" 
+			x="41" y="2"/>
+
+		<component classname="drgnBoat.views.DrgnBoatBuyConfirmView" stylename="DrgnBoatBuyConfirmView1"
+			parentStyle="SimpleAlert" frameInnerRectString="60,45,50,85,-1"/>		
+
+		<component classname="drgnBoat.views.DrgnBoatMissileFrame" backStyle="SimpleFrameBackgoundOneIII"
+			closestyle="core.closebt" stylename="drgnBoat.missileFrame.frame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="20" containerY="47" escEnable="true"
+			closeInnerRectString="44,19,6,30,14" width="240" height="260" />
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="drgnBoat.missileFrame.vbox"
+			x="11" y="42" spacing="-7"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoat.missileFrame.labelTxt" 
+			textFormatStyle="drgnBoat.missileFrame.labelTxt.tf" filterString="drgnBoat.missileFrame.labelTxt.gf" 
+			x="24" y="3"/>	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoat.missileFrame.nameTxt" 
+			autoSize="none" isAutoFitLength="true" textFormatStyle="drgnBoat.missileFrame.nameTxt.tf" filterString="drgnBoat.missileFrame.nameTxt.gf"
+			x="30" y="5"  width="100" height="25"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="drgnBoat.paopaoTxt" 
+			textFormatStyle="drgnBoat.paopaoTxtTF" filterString="drgnBoat.paopaoTxtGF" 
+			x="60" y="20"/>
+
+	</components>
+	<bitmaps>
+		<bitmapData resourceLink="drgnBoat.missile.labelBg" x="-1" y="-1"/>
+		<bitmapData resourceLink="drgnBoat.missile.listBg" x="1" y="35"/>
+		<bitmapData resourceLink="drgnBoat.missile.selectedLight" x="-11" y="-8"/>
+		<bitmapData resourceLink="drgnBoat.leapPromptArrow" x="0" y="-30"/>
+	</bitmaps>
+</style>

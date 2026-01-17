@@ -1,0 +1,175 @@
+<style name="ddqiyuan" version="1.0.1" source="ui/cn_trad/swf/ddqiyuan.swf">
+	<sets>
+		<set stylename="ddQiYuan.gouYuNumTf.format" args="宋体,12,0xfefb8d" type="flash.text.TextFormat" leading="5" letterSpacing="0" />
+		<set stylename="ddQiYuan.offerProgressTf.format" args="宋体,12,0xffffff,,,,,,center" type="flash.text.TextFormat" leading="5" letterSpacing="1" />
+		<set stylename="ddQiYuan.offerInfoTf.format" args="宋体,12,0xfefb8d,true" type="flash.text.TextFormat" leading="-4" letterSpacing="0" />
+		<set stylename="ddQiYuan.areaRankItemRankTf.format" args="宋体,18,0xFFFFFF,true,,,,,center" type="flash.text.TextFormat" leading="5" letterSpacing="1" />
+		<set stylename="ddQiYuan.areaRankPlayerNameTf.format" args="宋体,12,0xffffff,,,,,,center" type="flash.text.TextFormat" leading="5" letterSpacing="1" />
+		<set stylename="ddQiYuan.beliefRewardConTf.format" args="宋体,12,0xfff06e,true" type="flash.text.TextFormat" leading="5" letterSpacing="0" />
+		<set stylename="ddQiYuan.beliefRewardOfferTimesTf.format" args="宋体,12,0xfef98c" type="flash.text.TextFormat" leading="-4" letterSpacing="0" />
+		<set stylename="ddQiYuan.joinRewardInfoTf.format" args="宋体,11,0xfef4b2" type="flash.text.TextFormat" leading="0" letterSpacing="0" />
+		<set stylename="ddQiYuan.probabilityGainTf.format" args="宋体,14,0xfff06e" type="flash.text.TextFormat" leading="5" letterSpacing="1" />
+		<set stylename="ddQiYuan.tower.leftTimeTf.format" args="宋体,12,0xffe773" type="flash.text.TextFormat" leading="5" letterSpacing="1" />
+		<set stylename="ddQiYuan.tower.itemUncompleteTf.format" args="宋体,14,0xffd6af,,,,,,center" type="flash.text.TextFormat" leading="5" letterSpacing="1" />
+		<set stylename="ddQiYuan.tower.itemCompleteTf.format" args="宋体,14,0x85e8f6,,,,,,center" type="flash.text.TextFormat" leading="5" letterSpacing="1" />
+		<set stylename="ddQiYuan.tower.noticeTf.format" args="宋体,12,0xfb3d16" type="flash.text.TextFormat" leading="5" letterSpacing="0" />
+		
+		<set stylename="ddQiYuan.gouYuNumTf.filter" args="0x4e0e00,1,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddQiYuan.areaRankItemRankTf.filter" args="0x0,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddQiYuan.areaRankPlayerNameTf.filter" args="0x0,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddQiYuan.beliefRewardConTf.filter" args="0x4e2100,1,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddQiYuan.beliefRewardOfferTimesTf.filter" args="0x510E01,1,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddQiYuan.joinRewardInfoTf.filter" args="0x5f3f0c,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddQiYuan.probabilityGainTf.filter" args="0x4e2100,1,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddQiYuan.tower.leftTimeTf.filter" args="0x2d1800,1,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddQiYuan.tower.itemUncompleteTf.filter" args="0x4f1701,1,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddQiYuan.tower.itemCompleteTf.filter" args="0x032e58,1,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddQiYuan.tower.noticeTf.filter" args="0x230100,1,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddQiYuan.continuousSelectedCheckButtonTxtGF" args="0x5B2C02,1,4,4,20" type="flash.filters.GlowFilter"/>
+		<set stylename="ddQiYuan.continuousSelectedCheckButtonTxtTF" args="宋体,12,0xFBF2A5,,,,,,center" type="flash.text.TextFormat"/>
+		
+	</sets>
+	
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="ddQiYuan.boGuAniPos" x="287" y="246"/>	
+		<custom classname="ddQiYuan.view.HasGetGoodsList"
+			stylename="ddQiYuan.HasGetGoodsList" x="433" y="94" />
+		<custom classname="flash.geom.Point" stylename="ddQiYuan.joinBagCell1Pos" x="691" y="516"/>
+		<custom classname="flash.geom.Point" stylename="ddQiYuan.joinBagCell2Pos" x="808" y="516"/>
+		<custom classname="flash.geom.Point" stylename="ddQiYuan.tower.item.row1" x="286" y="122"/>
+		<custom classname="flash.geom.Point" stylename="ddQiYuan.tower.item.row2" x="231" y="207"/>
+		<custom classname="flash.geom.Point" stylename="ddQiYuan.tower.item.row3" x="173" y="292"/>
+		<custom classname="flash.geom.Point" stylename="ddQiYuan.tower.item.row4" x="118" y="377"/>
+		<custom classname="flash.geom.Point" stylename="ddQiYuan.tower.item.row5" x="58" y="462"/>
+		<custom classname="flash.geom.Point" stylename="ddQiYuan.tower.bagCell.row1" x="690" y="132"/>
+		<custom classname="flash.geom.Point" stylename="ddQiYuan.tower.getBtn.row1" x="752" y="135"/>	
+		<custom classname="flash.geom.Point" stylename="ddQiYuan.towerEnterBtn" x="35" y="61"/>
+	</customDisplay>
+	
+	
+	<components>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddQiYuan.continuousSelectedCheckButtonTxt" textFormatStyle="ddQiYuan.continuousSelectedCheckButtonTxtTF" filterString="ddQiYuan.continuousSelectedCheckButtonTxtGF" wordWrap="true" width="35" height="40"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="DDQiYuan.Pic19BG" resourceLink="DDQiYuan.Pic19,DDQiYuan.DDQiYuan.canelBtn" mouseChildren="false" mouseEnabled="false"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddQiYuan.continuousSelectedCheckButton" tipStyle="ddt.view.tips.OneLineTip"  tipDirctions="4" tipGapV="2" tipGapH="-117" parentStyle="core.simpleSelectBtn" textStyle="ddQiYuan.continuousSelectedCheckButtonTxt" displacement="false" fieldX="14" fieldY="-10" x="384" y="441"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="DDQiYuan.Pic18BG" resourceLink="DDQiYuan.Pic18,DDQiYuan.DDQiYuan.canelBtn" mouseChildren="false" mouseEnabled="false"/>
+		
+		<component classname="ddQiYuan.view.DDQiYuanFrame" stylename="ddQiYuan.DDQiYuanFrame" parentStyle="BaseFrame" 
+			backStyle="SimpleFrameBackgound" escEnable="true" width="896" height="593" closeInnerRectString="44,19,6,30,14"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="ddQiYuan.bg" 
+			resourceLink="DDQiYuan.Pic6"  x="19"  y="46"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddQiYuan.towerEnterBtn"
+			backStyle="DDQiYuan.Pic5" x="35" y="62" />		
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.gouYuNumTf" textFormatStyle="ddQiYuan.gouYuNumTf.format"
+			filterString="ddQiYuan.gouYuNumTf.filter" x="35"  y="256"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.treasureKeyNumTf" textFormatStyle="ddQiYuan.gouYuNumTf.format"
+			filterString="ddQiYuan.gouYuNumTf.filter" x="35"  y="273"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.treasureBoxNumTf" textFormatStyle="ddQiYuan.gouYuNumTf.format"
+			filterString="ddQiYuan.gouYuNumTf.filter" x="35"  y="290"/>		
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.activedBaoZhuNumTf" textFormatStyle="ddQiYuan.gouYuNumTf.format"
+			filterString="ddQiYuan.gouYuNumTf.filter" x="262"  y="295"/>		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddQiYuan.showGetBtn"
+			backStyle="DDQiYuan.Pic10" x="444" y="59" />
+		<component classname="com.pickgliss.ui.controls.ScrollPanel"
+			stylename="ddQiYuan.HasGetGoodsScrollPanel" parentStyle="core.ScrollPanel"
+			hScrollProxy="2" vScrollProxy="1" width="109" height="174" x="7" y="34"
+			vUnitIncrement="45" />	
+		<component classname="com.pickgliss.ui.image.Image" stylename="ddQiYuan.HasGetGoodsScrollPanelBg" 
+			resourceLink="DDQiYuan.Pic1"  x="0"  y="0"/>	
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.offerProgressTf" textFormatStyle="ddQiYuan.offerProgressTf.format"
+			filterString="ddQiYuan.gouYuNumTf.filter" x="273"  y="319" width ="300" height ="16"/>		
+		<component classname="com.pickgliss.ui.image.Image" stylename="ddQiYuan.offerProgressUp" 
+			resourceLink="DDQiYuan.Pic11"  x="111"  y="318"/>	
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.offerInfoTf" textFormatStyle="ddQiYuan.offerInfoTf.format"
+			filterString="ddQiYuan.gouYuNumTf.filter" x="47"  y="379" autoSize="none" width ="378" height ="40" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.openTreasureBoxInfoTf" textFormatStyle="ddQiYuan.offerInfoTf.format"
+			filterString="ddQiYuan.gouYuNumTf.filter" x="47"  y="476" autoSize="none" width ="500" height ="40" wordWrap="true"/>			
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddQiYuan.offer1TimeBtn" 
+			backStyle="DDQiYuan.Pic19BG" filterString="null,lightFilter,null,grayFilter" x="429" y="381" autoFrame="false" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="4" tipGapV="2" tipGapH="-117" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddQiYuan.offer10TimeBtn" 
+			backStyle="DDQiYuan.Pic18BG" filterString="null,lightFilter,null,grayFilter" x="429" y="423" autoFrame="false" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="4" tipGapV="2" tipGapH="-117" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddQiYuan.openTreasureBoxBtn"
+			backStyle="DDQiYuan.Pic13" x="429" y="494"  tipStyle="ddt.view.tips.OneLineTip" tipDirctions="4" tipGapV="2" tipGapH="-117" />	
+		<component classname="com.pickgliss.ui.controls.ScrollPanel"
+			stylename="ddQiYuan.offerRewardGoodsScrollPanel" parentStyle="core.ScrollPanel"
+			hScrollProxy="2" vScrollProxy="2" width="288" height="40" x="93" y="409"
+			vUnitIncrement="45" />		
+		<component classname="com.pickgliss.ui.controls.ScrollPanel"
+			stylename="ddQiYuan.treasureBoxGoodsScrollPanel" parentStyle="core.ScrollPanel"
+			hScrollProxy="2" vScrollProxy="2" width="288" height="40" x="93" y="504"
+			vUnitIncrement="45" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddQiYuan.offerRewardGoodsScrollPanelLeftBtn"
+			backStyle="DDQiYuan.Pic23" x="62" y="407" />	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddQiYuan.offerRewardGoodsScrollPanelRightBtn"
+			backStyle="DDQiYuan.Pic24" x="361" y="407" />	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddQiYuan.treasureBoxGoodsScrollPanelLeftBtn"
+			backStyle="DDQiYuan.Pic23" x="62" y="503" />	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddQiYuan.treasureBoxGoodsScrollPanelRightBtn"
+			backStyle="DDQiYuan.Pic24" x="361" y="503" />	
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddQiYuan.myAreaRankBtn" 
+			unSelectedStyle="DDQiYuan.Pic2" selectedStyle="DDQiYuan.Pic3"  x="705" y="78" />	
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddQiYuan.allAreaRankBtn" 
+			unSelectedStyle="DDQiYuan.Pic14" selectedStyle="DDQiYuan.Pic15"  x="781" y="78" />		
+		<component classname="com.pickgliss.ui.controls.ScrollPanel"
+			stylename="ddQiYuan.areaRankScrollPanel" parentStyle="core.ScrollPanel"
+			hScrollProxy="2" vScrollProxy="1" width="286" height="143" x="572" y="150"
+			vUnitIncrement="45" />	
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddQiYuan.areaRankItemBg" resourceLink="DDQiYuan.Pic22,DDQiYuan.Pic21"/>	
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddQiYuan.topThreeRink" resourceLink="asset.coreIcon.orderNo1Asset,asset.coreIcon.orderNo2Asset,asset.coreIcon.orderNo3Asset" x="5" y="10"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddQiYuan.areaRankItemRankTf"  textFormatStyle="ddQiYuan.areaRankItemRankTf.format" filterString="ddQiYuan.areaRankItemRankTf.filter" autoSize="none" x="1"  y="12" width ="56" height ="22" />
+		<component classname="com.pickgliss.ui.core.Component" stylename="ddQiYuan.areaRankPlayerNameSP"
+			x="122"  y="14"  tipStyle="ddt.view.tips.OneLineTip" tipDirctions="4" tipGapV="2" tipGapH="-117" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.areaRankPlayerNameTf" textFormatStyle="ddQiYuan.areaRankPlayerNameTf.format" autoSize="none"
+			filterString="ddQiYuan.areaRankPlayerNameTf.filter" width ="89" height ="25"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.areaRankOfferValueTf" textFormatStyle="ddQiYuan.areaRankPlayerNameTf.format" autoSize="none"
+			filterString="ddQiYuan.areaRankPlayerNameTf.filter" x="216"  y="14" width ="49" height ="25"/>	
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.rankRewardConTipsTf" textFormatStyle="ddQiYuan.beliefRewardOfferTimesTf.format"
+			filterString="ddQiYuan.beliefRewardOfferTimesTf.filter" x="569"  y="292" autoSize="none" width ="290" height ="40" wordWrap="true"/>		
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.beliefRewardOfferTimesTf" textFormatStyle="ddQiYuan.beliefRewardOfferTimesTf.format"
+			filterString="ddQiYuan.beliefRewardOfferTimesTf.filter" x="710"  y="330" autoSize="none" width ="290" height ="40" />		
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.beliefRewardConTf" textFormatStyle="ddQiYuan.beliefRewardConTf.format"
+			filterString="ddQiYuan.beliefRewardConTf.filter" x="0"  y="10" width ="153" height ="18"/>	
+		<component classname="com.pickgliss.ui.controls.ScrollPanel"
+			stylename="ddQiYuan.beliefRewardScrollPanel" parentStyle="core.ScrollPanel"
+			hScrollProxy="2" vScrollProxy="1" width="246" height="84" x="607" y="346"
+			vUnitIncrement="45" />	
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.joinRewardInfoTf" textFormatStyle="ddQiYuan.joinRewardInfoTf.format" autoSize="none" wordWrap="true"
+			filterString="ddQiYuan.joinRewardInfoTf.filter" x="576"  y="460" width ="285" height ="91"/>		
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.probabilityGainTf" textFormatStyle="ddQiYuan.probabilityGainTf.format"
+			filterString="ddQiYuan.probabilityGainTf.filter" x="742"  y="514" width ="56" height ="16"/>			
+		<component classname="com.pickgliss.ui.image.Image" stylename="ddQiYuan.canGainJoinReward" 
+			resourceLink="DDQiYuan.Pic29"  x="1"  y="18"/>	
+			
+		<component classname="ddQiYuan.view.DDQiYuanTowerFrame" stylename="ddQiYuan.DDQiYuanTowerFrame" parentStyle="BaseFrame" 
+			backStyle="SimpleFrameBackgound" escEnable="true" width="896" height="593" closeInnerRectString="44,19,6,30,14"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="ddQiYuan.tower.bg" 
+			resourceLink="DDQiYuan.Pic4"  x="20"  y="45"/>	
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.tower.leftTimeTf" textFormatStyle="ddQiYuan.tower.leftTimeTf.format"
+			filterString="ddQiYuan.tower.leftTimeTf.filter" x="561"  y="45" width ="180" height ="16"/>	
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddQiYuan.tower.itemBg" resourceLink="DDQiYuan.Pic9,DDQiYuan.Pic16"/>	
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddQiYuan.tower.noticeTf" textFormatStyle="ddQiYuan.tower.noticeTf.format"
+			filterString="ddQiYuan.tower.noticeTf.filter" x="230"  y="547" />	
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddQiYuan.tower.BagCellBg" resourceLink="DDQiYuan.Pic27" width="50" height="50" scaleGridString="10,10,20,20"/>	
+	</components>
+	<bitmaps>
+		<bitmapData resourceLink="DDQiYuan.Pic14" x="12" y="5" />
+		<bitmapData resourceLink="DDQiYuan.Pic2" x="6" y="5" />
+		
+	</bitmaps>
+
+</style>

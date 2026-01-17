@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="treasureHunting" version="1.0.1" source="ui/turkey/swf/treasureHunting.swf"> 
+  <sets> 
+    <set stylename="treasureHuntingTF11" args="Arial,14,0xfff4d4,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="treasureHuntingGF11" args="0x7c4519,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="treasureHuntingTF12" args="Arial,12,0xff0000,true,,,,,center" type="flash.text.TextFormat" letterSpacing="2"/>  
+    <set stylename="treasureHuntingGF12" args="0xffffff,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="treasureHuntingTF13" args="Arial,12,0xfff8d6,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="treasureHuntingGF13" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="treasureHunting.lastTimeGF" args="0x764e1f,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="treasureHunting.stoneNumberTF" args="Arial,14,0xFFFFFF,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="treasureHuntingEnterTF" args="Arial,16,0xffffff,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="treasureHuntingEnterGF" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="treasureHunting.lastTimeTF" args="Arial,14,0xFFFFFF,true,,,,,left" type="flash.text.TextFormat"/> 
+    
+    <set stylename="treasureHunting.greenBorderGF" args="0x24800,1,4,4,30" type="flash.filters.GlowFilter"/>
+	<set stylename="treasureHunting.greenBorderTF" args="Arial,12,0xe1ffc1,,,,,,center" type="flash.text.TextFormat"/>
+  </sets>  
+  <customDisplay> 
+    <custom classname="flash.geom.Point" stylename="treasureHunting.Treasure.ContentPos" x="243" y="48"/>  
+    <custom classname="flash.geom.Point" stylename="treasureHunting.Treasure.ShowPrizePos" x="31" y="89"/>  
+    <custom classname="flash.geom.Point" stylename="treasureHunting.Treasure.cellListPos" x="26" y="92"/>  
+    <custom classname="flash.geom.Point" stylename="treasureHunting.mainframe1" x="8" y="27"/>  
+    <custom classname="flash.geom.Point" stylename="treasureHunting.mainframe2" x="120" y="27"/>  
+    <custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="treasureHunting.Treasure.SimpleTileList" x="41" y="55" vSpace="85" hSpace="105"/>  
+    <custom classname="ddt.view.caddyII.LookTrophy" backStyle="SimpleFrameBackgoundOne" stylename="treasureHunting.LookTrophy" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,11,5" closeInnerRectString="44,6,6,30,14" containerX="10" containerY="30" width="305" height="336" x="354" y="90"/>  
+    <custom classname="flash.geom.Point" stylename="treasureHunting.rightViewPos" x="497" y="2"/>  
+    <custom classname="flash.geom.Point" stylename="treasureHunting.Treasure.ContentPos2" x="21" y="46"/>  
+    <custom classname="flash.geom.Point" stylename="treasureHunting.baglistPos" x="10" y="47"/> 
+  </customDisplay>  
+  <components> 
+  	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasureHunting.bag.convertBtn" backStyle="treasureHunting.bag.convertBtnImage" filterString="null,lightFilter,null,grayFilter" width="75" height="30" x="123" y="357"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureHunting.pointTxt" textFormatStyle="treasureHunting.stoneNumberTF" autoSize="none" width="136" height="22" x="586" y="417"/>
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="treasureHunting.exchangeBtn" backStyle="core.littleGreen" backgoundInnerRectString="14,18,4,8,-1" filterString="null,lightFilter,null,grayFilter" textStyle="treasureHunting.greenBorderTxt" x="650" y="414"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureHunting.greenBorderTxt" textFormatStyle="treasureHunting.greenBorderTF" filterString="treasureHunting.greenBorderGF" multiline="false" wordWrap="false"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasureHunting.bag.convertBtnImage" resourceLink="treasureHuntiong.convert"/>
+
+    <!-- 迷宫宝藏 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasureHunting.Treasure.BG" resourceLink="treasureHunting.treasure.BG"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasureHunting.Treasure.Titile" resourceLink="treasureHunting.treasure.titile" x="168" y="9"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasureHunting.Treasure.ItemBG" resourceLink="treasureHunting.treasure.itemBG" width="85" height="85"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasureHunting.Treasure.ItemLight" resourceLink="treasureHunting.treasure.itemLight" width="92" height="91"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasureHunting.Treasure.TimesTxtImage" resourceLink="treasureHunting.treasure.timesTxt" x="15" y="426"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" type="input" stylename="treasureHunting.Treasure.TimesTxt" textFormatStyle="treasureHuntingTF11" filterString="treasureHuntingGF11" autoSize="none" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="5,5,3,2,0" x="90" y="429" width="70" height="21"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="treasureHunting.Treasure.HuntBtnImage" resourceLink="treasureHunting.treasure.huntBtnBG,treasureHunting.treasure.huntBtnTxt" imageRectString="0|144|0|49|13,-1|126|-2|40|17"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasureHunting.Treasure.HuntBtn" backStyle="treasureHunting.Treasure.HuntBtnImage" filterString="null,lightFilter,null,grayFilter" x="245" y="415" width="135" height="40"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasureHunting.Treasure.MaxBtn" backStyle="treasureHunting.treasure.maxBtn" filterString="null,lightFilter,null,grayFilter" x="184" y="426" width="45" height="18"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasureHunting.Treasure.AwardBtn" backStyle="treasureHunting.treasure.awardBtn" filterString="null,lightFilter,null,grayFilter" x="395" y="408"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasureHunting.Treasure.BagBtn" backStyle="treasureHunting.treasure.bagBtn" filterString="null,lightFilter,null,grayFilter" x="395" y="438"/>  
+    <!-- 奖励展示 -->  
+    <component classname="treasureHunting.ShowPrizeFrame" stylename="treasureHunting.ShowPrizeFrame" closestyle="core.closebt" backStyle="SimpleFrameBackgoundOne" titleStyle="FrameTitleTextStyle" closeInnerRectString="44,19,6,30,14" titleOuterRectPosString="15,10,5" moveEnable="true" width="295" height="335"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="Treasure.BG01" imageRectString=",1|1|1|1|0" resourceLink="asset.core.ddtScale9CornerImage12,core.Scale9CornerImage.weilifur" width="254" height="260"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="Treasure.BG02" imageRectString=",5|5|5|5|0" resourceLink="core.Scale9CornerImage.SimpleTableBackgound2,core.Scale9CornerImage.weilifur" width="193" height="206" x="2" y="2"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="treasureHunting.showPrize.BG" resourceLink="Treasure.BG01,Treasure.BG02" x="19" y="45" width="255" height="274"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureHunting.showPrize.showTxt" textFormatStyle="treasureHuntingTF12" filterString="treasureHuntingGF12" x="53" y="57"/>  
+    <!-- 翻页按钮 -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasureHunting.showPrize.prePageBtn" x="64" y="283" backStyle="asset.ddtcore.leftBtn" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasureHunting.showPrize.nextPageBtn" x="179" y="283" backStyle="asset.ddtcore.rightBtn" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureHunting.showPrize.pageTxt" x="133" y="288" width="55" height="20" textFormatStyle="treasureHuntingTF13" filterString="treasureHuntingGF13"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="treasureHunting.showPrize.pageBg" x="123" y="283" width="55" height="25" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"/>  
+    <!-- 宝藏背包 -->  
+    <component classname="treasureHunting.TreasureBagFrame" stylename="treasureHunting.TreasureBagFrame" closestyle="core.closebt" backStyle="SimpleFrameBackgoundOne" titleStyle="FrameTitleTextStyle" closeInnerRectString="44,19,6,30,14" titleOuterRectPosString="15,10,5" moveEnable="true" width="235" height="547" x="756" y="0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasureHunting.bag.bg" width="199" height="487" x="18" y="42" parentStyle="core.bg6920"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasureHunting.bag.bagTxt" resourceLink="treasureHunting.bag.bagTxt" x="26" y="57"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasureHunting.bag.bottomBG" resourceLink="treasureHunting.bag.bottomBG" x="26" y="470" width="183" height="47"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasureHunting.bag.getAllBtnImage" resourceLink="treasureHunting.bag.getAllBtn"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasureHunting.bag.getAllBtn" backStyle="treasureHunting.bag.getAllBtnImage" filterString="null,lightFilter,null,grayFilter" width="75" height="30" x="35" y="357"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasureHunting.bag.sellAllBtnImage" resourceLink="treasureHunting.bag.sellAllBtn"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasureHunting.bag.sellAllBtn" backStyle="treasureHunting.bag.sellAllBtnImage" filterString="null,lightFilter,null,grayFilter" width="75" height="30" x="121" y="357"/>  
+    <!-- 提示框 -->  
+    <component classname="ddt.view.TransactionsFrame" backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" stylename="treasureHunting.TransactionsFrame" titleStyle="FrameTitleTextStyle" parentStyle="BaseFrame" titleOuterRectPosString="15,10,5" x="-160" y="-40" submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" closeInnerRectString="44,19,6,30,14" width="400" height="215"/>  
+    <component classname="treasureHunting.views.TreasureHuntingFrame" stylename="treasureHunting.TreasureHuntingFrame" closestyle="core.closebt" backStyle="SimpleFrameBackgoundOne" titleStyle="FrameTitleTextStyle" closeInnerRectString="44,19,6,30,14" titleOuterRectPosString="15,10,5" moveEnable="false" width="760" height="547" x="120" y="27"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasureHunting.rankPrizeBtn" backStyle="treasureHunting.rankPrize" x="395" y="438"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureHunting.stoneNumberTxt" textFormatStyle="treasureHunting.stoneNumberTF" autoSize="none" width="136" height="22" x="621" y="444" visible="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureHunting.remainDayTxt" textFormatStyle="treasureHuntingEnterTF" filterString="treasureHuntingEnterGF" x="188" y="441" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="treasreHunting.itemBG2" resourceLink="treasureHunting.ScaleLeftRightImage3,asset.corel.formLine,asset.corel.formLine" imageRectString="198|31|0|100|9,43|158|3|3|0,134|67|3|3|0"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="treasureHunting.LuckBox" spacing="1" x="10" y="73"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureHunting.Luck.NumberTxt" textFormatStyle="timebox.TFormat_18" filterString="timebox.GF_19" autoSize="none" width="46" height="22" x="132" y="6"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureHunting.Luck.NameTxt" textFormatStyle="timebox.TFormat_19" autoSize="none" width="83" height="22" x="45" y="6"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureHunting.lastTimeTxt" textFormatStyle="treasureHunting.lastTimeTF" filterString="treasureHunting.lastTimeGF" autoSize="none" width="250" height="22" x="507" y="432"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="treasureHunting.ScaleLeftRightImage1" parentStyle="core.ScaleleftrightImage.lineBg1" width="203" height="31" x="-1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="treasureHunting.ScaleLeftRightImage3" parentStyle="core.ScaleleftrightImage.lineBg3"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasureHunting.bagBtn" backStyle="treasureHunting.bagBtnUnselected" x="506" y="4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="treasreHunting.rankItemBG" resourceLink="treasreHunting.itemBG1,treasreHunting.itemBG2"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasureHunting.enterBtn" backStyle="treasureHunting.enterBtnImage" x="12" y="359"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureHunting.Luck.sortTxt" textFormatStyle="timebox.TFormat_18" filterString="timebox.GF_19" autoSize="none" width="42" height="23" x="1" y="6"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="treasreHunting.itemBG1" resourceLink="treasureHunting.ScaleLeftRightImage2,asset.corel.formLine,asset.corel.formLine" imageRectString="200|31|0|100|9,43|158|3|3|0,134|67|3|3|0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="treasureHunting.ScaleLeftRightImage2" parentStyle="core.ScaleleftrightImage.lineBg2"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasureHunting.rankBtn" backStyle="treasureHunting.rankBtnUnselected" x="624" y="4"/> 
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasureHunting.recordBtn" backStyle="treasureHunting.recordBtnUnselected" x="649" y="4"/>
+<component classname="com.pickgliss.ui.controls.container.VBox" stylename="treasureHunting.recordVBox" spacing="3" height="350"/>
+<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="treasureHunting.recordScrollpanel" parentStyle="core.ScrollPanel" x="0" y="44" viewportInnerRectString="12,21,9,340,1" width="213" 
+
+height="350" hScrollProxy="2" vScrollProxy="0"/>
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="treasureHunting.treasure.item1"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item2"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item3"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item4"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item5"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item6"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item7"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item8"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item9"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item10"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item11"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item12"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item13"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item14"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item15"/>  
+    <bitmapData resourceLink="treasureHunting.treasure.item16"/>  
+    <bitmapData resourceLink="treasureHunting.bagBG"/>  
+    <bitmapData resourceLink="treasureHunting.rankBG"/>  
+    <bitmapData resourceLink="treasureHunting.enterBG"/>  
+    <bitmapData resourceLink="treasureHunting.luckyStoneBG" x="497" y="405"/> 
+  </bitmaps> 
+</style>

@@ -1,0 +1,32 @@
+<Result value="true" message="Success!">
+  <Item ID="602" Show="1" Name="Poder de combate do Rei" Pic="1001" Att="30" Def="0" Agi="0" Luck="0" />
+  <Item ID="603" Show="1" Name="Cativante" Pic="1002" Att="0" Def="0" Agi="0" Luck="10" />
+  <Item ID="604" Show="1" Name="Rei da Arena" Pic="1003" Att="10" Def="0" Agi="20" Luck="0" />
+  <Item ID="611" Show="1" Name="Diamante Imperador" Pic="1004" Att="0" Def="0" Agi="0" Luck="30" />
+  <Item ID="612" Show="1" Name="Ouro Imperador" Pic="1005" Att="0" Def="0" Agi="0" Luck="20" />
+  <Item ID="613" Show="1" Name="Prata Imperador" Pic="1006" Att="0" Def="0" Agi="0" Luck="10" />
+  <Item ID="614" Show="1" Name="Bom jogador" Pic="1007" Att="0" Def="0" Agi="10" Luck="0" />
+  <Item ID="615" Show="1" Name="Cavaleiro Viajante" Pic="1008" Att="0" Def="0" Agi="10" Luck="0" />
+  <Item ID="616" Show="1" Name="Defensor mais Leal" Pic="1009" Att="5" Def="5" Agi="5" Luck="5" />
+  <Item ID="617" Show="1" Name="Jogador de futebol" Pic="1010" Att="70" Def="20" Agi="30" Luck="70" />
+  <Item ID="618" Show="1" Name="Cigarra" Pic="1011" Att="5" Def="5" Agi="15" Luck="5" />
+  <Item ID="619" Show="1" Name="Caça Inseto I" Pic="1012" Att="0" Def="0" Agi="10" Luck="0" />
+  <Item ID="620" Show="1" Name="Caça Inseto II" Pic="1013" Att="0" Def="0" Agi="15" Luck="0" />
+  <Item ID="621" Show="1" Name="Caça Inseto III" Pic="1014" Att="0" Def="0" Agi="5" Luck="0" />
+  <Item ID="622" Show="1" Name="Madrugador" Pic="1015" Att="0" Def="0" Agi="10" Luck="0" />
+  <Item ID="623" Show="1" Name="Homem rico" Pic="1016" Att="100" Def="100" Agi="100" Luck="100" />
+  <Item ID="624" Show="1" Name="Invencível" Pic="1017" Att="0" Def="20" Agi="0" Luck="0" />
+  <Item ID="625" Show="1" Name="Como o Vento" Pic="1018" Att="20" Def="20" Agi="20" Luck="20" />
+  <Item ID="626" Show="1" Name="Besouro-Rei" Pic="1019" Att="10" Def="10" Agi="15" Luck="5" />
+  <Item ID="627" Show="1" Name="Floral" Pic="1020" Att="30" Def="30" Agi="30" Luck="30" />
+  <Item ID="628" Show="1" Name="Nascido em casal" Pic="1021" Att="5" Def="5" Agi="0" Luck="0" />
+  <Item ID="629" Show="1" Name="Libélula" Pic="1022" Att="5" Def="5" Agi="10" Luck="0" />
+  <Item ID="1000" Show="1" Name="Cavaleiro Dragão" Pic="2000" Att="30" Def="30" Agi="30" Luck="30" />
+  <Item ID="1001" Show="1" Name="Sr.Futebol" Pic="2001" Att="30" Def="30" Agi="30" Luck="30" />
+  <Item ID="1002" Show="1" Name="Chú ong con" Pic="2002" Att="5" Def="5" Agi="5" Luck="5" />
+  <Item ID="1004" Show="1" Name="Vua mua sắm " Pic="2004" Att="18" Def="18" Agi="18" Luck="18" />
+  <Item ID="1008" Show="1" Name="Hoa ngọt ngào" Pic="2008" Att="2" Def="1" Agi="13" Luck="14" />
+  <Item ID="1010" Show="1" Name="Estudande mágico" Pic="2010" Att="0" Def="10" Agi="5" Luck="0" />
+  <Item ID="1011" Show="1" Name="Crente mágico" Pic="2011" Att="10" Def="0" Agi="5" Luck="0" />
+  <Item ID="1012" Show="1" Name="Mágico especialista" Pic="2012" Att="10" Def="0" Agi="0" Luck="5" />
+</Result>

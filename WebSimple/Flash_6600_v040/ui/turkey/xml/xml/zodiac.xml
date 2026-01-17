@@ -1,0 +1,183 @@
+<style name="zodiac" version="1.0.1" source="ui/turkey/swf/zodiac.swf">
+	<sets>
+		<set stylename="zodiac.mainview.details.txtTF" args="Arial,14,0xecc67c,,,,,,left" type="flash.text.TextFormat" leading="0" /> 
+		<set stylename="zodiac.mainview.details.txtGF" args="0x5b2b01,1,2,2,10" type="flash.filters.GlowFilter" />
+		<set stylename="zodiac.mainview.quest.txtTF" args="Arial,14,0xfff2b2,,,,,,left" type="flash.text.TextFormat" leading="0" /> 
+		<set stylename="zodiac.mainview.quest.txtGF" args="0x5b2b01,1,2,2,10" type="flash.filters.GlowFilter" />
+		<set stylename="zodiac.mainview.lastcount.txtTF" args="Arial,12,0xffffff,true,,,,,center" type="flash.text.TextFormat" /> 
+		<set stylename="zodiac.mainview.lastcount.txtGF" args="0x02337d,1,2,2,10" type="flash.filters.GlowFilter" />
+		<set stylename="zodiac.mainview.gotofinish.txtTF" args="Arial,14,0x01f71e,true,,,,,right" type="flash.text.TextFormat" underline="true" /> 
+		<set stylename="zodiac.mainview.gotofinish.txtGF" args="0x013400,1,2,2,10" type="flash.filters.GlowFilter" />
+	</sets>
+	<components>
+		<component classname="zodiac.ZodiacFrame" stylename="zodiac.mainFrame.ZodiacFrame" 
+			x="10" y="10" width="723" height="507" parentStyle="bigBaseFrame" containerX="12" containerY="31" />
+			
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="zodiac.zodiacMainFrame.bg" 
+			parentStyle="core.bg6920" width="677" height="443" x="10" y="13" scaleGridString="5,10,80,20" />
+		<!-- 
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="zodiac.mainview.title" 
+			resourceLink="zodiac.mainview.title.aquarius,zodiac.mainview.title.pisces,zodiac.mainview.title.ariec,zodiac.mainview.title.taurus,zodiac.mainview.title.gemini,zodiac.mainview.title.cancer,zodiac.mainview.title.leo,zodiac.mainview.title.virgo,zodiac.mainview.title.libra,zodiac.mainview.title.scorpio,zodiac.mainview.title.sagittarius,zodiac.mainview.title.capricorn" x="92" y="23"/>
+			 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="zodiac.mainview.details.txt" 
+			textFormatStyle="zodiac.mainview.details.txtTF" filterString="zodiac.mainview.details.txtGF" 
+			autoSize="none" wordWrap="true" width="250" height="110" x="16" y="50"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="zodiac.mainview.quest.txt" 
+			textFormatStyle="zodiac.mainview.quest.txtTF" filterString="zodiac.mainview.quest.txtGF" 
+			autoSize="none" wordWrap="true" width="230" height="110" x="16" y="150"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="zodiac.mainview.lastcount.txt" 
+			textFormatStyle="zodiac.mainview.lastcount.txtTF" filterString="zodiac.mainview.lastcount.txtGF" 
+			autoSize="none" width="40" height="22" x="582" y="20"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="zodiac.mainview.gotofinish.txt" 
+			textFormatStyle="zodiac.mainview.gotofinish.txtTF" filterString="zodiac.mainview.gotofinish.txtGF" />
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="zodiac.mainview.addcounts.btn" 
+			backStyle="zodiac.mainview.addcountsBtn" x="625" y="20"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="zodiac.mainview.help.btn" 
+			backStyle="zodiac.frame.helpBtn" x="596" y="-43"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="zodiac.mainview.gotofinish.btn" 
+			backStyle="zodiac.mainview.gotofinishBtn" x="57" y="373"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="zodiac.mainview.getaward.btn" 
+			backStyle="zodiac.mainview.getAwardBtn" x="57" y="373"/>
+			
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.darkbtnball1" resourceLink="zodiac.rollingview.ball.aquarius" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.darkbtnball2" resourceLink="zodiac.rollingview.ball.pisces" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.darkbtnball3" resourceLink="zodiac.rollingview.ball.ariec" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.darkbtnball4" resourceLink="zodiac.rollingview.ball.taurus" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.darkbtnball5" resourceLink="zodiac.rollingview.ball.gemini" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.darkbtnball6" resourceLink="zodiac.rollingview.ball.cancer" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.darkbtnball7" resourceLink="zodiac.rollingview.ball.leo" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.darkbtnball8" resourceLink="zodiac.rollingview.ball.virgo" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.darkbtnball9" resourceLink="zodiac.rollingview.ball.libra" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.darkbtnball10" resourceLink="zodiac.rollingview.ball.scorpio" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.darkbtnball11" resourceLink="zodiac.rollingview.ball.sagittarius" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.darkbtnball12" resourceLink="zodiac.rollingview.ball.capricorn" />
+		
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.lightbtnball1" resourceLink="zodiac.rollingview.ball.light.aquarius" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.lightbtnball2" resourceLink="zodiac.rollingview.ball.light.pisces" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.lightbtnball3" resourceLink="zodiac.rollingview.ball.light.ariec" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.lightbtnball4" resourceLink="zodiac.rollingview.ball.light.taurus" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.lightbtnball5" resourceLink="zodiac.rollingview.ball.light.gemini" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.lightbtnball6" resourceLink="zodiac.rollingview.ball.light.cancer" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.lightbtnball7" resourceLink="zodiac.rollingview.ball.light.leo" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.lightbtnball8" resourceLink="zodiac.rollingview.ball.light.virgo" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.lightbtnball9" resourceLink="zodiac.rollingview.ball.light.libra" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.lightbtnball10" resourceLink="zodiac.rollingview.ball.light.scorpio" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.lightbtnball11" resourceLink="zodiac.rollingview.ball.light.sagittarius" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="zodiac.rollingview.lightbtnball12" resourceLink="zodiac.rollingview.ball.light.capricorn" />
+		
+		<component classname="com.pickgliss.ui.controls.Frame" stylename="zodiac.frame.help.main" parentStyle="BaseFrame" 
+			width="408" height="488" moveEnable="true" escEnable="true" moveInnerRectString="0,30,0,30,1"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="zodiac.frame.help.bgHelp" 
+			parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" width="373" height="379" x="17" y="44"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="zodiac.frame.help.btnOk" 
+			parentStyle="core.simplebt" x="150" y="434" />
+			
+		<component classname="com.pickgliss.ui.core.Component" stylename="zodiac.frame.boxconent" 
+			tipStyle="ddt.view.tips.GoodTip" x="282" y="17" tipGapV="90" tipGapH="55" tipDirctions="2,3,7" />
+    </components>
+	<bitmaps>
+		
+	</bitmaps>
+	<customDisplay>
+		<custom classname="zodiac.ZodiacFrame" stylename="zodiac.view.ZodiacFrame" />
+		
+		<custom classname="zodiac.frame.helpContent" stylename="zodiac.frame.help.content" x="42" y="74"/>
+		
+		<custom classname="flash.geom.Point" stylename="zodiac.mainview.titlemc.pos" x="132" y="36"/>
+		
+		<custom classname="flash.geom.Point" stylename="zodiac.mainview.mainview.pos" x="16" y="16"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.mainview.boxaward.pos" x="282" y="17"/>
+		
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.rollingview.pos" x="286" y="56"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.rollingbtn.pos" x="198" y="184"/>
+		
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.backline.pos1" x="185" y="173"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.backline.pos2" x="191" y="170"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.backline.pos3" x="199" y="170"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.backline.pos4" x="204" y="173"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.backline.pos5" x="207" y="177"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.backline.pos6" x="208" y="184"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.backline.pos7" x="206" y="191"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.backline.pos8" x="200" y="196"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.backline.pos9" x="193" y="196"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.backline.pos10" x="186" y="192"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.backline.pos11" x="182" y="188"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.backline.pos12" x="182" y="180"/>
+		
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.ballgb.pos1" x="167" y="-4"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.ballgb.pos2" x="91" y="17"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.ballgb.pos3" x="29" y="69"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.ballgb.pos4" x="8" y="147"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.ballgb.pos5" x="28" y="225"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.ballgb.pos6" x="84" y="285"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.ballgb.pos7" x="162" y="307"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.ballgb.pos8" x="242" y="287"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.ballgb.pos9" x="301" y="231"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.ballgb.pos10" x="319" y="152"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.ballgb.pos11" x="302" y="74"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.ballgb.pos12" x="245" y="16"/>
+		
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.darkbtnball.pos1" x="173" y="4"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.darkbtnball.pos2" x="97" y="25"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.darkbtnball.pos3" x="35" y="77"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.darkbtnball.pos4" x="14" y="155"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.darkbtnball.pos5" x="34" y="233"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.darkbtnball.pos6" x="90" y="293"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.darkbtnball.pos7" x="168" y="315"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.darkbtnball.pos8" x="248" y="295"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.darkbtnball.pos9" x="307" y="239"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.darkbtnball.pos10" x="325" y="160"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.darkbtnball.pos11" x="308" y="82"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.darkbtnball.pos12" x="251" y="24"/>
+		
+		<custom classname="flash.geom.Point" stylename="zodiac.mainview.gotofinish.pos" x="166" y="148"/>
+		
+		<custom classname="flash.geom.Point" stylename="zodiac.mainview.awardcell.pos" x="26" y="248"/>
+		
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.btnshine.pos0" x="196" y="29"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.btnshine.pos1" x="119" y="49"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.btnshine.pos2" x="61" y="102"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.btnshine.pos3" x="40" y="180"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.btnshine.pos4" x="59" y="257"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.btnshine.pos5" x="114" y="316"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.btnshine.pos6" x="194" y="340"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.btnshine.pos7" x="273" y="319"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.btnshine.pos8" x="332" y="263"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.btnshine.pos9" x="350" y="185"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.btnshine.pos10" x="331" y="106"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.btnshine.pos11" x="274" y="49"/>
+		
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.paopao.pos0" x="196" y="29"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.paopao.pos1" x="119" y="49"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.paopao.pos2" x="61" y="102"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.paopao.pos3" x="40" y="180"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.paopao.pos4" x="59" y="257"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.paopao.pos5" x="114" y="316"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.paopao.pos6" x="194" y="340"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.paopao.pos7" x="273" y="319"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.paopao.pos8" x="332" y="263"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.paopao.pos9" x="350" y="185"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.paopao.pos10" x="331" y="106"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.paopao.pos11" x="274" y="49"/>
+		
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.finalmc.pos1" x="188" y="143"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.finalmc.pos2" x="170" y="153"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.finalmc.pos3" x="154" y="167"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.finalmc.pos4" x="153" y="189"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.finalmc.pos5" x="162" y="208"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.finalmc.pos6" x="180" y="222"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.finalmc.pos7" x="202" y="225"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.finalmc.pos8" x="224" y="216"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.finalmc.pos9" x="237" y="198"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.finalmc.pos10" x="235" y="175"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.finalmc.pos11" x="229" y="155"/>
+		<custom classname="flash.geom.Point" stylename="zodiac.rollingview.finalmc.pos12" x="210" y="143"/>
+		
+		<custom classname="flash.geom.Point" stylename="zodiac.mainview.gotofinish.state.test" x="67" y="0"/>
+	</customDisplay>
+</style>

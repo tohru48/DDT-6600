@@ -1,0 +1,370 @@
+<style name="horse" version="6.1.0" source="ui/turkey/swf/horse.swf">
+	
+	<sets>
+		<set type="flash.text.TextFormat" stylename="horse.frame.horseNameTxt.tf" args="Arial,14,0xffcc00,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="horse.frame.horseNameTxt.gf" args="0x000000,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="horse.frame.addPorpertyNameTxt.tf" args="Arial,12,0xfff06e,true"/>
+		<set type="flash.filters.GlowFilter" stylename="horse.frame.addPorpertyNameTxt.gf" args="0x4f2000,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="horse.frame.addPorpertyValueTxt.tf" args="Arial,14,0xfff6c9,true"/>
+		<set type="flash.text.TextFormat" stylename="horse.picCherish.addPorpertyValueTxt.tf" args="Arial,14,0xfff6c9,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="horse.frame.addPorpertyValueTxt.gf" args="0x6f5100,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="horse.frame.levelStarTxt.tf" args="Arial,14,0xfff0b5,true"/>
+		<set type="flash.filters.GlowFilter" stylename="horse.frame.levelStarTxt.gf" args="0x502000,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="horse.frame.bookridingTxt.tf" args="Arial,12,0xffffff,,,,,,center"/>
+		<set stylename="horse.bookriding.on.filter" args="0x421400,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+		<set stylename="horse.bookriding.none.filter" args="0x2c2c2c,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+		
+		<set type="flash.text.TextFormat" stylename="horse.frame.progressTxt.tf" args="Arial,12,0xffffff,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="horse.frame.progressTxt.gf" args="0x022800,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="horse.frame.rightBottomScb.text.tf" args="Arial,12,0xfcf3a7"/>
+		<set type="flash.filters.GlowFilter" stylename="horse.frame.rightBottomScb.text.gf" args="0x5a2c00,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="horse.skillFrame.cell.fullTxt.tf" args="Arial,12,0xfef990,true"/>
+		<set type="flash.filters.GlowFilter" stylename="horse.skillFrame.cell.fullTxt.gf" args="0x4f0d00,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="horse.skillUpFrame.levelTxt.tf" args="Arial,14,0xfff06e,true"/>
+		<set type="flash.filters.GlowFilter" stylename="horse.skillUpFrame.levelTxt.gf" args="0x4f2000,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="horse.skillUpFrame.countTitleTxt.tf" args="Arial,12,0xfff4d4,true"/>
+		<set type="flash.filters.GlowFilter" stylename="horse.skillUpFrame.countTitleTxt.gf" args="0x512b0b,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="horse.skillUpFrame.countTxt.tf" args="Arial,14,0xfff4d4,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="horse.skillUpFrame.countTxt.gf" args="0x3b1900,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="horse.skillFrame.cellZXC.tf" args="黑体,24,0x709d01,true"/>
+		<set type="flash.filters.GlowFilter" stylename="horse.skillFrame.cellZXC.gf" args="0xffffff,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="horse.pic.horseNameTf" args="Arial,14,0x7ee5ff,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="horse.pic.horseNameGf" args="0x041766,1,4,4,30"/>
+		
+		<set type="flash.filters.GlowFilter" args="0x4b270d,1,4,4,30" stylename="horsePicCherish.brownInputGF" />
+		<set type="flash.text.TextFormat" args="Arial,14,0xfff8d6,false,,,,,center"  stylename="horsePicCherish.brownInputTF" />
+		<set type="flash.filters.GlowFilter" args="0x000000,1,2,2,10" stylename="horsePicCherish.titleGF" />
+		<set type="flash.text.TextFormat" args="Arial,14,0x00ccff,true"  stylename="horsePicCherish.titleTF" />
+		<set type="flash.filters.GlowFilter" args="0x000000,1,2,2,10" stylename="horsePicCherish.commonGF" />
+		<set type="flash.text.TextFormat" args="Arial,12,0xffffff"  stylename="horsePicCherish.commonTF" />
+		<set type="flash.filters.GlowFilter" args="0x000000,1,2,2,10" stylename="horsePicCherish.stateGF" />
+		<set type="flash.text.TextFormat" args="Arial,12,0xaaaaaa,true"  stylename="horsePicCherish.stateTF" />
+		<set type="flash.filters.GlowFilter" args="0x000000,1,2,2,10" stylename="horsePicCherish.propertyGF" />
+		<set type="flash.text.TextFormat" args="Arial,12,0xfb9732,true"  stylename="horsePicCherish.propertyTF"/>
+		
+		<set type="flash.filters.GlowFilter" args="0x714108,1,4,4,30" stylename="horsePicCherish.btnGF" />
+		<set type="flash.text.TextFormat" args="Arial,12,0xfff6a8"  stylename="horsePicCherish.btnTF" letterSpacing="5"/>
+		<set type="flash.filters.GlowFilter" args="0x76251e,1,4,4,30" stylename="horsePicCherish.activityBtnGF" />
+		<set type="flash.text.TextFormat" args="Arial,12,0xffead9"  stylename="horsePicCherish.activityBtnTF"/>
+		<set stylename="horse.frame.levelUpBtn2TxtTF" args="Arial,14,0xffde00,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="horse.frame.levelUpBtn2TxtGF" args="0x572525,1,2,2,10" type="flash.filters.GlowFilter"/>
+	</sets>
+	
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="horse.frame.horseMcPos" x="194" y="101"/>
+		
+		<custom classname="flash.geom.Point" stylename="horse.frame.starTxtPos2" x="14" y="352"/>
+		<custom classname="flash.geom.Point" stylename="horse.frame.starTxtPos" x="14" y="365"/>
+		
+		<custom classname="flash.geom.Point" stylename="horse.frame.itemCellPos" x="406" y="346"/>
+		
+		<custom classname="flash.geom.Point" stylename="horse.frame.upHorseFlowCartoonPos" x="123" y="189"/>
+		
+		<custom classname="flash.geom.Point" stylename="horse.skillUpframe.cellPos1" x="27" y="22"/>
+		<custom classname="flash.geom.Point" stylename="horse.skillUpframe.cellPos2" x="70" y="101"/>
+		<custom classname="flash.geom.Point" stylename="horse.skillUpframe.cellPos3" x="222" y="101"/>
+		
+		<custom classname="flash.geom.Point" stylename="horse.skillUpframe.itemCellPos" x="16" y="187"/>
+		
+		<custom classname="flash.geom.Point" stylename="horse.skillFrame.equipGuidePos" x="96" y="-82"/>
+		
+		<!-- 坐骑图鉴tips -->
+		<custom classname="flash.geom.Point" stylename="horsePicCherish.typeItem.pos" x="10" y="40"/>
+	</customs>
+	
+	
+	<components>
+		<component classname="horse.view.HorseFrame" backStyle="SimpleFrameBackgound"
+			closestyle="core.closebt" stylename="HorseFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+			closeInnerRectString="44,19,6,30,14" width="668" height="514" />
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.frame.leftArrowBtn" 
+			backStyle="asset.horse.frame.leftArrowBtn" x="22" y="137"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.frame.rightArrowBtn" 
+			backStyle="asset.horse.frame.rightArrowBtn" x="391" y="137"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.frame.useBtn" 
+			backStyle="asset.horse.frame.useBtn" x="172" y="261"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.frame.takeBackBtn" 
+			backStyle="asset.horse.frame.takeBackBtn" x="172" y="261"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.frame.preLevelUp" 
+			backStyle="asset.horse.frame.preLevelUp" filterString="null,lightFilter,lightFilter,grayFilter" 
+			displacement="false" x="355" y="19"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.frame.horseNameTxt" 
+			textFormatStyle="horse.frame.horseNameTxt.tf" filterString="horse.frame.horseNameTxt.gf" 
+			autoSize="none" width="230" height="25" x="106" y="36"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.frame.addPorpertyNameTxt" 
+			textFormatStyle="horse.frame.addPorpertyNameTxt.tf" filterString="horse.frame.addPorpertyNameTxt.gf" 
+			x="480" y="52"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.frame.addPorpertyValueTxt" 
+			textFormatStyle="horse.frame.addPorpertyValueTxt.tf" filterString="horse.frame.addPorpertyValueTxt.gf" 
+			x="562" y="52"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.frame.skillBtn" 
+			backStyle="asset.horse.frame.skillBtn" x="452" y="213"/>
+			
+<!-- 		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.frame.picBtn"  -->
+<!-- 			backStyle="asset.horse.frame.picBtn" filterString="grayFilter,grayFilter,grayFilter,grayFilter"  -->
+<!-- 			displacement="false" tipStyle="ddt.view.tips.OneLineTip" tipGapV="1" tipGapH="1" tipDirctions="0,1,2"  -->
+<!-- 			x="478" y="265"/> -->
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.frame.picBtn" 
+			backStyle="asset.horse.frame.picBtn" x="452" y="265"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.frame.levelStarTxt" 
+			textFormatStyle="horse.frame.levelStarTxt.tf" filterString="horse.frame.levelStarTxt.gf" 
+			x="14" y="366"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.frame.BookRidingStateTxt" 
+			textFormatStyle="horse.frame.bookridingTxt.tf"
+			x="16" y="91"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.frame.progressTxt" 
+			textFormatStyle="horse.frame.progressTxt.tf" filterString="horse.frame.progressTxt.gf" 
+			autoSize="none" width="325" height="25" x="71" y="399"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.frame.levelUpBtn" 
+			backStyle="asset.horse.frame.levelUpBtn" x="483" y="346"/>
+			
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="horse.frame.rightBottomScb" 
+			parentStyle="core.simpleSelectBtn" textStyle="horse.frame.rightBottomScb.text" displacement="true" 
+			fieldX="16" fieldY="-13" x="485" y="403" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.frame.rightBottomScb.text" 
+			textFormatStyle="horse.frame.rightBottomScb.text.tf" filterString="horse.frame.rightBottomScb.text.gf"/>
+			
+		<component classname="horse.view.HorseSkillFrame" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="HorseSkillFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="21" containerY="46" escEnable="true"
+			closeInnerRectString="44,19,6,30,14" width="380" height="445" />
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.skillFrame.cell.getBtn" 
+			backStyle="asset.horse.skillFrame.cell.getBtn" x="0" y="47"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.skillFrame.cell.upBtn" 
+			backStyle="asset.horse.skillFrame.cell.upBtn" x="0" y="47"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.skillFrame.cell.fullTxt" 
+			textFormatStyle="horse.skillFrame.cell.fullTxt.tf" filterString="horse.skillFrame.cell.fullTxt.gf" 
+			x="13" y="49"/>
+			
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="horse.skillFrame.skillCellList" 
+			parentStyle="core.ScrollPanel" vScrollProxy="0" width="282" height="232" x="27" y="26"/>
+			
+		
+		<component classname="horse.view.HorseSkillUpFrame" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="HorseSkillUpFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="20" containerY="45" escEnable="true"
+			closeInnerRectString="44,19,6,30,14" width="376" height="406" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.skillUpFrame.levelTxt" 
+			textFormatStyle="horse.skillUpFrame.levelTxt.tf" filterString="horse.skillUpFrame.levelTxt.gf" 
+			x="77" y="37"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.skillUpFrame.countTitleTxt" 
+			textFormatStyle="horse.skillUpFrame.countTitleTxt.tf" filterString="horse.skillUpFrame.countTitleTxt.gf" 
+			x="94" y="193"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.skillUpFrame.countTxt" 
+			textFormatStyle="horse.skillUpFrame.countTxt.tf" filterString="horse.skillUpFrame.countTxt.gf" 
+			type="input" autoSize="none" width="72" height="25" x="179" y="219"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.upFrame.maxBtn" 
+			backStyle="asset.horse.upFrame.maxBtn" x="257" y="216"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.upFrame.upBtn" 
+			backStyle="asset.horse.frame.levelUpBtn" x="115" y="281"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.getSkillView.getBtn" 
+			backStyle="asset.horse.getSkillView.getBtn" x="218" y="151"/>
+			
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="horse.skillFrame.upCellsContainer" 
+			x='35' y='306' spacing='23'/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.skillFrame.cellZXC" 
+			textFormatStyle="horse.skillFrame.cellZXC.tf" filterString="horse.skillFrame.cellZXC.gf" 
+			x="-8" y="-19"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.frame.helpBtn" 
+			backStyle="asset.horse.helpBtn" x="547" y="-41" />
+			
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="horse.frame.HelpFrame.FrameBg" 
+			parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" 
+			width="370" height="376" />
+		<component classname="store.HelpPrompt" stylename="horse.frame.HelpPrompt" 
+			bg9ScalseStyle="horse.frame.HelpFrame.FrameBg" contentStyle="asset.horse.frame.helpPromptTxt" 
+			x="180" y="213" />
+		<component classname="store.HelpFrame" stylename="horse.frame.HelpFrame" parentStyle="BaseFrame" 
+			width="404" height="484" />
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.skillFrame.helpBtn" 
+			backStyle="asset.horse.helpBtn" x="260" y="-40" />
+			
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="horse.skillFrame.HelpFrame.FrameBg" 
+			parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" 
+			width="370" height="376" />
+		<component classname="store.HelpPrompt" stylename="horse.skillFrame.HelpPrompt" 
+			bg9ScalseStyle="horse.skillFrame.HelpFrame.FrameBg" contentStyle="asset.horse.skillFrame.helpPromptTxt" 
+			x="180" y="213" />
+		<component classname="store.HelpFrame" stylename="horse.skillFrame.HelpFrame" parentStyle="BaseFrame" 
+			width="404" height="484" />
+			
+		<!-- 坐骑图鉴 -->
+		<component classname="horse.horsePicCherish.HorsePicCherishFrame" backStyle="SimpleFrameBackgound"
+			closestyle="core.closebt" stylename="HorsePicCherishFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+			closeInnerRectString="44,19,6,30,14" width="663" height="508" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="horse.HorsePicCherish.scale9ImageBg" width="621" 
+			height="446" x="-1" y="-4" parentStyle="core.bg6920"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.HorsePicCherish.leftBtn" 
+			backStyle="horse.pic.left" x="223" y="410" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.HorsePicCherish.rightBtn" 
+			backStyle="horse.pic.right" x="345" y="410" />
+<!-- 		<component classname="com.pickgliss.ui.controls.TextButton" -->
+<!-- 			stylename="horse.HorsePicCherish.useBtn" backStyle="bagAndGift.YelloButton" -->
+<!-- 			textStyle="horse.HorsePicCherish.btnTextStyle" -->
+<!-- 			backgoundInnerRectString="12,10,7,10,-1" useLogID="105" x="220" y="379" /> -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="horse.HorsePicCherish.btnTextStyle" textFormatStyle="horsePicCherish.btnTF"
+			filterString="horsePicCherish.btnGF" multiline="false" wordWrap="false" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.HorsePicCherish.nameTxt" 
+			textFormatStyle="horse.pic.horseNameTf" filterString="horse.pic.horseNameGf" 
+			autoSize="none" width="128" height="25" x="10" y="10"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.picCHerish.addPorpertyValueTxt" 
+			textFormatStyle="horse.picCherish.addPorpertyValueTxt.tf" filterString="horse.frame.addPorpertyValueTxt.gf" 
+			autoSize="none" width="45" height="25"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.picCHerish.addPorpertyNameTxt" 
+			textFormatStyle="horse.frame.addPorpertyNameTxt.tf" filterString="horse.frame.addPorpertyNameTxt.gf" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="horsePicCherish.pageBG" 
+			x="272" y="411" width="60" height="24" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"  />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horsePicCherish.pageTxt"
+			autoSize="none" width="47" height="25"
+			x="280" y="414"	textFormatStyle="horsePicCherish.brownInputTF" filterString="horsePicCherish.brownInputGF" />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="horsePicCherish.useBtn" 
+			backStyle="core.bg6905" textStyle="horse.HorsePicCherish.btnTextStyle"  backgoundInnerRectString="20,20,7,10,-1" filterString="null,lightFilter,lightFilter,grayFilter" x="18" y="125"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="horsePicCherish.activeBtn" 
+			backStyle="core.bg6904" textStyle="horsePicCherish.activeBtnTextStyle"  backgoundInnerRectString="20,20,7,10,-1" filterString="null,lightFilter,lightFilter,grayFilter" x="18" y="125"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="horsePicCherish.activeBtnTextStyle" textFormatStyle="horsePicCherish.activityBtnTF"
+			filterString="horsePicCherish.activityBtnGF" multiline="false" wordWrap="false" />
+			
+				
+		<!-- 图鉴tips -->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="horsePicCherish.tip.line" parentStyle="HRuleAsset"
+			width="140" x="3" y="35" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="horsePicCherish.tip.tipsBg" parentStyle="core.commonTipBg" 
+			scaleGridString="10,10,42,42" width="117" height="100"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horsePicCherish.titleTxt"
+			x="10" y="10" textFormatStyle="horsePicCherish.titleTF" filterString="horsePicCherish.titleGF" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horsePicCherish.commonTxt"
+			textFormatStyle="horsePicCherish.commonTF" filterString="horsePicCherish.commonGF" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horsePicCherish.valueTxt1"
+			x="20"  textFormatStyle="horsePicCherish.stateTF" filterString="horsePicCherish.stateGF" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horsePicCherish.valueTxt2"
+			textFormatStyle="horsePicCherish.propertyTF" filterString="horsePicCherish.propertyGF" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horsePicCherish.valueTxt3"
+			textFormatStyle="horsePicCherish.propertyTF" filterString="horsePicCherish.propertyGF" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horsePicCherish.valueTxt4"
+			textFormatStyle="horsePicCherish.propertyTF" filterString="horsePicCherish.propertyGF" />
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="horsePicCherish.vBox" 
+			x="10" y="60" spacing="2"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.frame.levelUpBtn2Txt" textFormatStyle="horse.frame.levelUpBtn2TxtTF" filterString="horse.frame.levelUpBtn2TxtGF" autoSize="none" width="40" height="22" x="568" y="359"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horse.upFrame.upBtn2Txt" textFormatStyle="horse.frame.levelUpBtn2TxtTF" filterString="horse.frame.levelUpBtn2TxtGF" autoSize="none" width="40" height="22" x="200" y="295"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.upFrame.upBtn2" backStyle="asset.horse.frame.levelUpBtn2" x="115" y="281"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horse.frame.levelUpBtn2" backStyle="asset.horse.frame.levelUpBtn2" x="483" y="346"/>
+	</components>
+	
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.horse.getSkillView.bg" x="-24" y="0"/>
+	
+		<bitmapData resourceLink="asset.horse.frame.levelStarTxtImage" x="25" y="351"/>
+		
+		<bitmapData resourceLink="asset.horse.frame.progressTxtImage" x="14" y="396"/>
+		<bitmapData resourceLink="asset.horse.frame.progressBg" x="71" y="384"/>
+		<bitmapData resourceLink="asset.horse.frame.progressCover" x="86" y="397"/>
+		
+		<bitmapData resourceLink="asset.horse.upFrame.expBg" x="119" y="37"/>
+		<bitmapData resourceLink="asset.horse.upFrame.expCover" x="128" y="40"/>
+		<bitmapData resourceLink="asset.horse.upFrame.rightArrow" x="142" y="65"/>
+		<bitmapData resourceLink="asset.horse.upFrame.txtBg" x="178" y="216"/>
+		
+		<bitmapData resourceLink="asset.horse.skillFrame.selfCellBgAsset" x="-5" y="-4" />
+		
+		<bitmapData resourceLink="horse.pic.bg" x="4" y="2" />
+		<bitmapData resourceLink="horse.pic.icon113" x="8" y="13"/>
+		<bitmapData resourceLink="horse.pic.icon-1"   x="12" y="23" />
+		<bitmapData resourceLink="horse.pic.icon101" x="10" y="20" />
+		<bitmapData resourceLink="horse.pic.icon102" x="9" y="15" />
+		<bitmapData resourceLink="horse.pic.icon103" x="12" y="20" />
+		<bitmapData resourceLink="horse.pic.icon104" x="7" y="22" />		
+		<bitmapData resourceLink="horse.pic.icon105" x="14" y="21" />	
+		<bitmapData resourceLink="horse.pic.icon106" x="15" y="24" />	
+		<bitmapData resourceLink="horse.pic.icon107" x="10" y="22" />	
+		<bitmapData resourceLink="horse.pic.icon108" x="10" y="22" />	
+		<bitmapData resourceLink="horse.pic.icon109" x="10" y="22" />	
+		<bitmapData resourceLink="horse.pic.icon110" x="10" y="22" />	
+		<bitmapData resourceLink="horse.pic.icon111" x="10" y="22" />	
+		<bitmapData resourceLink="horse.pic.icon112" x="10" y="22" />	
+		<bitmapData resourceLink="horse.pic.icon113" x="10" y="22" />
+		<bitmapData resourceLink="horse.pic.icon114" x="10" y="22" />		
+		<bitmapData resourceLink="horse.pic.icon118" x="11" y="26" />		
+		<bitmapData resourceLink="horse.pic.icon122" x="10" y="22" />
+		<bitmapData resourceLink="horse.pic.icon123" x="10" y="22" />	
+		<bitmapData resourceLink="horse.pic.icon126" x="10" y="22" />	
+		<bitmapData resourceLink="horse.pic.icon127" x="10" y="22" />	
+		
+		<bitmapData resourceLink="asset.horse.none" x="0.25" y="4.45" />
+		<bitmapData resourceLink="asset.horse.hd101" x="0.25" y="4.45" />
+		<bitmapData resourceLink="asset.horse.hd102" x="0.25" y="4.45" />
+		<bitmapData resourceLink="asset.horse.hd103" x="0.25" y="4.45" />
+		<bitmapData resourceLink="asset.horse.hd104" x="0.25" y="4.45" />		
+		<bitmapData resourceLink="asset.horse.hd105" x="0.25" y="4.45" />	
+		<bitmapData resourceLink="asset.horse.hd106" x="0.25" y="4.45" />	
+		<bitmapData resourceLink="asset.horse.hd107" x="0.25" y="4.45" />	
+		<bitmapData resourceLink="asset.horse.hd108" x="0.25" y="4.45" />	
+		<bitmapData resourceLink="asset.horse.hd109" x="0.25" y="4.45" />	
+		<bitmapData resourceLink="asset.horse.hd110" x="0.25" y="4.45" />	
+		<bitmapData resourceLink="asset.horse.hd111" x="0.25" y="4.45" />	
+		<bitmapData resourceLink="asset.horse.hd112" x="-1.75" y="10.45" />	
+		<bitmapData resourceLink="asset.horse.hd113" x="3.25" y="9.45" />
+		<bitmapData resourceLink="asset.horse.hd114" x="0" y="5" />		
+		<bitmapData resourceLink="asset.horse.hd118" x="7.25" y="7.45" />	
+		<bitmapData resourceLink="asset.horse.hd122" x="0.25" y="4.45" />
+		<bitmapData resourceLink="asset.horse.hd123" x="0.25" y="4.45" />	
+		<bitmapData resourceLink="asset.horse.hd121" x="8" y="9"/>
+		<bitmapData resourceLink="asset.horse.hd126" x="8" y="9"/>
+		<bitmapData resourceLink="asset.horse.hd127" x="8" y="9"/>
+<bitmapData resourceLink="asset.horse.hd124" x="8" y="9"/>
+<bitmapData resourceLink="asset.horse.hd222" x="8" y="9"/>
+<bitmapData resourceLink="horse.pic.icon121" x="6" y="16"/>
+<bitmapData resourceLink="horse.pic.icon222" x="6" y="17"/>
+<bitmapData resourceLink="horse.pic.icon124" x="6" y="16"/>
+		<bitmapData resourceLink="asset.horse.frame.buyBtn_small" x="1" y="18"/>
+		
+		<bitmapData resourceLink="horse.pic.icon131" x="6" y="21"/>
+<bitmapData resourceLink="horse.pic.icon130" x="6" y="21"/>
+<bitmapData resourceLink="asset.horse.hd119" x="8" y="9"/>
+<bitmapData resourceLink="asset.horse.hd131" x="2" y="10"/>
+<bitmapData resourceLink="asset.horse.hd130" x="6" y="0"/>
+<bitmapData resourceLink="horse.pic.icon119" x="6" y="17"/>
+	</bitmaps>
+	
+</style>

@@ -1,0 +1,110 @@
+<style name="horseRace" version="5.1.0" source="ui/turkey/swf/horseRace.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="horseRace.race.matchView.rightTxt.tf" args="Arial,12,0xf5edb9" leading="0"/>
+		<set type="flash.filters.GlowFilter" stylename="horseRace.race.matchView.rightTxt.gf" args="0x693812,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="horseRace.race.matchView.timeTxt.tf" args="Arial,38,0xFFCC66,true" letterSpacing='6'/>
+		<set type="flash.filters.GlowFilter" stylename="horseRace.race.matchView.timeTxt.gf" args="0x000000,1,12,12,6,1"/>
+		<set type="flash.text.TextFormat" stylename="horseRace.race.matchView.buyCountTxt.tf" args="Arial,12,0xd4c8d9,true" letterSpacing='0'/>
+		<set type="flash.filters.GlowFilter" stylename="horseRace.race.matchView.buyCountTxt.gf" args="0x06025c,1,4,4,30"/>
+		<set stylename="horseRace.race.matchView.msgTxtTF" args="Arial,12,0xe1e1e1,false" type="flash.text.TextFormat"/>
+		<set type="flash.filters.GlowFilter" stylename="horseRace.race.matchView.msgTxtGF" args="0x000000,1,4,4,4"/>
+	</sets>
+	<customs>
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.countDownViewPos" x="485" y="217"/>
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.playerItemNamePos" x="57" y="11"/>
+		
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.playerRankPos" x="0" y="39"/>
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.playerSelfImgPos" x="53" y="-8"/>
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.playerOtherImgPos" x="48" y="2"/>
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.playerInfoViewPos" x="796" y="0"/>
+		
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.pingzhangBuffPos" x="-4" y="-82"/>
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.msgViewPos" x="0" y="491"/>
+		
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.buffViewPos" x="915" y="353"/>
+		
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.buffView.buffItemPos1" x="12" y="9"/>
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.buffView.buffItemPos2" x="12" y="81"/>
+		
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.buffView.itemMcPos" x="29" y="34"/>
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.buffView.buffObjPos" x="12" y="12"/>
+		<custom classname="flash.geom.Point" stylename="horseRace.race.raceView.buffMsgPOS" x="357" y="25"/>
+		
+		<custom classname="flash.geom.Point" stylename="horseRace.raceView.pingzhangDaojishiPos" x="44" y="199"/>
+		
+	</customs>
+	<components>
+		<component classname="horseRace.view.HorseRaceMatchView" stylename="horseRace.race.matchView" 
+			backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="24,10,5"
+			closeInnerRectString="44,12,6,30,14" moveInnerRectString="0,30,0,30,1" 
+			containerX="20" containerY="46"
+			width="542" height="480" escEnable="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseRace.race.matchView.rightTxt" 
+			textFormatStyle="horseRace.race.matchView.rightTxt.tf" filterString="horseRace.race.matchView.rightTxt.gf" 
+			x="273" y="18" autoSize="none" width="220" height="220" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseRace.race.matchView.timeTxt" 
+			textFormatStyle="horseRace.race.matchView.timeTxt.tf" filterString="horseRace.race.matchView.timeTxt.gf" 
+			x="349" y="244"/>	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horseRace.matchView.cancelBtn" 
+			backStyle="horseRace.matchView.cancel" x="272" y="320"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horseRace.matchView.startBtn" 
+			backStyle="horseRace.matchView.start" x="272" y="320"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseRace.race.matchView.buyCountTxt" 
+			textFormatStyle="horseRace.race.matchView.buyCountTxt.tf" filterString="horseRace.race.matchView.buyCountTxt.gf" 
+			x="33" y="290"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseRace.race.raceView.Pos" 
+			textFormatStyle="horseRace.race.matchView.buyCountTxt.tf" filterString="horseRace.race.matchView.buyCountTxt.gf" 
+			text="250,260|250,334|250,412|250,486|250,564"/>
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRace.race.matchView.buyCountBnt" 
+			backStyle="horseRace.matchView.buyBnt" x="220" y="290" filterString="null,lightFilter,null,grayFilter"/>
+			
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="horseRace.race.raceView.PlayerList" spacing="5" x="3" y="7"/>
+		
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="horseRace.raceView.buffList" spacing="3" x="53" y="38"/>
+		
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="horseRace.race.raceView.msgBox" spacing="2" x="3" y="7"/>
+		
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="horseRace.race.raceView.msgBoxScroll" parentStyle="core.ScrollPanel" width="460" height="100" x="2" y="6"/>
+	
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRace.raceView.buffView.pingzhangBnt" 
+			backStyle="horseRace.raceView.buffView.pingzhangBntBg" x="11" y="164" filterString="null,lightFilter,null,grayFilter" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="4,1,0,5,2"/>	
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRace.raceView.buffView.buffObj1" 
+			backStyle="horseRace.raceView.buff1"  filterString="null,lightFilter,null,grayFilter"  tipStyle="ddt.view.tips.OneLineTip" tipDirctions="4,1,0,5,2"/>	
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRace.raceView.buffView.buffObj2" 
+			backStyle="horseRace.raceView.buff2"  filterString="null,lightFilter,null,grayFilter"  tipStyle="ddt.view.tips.OneLineTip" tipDirctions="4,1,0,5,2"/>	
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRace.raceView.buffView.buffObj3" 
+			backStyle="horseRace.raceView.buff3"  filterString="null,lightFilter,null,grayFilter"  tipStyle="ddt.view.tips.OneLineTip" tipDirctions="4,1,0,5,2"/>	
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRace.raceView.buffView.buffObj4" 
+			backStyle="horseRace.raceView.buff4"  filterString="null,lightFilter,null,grayFilter"  tipStyle="ddt.view.tips.OneLineTip" tipDirctions="4,1,0,5,2"/>	
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRace.raceView.buffView.buffObj5" 
+			backStyle="horseRace.raceView.buff5"  filterString="null,lightFilter,null,grayFilter"  tipStyle="ddt.view.tips.OneLineTip" tipDirctions="4,1,0,5,2"/>	
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRace.raceView.buffView.buffObj6" 
+			backStyle="horseRace.raceView.buff6"  filterString="null,lightFilter,null,grayFilter"  tipStyle="ddt.view.tips.OneLineTip" tipDirctions="4,1,0,5,2"/>	
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRace.raceView.buffView.buffObj7" 
+			backStyle="horseRace.raceView.buff7"  filterString="null,lightFilter,null,grayFilter"  tipStyle="ddt.view.tips.OneLineTip" tipDirctions="4,1,0,5,2"/>	
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRace.raceView.buffView.buffObj8" 
+			backStyle="horseRace.raceView.buff8"  filterString="null,lightFilter,null,grayFilter"  tipStyle="ddt.view.tips.OneLineTip" tipDirctions="4,1,0,5,2"/>	
+		
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="horseRace.race.matchView.rewardList" spacing="-1" x="19" y="347"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseRace.race.matchView.msgTxt" textFormatStyle="horseRace.race.matchView.msgTxtTF" filterString="horseRace.race.matchView.msgTxtGF"/>
+	</components>
+	<bitmaps>
+		<bitmapData resourceLink="horseRace.matchView.txt" x="305" y="278"/>
+		<bitmapData resourceLink="horseRaceView.backBg" x="0" y="0"/>
+		<bitmapData resourceLink="horseRace.raceView.selfplayerBg" x="-10" y="6"/>
+		<bitmapData resourceLink="horseRace.raceView.otherplayerBg" x="0" y="15"/>
+		
+	</bitmaps>
+</style>

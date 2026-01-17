@@ -1,0 +1,177 @@
+<style name="sanxiao" version="6.4.0" source="ui/turkey/swf/sanxiao.swf">
+	<components>
+	<component classname="sanXiao.view.SanXiaoMainView"
+			closestyle="core.closebt" titleOuterRectPosString="24,10,5" titleStyle="FrameTitleTextStyle" backStyle="SimpleFrameBackgoundOne" 
+			closeInnerRectString="44,14,6,30,14" stylename="sanxiao.frame"
+			 x="-160" y="-140" escEnable="true"
+			width="795" height="603" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="sanxiao.ProgressText" textFormatStyle="sanxiao.ProgressTF"
+			filterString="sanxiao.ProgressGF" autoSize="none" x="39" y="2"
+			width="104" height="18" />
+	<custom classname="bagAndInfo.bag.RichesButton" stylename="sanxiao.progressTips"
+			width="286" height="20" tipStyle="ddt.view.tips.OneLineTip" tipGapV="6" tipGapH="6" tipDirctions="0,1,2"/>
+<!-- 		用于消除的方块 -->
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="sanxiao.cell.icons"
+			resourceLink="ast.sanxiao.icon0,ast.sanxiao.icon1,ast.sanxiao.icon2,ast.sanxiao.icon3,ast.sanxiao.icon4,ast.sanxiao.icon5" x="0" y="0"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sanxiao.gameTxt" 
+		textFormatStyle="sanxiao.game.tf" filterString="sanxiao.game.gf" autoSize="none" width="94" height="20"/>
+<!-- 		 快速购买 -->
+		<component classname="sanXiao.view.SXShopBuyView"  stylename="sanxiao.QuickBuyAlert"  parentStyle="BaseFrame" 
+		containerY="30" width="340" height="225"/>	
+		
+<!-- 		三消购买次数 -->
+		<component classname="sanXiao.view.SXBuyTimesFrame" backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" 
+			stylename="sanxiao.SanxiaoBuyTimesFrame" titleStyle="FrameTitleTextStyle" parentStyle="BaseFrame" 
+			titleOuterRectPosString="15,10,5" x="-160" y="-40" submitButtonStyle="sanxiao.simplebt" cancelButtonStyle="sanxiao.simplebt" 
+			closeInnerRectString="44,19,6,30,14" width="465" height="215" />
+			
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="sanxiao.simplebt"
+			backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle"
+			backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter" x="158" y="446"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sanxiao.getNextRewardScoreTxt" 
+		textFormatStyle="sanxiao.getNextRewardScore.tf" filterString="sanxiao.getNextRewardScore.gf"  type="dynamic"
+		 width="40" height="20"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="sanxiao.bg"  parentStyle="core.bg6920" 
+		x="20" y="80" width="755" height="500"  scaleGridString="5,10,80,20" />
+		<component classname="com.pickgliss.ui.controls.SelectedButtonForArrange" stylename="sanxiao.gameBtn" 
+			unSelectedStyle="ast.sanxiao.btn.gameUp" selectedStyle="ast.sanxiao.btn.gameDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedButtonForArrange" stylename="sanxiao.storeBtn" 
+			unSelectedStyle="ast.sanxiao.btn.storeUp" selectedStyle="ast.sanxiao.btn.storeDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedButtonForArrange" stylename="sanxiao.detailBtn" 
+			unSelectedStyle="ast.sanxiao.btn.detailUp" selectedStyle="ast.sanxiao.btn.detailDown" />
+			
+<!-- 			领取奖励按钮 -->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sanxiao.gainPrise.btn"
+			backStyle="ast.sanxiao.gainPrise" x="336" y="6"/>
+			
+<!-- 			购买步数 按钮-->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sanxiao.buyStep.btn"
+			backStyle="ast.sanxiao.buyStep" x="107" y="440"/>
+			
+<!-- 			兑换按钮 -->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sanxiao.exchange.btn"
+			backStyle="ast.sanxiao.exchangeBtn" x="172" y="57"/>	
+			
+		<!-- 	商店物品item	title  蓝字蓝边-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sanxiao.storeItemTitle14.Txt" 
+		textFormatStyle="sanxiao.storeItemTitle14.tf" filterString="sanxiao.storeItemTitle14.gf"  type="dynamic"
+		 width="40" height="20"/>
+		 
+		<!-- 	  蓝字蓝边-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sanxiao.storeItemTitle.Txt" 
+		textFormatStyle="sanxiao.storeItemTitle.tf" filterString="sanxiao.storeItemTitle.gf"  type="dynamic"
+		 width="40" height="20"/>
+		 
+<!-- 	商店物品item	 price 黄字蓝边 -->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sanxiao.storeItemPrice.Txt" 
+		textFormatStyle="sanxiao.storeItemPrice.tf" filterString="sanxiao.storeItemPrice.gf"  type="dynamic"
+		 width="80" height="20"/>
+		 
+<!-- 		商店 text白字蓝边 -->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sanxiao.storeText.Txt" 
+		textFormatStyle="sanxiao.storeText.tf" filterString="sanxiao.storeText.gf"  type="dynamic"
+		autoSize="none" width="380" height="40" wordWrap="true"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sanxiao.test.Txt" 
+		textFormatStyle="sanxiao.storeText.tf" filterString="sanxiao.storeText.gf"  type="dynamic"
+		 width="80" height="80"/>
+	
+
+	 <component classname="com.pickgliss.ui.controls.ScrollPanel"
+			stylename="sanxiao.Detail.scrollList" parentStyle="core.ScrollPanel"
+			hScrollProxy="2" vScrollProxy="1" width="465" height="270" x="270" y="183"
+			vUnitIncrement="45" />
+		 
+		 
+		 
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sanxiao.timeRemainText.Txt" 
+		textFormatStyle="sanxiao.storeText.tf" filterString="sanxiao.timeRemainText.TxtGF"  type="dynamic"
+		 width="80" height="20" x="572" y="-39"/>
+		 
+		 
+	</components>
+	
+	
+
+	
+	
+	<sets>
+	
+		<set stylename="sanxiao.ProgressGF" args="0x683800,1,4,4,30"
+			type="flash.filters.GlowFilter" />
+		<set stylename="sanxiao.ProgressTF" args="Arial,11,0xffee7f,,,,,,center"
+			type="flash.text.TextFormat" />
+<!-- 		白字蓝边 -->
+		<set stylename="sanxiao.storeText.tf" args="Arial,14,0xffffff,true" type="flash.text.TextFormat"/>
+		<set stylename="sanxiao.storeText.gf" args="0x070983,1,2,2,15" type="flash.filters.GlowFilter"/>
+		
+<!-- 		黄字蓝边 -->
+		<set stylename="sanxiao.storeItemPrice.tf" args="Arial,16,0xffff7b,true" type="flash.text.TextFormat"/>
+		<set stylename="sanxiao.storeItemPrice.gf" args="0x070983,1,2,2,15" type="flash.filters.GlowFilter"/>
+		
+<!-- 		蓝字蓝边 14px-->
+		<set stylename="sanxiao.storeItemTitle14.tf" args="Arial,12,0x8bdfff,true" type="flash.text.TextFormat"/>
+		<set stylename="sanxiao.storeItemTitle14.gf" args="0x070983,1,4,4,30" type="flash.filters.GlowFilter"/>
+<!-- 		蓝字蓝边 16px-->
+		<set stylename="sanxiao.storeItemTitle.tf" args="Arial,16,0x8bdfff,true" type="flash.text.TextFormat"/>
+		<set stylename="sanxiao.storeItemTitle.gf" args="0x070983,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="sanxiao.game.tf" args="Arial,14,0xfef6ca,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="sanxiao.game.gf" args="0x3f3002,1,2,2,15" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="sanxiao.getNextRewardScore.tf" args="Arial,12,0xfee8b1,true" type="flash.text.TextFormat"/>
+		<set stylename="sanxiao.getNextRewardScore.gf" args="0x731800,1,2,2,15" type="flash.filters.GlowFilter"/>
+		<set stylename="sanxiao.timeRemainText.TxtGF" args="0x563700,1,4,4,30" type="flash.filters.GlowFilter"/>
+	</sets>
+	<customs>
+	</customs>
+	<bitmaps>
+<!-- 		<bitmapData  resourceLink="ast.gb.moneyIcon" y="66"/> -->
+		<bitmapData  resourceLink="ast.sanxiao.timeRemainBmp" x="393" y="-38"/>
+	</bitmaps>
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="sanxiao.pageSelectorCount" x="463" y="364"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.itemCount" x="51" y="46"/>
+		
+		<custom classname="flash.geom.Point" stylename="sanxiao.progressTxt.pt" x="108" y="415"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.game.pt" x="12" y="14"/>
+		
+		<custom classname="flash.geom.Point" stylename="sanxiao.detailTimeRemain.pt" x="389" y="33"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.detailDescribe.pt" x="382" y="70"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.detailPriseScore.pt" x="389" y="106"/>
+		
+		<custom classname="flash.geom.Point" stylename="sanxiao.detailItemScore.pt" x="0" y="12"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.detailItemBagCell.pt" x="228" y="0"/>
+		
+		<custom classname="flash.geom.Point" stylename="sanxiao.storeTimeRemain.pt" x="369" y="23"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.storeCrystalRemain.pt" x="697" y="22"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.storeCrystalIcon.pt" x="717" y="21"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.storePageNumber.pt" x="375" y="433"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.storeItemBagCell.pt" x="10" y="10"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.storeItemTitle.pt" x="90" y="7"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.storeItemTitleNumber.pt" x="90" y="62"/>
+		
+		<custom classname="flash.geom.Point" stylename="sanxiao.storeItemIcon.pt" x="91" y="29"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.storeItemPrice.pt" x="112" y="29"/>
+		
+		<custom classname="flash.geom.Point" stylename="sanxiao.bagListView.pt" x="387" y="21"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.crystalIcon.pt" x="608" y="399"/>
+		
+		<custom classname="flash.geom.Point" stylename="sanxiao.nextbagcell.pt" x="299" y="408"/>
+	
+		<custom classname="flash.geom.Point" stylename="sanxiao.score.pt" x="82" y="375"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.stepRemain.pt" x="253" y="376"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.nextScore.pt" x="317" y="453"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.crystal.pt" x="528" y="412"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.progress.pt" x="11" y="414"/>
+		
+		<custom classname="flash.geom.Point" stylename="sanxiao.page.pt" x="27" y="90"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.btns.pt" x="29" y="42"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.gameBG.pt" x="-4" y="-12"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.totalText.pt" x="277" y="63"/>
+		<custom classname="flash.geom.Point" stylename="sanxiao.TimesLabelbt.pt" x="28" y="52"/>
+	</customDisplay>
+</style>

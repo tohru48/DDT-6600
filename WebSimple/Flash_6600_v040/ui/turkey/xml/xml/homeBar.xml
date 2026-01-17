@@ -1,0 +1,33 @@
+<style name="homeBar" version="2.0.1" source="ui/turkey/swf/homeBar.swf">
+<sets>
+	<set type="flash.text.TextFormat" stylename="homeBar.homeBarView.energyCountTxtTF" args="Arial,14,0xf19b2b,,,,,,left"/>
+	<set type="flash.filters.GlowFilter" stylename="homeBar.homeBarView.energyCountTxtGF" args="0x441904,1,4,4,30"/>
+	<set type="flash.text.TextFormat" stylename="homeBar.homeBarView.tipCountTxtTF" args="Arial,14,0xf19b2b,,,,,,center"/>
+	<set type="flash.filters.GlowFilter" stylename="homeBar.homeBarView.tipCountTxtGF" args="0x441904,1,4,4,30"/>
+	<set type="flash.text.TextFormat" stylename="homeBar.homeBarView.countDownTxtTF" args="Arial,14,0x7c4413,,,,,,center"/>
+	<set type="flash.filters.GlowFilter" stylename="homeBar.homeBarView.countDownTxtGF" args="0x250000,1,2,2,10"/>
+	
+</sets>
+<customs>
+	<custom classname="flash.geom.Point" stylename="homeBar.HomeBarViewPos" x="10" y="2"/>
+	<custom classname="flash.geom.Point" stylename="homeBar.drinkCountTxtPos" x="277" y="437"/>
+	<custom classname="flash.geom.Point" stylename="homeBar.nowEnergyCountBMPos" x="2" y="374"/>
+	<custom classname="flash.geom.Point" stylename="homeBar.homeBarView.energyTxtPos" x="85" y="377"/>
+	<custom classname="flash.geom.Point" stylename="homeBar.helpBtnPos" x="299" y="92"/>
+	<custom classname="assets.homeBar.HelpText" stylename="assets.homeBar.HelpText" x="181" y="225"/>
+</customs>
+<components>
+	<component classname="homeBar.view.HomeBarFrame" stylename="homeBar.homeBarFrame" width="478" height="499" moveEnable="false" backStyle="assets.homeBar.frameBg" closestyle="core.roundClosebt" closeInnerRectString="42,105,85,42,14" moveInnerRectString="0,30,0,30,1"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="homeBar.homeBarView.drinkBtn" backStyle="assets.homeBar.drinkBtn" x="50" y="358"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="homeBar.homeBarView.pourBtn" backStyle="assets.homeBar.pourBtn" x="202" y="358"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="homeBar.homeBarView.tasteBtn" backStyle="assets.homeBar.tasteBtn" x="125" y="360"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="homeBar.homeBarView.removeTimeBtn" backStyle="assets.homeBar.removeTimeBtn" x="116" y="406"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeBar.homeBarView.countDownTxt" textFormatStyle="homeBar.homeBarView.countDownTxtTF" filterString="homeBar.homeBarView.countDownTxtGF" x="53" y="406"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeBar.homeBarView.energyCountTxt" textFormatStyle="homeBar.homeBarView.energyCountTxtTF" filterString="homeBar.homeBarView.energyCountTxtGF" x="132" y="439"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeBar.homeBarView.tipCountTxt" textFormatStyle="homeBar.homeBarView.tipCountTxtTF" filterString="homeBar.homeBarView.tipCountTxtGF" autoSize="none" x="7" y="419" width="270" height="40" wordWrap="true"/>
+</components>
+<bitmaps>
+	<bitmapData  resourceLink="assets.homeBar.drinkCount" x="185" y="436"/>
+	<bitmapData  resourceLink="assets.homeBar.nowEnergyCount" x="47" y="436"/>
+</bitmaps>
+</style>

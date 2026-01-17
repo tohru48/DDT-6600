@@ -1,0 +1,118 @@
+<style name="panicBuying" version="5.1.0" source="ui/turkey/swf/panicBuying.swf">
+<sets>
+	<set stylename="panicBuying.dateTxtTF" args="Arial,14,0xFFFAAD,true" type="flash.text.TextFormat" />
+	<set stylename="panicBuying.dateTxtGF" args="0x471E00,1,2,2,10" type="flash.filters.GlowFilter" />
+	<set stylename="panicBuying.remainTxtTF" args="Arial,12,0xFF0000" type="flash.text.TextFormat" />
+	<set stylename="panicBuying.remainTxtGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter" />
+	<set stylename="panicBuying.pageTxtTF" args="Arial,12,0xFFF8D6,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="panicBuying.pageTxtGF" args="0x5E3B1C,1,4,4,30"  type="flash.filters.GlowFilter" />
+	<set stylename="panicBuying.itemTitleTF" args="Arial,13,0xe8ce97,true" type="flash.text.TextFormat" />
+	<set stylename="panicBuying.itemTitleGF" args="0x5c3d11,1,2,2,10"  type="flash.filters.GlowFilter" />
+	<set stylename="panicBuying.countTxtTF" args="Arial,14,0xe8ce97,,,,,,right" type="flash.text.TextFormat" />
+	<set stylename="panicBuying.countTxtGF" args="0x5c3d11,1,2,2,10"  type="flash.filters.GlowFilter" />
+	<set stylename="entire.remainTxtTF" args="Arial,12,0xffd155,,,,,,right" type="flash.text.TextFormat" />
+	<set stylename="entire.remainTxtGF" args="0x2b1a03,1,2,2,10"  type="flash.filters.GlowFilter" />
+	<set stylename="panicBuying.originalPriceTF" args="Arial,12,0xb68e37,true" type="flash.text.TextFormat" />
+	<set stylename="panicBuying.originalPriceGF" args="0x2b1a03,1,2,2,10"  type="flash.filters.GlowFilter" />
+	<set stylename="panicBuying.priceTF" args="Arial,15,0xffffff,true,,,,,right" type="flash.text.TextFormat" />
+	<set stylename="panicBuying.priceGF" args="0x401400,1,2,2,10"  type="flash.filters.GlowFilter" />
+	<set stylename="panicBuying.levelTxt1TF" args="Arial,12,0xffffff,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="panicBuying.levelTxt1GF" args="0x003b01,1,2,2,10"  type="flash.filters.GlowFilter" />
+	<set stylename="panicBuying.levelTxt2TF" args="Arial,12,0xfff7c9,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="panicBuying.levelTxt2GF" args="0x410000,1,2,2,10"  type="flash.filters.GlowFilter" />
+	<set stylename="panicBuying.levelTxt3TF" args="Arial,12,0xffec93,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="panicBuying.levelTxt3GF" args="0x660011,1,2,2,10"  type="flash.filters.GlowFilter" />
+	<set stylename="panicBuying.levelTxt4TF" args="Arial,12,0xfff44a,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="panicBuying.levelTxt4GF" args="0x480000,1,2,2,10"  type="flash.filters.GlowFilter" />
+	<set stylename="panicBuying.helpTxtTF" args="Arial,12,0xf6eeba,true" type="flash.text.TextFormat" leading="9"/>
+	<set stylename="panicBuying.helpTxtGF" args="0x693812,1,4,4,30"  type="flash.filters.GlowFilter" />
+</sets>
+<customDisplay>
+	<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="panicBuying.tileList" 
+		x="8" y="74" vSpace="5" hSpace="3"/>
+	<custom classname="flash.geom.Point" stylename="panicBuying.payTypePos" x="163" y="65" /> 
+	<custom classname="flash.geom.Point" stylename="panicBuying.bagCellPos" x="8" y="29" /> 
+	<custom classname="flash.geom.Point" stylename="panicBuying.vipPos" x="7" y="91" /> 
+</customDisplay>
+<components>
+	<component classname="panicBuying.views.PanicBuyingFrame" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="panicBuying.frame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5"  containerX="19" containerY="46" escEnable="true"
+			closeInnerRectString="44,19,6,30,14" width="660" height="460" />	
+			
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="panicBuying.bg"  parentStyle="core.bg6920" 
+		x="0" y="36" width="622" height="359"  scaleGridString="5,10,80,20" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="panicBuying.dateTxt"
+		x="249"  y="49"  width="100" height="20"   textFormatStyle="panicBuying.dateTxtTF"  filterString="panicBuying.dateTxtGF"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="panicBuying.remainTxt"
+		x="536"  y="372"  width="100" height="20"   textFormatStyle="panicBuying.remainTxtTF"  filterString="panicBuying.remainTxtGF"/>	
+		
+<!-- 	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="panicBuying.tabHbox" x="1" y="1"/> -->
+	<component classname="com.pickgliss.ui.controls.SelectedButtonForArrange" stylename="panicBuying.levelRushBtn" 
+			unSelectedStyle="panicBuying.levelUnselected" selectedStyle="panicBuying.levelSelected" />
+	<component classname="com.pickgliss.ui.controls.SelectedButtonForArrange" stylename="panicBuying.vipRushBtn" 
+			unSelectedStyle="panicBuying.vipUnselected" selectedStyle="panicBuying.vipSelected" />
+	<component classname="com.pickgliss.ui.controls.SelectedButtonForArrange" stylename="panicBuying.entireRushBtn" 
+			unSelectedStyle="panicBuying.entireUnselected" selectedStyle="panicBuying.entireSelected" />
+	<component classname="com.pickgliss.ui.controls.SelectedButtonForArrange" stylename="panicBuying.newEntireRushBtn" 
+			unSelectedStyle="panicBuying.newEntireUnselected" selectedStyle="panicBuying.newEntireSelected" />
+	<component classname="com.pickgliss.ui.controls.SelectedButtonForArrange" stylename="panicBuying.indivRushBtn" 
+			unSelectedStyle="panicBuying.indivUnselected" selectedStyle="panicBuying.indivSelected" />	
+			
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="panicBuying.firstBtn"  backStyle="asset.ddtcore.firstBtn"
+		x="152" y="332"/>	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="panicBuying.preBtn"  backStyle="asset.ddtcore.leftBtn"
+		x="212" y="332"/>	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="panicBuying.nextBtn"  backStyle="asset.ddtcore.rightBtn"
+		x="345" y="332"/>	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="panicBuying.lastBtn"  backStyle="asset.ddtcore.endBtn"
+		x="408" y="332"/>		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="panicBuying.pageTxt"  autoSize="none"
+		x="277" y="338" width="60" height="20"  textFormatStyle="panicBuying.pageTxtTF" filterString="panicBuying.pageTxtGF" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage"  stylename="panicBuying.pageBg"  parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"  
+		x="271" y="333" width="70" height="24" />	
+
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="panicBuying.itemTitle" 
+		x="7" y="7" width="60" height="20"  textFormatStyle="panicBuying.itemTitleTF" filterString="panicBuying.itemTitleGF" />			
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="panicBuying.countTxt" autoSize="none"
+		x="86" y="10" width="105" height="20"  textFormatStyle="panicBuying.countTxtTF" filterString="panicBuying.countTxtGF" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="entire.remainTxt" autoSize="none"
+		x="86" y="76" width="105" height="20"  textFormatStyle="entire.remainTxtTF" filterString="entire.remainTxtGF" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="panicBuying.originalPrice" 
+		x="77" y="40" width="60" height="20"  textFormatStyle="panicBuying.originalPriceTF" filterString="panicBuying.originalPriceGF" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="panicBuying.price"  autoSize="none"
+		x="80" y="67" width="84" height="20"  textFormatStyle="panicBuying.priceTF" filterString="panicBuying.priceGF" />			
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="panicBuying.giveBtn"  backStyle="panicBuying.give"
+		x="44" y="97"/>	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="panicBuying.askForBtn"  backStyle="panicBuying.askFor"
+		x="88" y="97"/>	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="panicBuying.buyBtn"  backStyle="panicBuying.buy"
+		x="132" y="97"/>		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="panicBuying.levelTxt1"  autoSize="none"
+		x="10" y="95" width="40" height="20"  textFormatStyle="panicBuying.levelTxt1TF" filterString="panicBuying.levelTxt1GF" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="panicBuying.levelTxt2"  autoSize="none"
+		x="10" y="95" width="40" height="20"  textFormatStyle="panicBuying.levelTxt2TF" filterString="panicBuying.levelTxt2GF" />		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="panicBuying.levelTxt3"  autoSize="none"
+		x="10" y="95" width="40" height="20"  textFormatStyle="panicBuying.levelTxt3TF" filterString="panicBuying.levelTxt3GF" />		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="panicBuying.levelTxt4"  autoSize="none"
+		x="14" y="95" width="40" height="20"  textFormatStyle="panicBuying.levelTxt4TF" filterString="panicBuying.levelTxt4GF" />	
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="panicBuying.helpTxt"  autoSize="none" multiline="true" wordWrap="true" 
+		x="0" y="0" width="326" height="40" textFormatStyle="panicBuying.helpTxtTF"  filterString="panicBuying.helpTxtGF"/>	
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="panicBuying.helpScrollPanel" parentStyle="core.ScrollPanel" 
+		x="36" y="89" width="346" height="310" hScrollProxy="2" vScrollProxy="1" vUnitIncrement="10" />	
+</components>
+<bitmaps>
+	<bitmapData  resourceLink="panicBuying.vipBg" x="-2" y="36"/>
+	<bitmapData  resourceLink="panicBuying.levelUnselected" x="10" y="0"/>
+	<bitmapData  resourceLink="panicBuying.vipUnselected" x="10" y="0"/>
+	<bitmapData  resourceLink="panicBuying.entireUnselected" x="10" y="0"/>
+	<bitmapData  resourceLink="panicBuying.indivUnselected" x="10" y="0"/>
+	<bitmapData  resourceLink="panicBuying.date" x="156" y="50"/>
+	<bitmapData  resourceLink="panicBuying.remain" x="400" y="373"/>
+	<bitmapData  resourceLink="panicBuying.greenTag" x="8" y="93"/>
+	<bitmapData  resourceLink="panicBuying.orangeTag" x="8" y="93"/>
+	<bitmapData  resourceLink="panicBuying.rosyTag" x="8" y="93"/>
+	<bitmapData  resourceLink="panicBuying.redTag" x="8" y="93"/>
+</bitmaps>
+</style>

@@ -1,0 +1,332 @@
+<style name="bombKing" version="1.0.1" source="ui/turkey/swf/bombKing.swf">
+<sets>
+	<set stylename="bombKing.yellowTF" args="Arial,12,0xffba00,true" type="flash.text.TextFormat" />
+	<set stylename="bombKing.yellowGF" args="0x261000,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="bombKing.timeTxtTF" args="Arial,12,0xffe673" type="flash.text.TextFormat" />
+	<set stylename="bombKing.timeTxtGF" args="0x2c1806,1,4,4,30" type="flash.filters.GlowFilter" />
+
+	<set stylename="bombKing.item2TxtTF" args="Arial,14,0xfff8ac,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="bombKing.item4TxtTF" args="Arial,14,0xffe673,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="bombKing.item8TxtTF" args="Arial,14,0xf5aa51,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="bombKing.item16TxtTF" args="Arial,12,0xff7e00,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="bombKing.itemTxtGF" args="0x2c1802,1,4,4,30" type="flash.filters.GlowFilter" />	
+	<set stylename="bombKing.itemDarkTxtTF" args="Arial,12,0xc5b56b,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="bombKing.itemDarkTxtGF" args="0x321c05,1,4,4,30" type="flash.filters.GlowFilter" />	
+	
+	<set stylename="bombKing.nameTF" args="Arial,14,0xffea00,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="bombKing.nameGF" args="0x670102,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="bombKing.unSelectedTF" args="Arial,12,0xcae1a3,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="bombKing.unSelectedGF"  args="0x0d5954,1,2,2,1000" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="bombKing.lightBrownTF"  type="flash.text.TextFormat" args="Arial,12,0xfffffe,,,,,,center"  />
+	<set stylename="bombKing.lightBrownGF"  type="flash.filters.GlowFilter" args="0x402400,1,2,2,30" />
+	
+	<set stylename="bombKing.rankFrame.topTxtTF" args="Arial,14,0xffea9c,true" type="flash.text.TextFormat"/>
+	<set stylename="bombKing.rankFrame.topTxtGF"  args="0x4f3700,1,2,2,1000" type="flash.filters.GlowFilter"/>
+	<set stylename="bombKing.rankFrame.bottomTxtTF" args="Arial,14,0xfff3b9,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="bombKing.rankFrame.bottomTxtGF"  args="0x573d1e,1,2,2,1000" type="flash.filters.GlowFilter"/>
+	<set stylename="bombKing.rankFrame.rankTxtTF" args="Arial,18,0xFFFFFF,,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="bombKing.rankFrame.rankTxtGF" args="0x000000,1,2,2,10" type="flash.filters.DropShadowFilter"/>
+	
+	<set stylename="bombKing.pureWhiteTF"  type="flash.text.TextFormat" args="Arial,16,0xffffff,,,,,,center"  />
+	
+	<set stylename="bombKing.Log.infoTxtTF" args="Arial,12,0xfff0b5" type="flash.text.TextFormat"/>
+	<set stylename="bombKing.Log.infoTxtGF" args="0x502000,1,4,4,30" type="flash.filters.GlowFilter"/>
+	<set stylename="bombKing.Log.logTxtTF" args="Arial,12,0x8dff1e" type="flash.text.TextFormat"/>
+	<set stylename="bombKing.Log.logTxtGF" args="0x01491a,1,4,4,30" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="bombKing.remainTxtTF" args="黑体,30,0xffffff,true" type="flash.text.TextFormat"/>
+	<set stylename="bombKing.remainTxtGF" args="0x2a1b00,1,4,4,30" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="bombKing.prizeFrame.desTxtTF" args="Arial,12,0xfff295" type="flash.text.TextFormat"  leading="17" letterSpacing="2"/>
+	<set stylename="bombKing.prizeFrame.desTxtTF2" args="Arial,12,0xfff295" type="flash.text.TextFormat"  leading="5" letterSpacing="2"/>
+	<set stylename="bombKing.prizeFrame.desTxtGF" args="0x5e330e,1,4,4,30" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="bombKing.prizeTip.labelTxtTF" args="Arial,14,0xffffff,ture" type="flash.text.TextFormat" leading="3" letterSpacing="2"/>				
+	<set stylename="bombKing.prizeTip.labelTxtGF" args="0x000000,1,2,2,30"  type="flash.filters.GlowFilter"/>
+	<set stylename="bombKing.prizeTip.requestTxtTF" args="Arial,12,0xf8c600" type="flash.text.TextFormat" leading="5" letterSpacing="1"/>				
+	<set stylename="bombKing.prizeTip.requestTxtGF" args="0x000000,1,2,2,30"  type="flash.filters.GlowFilter"/>
+	<set stylename="bombKing.prizeTip.contentTxtTF" args="Arial,12,0xffffff" type="flash.text.TextFormat" leading="5" letterSpacing="1"/>				
+	<set stylename="bombKing.prizeTip.contentTxtGF" args="0x000000,1,2,2,30"  type="flash.filters.GlowFilter"/>
+	<set stylename="bombKing.prizeTip.titleTxtTF0" args="Arial,14,0x8cec5c,true" type="flash.text.TextFormat"/>	
+	<set stylename="bombKing.prizeTip.titleTxtTF1" args="Arial,14,0xf076ff,true" type="flash.text.TextFormat"/>				
+	<set stylename="bombKing.prizeTip.titleTxtTF2" args="Arial,14,0xffdc3a,true" type="flash.text.TextFormat"/>				
+	<set stylename="bombKing.prizeTip.titleTxtTF3" args="Arial,14,0x7090ff,true" type="flash.text.TextFormat"/>				
+	<set stylename="bombKing.prizeTip.titleTxtGF" args="0x000000,1,2,2,30"  type="flash.filters.GlowFilter"/>			
+</sets>
+<customDisplay>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos2" x="276" y="239"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos3" x="584" y="239"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos4" x="239" y="155"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos5" x="239" y="325"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos6" x="629" y="155"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos7" x="629" y="325"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos8" x="160" y="117"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos9" x="160" y="203"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos10" x="160" y="288"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos11" x="160" y="373"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos12" x="710" y="117"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos13" x="710" y="203"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos14" x="710" y="288"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos15" x="710" y="373"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos16" x="35" y="104"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos17" x="35" y="136"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos18" x="35" y="188"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos19" x="35" y="220"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos20" x="35" y="275"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos21" x="35" y="307"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos22" x="35" y="359"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos23" x="35" y="391"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos24" x="839" y="104"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos25" x="839" y="136"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos26" x="839" y="188"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos27" x="839" y="220"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos28" x="839" y="275"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos29" x="839" y="307"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos30" x="839" y="359"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.itemPos31" x="839" y="391"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos2" x="393" y="258"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos3" x="570" y="258"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos4" x="328" y="196"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos5" x="328" y="283"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos6" x="636" y="196"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos7" x="636" y="283"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos8" x="271" y="129"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos9" x="271" y="189"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos10" x="271" y="301"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos11" x="271" y="360"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos12" x="682" y="129"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos13" x="682" y="189"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos14" x="682" y="301"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos15" x="682" y="360"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos16" x="141" y="121"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos17" x="141" y="139"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos18" x="141" y="206"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos19" x="141" y="223"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos20" x="141" y="292"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos21" x="141" y="310"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos22" x="141" y="376"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos23" x="141" y="394"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos24" x="821" y="121"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos25" x="821" y="139"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos26" x="821" y="206"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos27" x="821" y="223"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos28" x="821" y="292"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos29" x="821" y="310"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos30" x="821" y="376"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.linePos31" x="821" y="394"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.firstNamePos" x="454" y="193"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.secondNamePos" x="454" y="311"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.thirdNamePos" x="454" y="422"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.figurePos0" x="464" y="116"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.figurePos1" x="464" y="235"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.figurePos2" x="464" y="349"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.scoreTxtPos" x="789" y="540"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.prizeFrame.desTxt1" x="20" y="59"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.prizeFrame.desTxt2" x="20" y="261"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.prizeFrame.desTxt3" x="20" y="369"/>
+	
+	<custom classname="flash.geom.Point" stylename="bombKing.timeTxt1" x="386" y="550"/>
+	<custom classname="flash.geom.Point" stylename="bombKing.timeTxt2" x="403" y="550"/>	
+</customDisplay>
+<components>
+<!-- 主界面 -->
+	<component classname="bombKing.view.BombKingMainFrame" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="bombKing.BombKingMainFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" x="-160" y="-40"
+			closeInnerRectString="44,19,6,30,14" width="985" height="592" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="bombKing.startBtn" backStyle="bombKing.startBattle"
+			x="401" y="472" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.timeTxt" 
+			textFormatStyle="bombKing.timeTxtTF" filterString="bombKing.timeTxtGF" 
+			x="364" y="550" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="bombKing.checkRankImage"
+			resourceLink="core.bg6899,bombKing.checkRank" imageRectString="140|45|0|0|9,135|37|2|-70|9"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="bombKing.rankBtn" backStyle="bombKing.checkRankImage"
+			x="799" y="481" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.rankInfoTxt" 
+			textFormatStyle="bombKing.yellowTF" filterString="bombKing.yellowGF" 
+			x="659" y="540" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="bombKing.prizeImage"
+			resourceLink="core.bg6905,bombKing.prize" imageRectString="90|38|0|0|9,77|21|10|-43|9"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="bombKing.prizeBtn" backStyle="bombKing.prizeImage"
+			x="809" y="42" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="bombKing.ruleImage"
+			resourceLink="core.bg6905,bombKing.rule" imageRectString="100|38|0|0|9,91|21|10|-49|9"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="bombKing.ruleBtn" backStyle="bombKing.ruleImage"
+			x="907" y="42" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.nameTxt" 
+			textFormatStyle="bombKing.nameTF" filterString="bombKing.nameGF"  autoSize="none"  width="105"  height="25"/>
+			
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.item2Txt" 
+			textFormatStyle="bombKing.item2TxtTF" filterString="bombKing.itemTxtGF"  autoSize="none"
+			x="8" y="14"  width="100" height="25"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.item4Txt" 
+			textFormatStyle="bombKing.item4TxtTF" filterString="bombKing.itemTxtGF"  autoSize="none"
+			x="8" y="14" width="100" height="25"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.item8Txt" 
+			textFormatStyle="bombKing.item8TxtTF" filterString="bombKing.itemTxtGF"  autoSize="none"
+			x="6" y="9" width="100" height="25"/>	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.item16Txt" 
+			textFormatStyle="bombKing.item16TxtTF" filterString="bombKing.itemTxtGF"  autoSize="none"
+			x="5" y="8" width="100" height="25"/>	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.itemLightTxt" 
+			textFormatStyle="bombKing.item2TxtTF" filterString="bombKing.itemTxtGF"  autoSize="none"
+			width="100" height="25"/>	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.itemDarkTxt" 
+			textFormatStyle="bombKing.itemDarkTxtTF" filterString="bombKing.itemDarkTxtGF"  autoSize="none"
+			width="100" height="25"/>	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.remainTxt"  textFormatStyle="bombKing.remainTxtTF" 
+			x="504" y="491"  filterString="bombKing.remainTxtGF" />
+<!-- 			排行界面 -->
+	<component classname="bombKing.view.BombKingRankFrame" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="bombKing.BombKingRankFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5"  closeInnerRectString="44,19,6,30,14"  containerX="14" containerY="40"
+			width="500" height="530" />
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="bombKing.rankFrame.bg"  parentStyle="core.bg6920"
+			x="5" y="4" width="460" height="465"/>
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="bombKing.rankFrame.hBox"  spacing="8"
+			x="16" y="10"/>
+
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.tab.unTextStyle" textFormatStyle="bombKing.unSelectedTF" 
+			filterString="bombKing.unSelectedGF" multiline="false" wordWrap="false" autoSize="none"  width="50" height="28"/>		
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="bombKing.tab.unSelectedBg"  resourceLink="asset.core.btmc006" 
+			x="6" y="8" scaleGridString="10,5,54,19"/>	
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="bombKing.tab.SelectedBg" resourceLink="asset.core.btmc007" 
+			scaleGridString="20,13,50,24"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="bombKing.tab.front100Img" resourceLink="bombKing.tab.SelectedBg,bombKing.front100" 
+			width="72" imageRectString="80|40|0|0|9,63|24|7|-5|9" />
+	<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="bombKing.rankFrame.front100Btn" textStyle=",bombKing.tab.unTextStyle" 
+			unSelectedStyle="bombKing.tab.unSelectedBg" selectedStyle="bombKing.tab.front100Img" 
+			backgoundInnerRectString="11|55|13|25|13,5|60|5|29|13" filterString="null,lightFilter,null,grayFilter"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="bombKing.tab.front16Img" resourceLink="bombKing.tab.SelectedBg,bombKing.front16" 
+			width="72" imageRectString="80|40|0|0|9,63|24|7|-5|9" />
+	<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="bombKing.rankFrame.front16Btn" textStyle=",bombKing.tab.unTextStyle" 
+			unSelectedStyle="bombKing.tab.unSelectedBg" selectedStyle="bombKing.tab.front16Img" 
+			backgoundInnerRectString="11|55|13|25|13,5|60|5|29|13" filterString="null,lightFilter,null,grayFilter" />
+			
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="bombKing.PageCountBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"
+		 x="334" y="376"  width="65" height="24"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="bombKing.prevBtn" backStyle="asset.ddtcore.leftBtn" 
+		x="277" y="374" width="54" height="25"  filterString="null,lightFilter,null,grayFilter"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="bombKing.nextBtn" backStyle="asset.ddtcore.rightBtn" 
+		x="402" y="374" width="54" height="25"  filterString="null,lightFilter,null,grayFilter"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.pageTxt" textFormatStyle="bombKing.lightBrownTF" filterString="bombKing.lightBrownGF" 
+		x="338" y="379" autoSize="none" width="60" height="26"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.rankFrame.topTxt" textFormatStyle="bombKing.rankFrame.topTxtTF" 
+		x="20" y="57" filterString="bombKing.rankFrame.topTxtGF" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.rankFrame.bottomTxt" textFormatStyle="bombKing.rankFrame.bottomTxtTF" 
+		x="18" y="438" filterString="bombKing.rankFrame.bottomTxtGF" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.myRankTxt"  textFormatStyle="bombKing.rankFrame.rankTxtTF" 
+		x="119" y="436" filterString="bombKing.rankFrame.rankTxtGF"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.myScoreTxt"  textFormatStyle="bombKing.rankFrame.rankTxtTF"
+		x="318" y="436"  filterString="bombKing.rankFrame.rankTxtGF"/>
+		
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="bombKing.vBox" spacing="-5" 
+		x="16" y="89" />
+<!-- 	BKingRankItem	 -->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="bombKing.rankFrame.mouseOver" 
+		x="-5" y="-5"  width="445" height="40"  resourceLink="asset.core.NewScale9CornerImage8.1,asset.core.NewScale9CornerImage8.2,asset.core.NewScale9CornerImage8.3,asset.core.NewScale9CornerImage8.4,asset.core.NewScale9CornerImage8.5,asset.core.NewScale9CornerImage8.6,asset.core.NewScale9CornerImage8.7,asset.core.NewScale9CornerImage8.8,asset.core.NewScale9CornerImage8.9"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="bombKing.topThree" 
+		x="15" y="0" resourceLink="bombKing.orderNo1Asset,bombKing.orderNo2Asset,bombKing.orderNo3Asset"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.rankVeiw.placeTxt"  textFormatStyle="bombKing.pureWhiteTF" 
+		x="2" y="3" autoSize="none" width="75" height="26"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.rankVeiw.nameTxt"  textFormatStyle="bombKing.pureWhiteTF" 
+		x="73" y="3" autoSize="none" width="130" height="26"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.rankVeiw.areaName"  textFormatStyle="bombKing.pureWhiteTF" 
+		x="209" y="3" autoSize="none" width="100" height="26"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.rankVeiw.numTxt"  textFormatStyle="bombKing.pureWhiteTF" 
+		x="332" y="3" autoSize="none" width="100" height="26"/>
+<!-- 		战报相关 -->
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="bombKing.Log.logVBox" spacing="2" 
+		x="0" y="0" />
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="bombKing.Log.scrollPanel" parentStyle="core.ScrollPanel" 
+		x="41" y="434" width="300" height="130" hScrollProxy="2" vScrollProxy="0" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.Log.infoTxt"  textFormatStyle="bombKing.Log.infoTxtTF" 
+		x="0" y="0"  filterString="bombKing.Log.infoTxtGF" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.Log.logTxt"  textFormatStyle="bombKing.Log.logTxtTF" 
+		x="54" y="20"  filterString="bombKing.Log.logTxtGF" />
+<!-- 		tips -->
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="bombKing.tipsBg" parentStyle="core.commonTipBg" 
+		scaleGridString="10,10,42,42" width="117" height="30" y="-6"/>
+	<component classname="com.pickgliss.ui.controls.IconButton" stylename="bombKing.viewInfo" backStyle="hall.playerTip.ItemBg" 
+		iconStyle="asset.playerTip.viewInfo" filterString="null,lightFilter,null,grayFilter" x="14" y="0"/>
+		
+<!-- 		比赛规则说明 -->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="bombKing.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-18" y="-51" width="470" height="376" />
+	<component classname="store.HelpPrompt" stylename="bombKing.HelpPrompt" bg9ScalseStyle="bombKing.HelpFrame.FrameBg" contentStyle="bombKing.helpTxt" x="35" y="97" />
+	<component classname="store.HelpFrame" stylename="bombKing.HelpFrame" parentStyle="BaseFrame" width="504" height="484" />
+<!-- 	奖励说明 -->
+	<component classname="bombKing.view.BombKingPrizeFrame" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="bombKing.BombKingPrizeFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5"  closeInnerRectString="44,19,6,30,14"  containerX="14" containerY="40"
+			width="500" height="530" />
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="bombKing.prizeFrame.bg"  parentStyle="core.bg6920"
+			x="5" y="4" width="460" height="465"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.prizeFrame.desTxt"  textFormatStyle="bombKing.prizeFrame.desTxtTF" 
+		 	filterString="bombKing.prizeFrame.desTxtGF" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.prizeFrame.desTxt2"  textFormatStyle="bombKing.prizeFrame.desTxtTF2" 
+		 	filterString="bombKing.prizeFrame.desTxtGF" />
+	<component classname="com.pickgliss.ui.image.Image" stylename="bombKing.prizeFrame.NO1" resourceLink="asst.hall.playerTitle3" 
+		x="80" y="50" tipStyle = "bombKing.components.BKingPrizeTip" tipDirctions = "7"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="bombKing.prizeFrame.NO2" resourceLink="asst.hall.playerTitle4" 
+		x="80" y="80" tipStyle = "bombKing.components.BKingPrizeTip" tipDirctions = "7"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="bombKing.prizeFrame.NO3" resourceLink="asst.hall.playerTitle5" 
+		x="80" y="110" tipStyle = "bombKing.components.BKingPrizeTip" tipDirctions = "7"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="bombKing.prizeFrame.Other" resourceLink="asst.hall.playerTitle6" 
+		x="110" y="144" tipStyle = "bombKing.components.BKingPrizeTip" tipDirctions = "7"/>
+<!-- 	奖励tip -->
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="bombKing.prizeTip.bg" parentStyle="core.commonTipBg" 
+		scaleGridString="10,10,42,42" width="480" height="73"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.prizeTip.labelTxt"  textFormatStyle="bombKing.prizeTip.labelTxtTF" 
+		 	x="9" y="10" filterString="bombKing.prizeTip.labelTxtGF" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.prizeTip.requestTxt"  textFormatStyle="bombKing.prizeTip.requestTxtTF" 
+		 	x="9" y="32"  filterString="bombKing.prizeTip.requestTxtGF" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.prizeTip.contentTxt"  textFormatStyle="bombKing.prizeTip.contentTxtTF" 
+		 	x="140" y="32"  filterString="bombKing.prizeTip.contentTxtGF" />
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.prizeTip.titleTxt0"  textFormatStyle="bombKing.prizeTip.titleTxtTF0" 
+		 	x="107" y="9" filterString="bombKing.prizeTip.titleTxtGF" /> 	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.prizeTip.titleTxt1"  textFormatStyle="bombKing.prizeTip.titleTxtTF1" 
+		 	x="107" y="9" filterString="bombKing.prizeTip.titleTxtGF" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.prizeTip.titleTxt2"  textFormatStyle="bombKing.prizeTip.titleTxtTF2" 
+		 	x="107" y="9" filterString="bombKing.prizeTip.titleTxtGF" />		 	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bombKing.prizeTip.titleTxt3"  textFormatStyle="bombKing.prizeTip.titleTxtTF3" 
+		 	x="107" y="9" filterString="bombKing.prizeTip.titleTxtGF" />
+
+</components>
+<bitmaps>
+	<bitmapData resourceLink="bombKing.BG" x="17" y="43"/>
+	<bitmapData resourceLink="bombKing.purpleIcon" x="423" y="183"/>
+	<bitmapData resourceLink="bombKing.redIcon" x="423" y="302"/>
+	<bitmapData resourceLink="bombKing.blueIcon" x="423" y="413"/>
+	<bitmapData resourceLink="bombKing.rankFrame.listBg" x="12" y="46"/>
+	<bitmapData resourceLink="bombKing.myRankAsset" x="20" y="408"/>
+	<bitmapData resourceLink="bombKing.battleSoon" x="389" y="498"/>
+	<bitmapData resourceLink="bombKing.prizeDesBg" x="9" y="14"/>
+	<bitmapData resourceLink="bombKing.waitForNextTurn" x="369" y="498"/>
+	<bitmapData resourceLink="bombKing.battling1" x="398" y="498"/>
+	<bitmapData resourceLink="bombKing.battling2" x="385" y="498"/>
+	<bitmapData resourceLink="bombKing.battling3" x="398" y="498"/>
+	<bitmapData resourceLink="asset.playerTip.viewInfo" x="0" y="4"/>
+</bitmaps>
+</style>

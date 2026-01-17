@@ -1,0 +1,54 @@
+2015-04-25 14:13:56,831 - [10] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: A cadeia de caracteres de entrada não estava em um formato incorreto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\IMRecentContactsList.cs:linha 29
+2015-04-25 14:44:39,491 - [13] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: A cadeia de caracteres de entrada não estava em um formato incorreto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\IMRecentContactsList.cs:linha 29
+2015-04-25 14:57:20,318 - [11] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: A cadeia de caracteres de entrada não estava em um formato incorreto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\IMRecentContactsList.cs:linha 29
+2015-04-25 14:59:11,453 - [8] - ERROR - Tank.Request.ServerList - Load server list error:
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Tank.Request.ServerList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ServerList.cs:linha 43
+2015-04-25 14:59:11,562 - [10] - ERROR - Tank.Request.ServerList - Load server list error:
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Tank.Request.ServerList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ServerList.cs:linha 43
+2015-04-25 16:00:22,009 - [30] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: A cadeia de caracteres de entrada não estava em um formato incorreto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\IMRecentContactsList.cs:linha 29
+2015-04-25 16:15:22,497 - [74] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: A cadeia de caracteres de entrada não estava em um formato incorreto.
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\IMRecentContactsList.cs:linha 29

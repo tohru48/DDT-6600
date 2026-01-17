@@ -1,0 +1,89 @@
+<style name="moneyTree" version="6.4.0" source="ui/turkey/swf/moneyTree.swf">
+	<components>
+	<component classname="moneyTree.view.MoneyTreeMainFrame"
+			closestyle="core.closebt" titleOuterRectPosString="24,10,5" titleStyle="FrameTitleTextStyle" backStyle="SimpleFrameBackgoundOne" 
+			closeInnerRectString="44,14,6,30,14" stylename="moneyTree.mainframe"
+			 x="-160" y="-140" escEnable="true"
+			width="628" height="446" />
+<!-- 			购买确认框 -->
+
+<component classname="com.pickgliss.ui.controls.alert.SimpleAlert" stylename="mySimpleAlert"
+			submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" buttonToBottom="12"
+			textStyle="mt.simpleAlertContentText" titleOuterRectPosString="12,12,5"
+			backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt"
+			titleStyle="FrameTitleTextStyle" containerX="20" containerY="40"
+			frameInnerRectString="46,45,68,85,-1" moveInnerRectString="0,30,0,30,1"
+			closeInnerRectString="44,6,6,30,14" frameMiniW="270" frameMiniH="130"/>
+	<component classname="moneyTree.ui.MoneyTreeRmbConfirmAlert" stylename="moneyTree.confirmView"  parentStyle="mySimpleAlert"
+		height="250" frameMiniH="249" width="290" frameMiniW="289"/>
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="moneytree.radioText" textFormatStyle="moneytree.GoodItemNameTF2" filterString="moneytree.GoodItemTextFilter" />
+		
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="moneytree.CartItemSelectBtn" 
+			unSelectedStyle="core.RadioButton.Red.CheckBtnUnSelect" selectedStyle="core.RadioButton.Red.CheckBtnSelect" 
+			textStyle="moneytree.radioText" fieldX="20" fieldY="0" 
+		/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="mt.simpleAlertContentText" textFormatStyle="mt.simpleAlertContentTF"
+			filterString="mt.simpleAlertContentGF"  x="46" y="68"/>
+		
+<!-- 		发红包按钮 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="moneyTree.btn.send" backStyle="moneyTree.buyBtn.bmp" x="408" y="376"/>
+
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="moneyTree.speedup.Btn" backStyle="moneyTree.speedUp" x="92" y="3"/>
+<!-- 		剩余次数文本框 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="moneyTree.txt.TimesRemain" 
+		textFormatStyle="mt.txtFormat.timesRemain" filterString="mt.filter.timesRemain"  type="dynamic"
+		x="519" y="101" width="100" height="20"/>
+		
+<!-- 		倒计时文字 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="moneyTree.cd.textField" 
+		textFormatStyle="mt.txtFormat.cd" filterString="mt.filter.cd"  type="dynamic"
+		x="2" y="23" width="68" height="20"/>
+		
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="moneyTree.ui.FriendsList" parentStyle="core.ScrollPanel" 
+			vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="0" hScrollProxy="2" vUnitIncrement="3"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|moneyTree.ui.MoneyTreeSendRedPkgCell,33,177" 
+			listStyle="com.pickgliss.ui.controls.list.List" width="257" height="232" x="346" y="135" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="moneyTree.txt.details" 
+		textFormatStyle="wtm.txtFormat.details" filterString="wtm.filter.details"  type="dynamic"
+		x="610" y="382" width="218" height="108"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="moneytree.helpBtn" backStyle="assets.moneytree.helpBtn" x="773" y="-32"/>
+		
+	</components>
+	<sets>
+		<set stylename="mt.txtFormat.timesRemain" args="宋体,16,0xffffff,true" type="flash.text.TextFormat"/>
+		<set stylename="mt.filter.timesRemain" args="0x5b3100,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="mt.txtFormat.cd" args="宋体,14,0xffffff,false" type="flash.text.TextFormat"/>
+		<set stylename="mt.filter.cd" args="0x000000,1,2,2,20" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="mt.simpleAlertContentTF" args="宋体,14,0x634401,false" type="flash.text.TextFormat"/>
+		<set stylename="mt.simpleAlertContentGF" args="0xffffff,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="moneytree.GoodItemNameTF2" args="宋体,14,0xfff4d4,true,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="moneytree.GoodItemTextFilter" args="0x7c4519,1,2,2,20" type="flash.filters.GlowFilter"/>
+	</sets>
+	<customs>
+		<custom classname="flash.geom.Point" stylename="moneytree.HelpContentPos" x="44" y="77"/>
+		<custom classname="flash.geom.Point" stylename="moneytree.helpBtnPos" x="537" y="6"/>
+	</customs>
+	<bitmaps>
+		
+		<bitmapData  resourceLink="moneyTree.cd.bg"/>
+	</bitmaps>
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="moneyTree.fruit0.pos" x="138" y="96"/>
+		<custom classname="flash.geom.Point" stylename="moneyTree.fruit1.pos" x="83" y="151"/>
+		<custom classname="flash.geom.Point" stylename="moneyTree.fruit2.pos" x="179" y="200"/>
+		<custom classname="flash.geom.Point" stylename="moneyTree.fruit3.pos" x="105" y="247"/>
+		
+		<custom classname="flash.geom.Point" stylename="moneyTree.fruit0.Tippos" x="-132" y="-139"/>
+		<custom classname="flash.geom.Point" stylename="moneyTree.fruit1.Tippos" x="-105" y="-169"/>
+		<custom classname="flash.geom.Point" stylename="moneyTree.fruit2.Tippos" x="47" y="-62"/>
+		<custom classname="flash.geom.Point" stylename="moneyTree.fruit3.Tippos" x="48" y="68"/>
+	</customDisplay>
+</style>

@@ -1,0 +1,88 @@
+<style name="redEnvelope" version="7.7.0" source="ui/turkey/swf/redEnvelope.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="redEnvelope.timeTxtTF" args="Arial,12,0xffea38"/>
+		<set type="flash.filters.GlowFilter" stylename="redEnvelope.timeTxtGF" args="0x741913,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="redEnvelope.ruleTxtTF" args="Arial,12,0xffedce" leading="3"/>
+		<set type="flash.filters.GlowFilter" stylename="redEnvelope.ruleTxtGF" args="0x55230b,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="redEnvelope.titleTxtTF" args="Arial,14,0xfff8d6,true"/>
+		<set type="flash.filters.GlowFilter" stylename="redEnvelope.titleTxtGF" args="0x814614,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="redEnvelope.redNumTxtTF" args="Arial,14,0xfff8d6,true"/>
+		<set type="flash.filters.GlowFilter" stylename="redEnvelope.redNumTxtGF" args="0x2f0202,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="redEnvelope.redInfoTxtTF_4" args="Arial,12,0xffea00"/>
+		<set type="flash.text.TextFormat" stylename="redEnvelope.redInfoTxtTF_3" args="Arial,12,0x46f0fb"/>
+		<set type="flash.text.TextFormat" stylename="redEnvelope.redInfoTxtTF_2" args="Arial,12,0x4ee231"/>
+		<set type="flash.text.TextFormat" stylename="redEnvelope.redInfoTxtTF_1" args="Arial,12,0xbababa"/>
+		<set type="flash.filters.GlowFilter" stylename="redEnvelope.redInfoTxtGF" args="0x370202,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="redEnvelope.recordInfoTxtTf" args="Arial,12,0xfad4bf"/>
+		
+		<set type="flash.text.TextFormat" stylename="redEnvelope.titleTxtTF" args="Arial,14,0xfff8d6,true"/>
+		<set type="flash.filters.GlowFilter" stylename="redEnvelope.titleTxtGF" args="0x814614,1,4,4,30"/>
+	</sets>
+	
+	<components>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redEnvelope.timeTxt" 
+			textFormatStyle="redEnvelope.timeTxtTF" filterString="redEnvelope.timeTxtGF" 
+			x="466" y="340"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redEnvelope.ruleTxt" 
+			textFormatStyle="redEnvelope.ruleTxtTF" filterString="redEnvelope.ruleTxtGF" 
+			x="471" y="97" antoSize="none" width = "248" height="180" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redEnvelope.redNumTxt" 
+			textFormatStyle="redEnvelope.redNumTxtTF" filterString="redEnvelope.redNumTxtGF" 
+			x="104" y="18"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redEnvelope.redInfoTxt" 
+			textFormatStyle="redEnvelope.redInfoTxtTF_2" filterString="redEnvelope.redInfoTxtGF" 
+			x="16" y="15"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redEnvelope.recordInfoTxt" 
+			textFormatStyle="redEnvelope.recordInfoTxtTf" filterString="redEnvelope.redInfoTxtGF" 
+			x="0" y="0"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redEnvelope.titleTxt" 
+			textFormatStyle="redEnvelope.titleTxtTF" filterString="redEnvelope.titleTxtGF" 
+			x="61" y="72"/>
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="redEnvelope.sendBtn" 
+			backStyle="asset.redEnvelope.sendBtn" x="159" y="300" filterString="null,lightFilter,lightFilter,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="redEnvelope.getBtn" 
+			backStyle="asset.redEnvelope.getBtn" x="344" y="10" filterString="null,lightFilter,lightFilter,grayFilter"/>
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="redEnvelope.selectMovie" 
+			resourceLink="asset.redEnvelope.select" x="16" y="13"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="redEnvelope.closeBtn" 
+			backStyle="asset.redEnvelope.closeBtn" x="695" y="0" filterString="null,lightFilter,lightFilter,grayFilter"/>
+			
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="redEnvelope.unitScrollPanel" parentStyle="core.ScrollPanel" 
+			x="7" y="375" width="446" height="155" hScrollProxy="2" vScrollProxy="0" />
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="redEnvelope.info.unitScrollPanel" parentStyle="core.ScrollPanel" 
+			x="470" y="401" width="250" height="122" hScrollProxy="2" vScrollProxy="0" />
+		
+		<component classname="redEnvelope.view.RedEnvelopeMainFrame" stylename="redEnvelope.mainframe" 
+			titleStyle="FrameTitleTextStyle" closestyle="asset.redEnvelope.closeBtn" titleOuterRectPosString="15,10,5" 
+			containerX="0" containerY="0" escEnable="true" closeInnerRectString="690,42,30,42,13" width="734" height="546" />
+	</components>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="asset.redEnvelope.redCellPos" x="54" y="6"/>
+		<custom classname="flash.geom.Point" stylename="asset.redEnvelope.celBoxPos" x="172" y="9"/>
+		<custom classname="flash.geom.Point" stylename="asset.redEnvelope.prizePos" x="253" y="72"/>
+	</customs>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.redEnvelope.sendBtn" />
+		<bitmapData resourceLink="asset.redEnvelope.envelope3" />
+		<bitmapData resourceLink="asset.redEnvelope.item.bg1" x="7" y="8"/>
+		<bitmapData resourceLink="asset.redEnvelope.item.bg0" x="7" y="8"/>
+		<bitmapData resourceLink="asset.redEnvelope.envelope1" />
+		<bitmapData resourceLink="asset.redEnvelope.getBtn" />
+		<bitmapData resourceLink="asset.redEnvelope.bg" />
+		<bitmapData resourceLink="asset.redEnvelope.cellBg" x="-2" y="-2" />
+		<bitmapData resourceLink="asset.redEnvelope.envelope2" />
+		<bitmapData resourceLink="asset.redEnvelope.itemSelected" x="4" y="5" />
+		<bitmapData resourceLink="asset.redEnvelope.envelope4" />
+		<bitmapData resourceLink="asset.redEnvelope.line" y="27"/>
+		<bitmapData resourceLink="asset.redEnvelope.redOver" x="15" y="392"/>
+		
+	</bitmaps>
+</style>

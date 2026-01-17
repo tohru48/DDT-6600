@@ -1,0 +1,12 @@
+2025-11-23 19:01:30,279 - [17] - ERROR - Tank.Request.ServerList - Load server list error:
+System.ServiceModel.CommunicationObjectFaultedException: System.ServiceModel.Channels.ServiceChannel iletiþim nesnesi, Faulted durumunda olduðundan iletiþim için kullanýlamýyor.
+
+Server stack trace: 
+   konum: System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   konum: System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   konum: System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   konum: System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   konum: System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   konum: Tank.Request.ServerList.ProcessRequest(HttpContext context)

@@ -1,0 +1,162 @@
+﻿<style name="lanternriddles" version="1.0.1"
+	source="ui/turkey/swf/lanternriddles.swf">
+	<sets>
+		<set stylename="lantern.view.freeBtnTF" type="flash.text.TextFormat"
+			args="Arial,12,0xffedcf,true" letterSpacing="-1" />
+		<set stylename="lantern.view.questionTF" type="flash.text.TextFormat"
+			args="Arial,14,0xfff88d,true" leading="0" />
+		<set stylename="lantern.view.alertText2TF" type="flash.text.TextFormat"
+			args="Arial,12,0x79451c,true,,,,,center" letterSpacing="0" />
+		<set stylename="lantern.view.tf1" type="flash.text.TextFormat"
+			args="Arial,14,0xffc600,true" />
+		<set stylename="lantern.view.gf1" type="flash.filters.GlowFilter"
+			args="0x2f0202,2,4,4,30" />
+		<set stylename="lantern.view.tf2" type="flash.text.TextFormat"
+			args="Arial,14,0xfff88d,true" leading="20" />
+		<set stylename="lantern.view.gf2" type="flash.filters.GlowFilter"
+			args="0x4c0727,2,4,4,30" />
+		<set stylename="lantern.view.tf3" type="flash.text.TextFormat"
+			args="Arial,14,0xffedcf,true" />
+		<set stylename="lantern.view.gf3" type="flash.filters.GlowFilter"
+			args="0x572525,2,4,4,30" />
+		<set stylename="lantern.view.tf4" type="flash.text.TextFormat"
+			args="Arial,12,0xffe35f" letterSpacing="1" leading="6" />
+		<set stylename="lantern.view.gf4" type="flash.filters.GlowFilter"
+			args="0x572525,2,4,4,30" />
+		<set stylename="lantern.view.tf5" type="flash.text.TextFormat"
+			args="Arial,14,0xfdde7e,true" />
+		<set stylename="lantern.view.gf5" type="flash.filters.GlowFilter"
+			args="0x482809,2,4,4,30" />
+		<set stylename="lantern.view.tf6" type="flash.text.TextFormat"
+			args="Arial,12,0xfff8d6" />
+		<set stylename="lantern.view.gf6" type="flash.filters.GlowFilter"
+			args="0x674323,2,4,4,30" />
+		<set stylename="lantern.view.tf7" type="flash.text.TextFormat"
+			args="Arial,18,0xffffff" />
+		<set stylename="lantern.view.gf7" type="flash.filters.GlowFilter"
+			args="0x080706,2,4,4,30" />
+		<set stylename="lantern.view.tf8" type="flash.text.TextFormat"
+			args="Arial,16,0xffffff,true,,,,,center" />
+		<set stylename="lantern.view.gf8" type="flash.filters.GlowFilter"
+			args="0x000000,2,4,4,30" />
+		<set stylename="lantern.view.tf9" type="flash.text.TextFormat"
+			args="Arial,16,0xffffff,,,,,,center" />
+		<set stylename="lantern.view.gf9" type="flash.filters.GlowFilter"
+			args="0x000000,1,2,2,30" />
+		<set stylename="lantern.view.tf10" type="flash.text.TextFormat"
+			args="Arial,14,0x79451c,true,,,,,center" letterSpacing="1" />
+		<set stylename="lantern.view.gf10" type="flash.filters.GlowFilter"
+			args="0xf0ead8,1,4,4,30,1" />
+	</sets>
+	<bitmaps>
+		<!-- bitmapData -->
+		<bitmapData resourceLink="lantern.view.bg" x="0" y="0" />
+	</bitmaps>
+	<components>
+
+
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.alertText2" textFormatStyle="lantern.view.alertText2TF"
+
+			filterString="lantern.view.gf10" x="42" y="57" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.question2" textFormatStyle="lantern.view.tf2"
+
+			filterString="lantern.view.gf2" x="73" y="136" />
+		<!--窗口 -->
+		<component classname="lanternriddles.view.LanternRiddlesView"
+			stylename="view.LanternRiddlesView" backStyle="SimpleFrameBackgound"
+			titleStyle="FrameTitleTextStyle" closestyle="core.closebt"
+			closeInnerRectString="44,14,6,30,14" containerX="15" containerY="38"
+			titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1"
+			width="896" height="545" moveEnable="false" escEnable="true" />
+		<!--弹框提示 -->
+		<component classname="lanternriddles.view.LanternAlertView"
+			stylename="lantern.view.alertView" parentStyle="BaseFrame" width="380"
+			height="216" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.questionTitle" textFormatStyle="lantern.view.tf1"
+			filterString="lantern.view.gf1" x="108" y="125" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.questionCount" textFormatStyle="lantern.view.tf1"
+			filterString="lantern.view.gf1" x="179" y="126" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.questionCDTime" textFormatStyle="lantern.view.tf1"
+			filterString="lantern.view.gf1" x="359" y="126" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.question" textFormatStyle="lantern.view.tf2"
+			filterString="lantern.view.gf2" x="73" y="171" />
+		<component classname="com.pickgliss.ui.image.MovieImage"
+			stylename="lantern.view.selectMovie" resourceLink="lantern.view.select" />
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="lantern.view.doubleBtn" backStyle="lantern.view.doubleCount"
+			filterString="null,lightFilter,null,grayFilter" x="49" y="394" />
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="lantern.view.hitBtn" backStyle="lantern.view.hit"
+			filterString="null,lightFilter,null,grayFilter" x="273" y="394" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.freeDouble" textFormatStyle="lantern.view.tf3"
+			filterString="lantern.view.gf3" x="88" y="12" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.freeHit" textFormatStyle="lantern.view.tf3"
+			filterString="lantern.view.gf3" x="90" y="13" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.careInfo" textFormatStyle="lantern.view.tf4"
+			filterString="lantern.view.gf4" x="22" y="440" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.questionNum" textFormatStyle="lantern.view.tf5"
+			filterString="lantern.view.gf5" x="491" y="441" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.rank" textFormatStyle="lantern.view.tf6"
+			filterString="lantern.view.gf6" x="580" y="410" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.integer" textFormatStyle="lantern.view.tf6"
+			filterString="lantern.view.gf6" x="749" y="410" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.rankNum" textFormatStyle="lantern.view.tf7"
+			filterString="lantern.view.gf7" x="7" y="2" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="lantern.view.topThreeRank"
+			resourceLink="lantern.view.orderNo1Asset,lantern.view.orderNo2Asset,lantern.view.orderNo3Asset" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.nickName" textFormatStyle="lantern.view.tf8"
+			filterString="lantern.view.gf8" x="61" y="4" autoSize="none" width="112"
+			height="30" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.integral" textFormatStyle="lantern.view.tf9"
+			filterString="lantern.view.gf9" x="175" y="2" autoSize="none" width="77"
+			height="30" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="lantern.view.alertText" textFormatStyle="lantern.view.tf10"
+			filterString="lantern.view.gf10" x="42" y="89" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton"
+			stylename="lantern.view.selectBtn" parentStyle="core.simpleSelectBtn"
+			textStyle="lantern.view.alertText" displacement="false" fieldX="-103"
+			fieldY="-1" x="226" y="132" />
+		<component classname="com.pickgliss.ui.image.MovieImage"
+			stylename="lantern.view.correctMovie" resourceLink="lantern.view.correct" />
+		<component classname="com.pickgliss.ui.image.MovieImage"
+			stylename="lantern.view.errorMovie" resourceLink="lantern.view.error" />
+	</components>
+	<customDisplay>
+	<custom classname="flash.geom.Point" stylename="lantern.view.answerB" x="101" y="240"/>
+<custom classname="flash.geom.Point" stylename="lantern.view.answerA" x="101" y="205"/>
+<custom classname="flash.geom.Point" stylename="lantern.view.answerC" x="101" y="275"/>
+<custom classname="flash.geom.Point" stylename="lantern.view.answerD" x="101" y="310"/>
+	
+		<custom classname="flash.geom.Point" stylename="lantern.view.selectPos0"
+			x="73" y="200" />
+		<custom classname="flash.geom.Point" stylename="lantern.view.selectPos1"
+			x="73" y="235" />
+		<custom classname="flash.geom.Point" stylename="lantern.view.selectPos2"
+			x="73" y="270" />
+		<custom classname="flash.geom.Point" stylename="lantern.view.selectPos3"
+			x="73" y="305" />
+		<custom classname="flash.geom.Point" stylename="lantern.view.rankPos"
+			x="485" y="65" />
+		<custom classname="flash.geom.Point" stylename="lantern.view.rankAwardPos"
+			x="260" y="-4" />
+		<custom classname="flash.geom.Point" stylename="lantern.alertView.doubleSelect"
+			x="179" y="137" />
+	</customDisplay>
+</style> 

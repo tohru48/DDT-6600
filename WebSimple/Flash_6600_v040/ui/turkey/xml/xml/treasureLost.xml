@@ -1,0 +1,215 @@
+<style name="treasureLost" version="1.0.1" source="ui/turkey/swf/treasureLost.swf">
+<sets>
+	<set stylename="treasureLost.goldDiceBuyNumTextTF" args="Arial,14,0xffffff,,,,,left" type="flash.text.TextFormat" />
+	<set stylename="treasureLost.goldDiceBuyNumTextGF" args="0x000000,1,2,2,8,1" type="flash.filters.GlowFilter" />
+	<set type="flash.text.TextFormat" stylename="treasureLost.buyPowerCountTiptf" args="Arial,12,0xff0000,true"/>
+	<set type="flash.filters.GlowFilter" stylename="treasureLost.buyPowerCountTipgf" args="0xffffff,1,4,4,4" />
+	
+	<set stylename="treasureLost.view.rewardTipTextTF" args="Arial,12,0xfabb12"
+			type="flash.text.TextFormat" />
+			
+	<set stylename="treasureLost.view.rewardTipTextGF" args="0x441300,1,2,2,10,1" type="flash.filters.GlowFilter" />
+	<set args="0x5b3100,1,4,4,500" stylename="treasureLost.treasureLostShopFrame.coinTextGF" type="flash.filters.GlowFilter"/>
+	<set stylename="treasureLost.treasureLostShopFrame.coinTextTF" args="Arial,12,0xffcc00,true,,,,,center" type="flash.text.TextFormat" leading="-2"/>
+	
+	<set args="0xffffff,1,2,2,500" stylename="treasureLost.treasureLostShopFrame.lableGF" type="flash.filters.GlowFilter"/>
+	<set stylename="treasureLost.treasureLostShopFrame.lableTF" args="Arial,11,0xff0000,true,,,,,left" type="flash.text.TextFormat" leading="-1"/>
+	<set stylename="treasureLost.treasureLostShopFrame.CurrentPageTF" args="Arial,12,0xfff8d6,true,,,,,center" type="flash.text.TextFormat"></set>
+	<set stylename="treasureLost.treasureLostShopFrame.CurrentPageFilter" args="0x4b270d,1,4,4,10" type="flash.filters.GlowFilter"></set>
+</sets>
+<components>
+			<component classname="treasureLost.view.TreasureLostFrame" backStyle="SimpleFrameBackgoundOne"
+			stylename="treasureLost.treasureLostFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" x="-160" y="-40"
+			closeInnerRectString="44,19,6,30,14" width="1000" height="600" />
+			<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasureLost.views.moveOutBtn" 
+			backStyle="treasureLost.moveOutBtn" x="0" y="0"/>
+			
+			<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasureLost.views.moveInBtn" 
+			backStyle="treasureLost.moveInBtn" x="0" y="0"/>
+			
+			<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasureLost.views.returnBtn" 
+			backStyle="treasureLost.returnBtn" x="35" y="4"/>
+			
+			<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasureLost.helpBtn" backStyle="treasureLost.treasureLosthelpBtn" x="844" y="10"/>
+			
+			<component classname="treasureLost.view.TreasureLostHelpFrame" backStyle="SimpleFrameBackgoundOneIII" width="400"
+			height="480" stylename="treasureLost.view.helpFrame" titleStyle="FrameTitleTextStyle" escEnable = "true" parentStyle="BaseFrame"  type="2" closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" 
+			submitButtonStyle="" cancelButtonStyle="treasureLost.core.simplebt" moveEnable="true" containerX="20" containerY="40" titleOuterRectPosString="12,11,5"/>
+			
+			<component classname="com.pickgliss.ui.controls.TextButton" stylename="treasureLost.core.simplebt"
+			backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle"
+			backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter" x="158" y="446"/>
+			
+			<component classname="treasureLost.view.TreasureLostPowerProgress"  stylename="treasureLost.powerProgress" x="61" y="11"  />
+			
+			<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasureLost.energyAddBtn" backStyle="treasureLost.buyPowerBnt" x="179" y="12" />
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureLost.goldDiceBuyNumText" textFormatStyle="treasureLost.goldDiceBuyNumTextTF" filterString="treasureLost.goldDiceBuyNumTextGF" x="839" y="505" width="30" height="20" />
+		    
+		    <component classname="treasureLost.view.TreasureLostGoldSelectButton" stylename="treasureLost.goldDiceSelectBnt0" backStyle="treasureLost.goldDiceSelect0" x="13" y="7" />
+			<component classname="treasureLost.view.TreasureLostGoldSelectButton" stylename="treasureLost.goldDiceSelectBnt1" backStyle="treasureLost.goldDiceSelect1" x="57" y="7" />
+			<component classname="treasureLost.view.TreasureLostGoldSelectButton" stylename="treasureLost.goldDiceSelectBnt2" backStyle="treasureLost.goldDiceSelect2" x="101" y="7" />
+			<component classname="treasureLost.view.TreasureLostGoldSelectButton" stylename="treasureLost.goldDiceSelectBnt3" backStyle="treasureLost.goldDiceSelect3" x="147" y="7" />
+			<component classname="treasureLost.view.TreasureLostGoldSelectButton" stylename="treasureLost.goldDiceSelectBnt4" backStyle="treasureLost.goldDiceSelect4" x="191" y="7" />
+			<component classname="treasureLost.view.TreasureLostGoldSelectButton" stylename="treasureLost.goldDiceSelectBnt5" backStyle="treasureLost.goldDiceSelect5" x="234" y="7" />
+			
+			<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasureLost.goldDiceSelectOk" backStyle="treasureLost.goldDiceSelectOkBg" x="283" y="12" />
+			
+			<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasureLost.itemExchangeBnt" backStyle="treasureLost.itemExchange" x="746" y="12" />
+			
+			
+			<component classname="treasureLost.view.TreasureLostButtonItemCell" stylename="treasureLost.buyBattalOne" backStyle="treasureLost.treasureLostBattleOne" x="518" y="519" />
+			
+			<component classname="treasureLost.view.TreasureLostButtonItemCell" stylename="treasureLost.buyBattalAll" backStyle="treasureLost.treasureLostBattleAll" x="595" y="521" />
+			
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureLost.buyPowerCountTip" 
+			textFormatStyle="treasureLost.buyPowerCountTiptf" filterString="treasureLost.buyPowerCountTipgf" 
+			autoSize="none" width="380" height="22" x="112" y="54"/>
+			
+			<component classname="treasureLost.view.TreasureLostShopFrame" backStyle="SimpleFrameBackgoundOneIII" width="480"
+			height="336" stylename="treasureLost.view.treasureLostShopFrame" titleStyle="FrameTitleTextStyle" escEnable = "true" parentStyle="BaseFrame"  type="2" closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" 
+			submitButtonStyle="" cancelButtonStyle="treasureLost.view.core.simplebt" moveEnable="true" containerX="20" containerY="40" titleOuterRectPosString="12,11,5"/>
+			
+			<component classname="com.pickgliss.ui.controls.TextButton" stylename="treasureLost.view.core.simplebt"
+			backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle"
+			backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter" x="196" y="446"/>
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="treasureLost.view.rewardTipText" textFormatStyle="treasureLost.view.rewardTipTextTF"
+			filterString="treasureLost.view.rewardTipTextGF" x="43" y="505" />
+			
+			<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasureLost.treasureLostShopFrame.GoodItemContainerBg" parentStyle="ddtshop.GoodItemContainerBg" x="1" y="5"></component>
+	
+			<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="treasureLost.treasureLostShopFrame.coinBG" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="90" y="195" width="88" height="23"></component>
+	
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureLost.treasureLostShopFrame.coinText" textFormatStyle="treasureLost.treasureLostShopFrame.coinTextTF" filterString="treasureLost.treasureLostShopFrame.coinTextGF" autoSize="none" x="18" y="196" width="60" height="50" type="dynamic"  wordWrap="true"/>
+	
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureLost.treasureLostShopFrame.coinNumText" textFormatStyle="treasureLost.treasureLostShopFrame.coinTextTF" filterString="treasureLost.treasureLostShopFrame.coinTextGF" autoSize="none"  width="160" height="50" type="dynamic" x="53" y="197"  />
+	
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureLost.treasureLostShopFrame.lable" textFormatStyle="treasureLost.treasureLostShopFrame.lableTF" filterString="treasureLost.treasureLostShopFrame.lableGF" autoSize="none" x="23" y="397" width="400" height="40" type="dynamic" wordWrap="true" text="注：秘境商城内"/>
+	
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasureLost.treasureLostShopFrame.BtnPrePage" backStyle="treasureLost.treasureLostShopFrame.PrePageBtn" filterString="null,lightFilter,null,grayFilter" x="221" y="312"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasureLost.treasureLostShopFrame.BtnNextPage" backStyle="treasureLost.treasureLostShopFrame.NextPageBtn" filterString="null,lightFilter,null,grayFilter" x="336" y="312"/>
+			
+			<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="treasureLost.treasureLostShopFrame.CurrentPageInput" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="275" y="314" width="62" height="23"></component>
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasureLost.treasureLostShopFrame.CurrentPage" textFormatStyle="treasureLost.treasureLostShopFrame.CurrentPageTF" filterString="treasureLost.treasureLostShopFrame.CurrentPageFilter" x="273" y="316" autoSize="none" width="70" type="dynamic" height="20" text="1/1"></component>
+
+</components>
+
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="treasureLost.treasureLostBattleBuyPOS" x="-8" y="-9"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.isHaveItemPos0" x="48" y="531"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.isHaveItemPos1" x="121" y="531"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.isHaveItemPos2" x="194" y="531"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.isHaveItemPos3" x="267" y="531"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.isHaveItemPos4" x="415" y="523"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.treasureLostMcPos" x="444" y="547"/>
+		<custom classname="treasureLost.view.TreasureLostProBar" stylename="treasureLost.view.propBar" backStyle="asset.game.prop.CustomBack" x="654" y="57" />
+		<custom classname="flash.geom.Point" stylename="treasureLost.powerProgresstxtPos" x="45" y="2"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.treasureLostMapPos1" x="30" y="72"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.diceRollPos" x="705" y="520"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.goldDiceRollPos" x="775" y="520"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.treasureLostLayerPos" x="428" y="48"/>
+		
+		<custom classname="flash.geom.Point" stylename="treasureLost.map.selectDicrectionMap1_1" x="249.7" y="342.5"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.map.selectDicrectionMap1_2" x="278" y="399"/>
+		
+		<custom classname="flash.geom.Point" stylename="treasureLost.map.selectDicrectionMap2_1" x="386.7" y="181.5"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.map.selectDicrectionMap2_2" x="317" y="241"/>
+		
+		<custom classname="flash.geom.Point" stylename="treasureLost.map.selectDicrectionMap3_1" x="468.7" y="191.5"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.map.selectDicrectionMap3_2" x="442" y="309"/>
+		
+		<custom classname="flash.geom.Point" stylename="treasureLost.treasureLostBattleBuyCountPos" x="37" y="-1"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.buyBattalOnePos" x="516" y="519"/>
+		<custom classname="flash.geom.Point" stylename="treasureLost.buyBattalAllPos" x="593" y="521"/>
+		
+		<custom classname="flash.geom.Point" stylename="treasureLost.goldSelectViewPos" x="584" y="450"/>
+		
+		<custom classname="com.pickgliss.ui.core.Component" stylename="treasureLost.cellTipComponent" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>
+		
+		<custom classname="asset.ddtshop.RightItemLightMc" stylename="treasureLost.treasureLostShopFrame.RightItemLightMc" width="70" height="75" x="9" y="8"/>
+		
+		<custom classname="flash.display.Sprite" stylename="treasureLost.treasureLostShopFrame.GoodItemContainerAll" spacing="2" x="7" y="10"/>
+		
+		<custom classname="flash.display.Sprite" stylename="treasureLost.treasureLostShopFrame.navigationBarContainer" x="-14" y="-117"/>
+		
+		<custom classname="treasureLost.model.TreasureLostMapData" stylename="treasureLost.map1Data"
+							 mapTypeArr="-13,0,201310,201310,0,0,201310,-1,-2,-11,
+			                       -1,-2,-10,-1,-2,0,0,-1,-2,-3,
+								   -4,-5,-10,0,0,0,201310,-1,-2,-3,
+								   -4,-5,-10,0,0,0,201310,-1,-2,-3,
+								   -4,-5,-10,0,0,0,201310,-1,-2,-2,
+								   -5,-4,-5"  
+							 mapItemPosArr="50,63|59,122|59,174|59,225|59,276|59,328|59,380|59,433|114,433|169,433|
+									 225,433|279,433|279,380|279,328|279,276|279,225|279,174|169,380|169,328|169,276|
+									 169,225|169,174|169,122|169,70|225,70|279,70|334,70|387,70|387,122|387,174|
+									 387,225|387,276|387,328|387,380|387,433|442,433|496,433|551,433|606,433|606,380|
+									 606,328|606,276|606,225|606,174|606,122|606,70|551,70|496,70|496,122|496,174|
+									 496,225|496,276|496,328"
+							playerPathArr="85,24|84,60|82,98|80,136|76,177|71,220|68,265|65,312|148,312|230,312|
+									312,312|390,312|386,265|382,218|378,176|373,136|370,97|229,265|228,217|227,175|
+									226,135|225,93|224,57|223,23|296,23|362,23|432,23|499,23|505,59|511,96|
+									518,137|527,175|535,218|542,264|551,314|634,314|714,314|798,314|880,314|859,263|
+									843,218|826,175|812,135|799,97|786,59|772,23|701,23|634,23|644,59|655,96|
+									664,133|674,176|688,218" 
+							maxMapItemNum="52" specialItemNum="9"	specialLength="7"
+									 />
+		
+		<custom classname="treasureLost.model.TreasureLostMapData" stylename="treasureLost.map2Data"
+							 mapTypeArr="-13,0,201310,201310,0,0,201310,-1,-2,-3,
+			                       -4,-5,-10,0,0,0,201310,-1,-2,-3,
+								   -4,-5,-10,0,-11,0,201310,-1,-2,-3,
+								   -4,-5,-10,0,0,0,201310,-1,-2,-3,
+								   -4,-5,-10,0,0,0,201310,-1,-2,-2,
+								   -5"  
+							 mapItemPosArr="50,70|114,70|169,70|225,70|279,70|280,122|281,174|225,174|169,174|114,174|
+									 59,174|59,225|59,276|59,328|59,380|59,433|114,433|169,433|225,433|279,433|
+									 334,433|387,433|387,380|387,328|387,276|334,276|279,276|225,276|169,276|169,328|
+									 387,225|387,174|387,122|387,70|442,70|496,70|551,70|606,70|606,122|606,174|
+									 551,174|496,174|496,225|496,276|551,276|606,276|606,328|606,380|551,380|496,380|
+									 496,433"
+							playerPathArr="85,24|158,24|226,24|297,24|364,24|367,59|372,97|298,97|226,97|152,97|
+									81,97|79,136|75,178|73,219|68,264|66,314|145,314|229,314|314,314|393,314|
+									473,314|552,314|543,265|534,220|526,173|451,173|378,173|302,173|228,173|228,218|
+									517,133|513,96|505,59|499,23|567,23|636,23|703,23|773,23|786,59|799,95|
+									726,95|654,95|665,136|676,175|752,175|828,175|843,218|858,263|780,263|700,263|
+									714,313" 
+							maxMapItemNum="50" specialItemNum="24"	specialLength="5"
+									 />
+									 
+		<custom classname="treasureLost.model.TreasureLostMapData" stylename="treasureLost.map3Data"
+							 mapTypeArr="-13,0,201310,201310,0,0,201310,-1,-2,-3,
+			                       -4,-5,-10,0,0,0,201310,-1,-2,-3,
+								   -4,-5,-10,0,0,0,0,-11,-2,-3,
+								   -4,-5,-10,0,0,0,201310,-1,-2,-3,
+								   -4,-5,-10,0,0,0,201310,-1,-2,-2,
+								   -5,-4,-5"  
+							 mapItemPosArr="50,63|59,122|59,174|59,225|59,276|59,328|59,380|59,433|114,433|169,433|
+									 225,433|279,433|279,380|279,328|225,328|169,328|169,276|169,225|169,174|169,122|
+									 169,70|225,70|279,70|279,122|279,174|279,225|334,225|387,225|387,276|387,328|
+									 442,328|387,174|387,122|387,70|442,70|496,70|551,70|606,70|606,122|606,174|
+									 551,174|496,174|496,225|496,276|551,276|606,276|606,328|606,380|606,433|551,433|
+									 496,433|442,433|387,433"
+							playerPathArr="85,24|84,60|82,98|80,136|76,177|71,220|68,265|65,312|148,312|228,312|
+									312,312|390,312|386,265|382,218|307,218|226,218|226,174|226,135|226,95|226,56|
+									226,23|295,23|364,23|366,60|371,96|375,135|449,135|522,135|528,175|536,217|
+									613,217|512,95|506,58|499,23|568,23|636,23|705,23|775,23|787,58|799,94|
+									727,94|653,94|665,135|678,175|754,175|828,175|844,217|861,263|878,311|797,311|
+									713,311|633,311|551,311" 
+							maxMapItemNum="52" specialItemNum="27"	specialLength="3"
+		/>
+	</customDisplay>
+<bitmaps>
+	<bitmapData resourceLink="treasureLost.powerProgressTxtBg" x="5" y="3"/>
+	<bitmapData resourceLink="treasureLost.powerBg" x="-80" y="-4"/>
+	<bitmapData resourceLink="treasureLost.powerTxt" x="-44" y="1"/>
+	<bitmapData resourceLink="treasureLost.goldDiceBuyNumBg" x="832" y="502"/>
+	<bitmapData resourceLink="treasureLost.goldDiceSelectBG" x="0" y="0"/>
+	<bitmapData resourceLink="treasureLost.treasureLostBattleOne" width="59" height="55"/>
+	<bitmapData resourceLink="treasureLost.treasureLostBattleAll" width="59" height="55"/>
+</bitmaps>
+</style>

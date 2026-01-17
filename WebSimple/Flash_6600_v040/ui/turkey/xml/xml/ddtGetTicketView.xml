@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtGetTicketView" version="1.0.1" source="ui/turkey/swf/ddtGetTicketView.swf"> 
+  <sets> 
+    <!--Filter-->  
+    <!--TextFormat-->  
+    <set stylename="oldplayer.TxtTF1" args="Arial,14,0xf0e537,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="oldplayer.TxtGF1" args="0x482404,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="oldplayer.TxtTF2" args="Arial,12,0xe8ce97,true,,,,left" type="flash.text.TextFormat" letterSpacing="0" leading="2"/>  
+    <set stylename="oldplayer.TxtGF2" args="0x502d0b,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="oldplayer.TxtTF3" args="Arial,12,0xfff5cb,,,,,,left" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set stylename="oldplayer.TxtGF3" args="0x613b0f,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="oldplayer.TxtTF4" args="Arial,12,0xfffef4,true,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="oldplayer.TxtGF4" args="0xaa2828,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="oldplayer.TxtTF5" args="Arial,16,0xfffef4,true,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="oldplayer.TxtGF5" args="0xaa2828,2,4,4,30" type="flash.filters.GlowFilter"/> 
+  </sets>  
+  <bitmaps> 
+    <!-- 		<bitmapData resourceLink="asset.vip.currentVip" x="19" y="109"/> -->  
+    <!-- 		<bitmapData resourceLink="asset.vip.nextVip" x="370" y="109"/> -->  
+    <!-- 		<bitmapData resourceLink="asset.vip.PrivilegeTxtBg" width="302" height="195" x="18" y="148"/> -->  
+    <bitmapData resourceLink="asset.getTicket.textBg" x="9" y="12" width="416"/>  
+    <bitmapData resourceLink="asset.getTicket.getNum" x="45" y="182"/> 
+  </bitmaps>  
+  <components> 
+    <!--窗口-->  
+    <component classname="oldplayergetticket.GetTicketView" stylename="oldplayer.getTicket" backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,22,6,30,14" containerX="15" containerY="38" titleOuterRectPosString="24,10,5" moveInnerRectString="0,30,0,30,1" width="463" height="356" moveEnable="false" escEnable="true" y="80"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="oldplayer.getTicketBg" width="425" height="294" x="4" y="5" parentStyle="core.bg6920"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="oldplayer.bottomBgImg" parentStyle="asset.core.btmBimap" x="12" y="233" width="410" height="58"/>  
+    <!--控件-->  
+    <!--文字>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.TitleName" 
+			textFormatStyle="regressTitle.TxtTF" filterString="regressTitle.TxtGF" 
+			x="23" y="4" width="300" height="19"/-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="oldplayer.caption1" textFormatStyle="oldplayer.TxtTF1" filterString="oldplayer.TxtGF1" x="26" y="23" width="400" height="45" autoSize="none" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="oldplayer.caption2" textFormatStyle="oldplayer.TxtTF2" filterString="oldplayer.TxtGF2" x="61" y="63" width="400" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="oldplayer.caption3" textFormatStyle="oldplayer.TxtTF2" filterString="oldplayer.TxtGF2" x="106" y="97" width="370" height="40" autoSize="none" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="oldplayer.caption4" textFormatStyle="oldplayer.TxtTF3" filterString="oldplayer.TxtGF3" x="26" y="146" width="400" height="40" autoSize="none" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="oldplayer.caption5" textFormatStyle="oldplayer.TxtTF2" filterString="oldplayer.TxtGF2" x="38" y="75" width="400" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="oldplayer.level" textFormatStyle="oldplayer.TxtTF4" filterString="oldplayer.TxtGF4" x="207" y="63" width="400" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="oldplayer.levelTicketNum" textFormatStyle="oldplayer.TxtTF4" filterString="oldplayer.TxtGF4" x="134" y="80" width="400" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="oldplayer.rechargeTicketNum" textFormatStyle="oldplayer.TxtTF4" filterString="oldplayer.TxtGF4" x="257" y="114" width="400" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="oldplayer.tiepointNum" textFormatStyle="oldplayer.TxtTF5" filterString="oldplayer.TxtGF5" x="253" y="182" width="100" height="23"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="oldplayer.recvBtnBg" resourceLink="asset.getTicket.recvBtnBg,asset.getTicket.recvBtnText" imageRectString="0|178|0|47|13,30|118|6|35|13"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="oldplayer.recvBtn" backStyle="oldplayer.recvBtnBg" filterString="null,lightFilter,null,grayFilter" x="130" y="239"/> 
+  </components>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="oldplayer.getticket.textBgPos" x="6" y="7"/> 
+  </customs> 
+</style>

@@ -1,0 +1,1408 @@
+2015-02-09 21:32:04,977 - [12] - ERROR - Tank.Request.Login - lucas5821: aca3e42a-48ff-4b97-a2e4-4db7b64746aa
+2015-02-09 21:32:25,033 - [19] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:32:27,447 - [11] - ERROR - Tank.Request.Login - xeng29: a1129b23-5f49-40a1-8b96-678403a14758
+2015-02-09 21:32:37,857 - [16] - ERROR - Tank.Request.Login - Gemini: eef0dc91-aadf-4a21-98fa-da5ab8f80a82
+2015-02-09 21:32:42,039 - [17] - ERROR - Tank.Request.Login - marombalouca: 0a59d5bd-4f15-4f7b-9913-9e40ea34f1d8
+2015-02-09 21:33:00,176 - [8] - ERROR - Tank.Request.ConsortiaNameCheck - ConsortiaCheck
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at Bussiness.ConsortiaBussiness.GetConsortiaSingleByName(String ConsortiaName)
+   at Tank.Request.ConsortiaNameCheck.ProcessRequest(HttpContext context)
+2015-02-09 21:33:00,645 - [34] - ERROR - Tank.Request.ConsortiaNameCheck - ConsortiaCheck
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at Bussiness.ConsortiaBussiness.GetConsortiaSingleByName(String ConsortiaName)
+   at Tank.Request.ConsortiaNameCheck.ProcessRequest(HttpContext context)
+2015-02-09 21:33:10,194 - [30] - ERROR - Tank.Request.Login - pauloheenrike: c5b283a3-8490-4382-a36a-a2302e2ae4b4
+2015-02-09 21:33:13,915 - [10] - ERROR - Tank.Request.Login - gestapo448: 5d1df19b-73bd-4a81-8f7d-ab456f015db5
+2015-02-09 21:33:20,627 - [8] - ERROR - Tank.Request.Login - GooLLin123: 4bf0077b-5cf0-4a44-bb68-e7f086a27a01
+2015-02-09 21:33:48,971 - [14] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:33:55,530 - [14] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:33:56,286 - [32] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:34:23,755 - [28] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:34:29,685 - [8] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:34:50,209 - [11] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:35:14,784 - [10] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:36:46,705 - [27] - ERROR - Tank.Request.Login - Misaki12: 2275fd25-3af7-4021-8ed5-2d80c195b3ab
+2015-02-09 21:36:52,272 - [11] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:37:26,659 - [12] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:38:11,651 - [12] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:38:55,793 - [12] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:41:17,183 - [32] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:41:36,563 - [18] - ERROR - Tank.Request.ConsortiaNameCheck - ConsortiaCheck
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at Bussiness.ConsortiaBussiness.GetConsortiaSingleByName(String ConsortiaName)
+   at Tank.Request.ConsortiaNameCheck.ProcessRequest(HttpContext context)
+2015-02-09 21:41:37,829 - [41] - ERROR - Tank.Request.ConsortiaNameCheck - ConsortiaCheck
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at Bussiness.ConsortiaBussiness.GetConsortiaSingleByName(String ConsortiaName)
+   at Tank.Request.ConsortiaNameCheck.ProcessRequest(HttpContext context)
+2015-02-09 21:41:40,154 - [12] - ERROR - Tank.Request.ConsortiaNameCheck - ConsortiaCheck
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at Bussiness.ConsortiaBussiness.GetConsortiaSingleByName(String ConsortiaName)
+   at Tank.Request.ConsortiaNameCheck.ProcessRequest(HttpContext context)
+2015-02-09 21:42:46,212 - [53] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:43:01,660 - [57] - ERROR - Tank.Request.Login - ramonba: a170fd5d-9da4-4d2b-a87b-793e6880c783
+2015-02-09 21:46:17,524 - [45] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:46:45,362 - [59] - ERROR - Tank.Request.Login - User Login error
+System.Security.Cryptography.CryptographicException: Bad Data.
+
+   at System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   at System.Security.Cryptography.RSACryptoServiceProvider.DecryptKey(SafeKeyHandle pKeyContext, Byte[] pbEncryptedKey, Int32 cbEncryptedKey, Boolean fOAEP, ObjectHandleOnStack ohRetDecryptedKey)
+   at System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(Byte[] rgb, Boolean fOAEP)
+   at Road.Flash.CryptoHelper.RsaDecryt2(RSACryptoServiceProvider rsa, String src)
+   at Tank.Request.Login.ProcessRequest(HttpContext context)
+2015-02-09 21:47:13,073 - [43] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:48:42,364 - [36] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:52:15,605 - [59] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:57:16,952 - [29] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:58:16,625 - [13] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:58:17,080 - [18] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:59:04,925 - [65] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:59:09,965 - [56] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 21:59:32,997 - [37] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:00:17,809 - [45] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:00:24,075 - [38] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:01:47,061 - [28] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:04:38,757 - [55] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:07:18,479 - [58] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:07:59,190 - [63] - ERROR - Tank.Request.ConsortiaNameCheck - ConsortiaCheck
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at Bussiness.ConsortiaBussiness.GetConsortiaSingleByName(String ConsortiaName)
+   at Tank.Request.ConsortiaNameCheck.ProcessRequest(HttpContext context)
+2015-02-09 22:08:02,030 - [58] - ERROR - Tank.Request.ConsortiaNameCheck - ConsortiaCheck
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at Bussiness.ConsortiaBussiness.GetConsortiaSingleByName(String ConsortiaName)
+   at Tank.Request.ConsortiaNameCheck.ProcessRequest(HttpContext context)
+2015-02-09 22:09:58,454 - [67] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:10:39,107 - [37] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:11:00,698 - [48] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:11:12,707 - [66] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:11:30,058 - [45] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 22:11:30,167 - [53] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 22:11:30,183 - [55] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 22:11:30,183 - [50] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 22:11:30,323 - [56] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 22:11:30,401 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 22:11:30,401 - [34] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 22:11:30,401 - [37] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 22:11:32,379 - [61] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 22:11:32,379 - [27] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 22:11:33,436 - [58] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:8ad0f2b4-894d-4000-8ef3-eca096cc0d00
+Error Number:-2,State:0,Class:11
+2015-02-09 22:11:33,452 - [29] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 22:11:33,968 - [51] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:cc5ff86e-497c-4721-8d59-c8bf9f9a4774
+Error Number:-2,State:0,Class:11
+2015-02-09 22:11:34,171 - [31] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:27d6698e-6ce6-48f6-91bf-6c556c769b0a
+Error Number:-2,State:0,Class:11
+2015-02-09 22:11:34,202 - [71] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:bde48ad5-63fd-4e13-a4d5-2c80b9c7e17d
+Error Number:-2,State:0,Class:11
+2015-02-09 22:11:34,343 - [30] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:8d29642c-5965-4846-a55e-1d1f2a258a17
+Error Number:-2,State:0,Class:11
+2015-02-09 22:11:34,530 - [48] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:bc39e171-c228-4887-9cae-a0bb357ee75f
+Error Number:-2,State:0,Class:11
+2015-02-09 22:11:35,498 - [46] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:d87a347f-59b3-4c34-816a-bcc98f353f42
+Error Number:-2,State:0,Class:11
+2015-02-09 22:11:35,498 - [43] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 22:11:36,295 - [28] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:7bc13c3e-bfc9-4b81-ae18-bccbae20adb1
+Error Number:-2,State:0,Class:11
+2015-02-09 22:11:36,826 - [32] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 22:11:37,838 - [36] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:a745442a-42c4-4401-b306-5b5581549ef5
+Error Number:-2,State:0,Class:11
+2015-02-09 22:11:38,104 - [8] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 22:11:38,822 - [35] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:2b352ead-2ffc-4bf8-9281-9bbe6e141261
+Error Number:-2,State:0,Class:11
+2015-02-09 22:11:39,077 - [64] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 22:12:35,339 - [59] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:14:10,167 - [19] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:14:14,986 - [64] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:15:10,877 - [71] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:15:32,634 - [58] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:15:34,435 - [56] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:15:44,708 - [29] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.ActivePlayer(PlayerInfo& player, String userName, String passWord, Boolean sex, Int32 gold, Int32 money, String IP, String site)
+2015-02-09 22:16:09,780 - [37] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:17:05,137 - [66] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:17:22,655 - [68] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:17:35,406 - [45] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:17:40,519 - [18] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:17:48,050 - [43] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:18:27,389 - [59] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:18:43,142 - [31] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:19:11,936 - [41] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:19:16,615 - [48] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:19:31,138 - [55] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:19:41,563 - [40] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:20:19,047 - [32] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:20:29,332 - [31] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:20:32,090 - [35] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:20:36,159 - [47] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:21:47,508 - [10] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:23:19,327 - [47] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:23:55,660 - [63] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:24:02,578 - [77] - ERROR - Tank.Request.Login - xandetk: cf9e75d1-655b-495e-b8cc-6f02d3b34ccb
+2015-02-09 22:24:05,672 - [53] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:25:16,741 - [72] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:27:39,365 - [76] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:30:17,212 - [69] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:31:01,959 - [43] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:31:56,339 - [72] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:38:52,295 - [64] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:40:01,749 - [57] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:42:08,906 - [35] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:44:04,256 - [29] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:44:15,347 - [71] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:45:29,468 - [44] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:45:47,132 - [76] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:45:55,331 - [71] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:46:15,573 - [19] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:46:37,310 - [42] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:47:34,917 - [66] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:50:05,985 - [18] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:51:22,975 - [71] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:51:36,700 - [73] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:51:39,228 - [31] - ERROR - Tank.Request.Login - lukasdossantoslima: 1aea4467-c1dc-4101-9c11-7641698411d7
+2015-02-09 22:51:56,147 - [37] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:51:58,222 - [43] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:52:01,765 - [47] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:52:06,859 - [71] - ERROR - Tank.Request.Login - Favaro2012: e27bc480-6c50-4005-9574-b279f33b663f
+2015-02-09 22:52:15,677 - [10] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:52:22,293 - [39] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:53:20,022 - [68] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:54:54,095 - [75] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:56:59,033 - [10] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:57:12,088 - [74] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:57:30,883 - [40] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 22:58:56,265 - [69] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:00:52,969 - [63] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.ActivePlayer(PlayerInfo& player, String userName, String passWord, Boolean sex, Int32 gold, Int32 money, String IP, String site)
+2015-02-09 23:01:03,038 - [49] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:01:25,843 - [64] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:03:20,649 - [42] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:07:43,783 - [65] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:09:53,364 - [15] - ERROR - Tank.Request.Login - xandetk: 2d3d2c72-bbc6-4dc6-94a7-41e02f8c3e56
+2015-02-09 23:09:54,721 - [36] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:11:11,836 - [68] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:11:28,646 - [59] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:13:58,760 - [38] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:14:18,841 - [31] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:15:03,208 - [12] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:15:13,420 - [54] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Transaction (Process ID 87) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+ClientConnectionId:84c66e11-e096-4e3e-8a16-c10d11437345
+Error Number:1205,State:52,Class:13
+2015-02-09 23:15:18,431 - [36] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Transaction (Process ID 143) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:55d1d5a1-8fbe-410a-8eb2-712ac09fda40
+Error Number:1205,State:52,Class:13
+2015-02-09 23:15:18,431 - [66] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Transaction (Process ID 91) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:a80858c4-6793-4827-8756-5607b3ae5fc8
+Error Number:1205,State:52,Class:13
+2015-02-09 23:15:20,946 - [17] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Transaction (Process ID 144) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+ClientConnectionId:d087e4b0-ab23-4cf4-a95c-8d076cdeeb1a
+Error Number:1205,State:52,Class:13
+2015-02-09 23:15:22,196 - [10] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Transaction (Process ID 125) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+ClientConnectionId:a745442a-42c4-4401-b306-5b5581549ef5
+Error Number:1205,State:52,Class:13
+2015-02-09 23:15:45,290 - [53] - ERROR - Bussiness.BaseBussiness - Init
+System.InvalidCastException: Specified cast is not valid.
+   at Bussiness.PlayerBussiness.ActivePlayer(PlayerInfo& player, String userName, String passWord, Boolean sex, Int32 gold, Int32 money, String IP, String site)
+2015-02-09 23:16:05,349 - [63] - ERROR - Tank.Request.Login - xiong123: 75c2bc2d-4a3f-49d2-9000-e03f7762bd75
+2015-02-09 23:22:10,367 - [65] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:22:10,867 - [42] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:690c4b5e-7592-48ad-bf3c-13a30c026634
+Error Number:-2,State:0,Class:11
+2015-02-09 23:22:13,814 - [35] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:22:13,814 - [14] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:22:15,527 - [45] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:22:16,011 - [74] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:55d1d5a1-8fbe-410a-8eb2-712ac09fda40
+Error Number:-2,State:0,Class:11
+2015-02-09 23:22:18,927 - [18] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:22:19,380 - [16] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:84c66e11-e096-4e3e-8a16-c10d11437345
+Error Number:-2,State:0,Class:11
+2015-02-09 23:22:19,802 - [41] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:22:19,912 - [47] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:22:23,665 - [63] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:22:24,149 - [11] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:2a60d5e4-5ec1-4c15-bff0-509be409c271
+Error Number:-2,State:0,Class:11
+2015-02-09 23:22:26,602 - [49] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:22:26,774 - [53] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:22:29,872 - [29] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:22:30,888 - [17] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:22:41,120 - [73] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:22:41,699 - [60] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:73204a64-feb0-4253-9e55-4299f7626ad6
+Error Number:-2,State:0,Class:11
+2015-02-09 23:22:43,677 - [43] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:22:44,177 - [70] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:8f0eb48d-103a-4a73-ac1c-32fd526db6b8
+Error Number:-2,State:0,Class:11
+2015-02-09 23:22:48,677 - [76] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:22:49,161 - [12] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:55d1d5a1-8fbe-410a-8eb2-712ac09fda40
+Error Number:-2,State:0,Class:11
+2015-02-09 23:22:53,667 - [77] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:22:54,151 - [45] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:9d8ac674-ffc2-4061-bdd2-7dfcf416c93b
+Error Number:-2,State:0,Class:11
+2015-02-09 23:23:00,931 - [14] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:23:00,993 - [15] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:04,589 - [75] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:04,699 - [34] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:c5754298-6904-4475-a8c8-0c8523db9eee
+Error Number:-2,State:0,Class:11
+2015-02-09 23:23:06,645 - [36] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:23:06,973 - [68] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:23:07,083 - [49] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:07,562 - [40] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:08,216 - [13] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:23:08,638 - [28] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:10,787 - [50] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:23:10,959 - [48] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:12,001 - [38] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:12,001 - [19] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:23:14,729 - [11] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:15,183 - [73] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:8f0eb48d-103a-4a73-ac1c-32fd526db6b8
+Error Number:-2,State:0,Class:11
+2015-02-09 23:23:15,229 - [64] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:15,681 - [58] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:690c4b5e-7592-48ad-bf3c-13a30c026634
+Error Number:-2,State:0,Class:11
+2015-02-09 23:23:20,969 - [73] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:23:21,853 - [58] - ERROR - Tank.Request.Login - xandetk: 378c79d4-1431-4d33-bb31-e86adca136b0
+2015-02-09 23:23:22,354 - [53] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:22,744 - [30] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:55d1d5a1-8fbe-410a-8eb2-712ac09fda40
+Error Number:-2,State:0,Class:11
+2015-02-09 23:23:24,551 - [31] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:24,910 - [66] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:9d8ac674-ffc2-4061-bdd2-7dfcf416c93b
+Error Number:-2,State:0,Class:11
+2015-02-09 23:23:32,384 - [70] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:23:32,493 - [63] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:36,105 - [12] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:36,433 - [47] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:c5754298-6904-4475-a8c8-0c8523db9eee
+Error Number:-2,State:0,Class:11
+2015-02-09 23:23:36,761 - [37] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:23:36,777 - [8] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:36,964 - [60] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:23:37,386 - [10] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:37,418 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:23:37,929 - [77] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:38,023 - [34] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:39,242 - [27] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:4c01ed1c-775a-428c-bc69-666793c91b6e
+Error Number:-2,State:0,Class:11
+2015-02-09 23:23:45,413 - [41] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:410ca61f-ba63-4398-b583-e0a6b8b04be6
+Error Number:-2,State:0,Class:11
+2015-02-09 23:23:45,719 - [16] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:46,422 - [17] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:8f0eb48d-103a-4a73-ac1c-32fd526db6b8
+Error Number:-2,State:0,Class:11
+2015-02-09 23:23:46,860 - [42] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:55,062 - [67] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:a80858c4-6793-4827-8756-5607b3ae5fc8
+Error Number:-2,State:0,Class:11
+2015-02-09 23:23:55,530 - [35] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:55,818 - [61] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:23:56,271 - [39] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:55d1d5a1-8fbe-410a-8eb2-712ac09fda40
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:00,534 - [18] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:01,065 - [75] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:01,221 - [56] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:01,284 - [12] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:02,049 - [52] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:76257bdf-9fd1-4cf9-80b0-22eb5ad6a0ce
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:02,237 - [31] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:682fd559-0457-4a32-9a1b-5a7002322e43
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:02,887 - [48] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:03,310 - [14] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:2a60d5e4-5ec1-4c15-bff0-509be409c271
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:03,325 - [70] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:a80858c4-6793-4827-8756-5607b3ae5fc8
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:04,013 - [77] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:cfcabdff-27a1-48bc-a4a0-62e3fc8a5379
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:06,891 - [35] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:07,157 - [39] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:2b7901b4-2b30-45f5-977b-fd58322c300c
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:07,641 - [17] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:07,641 - [73] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:08,438 - [28] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:08,838 - [10] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:d087e4b0-ab23-4cf4-a95c-8d076cdeeb1a
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:08,838 - [40] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:acd57fb3-7633-4f1e-baa7-7fef2acf2dd4
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:09,307 - [27] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:9d8ac674-ffc2-4061-bdd2-7dfcf416c93b
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:12,332 - [45] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:26:12,998 - [55] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:26:13,013 - [58] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:29,165 - [19] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:26:29,211 - [44] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:30,830 - [53] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:30,830 - [16] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:26:31,471 - [68] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:32,002 - [38] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:f319be7b-7311-4447-b398-ea4be4b5cfff
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:32,221 - [8] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:73204a64-feb0-4253-9e55-4299f7626ad6
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:32,502 - [42] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:33,670 - [32] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:34,123 - [36] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:a80858c4-6793-4827-8756-5607b3ae5fc8
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:34,901 - [64] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:cfcabdff-27a1-48bc-a4a0-62e3fc8a5379
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:34,901 - [12] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:38,100 - [47] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:39,015 - [29] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:1549d0e1-fdb7-4288-920f-1d1817b8c615
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:39,296 - [43] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:39,515 - [34] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:acd57fb3-7633-4f1e-baa7-7fef2acf2dd4
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:39,750 - [63] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:a745442a-42c4-4401-b306-5b5581549ef5
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:39,765 - [60] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:47,884 - [59] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:26:48,400 - [40] - ERROR - Bussiness.BaseBussiness - Init
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+ClientConnectionId:6eb84e8d-87a6-490f-be7f-853d7f0d1732
+Error Number:-2,State:0,Class:11
+2015-02-09 23:26:53,648 - [58] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailByUserID(Int32 userID)
+2015-02-09 23:26:53,726 - [13] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.GetMailBySenderID(Int32 userID)
+2015-02-09 23:28:06,202 - [64] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:28:12,816 - [12] - ERROR - Tank.Request.Login - Dharly: 6a976dff-33af-450f-b484-d50212e4f715
+2015-02-09 23:28:35,026 - [28] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:29:01,331 - [60] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:29:44,464 - [29] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:30:47,117 - [49] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:32:14,167 - [72] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:33:08,428 - [71] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:33:18,547 - [42] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:36:56,969 - [28] - ERROR - Tank.Request.Login - xandetk: 0d4b7902-2d96-4ca5-a3ae-34fce244f33a
+2015-02-09 23:37:45,140 - [39] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:38:05,017 - [60] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:38:18,887 - [62] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:46:36,220 - [28] - ERROR - Tank.Request.Login - xandetk: ee4bd4fd-a7a5-4bef-a729-469adefb3a98
+2015-02-09 23:51:59,224 - [47] - ERROR - Tank.Request.IMRecentContactsList - IMRecentContactsList
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Tank.Request.IMRecentContactsList.ProcessRequest(HttpContext context)
+2015-02-09 23:52:13,267 - [44] - ERROR - Tank.Request.Login - Patolinoo: 7c93e9ad-bd7d-495a-be35-e0189411eb60

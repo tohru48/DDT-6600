@@ -1,0 +1,147 @@
+<style name="homeTemple" version="6.8.0" source="ui/turkey/swf/homeTemple.swf">
+<sets>
+	<set stylename="home.Temple.TF1" args="Arial,10,0xff1743,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="home.Temple.GF1" args="0x350909,2,4,4,10" type="flash.filters.GlowFilter" />
+
+	<set stylename="home.Temple.TF2" args="Arial,10,0x51afff,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="home.Temple.GF2" args="0x01053f,2,4,4,10" type="flash.filters.GlowFilter" />
+	
+<!-- 	物品数量文字 -->
+	<set stylename="home.Temple.itemTF" args="Arial,14,0xFFF270,true" type="flash.text.TextFormat" />
+	<set stylename="home.Temple.itemGF" args="0x380202,2,4,4,20" type="flash.filters.GlowFilter" />
+
+	<set stylename="home.Temple.TF3" args="Arial,10,0xf000ff,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="home.Temple.GF3" args="0x240421,2,4,4,10" type="flash.filters.GlowFilter" />
+
+	<set stylename="home.Temple.TF4" args="Arial,10,0x7bc526,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="home.Temple.GF4" args="0x073d04,2,4,4,10" type="flash.filters.GlowFilter" />
+
+	<set stylename="home.Temple.TF5" args="Arial,10,0xfdff35,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="home.Temple.GF5" args="0x3b1900,2,4,4,10" type="flash.filters.GlowFilter" />
+
+	<set stylename="home.Temple.TF6" args="Arial,10,0xffa800,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="home.Temple.GF6" args="0x3f1f00,2,4,4,10" type="flash.filters.GlowFilter" />
+	
+	<set stylename="home.Temple.TF7" args="Arial,14,0xfff6c9,true" type="flash.text.TextFormat" />
+	<set stylename="home.Temple.GF7" args="0x200e02,1,2,2,10" type="flash.filters.GlowFilter" />
+	
+	<set stylename="home.Temple.TF8" args="Arial,12,0xffe69a" type="flash.text.TextFormat" />
+	<set stylename="home.Temple.GF8" args="0x3e0b05,1,2,2,10" type="flash.filters.GlowFilter" />
+	
+	<set stylename="home.Temple.TF9" args="Arial,14,0xFF0909,true" type="flash.text.TextFormat" />
+	<set stylename="home.Temple.GF9" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="home.Temple.TF10" args="Arial,12,0xF0bd63" type="flash.text.TextFormat" />
+	<set stylename="home.Temple.GF10" args="0x2d150a,2,4,4,30" type="flash.filters.GlowFilter" />
+	
+</sets>
+<customs>
+	<custom classname="home.temple.upgradeNum" stylename="home.temple.upgradeAnimation" scaleX="0" scaleY="0" alpha="0" x="308" y="157"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.blessLevelPos" x="0" y="0"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.blessViewPos" x="198" y="80"/>
+	
+	<custom classname="flash.geom.Point" stylename="home.temple.bless.blessPos0" x="97" y="224"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.bless.blessPos1" x="228" y="175"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.bless.blessPos2" x="272" y="78"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.bless.blessPos3" x="151" y="54"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.bless.blessPos4" x="25" y="90"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.bless.blessPos5" x="-55" y="204"/>
+	
+	<custom classname="flash.geom.Point" stylename="home.temple.levle.bloodTextPos" x="179" y="178"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.levle.defenseTextPos" x="179" y="217"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.levle.attackTextPos" x="179" y="256"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.levle.luckyTextPos" x="318" y="178"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.levle.resistanceTextPos" x="318" y="217"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.levle.armorTextPos" x="318" y="256"/>
+	
+	<custom classname="flash.geom.Point" stylename="home.temple.levle.primaryImmolationPos" x="596" y="285"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.levle.highImmolationPos" x="687" y="285"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.levle.levelPos" x="575" y="248"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.helpBtnPos" x="765" y="-83"/>
+	
+	<!--tips的坐标-->
+	<custom classname="flash.geom.Point" stylename="home.temple.rectTipBtnPos0" x="63" y="402"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.rectTipBtnPos1" x="149" y="402"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.rectTipBtnPos2" x="233" y="402"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.rectTipBtnPos3" x="319" y="402"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.rectTipBtnPos4" x="404" y="402"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.rectTipBtnPos5" x="487" y="402"/>
+
+	<custom classname="flash.geom.Point" stylename="home.temple.circleTipBtnPos0" x="35" y="155"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.circleTipBtnPos1" x="35" y="235"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.circleTipBtnPos2" x="35" y="315"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.circleTipBtnPos3" x="528" y="155"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.circleTipBtnPos4" x="528" y="235"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.circleTipBtnPos5" x="528" y="315"/>
+	
+	<custom classname="flash.geom.Point" stylename="home.temple.upgradeAnimationPos" x="24" y="-75"/>
+	
+	
+	<custom classname="flash.geom.Point" stylename="home.temple.levelLabelPos" x="615" y="232"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.levelBmpPos" x="637" y="230"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.nowPos" x="539" y="290"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.icon1Pos" x="592" y="286"/>
+	<custom classname="flash.geom.Point" stylename="home.temple.icon2Pos" x="684" y="286"/>
+
+</customs>
+<components>
+	<!--窗口-->
+	<component classname="homeTemple.view.HomeTempleFrame" stylename="home.HomeTempleFrame" backStyle="asset.home.templeBg" 
+		containerX="15" containerY="38" titleOuterRectPosString="24,10,5" moveInnerRectString="0,30,0,30,1"
+		width="845" height="446" moveEnable="false" escEnable="true" x="5" y="47" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.temple.leftBtn"
+			backStyle="asset.home.temple.leftButton" x="50" y="192"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.temple.rightBtn"
+			backStyle="asset.home.temple.rightButton" x="525" y="192"/>	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.temple.immolationBtn"
+			backStyle="asset.home.temple.immolationBtn" x="627" y="341"/>	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.temple.bloodText" 
+		textFormatStyle="home.Temple.TF1" filterString="home.Temple.GF1" autoSize="none" width="72" height="17" x="57" y="463"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.temple.defenseText" 
+		textFormatStyle="home.Temple.TF2" filterString="home.Temple.GF2" autoSize="none" width="72" height="17" x="141" y="463"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.temple.attackText" 
+		textFormatStyle="home.Temple.TF3" filterString="home.Temple.GF3" autoSize="none" width="72" height="17" x="227" y="463"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.temple.luckyText" 
+		textFormatStyle="home.Temple.TF4" filterString="home.Temple.GF4" autoSize="none" width="72" height="17" x="311" y="463"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.temple.resistanceText" 
+		textFormatStyle="home.Temple.TF5" filterString="home.Temple.GF5" autoSize="none" width="77" height="17" x="393" y="463"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.temple.armorText" 
+		textFormatStyle="home.Temple.TF6" filterString="home.Temple.GF6" autoSize="none" width="72" height="17" x="482" y="463"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.temple.propertyText" 
+		textFormatStyle="home.Temple.TF7" filterString="home.Temple.GF7"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.temple.propertyOffText" 
+		textFormatStyle="home.Temple.TF9" filterString="home.Temple.GF9"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.temple.level.levelText" 
+		textFormatStyle="home.Temple.TF10" filterString="home.Temple.GF10" autoSize="center" width="34" height="15" x="626" y="230"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.temple.level.buyRock"
+		backStyle="asset.home.exalt.BuyRock" x="761" y="42"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="home.temple.level.AllInject" resourceLink="asset.home.AllInject" x="-56" y="5"/>
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="home.temple.level.isInjectSelect" parentStyle="core.selectedCheck2" selected="true"
+		filterString="null,lightFilter,null,grayFilter" displacement="true" backStyle="home.temple.level.AllInject" x="785" y="316"/>
+	<component classname="homeTemple.view.HomeImmolationProgressBar" stylename="home.temple.levelProgress" 
+		tipStyle="ddt.view.tips.OneLineTip" tipDirctions="3,7,6" tipGapV="4" x="601" y="249" width="122" height="18" />
+
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.temple.level.progressText" 
+		textFormatStyle="home.Temple.TF8" filterString="home.Temple.GF8" autoSize="none" width="123" height="18" x="72.5" y="-1"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="home.temple.level.selectImage" 
+		resourceLink="home.decoration.select" scaleGridString="10,10,40,20" width="54" height="54"/>
+
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.temple.rectTipBtn" backStyle="asset.home.temple.rectTipBtn" 
+		tipStyle="ddt.view.tips.OneLineTip" tipDirctions="3" tipGapV="10"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.temple.circleTipBtn" backStyle="asset.home.temple.circleTipBtn" 
+		tipStyle="ddt.view.tips.OneLineTip" tipDirctions="3" tipGapV="10" x="-27" y="-27"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="home.temple.currentTipBtn" resourceLink="asset.home.temple.currentTipBtn"
+		tipStyle="ddt.view.tips.OneLineTip" tipDirctions="3" tipGapV="10" x="561" y="227"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="home.temple.bless.showHideBtn"
+		resourceLink="asset.home.temple.bless.show,asset.home.temple.bless.hide" x="3" y="35"/>
+		
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeTemple.item1.txt" 
+		textFormatStyle="home.Temple.itemTF" filterString="home.Temple.itemGF" x="633" y="297"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="homeTemple.item2.txt" 
+		textFormatStyle="home.Temple.itemTF" filterString="home.Temple.itemGF" x="724" y="297"/>
+</components>
+<bitmaps>
+	<bitmapData resourceLink="asset.home.AllInject" x="-7" y="0" />
+</bitmaps>
+</style>

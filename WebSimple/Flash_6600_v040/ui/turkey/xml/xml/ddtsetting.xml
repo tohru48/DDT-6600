@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtsetting" version="1.0.1" source="ui/turkey/swf/ddtsetting.swf"> 
+  <sets> 
+    <set stylename="ddtsetting.SelectedCheckButtonTextTF" args="Arial,11,0xfff4d4,true" letterSpacing="0" type="flash.text.TextFormat"/>  
+    <set stylename="ddtsetting.SelectedCheckButtonTextGF" args="0x7c4519,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtsetting.smallTextTF" args="Arial,9,0xfff6bd,,,,,,center" letterSpacing="0" type="flash.text.TextFormat"/>  
+    <set stylename="ddtsetting.smallTextGF" args="0x5c3d11,1,4,4,30" type="flash.filters.GlowFilter"/> 
+  </sets>  
+  <components> 
+  <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.FriendshipEffectCbn" x="23" y="270" parentStyle="ddtsetting.BaseSelectedCheckButton"/>
+<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.GuardEffectCbn" x="177" y="270" parentStyle="ddtsetting.BaseSelectedCheckButton"/>
+  
+    <!-- Frame -->  
+    <component classname="setting.view.SettingView" stylename="ddtsetting.MainFrame" moveEnable="false" parentStyle="BaseFrame" containerX="10" containerY="30" width="334" height="500" x="336" y="45"/>  
+    <!-- SettingTitle -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtsetting.VolumeSetting" width="299" height="29" x="7" y="18" resourceLink="asset.ddtsetting.TitleBg,asset.ddtsetting.VolumnSetting" imageRectString=",5|97|2|24|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtsetting.DisplaySetting" width="299" height="29" x="7" y="208" resourceLink="asset.ddtsetting.TitleBg,asset.ddtsetting.DisplaySetting" imageRectString=",5|138|2|25|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtsetting.FuncSetting" width="299" height="29" x="7" y="278" resourceLink="asset.ddtsetting.TitleBg,asset.ddtsetting.FuncSetting" imageRectString=",5|147|2|24|13"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtsetting.smallText1" textFormatStyle="ddtsetting.smallTextTF" filterString="ddtsetting.smallTextGF" text="alçak" width="30" height="25" x="16" y="93"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtsetting.smallText2" textFormatStyle="ddtsetting.smallTextTF" filterString="ddtsetting.smallTextGF" text="alçak" width="30" height="25" x="16" y="172"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtsetting.bigText1" textFormatStyle="ddtsetting.smallTextTF" filterString="ddtsetting.smallTextGF" text="Yüksek" width="30" height="25" x="261" y="94"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtsetting.bigText2" textFormatStyle="ddtsetting.smallTextTF" filterString="ddtsetting.smallTextGF" text="Yüksek" width="30" height="25" x="261" y="172"/>  
+    <!-- SelectedCheckButtons -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtsetting.SelectedCheckButtonText" textFormatStyle="ddtsetting.SelectedCheckButtonTextTF" filterString="ddtsetting.SelectedCheckButtonTextGF"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.BaseSelectedCheckButton" parentStyle="core.selectedCheck2" textStyle="ddtsetting.SelectedCheckButtonText" fieldX="32" fieldY="9" width="103" height="30"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.BackgroundMusicCbn" x="11" y="47" parentStyle="ddtsetting.BaseSelectedCheckButton"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.GameMusicCbn" x="11" y="126" parentStyle="ddtsetting.BaseSelectedCheckButton"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.WeaponEffectCbn" x="11" y="239" parentStyle="ddtsetting.BaseSelectedCheckButton"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.SpeakerFunctionCbn" x="177" y="239" parentStyle="ddtsetting.BaseSelectedCheckButton"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.AcceptInvitationCbn" x="11" y="314" parentStyle="ddtsetting.BaseSelectedCheckButton"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.OnlinePromptCbn" x="177" y="314" parentStyle="ddtsetting.BaseSelectedCheckButton"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.AcceptAddingFriendsCbn" x="11" y="344" parentStyle="ddtsetting.BaseSelectedCheckButton" fieldX="30" fieldY="1"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.CommunityFunctionCbn" x="177" y="344" parentStyle="ddtsetting.BaseSelectedCheckButton"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.RejectStrangerMessageCbn" x="11" y="374" parentStyle="ddtsetting.BaseSelectedCheckButton" fieldX="32" fieldY="2"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.GuideCbn" x="177" y="374" parentStyle="ddtsetting.BaseSelectedCheckButton"/>  
+    <custom classname="flash.geom.Point" stylename="ddtsetting.GuideCbnPos" x="177" y="344"/>  
+    <!-- SliderBar -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtsetting.SliderBarBg1" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="12" y="83" width="292" height="36"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtsetting.SliderBarBg2" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="12" y="162" width="292" height="36"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtsetting.SliderButton" backStyle="asset.ddtsetting.VolumeAdjustButton" width="46" height="30"/>  
+    <component classname="com.pickgliss.ui.controls.Silder" stylename="ddtsetting.BackgroundMusicSlider" thumbStyle="ddtsetting.SliderButton" barStyle="asset.ddtsetting.VolumeBarEmpty" progressBarStyle="asset.ddtsetting.VolumeBarFull" maskShowAreaInnerRectString="0,185,0,24,13" thumbShowInnerRectString="-16,185,-4,24,13" width="216" height="24" x="45" y="90" minimum="0" maximum="100"/>  
+    <component classname="com.pickgliss.ui.controls.Silder" stylename="ddtsetting.GameMusicSlider" thumbStyle="ddtsetting.SliderButton" barStyle="asset.ddtsetting.VolumeBarEmpty" progressBarStyle="asset.ddtsetting.VolumeBarFull" maskShowAreaInnerRectString="0,185,0,24,13" thumbShowInnerRectString="-16,185,-4,24,13" width="216" height="24" x="45" y="169" minimum="0" maximum="100"/>  
+    <!-- 遗留物 -->  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="setting.academy" parentStyle="ddtsetting.BaseSelectedCheckButton" x="23" y="394"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="setting.keySettingBtn" backStyle="ddtsetting.keyset.keysettingBtn" x="201" y="279"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="setting.KeySetFrameBg" resourceLink="SimpleFrameBackgoundOne,asset.core.btmBimap" imageRectString=",17|17|42|17|4"/>  
+    <component classname="setting.view.KeySetFrame" backStyle="setting.KeySetFrameBg" stylename="setting.keySetFrame" buttonToBottom="6" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="18,10,5" closeInnerRectString="44,6,3,30,14" width="400" height="150" containerX="7" containerY="9"/>  
+    <component clasname="com.pickgliss.ui.controls.TextButton" stylename="setting.KeySet.SubmitButton" parentStyle="core.simplebt" x="72" y="87"/>  
+    <component clasname="com.pickgliss.ui.controls.TextButton" stylename="setting.KeySet.CancelButton" parentStyle="core.simplebt" x="239" y="87"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtsetting.SelectedCheckButtonText_1" textFormatStyle="ddtsetting.SelectedCheckButtonTextTF" filterString="ddtsetting.SelectedCheckButtonTextGF" autoSize="none" width="113" wordWrap="true"/>  
+    <component classname="setting.view.SettingView" stylename="ddtsetting.MainFrame2" moveEnable="false" parentStyle="BaseFrame" containerX="10" containerY="30" width="334" height="525" x="336" y="45"/>
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtsetting.MasterMsgCbn" x="11" y="402" parentStyle="ddtsetting.BaseSelectedCheckButton" fieldX="32" fieldY="2"/>
+    <custom classname="flash.geom.Point" stylename="ddtsetting.MasterMsgCbnPos" x="177" y="374"/>
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.ddtsetting.TitleBg" width="299" height="29"/>  
+    <bitmapData resourceLink="ddtsetting.keyset.numAsset" x="41" y="37"/>  
+    <bitmapData resourceLink="ddtsetting.keyset.glowAsset" width="54" height="53" x="-6" y="-6"/> 
+  </bitmaps>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="ddtsetting.KeySet.KeyTL" x="4" y="17"/>  
+    <custom classname="flash.geom.Point" stylename="ddtsetting.KeySet.KeyRect" x="34" y="32"/> 
+  </customs> 
+</style>

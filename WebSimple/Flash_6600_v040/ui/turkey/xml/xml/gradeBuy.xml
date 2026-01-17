@@ -1,0 +1,96 @@
+<style name="gradeBuy" version="6.4.0" source="ui/turkey/swf/gradeBuy.swf">
+	<components>
+	<component classname="gradeBuy.view.GradeBuyItemsListView"
+			closestyle="core.closebt" titleOuterRectPosString="24,10,5" titleStyle="FrameTitleTextStyle" backStyle="SimpleFrameBackgoundOne" 
+			closeInnerRectString="44,14,6,30,14" stylename="gradeBuy.itemListframe"
+			 x="-160" y="-140" escEnable="true"
+			width="692" height="246" />
+			
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="gradeBuy.typeView.bg.scale9cornerImage"
+		width="426" height="200" x="-13" y="-11" resourceLink="ast.gb.typeView.BG" scaleGridString="20,20,60,40"/>
+<!-- 		item中buy按钮 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gradeBuy.item.buy"
+		backStyle="ast.gb.buybtn" x="135" y="91"/>
+
+		<!--item 礼包标题文本框 低级 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gradeBuy.item.titleTxt0" 
+		textFormatStyle="gb.item.title.tf0" filterString="gb.item.title.gf0"  type="dynamic"
+		x="8" y="8" width="30" height="20"/>
+		<!-- 	item 礼包标题文本框 中级 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gradeBuy.item.titleTxt1" 
+		textFormatStyle="gb.item.title.tf1" filterString="gb.item.title.gf1"  type="dynamic"
+		x="8" y="8" width="30" height="20"/>
+		<!-- 	item 礼包标题文本框 高级 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gradeBuy.item.titleTxt2" 
+		textFormatStyle="gb.item.title.tf2" filterString="gb.item.title.gf2"  type="dynamic"
+		x="8" y="8" width="30" height="20"/>
+		
+<!-- 		类型item剩余时间文本框 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gradeBuy.typeItem.timeRemainTxt" 
+		textFormatStyle="gb.ItemView.timeRemain.tf" filterString="gb.ItemView.timeRemain.gf"  type="dynamic"
+		x="4" y="70" width="30" height="20"/>
+		
+<!-- 		item展示界面剩余时间说明文本框 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gradeBuy.ItemView.detailTxt" 
+		textFormatStyle="gb.ItemView.detail.tf" filterString="gb.ItemView.detail.gf"  type="dynamic"
+		x="313" y="197" width="280" height="24"/>
+<!-- 		item展示界面剩余时间 文本框  -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gradeBuy.ItemView.timeRemainTxt" 
+		textFormatStyle="gb.ItemView.timeRemain.tf" filterString="gb.ItemView.timeRemain.gf"  type="dynamic"
+		x="242" y="197" width="280" height="24"/>
+		
+<!-- 		原价文本框 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gradeBuy.Item.origiPriceTxt" 
+		textFormatStyle="gb.item.origiPrice.tf" filterString="gb.item.origiPrice.gf"  type="dynamic"
+		x="79" y="36" width="130" height="20"/>
+		
+<!-- 		现价文本框 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gradeBuy.Item.curPriceTxt" 
+		textFormatStyle="gb.item.curPrice.tf" filterString="gb.item.curPrice.gf" 
+		x="79" y="68" width="80" height="20"/>
+		
+<!-- 		已购买文本框 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gradeBuy.Item.boughtTxt" 
+		textFormatStyle="gb.item.title.tf" filterString="gb.item.title.gf"  type="dynamic"
+		x="119" y="92" width="40" height="20"/>
+		
+	</components>
+	<sets>
+		<set stylename="gb.item.title.tf" args="Arial,14,0xffe929,true" type="flash.text.TextFormat"/>
+		<set stylename="gb.item.title.gf" args="0x421900,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="gb.item.title.tf0" args="Arial,13,0xffe929,true" type="flash.text.TextFormat"/>
+		<set stylename="gb.item.title.gf0" args="0x421900,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="gb.item.title.tf1" args="Arial,13,0xffb932,true" type="flash.text.TextFormat"/>
+		<set stylename="gb.item.title.gf1" args="0x421900,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="gb.item.title.tf2" args="Arial,13,0xff5a2d,true" type="flash.text.TextFormat"/>
+		<set stylename="gb.item.title.gf2" args="0x421900,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="gb.item.origiPrice.tf" args="Arial,12,0xe6cf96,true" type="flash.text.TextFormat"/>
+		<set stylename="gb.item.origiPrice.gf" args="0x5c3c10,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="gb.item.curPrice.tf" args="Arial,12,0xffffff,true" type="flash.text.TextFormat"/>
+		<set stylename="gb.item.curPrice.gf" args="0x5c3c10,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="gb.ItemView.timeRemain.tf" args="Arial,14,0xfe0101,true" type="flash.text.TextFormat"/>
+		<set stylename="gb.ItemView.timeRemain.gf" args="0xffffff,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="gb.ItemView.detail.tf" args="Arial,14,0x581b01,true" type="flash.text.TextFormat"/>
+		<set stylename="gb.ItemView.detail.gf" args="0xfedb7a,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+	</sets>
+	<customs>
+	</customs>
+	<bitmaps>
+		
+		<bitmapData  resourceLink="ast.gb.moneyIcon" y="66"/>
+		<bitmapData  resourceLink="ast.gb.cross"  x="76" y="45"/>
+		<bitmapData  resourceLink="gradeBuy.item.bg"  x="0" y="0"/>
+	</bitmaps>
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="gradeBuy.helpBtn.pt" x="602" y="5"/>
+		<custom classname="flash.geom.Point" stylename="gradeBuy.item.cell.pt" x="8" y="35"/>
+	</customDisplay>
+</style>

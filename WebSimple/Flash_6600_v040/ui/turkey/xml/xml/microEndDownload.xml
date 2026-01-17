@@ -1,0 +1,34 @@
+<style name="microEndDownload" version="1.0.1" source="ui/turkey/swf/microenddownload.swf">
+<sets>
+</sets>
+<components>
+
+
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="microendDownload.ftxtBtn" backStyle="microenddownload.btnBG" x="216" y="359"
+			/>
+	
+<component classname="microenddownload.view.MicroendDownload" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="microenddownload.firstView" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" x="-160" y="-40" escEnable="true"
+			closeInnerRectString="44,19,6,30,14" width="590" height="430" />
+
+<!-- 背景 -->
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="microendDownload.scale9cornerImageTree" width="553" height="299" x="19" y="45" parentStyle="core.bg6920"/>
+<!-- 背景 -->		
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="microendDownload.scale9cornerImageTree2" parentStyle="core.Scale9CornerImage.scale9CornerImage19" width="553" height="61" x="19" y="352"/>
+
+
+
+</components>	
+
+<customs>
+	</customs>
+<bitmaps>
+		<bitmapData resourceLink="microend.detail" x="24" y="42"/>
+		<bitmapData resourceLink="microend.ttlOfBtn" x="233" y="368"/>
+	</bitmaps>
+<customDisplay>
+	
+</customDisplay>
+</style>

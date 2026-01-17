@@ -1,0 +1,64 @@
+<style name="magpieBridge" version="1.0.1" source="ui/turkey/swf/magpieBridge.swf">
+<sets>
+	<set stylename="magpieBridgeView.lastNumTF" args="Arial,14,0xfff8d6,true,,,,,center" type="flash.text.TextFormat"></set>
+	<set stylename="magpieBridgeView.lastNumGF" args="0x4b270d,1,4,4,10" type="flash.filters.GlowFilter"></set>
+	<set stylename="magpieBridgeView.TF1" args="Arial,12,0xffeebf,true" letterSpacing="0" type="flash.text.TextFormat"/>
+	<set stylename="magpieBridgeView.GF1" args="0x442006,1,4,4,30" type="flash.filters.GlowFilter"/> 
+</sets>
+<components>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="magpieBridgeView.duckBtn"
+		backStyle="asset.magpieBridge.duckBtn" x="575" y="526"/>			
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magpieBridgeView.lastNum" 
+		textFormatStyle="magpieBridgeView.lastNumTF" filterString="magpieBridgeView.lastNumGF" x="410" y="541" 
+		autoSize="none" width="45" type="dynamic" height="20" text="0"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="magpieBridgeView.helpBtn"
+		backStyle="asset.magpieView..shaizi.helpBtn" x="842" y="3"/>			
+	<component classname="magpieBridge.view.MagpieHelpView" backStyle="SimpleFrameBackgoundOneIII" width="400"
+		height="480" stylename="magpie.view.helpView" titleStyle="FrameTitleTextStyle" escEnable = "true" parentStyle="BaseFrame"  type="2" closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" 
+		submitButtonStyle="core.simplebt" moveEnable="true" containerX="20" containerY="40" titleOuterRectPosString="12,11,5"/>
+
+	<component classname="magpieBridge.view.MagpieBuyCountsView" stylename="magpieBridge.buyCountsView"
+		backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14"
+		titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,11,5" containerX="16"
+		containerY="42" width="400" height="225" moveInnerRectString="0,30,0,30,1"
+		escEnable='true' />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magpieBridge.buyCountsView.text" 
+		textFormatStyle="magpieBridgeView.TF1" filterString="magpieBridgeView.GF1" x="39" y="17" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="magpieBridge.magpieView.packsImage" 
+		resourceLink="asset.magpieBridge.packs1,asset.magpieBridge.packs2" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="1,2,3,4,5,6,7" x="12" y="2" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="magpieBridge.magpieMap.magpieImage" 
+		resourceLink="asset.magpieMap.props-6" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="7,3,6"/>		
+</components>
+
+<bitmaps>
+	<bitmapData resourceLink="asset.magpieBridge.controlBg" x="220" y="510" />
+</bitmaps>
+<customs> 
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.numSelecterPos" x="160" y="22"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.selectedItemPos" x="175" y="100"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.totalTipPos" x="71" y="61"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.totalTxtPos" x="165" y="78"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.okBtnPos" x="42" y="129"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.cancelBtnPos" x="242" y="129"/>
+
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.Pos" x="417" y="74"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.dicePos" x="37" y="228"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.buyCountsPos" x="453" y="540"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.mapPos0" x="802" y="219"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.togetherPos" x="81" y="161"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.mapPos1" x="818" y="301"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.mapPos2" x="806" y="256"/>
+	
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.magpiePos0" x="170" y="0"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.magpiePos1" x="0" y="0"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.magpiePos2" x="213" y="3"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.magpiePos3" x="-43" y="3"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.magpiePos4" x="255" y="11"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.magpiePos5" x="-85" y="11"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.magpiePos6" x="299" y="27"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.magpiePos7" x="-129" y="27"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.magpiePos8" x="346" y="49"/>
+	<custom classname="flash.geom.Point" stylename="magpieBridgeView.magpiePos9" x="-176" y="49"/>
+
+</customs> 
+</style>

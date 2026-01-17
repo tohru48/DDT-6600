@@ -1,0 +1,245 @@
+﻿<style name="dice" version="1.0.1" source="ui/turkey/swf/dice.swf">
+	<sets>
+		<set stylename="dice.TFormat_35" args="Arial,12,0xffffff,true" type="flash.text.TextFormat" />
+		<set stylename="dice.TFormat_36" args="Arial,12,0xffffff,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="dice.TFormat_37" args="Arial,12,0xffffff,true" type="flash.text.TextFormat" />
+		<set stylename="dice.TFormat_38" args="Arial,12,0x000000,true" type="flash.text.TextFormat" />
+		<set stylename="dice.TFormat_39" args="Arial,12,0xffff00,false" type="flash.text.TextFormat" />
+		<set stylename="dice.TFormat_40" args="Arial,13,0x02d13d,false" type="flash.text.TextFormat" />
+		
+		<set args="0xFF9933,1,2,2,10" stylename="dice.currentCoupons.Filter" type="flash.filters.GlowFilter" />
+    	<set args="0x632800,1,2,2,10" stylename="dice.common.Filter" type="flash.filters.GlowFilter" />
+		<set args="0xffffff,1,2,2,10" stylename="dice.white.Filter" type="flash.filters.GlowFilter" />
+		<set args="0x000000,1,2,2,10" stylename="dice.black.Filter" type="flash.filters.GlowFilter" />
+	</sets>
+	
+	<customDisplay>
+		<!-- 骰子系统 -->
+		<custom classname="flash.geom.Point" stylename="asset.dice.returnBar.position" x="906" y="966" />
+		<custom classname="flash.geom.Point" stylename="asset.dice.yellowIris.position" x="46" y="37" />
+		<custom classname="flash.geom.Point" stylename="asset.dice.starlight.position" x="41" y="-12" />
+		<custom classname="flash.geom.Point" stylename="asset.dice.start.position" x="257" y="106" />
+		<custom classname="flash.geom.Point" stylename="asset.dice.playerlight.pos" x="59" y="167" />
+		<custom classname="flash.geom.Point" stylename="asset.dice.treasuerBox.down.pos" x="495" y="-12" />
+		<custom classname="Dice.View.DiceReturnBar" stylename="asset.dice.returnMenu" x="906" y="521" />
+		<custom classname="Dice.View.DiceToolBar" stylename="asset.dice.ToolBar" x="106" y="504" />
+		<custom classname="Dice.View.DiceSystemPanel" stylename="asset.dice.dicePanel" x="179" y="135" />
+		<custom classname="Dice.View.DiceLuckIntegralView" stylename="asset.dice.luckIntegralView" x="10" y="10" />
+		<custom classname="ddt.view.common.VipLevelIcon" stylename="asset.dic.VipIcon" />
+		<custom classname="Dice.View.DiceTreasureBoxTip" stylename="asset.dice.treasureBox.tip" x="20" y="71" />
+		<custom classname="Dice.View.DiceStartView" stylename="asset.dice.diceStartView" x="340" y="130" />
+		<custom classname="Dice.View.DiceRewarditemsBar" stylename="asset.dice.diceRewardItemsBar" x="811" y="108" />
+	    
+	    <custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.1" verticesString="-9,49,90,0,85,49" position="59,20" centerPosition="229,38" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.2" verticesString="-7,42,82,-2,83,42" position="156,33" centerPosition="318,38" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.3" verticesString="-6,41,83,-2,78,41" position="239,33" centerPosition="402,38" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.4" verticesString="-2,40,82,-2,88,40" position="321,34" centerPosition="485,38" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.5" verticesString="1,40,80,-2,86,40" position="406,31" centerPosition="573,38" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.6"
+			verticesString="5,40,81,-2,89,40" position="488,33" centerPosition="654,38" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.7"
+			verticesString="3,40,83,-2,92,40" position="493,78" centerPosition="661,83" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.8"
+			verticesString="4,44,88,-2,95,44" position="499,124" centerPosition="669,130" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.9"
+			verticesString="4,48,88,-2,99,48" position="507,175" centerPosition="677,183" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.10"
+			verticesString="5,50,91,-2,103,50" position="513,228" centerPosition="687,237" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.11"
+			verticesString="3,54,95,-2,106,54" position="520,284" centerPosition="695,297" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.12"
+			verticesString="0,54,94,-2,101,54" position="424,284" centerPosition="598,297" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.13"
+			verticesString="-1,54,94,-2,101,54" position="324,283"
+			centerPosition="495,297" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.14"
+			verticesString="-5,55,95,-2,95,55" position="226,284" centerPosition="393,297" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.15"
+			verticesString="-7,55,95,-2,93,55" position="126,284" centerPosition="290,297" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.16"
+			verticesString="-12,59,98,-2,95,59" position="25,283" centerPosition="193,297" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.17"
+			verticesString="-13,53,93,-2,89,53" position="38,227" centerPosition="200,237" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.18"
+			verticesString="-12,49,86,-2,82,49" position="47,175" centerPosition="210,183" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.19"
+			verticesString="-12,52,86,-2,79,52" position="57,124" centerPosition="216,130" />
+		<custom classname="Dice.VO.DiceCellInfo" stylename="asset.dice.cellInfo.20"
+			verticesString="-12,45,84,-2,79,42" position="66,78" centerPosition="224,83" />
+	</customDisplay>
+	
+	<components>
+		<!-- 骰子系统 -->		
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="asset.dice.returnBar.returnBtn" backStyle="asset.dice.returnBar.returnBtn.back"
+			x="34" y="4" />
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="asset.dice.helpBtn" backStyle="asset.ddtcore.helpbutton"
+			filterString="null,lightFilter,null,grayFilter" x="883" y="11" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="asset.dice.returnBar.returnBtn.back"
+			resourceLink="asset.dice.returnBar.btnImg,asset.dice.returnBtnOver,asset.dice.returnBar.btnImg" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton"
+			stylename="asset.dice.returnBar.stretchBtn" unSelectedStyle="asset.dice.returnBar.unselected"
+			selectedStyle="asset.dice.returnBar.selected" filterString="null,lightFilter,null,grayFilter"
+			x="0" y="0" />
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="asset.dice.returnBtnOver"
+			resourceLink="asset.dice.returnBar.btnImg.selected,asset.dice.returnBar.btnImg" />
+			
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton"
+			stylename="asset.dice.refreshAlert.selectedCheck" parentStyle="core.simpleSelectBtn"
+			filterString="null,lightFilter,null,grayFilter" displacement="true"
+			textStyle="award.AutoOpenLabel" fieldX="-142" fieldY="-9" x="319" y="105" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="asset.dice.startBtn"
+			resourceLink="asset.dice.big.Bmp,asset.dice.double.Bmp,asset.dice.big.Bmp,asset.dice.small.Bmp"
+			x="238" y="100" />
+			
+			
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="asset.dice.toolBar.currentCoupons" textFormatStyle="dice.TFormat_35"
+			filterString="dice.currentCoupons.Filter" x="623" y="54" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="asset.dice.toolBar.currentCoupons.BG" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"
+			width="116" height="28" x="615" y="48" />
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="asset.dice.toolBar.refreshBtn" backStyle="asset.dice.toolBar.refreshImg"
+			tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,5"
+			filterString="null,lightFilter,null,grayFilter" x="410" y="12" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton"
+			stylename="asset.dice.toolBar.double" unSelectedStyle="asset.dice.toolBar.double.unselected"
+			selectedStyle="asset.dice.toolBar.double.selected" tipStyle="ddt.view.tips.OneLineTip"
+			tipDirctions="0,5" filterString="null,lightFilter,null,grayFilter" x="51"
+			y="14" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton"
+			stylename="asset.dice.toolBar.big" unSelectedStyle="asset.dice.toolBar.big.unselected"
+			selectedStyle="asset.dice.toolBar.big.selected" tipStyle="ddt.view.tips.OneLineTip"
+			tipDirctions="0,5" filterString="null,lightFilter,null,grayFilter" x="165"
+			y="11" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton"
+			stylename="asset.dice.toolBar.small" unSelectedStyle="asset.dice.toolBar.small.unselected"
+			selectedStyle="asset.dice.toolBar.small.selected" tipStyle="ddt.view.tips.OneLineTip"
+			tipDirctions="0,5" filterString="null,lightFilter,null,grayFilter" x="283"
+			y="11" />
+
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="asset.dice.toolBar.bigBtn.BG"
+			resourceLink="asset.dice.toolBar.big.selected,asset.dice.toolBar.big.selected,asset.dice.toolBar.big.down,asset.dice.toolBar.big.selected" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="asset.dice.toolBar.smallBtn.BG"
+			resourceLink="asset.dice.toolBar.small.selected,asset.dice.toolBar.small.selected,asset.dice.toolBar.small.down,asset.dice.toolBar.small.selected" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="asset.dice.toolBar.doubleBtn.BG"
+			resourceLink="asset.dice.toolBar.double.selected,asset.dice.toolBar.double.selected,asset.dice.toolBar.double.down,asset.dice.toolBar.double.selected" />
+
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="asset.dice.luckIntegral.BG"
+			resourceLink="asset.dice.luckIntegral.BG1,asset.dice.luckIntegral.BG2,asset.dice.luckIntegral.BG3,asset.dice.luckIntegral.BG4,asset.dice.luckIntegral.BG5"
+			x="-17" y="-6" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="asset.dice.luckIntegral.TreasureBox"
+			resourceLink="asset.dice.treasureBox1,asset.dice.treasureBox2,asset.dice.treasureBox3,asset.dice.treasureBox4,asset.dice.treasureBox5"
+			x="8" y="5" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="asset.dice.luckIntegral.number" textFormatStyle="dice.TFormat_36"
+			filterString="dice.currentCoupons.Filter" autoSize="none" width="173"
+			height="30" x="175" y="30" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="asset.dice.cellTextCount" textFormatStyle="dice.TFormat_36"
+			filterString="dice.currentCoupons.Filter" x="0" y="0" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="asset.dice.lblName" textFormatStyle="dice.TFormat_36"
+			filterString="dice.currentCoupons.Filter" x="32" y="0" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="asset.dice.freeCount" textFormatStyle="dice.TFormat_38"
+			filterString="dice.white.Filter" x="256" y="257" />
+
+		<component classname="com.pickgliss.ui.controls.Frame"
+			stylename="asset.dice.helpFrame" parentStyle="BaseFrame" width="412"
+			height="488" moveEnable="true" escEnable="true" moveInnerRectString="0,30,0,30,1" />
+		<component classname="com.pickgliss.ui.controls.TextButton"
+			stylename="asset.dice.helpFrame.OK" parentStyle="core.simplebt" x="158"
+			y="434" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="asset.dice.help.BG"
+			parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG"
+			width="377" height="379" x="17" y="45" />
+
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="asset.dice.treasureBox.tip.BG" parentStyle="core.GoodsTipBg"
+			width="200" height="239" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="asset.dice.treasureBox.tip.line" parentStyle="HRuleAsset"
+			width="173" x="5" y="48" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="asset.dice.treasureBox.tip.script" textFormatStyle="dice.TFormat_37"
+			filterString="dice.common.Filter" autoSize="none" wordWrap="true"
+			width="180" height="50" x="10" y="10" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="asset.dice.awardcell.count" textFormatStyle="dice.TFormat_36"
+			filterString="dice.currentCoupons.Filter" x="27" y="22" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="asset.dice.awardcell.caption" textFormatStyle="dice.TFormat_37"
+			filterString="dice.common.Filter" autoSize="none" wordWrap="true"
+			width="120" height="50" x="54" y="10" />
+
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="asset.dice.reward.BG" parentStyle="core.GoodsTipBg" alpha="0.5"
+			width="190" height="165" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="asset.dice.reward.line" parentStyle="HRuleAsset" width="150"
+			x="5" y="26" />
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="asset.dice.reward.title.bg" resourceLink="asset.getreward.title.bg1,asset.getreward.title.bg2"
+			x="5" y="0" />
+		<component classname="com.pickgliss.ui.controls.ScrollPanel"
+			stylename="asset.dice.reward.panel" parentStyle="core.ScrollPanel"
+			viewportInnerRectString="1,27,3,122,1" width="190" height="132"
+			hScrollProxy="2" vScrollProxy="0" x="-3" y="28" />
+		<component classname="com.pickgliss.ui.controls.container.VBox"
+			stylename="asset.dice.reward.listVbox" spacing="1" height="160" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="asset.dice.reward.caption" textFormatStyle="dice.TFormat_40"
+			filterString="dice.black.Filter" x="9" y="5" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="asset.dice.reward.item" textFormatStyle="dice.TFormat_39"
+			filterString="dice.black.Filter" autoSize="none" wordWrap="true"
+			width="160" height="36" x="10" />
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="celebration.BoxBtn" backStyle="asset.celebration.boxIcon"
+			tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,3,7,1,2" tipGapV="4"
+			x="95" y="288" />
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="celebration.KeyBtn" backStyle="asset.celebration.keyIcon"
+			tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,3,7,1,2" tipGapV="4"
+			x="194" y="288" />
+		 
+			
+	</components>
+	<bitmaps>
+		<!-- 骰子系统 -->
+		<bitmapData resourceLink="asset.dice.returnBar.btnImg" x="9" y="2" />
+		<bitmapData resourceLink="asset.dice.returnBar.unselected" x="4" y="8" />
+		<bitmapData resourceLink="asset.dice.returnBar.selected" x="4" y="8" />
+		<bitmapData resourceLink="asset.dice.toolBar.currentCouponsCaption"	x="609" y="20" />
+		<bitmapData resourceLink="asset.dice.luckIntegral.caption" x="76" y="-8" />
+		<bitmapData resourceLink="asset.dice.luckIntegral.grayBar"	x="42" y="23" />
+		<bitmapData resourceLink="asset.dice.luckIntegral.luckBar"	x="56" y="23" />
+		<bitmapData resourceLink="asset.dice.startArrow" x="60" y="8" />
+		<bitmapData resourceLink="asset.dice.bg1" x="44" y="13" />
+		<bitmapData resourceLink="asset.dice.toolBar.big.down" x="16" y="5" />
+		<bitmapData resourceLink="asset.dice.toolBar.small.down" x="7" y="7" />
+		<bitmapData resourceLink="asset.dice.toolBar.double.down" x="11" y="9" />
+		<bitmapData resourceLink="asset.dice.double.text" x="114" y="44" />
+		<bitmapData resourceLink="asset.dice.big.text" x="231" y="44" />
+		<bitmapData resourceLink="asset.dice.small.text" x="347" y="44" />
+		<bitmapData resourceLink="asset.dice.double.Bmp" x="-8" y="0" />
+		<bitmapData resourceLink="asset.dice.small.Bmp" x="23" y="1" />
+		<bitmapData resourceLink="asset.dice.big.Bmp" x="26" y="0" />
+		<bitmapData resourceLink="asset.getreward.title.bg2" x="-15" y="-4" />
+		<bitmapData resourceLink="asset.getreward.title.bg1" x="-13" y="16" />
+	</bitmaps>
+</style>

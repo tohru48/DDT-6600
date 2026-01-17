@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="firstRecharge" version="1.0.0" encoding="UTF-8" source="ui/turkey/swf/firstRecharge.swf"> 
+  <sets> 
+    <set stylename="firstRecharge.TF1" args="Arial,14,0xe20000,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="firstRecharge.GF1" args="0xfff8e5,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="firstRecharge.TF2" args="Arial,12,0xfff3bc,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="firstRecharge.GF2" args="0x641a01,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="firstRecharge.TF3" args="Arial,14,0xfff0b5,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="firstRecharge.GF3" args="0x502000,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="firstRecharge.TF4" args="Arial,12,0x000000,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="firstRecharge.GF4" args="0xffffff,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="firstRecharge.TF5" args="Arial,14,0xff0000,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="firstRecharge.GF5" args="0xffffff,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="firstRecharge.TF6" args="Arial,14,0xfffffff,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="firstRecharge.GF6" args="0x000000,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="fristRecharge.rechargeMoneyTotalTextGF" args="0x481a08,1,6,6,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="fristRecharge.rechargeMoneyTotalTextFT" args="Arial,16,0xff0000,true" type="flash.text.TextFormat"/>  
+    <set stylename="fristRecharge.rechargeMoneyTotalTextFT1" args="Arial,16,0xff0000,true" type="flash.text.TextFormat"/>  
+    <set stylename="fristRecharge.rechargeGiftBagValueText2GF" args="0x651d00,1,6,6,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="fristRecharge.rechargeGiftBagValueText2FT" args="Arial,23,0xff0000,true" type="flash.text.TextFormat"/>  
+    <set stylename="fristRecharge.wordDireptTextFT" args="Arial,14,0xfff0ab,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="fristRecharge.wordDireptTextGF" args="0x451908,1,6,6,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="firstRecharge.TFormat_3" args="Arial,12,0xd6e9b6,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="firstRecharge.refreshTimer.GF" args="0x013a37,1,3,4,10,1" type="flash.filters.GlowFilter"/> 
+  </sets>  
+  <components> 
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="firstrecharge.expbar.txt" textFormatStyle="firstRecharge.TF4" x="297" y="1" filterString="firstRecharge.GF4" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="firstrecharge.txt1" textFormatStyle="firstRecharge.TF5" x="53" y="230" filterString="firstRecharge.GF5" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="firstrecharge.txt2" textFormatStyle="firstRecharge.TF2" x="45" y="299" filterString="firstRecharge.GF2" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="firstrecharge.txt3" textFormatStyle="firstRecharge.TF6" x="557" y="300" filterString="firstRecharge.GF6" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="firstrecharge.txt4" textFormatStyle="firstRecharge.TF1" x="640" y="297" filterString="firstRecharge.GF1" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="firstrecharge.txt6" textFormatStyle="firstRecharge.TF1" x="103" y="298" filterString="firstRecharge.GF1" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="fristRecharge.btn" backStyle="fristRecharge.btn.back" textStyle="firstrecharge.txt5" backgoundInnerRectString="22,11,9,12,-1" filterString="null,lightFilter,null,grayFilter" x="300" y="400"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="firstrecharge.txt7" textFormatStyle="firstRecharge.TF1" x="262" y="298" filterString="firstRecharge.GF1" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="firstrecharge.picTxt" textFormatStyle="firstRecharge.TF6" y="5" filterString="firstRecharge.GF6" multiline="false" wordWrap="false" width="144" height="20"/>  
+    <component classname="firstRecharge.view.FirstTouchView" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" stylename="firstrecharge.firstView" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" x="-160" y="-40" escEnable="true" closeInnerRectString="44,19,6,30,14" width="590" height="430"/>  
+    <component classname="firstRecharge.view.AccumulationView" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" stylename="firstrecharge.accumulationView" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" x="-160" y="-40" closeInnerRectString="44,19,6,30,14" width="745" height="460"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="accumulationView.rightBottomBgImg" parentStyle="asset.core.btmBimap" x="18" y="349" width="550" height="62"/>  
+    <!--积累冲大背景 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="accumulationView.scale9cornerImageTree" width="705" height="335" x="18" y="45" parentStyle="core.bg6920"/>  
+    <!-- 积累冲小背景 -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="accumulationView.scale9cornerImageTree2" parentStyle="core.Scale9CornerImage.scale9CornerImage19" width="705" height="62" x="18" y="382"/>  
+    <!--首冲 大背景 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="fristRecharge.scale9cornerImageTree" width="550" height="300" x="19" y="45" parentStyle="core.bg6920"/>  
+    <!-- 首冲小背景 -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="fristRecharge.scale9cornerImageTree2" parentStyle="core.Scale9CornerImage.scale9CornerImage19" width="550" height="63" x="18" y="350"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="firstRecharge.SignedAwardBack" width="466" height="101" x="24" y="230" resourceLink="core.Scale9CornerImage.BGAsset8,core.Scale9CornerImage.BGAsset9" imageRectString=",3|3|3|5|0"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="accumulationView.btn" backStyle="fristRecharge.wupin.btn" x="30" y="110" tipStyle="core.PayBuffTip" tipDirctions="7,6,5,1,6,4"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="accumulationView.ftxtBtn" backStyle="fristRecharge.gotoRecharge" x="205" y="357" tipStyle="core.PayBuffTip" tipDirctions="7,6,5,1,6,4"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="firstrecharge.txt5" textFormatStyle="firstRecharge.TF6" x="44" y="13" filterString="firstRecharge.GF6" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="recharge.ItemBg" parentStyle="core.GoodItemCellBg" width="50" height="50"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fristRecharge.rechargeMoneyTotalTextFFT" textFormatStyle="fristRecharge.rechargeMoneyTotalTextFT" autoSize="true" isAutoFitLength="true" antiAliasType="normal"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="fristRecharge.rechargeMoneyTotalText" textFieldStyle="fristRecharge.rechargeMoneyTotalTextFFT" colors="0xffffff,0xfff1f1,0xff0000" filterString="fristRecharge.rechargeMoneyTotalTextGF" alphas="1,1,1" ratios="0,20,200" x="267" y="112"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fristRecharge.rechargeMoneyTotalTextFFT1" textFormatStyle="fristRecharge.rechargeMoneyTotalTextFT1" autoSize="true" isAutoFitLength="true" antiAliasType="normal"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="fristRecharge.rechargeMoneyTotalText1" textFieldStyle="fristRecharge.rechargeMoneyTotalTextFFT1" colors="0xffffff,0xfff1f1,0xff0000" filterString="fristRecharge.rechargeMoneyTotalTextGF" alphas="1,1,1" ratios="0,20,200" x="203" y="142"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fristRecharge.rechargeGiftBagValueText2FFT" textFormatStyle="fristRecharge.rechargeGiftBagValueText2FT" autoSize="true" isAutoFitLength="true" antiAliasType="normal"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="fristRecharge.rechargeGiftBagValueText2" textFieldStyle="fristRecharge.rechargeGiftBagValueText2FFT" colors="0xffffff,0xfeed4a,0xff7800" filterString="fristRecharge.rechargeGiftBagValueText2GF" alphas="1,1,1" ratios="0,100,200" x="197" y="214"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="firstRecharge.wordDireptText" textFormatStyle="fristRecharge.wordDireptTextFT" autoSize="true" isAutoFitLength="true" antiAliasType="normal" filterString="fristRecharge.wordDireptTextGF" x="28" y="62"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="firstRecharge.timePlayTxt" textFormatStyle="firstRecharge.TFormat_3" filterString="firstRecharge.refreshTimer.GF" autoSize="true" x="19" y="380"/>
+    
+    <component classname="wonderfulActivity.newActivity.firstPay.FirstContactView" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" stylename="firstRecharge.firstContactView" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" x="-160" y="-40" escEnable="true" closeInnerRectString="44,19,6,30,14" width="590" height="430"/> 
+  </components>  
+  <customDisplay> 
+    <custom classname="flash.geom.Point" stylename="firstRecharge.wordDireptText2Pos" x="112" y="114"/>  
+    <custom classname="flash.geom.Point" stylename="firstRecharge.wordDireptText2Pos2" x="100" y="114"/>  
+    <custom classname="flash.geom.Point" stylename="firstRecharge.wordDireptText2Pos3" x="27" y="143"/> 
+    <custom classname="flash.geom.Point" stylename="firstRecharge.wordDireptText2Pos4" x="27" y="143"/>
+  </customDisplay>  
+  <bitmaps> 
+    <bitmapData resourceLink="fristRecharge.child" x="353" y="40"/>  
+    <bitmapData resourceLink="fristRecharge.libao.title" x="27" y="173"/>  
+    <bitmapData resourceLink="fristRecharge.word" x="33" y="62"/>  
+    <bitmapData resourceLink="fristRecharge.libao.info" x="113" y="204"/>  
+    <bitmapData resourceLink="fristRecharge.libao.price" x="16" y="187"/>  
+    <bitmapData resourceLink="fristRecharge.bar.back" x="44" y="324"/>  
+    <bitmapData resourceLink="fristRecharge.pic.back" x="20" y="52"/>  
+    <bitmapData resourceLink="fristRecharge.wupin.back" x="0" y="0"/>  
+    <bitmapData resourceLink="fristRecharge.selected" x="23" y="53"/>  
+    <bitmapData resourceLink="fristRecharge.level1" x="0" y="0"/>  
+    <bitmapData resourceLink="fristRecharge.level2" x="0" y="0"/>  
+    <bitmapData resourceLink="fristRecharge.level3" x="0" y="0"/>  
+    <bitmapData resourceLink="fristRecharge.level4" x="0" y="0"/>  
+    <bitmapData resourceLink="fristRecharge.level5" x="0" y="0"/>  
+    <bitmapData resourceLink="fristRecharge.level6" x="0" y="0"/>  
+    <bitmapData resourceLink="fristRecharge.indu.ground" x="0" y="0"/>  
+    <bitmapData resourceLink="fristRecharge.indu.form" x="-563" y="3"/>  
+    <bitmapData resourceLink="fristRecharge.str8" x="0" y="0"/>  
+    <bitmapData resourceLink="fristRecharge.downtimes" x="19" y="364"/>  
+    <bitmapData resourceLink="fristRecharge.libao.fengeLine" x="147" y="59"/>  
+    <bitmapData resourceLink="fristRecharge.libao.giftList" x="111" y="202"/>  
+    <bitmapData resourceLink="fristRecharge.libao.gold" x="335" y="294"/> 
+  </bitmaps> 
+</style>

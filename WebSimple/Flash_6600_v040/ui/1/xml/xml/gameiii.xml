@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="gameiii" version="2.0.1" source="ui/turkey/swf/gameiii.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="gameView.countDownView.txt.tf" args="Arial,20,0xFFFF00"/>  
+    <set type="flash.filters.GlowFilter" stylename="gameView.countDownView.txt.gf" args="0x000000,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="gameView.losingStreakCountTxt.tf" args="Arial,12,0xFFFFFF,true,,,,,right"/>  
+    <set type="flash.filters.GlowFilter" stylename="gameView.losingStreakCountTxt.gf" args="0xd53700,1,2,2,10"/> 
+  </sets>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="gameView.countDownView.tensTxtPos" x="23" y="23"/>  
+    <custom classname="flash.geom.Point" stylename="gameView.countDownView.unitTxtPos" x="41" y="23"/> 
+    <custom classname="flash.geom.Point" stylename="prop.maxbtn" x="955" y="248"/>
+  </customs>  
+  <components> 
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameView.countDownView.txt" textFormatStyle="gameView.countDownView.txt.tf" filterString="gameView.countDownView.txt.gf" x="4" y="23"/>  
+    <component classname="consortionBattle.view.ConsBatLosingStreakBuff" stylename="gameView.ConsBatLosingStreakBuff" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,5,4" x="45" y="5"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameView.losingStreakCountTxt" textFormatStyle="gameView.losingStreakCountTxt.tf" filterString="gameView.losingStreakCountTxt.gf" x="27" y="22"/> 
+ 	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="prop.dropDwonBtn" backStyle="asset.game.prop.dropDown" x="955" y="286"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="prop.packUpBtn" backStyle="asset.game.prop.packUp" x="955" y="443"/>
+ 	
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.game.losingStreakIcon" x="0" y="0"/> 
+  </bitmaps> 
+</style>

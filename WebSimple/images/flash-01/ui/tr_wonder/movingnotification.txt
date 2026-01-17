@@ -1,0 +1,28 @@
+﻿{Açık Arttırma Pazarı} {bağlı olmayan} öğelerin {satışa} sunulduğu yerdir,  ayrıca {ödemeli posta} sisteminden yararlanarak da satış yapma imkanı vardır.
+Bir takım öğeler  satış yapabilmek için {Kupon} kullanımı gerektirir, {Market ve Kontör yükleme tuşu} kullanılarak yükleme yapılabilir. Kuponlar {Birliğe bağış yapılabilir}，{Birlik Demirci Atölyesi eklentisini} yükseltir. 
+Savaş esnasında eğer haritanın altındaki savaş durumunu  {göremezseniz}, {Perspektif Gözlüğü （T）} açarak {yarı saydam} özelliğini kullanabilirsiniz.
+Savaşta {Kendi gücünüze eş değerde} rakiplerle karşılaşabilmeniz için, sistem {Eşleşme bekleme} süresi  uzun sürebilir, lütfen sabırla bekleyiniz.
+Verimsiz arazideyken ya da elverişli arazi elde etmek istediğiniz zaman, {Uçma（F）} yeteneğini kullanabilirsiniz，bu yetenek süreyi {2 raundda} uzatır。
+{5. seviye} üstündeki， 50000 altına sahip oyuncu , {Birlik klubü} içinde {birlik kurubilir}。
+Birliği olmayan oyuncular  birlik klubündeki birlik listesine başvuru yapabilir, {Bir oyuncu } aynı anda {birden fazla birliğe} giriş {başvurusu} yapabilir.
+{Birlik adı} bir kere belirleyince kafanıza göre değiştiremezsiniz, fakat { Marketten} {Birlik isim değiştirme kartı} satın alarak değiştirebilirsiniz，isimler değiştikten sonra 24 saat içinde güncellenir.
+{Keşif Rıhtımını} kullanarak tüm {uzak sunuculara} ulaşabilirsiniz，ve {yaratık} çetin savaşlarda，savaş sonuç oranına göre {zengin ödüller} kazanılabilir.
+{“Boşluk tuşu”} ateşleme şiddetini belirler,  “boşluk tuşunu” {uzun süre basılı tutup},  {bıraktıktan} sonra  ateş {daha uzak mesafeye} ulaşır。
+{“↑↓ tuşları”} ateşleme açısını belirler,  gerçek duruma göre {ateşleme açısı ayarlama}， zaferin anahtarıdır.
+{“←→ tuşları”} karakter {hamlelerini} kontrol eder， uygun saldırı olmadığında ya da karşı taraf saldırıya geçtiğinde, hamle yapmak yapılacak en uygun şeydir.
+{Hesabınızın güvenliği} için，lütfen {hesap bilgilerinizi} başkalarıyla {paylaşmayın},  {çevrim dışı}  {alışveriş} yapmayın，lütfen {sırt çantasındaki} {güvenlik şifresini} zamanında kurun.
+Makul bir şekilde oynandığı zaman oyunun size yararı vardır, fakat bağımlı bir şekilde oynarsanız sağlığınıza zarar verirsiniz. Lütfen çok uzun süre oynamayın. Her bir saatte biraz dinlenmeniz  tavsiye edilir.
+Silah, teçhizat {güçlendirme risklidir}, her seviyedeki güçlendirme taşı {başarı oranı farklıdır}，lütfen güçlendirme yapmadan önce başarı oranına {önizleme} yapın. {Şans sembolü} ve {kutsallık sembolü} ile kombine etmek çok daha iyi sonuçlar verir.
+Güçlendirme ve sentezlemeyi daha da kolaylaştırmak için, {Demirci Atölyesine}{kutsallık sembolü} ve {sanş sembolü} {hemen satın al kısayolu} konulmuştur.
+Güvenli oyun ortamını koruma amacıyla, lütfen {otomatik oyun modu} gibi yasal olmayan  yollarla oyuna girmeyin,  bu şekilde oyuna girenler tespit edildikten sonra  {hesap mühürleme işlemi} yapılacaktır. 
+İnternet explorer v.b  {favorilere ekle sekmesini} kullanarak ya da oyun ara yüzündeki {favori oyunlar sekmesinden} {<Bombom>un adresini} saklayabilirsiniz, bir dahaki sefere {kısayolu} kullanarak oyuna girebilirsiniz.
+Oyun oynarken bilgisayarınızda {donma} gibi sorunlar yaşanırsa，lütfen {ekrana sağ tıklayın} {ayarları} seçin，yerel depolama miktarını yükselti seçin ya da oyun ayarlarından {özel efektleri kapatı} seçin，eğer sorununuz hala çözümlenmezse, lütfen müşteri hizmetleri ile irtibata geçiniz. 
+Oyunda çeşit çeşit{görevler} bulunmaktadır, {seviye yükseldikçe，ödüller de bir o kadar zenginleşir}，kendinize uygun görevi seçip tamamlamak, {seviye yükseltmenin} kısa bir yoludur.
+Markette, öğelere tıklayarak {deneyebilirsiniz}，{imajı kaydete} tıklayarak  ya da öğeyi direk {alışveriş sepetine ekleyerek}  satın alabilirsini. Öğe satın alırken lütfen {geçerlilik süresi} seçeneğine dikkat edin. 
+Oyuncu {anormal şekilde} oyundan ayrıldığında, belli miktarda {mükafat} {kesintisine} uğrar,{Tarayıcı kapatmaya zorlandığında, bağlantı kopması} gibi durumlar dahildir fakat bunlarla sınırlı değildir.
+{Atletik moddayken} kazanılan {tecrübe değeri ve  askeri kuvvetlerin kişi sayısı doğru orantılıdır}，asker sayısı ne kadar çok olursa, tecrübe eklentisi de o kadar çok olur.
+{OY postası} özel {OY sembolleri} ekledi，sistemden gelen postaları kontrol ederken zarar görmemek için lütfen {korumayı yükselte} dikkat edin
+{Sunucular arası savaşı} seçip oyuna girerseniz, gücü size en yakın olan rakiple {daha kolay} eşleşme yapabilirsiniz.
+Çalıştığınız için ya da başka sebeplerden dolayı {oyunu oynayamadığınız}zaman, {Termal} kaplıca odasına girerel {durmaksızın} {tecrübe ödülleri} kazanırsınız. 
+Şu anda {Bilezik、yüzük ve güçledirme taşı} en yüksek seviyesi {5. seviye}, dikkat edin {ileri seviyeye füzyonlama} {yapılamaz}
+Oyun sisteminde {hata oluştuğundan veya farklı sorunlar yaşandığında} oyundaki {şikayet} sistemini kullanarak şikayetlerinizi bildirebilirsiniz, şikayet ve fikirlerinizi hemen değerlendirmeye alıp çözümleri sunacağız.

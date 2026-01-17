@@ -1,0 +1,139 @@
+﻿<style name="sevenDayTarget" version="1.0.1" source="ui/turkey/swf/sevenDayTarget.swf">
+	<sets>
+		<set stylename="sevenDayTarget.view.linktxtTF11"  args="Arial,14,0x1dd70a,true,,true,,,left"  type="flash.text.TextFormat"/>
+		<set stylename="sevenDayTarget.view.linktxtGF11" args="0x402d03,1,2,2,10"  type="flash.filters.GlowFilter"/>	
+		
+		<set stylename="sevenDayTarget.view.linktxtTF12"  args="Arial,14,0xaeaeae,true,,true,,,left"  type="flash.text.TextFormat"/>
+		<set stylename="sevenDayTarget.view.linktxtGF12" args="0x040000,1,2,2,10"  type="flash.filters.GlowFilter"/>	
+		<set stylename="sevenDayTarget.view.TFormat_12" args="Arial,14,0xFFFF99,true,,,,,left" type="flash.text.TextFormat"/>	
+		<set stylename="sevenDayTarget.view.TFormat_13" args="Arial,14,0xfff07e,true,,,,,left" type="flash.text.TextFormat"/>	
+		<set stylename="sevenDayTarget.view.linktxtGF13" args="0x321000,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="timebox.TFormat_122" args="Arial,12,0xffe8bc,true,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="sevenDayTarget.view.linktxtGF14" args="0x492b00,2,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="newSevenDayAndNewPlayer.titletext3.linktxtGF13" args="0x5c0444,1,2,2,10" type="flash.filters.GlowFilter"/>
+<set stylename="newSevenDayAndNewPlayer.titletext2.TFormat_13" args="Arial,12,0xafe9ff,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="newSevenDayAndNewPlayer.titletext2.linktxtGF13" args="0x2d3f56,1,2,2,10" type="flash.filters.GlowFilter"/>
+<set stylename="timebox.TFormat_123" args="Arial,14,0x000000,true,,,,,right" type="flash.text.TextFormat"/>
+<set stylename="newSevenDayAndNewPlayer.titletext1.linktxtGF13" args="0x642e0a,1,2,2,10" type="flash.filters.GlowFilter"/>
+<set stylename="newSevenDayAndNewPlayer.titletext3.TFormat_13" args="Arial,12,0xffd8f9,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="newSevenDayAndNewPlayer.titletext1.TFormat_13" args="Arial,12,0xfff2c0,true,,,,,center" type="flash.text.TextFormat" leading="-2"/>
+	<set stylename="sevenDayTarget.TFormat_1" args="Arial,12,0xFFFF99,true,,,,,left" type="flash.text.TextFormat"/>
+	</sets>
+	
+	<customDisplay>
+		
+	</customDisplay>
+		
+	<components>	
+		<component classname="sevenDayTarget.view.SevenDayTargetMainView" stylename="sevenDayTarget.sevenDayTargetFrame"  
+			width="800" height="570" moveEnable="false" escEnable="true" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="sevenDayTarget.view.linktxt" textFormatStyle="sevenDayTarget.view.linktxtTF11" x="290"  y="23"
+			filterString="sevenDayTarget.view.linktxtGF11" multiline="false" wordWrap="false" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="sevenDayTarget.view.linktxt2" textFormatStyle="sevenDayTarget.view.linktxtTF12" x="290"  y="23"
+			filterString="sevenDayTarget.view.linktxtGF12" multiline="false" wordWrap="false" />
+		<component stylename="sevenDayTarget.view.getAwardBtn" classname="com.pickgliss.ui.controls.BaseButton" 
+			backStyle="sevenDayTarget.view.getAwardBtnBG" x="506" y="461" filterString="null,lightFilter,null,grayFilter"/>
+			
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sevenDayTarget.view.conditionText" textFormatStyle="sevenDayTarget.view.TFormat_13"  filterString="sevenDayTarget.view.linktxtGF13"  width="170" height="37" wordWrap="true" multiline="true"  x="53" y="13"/>
+		
+		<component classname="sevenDayTarget.view.SevenDayTargetDayButton" stylename="sevenDayTarget.view.dayButton1"   backStyle="sevenDayTarget.1Day" filterString="null,lightFilter,null,grayFilter" x="29" y="56"/>
+		<component classname="sevenDayTarget.view.SevenDayTargetDayButton" stylename="sevenDayTarget.view.dayButton2"   backStyle="sevenDayTarget.2Day" filterString="null,lightFilter,null,grayFilter" x="131" y="56"/>
+		<component classname="sevenDayTarget.view.SevenDayTargetDayButton" stylename="sevenDayTarget.view.dayButton3"   backStyle="sevenDayTarget.3Day" filterString="null,lightFilter,null,grayFilter" x="233" y="56"/>
+		<component classname="sevenDayTarget.view.SevenDayTargetDayButton" stylename="sevenDayTarget.view.dayButton4"   backStyle="sevenDayTarget.4Day" filterString="null,lightFilter,null,grayFilter" x="335" y="56"/>
+		<component classname="sevenDayTarget.view.SevenDayTargetDayButton" stylename="sevenDayTarget.view.dayButton5"   backStyle="sevenDayTarget.5Day" filterString="null,lightFilter,null,grayFilter" x="437" y="56"/>
+		<component classname="sevenDayTarget.view.SevenDayTargetDayButton" stylename="sevenDayTarget.view.dayButton6"   backStyle="sevenDayTarget.6Day" filterString="null,lightFilter,null,grayFilter" x="539" y="56"/>
+		<component classname="sevenDayTarget.view.SevenDayTargetDayButton" stylename="sevenDayTarget.view.dayButton7"   backStyle="sevenDayTarget.7Day" filterString="null,lightFilter,null,grayFilter" x="641" y="56"/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="sevenDayTarget.helpBnt" backStyle="sevenDayTarget.view.helpBnt" filterString="null,lightFilter,lightFilter,grayFilter" x="691" y="-32" />
+			
+		<component classname="sevenDayTarget.view.SevenDayTargetHelpFrame" stylename="sevenDayTarget.helpView"  
+			backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" 
+			titleOuterRectPosString="10,10,5" containerX="8" containerY="31" width="404" height="484" 
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+			
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="sevenDayTarget.helpView.frameBg" 
+			parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="9" y="13" width="370" height="376" />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="sevenDayTarget.helpView.sumitBtn"
+			parentStyle="core.simplebt" x="149" y="399" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="BoxVipTips.ItemName2" textFormatStyle="timebox.TFormat_122" filterString="sevenDayTarget.view.linktxtGF14" width="96" height="24" wordWrap="true" multiline="true" type="2" x="53" y="13"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="sevenDay.newPlayer.infoBtn2" resourceLink="sevenDay.newPlayerBtn.infoBtn1bg,sevenDay.newPlayerBtn.Player" imageRectString="137|39|0|0|9,-44|88|8|27|13" x="60" y="5" height="38"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="BoxVipTips.ItemName3" textFormatStyle="timebox.TFormat_123"  filterString="P_g4" width="45" height="24" wordWrap="true" multiline="true" type="2" x="53" y="13"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="sevenDay.sevenDayBtn.infoBtnbg" parentStyle="core.bg6900"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="sevenDay.sevenDayBtn.infoBtn" resourceLink="sevenDay.sevenDayBtn.infoBtnbg,sevenDay.sevenDayBtn.PlayerOne" imageRectString="137|39|0|0|9,8|88|4|27|13" width="110" height="35" x="4" y="5"/>
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="sevenDay.sevenDayBtn" unSelectedStyle="sevenDay.sevenDayBtn.infoBtn" selectedStyle="sevenDay.sevenDayBtn.infoBtn2" filterString="null,lightFilter,null,grayFilter" x="22" y="-1"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="sevenDay.newPlayerBtn.infoBtnbg" parentStyle="core.bg6900"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="sevenDay.sevenDayBtn.infoBtn2" resourceLink="sevenDay.sevenDayBtn.infoBtn1bg,sevenDay.sevenDayBtn.Player" imageRectString="137|39|0|0|9,-44|88|8|27|13" x="60" y="5" height="38"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="sevenDay.newPlayer.infoBtn" resourceLink="sevenDay.newPlayerBtn.infoBtnbg,sevenDay.newPlayerBtn.PlayerOne" imageRectString="137|39|0|0|9,8|88|4|27|13" width="110" height="35" x="4" y="5"/>
+<component classname="sevenDayTarget.view.NewSevenDayAndNewPlayerMainView" stylename="newSevenDayTarget.newSevenDayTargetFrame" backStyle="SimpleFrameBackgoundOne" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,14,6,30,14" containerX="15" containerY="38" titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1" width="800" height="575" moveEnable="false" escEnable="true"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newSevenDayAndNewPlayer.titletext1" textFormatStyle="newSevenDayAndNewPlayer.titletext1.TFormat_13" filterString="newSevenDayAndNewPlayer.titletext1.linktxtGF13" x="33" y="93" width="225" height="44" wordWrap="true"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="newSevenDayAndNewPlayer.newplayerRewardItemRewardBnt" backStyle="newSevenDayAndNewPlayer.getRewardBG" filterString="null,lightFilter,lightFilter,grayFilter" x="15" y="50"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="sevenDay.newPlayerBtn.infoBtn1bg" parentStyle="core.bg6901"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="newSevenDayAndNewPlayer.scale9cornerImageTree" width="758" height="475" x="5" y="41" parentStyle="core.bg6920"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newSevenDayAndNewPlayer.titletext3" textFormatStyle="newSevenDayAndNewPlayer.titletext3.TFormat_13" filterString="newSevenDayAndNewPlayer.titletext3.linktxtGF13" x="525" y="93" width="225" height="44" wordWrap="true"/>
+<component classname="com.pickgliss.ui.controls.container.VBox" stylename="newSevenDayAndNewPlayer.chongzhiVbox" x="0" y="0" spacing="3"/>
+<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="newSevenDayAndNewPlayer.chongzhiList" parentStyle="core.ScrollPanel" viewportInnerRectString="-2,15,3,300,1" vScrollProxy="0" width="225" height="300" x="29" y="160"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="newSevenDayAndNewPlayer.newplayerRewardItemRewardBnt2" backStyle="newSevenDayAndNewPlayer.getRewardBG1" filterString="null,lightFilter,lightFilter,grayFilter" x="15" y="50"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newSevenDayAndNewPlayer.titletext2" textFormatStyle="newSevenDayAndNewPlayer.titletext2.TFormat_13" filterString="newSevenDayAndNewPlayer.titletext2.linktxtGF13" x="275" y="93" width="225" height="44" wordWrap="true"/>
+<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="newSevenDayAndNewPlayer.xiaofeiList" parentStyle="core.ScrollPanel" viewportInnerRectString="-2,15,3,300,1" vScrollProxy="0" width="225" height="300" x="277" y="160"/>
+<component classname="com.pickgliss.ui.controls.container.VBox" stylename="newSevenDayAndNewPlayer.xiaofeiVbox" x="0" y="0" spacing="3"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="sevenDay.sevenDayBtn.infoBtn1bg" parentStyle="core.bg6901"/>
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="sevenDay.newPlayerBtn" unSelectedStyle="sevenDay.newPlayer.infoBtn" selectedStyle="sevenDay.newPlayer.infoBtn2" filterString="null,lightFilter,null,grayFilter" x="160" y="-1"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="newPlayerReward.helpBnt" backStyle="newPlayerReward.view.helpBnt" filterString="null,lightFilter,lightFilter,grayFilter" x="691" y="-32"/>
+	</components>
+	<customs>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.dayClicker1" x="33" y="60"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.dayClicker2" x="135" y="60"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.dayClicker3" x="237" y="60"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.dayClicker4" x="340" y="60"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.dayClicker5" x="442" y="60"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.dayClicker6" x="545" y="60"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.dayClicker7" x="646" y="60"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.view.linkPos1" x="293" y="382"/>
+		
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.view.conditiontextPos1" x="42" y="370"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.view.conditiontextPos2" x="42" y="382"/>
+		
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.view.conditioncomplete1Pos" x="222" y="382"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.view.finishPos" x="208" y="363"/>
+		
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.view.conditionPos1" x="0" y="0"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.view.conditionPos2" x="0" y="43"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.view.conditionPos3" x="0" y="84"/>
+		
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.todayMCPos1" x="24" y="203"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.todayMCPos2" x="127" y="203"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.todayMCPos3" x="229" y="203"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.todayMCPos4" x="331" y="203"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.todayMCPos5" x="432" y="203"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.todayMCPos6" x="534" y="203"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.todayMCPos7" x="636" y="203"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.itemAwardCellPos" x="0" y="0"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.itemAwardNamePos" x="53" y="6"/>
+		<custom classname="flash.geom.Point" stylename="sevenDayTarget.itemAwardNumPos" x="1" y="27"/>
+		
+		<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="sevenDayTarget.simpleTileList.rewardList" x='416' y='337' hSpace='20' vSpace='13'/>
+		<custom classname="flash.geom.Point" stylename="newPlayerReward.view.helpBntPos" x="638" y="4"/>
+<custom classname="flash.geom.Point" stylename="newSevenDayAndNewPlayer.newplayerRewardItemTitlePos" x="6" y="1"/>
+<custom classname="flash.geom.Point" stylename="sevenDayAndNewPlayer.newPlayerBntPos" x="22"/>
+<custom classname="flash.geom.Point" stylename="newSevenDayAndNewPlayer.newplayerRewardItemRewardBntPos" x="74" y="75"/>
+<custom classname="flash.geom.Point" stylename="newSevenDayAndNewPlayer.hunliListPos" x="525" y="163"/>
+<custom classname="flash.geom.Point" stylename="newSevenDayAndNewPlayer.newplayerRewardItemRewardBntPos2" x="74" y="126"/>
+<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="newPlayerReward.simpleTileList.rewardList" x="3" y="20" hSpace="2" vSpace="5"/>
+	</customs>
+	
+	<bitmaps>
+		<bitmapData resourceLink="sevenDayTarget.topBg"  x="10" y="40"/>
+		<bitmapData resourceLink="sevenDayTarget.downBg" x="12" y="306"/>
+		<bitmapData resourceLink="sevenDayTarget.1Day" x="0" y="0"/>
+		<bitmapData resourceLink="sevenDayTarget.2Day" x="0" y="0"/>
+		<bitmapData resourceLink="sevenDayTarget.3Day" x="0" y="0"/>
+		<bitmapData resourceLink="sevenDayTarget.4Day" x="0" y="0"/>
+		<bitmapData resourceLink="sevenDayTarget.5Day" x="0" y="0"/>
+		<bitmapData resourceLink="sevenDayTarget.6Day" x="0" y="0"/>
+		<bitmapData resourceLink="sevenDayTarget.7Day" x="0" y="0"/>
+		<bitmapData resourceLink="sevenDay.newPlayerBg" x="3" y="47"/>
+	</bitmaps>
+</style>

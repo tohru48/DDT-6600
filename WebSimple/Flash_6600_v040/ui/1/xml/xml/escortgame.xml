@@ -1,0 +1,55 @@
+<style name="escortgame" version="5.1.0" source="ui/turkey/swf/escortgame.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="escort.game.buffTitleTxt.tf" args="Arial,14,0xff0000,true"/>
+<set type="flash.filters.GlowFilter" stylename="escort.game.buffTitleTxt.gf" args="0x000000,1,2,2,10"/>
+<set type="flash.text.TextFormat" stylename="escort.countDownView.txt.tf" args="Arial,14,0xffffff"/>
+<set type="flash.filters.GlowFilter" stylename="escort.countDownView.txt.gf" args="0x781f00,1,4,4,30"/>
+<set type="flash.filters.GlowFilter" stylename="escort.rankView.cellNameTxt.gf" args="0x000000,1,4,4,30"/>
+<set type="flash.text.TextFormat" stylename="escort.game.buffCountDownTxt.tf" args="Arial,14,0xff0000"/>
+<set type="flash.text.TextFormat" stylename="escort.rankView.titleTxt.tf" args="Arial,14,0xffba00,true"/>
+<set type="flash.filters.GlowFilter" stylename="escort.rankView.titleTxt.gf" args="0x000000,1,2,2,10"/>
+<set type="flash.filters.GlowFilter" stylename="escort.rankView.cellTxt.gf" args="0x000000,1,2,2,10"/>
+<set type="flash.text.TextFormat" stylename="escort.rankView.cellNameTxt.tf" args="Arial,14,0xffffff,,,,,,center"/>
+<set type="flash.filters.GlowFilter" stylename="escort.game.playerNameTxt.gf" args="0x000000,1,2,2,10"/>
+<set type="flash.text.TextFormat" stylename="escort.rankView.cellTxt.tf" args="Arial,14,0xffffff"/>
+<set type="flash.text.TextFormat" stylename="escort.game.playerNameTxt.tf" args="Arial,12,0xffffff,,,,,,center"/>
+<set type="flash.filters.GlowFilter" stylename="escort.game.buffCountDownTxt.gf" args="0x000000,1,2,2,10"/>
+	</sets>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="escort.gameStart.countDownViewPos" x="485" y="217"/>
+<custom classname="flash.geom.Point" stylename="escort.rankView.rateTitleTxtPos" x="116" y="37"/>
+<custom classname="flash.geom.Point" stylename="escort.rankView.cellAwardCellPos" x="179" y="-6"/>
+<custom classname="flash.geom.Point" stylename="escort.rankView.cellNameTxtPos" x="40" y="1"/>
+<custom classname="flash.geom.Point" stylename="escort.rankView.nameTitleTxtPos" x="62" y="36.5"/>
+<custom classname="flash.geom.Point" stylename="escort.rankView.cellRateTxtPos" x="118" y="0"/>
+<custom classname="flash.geom.Point" stylename="escort.gamePlayer.fightMcPos" x="2" y="-93"/>
+<custom classname="flash.geom.Point" stylename="escort.rankView.sprintTitleTxtPos" x="181" y="37"/>
+<custom classname="flash.geom.Point" stylename="escort.game.waitStartGamePromptPos" x="522" y="249"/>
+	</customs>
+	
+	<components>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="escort.rankViewMoveOutBtn" backStyle="asset.escort.rankViewMoveOutBtn" x="-24" y="37"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="escort.rankView.cellTxt" textFormatStyle="escort.rankView.cellTxt.tf" filterString="escort.rankView.cellTxt.gf" x="0" y="0"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="escort.rankView.cellNameTxt" textFormatStyle="escort.rankView.cellNameTxt.tf" filterString="escort.rankView.cellNameTxt.gf" autoSize="none" width="100" height="18" x="15" y="0"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="escort.leapBtn" backStyle="asset.escort.leapBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,1" x="23" y="13"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="escort.game.playerNameTxt" textFormatStyle="escort.game.playerNameTxt.tf" filterString="escort.game.playerNameTxt.gf" autoSize="none" x="-220" y="-77" width="250" height="18"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="escort.HelpButton" backStyle="asset.ddtcore.helpbutton" x="646" y="-2"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="escort.invisibilityBtn" backStyle="asset.escort.invisibilityBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,1" x="23" y="57"/>
+<component classname="escort.view.EscortBuyConfirmView" stylename="EscortBuyConfirmView1" parentStyle="SimpleAlert" frameInnerRectString="60,45,50,85,-1"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="escort.game.buffCountDownTxt" textFormatStyle="escort.game.buffCountDownTxt.tf" filterString="escort.game.buffCountDownTxt.gf" x="41" y="2"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="escort.countDownView.txt" textFormatStyle="escort.countDownView.txt.tf" filterString="escort.countDownView.txt.gf" x="39" y="10"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="escort.moveInBtn" backStyle="asset.escort.moveInBtn" x="0" y="0"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="escort.returnBtn" backStyle="asset.escort.returnBtn" x="35" y="4"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="escort.game.buffTitleTxt" textFormatStyle="escort.game.buffTitleTxt.tf" filterString="escort.game.buffTitleTxt.gf" x="4" y="2"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="escort.rankViewMoveInBtn" backStyle="asset.escort.rankViewMoveInBtn" x="-24" y="37"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="escort.moveOutBtn" backStyle="asset.escort.moveOutBtn" x="0" y="0"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="escort.cleanBtn" backStyle="asset.escort.cleanBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,1" x="23" y="100"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="escort.rankView.titleTxt" textFormatStyle="escort.rankView.titleTxt.tf" filterString="escort.rankView.titleTxt.gf" x="6" y="37"/>
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.escort.gameFinishTag" x="22991" y="186"/>
+<bitmapData resourceLink="asset.escort.leapPromptArrow" x="0" y="0"/>
+	</bitmaps>
+</style>

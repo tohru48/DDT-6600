@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtRegressView" version="1.0.1" source="ui/turkey/swf/ddtRegressView.swf"> 
+  <sets> 
+    <!--Filter-->  
+    <!--TextFormat-->  
+    <set stylename="regress.view.menuItemName.titleTF" args="Arial,13,0xffe41c,true,,,,,left" type="flash.text.TextFormat" leading="24"/>  
+    <set stylename="regress.view.menuItemName.titleFilter" args="0x43210e,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="regress.startCancelTxt.tf" args="Arial,14,0xe3ffb4,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="regress.startCancelTxt.gf" args="0x006255,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="regress.DescFormat" args="Arial,14,0xffecc2" type="flash.text.TextFormat" leading="5"/>  
+    <set stylename="regress.DescGF" args="0x512800,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="regress.DesTF" args="Arial,14,0xfff000,true" type="flash.text.TextFormat"/>  
+    <set stylename="regress.DesGF" args="0x5b1907,1,4,4,30,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="regress.DataTF" args="Arial,14,0xffffff" type="flash.text.TextFormat"/>  
+    <set stylename="regress.DataGF" args="0x4f2700,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="regress.taskTextFormat" args="Arial,16,0xFFFFFF,true" type="flash.text.TextFormat"/>  
+    <set stylename="regress.taskFilterGray" args="0x3c230f,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="regress.FilterBlack_2_300" args="0x3c230f,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="regress.ConditionStatusFormat" args="Arial,16,0x76fff7,true" type="flash.text.TextFormat"/>  
+    <set stylename="regress.RewardQuantityFormat" args="Arial,14,0xFFFFFF,true" type="flash.text.TextFormat" leading="3"/>  
+    <set stylename="regress.FilterBlack_2_1000" args="0x4f2700,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="regress.CaptionFormat" args="Arial,12,0xff0000,true" type="flash.text.TextFormat"/>  
+    <set stylename="regress.CaptionGF" args="0xffffff,10,4,4,3,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="simpleAlertContentTF_03" args="Arial,15,0xfff8d6,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="glowgilter_CALL_03" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="regress.frameInfoTF" args="Arial,13,0xf5edb9" type="flash.text.TextFormat" leading="2" letterSpacing="0"/>  
+    <set stylename="regress.frameInfoGF" args="0x693812,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="regress.taskItemTitleFormatNormal" type="flash.text.TextFormat" args="Arial,12,0xfff0b5,true" align="center"/>  
+    <set stylename="regress.taskItemTitleFormatSelected" type="flash.text.TextFormat" args="Arial,12,0xff5400,true" align="center"/>  
+    <set stylename="regress.taskItemTitleFormatHighlighted" type="flash.text.TextFormat" args="Arial,12,0x3fe6ff,true" align="center"/>  
+    <set stylename="regress.taskItemTitleFormatHighlightedSelected" type="flash.text.TextFormat" args="Arial,12,0x3fe6ff,true" align="center"/>  
+    <set stylename="regress.taskItemTitleFilterNormal" type="flash.filters.GlowFilter" args="0x663518,2,4,4,30"/>  
+    <set stylename="regress.taskItemTitleFilterSelected" type="flash.filters.GlowFilter" args="0xFFFFFF,2,4,4,30"/>  
+    <set stylename="regress.taskItemTitleFilterHighlighted" type="flash.filters.GlowFilter" args="0x543500,2,4,4,30"/>  
+    <set stylename="regress.taskItemTitleFilterHighlightedSelected" type="flash.filters.GlowFilter" args="0x543500,2,4,4,30"/> 
+  </sets>  
+  <bitmaps> 
+    <!-- 		<bitmapData resourceLink="asset.vip.currentVip" x="19" y="109"/> -->  
+    <!-- 		<bitmapData resourceLink="asset.vip.nextVip" x="370" y="109"/> -->  
+    <!-- 		<bitmapData resourceLink="asset.vip.PrivilegeTxtBg" width="302" height="195" x="18" y="148"/> -->  
+    <bitmapData resourceLink="asset.regress.huaweng" x="12" y="14"/>  
+    <bitmapData resourceLink="asset.regress.titleBg" x="230" y="20"/>  
+    <bitmapData resourceLink="asset.regress.ConditionBGHighlight"/>  
+    <bitmapData resourceLink="asset.taskMenuItem.textImg.OK" x="129" y="0" width="35" height="28"/> 
+  </bitmaps>  
+  <components> 
+    <!--窗口-->  
+    <component classname="oldPlayerRegress.view.RegressView" stylename="regress.RegressView" backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,22,6,30,14" containerX="15" containerY="38" titleOuterRectPosString="24,10,5" moveInnerRectString="0,30,0,30,1" width="736" height="484" moveEnable="false" escEnable="true"/>  
+    <component classname="oldPlayerRegress.view.itemView.WelFrameView" stylename="regress.privilegeAssetFrame" backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,22,6,30,14" width="450" height="362" moveEnable="false" escEnable="true"/>  
+    <!--控件-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="regress.frameBottom" parentStyle="core.bg6920" width="695" height="421" x="6" y="6" scaleGridString="5,10,80,20"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="regress.jinbian" resourceLink="asset.core.ScaleBitmapImage1" width="215" height="413" x="10" y="10" scaleGridString="33,26,59,70"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="regress.frameRightBottom" resourceLink="asset.regress.frameRightBottom" width="470" x="225" y="10"/>  
+    <!--Menu-->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="regress.ActivityCellBgUnSelected" resourceLink="asset.regress.ActivityCellUnSelectedBg" x="25" y="30"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="regress.ActivityCellBgSelected" resourceLink="asset.regress.ActivityContentBg" x="25" y="28"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.view.menuItemName.Text" textFormatStyle="regress.view.menuItemName.titleTF" filterString="regress.view.menuItemName.titleFilter" x="29" y="42" autoSize="none" isAutoFitLength="true" width="175" height="44"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="regress.button" backStyle="asset.regress.ActivitySelected" x="25" y="30"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="regress.taskItemList" parentStyle="core.ScrollPanel" width="182" height="130" x="27" y="235"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="regress.taskItemBG" resourceLink="core.leftrightImage.image5,core.leftrightImage.image6" width="160"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="regress.taskItemLight" parentStyle="core.Scale9CornerImage.scale9CornerSparkBG" width="167" height="33" x="-3" y="-3"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.taskItemTitleNormal" textFormatStyle="regress.taskItemTitleFormatNormal,regress.taskItemTitleFormatSelected,regress.taskItemTitleFormatHighlighted,regress.taskItemTitleFormatHighlightedSelected" filterString="regress.taskItemTitleFilterNormal,regress.taskItemTitleFilterSelected,regress.taskItemTitleFilterHighlighted,regress.taskItemTitleFilterHighlightedSelected" autoSize="none" x="5" y="7" width="152" height="24" isAutoFitLength="true"/>  
+    <!--Welcome-->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="regress.WelTitle" resourceLink="asset.wel.welTitle" x="247" y="26"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="regress.privilegeBtn" parentStyle="core.simplebt" backStyle="core.bg6902" backgoundInnerRectString="8,100,6,48,13" textStyle="regress.startCancelTxt" width="100" height="30" x="588" y="17"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.startCancelTxt" textFormatStyle="regress.startCancelTxt.tf" filterString="regress.startCancelTxt.gf" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.Description" textFormatStyle="regress.DescFormat" filterString="regress.DescGF" autoSize="none" wordWrap="true" width="380" height="200" x="261" y="56"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.first" textFormatStyle="regress.DesTF" filterString="regress.DesGF" autoSize="left" width="380" height="90" x="267" y="123"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.second" textFormatStyle="regress.DesTF" filterString="regress.DesGF" autoSize="left" width="380" height="90" x="267" y="202"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.three" textFormatStyle="regress.DesTF" filterString="regress.DesGF" autoSize="left" width="380" height="90" x="267" y="280"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.threeDes" textFormatStyle="regress.DataTF" filterString="regress.DataGF" autoSize="left" width="380" height="90" x="295" y="316"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.secondDes" textFormatStyle="regress.DataTF" filterString="regress.DataGF" autoSize="left" width="380" height="90" x="295" y="162"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.firstDes" textFormatStyle="regress.DataTF" filterString="regress.DataGF" autoSize="none" width="440" height="300" x="244" y="103" wordWrap="true"/>  
+    <!--礼包-->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="regress.packTitle" resourceLink="asset.regress.packTitle" x="247" y="23"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="regress.openPacks" resourceLink="asset.regress.openPacks" x="244" y="244"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="regress.bottomBgImg" parentStyle="asset.core.btmBimap" x="232" y="354" width="455" height="60"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="regress.getAwardBtnBg" resourceLink="core.BigRedButton,asset.regress.getAward" imageRectString="0|178|0|47|13,13|150|6|33|13"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="regress.getAward" backStyle="regress.getAwardBtnBg" filterString="null,lightFilter,null,grayFilter" x="377" y="359"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="regress.goto" backStyle="asset.regress.goto" filterString="null,lightFilter,null,grayFilter" x="377" y="359"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="regress.packsBg" parentStyle="core.goldlinebg" x="253" y="280" width="416" height="55"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="regress.giftBg1" resourceLink="asset.regress.giftBg,asset.regress.packs1" imageRectString="0|130|0|84|13,6|118|6|73|13"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="regress.giftAward1" backStyle="regress.giftBg1" filterString="null,lightFilter,null,grayFilter" x="261" y="58"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="regress.giftBg2" resourceLink="asset.regress.giftBg,asset.regress.packs2" imageRectString="0|130|0|84|13,6|118|6|73|13"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="regress.giftAward2" backStyle="regress.giftBg2" filterString="null,lightFilter,null,grayFilter" x="400" y="58"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="regress.giftBg3" resourceLink="asset.regress.giftBg,asset.regress.packs3" imageRectString="0|130|0|84|13,6|118|6|73|13"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="regress.giftAward3" backStyle="regress.giftBg3" filterString="null,lightFilter,null,grayFilter" x="540" y="58"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="regress.giftBg4" resourceLink="asset.regress.giftBg,asset.regress.packs4" imageRectString="0|130|0|84|13,6|118|6|73|13"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="regress.giftAward4" backStyle="regress.giftBg4" filterString="null,lightFilter,null,grayFilter" x="261" y="152"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="regress.giftBg5" resourceLink="asset.regress.giftBg,asset.regress.packs5" imageRectString="0|130|0|84|13,6|118|6|73|13"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="regress.giftAward5" backStyle="regress.giftBg5" filterString="null,lightFilter,null,grayFilter" x="400" y="152"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="regress.giftBg6" resourceLink="asset.regress.giftBg,asset.regress.packs6" imageRectString="0|130|0|84|13,6|118|6|73|13"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="regress.giftAward6" backStyle="regress.giftBg6" filterString="null,lightFilter,null,grayFilter" x="540" y="152"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="regress.packsSelected" resourceLink="asset.regress.selectPacks" visible="false"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="regress.packsReceived" resourceLink="asset.packs.receive" visible="false"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="regress.packstemCellBg" resourceLink="asset.ddtshop.UnselectedCellBg" scaleGridString="4,4,64,64" width="43" height="42"/>  
+    <!--回归任务-->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="regress.titleImg" resourceLink="asset.regress.necessary" x="8" y="5"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.taskText" filterString="regress.taskFilterGray" textFormatStyle="regress.taskTextFormat"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.ConditionStatus" filterString="regress.FilterBlack_2_300" textFormatStyle="regress.ConditionStatusFormat"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="regress.eligiblyWord" resourceLink="asset.regress.eligibly" x="9" y="95"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.awardItem" textFormatStyle="regress.DesTF" filterString="regress.DesGF" autoSize="left"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.awardValue" textFormatStyle="regress.RewardQuantityFormat" filterString="regress.FilterBlack_2_1000"/>  
+    <!--文字>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.TitleName" 
+			textFormatStyle="regressTitle.TxtTF" filterString="regressTitle.TxtGF" 
+			x="23" y="4" width="300" height="19"/-->  
+    <!--想去其他区-->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="regress.areaTitleImg" resourceLink="asset.regress.areaTitle" x="241" y="24"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.areaCaption" textFormatStyle="regress.CaptionFormat" filterString="regress.CaptionGF" autoSize="none" width="380" height="60" x="260" y="307" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.getDemand" textFormatStyle="regress.DesTF" filterString="regress.DesGF" autoSize="left"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="regress.applyBtn" backStyle="asset.area.areaBtn" x="367" y="359"/>  
+    <!--召唤-->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="call.titleImg" resourceLink="asset.call.callTitle" x="241" y="24"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="call.configBtn" backStyle="asset.call.configBtn" x="367" y="359"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="call.inputBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="240" height="30" x="8" y="-3"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="call.cleanUpBtn" backStyle="asset.core.nameInputDropListTarget.close" x="224" y="4"/>  
+    <component classname="com.pickgliss.ui.controls.TextInput" stylename="call.textinput" textStyle="call.Lookup.text" textInnerRectString="10,10,3,2,0" height="20" maxChars="13" width="200" x="14" y="1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="call.Lookup.text" textFormatStyle="simpleAlertContentTF_03" filterString="glowgilter_CALL_03"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="call.Lookup.lookUpBG" parentStyle="core.commonTipBg" width="220" height="45" x="9" y="27"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="call.Lookup.lookupList" x="10" y="30" spacing="2"/>  
+    <!--弹框-->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="regress.privilege.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" width="415" height="298" x="17" y="45"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.privilege.frameInfo" textFormatStyle="regress.frameInfoTF" filterString="regress.frameInfoGF" autoSize="none" x="44" y="53" wordWrap="true" isAutoFitLength="true" width="375" height="310"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.third" textFormatStyle="regress.DesTF" filterString="regress.DesGF" autoSize="left" width="380" height="90" x="267" y="286"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.thirdDes" textFormatStyle="regress.DataTF" filterString="regress.DataGF" autoSize="left" width="380" height="90" x="295" y="327"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtRegress.views.welcomeViewScroll" parentStyle="core.ScrollPanel" hScrollProxy="1" hScrollbarInnerRectString="0,22,21,-15,4" width="440" height="300" x="245" y="88"/>
+    
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.four" parentStyle="regress.three" y="232"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.five" parentStyle="regress.three" y="297"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.fourDes" parentStyle="regress.threeDes" x="283" y="247"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="regress.fiveDes" parentStyle="regress.threeDes" x="283" y="314"/> 
+  </components>  
+  <customs> 
+    <custom classname="asset.menu.taskExpandBgAsset" stylename="regress.taskExpandBg" x="25" y="285" width="182" height="124"/>  
+    <custom classname="asset.regress.LargeBackgroundBg" stylename="regress.ActivityListBg" x="13" y="15" width="210" height="406"/>  
+    <custom classname="flash.geom.Point" stylename="regress.packs.titleII.pos" x="234" y="242"/>  
+    <custom classname="flash.geom.Point" stylename="regress.pakcs.gift.pos" x="262" y="286"/>  
+    <custom classname="flash.geom.Point" stylename="regress.task.view.pos" x="233" y="-4"/>  
+    <custom classname="flash.geom.Point" stylename="regress.area.areaInfo.pos" x="255" y="65"/>  
+    <custom classname="flash.geom.Point" stylename="regress.area.areaInfoItem.pos" x="261" y="108"/>  
+    <custom classname="flash.geom.Point" stylename="regress.area.getMoney.pos" x="503" y="108"/>  
+    <custom classname="flash.geom.Point" stylename="regress.area.getLevel.pos" x="320" y="192"/>  
+    <custom classname="flash.geom.Point" stylename="regress.call.callInfo.pos" x="245" y="125"/>  
+    <custom classname="flash.geom.Point" stylename="regress.call.cookupView.Pos" x="310" y="73"/>  
+    <custom classname="flash.geom.Point" stylename="regress.call.lookBtn.pos" x="220" y="2"/> 
+    
+    <custom classname="flash.geom.Point" stylename="regress.view.menuItemName.pos0" x="37" y="42"/>
+	<custom classname="flash.geom.Point" stylename="regress.view.menuItemName.pos1" x="37" y="96"/>
+	<custom classname="flash.geom.Point" stylename="regress.view.menuItemName.pos2" x="37" y="146"/>
+	<custom classname="flash.geom.Point" stylename="regress.view.menuItemName.pos3" x="37" y="198"/>
+	<custom classname="flash.geom.Point" stylename="regress.view.menuItemName.pos4" x="37" y="248"/>
+  </customs> 
+</style>

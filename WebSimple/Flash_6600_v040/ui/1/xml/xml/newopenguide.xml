@@ -1,0 +1,34 @@
+<style name="newopenguide" version="6.1.0" source="ui/turkey/swf/newopenguide.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="newOpenGuideRightView.titleTxt.tf" args="Arial,16,0xffd800,true"/>
+		<set type="flash.filters.GlowFilter" stylename="newOpenGuideRightView.titleTxt.gf" args="0x1b0d00,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="newOpenGuideRightView.promptTxt.tf" args="Arial,14,0xffffff,,,,,,center" letterSpacing="2"/>
+		<set type="flash.filters.GlowFilter" stylename="newOpenGuideRightView.promptTxt.gf" args="0x451200,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="newOpenGuideMiddleView.titleTxt.tf" args="Arial,14,0xffedbc,true,,,,,center" letterSpacing="0"/>
+		<set type="flash.filters.GlowFilter" stylename="newOpenGuideMiddleView.titleTxt.gf" args="0x760606,1,4,4,30"/>
+	</sets>
+	
+	<customs>
+		
+	</customs>
+	
+	<components>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newOpenGuideRightView.titleTxt" 
+			textFormatStyle="newOpenGuideRightView.titleTxt.tf" filterString="newOpenGuideRightView.titleTxt.gf" 
+			autoSize="none" width="80" height="25" x="75" y="12"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newOpenGuideRightView.promptTxt" 
+			textFormatStyle="newOpenGuideRightView.promptTxt.tf" filterString="newOpenGuideRightView.promptTxt.gf" 
+			autoSize="none" width="80" height="25" x="72" y="42"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newOpenGuideMiddleView.titleTxt" 
+			textFormatStyle="newOpenGuideMiddleView.titleTxt.tf" filterString="newOpenGuideMiddleView.titleTxt.gf" 
+			autoSize="none" width="130" height="28" x="0" y="0"/>
+	</components>
+	
+	<bitmaps>
+		
+	</bitmaps>
+</style>

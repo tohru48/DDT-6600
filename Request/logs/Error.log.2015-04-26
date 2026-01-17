@@ -1,0 +1,131 @@
+2015-04-26 14:57:51,109 - [8] - ERROR - Tank.Request.ServerList - Load server list error:
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Tank.Request.ServerList.ProcessRequest(HttpContext context)
+2015-04-26 14:57:52,466 - [12] - ERROR - Tank.Request.ServerList - Load server list error:
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Tank.Request.ServerList.ProcessRequest(HttpContext context)
+2015-04-26 14:58:04,884 - [7] - ERROR - Bussiness.Interface.BaseInterface - LoginAndUpdate
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Bussiness.Interface.BaseInterface.CreateLogin(String name, String password, String& message, Int32& isFirst, String IP, Boolean& isError, Boolean firstValidate, Boolean& isActive, String site, String nickname)
+2015-04-26 14:58:20,858 - [8] - ERROR - Tank.Request.Login - damlasu61: koapez
+2015-04-26 14:58:24,322 - [12] - ERROR - Tank.Request.Login - damlasu61: wfettz
+2015-04-26 14:58:24,790 - [8] - ERROR - Tank.Request.Login - damlasu61: oetpzp
+2015-04-26 14:59:03,649 - [15] - ERROR - Tank.Request.Login - damlasu61: qaweeu
+2015-04-26 14:59:07,549 - [8] - ERROR - Tank.Request.Login - damlasu61: stpyxw
+2015-04-26 14:59:07,814 - [15] - ERROR - Tank.Request.Login - damlasu61: critct
+2015-04-26 14:59:08,158 - [8] - ERROR - Tank.Request.Login - damlasu61: gibgnz
+2015-04-26 14:59:08,953 - [5] - ERROR - Tank.Request.Login - damlasu61: cmbpug
+2015-04-26 14:59:09,296 - [15] - ERROR - Tank.Request.Login - damlasu61: ecapet
+2015-04-26 14:59:09,499 - [8] - ERROR - Tank.Request.Login - damlasu61: jbitfj
+2015-04-26 14:59:09,874 - [8] - ERROR - Tank.Request.Login - damlasu61: wfarih
+2015-04-26 15:01:10,899 - [15] - ERROR - Tank.Request.ServerList - Load server list error:
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Tank.Request.ServerList.ProcessRequest(HttpContext context)
+2015-04-26 15:01:12,115 - [15] - ERROR - Tank.Request.ServerList - Load server list error:
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Tank.Request.ServerList.ProcessRequest(HttpContext context)
+2015-04-26 15:01:37,621 - [8] - ERROR - Bussiness.Interface.BaseInterface - LoginAndUpdate
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Bussiness.Interface.BaseInterface.CreateLogin(String name, String password, String& message, Int32& isFirst, String IP, Boolean& isError, Boolean firstValidate, Boolean& isActive, String site, String nickname)
+2015-04-26 15:03:07,665 - [12] - ERROR - Tank.Request.ServerList - Load server list error:
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Tank.Request.ServerList.ProcessRequest(HttpContext context)
+2015-04-26 15:03:08,866 - [15] - ERROR - Tank.Request.ServerList - Load server list error:
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Tank.Request.ServerList.ProcessRequest(HttpContext context)
+2015-04-26 15:03:37,944 - [21] - ERROR - Tank.Request.ServerList - Load server list error:
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Tank.Request.ServerList.ProcessRequest(HttpContext context)
+2015-04-26 15:03:39,442 - [18] - ERROR - Tank.Request.ServerList - Load server list error:
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Tank.Request.ServerList.ProcessRequest(HttpContext context)

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="mysteriousRoulette" version="1.0.1" source="ui/turkey/swf/mysteriousRoulette.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" args="Arial,14,0xfffaad,true" stylename="mysteriousRoulette.dateTF"/>  
+    <set type="flash.filters.GlowFilter" args="0x471e00,2,4,4,30" stylename="mysteriousRoulette.dateGF"/>  
+    <set type="flash.text.TextFormat" args="Arial,18,0xf4d5f5,true,,,,,center" stylename="mysteriousRoulette.countTF"/>  
+    <set type="flash.filters.GlowFilter" args="0x301500,2,4,4,30" stylename="mysteriousRoulette.countGF"/>  
+    <set type="flash.text.TextFormat" args="Arial,12,0x000000,,,,,,right" stylename="mysteriousShopTF"/> 
+  </sets>  
+  <customDisplay> 
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.ContentPos" x="243" y="48"/>  
+    <custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="mysteriousRoulette.freeItemList" x="0" y="0" vSpace="5" hSpace="5"/>  
+    <custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="mysteriousRoulette.discountItemList" x="0" y="0" vSpace="5" hSpace="5"/>  
+    <!-- 轮盘动画 -->  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.6LightUnstartPos" x="174" y="207"/>  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.6LightstartPos" x="176" y="209"/>  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.endBtnLightPos" x="213" y="250"/>  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.startBtnLightPos" x="213" y="250"/>  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.bluePos" x="165" y="297"/>  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.blueGlintPos" x="165" y="297"/>  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.greenPos" x="77" y="221"/>  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.greenGlintPos" x="77" y="221"/>  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.orangePos" x="192" y="126"/>  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.orangeGlintPos" x="192" y="126"/>  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.pinkPos" x="230" y="223"/>  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.pinkGlintPos" x="230" y="223"/>  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.yellowPos" x="93" y="125"/>  
+    <custom classname="flash.geom.Point" stylename="mysteriousRoulette.mc.yellowGlintPos" x="93" y="125"/> 
+  </customDisplay>  
+  <components> 
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="mysteriousRoulette.dateTxt" textFormatStyle="mysteriousRoulette.dateTF" filterString="mysteriousRoulette.dateGF" x="249" y="98"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="mysteriousRoulette.startBtnMC" resourceLink="mysteriousRoulette.startBtn"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="mysteriousRoulette.startBtn" backStyle="mysteriousRoulette.startBtnMC" x="205" y="247"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="mysteriousRoulette.shopBtnMC" resourceLink="mysteriousRoulette.shopBtn"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="mysteriousRoulette.shopBtn" backStyle="mysteriousRoulette.shopBtnMC" x="205" y="247"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="mysteriousRoulette.freeCount" textFormatStyle="mysteriousRoulette.countTF" filterString="mysteriousRoulette.countGF" autoSize="none" width="26" height="26" x="148" y="56"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="mysteriousRoulette.discountCount" textFormatStyle="mysteriousRoulette.countTF" filterString="mysteriousRoulette.countGF" autoSize="none" width="26" height="26" x="196" y="268"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="mysteriousRoulette.freePanel" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="0" width="455" height="175" x="24" y="81"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="mysteriousRoulette.discountPanel" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="0" width="455" height="175" x="24" y="291"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="mysteriousRoulette.getBtn" backStyle="mysteriousRoulette.get" x="133" y="57"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="mysteriousRoulette.buyBtn" backStyle="mysteriousRoulette.buy" x="133" y="57"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="mysteriousRoulette.itemCount" autoSize="none" textFormatStyle="mysteriousShopTF" filterString="P_g4" x="51" y="59" width="25" height="17"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="mysteriousRoulette.BG"/>  
+    <bitmapData resourceLink="mysteriousRoulette.roullete" x="42" y="80"/>  
+    <bitmapData resourceLink="mysteriousRoulette.gear" x="169" y="205"/>  
+    <bitmapData resourceLink="mysteriousRoulette.shopTitle" x="100" y="0"/>  
+    <bitmapData resourceLink="mysteriousRoulette.rouletteTitle" x="100" y="0"/>  
+    <bitmapData resourceLink="mysteriousRoulette.desctiption" x="68" y="53"/>  
+    <bitmapData resourceLink="mysteriousRoulette.timeBG" x="93" y="93"/>  
+    <bitmapData resourceLink="mysteriousRoulette.freeBG" x="14" y="57"/>  
+    <bitmapData resourceLink="mysteriousRoulette.discountBG" x="14" y="267"/> 
+  </bitmaps> 
+</style>

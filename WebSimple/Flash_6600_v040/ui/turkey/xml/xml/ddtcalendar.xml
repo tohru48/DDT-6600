@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtcalendar" version="1.0.0" source="ui/turkey/swf/ddtcalendar.swf"> 
+  <sets> 
+    <set stylename="ddtcalendar.ActivityContentTextTF" args="Arial,14,0x2e1801" leading="8" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.ActivityContextTextGF" args="0xf1e2bd,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcalendar.ActivityCellTitleSelectedTextTF" args="Arial,14,0xf4d96b" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.ActivityCellTitleSelectedTextGF" args="0x541e00,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcalendar.ActivityCellTitleUnSelectedTextTF" args="Arial,14,0xffffff" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.ActivityCellTitleUnSelectedTextGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcalendar.LuckyNumberBarLabelTextTF" args="Arial,14,0xeedf99" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.LuckyNumberTextTF" args="Arial,14,0x2e1801" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.LuckyNumberTextGF" args="0xf1e2bd,1,4,4,5" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcalendar.CalendarGrid.NumMonthFieldTF" args="Verdana,28,0x804d1b,false,false,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.CalendarGrid.EnMonthFieldTF" args="Eras Bold ITC,12,0xbf9062" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.CalendarGrid.TodayFieldTF" args="Arial,14,0x804d1b" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.CalendarGrid.GetButtonTextTF" args="Arial,14,0xe3ffb4,true" letterSpacing="1" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.CalendarGrid.GetButtonTextGF" args="0x006255,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcalendar.CalendarGrid.Cell.DayTF" args="Verdana,14,0x666666,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.CalendarGrid.Cell.SundayTF" args="Verdana,14,0xe54359,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.CalendarGrid.Cell.SaturdayTF" args="Verdana,14,0xff7800,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.CalendarGrid.Cell.NoneDayTF" args="Verdana,14,0xb0afa9,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.CalendarGrid.Cell.NoneSaturdayTF" args="Verdana,14,0xfdb876,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.CalendarGrid.Cell.NoneSundayTF" args="Verdana,14,0xf09ea2,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.Award.CountFieldTF" args="Arial,14,0xfff6c9,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.Award.CountFieldGF" args="0x402f00,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcalendar.AwardNameFieldTF" args="Arial,14,0xFFEA9C" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.AwardCountFieldTF1" args="Arial,12,0x611901,true,,,,,right" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.AwardCountFieldTF2" args="Arial,12,0x5F6160,true,,,,,right" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.ActivityStateTitleFieldTF" args="Arial,16,0xffe981,true,,,,,center" letterSpacing="0" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.ActivityStateTitleFieldGF" args="0x5c310e,1,4,4,30" type="flash.filters.GlowFilter"/>    
+    <set stylename="ddtcalendar.ActivityState.BackButtonTextTF" args="Arial,14,0xfff6a8,true" letterSpacing="8" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.ActivityState.BackButtonTextGF" args="0x714108,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcalendar.ActivityState.DescriptionFieldTF" args="Arial,14,0x7c441b,true" leading="5" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.ActivityState.DescriptionFieldGF" args="0xf9ebc8,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcalendar.ActivityState.TimeFieldTF" args="Arial,14,0x942d05,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.ActivityState.AwardFieldTF" args="Arial,14,0x942d05" leading="2" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.ActivityState.StateContentFieldTF" args="Arial,14,0x6a3a17" type="flash.text.TextFormat" leading="4"/>  
+    <set stylename="ddtcalendar.ActivityState.InputFieldTF" args="Verdana,14,0xFFFFFF" type="flash.text.TextFormat"/>  
+    <set stylename="feedback.G_3" args="0x5f3d11,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="feedback.T_2" args="Arial,14,0xfff9da" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.ActivityState.cellCountTF" args="Arial,12,0xffffff,,,,,,right" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.ActivityState.cellCountGF" args="0x1c0303,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcalendar.GoodsExchangeView.changeGoodsCountTF" args="Arial,14,0xffffff,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.GoodsExchangeView.changeGoodsCountGF" args="0x1c0303,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcalendar.GoodsExchangeView.TitleTF" args="Arial,14,0x000000,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.GoodsExchangeView.explainTF" args="Arial,12,0x930101" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.CalendarGrid.EnYearFieldTF" args="Impact,30,0xcba880,true" type="flash.text.TextFormat" letterSpacing="1"/> 
+    
+    <set stylename="ddtcalendar.midAutumn.DescriptionTF" args="Arial,12,0xffd878,true" type="flash.text.TextFormat" leading="5"/>
+	<set stylename="ddtcalendar.midAutumn.TimeFieldTF" args="Arial,14,0xffffc8,true" type="flash.text.TextFormat"/>
+	<set stylename="ddtcalendar.midAutumn.DescriptionGF" args="0x532100,1,2,2,10" type="flash.filters.GlowFilter"/>
+	<set stylename="ddtcalendar.midAutumn.TimeFieldGF" args="0x0,1,2,2,10" type="flash.filters.GlowFilter"/>
+	<set stylename="ddtcalendar.daycell.SignFieldTF" args="Arial,12,0xff0000,true,,,,,right" type="flash.text.TextFormat"/>
+<set stylename="dayCell.alert.txtTF" args="Arial,14,0xfff4d4,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="ddtcalendar.CalendarGrid.SignFieldTF" args="Arial,12,0xfdd95b,true,,,,,right" type="flash.text.TextFormat"/>
+<set stylename="ddtcalendar.CalendarGrid.SignFieldNumberGF" args="0xffffff,1,2,2,30" type="flash.filters.GlowFilter"/>
+<set stylename="ddtcalendar.CalendarGrid.SignFieldNumberTF" args="Arial,12,0xfc0000,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="ddtcalendar.CalendarGrid.SignFieldGF" args="0x7c481b,1,2,2,30" type="flash.filters.GlowFilter"/>
+<set stylename="dayCell.alert.txtGF" args="0x7c4519,1,2,2,30" type="flash.filters.GlowFilter"/>
+  </sets>  
+  <customDisplay> 
+    <custom classname="calendar.view.SignAwardCell" stylename="SignAwardCell" tipDirctions="7,5,2,6,4,1" tipGapH="10" tipGapV="15"/>  
+    <custom classname="flash.geom.Point" stylename="Calendar.SignAward.TopLeft" x="109" y="135"/>  
+    <custom classname="calendar.view.CalendarFrame" stylename="ddtcalendar.CalendarFrame" width="776" height="560"/>  
+    <custom classname="calendar.view.SignFrame" stylename="ddtmainbutton.SignFrameStyle" backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="24,10,5" closeInnerRectString="44,22,6,30,14" moveInnerRectString="0,30,0,30,1" width="482" height="560" escEnable="true"/>  
+    <!-- Activity -->  
+    <custom classname="asset.ddtcalendar.LargeBackgroundBg" stylename="ddtcalendar.ActivityListBg" x="14" y="8" width="265" height="452"/>  
+    <!-- <custom classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtcalendar.ActivityList" x="21" y="62" parentStyle="core.ScrollPanel" viewportInnerRectString="0,0,0,-6,0" vScrollbarInnerRectString="21,-20,4,-8,3" hScrollProxy="2" vScrollProxy="0" width="230" height="368" vUnitIncrement="10"/> -->
+    <custom classname="calendar.view.ActivityList" stylename="ddtcalendar.ActivityList" x="10" y="77"/>  
+    <custom classname="calendar.view.ActivityMenu" stylename="ddtcalendar.ActivityMenu" y="4"/>  
+    <custom classname="calendar.view.ActivityContentHolder" stylename="ddtcalendar.ActivityContentHolder" x="2" y="35" height="50"/>  
+    <!-- LuckyNumberBar -->  
+    <custom classname="ddt.view.tips.MultipleLineTip" stylename="ddtcalendar.LuckyNumboxTip" tipWidth="160"/>  
+    <!-- CalendarState -->  
+    <custom classname="calendar.view.CalendarState" stylename="ddtcalendar.CalendarState" x="10" y="35"/>  
+    <custom classname="calendar.view.CalendarGrid" stylename="ddtcalendar.CalendarGrid" x="18" y="11"/>  
+    <custom classname="asset.ddtcalendar.CalendarBackBg" stylename="ddtcalendar.CalendarBackBg"/>  
+    <custom classname="asset.ddtcalendar.CalendarFrontBg" stylename="ddtcalendar.CalendarFrontBg" x="9" y="42"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcalendar.CalendarGrid.TopLeft" x="18" y="102"/>  
+    <!-- SignAward -->  
+    <custom classname="calendar.view.SignAwardBar" stylename="ddtcalendar.SignAwardBar" x="18" y="290"/>  
+    <custom classname="calendar.view.SignedAwardHolder" stylename="ddtcalendar.SignedAwardHolder" x="10" y="126"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcalendar.Award.TopLeft" x="21" y="52"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcalendar.Award.cell.TopLeft" x="5" y="12"/>  
+    <custom classname="calendar.view.SignAwardCell" stylename="ddtcalendar.SignAwardCell" tipDirctions="7,5,2,6,4,1" tipGapH="10" tipGapV="15"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcalendar.Award.pic.TopLeft" x="6" y="6"/>  
+    <!-- ActivityState -->  
+    <custom classname="calendar.view.ActivityState" stylename="ddtcalendar.ActivityState" x="263" y="50"/>  
+    <custom classname="calendar.view.ActivityDetail" stylename="ddtcalendar.ActivityDetail"/>  
+    <!-- ActivityDetail -->  
+    <custom classname="flash.geom.Point" stylename="ddtcalendar.ActivityState.LinePos0" x="12" y="105"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcalendar.ActivityState.LinePos1" x="12" y="162"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcalendar.ActivityState.LinePos2" x="12" y="246"/>  
+    <!-- GoodsExchange -->  
+    <custom classname="flash.geom.Point" stylename="ddtcalendarGrid.GoodsExchangeView.GoodsExchangeViewPos" x="17" y="443"/>  
+    <custom classname="Calendar.LuckyNum.Shine" stylename="LuckyShine" x="17" y="45"/>  
+    <custom classname="flash.geom.Rectangle" stylename="dateSelect.comboxRec" x="176" y="98" width="90" height="30"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcalendar.GoodsExchangeView.timeImgPos" x="0" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcalendar.GoodsExchangeView.HaveImgPos" x="0" y="20"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcalendar.GoodsExchangeView.changeImgPos" x="0" y="133"/>  
+    <!-- 兑换 -->  
+    <custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="ddtcalendar.exchange.haveGoodsBox" x="87" y="28" hSpace="15" vSpace="4"/>  
+    <custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="ddtcalendar.exchange.exchangeGoodsBox" x="38" y="246" hSpace="8" vSpace="4"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcalendar.exchange.LinePos" x="3" y="140"/>  
+    <custom classname="calendar.view.goodsExchange.BagCalendarFrame" stylename="ddtcalendarGrid.GoodsExchangeView.GoodsBagFrame" backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="3,11,5" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" containerX="-427" containerY="36" width="437" height="506" x="4" y="57"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcalendarGrid.GoodsExchangeView.Pos" x="25" y="25"/>  
+    <custom classname="flash.geom.Point" stylename="CalendarGrid.GoodsExchangeView.cellSize" x="63" y="63"/>  
+    <custom classname="flash.geom.Point" stylename="BagCalendarFrame.bagFrameBagView.pos" x="442" y="4"/>  
+    <custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="ddtcalendar.GoodsExchangeView.CellList" x="28" y="28" hSpace="25" vSpace="25"/>
+    
+    <custom classname="flash.geom.Point" stylename="ddtcalendar.nationalDayView.fireworkPos1" x="380" y="138"/>
+	<custom classname="flash.geom.Point" stylename="ddtcalendar.nationalDayView.fireworkPlayPos0" x="-273" y="-124"/>
+	<custom classname="flash.geom.Point" stylename="ddtcalendar.nationalDayView.fireworkPos3" x="380" y="364"/>
+	<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="ddtcalendar.nationalDayView.haveGoodsBox3" x="56" y="319" hSpace="15" vSpace="4"/>
+	<custom classname="flash.geom.Point" stylename="ddtcalendar.nationalDayView.fireworkPlayPos1" x="-273" y="-124"/>
+	<custom classname="flash.geom.Point" stylename="ddtcalendar.nationalDayView.description" x="114" y="91"/>
+	<custom classname="wonderfulActivity.items.NationalDayView" stylename="ddtcalendar.NationalDayView" x="243" y="48"/>
+	<custom classname="flash.geom.Point" stylename="ddtcalendar.nationalDayView.fireworkPos2" x="380" y="229"/>
+	<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="ddtcalendar.nationalDayView.haveGoodsBox1" x="56" y="141" hSpace="15"/>
+	<custom classname="flash.geom.Point" stylename="ddtcalendar.nationalDayView.fireworkPlayPos2" x="-273" y="-274"/>
+	<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="ddtcalendar.nationalDayView.haveGoodsBox2" x="56" y="205" hSpace="15" vSpace="4"/>
+	<custom classname="wonderfulActivity.items.MidAutumnView" stylename="ddtcalendar.MidAutumnView" x="243" y="48"/>
+	<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="ddtcalendar.midAutumnView.haveGoodsBox" x="53" y="141" hSpace="20" vSpace="19"/>
+	<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="ddtcalendar.midAutumnView.exchangeGoodsBox" x="394" y="141" hSpace="20" vSpace="19"/>
+	<custom classname="flash.geom.Point" stylename="ddtcalendar.midAutumnView.description" x="118" y="93"/>
+	<custom classname="flash.geom.Point" stylename="ddtcalendar.nationalDayView.timePos" x="187" y="68"/>
+	<custom classname="flash.geom.Point" stylename="ddtcalendar.midAutumnView.getAwardAnimation" x="0" y="0"/> 
+	<custom classname="flash.geom.Point" stylename="ddtcalendar.SignedAward.SignAwardCellBgPos" x="269" y="13"/>
+<custom classname="flash.geom.Point" stylename="ddtcalendar.AwardNameFieldPos" x="326" y="28"/>
+<custom classname="flash.geom.Point" stylename="ddtcalendar.beePos" x="275" y="18"/>
+  </customDisplay>  
+  <components> 
+    <!-- Fonts -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.ActivityContentText" textFormatStyle="ddtcalendar.ActivityContentTextTF" filterString="ddtcalendar.ActivityContextTextGF" autoSize="left" width="172" height="20" mouseEnabled="false" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.ActivityCellTitleText" textFormatStyle="ddtcalendar.ActivityCellTitleUnSelectedTextTF,ddtcalendar.ActivityCellTitleSelectedTextTF" filterString="ddtcalendar.ActivityCellTitleUnSelectedTextGF,ddtcalendar.ActivityCellTitleSelectedTextGF" x="5" y="14"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.LuckyNumberBarLabelText" textFormatStyle="ddtcalendar.LuckyNumberBarLabelTextTF"/>  
+    <!-- <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.LuckyNumberBar.LuckyNumLabelText" 
+			parentStyle="ddtcalendar.LuckyNumberBarLabelText" x="17" y="43" /> <component 
+			classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.LuckyNumberBar.MyNumLabelText" 
+			parentStyle="ddtcalendar.LuckyNumberBarLabelText" x="89" y="43" /> <component 
+			classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.LuckyNumberBar.ForcastLabelText" 
+			parentStyle="ddtcalendar.LuckyNumberBarLabelText" x="170" y="43" /> -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.LuckyNumberBar.NumberText" textFormatStyle="ddtcalendar.LuckyNumberTextTF" filterString="ddtcalendar.LuckyNumberTextGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.CalendarGrid.NumMonthField" textFormatStyle="ddtcalendar.CalendarGrid.NumMonthFieldTF" autoSize="none" x="5" y="5" width="50" height="42"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.CalendarGrid.EnMonthField" textFormatStyle="ddtcalendar.CalendarGrid.EnMonthFieldTF" autoSize="none" x="44" y="21" width="100" height="24"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.CalendarGrid.TodayField" textFormatStyle="ddtcalendar.CalendarGrid.TodayFieldTF" autoSize="none" x="16" y="46" width="140" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.CalendarGrid.GetButtonText" textFormatStyle="ddtcalendar.CalendarGrid.GetButtonTextTF" filterString="ddtcalendar.CalendarGrid.GetButtonTextGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.SignCountField" textFormatStyle="ddtcalendar.Award.CountFieldTF" filterString="ddtcalendar.Award.CountFieldGF" autoSize="center" x="385" y="-266"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.AwardNameField" textFormatStyle="ddtcalendar.AwardNameFieldTF" autoSize="none" x="56" y="15" width="64" height="40" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.SignedAwardCellCount" textFormatStyle="frameNameTF" filterString="P_g4" x="38" y="27" autoSize="right"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.AwardCountField" textFormatStyle="ddtcalendar.AwardCountFieldTF1,ddtcalendar.AwardCountFieldTF2" autoSize="none" x="26" y="36" width="40" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.ActivityState.BackButtonText" textFormatStyle="ddtcalendar.ActivityState.BackButtonTextTF" filterString="ddtcalendar.ActivityState.BackButtonTextGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.ActivityState.TextInputField" textFormatStyle="ddtcalendar.ActivityState.InputFieldTF" restrict="A-Z a-z 0-9" maxChars="36" autoSize="none" width="257" height="30" maxChart="50"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.ActivityState.TimeField" textFormatStyle="ddtcalendar.ActivityState.TimeFieldTF" autoSize="none" x="167" y="117" width="236" height="40" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.ActivityState.TimeFieldTitle" textFormatStyle="ddtcalendar.ActivityState.TimeFieldTF" x="58" y="117"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.ActivityState.AwardFieldTitle" textFormatStyle="ddtcalendar.ActivityState.TimeFieldTF" x="56" y="10"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.ActivityState.ContentFieldTitle" textFormatStyle="ddtcalendar.ActivityState.TimeFieldTF" x="62" y="270"/>  
+    <!-- Activity -->  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ddtcalendar.StateBg" resourceLink="asset.background.mapBg" x="305" y="88" width="445" height="450"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtcalendar.ActivityBg" x="19" y="65" width="272" height="476" resourceLink="asset.core.btmc011" scaleGridString="5,10,80,20"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtcalendar.ActivityList" parentStyle="core.ScrollPanel" viewportInnerRectString="0,0,0,-6,0" vScrollbarInnerRectString="21,-20,4,-8,3" hScrollProxy="2" vScrollProxy="0" width="230" height="368" x="21" y="62" vUnitIncrement="10"/>
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtcalendar.Activity.ContentList" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="0" width="200" height="194" x="12" y="60" vUnitIncrement="10"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtcalendar.ActivityContentBg" resourceLink="asset.ddtcalendar.ActivityContentBg" x="-1" y="-36" width="225" height="50"/>  
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="ddtcalendar.Activity.ContentArea" textStyle="ddtcalendar.ActivityContentText" vScrollProxy="1" width="190" height="180" x="7" y="30" vUnitIncrement="10" vScrollbarStyle="core.VScrollbar" hScrollbarStyle="core.HScrollbar" hScrollbarInnerRectString="0,0,21,0,4" vScrollbarInnerRectString="21,-20,0,0,3" viewportInnerRectString="0,0,0,0,0" hScrollProxy="2"/>  
+    <!-- ActivityCell -->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtcalendar.ActivityCellBg" x="2" resourceLink="ddtcalendar.ActivityCellBgUnSelected,ddtcalendar.ActivityCellBgSelected"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="ddtcalendar.ActivityCellBgSelected" resourceLink="asset.ddtcalendar.ActivityCellSelectedBg"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtcalendar.ActivityCellBgUnSelected" resourceLink="asset.ddtcalendar.ActivityCellUnSelectedBg"/>  
+    <!-- <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtcalendar.ActivityCellTitleIcon" 
+			x="143" y="17" resourceLink="asset.ddtcalendar.ActivityCellTileIcon_Hot,asset.ddtcalendar.ActivityCellTileIcon_New" 
+			/> -->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtcalendar.ActivityCellTitleIcon" x="143" y="17" resourceLink="asset.ddtcalendar.ActivityCellTileIcon_Hot,asset.ddtcalendar.ActivityCellTileIcon_New"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="comboBoxBtnBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.comboxButtonAsset" resourceLink="comboBoxBtnBg,asset.core.comboxBtn3" imageRectString=",66|20|3|19|13"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="comboBoxBtn" backStyle="ddtcalendar.comboxButtonAsset" displacement="false"/> /&gt;
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="ddtcalendar.LuckyNumberBar.ForecastCb" listInnerRectString="5,33,10,24,18" textInnerRectString="5,25,3,0,0" tipStyle="ddtcalendar.LuckyNumboxTip" tipDirctions="7,0,1,2" tipGapH="10" x="158" y="65" width="88" height="24" listPanelStyle="core.ComboxListpanel2" buttonStyle="comboBoxBtn" textStyle="core.comboxListCellTxt3" snapItemHeight="true"/>  
+    <!-- CalendarState -->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtcalendar.Calendar.DayCellBack" resourceLink="asset.ddtcalendar.DayCellFrame,asset.ddtcalendar.WorkingDaySignExpired"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.CalendarGrid.DayField" textFormatStyle="ddtcalendar.CalendarGrid.Cell.DayTF,ddtcalendar.CalendarGrid.Cell.SaturdayTF,ddtcalendar.CalendarGrid.Cell.SundayTF,ddtcalendar.CalendarGrid.Cell.NoneDayTF,ddtcalendar.CalendarGrid.Cell.NoneSaturdayTF,ddtcalendar.CalendarGrid.Cell.NoneSundayTF" autoSize="left"/>  
+    <!-- SignAwardBar -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.SignedAwardBack" width="430" height="206" x="0" y="5" resourceLink="core.Scale9CornerImage.BGAsset8,core.Scale9CornerImage.BGAsset9" imageRectString=",3|3|3|5|0"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.SingedAward.SignedTimesPanel" resourceLink="asset.ddtcalendar.SignTimes,core.Scale9CornerImage.scale9CornerImageInputBG" width="142" height="28" x="274" y="12" imageRectString="-18|107|5|24|13,90|48|5|22|13"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtcalendar.AwardHolderBack" width="412" height="82" resourceLink="asset.core.btmc021" scaleGridString="14,17,94,50"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtcalendar.SignedAward.SignAwardCellBgSmall" width="47" height="47" resourceLink="asset.core.NewScale9CornerImage6.1,asset.core.NewScale9CornerImage6.2,asset.core.NewScale9CornerImage6.3,asset.core.NewScale9CornerImage6.4,asset.core.NewScale9CornerImage6.5,asset.core.NewScale9CornerImage6.6,asset.core.NewScale9CornerImage6.7,asset.core.NewScale9CornerImage6.8,asset.core.NewScale9CornerImage6.9"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.SignedAward.SignAwardCellBg" resourceLink="core.goldlinebg,ddtcalendar.SignedAward.SignAwardCellBgSmall" imageRectString="0|132|0|54|13,2|47|2|47|13" width="132" height="54"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtcalendar.NavigBack" resourceLink="asset.ddtcalendar.SignedAwardNew,asset.ddtcalendar.SignedAwardCurrent,asset.ddtcalendar.SignedAwardReceived"/>  
+    <!-- ActivityState -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.ActivityStateBg" resourceLink="core.Scale9CornerImage.Scale9CornerImage18,core.Scale9CornerImage.weilipaper,core.ScaleBitmapImage2,asset.ddtcalendar.ActivityStateTitleBg" imageRectString="0|500|0|420|13,7|490|7|420|13,7|485|10|400|13,70|360|21|36|13" width="500" height="427" x="16" y="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.ActivityStateTitleField" textFormatStyle="ddtcalendar.ActivityStateTitleFieldTF" filterString="ddtcalendar.ActivityStateTitleFieldGF" autoSize="none" width="470" height="50" x="34" y="48" maxChars="19" />  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtcalendar.ActivityState.GetButtonBackBg" parentStyle="asset.core.btmBimap" width="495" height="58" x="18" y="441"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.ActivityState.exchangeButtonBg" resourceLink="core.bg6899,asset.ddtcalendar.ActivityState.exChangeButtonBg" imageRectString="0|153|0|49|13,20|109|9|29|13" width="153" height="49"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtcalendar.ActivityState.exchangeButton" backStyle="ddtcalendar.ActivityState.exchangeButtonBg" x="182" y="446"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.ActivityState.GetButtonBg" resourceLink="core.bg6899,asset.ddtcalendar.ActivityState.GetButtonBg" imageRectString="0|184|0|50|13,32|118|7|35|13" width="184" height="50"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtcalendar.ActivityState.GetButton" backStyle="ddtcalendar.ActivityState.GetButtonBg" x="142" y="405"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="ddtcalendar.ActivityState.BackButton" autoSizeAble="false" backStyle="core.simplebtbg" textStyle="ddtcalendar.ActivityState.BackButtonText" backgoundInnerRectString="20,58,9,18,13" width="80" height="38" x="356" y="458"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.ActivityState.PiccButtonBg" resourceLink="core.bg6899,asset.ddtcalendar.RechargeBtn" imageRectString="0|184|0|50|13,34|118|6|35|13" width="184" height="50"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtcalendar.ActivityState.PiccBtn" backStyle="ddtcalendar.ActivityState.PiccButtonBg" x="142" y="445"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="ddtcalendar.ActivityState.Vbox" x="0" y="0" spacing="-7"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtcalendar.ActivityDetailList" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="1" width="414" height="310" x="30" y="79" vUnitIncrement="10" hScrollbarInnerRectString="0,0,22,0,4" viewportInnerRectString="-22,22,0,0,0"/>
+    <!-- ActivityDetail -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.ActivityState.DescriptionField" textFormatStyle="ddtcalendar.ActivityState.DescriptionFieldTF" filterString="ddtcalendar.ActivityState.DescriptionFieldGF" autoSize="none" x="55" width="336" height="40" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.ActivityState.AwardField" textFormatStyle="ddtcalendar.ActivityState.AwardFieldTF" autoSize="none" x="55" y="194" width="336" height="40" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.ActivityState.StateContentField" textFormatStyle="ddtcalendar.ActivityState.StateContentFieldTF" autoSize="none" x="55" y="288" width="336" height="40" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.controls.TextInput" stylename="ddtcalendar.ActivityState.InputField" textInnerRectString="8,8,5,2,0" textStyle="ddtcalendar.ActivityState.TextInputField" backStyle="aaset.ddtcalendar.ActivityState.InputBack" x="115" y="348" width="257" height="30"/>  
+    <!-- DailyAwardFrame -->  
+    <component classname="calendar.view.DailyAwardFrame" stylename="ddtcalendar.DailyAwardFrame" containerX="20" containerY="40" width="268" height="186" backStyle="SimpleFrameBackgoundOneIII" submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="16,11,5" closeInnerRectString="44,11,5,30,14" moveInnerRectString="6,30,7,30,1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtcalendar.DailyFrameGoodsBg" x="22" y="6" width="183" height="78" resourceLink="asset.core.btmc021" scaleGridString="14,17,94,50"/>  
+    <!--活动界面 星期下拉框 -->  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="core.ComboxListpanel2ddt" vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="-14,22,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|core.comboxListCell3,24,78" listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.comboxListBG1" backgoundInnerRectString="14,22,6,3,-1" hScrollProxy="2" vScrollProxy="1" vUnitIncrement="5"/>  
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="core.Combox4" listPanelStyle="core.ComboxListpanel2ddt" buttonStyle="core.comboxButton3" width="90" height="28" textStyle="core.comboxListCellTxt3" listInnerRectString="0,33,10,50,18" snapItemHeight="true" textInnerRectString="5,25,5,0,0"/>  
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="dateSelect.combox" parentStyle="core.Combox4" textInnerRectString="10,25,5,0,0" x="210" y="48" width="90" height="30"/>  
+    <component classname="calendar.view.SignAwardFrame" closestyle="core.closebt" stylename="SignAwardFrame" parentStyle="BaseFrame" width="325" height="244"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="Calendar.SignAward.Back" resourceLink="asset.ddtcore.frameBg" x="19" y="44" width="288" height="140" scaleGridString="30,25,157,183"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="VipViewAsset" parentStyle="core.simplebtbg" width="50" height="30"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="VipViewBG" resourceLink="VipViewAsset,asset.ddtvipview.button" imageRectString="0|100|0|35|13,4|91|3|28|13"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="vipView.OpenBtn" backStyle="VipViewBG" filterString="null,lightFilter,null,grayFilter" x="326" y="6"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.topBg" resourceLink="asset.ddtcalendar.LargeBackgroundBg,asset.ddtcalendar.DailyTopImg" imageRectString="0|262|0|98|13,-2|263|-1|98|13" x="26" y="85"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtcalendar.dailyGetButton" backStyle="asset.ddtcalendar.DailyGetButton" x="58" y="94"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtcalendar.vipBigButton" backStyle="asset.ddtVip.button" x="161" y="94"/>  
+    <!-- 兑换 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.GoodsExchangeView.cellCount" textFormatStyle="ddtcalendar.ActivityState.cellCountTF" filterString="ddtcalendar.ActivityState.cellCountGF" autoSize="none" x="-1" y="31" width="50" height="20"/>/&gt;
+    <!-- 活动时间 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.GoodsExchangeView.actTimeText" textFormatStyle="ddtcalendar.ActivityState.TimeFieldTF" autoSize="none" x="41" y="3" width="80" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.GoodsExchangeView.actTime" textFormatStyle="ddtcalendar.ActivityState.TimeFieldTF" autoSize="none" x="120" y="4" width="200" height="20"/>  
+    <!-- haveGoods -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.GoodsExchangeView.haveGoodsExplain" textFormatStyle="ddtcalendar.ActivityState.TimeFieldTF" autoSize="none" x="0" y="32" width="90" height="50" wordWrap="true"/>  
+    <!-- changeGoods -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.GoodsExchangeView.changeGoodsExplain" textFormatStyle="ddtcalendar.ActivityState.TimeFieldTF" autoSize="none" x="42" y="147" width="100" height="30"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.GoodsExchangeView.changeGoodsCountText" textFormatStyle="ddtcalendar.ActivityState.TimeFieldTF" autoSize="none" x="197" y="147" width="150" height="30"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.GoodsExchangeView.changeGoodsCount" textFormatStyle="ddtcalendar.GoodsExchangeView.changeGoodsCountTF" filterString="ddtcalendar.GoodsExchangeView.changeGoodsCountGF" autoSize="none" type="input" x="350" y="148" width="40" height="20"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddtcalendar.GoodsExchangeView.awardBtn1" filterString="null,lightFilter,null,grayFilter" unSelectedStyle="ddtcalendar.GoodsExchangeView.awardBtn1.unselected" selectedStyle="ddtcalendar.GoodsExchangeView.awardBtn1.selected" x="19" y="183" displacement="false"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.GoodsExchangeView.awardBtn1.unselected" resourceLink="ddtcalendar.GoodsExchangeView.unselectedAsset,ddtcalendar.GoodsExchangeView.awardBtn1Asset"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.GoodsExchangeView.awardBtn1.selected" resourceLink="ddtcalendar.GoodsExchangeView.selectedAsset,ddtcalendar.GoodsExchangeView.awardBtn1Asset"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddtcalendar.GoodsExchangeView.awardBtn2" filterString="null,lightFilter,null,grayFilter" unSelectedStyle="ddtcalendar.GoodsExchangeView.awardBtn2.unselected" selectedStyle="ddtcalendar.GoodsExchangeView.awardBtn2.selected" x="111" y="183" displacement="false"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.GoodsExchangeView.awardBtn2.unselected" resourceLink="ddtcalendar.GoodsExchangeView.unselectedAsset,ddtcalendar.GoodsExchangeView.awardBtn2Asset"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.GoodsExchangeView.awardBtn2.selected" resourceLink="ddtcalendar.GoodsExchangeView.selectedAsset,ddtcalendar.GoodsExchangeView.awardBtn2Asset"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddtcalendar.GoodsExchangeView.awardBtn3" filterString="null,lightFilter,null,grayFilter" unSelectedStyle="ddtcalendar.GoodsExchangeView.awardBtn3.unselected" selectedStyle="ddtcalendar.GoodsExchangeView.awardBtn3.selected" x="202" y="183" displacement="false"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.GoodsExchangeView.awardBtn3.unselected" resourceLink="ddtcalendar.GoodsExchangeView.unselectedAsset,ddtcalendar.GoodsExchangeView.awardBtn3Asset"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.GoodsExchangeView.awardBtn3.selected" resourceLink="ddtcalendar.GoodsExchangeView.selectedAsset,ddtcalendar.GoodsExchangeView.awardBtn3Asset"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddtcalendar.GoodsExchangeView.awardBtn4" filterString="null,lightFilter,null,grayFilter" unSelectedStyle="ddtcalendar.GoodsExchangeView.awardBtn4.unselected" selectedStyle="ddtcalendar.GoodsExchangeView.awardBtn4.selected" x="293" y="183" displacement="false"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.GoodsExchangeView.awardBtn4.unselected" resourceLink="ddtcalendar.GoodsExchangeView.unselectedAsset,ddtcalendar.GoodsExchangeView.awardBtn4Asset"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.GoodsExchangeView.awardBtn4.selected" resourceLink="ddtcalendar.GoodsExchangeView.selectedAsset,ddtcalendar.GoodsExchangeView.awardBtn4Asset"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.GoodsExchangeView.awardBack" resourceLink="ddtcalendar.GoodsExchangeView.awardBack.BG01,ddtcalendar.GoodsExchangeView.awardBack.BG02" x="4" y="172"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.GoodsExchangeView.awardBack.BG01" width="393" height="156" parentStyle="core.Scale9CornerImage.BGAsset5" x="0" y="1"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.GoodsExchangeView.awardBack.BG02" resourceLink="core.Scale9CornerImage.SimpleTableBackgound2,core.Scale9CornerImage.weilifur" imageRectString=",5|7|5|5|0" width="391" height="154" x="2" y="3"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtcalendar.GoodsExchangeView.awardScoreBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="357" height="86" x="22" y="227"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtcalendar.GoodsExchangeView.TextFieldBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="52" height="21" x="344" y="147"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtcalendar.GoodsExchangeView.openBagButton" backStyle="Calendar.Activity.openBag" x="107" y="67"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendarGrid.GoodsExchangeView.TitleFFT" textFormatStyle="ddtcalendar.GoodsExchangeView.TitleTF" autoSize="none" x="21" y="3" width="300" height="42"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendarGrid.GoodsExchangeView.explainFFT" textFormatStyle="ddtcalendar.GoodsExchangeView.explainTF" autoSize="none" x="24" y="104" width="300" height="48"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtcalendar.ActivityListScroll" parentStyle="core.ScrollPanel" viewportInnerRectString="0,0,0,-6,0" vScrollbarInnerRectString="21,-20,4,-8,3" hScrollProxy="2" vScrollProxy="0" width="230" height="368" x="21" y="62" vUnitIncrement="10"/>  
+    <component classname="com.pickgliss.ui.controls.container.HBox" stylename="ddtcalendar.hBox" spacing="7" x="22" y="22"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.CalendarGrid.EnYearField" textFormatStyle="ddtcalendar.CalendarGrid.EnYearFieldTF" autoSize="none" x="96" y="3" width="80" height="36"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtcalendar.ActivityCellStyleIcon" x="6" y="6" resourceLink="asset.ddtActivity.chong,asset.ddtActivity.dan,asset.ddtActivity.dui,asset.ddtActivity.hun,asset.ddtActivity.ling,asset.ddtActivity.xiao"/>
+    
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.midAutumn.description" textFormatStyle="ddtcalendar.midAutumn.DescriptionTF" filterString="ddtcalendar.midAutumn.DescriptionGF" x="199" y="71" width="345" height="20" wordWrap="true"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtcalendar.midAutumn.getAwardBtn" backStyle="asset.activity.getAwardBtn"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtcalendar.midAutumn.seedButton" backStyle="asset.activity.seedBtn" x="0" y="30"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.midAutumn.actTime" textFormatStyle="ddtcalendar.midAutumn.TimeFieldTF" filterString="ddtcalendar.midAutumn.TimeFieldGF" autoSize="none" x="189" y="67" width="200" height="20"/> 
+ <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.CalendarGrid.SignField" textFormatStyle="ddtcalendar.CalendarGrid.SignFieldTF" filterString="ddtcalendar.CalendarGrid.SignFieldGF" autoSize="none" x="118" y="265" width="180" height="20"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.CalendarGrid.SignFieldNumber" textFormatStyle="ddtcalendar.CalendarGrid.SignFieldNumberTF" filterString="ddtcalendar.CalendarGrid.SignFieldNumberGF" autoSize="none" x="211" y="265" width="50" height="20"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dayCell.alert.txt" textFormatStyle="dayCell.alert.txtTF" x="19" y="71" filterString="dayCell.alert.txtGF" wordWrap="true" multiline="true" width="360" height="80"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcalendar.daycell.signField" textFormatStyle="ddtcalendar.daycell.SignFieldTF" autoSize="none" x="6" y="5" width="50" height="20"/>
+<component classname="com.pickgliss.ui.controls.TextButton" stylename="ddt.DayCell.core.simplebt" backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle" backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter" x="158" y="446"/>
+<component classname="calendar.view.SignBuyFrame" backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" stylename="ddtcalendar.DayCell.SignBuyFrame" titleStyle="FrameTitleTextStyle" parentStyle="BaseFrame" titleOuterRectPosString="15,10,5" x="-160" y="-40" submitButtonStyle="ddt.DayCell.core.simplebt" cancelButtonStyle="ddt.DayCell.core.simplebt" closeInnerRectString="44,19,6,30,14" width="400" height="180"/>
+ <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtcalendar.SignedAward.SignAwardCellBg2" resourceLink="core.goldlinebg,ddtcalendar.SignedAward.SignAwardCellBgSmall" imageRectString="0|132|0|54|13,2|47|2|47|13" width="132" height="54" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0"/>
+ <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtcalendar.petBtn" backStyle="asset.ddtcalendar.petBtn" x="276" y="15"/>
+ 
+  </components>  
+  <bitmaps> 
+  <bitmapData resourceLink="asset.ddtcalendar.received" x="348" y="-4"/>
+    <bitmapData resourceLink="asset.ddtcalendar.ActivityCellTileIcon_Hot" x="0" y="-8"/>  
+    <bitmapData resourceLink="asset.ddtcalendar.ActivityRecent" x="30" y="95"/>  
+    <bitmapData resourceLink="asset.ddtcalendar.CalendarTitle" x="11" y="40"/>  
+    <bitmapData resourceLink="asset.ddtcalendar.CalendarGridTitleBg" x="-1" y="-1"/>  
+    <bitmapData resourceLink="asset.ddtcalendar.SignShape" x="-3" y="-3"/>  
+    <bitmapData resourceLink="asset.ddtcalendar.SignAwardBarTitle" x="10" y="12"/>  
+    <bitmapData resourceLink="asset.ddtcalendar.SignedAwardCurrent" x="-11" y="-2"/>  
+    <bitmapData resourceLink="asset.ddtcalendar.SignedAwardReceived" x="1" y="-8"/>  
+    <bitmapData resourceLink="asset.ddtcalendar.SignedAward.CellBack" x="5" y="5"/>  
+    <bitmapData resourceLink="aaset.ddtcalendar.ActivityState.Pwd" x="41" y="353"/>  
+    <bitmapData resourceLink="asset.ddtcalendar.ActivityState.ContentIcon" x="20" y="257"/>  
+    <bitmapData resourceLink="asset.ddtcalendar.ActivityState.AwardIcon" x="21" y="7"/>  
+    <bitmapData resourceLink="asset.ddtcalendar.ActivityState.TimeIcon" x="24" y="114"/>  
+    <bitmapData resourceLink="asset.ddtcalendar.DailyGoodInfo" x="39" y="20"/>  
+    <bitmapData resourceLink="ddtcalendar.GoodsExchangeView.awardBtn1Asset" x="18" y="8"/>  
+    <bitmapData resourceLink="ddtcalendar.GoodsExchangeView.awardBtn2Asset" x="18" y="8"/>  
+    <bitmapData resourceLink="ddtcalendar.GoodsExchangeView.awardBtn3Asset" x="18" y="8"/>  
+    <bitmapData resourceLink="ddtcalendar.GoodsExchangeView.awardBtn4Asset" x="18" y="8"/>  
+    <bitmapData resourceLink="Calendar.Activity.CellBg" x="-1" y="-1"/> 
+    <bitmapData resourceLink="asset.ddtcalendar.SignedAwardNew" y="5"/>
+    <bitmapData resourceLink="asset.activity.seedBg" width="49" height="49"/>
+	<bitmapData resourceLink="asset.activity.midautumnbg"/>
+	<bitmapData resourceLink="asset.activity.wordBg" width="45" height="45"/>
+	<bitmapData resourceLink="asset.ddtcalendar.SignNew" x="25" y="2"/>
+	<bitmapData resourceLink="ddtcalendar.bee" width="43" height="43"/>
+  </bitmaps> 
+</style>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtcardSystem" version="1.0.1" source="ui/turkey/swf/ddtcardsystem.swf"> 
+  <sets> 
+    <set stylename="ddtcardSystem.TF1" args="Arial,16,0xe3ffb4,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcardSystem.TF3" args="Arial,14,0xfff6a8,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcardSystem.TF4" args="Arial,12,0xf7f4e5,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="CardBagCell.countTF" args="Arial,12,0x000000,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="cardSystem.TF3" args="Arial,12,0xfff2b0,true" type="flash.text.TextFormat"/>  
+    <set stylename="upgradeFrame.ruleTF" args="Arial,16,0xece2a9,true" leading="6" type="flash.text.TextFormat"/>  
+    <set stylename="TurnPage.pageTextTF" args="Arial,14,0xffffff,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="TurnPage.pageTextGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="CardBagCell.countGF" args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcardSystem.GF1" args="0x006255,1,2,2,2,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcardSystem.GF3" args="0x715008,1,2,2,10,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcardSystem.GF4" args="0xaa2828,2,2,2,10,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="upgradeFrame.ruleGF" args="0xaa2828,2,2,2,10,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="CollectPreview.storyTF" args="Arial,14,0xece2a9" leading="3" type="flash.text.TextFormat"/>  
+    <set stylename="CollectPreview.storyGF" args="0x704c1d,2,4,4,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="PreviewCard.nameTF" args="Arial,13,0x6c532e,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="CardBagCell.nameGF" args="0xcfb288,1,3,3,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="PreviewCard.PropsetTF" args="Arial,11,0xfff2b2,,,,,,center" leading="3" type="flash.text.TextFormat"/>  
+    <set stylename="PreviewCard.PropsetGF" args="0x5f3d11,1,3,3,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="PreviewCard.setsPropDescripTF" args="Arial,14,0xfff194" type="flash.text.TextFormat"/>  
+    <set stylename="PreviewCard.setsPropDescripGF" args="0x2a1f00,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="cardSystem.TF" args="Arial,14,0x000000,true" type="flash.text.TextFormat"/>  
+    <set stylename="cardSystem.TF2" args="Arial,12,0x000000" type="flash.text.TextFormat"/>  
+    <set stylename="CollectBagItem.setsNameTF" args="Arial,16,0x000000,true" type="flash.text.TextFormat"/>  
+    <set stylename="CollectBagItem.setsNameGF" args="0x351500,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="CardBagCell.nameTF" args="Arial,14,0x8e7043,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="upgradeFrame.numTF" args="Arial,12,0xffffff,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="upgradeFrame.numGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="upgradeFrame.leftNumTF" args="Arial,14,0xffffff,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="cardSystem.CardNameTF" args="Arial,14,0xfff3d7" type="flash.text.TextFormat"/>  
+    <set args="0x542200,1,2,2,10,1" stylename="P_CardNameTF" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtshop.UpdateBtnTextTF" args="Arial,12,0xfff5c4,,,,,,center" letterSpacing="5" type="flash.text.TextFormat"/>  
+    <set stylename="ddtshop.UpdateBtnTextGF" args="0x791c00,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcardSystem.selltextTF" args="Arial,14,0xfff4d4,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcardSystem.selltextGF" args="0x7c4519,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcardSystem.selltextTF_1" args="Arial,12,0xe20000,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcardSystem.selltextGF_1" args="0xffffff,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcardSystem.cardBtnTxtTF" args="Arial,10,0xfff6a8" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcardSystem.cardBtnTxtGF" args="0x204103,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcardSystem.buyCardBoxBtnTxtGF" args="0x76251e,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcardSystem.blueBtnTxtGF" args="0x105874,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcardSystem.yellowBtnTxtGF" args="0xBB5616,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="CardSytems.resetCardSoulTF" args="Arial,12,0x654600,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="CardSytems.resetCardSoulGF" args="0xFFFFFF,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="cardSystem.buyFrameSelectedCheckButtonTextTF" args="Arial,12,0xfff4d4,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="cardSystem.buyFrameSelectedCheckButtonTextGF" args="0x57c4519,1,4,4,30" type="flash.filters.GlowFilter"/> 
+    
+    <set stylename="ddtcardSystem.TF4_h" args="Arial,12,0xf7f4e5,,,,,,center" type="flash.text.TextFormat" leading="-5"/>
+	<set stylename="ddtcardSystem.cardBtnTxtTF_h" args="Arial,9,0xfff6a8,,,,,,center" type="flash.text.TextFormat" leading="-4"/>
+  </sets>  
+  <customDisplay> 
+    <custom classname="flash.geom.Point" stylename="CardCell.mainBorder.Pos" x="122" y="6"/>  
+    <custom classname="flash.geom.Point" stylename="PropResetFrame.countPos" x="66" y="262"/>  
+    <custom classname="cardSystem.view.cardBag.CardBagListItem" stylename="cardSystem.cardBagListItem"/>  
+    <custom classname="flash.geom.Point" stylename="CardCell.Pos0" x="126" y="-56"/>  
+    <custom classname="flash.geom.Point" stylename="CardCell.Pos1" x="-3" y="-75"/>  
+    <custom classname="flash.geom.Point" stylename="CardCell.Pos2" x="278" y="-75"/>  
+    <custom classname="flash.geom.Point" stylename="CardCell.Pos3" x="-3" y="109"/>  
+    <custom classname="flash.geom.Point" stylename="CardCell.Pos4" x="278" y="109"/>  
+    <custom classname="flash.geom.Point" stylename="upgradeFrame.inputPos" x="172" y="147"/>  
+    <custom classname="flash.geom.Point" stylename="CardCell.viceBorder.Pos0" x="10" y="-66"/>  
+    <custom classname="flash.geom.Point" stylename="CardCell.viceBorder.Pos1" x="303" y="-66"/>  
+    <custom classname="flash.geom.Point" stylename="CardCell.viceBorder.Pos2" x="10" y="130"/>  
+    <custom classname="flash.geom.Point" stylename="CardCell.viceBorder.Pos3" x="303" y="130"/>  
+    <custom classname="flash.geom.Point" stylename="cardSystem.level.small.pos" x="33" y="1"/>  
+    <custom classname="flash.geom.Point" stylename="cardSystem.UpdateBtn.pos" x="59" y="127"/>  
+    <custom classname="flash.geom.Point" stylename="cardSystem.UpdateBtnOne.pos" x="77" y="150"/>  
+    <custom classname="flash.geom.Point" stylename="cardSystem.level.big.pos" x="38" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="PropResetBtnPos" x="25" y="71"/>  
+    <custom classname="cardSystem.view.ResetCardCell" stylename="PropResetCell" x="26" y="99"/>  
+    <custom classname="flash.geom.Point" stylename="resetFrame.help.contentPos" x="40" y="115"/>  
+    <custom classname="cardSystem.view.cardCollect.CollectTurnPage" stylename="CollectTurnPage" x="114" y="403"/>  
+    <custom classname="cardSystem.view.cardEquip.CardEquipView" stylename="cardEquipView" x="32" y="80"/>  
+    <custom classname="cardSystem.view.cardCollect.CollectBagItem" stylename="cardSystem.CollectBagItem"/>  
+    <custom classname="flash.geom.Point" stylename="UpGradeFrame.cellPos" x="12" y="28"/>  
+    <custom classname="flash.geom.Point" stylename="CardBagListView.Pos" x="432" y="30"/>  
+    <custom classname="cardSystem.view.cardCollect.CollectBagView" stylename="collectBagView" x="451" y="73"/>  
+    <custom classname="cardSystem.view.cardCollect.CollectPreview" stylename="CollectPreview" x="24" y="43"/>  
+    <custom classname="flash.geom.Point" stylename="PreviewCard.cellPos" x="6" y="17"/>  
+    <custom classname="flash.geom.Point" stylename="upgradeFrame.progressMoivePos" x="173" y="150"/>  
+    <custom classname="flash.geom.Point" stylename="upgradeFrame.upSuccessMoivePos" x="498" y="320"/>  
+    <custom classname="flash.geom.Point" stylename="upgradeFrame.cellPos" x="26" y="84"/>  
+    <custom classname="flash.geom.Point" stylename="cardView.helpBtnPos" x="710" y="-34"/>  
+    <custom classname="flash.geom.Point" stylename="cardView.okBtnPos" x="166" y="439"/>  
+    <custom classname="flash.geom.Point" stylename="upgradeFrame.progressPos" x="253" y="156"/>  
+    <custom classname="flash.geom.Point" stylename="upgradeFrame.progressMaskPos" x="177" y="126"/>  
+    <custom classname="flash.geom.Point" stylename="cardSystem.upgrade.level.pos" x="221" y="112"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcardSystem.DueTipSpritePos" x="173" y="124"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcardSystem.DueTipSpritePos1" x="44" y="82"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcardSystem.DueTipSpritePos2" x="325" y="82"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcardSystem.DueTipSpritePos3" x="44" y="266"/>  
+    <custom classname="flash.geom.Point" stylename="ddtcardSystem.DueTipSpritePos4" x="325" y="266"/>  
+    <custom classname="flash.geom.Point" stylename="cardSystem.ballPlaySpTipPos" x="124" y="139"/> 
+  </customDisplay>  
+  <components> 
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ddtcardSystem.line" resourceLink="asset.ddtcardSystem.line" x="218" y="309" height="55"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcardSystem.Button.TextStyle" textFormatStyle="ddtcardSystem.TF3" filterString="ddtcardSystem.GF3" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcardSystem.Button.TextStyle1" textFormatStyle="ddtcardSystem.TF1" filterString="ddtcardSystem.GF1" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="CollectPreview.propArea" textStyle="PreviewCard.setsPropDescrip" vScrollProxy="0" parentStyle="core.SimpleTextArea" width="349" height="96" x="37" y="360"/>  
+    <component classname="com.pickgliss.ui.controls.container.HBox" stylename="cardBagListItem.container" spacing="-1" height="110" x="3"/>  
+    <component classname="com.pickgliss.ui.controls.container.HBox" stylename="CollectBagItem.container" spacing="1" y="18" x="0"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="CollectBagView.container" spacing="-120" x="1" y="9"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="CardEquipView.viceCardBG1" resourceLink="asset.cardEquipView.viceCard,asset.cardEquipView.viceCard1" imageRectString=",21|77|73|33|13" width="120" height="190"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="CardEquipView.viceCardBG2" resourceLink="asset.cardEquipView.viceCard,asset.cardEquipView.viceCard2" imageRectString=",21|77|73|33|13" width="120" height="190"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="CardEquipView.viceCardBG3" resourceLink="asset.cardEquipView.viceCard,asset.cardEquipView.viceCard3" imageRectString=",21|77|73|33|13" width="120" height="190"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="CardEquipView.viceCardBG4" resourceLink="asset.cardEquipView.viceCard,asset.cardEquipView.viceCard4" imageRectString=",21|77|73|34|13" width="120" height="190"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.upgradeFrame.bg" parentStyle="church.main.createRoomFrameLeftTopBg" width="327" height="213" x="17" y="77"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="cardEquipView.BG1" resourceLink="asset.core.ScaleBitmapImage1" width="438" height="385" x="-19" y="-80" scaleGridString="33,26,59,70"/>  
+    <!-- button -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcardSystem.yellowBtnTxt" textFormatStyle="ddtcardSystem.cardBtnTxtTF" filterString="ddtcardSystem.yellowBtnTxtGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcardSystem.blueBtnTxt" textFormatStyle="ddtcardSystem.cardBtnTxtTF" filterString="ddtcardSystem.blueBtnTxtGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcardSystem.cardBtnTxt" textFormatStyle="ddtcardSystem.cardBtnTxtTF" filterString="ddtcardSystem.cardBtnTxtGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcardSystem.buyCardBoxBtnTxt" textFormatStyle="ddtcardSystem.cardBtnTxtTF" filterString="ddtcardSystem.buyCardBoxBtnTxtGF"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="CardBagView.collectBtn" backStyle="asset.core.yellowBtn" textStyle="ddtcardSystem.yellowBtnTxt" backgoundInnerRectString="10,84,5,26,13" filterString="null,lightFilter,null,grayFilter" x="225" y="311"/>  
+    <!-- 
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="CardBagView.collectBtn" backStyle="asset.ddtcardSytem.collectBtnAsset" filterString="null,lightFilter,null,grayFilter" x="279" y="319"/>
+		 -->  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="CardBagView.resetSoulBtn" backStyle="asset.core.blueBtn" textStyle="ddtcardSystem.blueBtnTxt" backgoundInnerRectString="4,84,5,26,13" filterString="null,lightFilter,null,grayFilter" x="225" y="338"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="CardBagView.CardBtn" backStyle="ddtcardSystem.CardsButton" textStyle="ddtcardSystem.cardBtnTxt" backgoundInnerRectString="11,100,4,26,13" useLogID="105" filterString="null,lightFilter,null,grayFilter" x="308" y="312"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="CardBagView.BuyCardBoxBtn" backStyle="ddtcardSystem.BuyCardBoxButton" textStyle="ddtcardSystem.buyCardBoxBtnTxt" backgoundInnerRectString="4,100,5,26,13" filterString="null,lightFilter,null,grayFilter" x="308" y="338"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardSystem.resetCardSoul.alertText" textFormatStyle="CardSytems.resetCardSoulTF" filterString="CardSytems.resetCardSoulGF" x="18" y="40" autoSize="none" width="420" height="80" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.ddtcardSytem.collectBtnAsset" resourceLink="ddtcardSytem.btn,asset.cardFavorites.font" imageRectString="100|41|0|0|9,84|20|10|-51|9"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtcardSytem.btn" parentStyle="core.bg6910"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="CardBagCell.propReset" backStyle="ddtcardSystem.CardsButton" textStyle="ddtcardSystem.cardBtnTxt" backgoundInnerRectString="12,50,5,26,13" filterString="null,lightFilter,null,grayFilter" x="0" y="78"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="CardBagCell.upGradeBtn" backStyle="asset.cardCell.upGrade" filterString="null,lightFilter,null,grayFilter" x="0" y="78"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="CardEquipView.openBtn" backStyle="ddtcardSystem.YelloButton" textStyle="ddtcardSystem.Button.TextStyle" backgoundInnerRectString="10,10,3,8,-1" useLogID="105" x="3" y="55"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtcardSystem.YelloButton" parentStyle="core.bg6905"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtcardSystem.CardsButton" parentStyle="core.littleGreen" width="84"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtcardSystem.BuyCardBoxButton" parentStyle="core.bg6921" width="84"/>  
+    <!-- upGradeFrame -->  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="UpGradeFrame.button" parentStyle="core.simplebt" x="140" y="294"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="UpGradeFrame.helpBtn" backStyle="asset.ddtcore.helpbutton" filterString="null,lightFilter,null,grayFilter" x="236" y="40"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="UpGradeFrame.ruleTxt" textFormatStyle="upgradeFrame.ruleTF" filterString="upgradeFrame.numGF" autoSize="none" width="150" multiline="true" wordWrap="true" x="175" y="195"/>  
+    <!-- PropResetFrame -->  
+    <component classname="cardSystem.view.PropResetFrame" stylename="PropResetFrame" width="473" height="338" moveEnable="false" parentStyle="BaseFrame"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="PropResetFrame.headBG1" parentStyle="church.main.createRoomFrameLeftTopBg" width="177" height="39" x="173" y="42"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="PropResetFrame.headBG2" parentStyle="church.main.createRoomFrameLeftTopBg" width="158" height="39" x="18" y="42"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="PropResetFrame.numBg1" resourceLink="ddtcardSystem.resetCard.numBg1,ddtcardSystem.resetCard.numBg2,ddtcardSystem.resetCard.numBg3" width="70" height="27" x="98" y="47"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="PropResetFrame.numBg2" resourceLink="ddtcardSystem.resetCard.numBg1,ddtcardSystem.resetCard.numBg2,ddtcardSystem.resetCard.numBg3" width="100" height="27" x="242" y="47"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="PropResetFrame.preNumBg" resourceLink="ddtcardSystem.resetCard.numBg1,ddtcardSystem.resetCard.numBg2,ddtcardSystem.resetCard.numBg3" width="66" height="26" x="13" y="0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="PropResetFrame.newNumBg" resourceLink="ddtcardSystem.resetCard.numBg1,ddtcardSystem.resetCard.numBg2,ddtcardSystem.resetCard.numBg3" width="93" height="26" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="PropResetFrame.BG1" parentStyle="core.bg6920" width="435" height="189" x="19" y="83" scaleGridString="5,10,80,20"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="PropResetFrame.BG2" parentStyle="church.main.createRoomFrameLeftTopBg" width="306" height="172" x="144" y="92"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="PropResetFrame.BG3" parentStyle="church.main.createRoomFrameLeftTopBg" width="131" height="131" x="154" y="123"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="PropResetFrame.BG4" parentStyle="church.main.createRoomFrameLeftTopBg" width="116" height="131" x="323" y="123"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardBagCell.count" textFormatStyle="CardBagCell.countTF" filterString="CardBagCell.countGF" autoSize="none" width="43" height="22" x="40" y="79"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="PropResetFrame.Help" backStyle="asset.ddtcore.helpbutton" filterString="null,lightFilter,null,grayFilter" x="347" y="41"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.cardSystem.upAndDown" resourceLink="asset.cardSystem.upRsset,asset.cardSystem.downRsset"/>  
+    <!-- 
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="PropResetFrame.inputPropContainer1" spacing="12" x="149" y="106"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="PropResetFrame.inputPropContainer2" spacing="12" x="332" y="106"/>
+		 -->  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="PropResetFrame.smallinputPropContainer1" spacing="3" x="200" y="131"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="PropResetFrame.smallinputPropContainer2" spacing="3" x="335" y="132"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="PropResetFrame.basePropContainer1" spacing="25" x="156" y="135"/>  
+    <!--  
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="PropResetFrame.basePropContainer2" spacing="29" x="340" y="111"/>
+		-->  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="PropResetFrame.newPropContainer" spacing="25" x="366" y="135"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="PropResetFrame.oldPropContainer" spacing="25" x="238" y="135"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="PropResetFrame.upAndDownContainer" spacing="11" x="407" y="135"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PropResetFrame.PropText" textFormatStyle="cardSystem.TF3" width="40" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PropResetFrame.needSoul" textFormatStyle="ddtcardSystem.TF4" filterString="ddtcardSystem.GF4" width="100" height="50" x="24" y="43"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PropResetFrame.ownSoul" textFormatStyle="ddtcardSystem.TF4" filterString="ddtcardSystem.GF4" width="100" height="50" x="175" y="43"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PropResetFrame.needSoulText" textFormatStyle="ddtcardSystem.TF4" filterString="ddtcardSystem.GF4" autoSize="none" width="80" height="20" x="93" y="51"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PropResetFrame.ownSoulText" textFormatStyle="ddtcardSystem.TF4" filterString="ddtcardSystem.GF4" autoSize="none" width="100" height="20" x="243" y="51"/>  
+    <component classname="com.pickgliss.ui.controls.OutMainListPanel" stylename="cardSyste.cardBagList" vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,-5,7,3" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|cardSystem.cardBagListItem,105" width="331" height="324" x="13" y="52"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="CollectBagItem.light" parentStyle="core.Scale9CornerImage.scale9CornerSparkBG" width="430" height="123" x="-9" y="7"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CollectPreview.story" textFormatStyle="CollectPreview.storyTF" filterString="CollectPreview.storyGF" autoSize="none" width="336" multiline="true" wordWrap="true" x="33" y="52"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PreviewCard.name" textFormatStyle="PreviewCard.nameTF" filterString="CardBagCell.nameGF" autoSize="none" width="51" multiline="true" wordWrap="true" x="10"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PreviewCard.Propset" textFormatStyle="PreviewCard.PropsetTF" filterString="PreviewCard.PropsetGF" autoSize="none" multiline="true" wordWrap="true" width="65" x="4" y="84"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PreviewCard.setsPropDescrip" textFormatStyle="PreviewCard.setsPropDescripTF" filterString="PreviewCard.setsPropDescripGF" multiline="true" wordWrap="true" mouseEnable="false" mouseChildren="false" y="1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="cardCollectView.BG" parentStyle="core.bg6920" width="853" height="490" x="22" y="46" scaleGridString="5,10,80,20"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="cardCollectView.BG1" parentStyle="core.Scale9CornerImage.BGAsset8" x="29" y="61" width="839" height="468"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="CollectPreview.BG" resourceLink="asset.ddtcardSelcet.Bg2" x="14" y="25" width="396" height="453"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="CollectPreview.BG1" resourceLink="asset.cardCollect.storyBG" width="379" height="289" x="20" y="35"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="CollectPreview.BG2" parentStyle="core.Scale9CornerImage.BGAsset9" x="436" y="66" width="427" height="456"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="CollectPreview.setsPropAsset" resourceLink="asset.ddtcore.kuaijieBg" alpha="100"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="CollectPreview.setsPropAsset1" resourceLink="CollectPreview.setsPropAsset,core.Scale9CornerImage.weilipaper" imageRectString=",4|4|4|4|0"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="CollectBagItem.BG" resourceLink="asset.ddtcardItem.bg1" width="420" height="111" x="-1" y="14"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="TurnPage.prePageBtn" backStyle="asset.ddtcore.leftBtn" filterString="null,lightFilter,null,grayFilter" x="9" y="7"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="TurnPage.nextPageBtn" backStyle="asset.ddtcore.rightBtn" filterString="null,lightFilter,null,grayFilter" x="137" y="7"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.turnPage.bg" resourceLink="asset.HotSpringRoomList.PageBg" width="405" height="31" x="-117" y="4"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.ddtCardsList.PageCountBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="65" height="21" x="64" y="8"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="TurnPage.pageText" textFormatStyle="TurnPage.pageTextTF" filterString="TurnPage.pageTextGF" autoSize="none" width="56" height="22" multiline="false" wordWrap="false" x="72" y="9"/>  
+    <component classname="com.pickgliss.ui.controls.Frame" stylename="cardView.helpFrame" parentStyle="BaseFrame" width="432" height="482" moveEnable="true" escEnable="true" moveInnerRectString="0,30,0,30,1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardBagCell.name" textFormatStyle="CardBagCell.nameTF" filterString="CardBagCell.nameGF" autoSize="none" width="64" multiline="true" wordWrap="true" x="7"/>  
+    <component classname="cardSystem.view.UpGradeFrame" stylename="UpGradeFrame" parentStyle="BaseFrame" width="360" height="350" moveEnable="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="UpGradeFrame.leftNum" textFormatStyle="upgradeFrame.leftNumTF" filterString="upgradeFrame.numGF" autoSize="none" width="40" height="20" multiline="false" wordWrap="false" x="113" y="251"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="UpGradeFrame.progeressTxt" textFormatStyle="upgradeFrame.numTF" filterString="upgradeFrame.numGF" autoSize="none" width="120" height="20" multiline="false" wordWrap="false" x="192" y="149"/>  
+    <component classname="com.pickgliss.ui.controls.Frame" stylename="UpGradeFrame.helpFrame" parentStyle="BaseFrame" width="408" height="488" moveEnable="false" escEnable="true" moveInnerRectString="0,30,0,30,1"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="UpGradeFrame.helpFrame.OK" parentStyle="core.simplebt" x="157" y="434"/>  
+    <component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="PropResetFrame.HelpFrame" parentStyle="BaseFrame" width="408" height="488"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="CardBagView.sortbtn" backStyle="asset.cardBag.sortBtn" filterString="null,lightFilter,null,grayFilter" x="111" y="-7"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="CardBagView.cardselect" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="0" x="12" y="4" width="240" height="100"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="chat.CardListBg" resourceLink="asset.chat.CardListBg" scaleGridString="10,10,42,42" width="255" height="110" x="" y=""/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="cardSystem.CardNameTxt" filterString="P_CardNameTF" textFormatStyle="cardSystem.CardNameTF" width="40" height="20"/>  
+    <!--  <component classname="com.pickgliss.ui.controls.ListPanel" stylename="cardSyste.cardBagList" hScrollbarStyle="core.HScrollbar"  
+			vScrollbarStyle="core.VScrollbar" hScrollbarInnerRectString="0,10,21,0,4" 	vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|cardSystem.cardBagListItem,110" listStyle="com.pickgliss.ui.controls.list.List"
+			width="404" height="332" x="-14" y="16" hScrollProxy="2" /> -->  
+    <component classname="cardSystem.view.cardCollect.CardCollectView" stylename="CardCollectView" width="895" height="557" moveEnable="false" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,10,5" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CollectBagItem.setsNameFFT" textFormatStyle="CollectBagItem.setsNameTF"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="CollectBagItem.setsName" textFieldStyle="CollectBagItem.setsNameFFT" colors="0xffffff,0xffd201,0xff4901" filterString="CollectBagItem.setsNameGF" alphas="1,1,1" ratios="0,120,255" x="0" y="-7"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="CollectPreview.setsName" parentStyle="CollectBagItem.setsName" x="152" y="19"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="CollectPreview.propExplain" parentStyle="CollectBagItem.setsName" x="29" y="330"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="Scale9CornerImage17" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" width="373" height="379" x="17" y="45"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ddtcardSystem.upgradeFrame.help" resourceLink="asset.upgradeFrame.content" x="51" y="73"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtcardSystem.BG1" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" width="373" height="379" x="17" y="45"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ddtcardSystem.resetFrame.help" resourceLink="asset.ddtcardSystem.reset.help.content" x="51" y="73"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ddtcardSystem.view.bgTwo" resourceLink="cardsystem.info.personalInfoBgAsset3" width="427" height="57" x="-15" y="309"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtcardSystemTextView1" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="72" height="23" x="27" y="314"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtcardSystemTextView2" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="72" height="23" x="141" y="314"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtcardSystemTextView3" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="72" height="23" x="27" y="340"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtcardSystemTextView4" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="72" height="23" x="141" y="340"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcardSystem.SellNeedSoulText" x="39" y="97" autoSize="none" width="340" textFormatStyle="ddtcardSystem.selltextTF_1" filterString="ddtcardSystem.selltextGF_1" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcardSystem.SellLeftAlerText2" x="22" y="59" autoSize="none" width="122" textFormatStyle="ddtcardSystem.selltextTF" filterString="ddtcardSystem.selltextGF" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcardSystem.SellLeftAlerText3" x="41" y="84" autoSize="none" width="315" textFormatStyle="ddtcardSystem.selltextTF_1" filterString="ddtcardSystem.selltextGF_1" height="50" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcardSystem.SellLeftAlerText5" x="248" y="97" autoSize="none" width="30" textFormatStyle="ddtcardSystem.selltextTF_1" filterString="ddtcardSystem.selltextGF_1" height="20"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtcardSystem.SellInputBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="158" height="25" x="137" y="56"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" type="input" stylename="ddtcardSystem.SellLeftAlerText4" textFormatStyle="ddtcardSystem.selltextTF" filterString="ddtcardSystem.selltextGF" autoSize="none" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="5,5,3,2,0" x="142" y="60" width="150" height="21"/>  
+    <component classname="cardSystem.view.CardInputFrame" stylename="cardSystem.CardInputFrame" parentStyle="BaseFrame" moveEnable="false" width="390" height="180"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcard.BtnUpdateText" textFormatStyle="ddtcardSystem.cardBtnTxtTF" filterString="ddtcardSystem.buyCardBoxBtnTxtGF" x="10" y="3"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="ddtcard.BtnUpdate" textStyle="ddtcard.BtnUpdateText" backStyle="core.bg6921" backgoundInnerRectString="8,50,5,26,13" autoSizeAble="false" width="50" height="26" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="cardSystem.buyFrameSelectedCheckButtonText" textFormatStyle="cardSystem.buyFrameSelectedCheckButtonTextTF" filterString="cardSystem.buyFrameSelectedCheckButtonTextGF" autoSize="none" width="230" height="30"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="cardSystem.buyFrameSelectedCheckButton" parentStyle="core.simpleSelectBtn" textStyle="cardSystem.buyFrameSelectedCheckButtonText" displacement="false" fieldX="18" fieldY="-2" x="238" y="86"/>
+    
+     <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcardSystem.cardBtnTxt_h" textFormatStyle="ddtcardSystem.cardBtnTxtTF_h" filterString="ddtcardSystem.cardBtnTxtGF" autoSize="none" width="70" height="30" wordWrap="true"/>
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.ddtcardSystem.mainFont" x="1" y="-1"/>  
+    <bitmapData resourceLink="asset.ddtcardbag.bg" x="1" y="0"/>  
+    <bitmapData resourceLink="asset.cardEquipView.BG" x="-13" y="-73" height="374" width="428"/>  
+    <bitmapData resourceLink="asset.cardEquipView.mainCardBorder" width="149" height="212"/>  
+    <bitmapData resourceLink="asset.upgradeFrame.level" x="176" y="113"/>  
+    <bitmapData resourceLink="asset.cardSystem.resetArrow" x="282" y="142"/>  
+    <bitmapData resourceLink="asset.ddtcardSystem.newProperty" x="324" y="100"/>  
+    <bitmapData resourceLink="asset.ddtcardSystem.oldProperty" x="154" y="100"/>  
+    <bitmapData resourceLink="asset.ddtcardSystem.inputBig"/>  
+    <bitmapData resourceLink="asset.ddtcardSystem.inputSmall"/>  
+    <bitmapData resourceLink="asset,ddtcardSystem.inputBg" x="169" y="187" height="90"/>  
+    <bitmapData resourceLink="asset.ddtcardSytems.bg2" x="29" y="40"/>  
+    <bitmapData resourceLink="asset.cardBagCell.BG" x="-12" y="-15"/>  
+    <bitmapData resourceLink="asset.cardEquipView.title" x="15" y="0"/>  
+    <bitmapData resourceLink="asset.cardBag.BG" x="-25" y="-13"/>  
+    <bitmapData resourceLink="asset.cardBag.word" x="-9" y="-21"/>  
+    <bitmapData resourceLink="asset.upgradeFrame.cardNum" x="45" y="251"/>  
+    <bitmapData resourceLink="asset.upgradeFrame.content" x="12" y="37"/>  
+    <bitmapData resourceLink="asset.cardSystem.help.content" x="12" y="37"/>  
+    <bitmapData resourceLink="asset.cardBag.cell.buttonbg" x="2" y="83"/>  
+    <bitmapData resourceLink="asset.cardSystem.reset.help" x="13" y="41"/>  
+    <bitmapData resourceLink="asset.cardBag.mainCardLight" x="-3" y="-3"/>  
+    <bitmapData resourceLink="asset.ddtcardSystem.jin" x="-3" y="-3"/>  
+    <bitmapData resourceLink="asset.ddtcardSystem.tong" x="-3" y="-3"/>  
+    <bitmapData resourceLink="asset.ddtcardSystem.yin" x="-3" y="-3"/>  
+    <bitmapData resourceLink="CollectPreview.setsPropBG" x="20" y="341"/>  
+    <bitampData resourceLink="asset.playerinfo.gongji" x="0" y="290"/>  
+    <bitampData resourceLink="asset.playerinfo.fangyu" x="156" y="290"/>  
+    <bitampData resourceLink="asset.playerinfo.luck" x="156" y="324"/>  
+    <bitampData resourceLink="asset.playerinfo.minjie" x="0" y="324"/>  
+    <bitampData resourceLink="asset.cardEquipView.mainCard"/>  
+    <bitampData resourceLink="asset.ddtcardsytems.hunzhi" x="109" y="175"/>  
+    <bitampData resourceLink="asset.ddtcardSystem.maingold"/>  
+    <bitampData resourceLink="asset.ddtcardSystem.mainsilver"/>  
+    <bitampData resourceLink="asset.ddtcardSystem.maincopper"/>  
+    <bitampData resourceLink="asset.cardSystem.deputygold"/>  
+    <bitampData resourceLink="asset.cardSystem.deputysilver"/>  
+    <bitampData resourceLink="asset.cardSystem.deputycopple"/>  
+    <bitmapData resourceLink="asset.playerinfo.luck" x="104" y="340"/>  
+    <bitmapData resourceLink="asset.ddtcardsytems.hunzhi" x="109" y="175"/>  
+    <bitmapData resourceLink="asset.playerinfo.minjie" x="104" y="315"/>  
+    <bitmapData resourceLink="asset.playerinfo.gongji" x="-9" y="315"/>  
+    <bitmapData resourceLink="asset.playerinfo.fangyu" x="-9" y="340"/> 
+  </bitmaps> 
+</style>

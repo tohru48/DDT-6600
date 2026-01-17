@@ -1,0 +1,177 @@
+<style name="witchblessing" version="1.0.1" source="ui/turkey/swf/witchBlessing.swf">
+	<sets>
+		<set stylename="witchBlessing.awardsTxtTF" args="Arial,12,0xF1EDB5,true,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="witchBlessing.awardsTxtGF" args="0x5a391c,2,4,4,20"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="witchBlessing.takeAwayTxtTF" args="Arial,12,0xFFFEE0,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="witchBlessing.takeAwayTxtGF" args="0x4f0156,2,4,4,20"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="witchBlessing.blessingLvTxtTF" args="Arial,14,0xFFE35F,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="witchBlessing.timeOpenTxtTF" args="Arial,10,0xFFE35F,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="witchBlessing.timeOpenTxtGF" args="0x572525,2,4,4,20"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="witchBlessing.nextTimeTxtTF" args="Arial,12,0xFFD74A,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="witchBlessing.nextTimeTxtGF" args="0x542a05,2,4,4,20"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="witchBlessing.propertyTxtTF" args="Arial,12,0xFFD200,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="witchBlessing.propertyTxtGF" args="0x725435,2,4,4,20"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="witchBlessing.progressTxtTF" args="Arial,12,0xFFFFFF,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="witchBlessing.progressTxtGF" args="0x022800,1,4,4,20"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="witchBlessing.countSelectTxtTF" args="Arial,16,0xffeebf,true"  type="flash.text.TextFormat"/>
+		<set stylename="witchBlessing.countSelectTxtGF" args="0x442006,1,4,4,30" type="flash.filters.GlowFilter"/> 
+		
+		<set stylename="witchBlessing.NeedTextTF" args="Arial,12,0xffeebf"  type="flash.text.TextFormat"/>
+		
+		<set type="flash.text.TextFormat" stylename="witchBlessing.allIn.tf" args="Arial,11,0xfcf3a7"/>
+		<set type="flash.filters.GlowFilter" stylename="witchBlessing.allIn.gf" args="0x5a2c00,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="witchBlessing.talkTxtTF" args="Arial,12,0xFFF9FF"/>
+		<set type="flash.filters.GlowFilter" stylename="witchBlessing.talkTxtGF" args="0x420052,2,4,4,30"/>
+<set stylename="witchBlessing.doubletimeOpenTxtTF" args="Arial,12,0xffd200,,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="witchBlessing.doubletimeOpenTxtGF" args="0x2d0101,2,4,4,20" type="flash.filters.GlowFilter"/>
+
+	</sets>
+	
+	<components>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="witchBlessing.doubletimeOpenTxt" textFormatStyle="witchBlessing.doubletimeOpenTxtTF" filterString="witchBlessing.doubletimeOpenTxtGF" x="65" y="314"/>
+	
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="witchBlessing.allIn" 
+			parentStyle="core.simpleSelectBtn" textStyle="witchBlessing.allIn.text" displacement="true" 
+			fieldX="16" fieldY="0" x="255" y="355" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="witchBlessing.allIn.text" 
+			textFormatStyle="witchBlessing.allIn.tf" filterString="witchBlessing.allIn.gf"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="witchBlessing.NeedText" textFormatStyle="witchBlessing.NeedTextTF" filterString="witchBlessing.countSelectTxtGF" x="16" y="129" width="346" height="40"  wordWrap="true" autoSize="none"/>
+	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="witchBlessing.countSelectTxt" textFormatStyle="witchBlessing.countSelectTxtTF" filterString="witchBlessing.countSelectTxtGF" x="37" y="80" />
+	
+	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="witchBlessing.awardsTxt"
+			textFormatStyle="witchBlessing.awardsTxtTF" filterString="witchBlessing.awardsTxtGF" x="-1" y="125" width="420" height="35" wordWrap="true"/>
+	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="witchBlessing.takeAwayTxt"
+			textFormatStyle="witchBlessing.takeAwayTxtTF" filterString="witchBlessing.takeAwayTxtGF" x="28" y="276"  autoSize="none"
+			width="321" height="42" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="witchBlessing.talkTxt"
+			textFormatStyle="witchBlessing.talkTxtTF" filterString="witchBlessing.talkTxtGF" x="9" y="6"  autoSize="none"
+			wordWrap="true" width="102" height="58" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="witchBlessing.timeOpenTxt"
+			textFormatStyle="witchBlessing.timeOpenTxtTF" filterString="witchBlessing.timeOpenTxtGF" x="100" y="314"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="witchBlessing.nextTimeTxt"
+			textFormatStyle="witchBlessing.nextTimeTxtTF" filterString="witchBlessing.nextTimeTxtGF" x="84" y="236" autoSize="center" width="250" height="25"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="witchBlessing.propertyTxt"
+			textFormatStyle="witchBlessing.propertyTxtTF" filterString="witchBlessing.propertyTxtGF"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="witchBlessing.blessingLvTxt"
+			textFormatStyle="witchBlessing.blessingLvTxtTF" filterString="witchBlessing.timeOpenTxtGF" x="186" y="354" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="witchBlessing.progressTxt"
+			textFormatStyle="witchBlessing.progressTxtTF" filterString="witchBlessing.progressTxtGF" autoSize="none" width="228" height="20" x="114" y="381"/>
+	
+	
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="blessing.Btn1" parentStyle="core.bg6900" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="blessing.Btn2" parentStyle="core.bg6901" />
+	
+		<component classname="witchBlessing.view.WitchBlessingMainView" stylename="witchBlessing.WitchBlessingMainView" backStyle="SimpleFrameBackgoundOne" 
+				titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,14,6,30,14"
+				containerX="15" containerY="38" titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1"
+				width="890" height="570" moveEnable="false" escEnable="true" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="witchBlessing.frameBottom" parentStyle="core.bg6920" scaleGridString="5,10,80,20" width="849" height="506" x="5" y="5"/>
+				
+		<component classname="com.pickgliss.ui.controls.SelectedButton"
+				stylename="blessingLv1.btn" unSelectedStyle="asset.lv1txt"
+				selectedStyle="asset.lv1txt2" filterString="null,lightFilter,null,grayFilter"
+				x="0" y="0" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton"
+				stylename="blessingLv2.btn" unSelectedStyle="asset.lv2txt"
+				selectedStyle="asset.lv2txt2" filterString="null,lightFilter,null,grayFilter"
+				x="150" y="0" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton"
+				stylename="blessingLv3.btn" unSelectedStyle="asset.lv3txt"
+				selectedStyle="asset.lv3txt2" filterString="null,lightFilter,null,grayFilter"
+				x="300" y="0" />
+				
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+				stylename="asset.lv1txt2" resourceLink="blessing.Btn2,asset.lv1txt.select"
+				imageRectString="137|39|0|0|9,-47|88|8|26|13" x="58" y="5" height="38" />
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+				stylename="asset.lv1txt" resourceLink="blessing.Btn1,asset.lv1txt.unselect"
+				imageRectString="137|39|0|0|9,13|79|8|21|13" width="110" height="35" x="4"
+				y="5" />
+				
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+				stylename="asset.lv2txt2" resourceLink="blessing.Btn2,asset.lv2txt.select"
+				imageRectString="137|39|0|0|9,-44|88|8|26|13" x="58" y="5" height="38" />
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+				stylename="asset.lv2txt" resourceLink="blessing.Btn1,asset.lv2txt.unselect"
+				imageRectString="137|39|0|0|9,13|79|8|21|13" width="110" height="35" x="4"
+				y="5" />
+				
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+				stylename="asset.lv3txt2" resourceLink="blessing.Btn2,asset.lv3txt.select"
+				imageRectString="137|39|0|0|9,-44|88|8|26|13" x="58" y="5" height="38" />
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+				stylename="asset.lv3txt" resourceLink="blessing.Btn1,asset.lv3txt.unselect"
+				imageRectString="137|39|0|0|9,16|79|8|21|13" width="110" height="35" x="4"
+				y="5" />
+				
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="witchBlessing.getAwardsBtn" backStyle="asset.witchBlessing.getAwards"
+			filterString="null,lightFilter,lightFilter,grayFilter" x="82" y="269"></component>
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="witchBlessing.getDoubleAwardsBtn" backStyle="asset.witchBlessing.getDoubleAwards"
+			filterString="null,lightFilter,lightFilter,grayFilter" x="246" y="269"></component>
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="witchBlessing.blessBtn" backStyle="asset.witchBlessing.bless"
+			filterString="null,lightFilter,lightFilter,grayFilter" x="36" y="422"></component>
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="witchBlessing.blessHarderBtn" backStyle="asset.witchBlessing.blessHarder"
+			filterString="null,lightFilter,lightFilter,grayFilter" x="197" y="422"></component>
+			
+		<component classname="witchBlessing.view.WitchBlessingFrame" stylename="witchBlessing.WitchBlessingFrame"  parentStyle="BaseFrame" moveEnable="false" width="400" height="250" containerX="15" containerY="5" x="142" y="79" />
+		
+	</components>
+	
+		<customDisplay>
+		<custom classname="flash.geom.Point" stylename="witchBlessing.leftViewPos" x="8" y="-6"/>	
+		<custom classname="flash.geom.Point" stylename="witchBlessing.rightViewPos" x="407" y="13"/>	
+		<custom classname="flash.geom.Point" stylename="witchBlessing.titleMcPos" x="205" y="57"/>	
+		<custom classname="flash.geom.Point" stylename="witchBlessing.AwardsViewPos" x="9" y="158"/>	
+		<custom classname="flash.geom.Point" stylename="witchBlessing.AwardsTxt2Pos" x="15" y="334"/>	
+		<custom classname="flash.geom.Point" stylename="witchBlessing.AwardsTxt3Pos" x="15" y="427"/>	
+		<custom classname="flash.geom.Point" stylename="witchBlessing.propertyTxtPos"  x="23" y="376"/>	
+		<custom classname="flash.geom.Point" stylename="witchBlessing.expCountSelecterPos" x="142" y="79"/>
+		<custom classname="flash.geom.Point" stylename="witchBlessing.cellPos" x="36" y="347"/>
+		<custom classname="flash.geom.Point" stylename="witchBlessing.talkBoxMcPos" x="22" y="67"/>
+		<custom classname="flash.geom.Point" stylename="witchBlessing.doubleTimePos" x="69" y="467"/>
+		
+	</customDisplay>
+	
+	<bitmaps>
+
+			<bitmapData resourceLink="asset.witchBlessing.leftBg"  x="0" y="0"/>
+			<bitmapData resourceLink="asset.witchBlessing.blessCount"  x="24" y="80"/>
+			<bitmapData resourceLink="asset.witchBlessing.rightBg"  x="386" y="56"/>
+			<bitmapData resourceLink="asset.witchBlessing.rightViewBigBg"  x="-8" y="104"/>
+			<bitmapData resourceLink="asset.witchBlessing.rightViewMidBg"  x="-8" y="322"/>
+			<bitmapData resourceLink="asset.witchBlessing.rightViewSmallBg"  x="-8" y="412"/>
+			<bitmapData resourceLink="asset.witchBlessing.purpleBg"  x="32" y="273"/>
+			<bitmapData resourceLink="asset.witchBlessing.nextTimeBg"  x="84" y="233"/>
+			<bitmapData resourceLink="asset.witchBlessing.progress"  x="113" y="383"/>
+			<bitmapData resourceLink="asset.witchBlessing.progressBg"  x="104" y="380"/>
+			<bitmapData resourceLink="asset.witchBlessing.progressTxt"  x="121" y="353"/> 
+			
+			<bitmapData resourceLink="asset.witchBlessing.noBlessing"  x="340" y="91"/>
+	</bitmaps>
+</style>

@@ -1,0 +1,264 @@
+<style name="flowerGiving" version="1.0.1"
+	source="ui/turkey/swf/flowerGiving.swf">
+<sets>
+	<set type="flash.filters.GlowFilter" args="0x480200,1,4,4,30" stylename="flowerGiving.deepBrownGF" />
+	<set type="flash.text.TextFormat" args="Arial,14,0xfed977"  stylename="flowerGiving.deepBrownTF"  leading="6" />
+	
+	<set type="flash.filters.GlowFilter" args="0x4f3700,2,4,4,30" stylename="flowerGiving.titleGF" />
+	<set type="flash.text.TextFormat" args="Arial,12,0xffea9c,true,,,,,center"  stylename="flowerGiving.titleTF" />
+	
+	<set type="flash.filters.GlowFilter" args="0x562805,2,4,4,30" stylename="flowerGiving.myFlowerTitleGF" />
+	<set type="flash.text.TextFormat" args="Arial,12,0xffd74a,true"  stylename="flowerGiving.myFlowerTitleTF" />
+	
+	<set type="flash.filters.GlowFilter" args="0x000000,1,2,2,30" stylename="flowerGiving.myFlowerNumGF" />
+	<set type="flash.text.TextFormat" args="Arial,12,0xfffffe"  stylename="flowerGiving.myFlowerNumTF" />
+	
+	<set type="flash.filters.GlowFilter" args="0x381e00,2,4,4,30" stylename="flowerGiving.sendView.contentGF" />
+	<set type="flash.text.TextFormat" args="Arial,11,0xffe68e,,,,,,center"  stylename="flowerGiving.sendView.contentTF" />
+	
+	<set type="flash.filters.GlowFilter" args="0x613f20,2,4,4,30" stylename="flowerGiving.flowerSendFrame.numGF" />
+	<set type="flash.text.TextFormat" args="Arial,14,0xfff8d6,true,,,,,center"  stylename="flowerGiving.flowerSendFrame.numTF" />
+	
+	
+	<set type="flash.filters.GlowFilter" args="0x373601,2,4,4,30" stylename="flowerGiving.greenGF" />
+	<set type="flash.text.TextFormat" args="Arial,12,0x6bd900,true"  stylename="flowerGiving.greenTF" />
+	
+	<set type="flash.filters.GlowFilter" args="0x562b05,2,4,4,30" stylename="flowerGiving.outOfRankGF"/>
+	<set type="flash.text.TextFormat" args="Arial,12,0xffffff,true"  stylename="flowerGiving.outOfRankTF" />
+	
+	<set type="flash.filters.GlowFilter" args="0x402400,1,2,2,30" stylename="flowerGiving.lightBrownGF" />
+	<set type="flash.text.TextFormat" args="Arial,11,0xfffffe"  stylename="flowerGiving.lightBrownTF" />
+	<set type="flash.text.TextFormat" args="Arial,12,0xfffffe,,,,,,center"  stylename="flowerGiving.lightBrownTF2" />
+		
+	<set type="flash.text.TextFormat" args="Arial,16,0xffffff,,,,,,center"  stylename="flowerGiving.pureWhiteTF" />
+	
+	<set type="flash.filters.GlowFilter" args="0x5f2f00,2,4,4,30" stylename="flowerGiving.flowerSendFrame.sendGF" />
+	<set type="flash.text.TextFormat" args="Arial,13,0xe9c484"  stylename="flowerGiving.flowerSendFrame.sendTF" />
+	<set type="flash.text.TextFormat" args="Arial,10,0xe9c484"  stylename="flowerGiving.flowerSendFrame.sendTF2" />
+	
+	<set type="flash.filters.GlowFilter" args="0x452802,2,4,4,30" stylename="flowerGiving.flowerSendFrame.sendToOtherGF" />
+	<set type="flash.text.TextFormat" args="Arial,12,0xcfb280"  stylename="flowerGiving.flowerSendFrame.sendToOtherTF" leading="8" />
+	
+	<set type="flash.filters.GlowFilter" args="0x452901,2,4,4,30" stylename="flowerGiving.flowerSendRecordFrame.GF" />
+	<set type="flash.text.TextFormat" args="Arial,12,0xcfb57f"  stylename="flowerGiving.flowerSendRecordFrame.TF" leading="8" />
+</sets>
+<customDisplay>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.descPos" x="36" y="282"/>
+<!-- 	排行榜 -->
+	<custom classname="flash.geom.Point" stylename="flowerGiving.rankView.rankTxtPos" x="42" y="92"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.rankView.nameTxtPos" x="186" y="92"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.rankView.numTxtPos" x="298" y="92"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.rankView.basePrizePos" x="407" y="92"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.rankView.superPrizePos" x="509" y="92"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.rankView.myFlowerLabelPos" x="32" y="455"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.rankView.myFlowerNumPos" x="124" y="454"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.rankVeiw.greenTxtPos" x="152" y="454"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.rankVeiw.baseRequestPos" x="273" y="428"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.rankVeiw.superRequestPos" x="273" y="451"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.rankView.btnPos" x="283" y="424"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.rankView.btnPos2" x="452" y="424"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.baseIconPos" x="404" y="0"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.superIconPos" x="500" y="0"/>
+<!-- 	累计赠花 -->
+	<custom classname="flash.geom.Point" stylename="flowerGiving.sendView.title1Pos" x="39" y="94"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.sendView.title2Pos" x="248" y="94"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.sendView.title3Pos" x="472" y="94"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.sendView.myFlowerTitlePos" x="30" y="450"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.sendView.myFlowerNumPos" x="179" y="450"/>
+	<!-- 赠送鲜花 -->
+	<custom classname="flowerGiving.views.FlowerSendFrame" stylename="flowerGiving.FlowerSendFrame"
+			backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame"
+			closestyle="core.closebt" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="24,10,5" closeInnerRectString="44,22,6,30,14"
+			moveInnerRectString="0,30,0,30,1" width="617" height="452" escEnable="true" />
+	<custom classname="flowerGiving.components.FlowerSendFrameNameInput" stylename="flowerGiving.FlowerSendFrame.nameInput"
+		parentStyle="ddtshop.ClearingInterface.nameInput" x="84" y="53"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.sendPos" x="28" y="23"/> 
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.sendNumPos" x="126" y="23"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.canGetPos" x="158" y="23"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.oselectBtnPos" x="46" y="324"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.otherNumPos" x="65" y="324"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.itemPos1" x="36" y="90"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.itemPos2" x="36" y="145"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.itemPos3" x="36" y="199"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.itemPos4" x="36" y="253"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.sendBagCell" x="73" y="9"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.getIconPos" x="236" y="9"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.myFlowerBagCell" x="364" y="304"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.searchBtnPos" x="537" y="75"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.searchTxtPos" x="420" y="72"/>
+	<!-- 赠送日志 -->	
+	<custom classname="flowerGiving.views.FlowerSendRecordFrame" stylename="flowerGiving.FlowerSendRecordFrame"
+			backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame"
+			closestyle="core.closebt" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="24,10,5" closeInnerRectString="44,22,6,30,14"
+			moveInnerRectString="0,30,0,30,1" width="542" height="433" escEnable="true" />
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendRecordFrame.timePos" x="10" y="9"/>
+	<custom classname="flash.geom.Point" stylename="flowerGiving.flowerSendFrame.contentPos" x="125" y="9"/>
+</customDisplay>
+<components>
+	<component classname="flowerGiving.views.FlowerGivingFrame" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="flowerGiving.flowerGivingFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" x="-160" y="-40"
+			closeInnerRectString="44,19,6,30,14" width="617" height="496" />
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="flowerGiving.hBox"  spacing="11"
+		x="22" y="39"/>
+<!-- 	首页按钮		 -->
+	<component classname="com.pickgliss.ui.controls.SelectedButton"
+			stylename="flowerGiving.mainPageBtn" unSelectedStyle="flowerGiving.mainPageUnselected"
+			selectedStyle="flowerGiving.mainPageSelected" filterString="null,lightFilter,null,grayFilter"/>	
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="flowerGiving.mainPageUnselected" resourceLink="core.bg6900,flowerGiving.mainPageUnselectedTxt"
+			x="15"  y="7" width="101" height="36"  imageRectString="101|36|0|0|9,101|36|0|-3|9" />
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="flowerGiving.mainPageSelected" resourceLink="core.bg6901,flowerGiving.mainPageSelectedTxt"
+			 x="0" y="5"  width="128" height="39"  imageRectString="128|39|0|0|9,128|39|0|0|9"/>
+<!-- 		今日收花榜	  -->
+	<component classname="com.pickgliss.ui.controls.SelectedButton"
+			stylename="flowerGiving.todayRankBtn" unSelectedStyle="flowerGiving.todayRankUnselected"
+			selectedStyle="flowerGiving.todayRankSelected" filterString="null,lightFilter,null,grayFilter"/>	
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="flowerGiving.todayRankUnselected" resourceLink="core.bg6900,flowerGiving.todayRankUnselectedTxt"
+			x="15"  y="7" width="101" height="36"  imageRectString="101|36|0|0|9,101|36|0|0|9" />
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="flowerGiving.todayRankSelected" resourceLink="core.bg6901,flowerGiving.todayRankSelectedTxt"
+			 x="0" y="5"  width="128" height="39"  imageRectString="128|39|0|0|9,128|39|0|0|9"/>	
+<!-- 			 昨日收花榜	 -->
+	<component classname="com.pickgliss.ui.controls.SelectedButton"
+			stylename="flowerGiving.yesRankBtn" unSelectedStyle="flowerGiving.yesRankUnselected"
+			selectedStyle="flowerGiving.yesRankSelected" filterString="null,lightFilter,null,grayFilter"/>	
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="flowerGiving.yesRankUnselected" resourceLink="core.bg6900,flowerGiving.yesRankUnselectedTxt"
+			x="15"  y="7" width="101" height="36"  imageRectString="101|36|0|0|9,101|36|0|0|9" />
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="flowerGiving.yesRankSelected" resourceLink="core.bg6901,flowerGiving.yesRankSelectedTxt"
+			 x="0" y="5"  width="128" height="39"  imageRectString="128|39|0|0|9,128|39|0|2|9"/>	 
+<!-- 	累积收花榜		  -->
+	<component classname="com.pickgliss.ui.controls.SelectedButton"
+			stylename="flowerGiving.cumuRankBtn" unSelectedStyle="flowerGiving.cumuRankUnselected"
+			selectedStyle="flowerGiving.cumuRankSelected" filterString="null,lightFilter,null,grayFilter"/>	
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="flowerGiving.cumuRankUnselected" resourceLink="core.bg6900,flowerGiving.cumuRankUnselectedTxt"
+			x="15"  y="7" width="101" height="36"  imageRectString="101|36|0|0|9,101|36|0|0|9" />
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="flowerGiving.cumuRankSelected" resourceLink="core.bg6901,flowerGiving.cumuRankSelectedTxt"
+			 x="0" y="5"  width="128" height="39"  imageRectString="128|39|0|0|9,128|39|0|0|9"/>
+<!-- 			 累计送花 -->
+	<component classname="com.pickgliss.ui.controls.SelectedButton"
+			stylename="flowerGiving.cumuGivingBtn" unSelectedStyle="flowerGiving.cumuGivingUnselected"
+			selectedStyle="flowerGiving.cumuGivingSelected" filterString="null,lightFilter,null,grayFilter"/>	
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="flowerGiving.cumuGivingUnselected" resourceLink="core.bg6900,flowerGiving.cumuGivingUnselectedTxt"
+			x="15"  y="7" width="101" height="36"  imageRectString="101|36|0|0|9,101|36|0|0|9" />
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="flowerGiving.cumuGivingSelected" resourceLink="core.bg6901,flowerGiving.cumuGivingSelectedTxt"
+			 x="0" y="5"  width="128" height="39"  imageRectString="128|39|0|0|9,128|39|0|4|9"/>
+	<!-- 赠送鲜花 -->
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="flowerGiving.FlowerSendFrame.scale9ImageBg" 
+		width="577" height="388" x="19" y="44" parentStyle="core.bg6920"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="flowerGiving.flowerSendFrame.sendRecordBtn" 
+		 backStyle="flowerGiving.flowerSendFrame.sendRecordButton" x="249" y="54"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="flowerGiving.flowerSendFrame.maxBtn" 
+		 backStyle="flowerGiving.flowerSendFrame.maxButton" x="248" y="320"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="flowerGiving.flowerSendFrame.sendBtn" 
+		 backStyle="flowerGiving.flowerSendFrame.sendButton" x="220" y="374"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="flowerGiving.flowerSendFrame.buyBtn" 
+		 backStyle="flowerGiving.flowerSendFrame.buyButton" x="416" y="316"/>	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.flowerSendFrame.numTxt"
+		textFormatStyle="flowerGiving.flowerSendFrame.numTF" filterString="flowerGiving.flowerSendFrame.numGF"  
+		 autoSize="none" type="input" width="62" height="25" x="143" y="322"/>
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" x="10" y="25"
+			stylename="flowerGiving.flowerSendFrame.selectedBtn" parentStyle="ddtshop.CartItemSelectBtn" fieldX='20' fieldY="-2"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.flowerSendFrame.sendTxt"
+		textFormatStyle="flowerGiving.flowerSendFrame.sendTF" filterString="flowerGiving.flowerSendFrame.sendGF"  
+		x="180" y="220" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.flowerSendFrame.sendTxt2"
+		textFormatStyle="flowerGiving.flowerSendFrame.sendTF2" filterString="flowerGiving.flowerSendFrame.sendGF"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.flowerSendFrame.sendToOtherTxt"
+		textFormatStyle="flowerGiving.flowerSendFrame.sendToOtherTF" filterString="flowerGiving.flowerSendFrame.sendToOtherGF"  
+		type="input" autoSize="none" width="195" height="155" x="374" y="141" wordWrap="true"/>	
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="flowerGiving.flowerSendFrame.sendBtnBackBg" parentStyle="asset.core.btmBimap"
+			width="560" height="58" x="25" y="368" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="flowerSendFrame.nameInputDropListTarget.InputTextBg" 
+		parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="150" height="28" />
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="flowerSendFrame.nameInputDropListTarget.NameInput"  
+		textStyle="core.nameInputDropListTarget.NameInputTxt" multiline="false" wordWrap="false" autoSize="none" width="122" height="22" x="4" y="3"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="flowerSendFrame.nameInputDropListTarget.Close" backStyle="asset.core.nameInputDropListTarget.close" 
+		filterString="null,lightFilter,null,grayFilter" x="123" y="3"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="flowerSendFrame.rewardIcon"  resourceLink="flowerGiving.bagIcon"/>
+	
+	<!-- 赠花日志 -->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="flowerGiving.flowerSendRecordFrame.huiKuiBtn" 
+		 backStyle="flowerGiving.flowerSendRecordFrame.huiKuiButton" x="402" y="4"/>
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="flowerGiving.flowerSendRecordFrame.vBox" spacing="-3" x="21" y="44" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.flowerSendRecordFrame.Txt"
+		textFormatStyle="flowerGiving.flowerSendRecordFrame.TF" filterString="flowerGiving.flowerSendRecordFrame.GF"/>
+				 
+<!-- 	flowerMainView  首页界面 -->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="flowerGiving.givingBtn"  backStyle="flowerGiving.givingFlower"  
+		x="230" y="424"/>
+<!-- 		flowerRankView  排行榜界面 -->
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="flowerGiving.vBox" spacing="-2" 
+		x="28" y="130" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="flowerGiving.rankView.getRewardBtn"  backStyle="flowerGiving.rankView.getReward" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="flowerGiving.PageCountBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"
+		 x="102" y="424"  width="65" height="24"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="flowerGiving.prevBtn" backStyle="asset.ddtcore.leftBtn" 
+		x="45" y="424" width="54" height="25"  filterString="null,lightFilter,null,grayFilter"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="flowerGiving.nextBtn" backStyle="asset.ddtcore.rightBtn" 
+		x="170" y="424" width="54" height="25"  filterString="null,lightFilter,null,grayFilter"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.pageTxt" textFormatStyle="flowerGiving.lightBrownTF2" filterString="flowerGiving.lightBrownGF" 
+		x="106" y="429" autoSize="none" width="60" height="26"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="flowerGiving.topThree" 
+		x="15" y="0" resourceLink="flowerGiving.orderNo1Asset,flowerGiving.orderNo2Asset,flowerGiving.orderNo3Asset"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="flowerGiving.rewardSmallIcon"  resourceLink="flowerGiving.bagIconSmall"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.rankVeiw.placeTxt"  parentStyle="flowerGiving.pureWhiteTxt"
+		x="2" y="3" autoSize="none" width="75" height="26"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.rankVeiw.nameTxt"  parentStyle="flowerGiving.pureWhiteTxt"
+		x="92" y="3" autoSize="none" width="150" height="26"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.rankVeiw.numTxt"  parentStyle="flowerGiving.pureWhiteTxt"
+		x="260" y="3" autoSize="none" width="100" height="26"/>
+<!-- 	FlowerSendView	 鲜花赠送界面	 -->
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="flowerSendView.scrollpanel" parentStyle="core.ScrollPanel" 
+		width="570" height="311" hScrollProxy="2" vScrollProxy="0" x="26" y="128"/>
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="flowerSendView.vBox" spacing="0" x="6" y="0" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="flowerSendView.getbtn" backStyle="flowerGiving.accumuGivingGetbtn" 
+		x="447" y="25" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerSendView.contentTxt" autoSize="none" width="133" height="40" wordWrap="true"
+		x="3"  y="22" textFormatStyle="flowerGiving.sendView.contentTF" filterString="flowerGiving.sendView.contentGF"  />
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="flowerSendView.hBox" spacing="10"  x="148" y="13" />
+<!-- 通用 -->
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+		stylename="flowerGiving.bottomBG" parentStyle="asset.core.btmBimap"
+		width="579" height="58" x="19" y="418" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.deepBrownTxt"
+		textFormatStyle="flowerGiving.deepBrownTF" filterString="flowerGiving.deepBrownGF"  />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.titleTxt"
+		textFormatStyle="flowerGiving.titleTF" filterString="flowerGiving.titleGF" height="35"  />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.myFlowerTitleTxt"
+		textFormatStyle="flowerGiving.myFlowerTitleTF" filterString="flowerGiving.myFlowerTitleGF"  />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.myFlowerNumTxt"
+		textFormatStyle="flowerGiving.myFlowerNumTF" filterString="flowerGiving.myFlowerNumGF"  />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.greenTxt"
+		textFormatStyle="flowerGiving.greenTF" filterString="flowerGiving.greenGF"  />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.lightBrownTxt"
+		textFormatStyle="flowerGiving.lightBrownTF" filterString="flowerGiving.lightBrownGF"  />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.pureWhiteTxt"
+		textFormatStyle="flowerGiving.pureWhiteTF" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="flowerGiving.outOfRankTxt"
+		textFormatStyle="flowerGiving.outOfRankTF" filterString="flowerGiving.outOfRankGF"  />	
+</components>
+<bitmaps>
+	<bitmapData resourceLink="flowerGiving.mainPageBG" x="19" y="82"/>
+	<bitmapData resourceLink="flowerGiving.rankBG" x="19" y="82"/>
+	<bitmapData resourceLink="flowerGiving.bottomBG2" x="18" y="416"/>
+	<bitmapData resourceLink="flowerGiving.accumuGivingBack" x="19" y="82"/>
+	<bitmapData resourceLink="flowerGiving.accumuGivingMouseOver" x="-2" y="-3"/>
+	<bitmapData resourceLink="flowerGiving.rankView.mouseOver"  x="-5" y="-7"/>
+	<bitmapData resourceLink="flowerGiving.flowerSendFrame.sendLeft" x="22" y="49"/>
+	<bitmapData resourceLink="flowerGiving.flowerSendFrame.sendRight" x="351" y="51"/>
+	<bitmapData resourceLink="flowerGiving.flowerSendRecordFrame.bg" x="19" y="44"/>
+	<bitmapData resourceLink="flowerGiving.haveGot" x="460" y="4"/>
+</bitmaps>
+</style>

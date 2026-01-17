@@ -1,0 +1,288 @@
+﻿<style name="petIsland" version="1.0.1" source="ui/turkey/swf/ddtmatch.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.scoreTxtTF" args="Arial,14,0xffd200,true,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.scoreTxtGF" args="0x260108,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.costMoneyTF" args="Arial,14,0xff9000,true,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.costMoneyGF" args="0x260108,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.scoreCellTF" args="Arial,12,0xffd200,,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.scoreCellGF" args="0x260108,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF1_1" args="Arial,12,0xffb400,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF1_1" args="0x200400,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF1_2" args="Arial,12,0xd2beb0,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF1_2" args="0x200400,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF1_3" args="Arial,14,0xe1dcd7,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF1_3" args="0x3f0002,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF1_4" args="Arial,16,0xfff4d4,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF1_4" args="0x7c4519,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF1_5" args="Arial,14,0xfff000,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF1_5" args="0xffffff,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF1_6" args="Arial,12,0xfdf1ad,,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF1_6" args="0x340202,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF1_7" args="Arial,12,0xfbd7ad,,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF1_7" args="0x250000,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF2_1" args="Arial,12,0xffc600,true,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF2_1" args="0x260108,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF2_2" args="Arial,14,0xdfc9c9,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF2_2" args="0x1b0000,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF2_3" args="Arial,14,0xfff88d,true,,,,,left" leading="2"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF2_3" args="0x2d030e,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF2_4" args="Arial,14,0xf6c6da,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF2_4" args="0x450822,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF2_5" args="Arial,16,0xffffff,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF2_5" args="0x000000,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF3_1" args="Arial,14,0xfee4e4,,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF3_1" args="0x3304020,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF3_2" args="Arial,12,0xfad4bf,,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF3_2" args="0x370202,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF3_3" args="Arial,14,0xffe400,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF3_3" args="0x770300,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF3_4" args="Arial,12,0xe6dea5,,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF3_4" args="0x270101,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF3_5" args="Arial,12,0xff0000,,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF3_5" args="0x321005,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF3_6" args="Arial,14,0xe8ce97,,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF3_6" args="0x4c361b,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF3_7" args="Arial,14,0xfffb8a,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF3_7" args="0x50220c,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF3_8" args="Arial,12,0xff0000,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF3_8" args="0x361a07,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF3_9" args="Arial,16,0xfdef76,true,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF3_9" args="0x481106,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="ddtmatch.match.TF3_10" args="Arial,14,0xfdef76,,,,,,left" leading="3"/>
+		<set type="flash.filters.GlowFilter" stylename="ddtmatch.match.GF3_10" args="0x4010a7,1,2,2,10"/>
+		
+		<set stylename="ddtmatch.match.TF2_6" type="flash.text.TextFormat" args="Arial,14,0x79451c,true,,,,,center" letterSpacing="0" />
+		<set stylename="ddtmatch.match.TF2_7" type="flash.text.TextFormat" args="Arial,12,0x79451c,true,,,,,right" letterSpacing="0" />
+		<set stylename="ddtmatch.match.GF2_6" type="flash.filters.GlowFilter" args="0xf0ead8,1,4,4,30,1" />
+		
+		<set stylename="ddtmatch.match.GF1_8" args="0x5f3d11,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddtmatch.match.TF1_8" args="Arial,13,0xfff9da" type="flash.text.TextFormat"/>
+		
+		<set stylename="ddtmatch.match.GF4_1" args="0x471e00,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddtmatch.match.TF4_1" args="Arial,14,0xe8e6c1" type="flash.text.TextFormat"/>
+		
+		<set stylename="ddtmatch.match.GF4_2" args="0x471e00,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddtmatch.match.TF4_2" args="Arial,12,0xe8e6c1,true" type="flash.text.TextFormat"/>
+		
+		<set stylename="ddtmatch.match.GF4_3" args="0x2a0107,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddtmatch.match.TF4_3" args="Arial,13,0xf9b600,true" type="flash.text.TextFormat"/>
+		
+		<set stylename="ddtmatch.match.GF4_4" args="0x260108,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="ddtmatch.match.TF4_4" args="Arial,16,0xffd200,true" type="flash.text.TextFormat"/>
+	</sets>
+
+	<components> 
+		<component classname="ddtmatch.view.DDTMatchMainFrame" backStyle="ddtmatch.mainBg"
+			closestyle="core.roundClosebt" closeInnerRectString="42,17,64,42,14" stylename="ddtmatch.view.mainframe"
+			 x="-160" y="-140" escEnable="true"
+			width="815" height="582" />
+			
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="ddtmatch.view.hBox" spacing="9" x="52" y="100"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddtmatch.view.matchBtn" unSelectedStyle="ddtmatch.matchBtn.unselect" selectedStyle="ddtmatch.matchBtn.select" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddtmatch.view.expertBtn" unSelectedStyle="ddtmatch.expertBtn.unselect" selectedStyle="ddtmatch.expertBtn.select" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddtmatch.view.redPacketBtn" unSelectedStyle="ddtmatch.redPacketBtn.unselect" selectedStyle="ddtmatch.redPacketBtn.select" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddtmatch.view.fightKingBtn" unSelectedStyle="ddtmatch.fightKingBtn.unselect" selectedStyle="ddtmatch.fightKingBtn.select" filterString="null,lightFilter,null,grayFilter"/>
+		
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtmatch.match.watchGameBtn" backStyle="ddtmatch.match.watchGameBtn" x="591" y="140"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.match.activityTxt" textFormatStyle="ddtmatch.match.scoreTxtTF" filterString="ddtmatch.match.scoreTxtGF" autoSize="none" width="450" height="22" x="93" y="153"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.match.costMoneyTxt" textFormatStyle="ddtmatch.match.costMoneyTF" filterString="ddtmatch.match.costMoneyGF" autoSize="none" width="200" height="22" x="92" y="183"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.match.scoreCellTxt" textFormatStyle="ddtmatch.match.scoreCellTF" filterString="ddtmatch.match.scoreCellGF" autoSize="none" width="58" height="20" x="-5" y="49"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.match.zhutxt" textFormatStyle="ddtmatch.match.TF1_6" filterString="ddtmatch.match.GF1_6" autoSize="none" width="40" height="20" x="253" y="17"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.match.buyNumTxt" type="input" textFormatStyle="ddtmatch.match.TF1_7" filterString="ddtmatch.match.GF1_7" autoSize="none" width="300" height="66" x="22" y="5"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.match.bettingWinTxt" textFormatStyle="ddtmatch.match.TF1_1" filterString="ddtmatch.match.GF1_1" autoSize="none" width="100" height="44" x="380" y="9" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.match.bettingLoseTxt" textFormatStyle="ddtmatch.match.TF1_2" filterString="ddtmatch.match.GF1_2" autoSize="none" width="100" height="44" x="526" y="9" wordWrap="true"/>
+		
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtmatch.match.scrollPanel" parentStyle="core.ScrollPanel" x="58" y="262" width="698" height="112" hScrollProxy="2" vScrollProxy="0"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtmatch.match.buyBtn" backStyle="ddtmatch.match.buy" x="293" y="12"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.match.countTxt" type="input" textFormatStyle="ddtmatch.match.TF1_3" filterString="ddtmatch.match.GF1_3" autoSize="none" width="42" height="20" x="202" y="15"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtmatch.expert.doubleBtn" backStyle="ddtmatch.expert.doubleBtn" x="312" y="476"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtmatch.expert.excludeBtn" backStyle="ddtmatch.expert.excludeBtn" x="186" y="476"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtmatch.expert.winBtn" backStyle="ddtmatch.expert.winBtn" x="62" y="476"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.expert.timesTxt" textFormatStyle="ddtmatch.match.TF2_1" filterString="ddtmatch.match.GF2_1" autoSize="none" width="20" height="20" x="159" y="472"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.expert.activityTimeTxt" textFormatStyle="ddtmatch.match.TF2_2" filterString="ddtmatch.match.GF2_2" autoSize="none" width="368" height="20" x="63" y="525"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.expert.myinfoTxt" textFormatStyle="ddtmatch.match.TF2_4" filterString="ddtmatch.match.GF2_4" autoSize="none" width="70" height="20" x="550" y="515"/>
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtmatch.expert.inputTxt" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="90" height="36" />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="ddtmatch.expert.buyok" parentStyle="core.simplebt" x="21" y="81" />
+		<component classname="com.pickgliss.ui.controls.TextButton"	stylename="ddtmatch.expert.buycancel" parentStyle="core.simplebt" x="194" y="81" />
+	
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtmatch.expert.topThreeRink" 
+			resourceLink="asset.coreIcon.orderNo1Asset,asset.coreIcon.orderNo2Asset,asset.coreIcon.orderNo3Asset" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.expert.rankItemTxt" textFormatStyle="ddtmatch.match.TF2_5" filterString="ddtmatch.match.GF2_5" autoSize="none" width="60" height="22" x="-5" y="2"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.expert.scoreItemTxt" textFormatStyle="ddtmatch.match.TF2_5" filterString="ddtmatch.match.GF2_5" autoSize="none" width="66" height="22" x="158" y="2"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.expert.nameItemTxt" textFormatStyle="ddtmatch.match.TF2_5" filterString="ddtmatch.match.GF2_5" autoSize="none" width="95" height="22" x="59" y="2"/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtmatch.HelpButton" x="656" y="92" backStyle="asset.ddtcore.helpbutton" />
+		
+		<component classname="com.pickgliss.ui.controls.Frame" stylename="ddtmatch.frame.help.main" parentStyle="BaseFrame" 
+			width="408" height="488" moveEnable="true" escEnable="true" moveInnerRectString="0,30,0,30,1"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtmatch.frame.help.bgHelp" 
+			parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" width="373" height="379" x="17" y="44"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="ddtmatch.frame.help.btnOk" 
+			parentStyle="core.simplebt" x="150" y="434" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.expert.curQuesitionNum" textFormatStyle="ddtmatch.match.TF2_1" filterString="ddtmatch.match.GF2_1" autoSize="none" width="200" height="20" x="70" y="171"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.expert.curQuesitionCD" textFormatStyle="ddtmatch.match.TF2_1" filterString="ddtmatch.match.GF2_1" autoSize="none" width="190" height="40" x="237" y="165" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.expert.question" textFormatStyle="ddtmatch.match.TF2_3" filterString="ddtmatch.match.GF2_3" autoSize="none" width="337" height="44" x="81" y="203" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.expert.answer" textFormatStyle="ddtmatch.match.TF2_3" filterString="ddtmatch.match.GF2_3" autoSize="none" width="300" height="150" x="120" y="262"/>
+		
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.ddtmatch.expert.select" resourceLink="ddtmatch.expert.select"/>
+		
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.redpacket.sendTimeTxt" textFormatStyle="ddtmatch.match.TF3_3" filterString="ddtmatch.match.GF3_3" autoSize="none" width="400" height="22" x="216" y="192"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.redpacket.activityTimeTxt" textFormatStyle="ddtmatch.match.TF3_4" filterString="ddtmatch.match.GF3_4" autoSize="none" width="275" height="22" x="472" y="516"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtmatch.redPacket.sendPacketBtn" backStyle="ddtmatch.redPacket.sendPacketBtn" x="312" y="483"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtmatch.redPacket.robPacketBtn" backStyle="ddtmatch.redPacket.robPacketBtn" x="490" y="4"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtmatch.redPacket.robRecordBtn" backStyle="ddtmatch.redPacket.robRecordBtn" x="576" y="4"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.redpacket.descriptAllTxt" textFormatStyle="ddtmatch.match.TF3_1" filterString="ddtmatch.match.GF3_1" autoSize="none" width="400" height="22" x="2" y="7"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.redpacket.descriptPlayerTxt" textFormatStyle="ddtmatch.match.TF3_2" filterString="ddtmatch.match.GF3_2" autoSize="none" width="420" height="22" x="2" y="9"/>
+		
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtmatch.redpacket.allScrollPanel" parentStyle="core.ScrollPanel" x="66" y="222" width="698" height="110" hScrollProxy="2" vScrollProxy="0"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtmatch.redpacket.playerScrollPanel" parentStyle="core.ScrollPanel" x="61" y="357" width="698" height="117" hScrollProxy="2" vScrollProxy="0"/>
+		
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.expert.alertText" textFormatStyle="ddtmatch.match.TF2_6" filterString="ddtmatch.match.GF2_6" autoSize="none" width="295" height="22" x="22" y="57"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtmatch.expert.selectBtn" 
+				parentStyle="core.simpleSelectBtn" textStyle="ddtmatch.expert.alertText2" displacement="false" 
+				fieldX="-215" fieldY="-2" x="260" y="92" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.expert.alertText2" textFormatStyle="ddtmatch.match.TF2_7" filterString="ddtmatch.match.GF2_6" autoSize="none" width="210" height="22" x="42" y="57"/>
+		<component classname="ddtmatch.view.DDTMatchAlertView" stylename="ddtmatch.expert.alertView" parentStyle="BaseFrame" width="350" height="190" />
+	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtmatch.redPacket.moneyInPacket" backStyle="ddtmatch.redPacket.moneyInPacket" x="70" y="232"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.redPacket.sendMoneyTxt" type="input" textFormatStyle="ddtmatch.match.TF3_5" filterString="ddtmatch.match.GF3_5" autoSize="none" width="174" height="22" x="134" y="70"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.redPacket.messageTxt" type="input" textFormatStyle="ddtmatch.match.TF3_6" filterString="ddtmatch.match.GF3_6" autoSize="none" width="300" height="66" x="22" y="144" wordWrap="true"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.redPacket.info.playerTxt" textFormatStyle="ddtmatch.match.TF3_7" filterString="ddtmatch.match.GF3_7" autoSize="none" width="200" height="22" x="145" y="21"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.redPacket.info.messageTxt" textFormatStyle="ddtmatch.match.TF3_8" filterString="ddtmatch.match.GF3_8" autoSize="none" width="252" height="22" x="116" y="102" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.redPacket.info.moneyNumberTxt" textFormatStyle="ddtmatch.match.TF3_9" filterString="ddtmatch.match.GF3_9" autoSize="none" width="200" height="22" x="231" y="70"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.redPacket.info.recordTxt" textFormatStyle="ddtmatch.match.TF3_10" filterString="ddtmatch.match.GF3_10"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtmatch.redpacket.info.scrollPanel" parentStyle="core.ScrollPanel" x="21" y="138" width="450" height="155" hScrollProxy="2" vScrollProxy="0"/>
+		
+		<component classname="ddtmatch.view.DDTMatchRedPacketSendView"
+			stylename="redPacketSendViewFrame" parentStyle="SimpleAlert" backStyle="SimpleFrameBackgoundOneIV" width="382"
+			height="340" moveEnable="false" escEnable="true" enterEnable="true"
+			cancelButtonStyle="core.simplebt" buttonToBottom="13"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,10,5"
+			containerX="20" containerY="40" closestyle="core.closebt"
+			closeInnerRectString="44,6,6,30,14" />
+			
+		<component classname="ddtmatch.view.DDTMatchRedPacketRecord"
+			stylename="redPacketRecordFrame" parentStyle="SimpleAlert" width="516"
+			height="367" moveEnable="false" escEnable="true" enterEnable="true"
+			cancelButtonStyle="core.simplebt" buttonToBottom="13"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,10,5"
+			containerX="20" containerY="40" closestyle="core.closebt"
+			closeInnerRectString="44,6,6,30,14" />
+		
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtmatch.match.comboxButtonAsset"
+			resourceLink="ddtmatch.match.comboxBtn" imageRectString="1|3|20|19|12"/>
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtmatch.match.comboxButton"
+			backStyle="ddtmatch.match.comboxButtonAsset" displacement="false"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddtmatch.match.comboxtxt" filterString="ddtmatch.match.GF1_8" textFormatStyle="ddtmatch.match.TF1_8" autoSize="none" width="68" height="22" />
+			
+		<component classname="com.pickgliss.ui.controls.ComboBox" stylename="ddtmatch.match.combox"
+			listPanelStyle="ddtmatch.match.ComboxListpanel3" buttonStyle="ddtmatch.match.comboxButton" width="20"
+			height="21" textStyle="ddtmatch.match.comboxtxt" listInnerRectString="0,33,10,100,18"
+			textInnerRectString="0,22,2,0,0" x="155" y="16"/>	
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="ddtmatch.match.ComboxListpanel3"
+			vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="3,0,22,0,5"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|ddtmatch.match.comboxListCell,24,150"
+			listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.GoodsTipBg"
+			backgoundInnerRectString="2,6,6,3,-1" hScrollProxy="2" vScrollProxy="1"
+			vUnitIncrement="5"/>
+		<component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter"
+			stylename="ddtmatch.match.comboxListCell" backStyle="core.comboxListCellAsset2"
+			textStyle="core.comboxListCellTxt" backgoundInnerRectString="3,10,2,5,-1"
+			autoSizeAble="false" width="400" height="22" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.fightKing.activityTimeTxt" textFormatStyle="ddtmatch.match.TF4_1" filterString="ddtmatch.match.GF4_1" autoSize="none" width="300" height="22" x="211" y="157"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.fightKing.activityInfoTxt" textFormatStyle="ddtmatch.match.TF4_2" filterString="ddtmatch.match.GF4_2" autoSize="none" width="500" height="44" x="214" y="194" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.fightKing.itemTitleTxt" textFormatStyle="ddtmatch.match.TF4_3" filterString="ddtmatch.match.GF4_3" autoSize="none" wordWrap="true" width="275" height="44" x="10" y="16"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtmatch.fightKing.myscoreTxt" textFormatStyle="ddtmatch.match.TF4_4" filterString="ddtmatch.match.GF4_4" autoSize="none" width="90" height="22" x="700" y="535"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="ddtmatch.fightKing.hBox" spacing="9" x="304" y="13"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="ddtmatch.fightKing.vBox" spacing="3" x="52" y="100"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtmatch.fightKing.scrollPanel" parentStyle="core.ScrollPanel" x="61" y="250" width="695" height="267" hScrollProxy="2" vScrollProxy="0"/>
+		
+	</components>
+	
+	<customs> 
+		<custom classname="flash.geom.Point" stylename="ddtmatch.match.visitorPos" x="348" y="31"/>
+		<custom classname="flash.geom.Point" stylename="ddtmatch.match.visitorNamePos" x="337" y="9"/>
+		
+		<custom classname="flash.geom.Point" stylename="ddtmatch.expert.red2Pos" x="274" y="468"/>
+		<custom classname="flash.geom.Point" stylename="ddtmatch.expert.red3Pos" x="401" y="468"/>
+		
+		<custom classname="flash.geom.Point" stylename="ddtmatch.expert.excludePos" x="282" y="472"/>
+		<custom classname="flash.geom.Point" stylename="ddtmatch.expert.doublePos" x="409" y="472"/>
+		
+		<custom classname="flash.geom.Point" stylename="ddtmatch.expert.myscorePos" x="684" y="515"/>
+		<custom classname="flash.geom.Point" stylename="ddtmatch.expert.cellPos" x="232" y="-5"/>
+		<custom classname="flash.geom.Point" stylename="ddtmatch.expert.cell1Pos" x="266" y="1"/>
+		
+		<custom classname="flash.geom.Point" stylename="ddtmatch.expert.selectPos0" x="87" y="258"/>
+		<custom classname="flash.geom.Point" stylename="ddtmatch.expert.selectPos1" x="87" y="293"/>
+		<custom classname="flash.geom.Point" stylename="ddtmatch.expert.selectPos2" x="87" y="328"/>
+		<custom classname="flash.geom.Point" stylename="ddtmatch.expert.selectPos3" x="87" y="365"/>
+		
+		<custom classname="flash.geom.Point" stylename="ddtmatch.expert.doubleSelect" x="179" y="137"/>
+		
+		<custom classname="flash.geom.Point" stylename="ddtmatch.redPacket.selectPos" x="152" y="99"/>
+		<custom classname="flash.geom.Point" stylename="ddtmatch.match.scrollPanel.pos" x="59" y="436"/>
+			
+		<custom classname="flash.geom.Point" stylename="ddtmatch.match.roundNumberMc.pos" x="13" y="14"/>
+		
+		<custom classname="flash.geom.Point" stylename="ddtmatch.match.winCell.pos" x="483" y="5"/>
+		<custom classname="flash.geom.Point" stylename="ddtmatch.match.loseCell.pos" x="625" y="5"/>
+		
+		<custom classname="flash.geom.Rectangle" stylename="ddtmatch.match.comboxRec" x="86" y="14" width='92' height = "24"/>
+			
+	</customs>
+	
+	<bitmaps>
+		<bitmapData resourceLink="ddtmatch.matchBg" x="42" y="135"/>
+		<bitmapData resourceLink="ddtmatch.expertBg" x="42" y="135"/>
+		<bitmapData resourceLink="ddtmatch.expert.redPoint" x="151" y="468"/>
+		<bitmapData resourceLink="ddtmatch.redPacketBg" x="42" y="135"/>
+		<bitmapData resourceLink="ddtmatch.redPacket.sendPacketBg" x="-2" y="4"/>
+		<bitmapData resourceLink="ddtmatch.redPacket.recordBg" x="-2" y="4"/>
+		<bitmapData resourceLink="ddtmatch.fightKing.socreBg" x="0" y="0"/>
+		<bitmapData resourceLink="ddtmatch.fightKingBg" x="42" y="135"/>
+		<bitmapData resourceLink="ddtmatch.expertBtn.unselect" x="5" y="0"/>
+		<bitmapData resourceLink="ddtmatch.fightKingBtn.unselect" x="5" y="0"/>
+		<bitmapData resourceLink="ddtmatch.matchBtn.unselect" x="5" y="0"/>
+		<bitmapData resourceLink="ddtmatch.redPacketBtn.unselect" x="5" y="0"/>
+		<bitmapData resourceLink="ddtmatch.fightKing.cellBg" x="-4" y="-3"/>
+		
+	</bitmaps>
+</style>

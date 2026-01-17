@@ -1,0 +1,155 @@
+<style name="storeFineForge" version="1.0.1" source="ui/zh_cn/swf/storeFineForge.swf">
+<sets>
+	<set stylename="storeFine.effect.contentTextTF" args="宋体,12,0xf1e09e,true" type="flash.text.TextFormat" />
+	<set stylename="storeFine.effect.contentTextGF" args="0x744309,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="storeFine.effect.titleTextTF" args="宋体,12,0xfdd95b,true" type="flash.text.TextFormat" />
+	<set stylename="storeFine.effect.titleTextGF" args="0x7c481b,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="storeFine.forge.infoTextTF" args="宋体,14,0xfff6c9,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="storeFine.forge.infoTextGF" args="0x402f00,1,2,2,30" type="flash.filters.GlowFilter" />
+	<set stylename="storeFine.cell.textTF" args="宋体,14,0x9b6539,true" type="flash.text.TextFormat" />
+	<set stylename="storeFine.cell.textGF" args="0x5a3115,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="storeFine.state.textTF1" args="宋体,12,0x31f30a,true" type="flash.text.TextFormat" />
+	<set stylename="storeFine.state.textGF1" args="0x341507,2,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="storeFine.state.textTF2" args="宋体,12,0xff1f1f,true" type="flash.text.TextFormat" />
+	<set stylename="storeFine.state.textGF2" args="0x360808,2,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="storeFine.state.textTF3" args="宋体,12,0xcccccc,true" type="flash.text.TextFormat" />
+	<set stylename="storeFine.state.textGF3" args="0x2c2c2c,2,4,4,30" type="flash.filters.GlowFilter" />
+	<set type="flash.text.TextFormat" stylename="evolution.distxt.tf" args="宋体,12,0xffd200,true"/>
+	<set type="flash.filters.GlowFilter" stylename="evolution.distxt.gf" args="0x542801,1,4,4,30"/>
+	
+	<set type="flash.text.TextFormat" stylename="evolution.distxtII.tf" args="宋体,12,0x18e32b,true"/>
+	<set type="flash.filters.GlowFilter" stylename="evolution.distxtII.gf" args="0x313c23,1,4,4,30"/>
+	
+	<set type="flash.text.TextFormat" stylename="evolution.money.tf" args="宋体,14,0xffec15,true"/>
+	<set type="flash.filters.GlowFilter" stylename="evolution.money.gf" args="0x502323,1,4,4,30"/>
+	
+	<set type="flash.text.TextFormat" stylename="evolution.lvtxt.tf" args="宋体,16,0xffec8c,true" letterSpacing="1"/>
+	<set type="flash.filters.GlowFilter" stylename="evolution.lvtxt.gf" args="0x512e0b,1,4,4,30"/>
+</sets>
+<customDisplays>
+	<custom classname="flash.geom.Point" stylename="storeFine.forge.progressPos" x="181" y="277"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.forge.progressTextPos" x="218" y="282"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.forge.helpPos" x="688" y="-12"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.forge.effectPos" x="525" y="95"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos0" x="96" y="73"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos1" x="174" y="73"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos2" x="252" y="73"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos3" x="330" y="73"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos4" x="408" y="73"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos5" x="96" y="143"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos6" x="174" y="143"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos7" x="252" y="143"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos8" x="330" y="143"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos9" x="408" y="143"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos10" x="135" y="213"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos11" x="213" y="213"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos12" x="291" y="213"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.cellPos13" x="369" y="213"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.tipsImagePos" x="0" y="-9"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.actionPos1" x="211" y="374"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.actionPos2" x="262" y="374"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.actionPos3" x="312" y="374"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.actionPos4" x="365" y="374"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.actionPos5" x="415" y="374"/>
+	
+	<custom classname="flash.geom.Point" stylename="forgeMainView.mouseOverPos" x="-17" y="263"/>
+	
+	<custom classname="flash.geom.Point" stylename="storeEvolution.itemCellPos" x="175" y="121"/>
+	<custom classname="flash.geom.Point" stylename="storeEvolution.leftBgPos" x="65" y="58"/>
+	
+	<custom classname="flash.geom.Point" stylename="evolutionUp.progressPos" x="146" y="250"/>
+	<custom classname="flash.geom.Point" stylename="evolutionUp.progressTxtPos" x="221" y="257"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.evolutionUp.helpPos" x="668" y="-3"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.evolutionAlert.Pos" x="79" y="96"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.evolutionAlertII.Pos" x="40" y="77"/>
+</customDisplays>
+<components>
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="storeFine.forge.effect.scrollpanel"  parentStyle="core.ScrollPanel"
+		viewportInnerRectString="-9,22,1,5,0" width="250" height="265" vUnitIncrement="10" vScrollProxy="0" x="3" y="-10"/>
+
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="storeFine.forge.forgeBtn" 
+		backStyle="store.fineforge.forgeBtn" filterString="null,lightFilter,lightFilter,grayFilter" 
+		x="203" y="396" width="141" height="49" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="newStore.fineStore.forgeMovieBg" 
+		resourceLink="newStore.fineStore.forgeMovieBg1,newStore.fineStore.forgeMovieBg2" x="507000" y="50" />
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+		stylename="newStore.fineStore.forgeMovieBg1" width="278" height="310"
+		resourceLink="core.Scale9CornerImage.scale9CornerImage25,core.Scale9CornerImage.scale9CornerImage25"
+		imageRectString=",1|1|1|1|0" x="3" />
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+		stylename="newStore.fineStore.forgeMovieBg2"
+		resourceLink="core.Scale9CornerImage.scale9CornerImage25,core.Scale9CornerImage.scale9CornerImage25"
+		imageRectString=",5|7|5|7|0" width="274" height="307" x="6" y="2" />
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="storeFine.forge.allInject" 
+		parentStyle="core.selectedCheck2" filterString="null,lightFilter,null,grayFilter" 
+		displacement="true" backStyle="store.fineforge.allInject" x="440" y="400" fieldX="-73" fieldY="6" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="storeFine.effect.contentText" 
+		textFormatStyle="storeFine.effect.contentTextTF" filterString="storeFine.effect.contentTextGF" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="storeFine.forge.infoText" 
+		textFormatStyle="storeFine.forge.infoTextTF" filterString="storeFine.forge.infoTextGF" 
+		autoSize="none" width="70" height="20" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="storeFine.effect.titleText" 
+		textFormatStyle="storeFine.effect.titleTextTF" filterString="storeFine.effect.titleTextGF" />
+
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="storeFine.forge.hBox" 
+		x="187" y="335" spacing="2" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="storeFine.cell.text" 
+		textFormatStyle="storeFine.cell.textTF" filterString="storeFine.cell.textGF" x="18" y="34"/>
+	<component classname="com.pickgliss.ui.core.Component" stylename="storeFine.progress.tips" 
+		tipStyle="ddt.view.tips.OneLineTip" tipDirctions="7,6" tipGapV="20" tipGapH="30" x="224" y="284"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="evolutionAler.content.text" 
+		parentStyle="simpleAlertContentText" x="40" y="76" autoSize="none" width="260" height="22"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="storeFine.cell.stateText1" 
+		textFormatStyle="storeFine.state.textTF1" filterString="storeFine.state.textGF1" x="122" y="-3"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="storeFine.cell.stateText2" 
+		textFormatStyle="storeFine.state.textTF2" filterString="storeFine.state.textGF2" x="122" y="-3"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="storeFine.cell.stateText3" 
+		textFormatStyle="storeFine.state.textTF3" filterString="storeFine.state.textGF3" x="122" y="-3"/>
+	
+		<!-- evolutionView -->		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="evolution.lvtxt" 
+		textFormatStyle="evolution.lvtxt.tf" type="dynamic" filterString="evolution.lvtxt.gf"
+		autoSize="none" x="123" y="253" width="60" height="22" />
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="evolution.distxtI" 
+		textFormatStyle="evolution.distxt.tf" type="dynamic" filterString="evolution.distxt.gf"
+		autoSize="none" x="130" y="292" width="200" height="22" />	
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="evolution.distxtII" 
+		textFormatStyle="evolution.distxtII.tf" type="dynamic" filterString="evolution.distxtII.gf"
+		autoSize="none" x="130" y="316" width="200" height="22" />	
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="evolution.money.txt" 
+		textFormatStyle="evolution.money.tf" type="dynamic" filterString="evolution.money.gf"
+		autoSize="none" x="97" y="357" width="200" height="22" />	
+
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="evolution.lockSelectBtn" 
+		backStyle="store.evolution.lockbtn" 
+		filterString="null,lightFilter,lightFilter,grayFilter" x="244" y="351" width="135" height="370" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="evolution.one.button.Btn" 
+		backStyle="store.evolution.onebutton" 
+		filterString="null,lightFilter,lightFilter,grayFilter" x="79" y="394" width="135" height="370" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="evolution.Btn" 
+		backStyle="store.evolution.btn" 
+		filterString="null,lightFilter,lightFilter,grayFilter" x="280" y="394" width="135" height="370" />
+	
+	<component  classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtstore.evolution.di" 
+			resourceLink="store.evolution.dis.bg" scaleGridString="8,8,20,20" width="244" height="60" x="96" y="283"/>	
+	
+</components>
+<bitmaps>
+	<bitmapData resourceLink="store.fineforge.forgeTitle" x="533" y="61" />
+	<bitmapData resourceLink="store.fineforge.infoBg" x="509000" y="362" />
+	<bitmapData resourceLink="store.fineforge.forgeBg" x="55000" y="48" />
+	<bitmapData resourceLink="store.fineforge.allInject" x="-73" y="6" />
+	<bitmapData resourceLink="store.fineforge.cellBg" x="0" y="0" />
+	<bitmapData resourceLink="store.fineforge.cellSelect" x="0" y="0" />
+	<bitmapData resourceLink="store.fineforge.cellShine" x="-7" y="-7" />
+	<bitmapData resourceLink="store.fineforge.cellBg1" x="-5" y="-5" />
+	<bitmapData resourceLink="store.fineforge.cellBg2" x="-5" y="-5" />
+	<bitmapData resourceLink="store.evolution.lv" x="91" y="254"/>
+</bitmaps>
+</style>

@@ -1,0 +1,107 @@
+<style name="rescue" version="2.0.1" source="ui/turkey/swf/rescue.swf">
+<sets>
+	<set type="flash.text.TextFormat" stylename="rescue.numTxtTF" args="Arial,16,0xfff1bf,true"/>
+	<set type="flash.filters.GlowFilter" stylename="rescue.numTxtGF" args="0x632f00,1,4,4,30"/>
+	<set type="flash.text.TextFormat" stylename="rescue.countTxtTF" args="Arial,20,0xffffff,true"/>
+	<set type="flash.filters.GlowFilter" stylename="rescue.countTxtGF" args="0x572525,1,4,4,30"/>
+	<set stylename="rescue.pageTF" args="Arial,12,0xFFF8D6,,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="rescue.pageGF" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>
+</sets>
+<customs>
+<custom classname="flash.geom.Point" stylename="rescue.sceneNumPos" x="41" y="35"/>
+	<custom classname="flash.geom.Point" stylename="rescue.arrowTxtPos" x="551" y="46"/>
+	<custom classname="flash.geom.Point" stylename="rescue.bloodPackTxtPos" x="671" y="46"/>
+	<custom classname="flash.geom.Point" stylename="rescue.kingBlessTxtPos" x="645" y="71"/>
+	<custom classname="flash.geom.Point" stylename="rescue.sceneNumPos1" x="41" y="35"/>
+	<custom classname="flash.geom.Point" stylename="rescue.sceneNumPos2" x="41" y="35"/>
+	<custom classname="flash.geom.Point" stylename="rescue.sceneNumPos3" x="41" y="35"/>
+	<custom classname="flash.geom.Point" stylename="rescue.sceneNumPos4" x="41" y="35"/>
+	<custom classname="flash.geom.Point" stylename="rescue.sceneNumPos5" x="41" y="35"/>
+	<custom classname="flash.geom.Point" stylename="rescue.sceneNumPos6" x="41" y="35"/>
+	<custom classname="flash.geom.Point" stylename="rescue.starPrizePos" x="70" y="12"/>
+	<custom classname="flash.geom.Point" stylename="rescue.cdTimeTxtPos" x="426" y="405"/>
+	<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="rescue.tileList" 
+		x="20" y="40" vSpace="-6" hSpace="0"/>
+	<custom classname="flash.geom.Point" stylename="rescue.roomInfo.viewPos" x="200" y="86"/>
+	<custom classname="flash.geom.Point" stylename="rescue.room.sceneImgPos" x="68" y="7"/>
+	<custom classname="flash.geom.Point" stylename="rescue.room.scoreTxtPos" x="244" y="10"/>
+	<custom classname="flash.geom.Point" stylename="rescue.room.arrowTxtPos" x="320" y="10"/>
+	<custom classname="flash.geom.Point" stylename="rescue.room.arrowTxt2Pos" x="426" y="10"/>
+	<custom classname="flash.geom.Point" stylename="rescue.room.bloodBagTxtPos" x="566" y="10"/>
+	<custom classname="flash.geom.Point" stylename="rescue.result.scenePos" x="177" y="15"/>
+	<custom classname="flash.geom.Point" stylename="rescue.result.scorePos" x="210" y="100"/>
+	<custom classname="flash.geom.Point" stylename="rescue.result.winOrLosePos" x="314" y="-2"/>
+	<custom classname="flash.geom.Point" stylename="rescue.result.submitBtnPos" x="169" y="251"/>
+	<custom classname="flash.geom.Point" stylename="rescue.numSpritePos" x="20" y="0"/>
+</customs>
+<components>
+	<component classname="rescue.views.RescueMainFrame" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="rescue.rescueMainView" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5"  escEnable="true"  containerX="20" containerY="45" 
+			closeInnerRectString="44,19,6,30,14" width="768" height="508" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="rescue.numTxt" 
+		textFormatStyle="rescue.numTxtTF" filterString="rescue.numTxtGF"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"  stylename="rescue.challengeBtn"
+		x="239" y="377"  backStyle="rescue.challenge"	/>
+
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="rescue.sceneItemBg" 
+		x="5" y="5" resourceLink="rescue.sceneBg,rescue.sceneBgNotYet,rescue.sceneBg7,rescue.sceneBg8" />
+
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="rescue.starHBox" 
+		x="37" y="77" spacing="4" />
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="rescue.shopVBox" 
+		x="497" y="101" spacing="2" />
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="rescue.prizeHBox" 
+		x="30" y="289" spacing="8" />
+		
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="rescue.cdTimeBg"  parentStyle="core.commonTipBg"
+		x="419" y="400"  width="110" height="28" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="rescue.accelerateBtn"
+		x="497" y="405"  backStyle="rescue.accelerate" 	/>	
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="rescue.nextBtn" backStyle="asset.ddtcore.rightBtn" x="423" y="14" filterString="null,lightFilter,null,grayFilter"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="rescue.pageTxt" textFormatStyle="rescue.pageTF" filterString="rescue.pageGF" x="384" y="17" width="60" height="20"/>
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="rescue.pageBG" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="372" y="13" width="45" height="24"/>
+<component classname="com.pickgliss.ui.controls.TextButton" stylename="rescue.result.EnterBtn" parentStyle="core.simplebt" x="158" y="430"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="rescue.prevBtn" backStyle="asset.ddtcore.leftBtn" x="311" y="14" filterString="null,lightFilter,null,grayFilter"/>
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="rescue.countTxt" 
+	  	x="369" y="391" textFormatStyle="rescue.countTxtTF" filterString="rescue.countTxtGF"/>
+	  	
+	<component classname="rescue.views.RescueConfirmView" stylename="rescue.confirmView"  parentStyle="SimpleAlert"/>
+	<component classname="rescue.views.RescueQuickBuyFrame" backStyle="SimpleFrameBackgoundOneIII"
+			closestyle="core.closebt" stylename="rescue.quickBuyFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5"  escEnable="true"  containerX="0" containerY="30" 
+			closeInnerRectString="44,19,6,30,14" width="370" height="210" />
+
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="rescue.room.openBtn" 
+		x="489" y="2"  backStyle="rescue.roomInfo.open" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="rescue.room.closeBtn" 
+		x="20" y="2"  backStyle="rescue.roomInfo.close" />
+
+	<component classname="rescue.views.RescueResultFrame" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="rescue.resultFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5"  escEnable="true"  containerX="20" containerY="44" 
+			closeInnerRectString="44,19,6,30,14" width="460" height="360" />
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="rescue.result.starHBox" 
+		x="216" y="206" spacing="4" />	
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="rescue.result.stamp" 
+		x="313" y="3" resourceLink="asset.experience.rightViewWin,asset.experience.rightViewLose" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="rescue.helpBtn"  backStyle="asset.ddtcore.helpbuttonSmall"
+		x="650" y="-39"/>	
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="rescue.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" 
+		x="-14" y="-20" width="470" height="376" />
+	<component classname="store.HelpPrompt" stylename="rescue.HelpPrompt" bg9ScalseStyle="rescue.HelpFrame.FrameBg" contentStyle="rescue.helpTxt" 
+		x="31" y="64" />
+	<component classname="store.HelpFrame" stylename="rescue.HelpFrame" parentStyle="BaseFrame" width="504" height="484" />
+</components>
+<bitmaps>
+	<bitmapData resourceLink="rescue.txtImg" x="501" y="47"/>
+	<bitmapData resourceLink="rescue.selectedLight" x="0" y="0"/>
+	<bitmapData resourceLink="rescue.alreadyGet" x="87" y="-7"/>
+	<bitmapData resourceLink="rescue.arrow"  x="10" y="10"/>
+	<bitmapData resourceLink="rescue.bloodBag" x="10" y="10"/>
+	<bitmapData resourceLink="rescue.kingBless" x="10" y="10"/>
+	<bitmapData resourceLink="rescue.roomInfo.openBg" x="41" y="0"/>
+	<bitmapData resourceLink="rescue.roomInfo.closeBg" x="511" y="0"/>
+</bitmaps>
+</style>

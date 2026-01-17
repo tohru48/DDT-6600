@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="sevendoubleframe" version="5.1.0" source="ui/turkey/swf/sevendoubleframe.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="sevenDouble.frame.cellTitleTxt.tf" args="Arial,14,0xffd33a,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="sevenDouble.frame.cellTitleTxt.gf" args="0x330300,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="sevenDouble.frame.cellAwardTxt.tf" args="Arial,12,0xfff2c6"/>  
+    <set type="flash.filters.GlowFilter" stylename="sevenDouble.frame.cellAwardTxt.gf" args="0x330300,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="sevenDouble.frame.cellCallTxtbtn.txt.tf" args="Arial,14,0xfff2c6,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="sevenDouble.frame.cellCallTxtbtn.txt.gf" args="0x00583d,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="sevenDouble.frame.countTxt.tf" args="Arial,18,0xffffff"/>  
+    <set type="flash.filters.GlowFilter" stylename="sevenDouble.frame.countTxt.gf" args="0x572525,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="sevenDouble.frame.matchViewTipTxt.tf" args="Arial,12,0xf4f3e3,true" leading="4"/>  
+    <set type="flash.filters.GlowFilter" stylename="sevenDouble.frame.matchViewTipTxt.gf" args="0x987f43,1,4,4,30"/> 
+  </sets>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="sevenDouble.frame.cellEscortTxtPos" x="31" y="257"/>  
+    <custom classname="flash.geom.Point" stylename="sevenDouble.frame.cellAwardTxt2Pos" x="10" y="207"/>  
+    <custom classname="flash.geom.Point" stylename="sevenDouble.frame.cellAwardTxt3Pos" x="10" y="225"/>
+    <custom classname="flash.geom.Point" stylename="sevenDouble.frame.cellSevenDoubleTxtPos" x="40" y="257"/> 
+  </customs>  
+  <components> 
+    <component classname="sevenDouble.view.SevenDoubleFrame" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" stylename="SevenDoubleFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" containerX="20" containerY="47" escEnable="true" closeInnerRectString="44,19,6,30,14" width="681" height="443"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="sevenDouble.frame.bg" width="641" height="310" x="0" y="0" parentStyle="core.bg6920"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="sevenDouble.frame.bottomBg" parentStyle="asset.core.btmBimap" x="0" y="314" width="641" height="62"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sevenDouble.frame.cellTitleTxt" textFormatStyle="sevenDouble.frame.cellTitleTxt.tf" filterString="sevenDouble.frame.cellTitleTxt.gf" x="10" y="167"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sevenDouble.frame.cellAwardTxt" textFormatStyle="sevenDouble.frame.cellAwardTxt.tf" filterString="sevenDouble.frame.cellAwardTxt.gf" x="10" y="187"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="sevenDouble.frame.cellCallTxtbtn" backStyle="core.bg6902" textStyle="sevenDouble.frame.cellCallTxtbtn.txt" filterString="null,lightFilter,null,grayFilter" backgoundInnerRectString="25,30,6,12,-1" x="57" y="251"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sevenDouble.frame.cellCallTxtbtn.txt" textFormatStyle="sevenDouble.frame.cellCallTxtbtn.txt.tf" filterString="sevenDouble.frame.cellCallTxtbtn.txt.gf"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sevenDouble.frame.freeBtn" backStyle="asset.sevenDouble.frame.freeBtn" x="228" y="319"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sevenDouble.frame.startBtn" backStyle="asset.sevenDouble.frame.startBtn" x="228" y="319"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sevenDouble.frame.countTxt" textFormatStyle="sevenDouble.frame.countTxt.tf" filterString="sevenDouble.frame.countTxt.gf" x="370" y="333"/>  
+    <component classname="sevenDouble.view.SevenDoubleMatchView" stylename="sevenDouble.frame.matchView" backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="24,10,5" closeInnerRectString="44,12,6,30,14" moveInnerRectString="0,30,0,30,1" width="552" height="505" escEnable="true"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="sevenDouble.matchViewtextIcon" resourceLink="asset.sevenDouble.matchViewtextIcon" x="37" y="374"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sevenDouble.matchViewCancelBtn" backStyle="asset.sevenDouble.matchViewCancelBtn" x="296" y="389"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sevenDouble.frame.matchViewTipTxt" textFormatStyle="sevenDouble.frame.matchViewTipTxt.tf" filterString="sevenDouble.frame.matchViewTipTxt.gf" x="38" y="404"/>  
+    <component classname="sevenDouble.view.SevenDoubleBuyConfirmView" stylename="SevenDoubleBuyConfirmView" parentStyle="SimpleAlert"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sevenDouble.HelpButtonShort" backStyle="asset.ddtcore.helpbuttonShort" x="514" y="-44"/> 
+  	
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.sevenDouble.matchView.car0" x="29" y="53"/>  
+    <bitmapData resourceLink="asset.sevenDouble.matchView.car1" x="29" y="53"/>  
+    <bitmapData resourceLink="asset.sevenDouble.matchView.car2" x="29" y="53"/>  
+    <bitmapData resourceLink="asset.sevenDouble.doubleScoreIcon" x="291" y="-26"/> 
+  </bitmaps> 
+</style>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="timesupdate" version="1.0.1" source="ui/turkey/swf/timesupdate.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="timesUpdate.viewCell.titleTxt.tf" args="Arial,14,0xf4d96b,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="timesUpdate.viewCell.titleTxt.gf" args="0x461e08,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="timesUpdate.viewCell.contentTxt.tf" args="Arial,14,0xfff9ed" leading="3" letterSpacing="1"/>  
+    <set type="flash.filters.GlowFilter" stylename="timesUpdate.viewCell.contentTxt.gf" args="0x5f3e2a,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="timesUpdate.view.updateTimeTxt.tf" args="Arial,14,0xffffff,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="timesUpdate.view.updateTimeTxt.gf" args="0x462222,1,4,4,30"/> 
+  </sets>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="timesUpdate.frame.viewPos" x="8" y="45"/> 
+  </customs>  
+  <components> 
+    <component classname="times.TimesUpdateFrame" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" stylename="TimesUpdateFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" containerX="20" containerY="46" closeInnerRectString="44,19,6,30,14" width="795" height="478"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="timesUpdate.frameBg" parentStyle="core.bg6920" width="754" height="412" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="timesUpdate.viewCell.titleTxt" textFormatStyle="timesUpdate.viewCell.titleTxt.tf" filterString="timesUpdate.viewCell.titleTxt.gf" autoSize="none" width="700" height="22" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="timesUpdate.viewCell.contentTxt" textFormatStyle="timesUpdate.viewCell.contentTxt.tf" filterString="timesUpdate.viewCell.contentTxt.gf" autoSize="none" multiline="true" wordWrap="true" width="685" height="50" x="13" y="25"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="timesUpdate.view.contentVBox" spacing="7" y="0" x="0"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="timesUpdate.view.contentScrollPanel" parentStyle="core.ScrollPanel" vScrollProxy="0" width="725" height="342" x="8" y="8"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="timesUpdate.view.updateTimeTxt" textFormatStyle="timesUpdate.view.updateTimeTxt.tf" filterString="timesUpdate.view.updateTimeTxt.gf" autoSize="none" width="105" height="22" x="643" y="-22"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.timesUpdate.updateContentTip" x="8" y="-29"/>  
+    <bitmapData resourceLink="asset.timesUpdate.updateTimeTip" x="513" y="-22"/> 
+  </bitmaps> 
+</style>

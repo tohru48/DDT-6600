@@ -1,0 +1,137 @@
+<Result value="true" message="Success!">
+  <item ID="10101" Name="Hồi Phục Đơn Lv1" EffectPic="" Description="Hồi phục đơn Lv1" Pic="-1" />
+  <item ID="10102" Name="Hồi Phục Đơn Lv2" EffectPic="" Description="Hồi phục đơn Lv2" Pic="-1" />
+  <item ID="10103" Name="Hồi Phục Đơn Lv3" EffectPic="" Description="Hồi phục đơn Lv3" Pic="-1" />
+  <item ID="10104" Name="Hồi Phục Đơn Lv4" EffectPic="" Description="Hồi phục đơn Lv4" Pic="-1" />
+  <item ID="10105" Name="Hồi Phục Đơn Lv5" EffectPic="" Description="Hồi phục đơn Lv5" Pic="-1" />
+  <item ID="10106" Name="Hồi Phục Đơn Lv6" EffectPic="" Description="Hồi phục đơn Lv1" Pic="-1" />
+  <item ID="10107" Name="Hồi Phục Đơn Lv7" EffectPic="" Description="Hồi phục đơn Lv2" Pic="-1" />
+  <item ID="10108" Name="Hồi Phục Đơn Lv8" EffectPic="" Description="Hồi phục đơn Lv3" Pic="-1" />
+  <item ID="10109" Name="Hồi Phục Đơn Lv9" EffectPic="" Description="Hồi phục đơn Lv4" Pic="-1" />
+  <item ID="10110" Name="Hồi Phục Đơn Lv10" EffectPic="" Description="Hồi phục đơn Lv5" Pic="-1" />
+  <item ID="10201" Name="Hồi Phục Nhóm Lv1" EffectPic="" Description="Hồi phục nhóm Lv1" Pic="-1" />
+  <item ID="10202" Name="Hồi Phục Nhóm Lv2" EffectPic="" Description="Hồi phục nhóm Lv2" Pic="-1" />
+  <item ID="10203" Name="Hồi Phục Nhóm Lv3" EffectPic="" Description="Hồi phục nhóm Lv3" Pic="-1" />
+  <item ID="10204" Name="Hồi Phục Nhóm Lv4" EffectPic="" Description="Hồi phục nhóm Lv4" Pic="-1" />
+  <item ID="10205" Name="Hồi Phục Nhóm Lv5" EffectPic="" Description="Hồi phục nhóm Lv5" Pic="-1" />
+  <item ID="10206" Name="Hồi Phục Nhóm Lv6" EffectPic="" Description="Hồi phục nhóm Lv1" Pic="-1" />
+  <item ID="10207" Name="Hồi Phục Nhóm Lv7" EffectPic="" Description="Hồi phục nhóm Lv2" Pic="-1" />
+  <item ID="10208" Name="Hồi Phục Nhóm Lv8" EffectPic="" Description="Hồi phục nhóm Lv3" Pic="-1" />
+  <item ID="10209" Name="Hồi Phục Nhóm Lv9" EffectPic="" Description="Hồi phục nhóm Lv4" Pic="-1" />
+  <item ID="10210" Name="Hồi Phục Nhóm Lv10" EffectPic="" Description="Hồi phục nhóm Lv5" Pic="-1" />
+  <item ID="10301" Name="Xuyên Phòng Lv1" EffectPic="" Description="Xuyên phòng Lv1" Pic="-1" />
+  <item ID="10302" Name="Xuyên Phòng Lv2" EffectPic="" Description="Xuyên phòng Lv2" Pic="-1" />
+  <item ID="10303" Name="Xuyên Phòng Lv3" EffectPic="" Description="Xuyên phòng Lv3" Pic="-1" />
+  <item ID="10304" Name="Xuyên Phòng Lv4" EffectPic="" Description="Xuyên phòng Lv4" Pic="-1" />
+  <item ID="10305" Name="Xuyên Phòng Lv5" EffectPic="" Description="Xuyên phòng Lv5" Pic="-1" />
+  <item ID="10306" Name="Xuyên Phòng Lv6" EffectPic="" Description="Xuyên phòng Lv6" Pic="-1" />
+  <item ID="10307" Name="Xuyên Phòng Lv7" EffectPic="" Description="Xuyên phòng Lv7" Pic="-1" />
+  <item ID="10308" Name="Xuyên Phòng Lv8" EffectPic="" Description="Xuyên phòng Lv8" Pic="-1" />
+  <item ID="10309" Name="Xuyên Phòng Lv9" EffectPic="" Description="Xuyên phòng Lv9" Pic="-1" />
+  <item ID="10310" Name="Xuyên Phòng Lv10" EffectPic="" Description="Xuyên phòng Lv10" Pic="-1" />
+  <item ID="10401" Name="Kích Nộ Lv1" EffectPic="" Description="Kích nộ Lv1" Pic="-1" />
+  <item ID="10402" Name="Kích Nộ Lv2" EffectPic="" Description="Kích Nộ Lv2" Pic="-1" />
+  <item ID="10403" Name="Kích Nộ Lv3" EffectPic="" Description="Kích Nộ Lv3" Pic="-1" />
+  <item ID="10404" Name="Kích Nộ Lv4" EffectPic="" Description="Kích Nộ Lv4" Pic="-1" />
+  <item ID="10405" Name="Kích Nộ Lv5" EffectPic="" Description="Kích Nộ Lv5" Pic="-1" />
+  <item ID="10501" Name="Hồi Sinh Lv1" EffectPic="" Description="Hồi sinh Lv1" Pic="-1" />
+  <item ID="10502" Name="Hồi Sinh Lv2" EffectPic="" Description="Hồi sinh Lv2" Pic="-1" />
+  <item ID="10503" Name="Hồi Sinh Lv3" EffectPic="" Description="Hồi sinh Lv3" Pic="-1" />
+  <item ID="10504" Name="Hồi Sinh Lv4" EffectPic="" Description="Hồi sinh Lv4" Pic="-1" />
+  <item ID="10505" Name="Hồi Sinh Lv5" EffectPic="" Description="Hồi sinh Lv5" Pic="-1" />
+  <item ID="10601" Name="Tịnh Hóa Lv1" EffectPic="" Description="Tịnh hóa Lv1" Pic="-1" />
+  <item ID="10602" Name="Tịnh Hóa Lv2" EffectPic="" Description="Tịnh hóa Lv2" Pic="-1" />
+  <item ID="10603" Name="Tịnh Hóa Lv3" EffectPic="" Description="Tịnh hóa Lv3" Pic="-1" />
+  <item ID="10604" Name="Tịnh Hóa Lv4" EffectPic="" Description="Tịnh hóa Lv4" Pic="-1" />
+  <item ID="10605" Name="Tịnh Hóa Lv5" EffectPic="" Description="Tịnh hóa Lv5" Pic="-1" />
+  <item ID="10606" Name="Tịnh Hóa Lv6" EffectPic="" Description="Tịnh hóa Lv6" Pic="-1" />
+  <item ID="10607" Name="Tịnh Hóa Lv7" EffectPic="" Description="Tịnh hóa Lv7" Pic="-1" />
+  <item ID="10608" Name="Tịnh Hóa Lv8" EffectPic="" Description="Tịnh hóa Lv8" Pic="-1" />
+  <item ID="10609" Name="Tịnh Hóa Lv9" EffectPic="" Description="Tịnh hóa Lv9" Pic="-1" />
+  <item ID="10610" Name="Tịnh Hóa Lv10" EffectPic="" Description="Tịnh hóa Lv10" Pic="-1" />
+  <item ID="10701" Name="Đạn Băng Lv1" EffectPic="" Description="Không thuộc tính" Pic="-1" />
+  <item ID="10702" Name="Đạn Băng Lv2" EffectPic="" Description="Không thuộc tính" Pic="-1" />
+  <item ID="10703" Name="Đạn Băng Lv3" EffectPic="" Description="Không thuộc tính" Pic="-1" />
+  <item ID="10704" Name="Đạn Băng Lv4" EffectPic="" Description="Không thuộc tính" Pic="-1" />
+  <item ID="10705" Name="Đạn Băng Lv5" EffectPic="" Description="Không thuộc tính" Pic="-1" />
+  <item ID="10801" Name="Dẫn Đường Lv1" EffectPic="" Description="Dẫn đường" Pic="-1" />
+  <item ID="10802" Name="Dẫn Đường Lv2" EffectPic="" Description="Dẫn đường" Pic="-1" />
+  <item ID="10803" Name="Dẫn Đường Lv3" EffectPic="" Description="Dẫn đường" Pic="-1" />
+  <item ID="10804" Name="Dẫn Đường Lv4" EffectPic="" Description="Dẫn đường" Pic="-1" />
+  <item ID="10805" Name="Dẫn Đường Lv5" EffectPic="" Description="Dẫn đường" Pic="-1" />
+  <item ID="10901" Name="Ẩn Thân Đơn Lv1" EffectPic="" Description="Ẩn thân" Pic="-1" />
+  <item ID="10902" Name="Ẩn Thân Đơn Lv2" EffectPic="" Description="Ẩn thân" Pic="-1" />
+  <item ID="10903" Name="Ẩn Thân Đơn Lv3" EffectPic="" Description="Ẩn thân" Pic="-1" />
+  <item ID="10904" Name="Ẩn Thân Đơn Lv4" EffectPic="" Description="Ẩn thân" Pic="-1" />
+  <item ID="10905" Name="Ẩn Thân Đơn Lv5" EffectPic="" Description="Ẩn thân" Pic="-1" />
+  <item ID="11001" Name="Ẩn Thân Nhóm Lv1" EffectPic="" Description="Ẩn thân" Pic="-1" />
+  <item ID="11002" Name="Ẩn Thân Nhóm Lv2" EffectPic="" Description="Ẩn thân" Pic="-1" />
+  <item ID="11003" Name="Ẩn Thân Nhóm Lv3" EffectPic="" Description="Ẩn thân" Pic="-1" />
+  <item ID="11004" Name="Ẩn Thân Nhóm Lv4" EffectPic="" Description="Ẩn thân" Pic="-1" />
+  <item ID="11005" Name="Ẩn Thân Nhóm Lv5" EffectPic="" Description="Ẩn thân" Pic="-1" />
+  <item ID="11101" Name="Trọng Thương Lv1" EffectPic="" Description="Khi tấn công kèm theo 4% + 100 điểm sát thương thêm" Pic="16" />
+  <item ID="11102" Name="Trọng Thương Lv2" EffectPic="" Description="Khi tấn công kèm theo 6% + 140 điểm sát thương thêm" Pic="16" />
+  <item ID="11103" Name="Trọng Thương Lv3" EffectPic="" Description="Khi tấn công kèm theo 8% + 190 điểm sát thương thêm" Pic="16" />
+  <item ID="11104" Name="Trọng Thương Lv4" EffectPic="" Description="Khi tấn công kèm theo 10% + 245 điểm sát thương thêm" Pic="16" />
+  <item ID="11105" Name="Trọng Thương Lv5" EffectPic="" Description="Khi tấn công kèm theo 13% + 300 điểm sát thương thêm" Pic="16" />
+  <item ID="11106" Name="Trọng Thương Lv6" EffectPic="" Description="Khi tấn công kèm theo 16% + 360 điểm sát thương thêm" Pic="16" />
+  <item ID="11107" Name="Trọng Thương Lv7" EffectPic="" Description="Khi tấn công kèm theo 19% + 435 điểm sát thương thêm" Pic="16" />
+  <item ID="11108" Name="Trọng Thương Lv8" EffectPic="" Description="Khi tấn công kèm theo 22% + 525 điểm sát thương thêm" Pic="16" />
+  <item ID="11109" Name="Trọng Thương Lv9" EffectPic="" Description="Khi tấn công kèm theo 25% + 625 điểm sát thương thêm" Pic="16" />
+  <item ID="11110" Name="Trọng Thương Lv10" EffectPic="" Description="Khi tấn công kèm theo 30% + 730 điểm sát thương thêm" Pic="16" />
+  <item ID="11201" Name="Miễn Kháng Lv1" EffectPic="" Description="Miễn kháng" Pic="-1" />
+  <item ID="11202" Name="Miễn Kháng Lv2" EffectPic="" Description="Miễn kháng" Pic="-1" />
+  <item ID="11203" Name="Miễn Kháng Lv3" EffectPic="" Description="Miễn kháng" Pic="-1" />
+  <item ID="11204" Name="Miễn Kháng Lv4" EffectPic="" Description="Miễn kháng" Pic="-1" />
+  <item ID="11205" Name="Miễn Kháng Lv5" EffectPic="" Description="Miễn kháng" Pic="-1" />
+  <item ID="11301" Name="Giảm Thương Lv1" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11302" Name="Giảm Thương Lv2" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11303" Name="Giảm Thương Lv3" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11304" Name="Giảm Thương Lv4" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11305" Name="Giảm Thương Lv5" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11306" Name="Giảm Thương Lv6" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11307" Name="Giảm Thương Lv7" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11308" Name="Giảm Thương Lv8" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11309" Name="Giảm Thương Lv9" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11310" Name="Giảm Thương Lv10" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11401" Name="Tăng sát thương POW" EffectPic="" Description="Tăng sát thương POW" Pic="-1" />
+  <item ID="11402" Name="Tăng sát thương POW" EffectPic="" Description="Tăng sát thương POW" Pic="-1" />
+  <item ID="11403" Name="Tăng sát thương POW" EffectPic="" Description="Tăng sát thương POW" Pic="-1" />
+  <item ID="11404" Name="Tăng sát thương POW" EffectPic="" Description="Tăng sát thương POW" Pic="-1" />
+  <item ID="11405" Name="Tăng sát thương POW" EffectPic="" Description="Tăng sát thương POW" Pic="-1" />
+  <item ID="11801" Name="Giảm Thương" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11802" Name="Giảm Thương" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11803" Name="Giảm Thương" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11804" Name="Giảm Thương" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11805" Name="Giảm Thương" EffectPic="" Description="Giảm thương" Pic="-1" />
+  <item ID="11901" Name="Xuyên Giáp Lv1" EffectPic="" Description="Xuyên giáp Lv1" Pic="-1" />
+  <item ID="11902" Name="Xuyên Giáp Lv2" EffectPic="" Description="Xuyên giáp Lv2" Pic="-1" />
+  <item ID="11903" Name="Xuyên Giáp Lv3" EffectPic="" Description="Xuyên giáp Lv3" Pic="-1" />
+  <item ID="11904" Name="Xuyên Giáp Lv4" EffectPic="" Description="Xuyên giáp Lv4" Pic="-1" />
+  <item ID="11905" Name="Xuyên Giáp Lv5" EffectPic="" Description="Xuyên giáp Lv5" Pic="-1" />
+  <item ID="11906" Name="Xuyên Giáp Lv6" EffectPic="" Description="Xuyên giáp Lv6" Pic="-1" />
+  <item ID="11907" Name="Xuyên Giáp Lv7" EffectPic="" Description="Xuyên giáp Lv7" Pic="-1" />
+  <item ID="11908" Name="Xuyên Giáp Lv8" EffectPic="" Description="Xuyên giáp Lv8" Pic="-1" />
+  <item ID="11909" Name="Xuyên Giáp Lv9" EffectPic="" Description="Xuyên giáp Lv9" Pic="-1" />
+  <item ID="11910" Name="Xuyên Giáp Lv10" EffectPic="" Description="Xuyên giáp Lv10" Pic="-1" />
+  <item ID="12001" Name="Giảm Thương Lv1" EffectPic="" Description="Nhận kỹ năng mới" Pic="-1" />
+  <item ID="12002" Name="Giảm Thương Lv2" EffectPic="" Description="Nhận kỹ năng mới" Pic="-1" />
+  <item ID="12003" Name="Giảm Thương Lv3" EffectPic="" Description="Nhận kỹ năng mới" Pic="-1" />
+  <item ID="12004" Name="Giảm Thương Lv4" EffectPic="" Description="Nhận kỹ năng mới" Pic="-1" />
+  <item ID="12005" Name="Giảm Thương Lv5" EffectPic="" Description="Nhận kỹ năng mới" Pic="-1" />
+  <item ID="12006" Name="Giảm Thương Lv6" EffectPic="" Description="Nhận kỹ năng mới" Pic="-1" />
+  <item ID="12007" Name="Giảm Thương Lv7" EffectPic="" Description="Nhận kỹ năng mới" Pic="-1" />
+  <item ID="12008" Name="Giảm Thương Lv8" EffectPic="" Description="Nhận kỹ năng mới" Pic="-1" />
+  <item ID="12009" Name="Giảm Thương Lv9" EffectPic="" Description="Nhận kỹ năng mới" Pic="-1" />
+  <item ID="12010" Name="Giảm Thương Lv10" EffectPic="" Description="Nhận kỹ năng mới" Pic="-1" />
+  <item ID="12101" Name="Giảm Thương Lv1" EffectPic="" Description="Sát thương phải chịu giảm 3% + 65" Pic="15" />
+  <item ID="12102" Name="Giảm Thương Lv2" EffectPic="" Description="Sát thương phải chịu giảm 5% + 90" Pic="15" />
+  <item ID="12103" Name="Giảm Thương Lv3" EffectPic="" Description="Sát thương phải chịu giảm 7% + 125" Pic="15" />
+  <item ID="12104" Name="Giảm Thương Lv4" EffectPic="" Description="Sát thương phải chịu giảm 9% + 165" Pic="15" />
+  <item ID="12105" Name="Giảm Thương Lv5" EffectPic="" Description="Sát thương phải chịu giảm 12% + 225" Pic="15" />
+  <item ID="12106" Name="Giảm Thương Lv6" EffectPic="" Description="Sát thương phải chịu giảm 15% + 295" Pic="15" />
+  <item ID="12107" Name="Giảm Thương Lv7" EffectPic="" Description="Sát thương phải chịu giảm 18% + 395" Pic="15" />
+  <item ID="12108" Name="Giảm Thương Lv8" EffectPic="" Description="Sát thương phải chịu giảm 21% + 405" Pic="15" />
+  <item ID="12109" Name="Giảm Thương Lv9" EffectPic="" Description="Sát thương phải chịu giảm 24% + 515" Pic="15" />
+  <item ID="12110" Name="Giảm Thương Lv10" EffectPic="" Description="Sát thương phải chịu giảm 28% + 625" Pic="15" />
+</Result>

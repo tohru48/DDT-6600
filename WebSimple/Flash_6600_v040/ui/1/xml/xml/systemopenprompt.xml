@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="systemopenprompt" version="2.0.1" source="ui/turkey/swf/systemopenprompt.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="systemOpenPrompt.frame.txt.tf" args="Arial,14,0xfff6c9,true" leading="0" letterSpacing="0"/>  
+    <set type="flash.filters.GlowFilter" stylename="systemOpenPrompt.frame.txt.gf" args="0x654308,1,4,4,30"/> 
+  </sets>  
+  <customs> 
+    <custom classname="trainer.view.SystemOpenPromptFrame" stylename="SystemOpenPromptFrame" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" containerX="20" containerY="40" closeInnerRectString="44,19,6,30,14" x="733" y="342" width="254" height="193"/> 
+  </customs>  
+  <components> 
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="systemOpenPrompt.frame.btn" backStyle="asset.systemOpenPrompt.btn" x="68" y="93"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="systemOpenPrompt.frame.txt" textFormatStyle="systemOpenPrompt.frame.txt.tf" filterString="systemOpenPrompt.frame.txt.gf" autoSize="none" multiline="true" wordWrap="true" x="93" y="24" width="100" height="56"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="systemOpenPrompt.frame.farmimage" resourceLink="asset.systemOpenPrompt.farmripe" x="10" y="2"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.systemOpenPrompt.iconTxtBg" x="1" y="3"/>  
+    <bitmapData resourceLink="asset.systemOpenPrompt.btnBg" x="1" y="89"/>  
+    <bitmapData resourceLink="asset.systemOpenPrompt.totemIcon" x="13" y="13"/>  
+    <bitmapData resourceLink="asset.systemOpenPrompt.getAwardIcon" x="17" y="17"/>  
+    <bitmapData resourceLink="asset.systemOpenPrompt.signIcon" x="13" y="19"/>  
+    <bitmapData resourceLink="asset.systemOpenPrompt.treasureIcon" x="13" y="12"/>  
+    <bitmapData resourceLink="asset.systemOpenPrompt.gemstone" x="13" y="13"/>  
+    <bitmapData resourceLink="asset.systemOpenPrompt.consortiaBossOpen" x="18" y="15"/>  
+    <bitmapData resourceLink="asset.systemOpenPrompt.sevenDoubleDungeon" x="13" y="12"/> 
+    <bitmapData resourceLink="asset.systemOpenPrompt.enchant" x="16" y="11"/>
+    
+  </bitmaps> 
+</style>

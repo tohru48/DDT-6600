@@ -1,0 +1,98 @@
+<style name="memoryGame" version="5.1.0" source="ui/turkey/swf/memoryGame.swf">
+<sets>
+	
+	<set stylename="memoryGame.openCountTextTF" args="Arial,14,0xFFF5CA,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="memoryGame.openCountTextGF" args="0x3F3100,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="memoryGame.dayTextTF" args="Arial,12,0xFFFFFF,true" type="flash.text.TextFormat" />
+	<set stylename="memoryGame.dayTextGF" args="0x0D1048,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="memoryGame.scoreTextTF" args="Arial,16,0xFEFF79,true" type="flash.text.TextFormat" />
+	<set stylename="memoryGame.scoreTextGF" args="0x0D1046,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="memoryGame.contentTextTF" args="Arial,12,0xFFFFFF,true" type="flash.text.TextFormat" />
+</sets>
+<customDisplay>
+	<custom classname="flash.geom.Point" stylename="memoryGame.gameViewPos" x="32" y="89" />
+	<custom classname="flash.geom.Point" stylename="memoryGame.shopViewPos" x="32" y="89" />
+	
+	<custom classname="flash.geom.Point" stylename="memoryGame.cellContainerPos" x="5" y="5" />
+	<custom classname="flash.geom.Point" stylename="memoryGame.rewardContainerPos" x="428" y="141" />
+	
+	<custom classname="flash.geom.Point" stylename="memoryGame.shopItemTextPos" x="0" y="12" />
+	<custom classname="flash.geom.Point" stylename="memoryGame.shopItemCellPos" x="228" y="0" />
+	
+	<custom classname="flash.geom.Point" stylename="memoryGame.shopTimePos" x="392" y="38" />
+	<custom classname="flash.geom.Point" stylename="memoryGame.shopContentPos" x="392" y="74" />
+	<custom classname="flash.geom.Point" stylename="memoryGame.shopScorePos" x="392" y="106" />
+	
+	<custom classname="flash.geom.Point" stylename="memoryGame.cellPos" x="17" y="17" />
+	<custom classname="flash.geom.Point" stylename="memoryGame.buyViewTextPos" x="27" y="55" />
+</customDisplay>
+<components>
+	<component classname="memoryGame.view.MemoryGameFrame" stylename="memoryGame.MemoryGameFrame" parentStyle="BaseFrame" 
+		backStyle="SimpleFrameBackgound" escEnable="true" width="806" height="600" />
+		
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+		stylename="memoryGame.MemoryGameFrame.bg" parentStyle="core.bg6920" width="756"
+		height="497" x="24" y="81" scaleGridString="5,10,80,20" />
+		
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="memoryGame.MemoryGameFrame.hBox"
+		spacing="5" x="33" y="42"/>
+		
+	<!-- 积分按钮 -->
+	<component classname="com.pickgliss.ui.controls.SelectedButton" 
+		stylename="memoryGame.scoreBtn" filterString="null,lightFilter,null,grayFilter" 
+		unSelectedStyle="memoryGame.unScoreImage" selectedStyle="memoryGame.scoreImage" />
+		
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="memoryGame.scoreImage" resourceLink="core.bg6901,asset.memoryGame.score"
+			imageRectString="0|120|0|40|13,17|87|8|24|13" />
+			
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="memoryGame.unScoreImage" resourceLink="core.bg6900,asset.memoryGame.unScore"
+			imageRectString="10|100|0|40|13,20|81|9|21|13" />
+			
+	<!-- 游戏按钮 -->
+	<component classname="com.pickgliss.ui.controls.SelectedButton" 
+		stylename="memoryGame.gameBtn" filterString="null,lightFilter,null,grayFilter" 
+		unSelectedStyle="memoryGame.unGameImage" selectedStyle="memoryGame.gameImage" />
+		
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="memoryGame.gameImage" resourceLink="core.bg6901,asset.memoryGame.game"
+			imageRectString="0|120|0|40|13,19|85|10|24|13" />
+			
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="memoryGame.unGameImage" resourceLink="core.bg6900,asset.memoryGame.unGame"
+			imageRectString="10|100|0|40|13,23|74|8|21|13" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="memoryGame.openCountText"
+		textFormatStyle="memoryGame.openCountTextTF" filterString="memoryGame.openCountTextGF" 
+		autoSize="none" width="100" height="25" x="162" y="392"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="memoryGame.dayText"
+		textFormatStyle="memoryGame.dayTextTF" filterString="memoryGame.dayTextGF" x="592" y="35" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="memoryGame.scoreText" 
+		textFormatStyle="memoryGame.scoreTextTF" filterString="memoryGame.scoreTextGF" x="578" y="66" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="memoryGame.contentText"
+		textFormatStyle="memoryGame.contentTextTF" filterString="memoryGame.dayTextGF" autoSize="none" width="362" height="44" wordWrap="true" x="551" y="35" />
+		
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="memoryGame.buyBtn" 
+			backStyle="asset.memoryGame.buy" x="110" y="423"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="memoryGame.resetBtn" 
+			backStyle="asset.memoryGame.reset" x="525" y="289"/>
+			
+	 <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="memoryGame.scroolPanel" 
+	 	parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="0" vUnitIncrement="45" width="465" height="270" x="270" y="183"  />
+	 
+	 <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="memoryGame.gainGoodsBtn" 
+			backStyle="asset.memoryGame.gainGoods" x="336" y="6"/>
+			
+	 <component classname="com.pickgliss.ui.controls.container.VBox" stylename="memoryGame.MemoryGameFrame.shop.vBox" spacing="0" />
+
+	<component classname="memoryGame.view.MemoryGameBuyView" backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" 
+			stylename="memroyGame.MemoryGameBuyView" titleStyle="FrameTitleTextStyle" parentStyle="BaseFrame" 
+			titleOuterRectPosString="15,10,5" x="-160" y="-40" submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" 
+			closeInnerRectString="44,19,6,30,14" width="400" height="215" />
+</components>
+<bitmaps>
+	<bitmapData resourceLink="asset.memoryGame.gain" x="-7" y="12" />
+	<bitmapData resourceLink="asset.memoryGame.get" x="338" y="-3" />
+</bitmaps>
+</style>

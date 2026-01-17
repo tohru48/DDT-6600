@@ -1,0 +1,64 @@
+<style name="catchbeast" version="1.0.1" source="ui/turkey/swf/catchbeast.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="catchBeast.view.challenge.tf" args="Arial,14,0xffebc7,true"/>
+		<set type="flash.filters.GlowFilter" stylename="catchBeast.view.challenge.gf" args="0x572525,2,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="catchBeast.view.buybuff.tf" args="Arial,14,0xfeffd1,true"/>
+		<set type="flash.filters.GlowFilter" stylename="catchBeast.view.buybuff.gf" args="0x624500,2,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="catchBeast.view.damage.tf" args="Arial,14,0xffd820,true"/>
+		<set type="flash.filters.GlowFilter" stylename="catchBeast.view.damage.gf" args="0x371103,2,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="catchBeast.view.careInfo.tf" args="Arial,12,0xecba59"/>
+		<set type="flash.filters.GlowFilter" stylename="catchBeast.view.careInfo.gf" args="0x300000,2,4,4,30"/>
+	</sets>
+	<bitmaps>
+		<bitmapData resourceLink="catchBeast.view.bg" x="-11" y="0"/>
+	</bitmaps>
+	<components>
+		<!--窗口-->
+		<component classname="catchbeast.view.CatchBeastView" stylename="catchBeast.CatchBeastView" backStyle="SimpleFrameBackgound" 
+			titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,14,6,30,14"
+			containerX="15" containerY="38" titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1"
+			width="668" height="548" moveEnable="false" escEnable="true" />
+
+		<component classname="store.HelpFrame" stylename="catchBeast.HelpFrame" parentStyle="BaseFrame" width="404" height="484" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="catchBeast.HelpFrame.FrameBg" 
+			parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" 
+			x="0" y="0" width="370" height="376" />
+		<component classname="store.HelpPrompt" stylename="catchBeast.HelpPrompt" 
+			bg9ScalseStyle="catchBeast.HelpFrame.FrameBg" contentStyle="catchBeast.view.helpWord"
+			x="17" y="43" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="catchBeast.view.helpBtn" 
+			backStyle="catchBeast.view.help" x="563" y="-32"/>
+		<!-- 立即挑战 -->	
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="catchBeast.view.challengebtnBg"
+			resourceLink="core.BigRedButton,catchBeast.view.challenge" imageRectString="0|132|0|39|13,11|83|5|27|13"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="catchBeast.view.challengeBtn" 
+			backStyle="catchBeast.view.challengebtnBg" filterString="null,lightFilter,null,grayFilter"
+			tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="91" y="267"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchBeast.view.challengeNum" 
+			textFormatStyle="catchBeast.view.challenge.tf" filterString="catchBeast.view.challenge.gf" x="91" y="10"/>
+		<!-- 购买BUFF -->	
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="catchBeast.view.buyBuffbtnBg"
+			resourceLink="core.bg6910,catchBeast.view.buyBuff" imageRectString="0|136|0|39|13,11|94|5|27|13"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="catchBeast.view.buyBuffBtn" 
+			backStyle="catchBeast.view.buyBuffbtnBg" filterString="null,lightFilter,null,grayFilter"
+			tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="418" y="267"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchBeast.view.buyBuffNum" 
+			textFormatStyle="catchBeast.view.buybuff.tf" filterString="catchBeast.view.buybuff.gf" x="102" y="10"/>
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="catchBeast.view.beastMovie" 
+			resourceLink="catchBeast.view.beast" x="203" y="60"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchBeast.view.damageText" 
+			textFormatStyle="catchBeast.view.damage.tf" filterString="catchBeast.view.damage.gf" x="69" y="337"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="catchBeast.view.careInfoText" 
+			textFormatStyle="catchBeast.view.careInfo.tf" filterString="catchBeast.view.careInfo.gf" x="174" y="464"/>
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="catchBeast.view.getAwardMovie" 
+			resourceLink="catchBeast.view.getAward" tipStyle="core.GoodsTip" tipDirctions="5,7,2" width="60"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="catchBeast.view.progressImage"
+			resourceLink="catchBeast.view.progress" x="108" y="360"/>
+	</components>
+	<customs>
+		<custom classname="flash.geom.Point" stylename="catchBeast.view.awardPos" x="174" y="403"/>
+	</customs>
+</style>

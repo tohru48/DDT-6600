@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="yyvip" version="5.1.0" source="ui/turkey/swf/yyvip.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="yyvip.awardCell.itemCountTxt.tf" args="Arial,12,0xffffff,,,,,,center"/>  
+    <set type="flash.text.TextFormat" stylename="yyvip.awardCell.itemNameTxt.tf" args="Arial,12,0xffdd80,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="yyvip.awardCell.itemNameTxt.gf" args="0x381007,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="yyvip.levelAwardCell.tipTxt.tf" args="Arial,16,0xfaf497"/>  
+    <set type="flash.filters.GlowFilter" stylename="yyvip.levelAwardCell.tipTxt.gf" args="0x532100,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="yyvip.openView.tipTxt.tf" args="Arial,14,0xfaf497"/>  
+    <set type="flash.filters.GlowFilter" stylename="yyvip.openView.tipTxt.gf" args="0x532100,1,4,4,30"/> 
+  </sets>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="yyvip.dailyView.getBtnPos" x="142" y="415"/>  
+    <custom classname="flash.geom.Point" stylename="yyvip.dailyView.yearGetBtnPos" x="511" y="415"/>  
+    <custom classname="flash.geom.Point" stylename="yyvip.awardCell.itemCellPos" x="20" y="22"/>  
+    <custom classname="flash.geom.Point" stylename="yyvip.levelAwardCell.itemCellCountTxtPos" x="54" y="11"/> 
+  </customs>  
+  <components> 
+    <component classname="yyvip.view.YYVipMainFrame" backStyle="SimpleFrameBackgound" closestyle="core.closebt" stylename="YYVipMainFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" containerX="21" containerY="84" escEnable="true" closeInnerRectString="44,19,6,30,14" width="780" height="557"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="yyVip.mainFrame.bg" parentStyle="core.bg6920" width="735" height="453" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="yyVip.mainFrame.bottomBg" parentStyle="asset.core.btmBimap" x="9" y="385" width="716" height="62"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="yyvip.mainFrame.openBtn" unSelectedStyle="asset.yyvip.mainFrame.openBtn.unselected" selectedStyle="asset.yyvip.mainFrame.openBtn.selected" filterString="null,lightFilter,null,grayFilter" x="14" y="-40"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="yyvip.mainFrame.dailyBtn" unSelectedStyle="asset.yyvip.mainFrame.dailyBtn.unselected" selectedStyle="asset.yyvip.mainFrame.dailyBtn.selected" filterString="null,lightFilter,null,grayFilter" x="155" y="-32"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="yyvip.view.getBtn" backStyle="asset.yyvip.view.getBtn" x="190" y="401"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="yyvip.view.openBtn" backStyle="asset.yyvip.view.openBtn" x="414" y="401"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="yyvip.openView.costBtn" backStyle="asset.yyvip.openView.costBtn" x="414" y="401"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="yyvip.awardCell.itemCountTxt" textFormatStyle="yyvip.awardCell.itemCountTxt.tf" autoSize="none" width="26" height="20" x="6" y="10"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="yyvip.awardCell.itemNameTxt" textFormatStyle="yyvip.awardCell.itemNameTxt.tf" filterString="yyvip.awardCell.itemNameTxt.gf" autoSize="none" width="100" height="22" x="-6" y="92"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="yyvip.levelAwardCell.tipTxt" textFormatStyle="yyvip.levelAwardCell.tipTxt.tf" filterString="yyvip.levelAwardCell.tipTxt.gf" x="57" y="10"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="yyvip.openView.tipTxt" textFormatStyle="yyvip.openView.tipTxt.tf" filterString="yyvip.openView.tipTxt.gf" x="227" y="356"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.yyvip.mainFrame.openBtn.unselected" x="12" y="7"/>  
+    <bitmapData resourceLink="asset.yyvip.mainFrame.dailyBtn.selected" x="-23" y="-8"/>  
+    <bitmapData resourceLink="asset.yyvip.awardCount.bg" x="6" y="7"/> 
+  </bitmaps> 
+</style>

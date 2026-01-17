@@ -1,0 +1,306 @@
+<style name="magicHouse" version="1.0.1" source="ui/turkey/swf/magicHouse.swf">
+<!-- ============================================== -->
+	<sets>
+		<set stylename="magicHouse.collectionMainView.lianchoubichu.textTF" args="Arial,12,0xfede6f,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="magicHouse.collectionMainView.lianchoubichu.textGF" args="0x543100,2,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="magicHouse.collectionMainView.promoteTotleAbility.textTF" args="Arial,14,0xead08a,true,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="magicHouse.collectionMainView.promoteTotleAbility.textGF" args="0x6d2401,2,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="magicHouse.collectionMainView.valueTotleAbility.textTF" args="Arial,14,0xefff00,true,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="magicHouse.collectionMainView.valueTotleAbility.textGF" args="0x4d2002,2,4,4,10" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="magicHouse.collectionItemView.filterText1TF" args="Arial,12,0xfbd469,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="magicHouse.collectionItemView.filterText1GF" args="0x350000,2,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="magicHouse.collectionItemView.filterText2TF" args="Arial,12,0xfff2b2,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="magicHouse.collectionItemView.filterText2GF" args="0x4c3010,2,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="magicHouse.collectionItemView.filterText3TF" args="Arial,12,0xefff00,true,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="magicHouse.collectionItemView.filterText3GF" args="0x000000,2,4,4,10" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="magicHouse.collectionItemView.itemLvlTF" args="Arial,12,0xffee30,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="magicHouse.collectionItemView.itemLvlGF" args="0x300000,2,4,4,10" type="flash.filters.GlowFilter"/>
+		
+		<set type="flash.text.TextFormat" stylename="magichouse.collectionView.boxGetAwardsTF" args="Arial,16,0xfffaae,true" />
+		<set type="flash.filters.GlowFilter" stylename="magichouse.collectionView.boxGetAwardsGF" args="0x7c4519,1,4,4,30" />
+		
+		<set stylename="magichouse.collectionItem.upgradeProgressTF" args="Arial,9,0xffffff,,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="magichouse.collectionItem.upgradeProgressGF" args="0x004501,1,2,2,30"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="magichouse.collectionItem.chargeBoxNeedMoneyTF" args="Arial,14,0x734600,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="magichouse.collectionItem.chargeBoxNeedMoneyGF" args="0xffffff,1,2,2,30"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="magichouse.collectionItem.CommodityTF" args="Arial,14,0xfff6c9,bold,,,,,center" type="flash.text.TextFormat"></set>
+		
+		<set stylename="magichouse.titleTip.TextGT" args="0x471e00,1,2,2,10,1" type="flash.filters.GlowFilter"/>
+		<set stylename="magichouse.titleTip.TextTF" args="Arial,13,0xff9933,true,,,,,left" type="flash.text.TextFormat"/>
+		
+		<set type="flash.text.TextFormat" stylename="magichouse.collectionItem.titleTxt.tf" args="Arial,15,0x9727c4,true"/>
+		<set type="flash.filters.GlowFilter" stylename="magichouse.collectionItem.titleTxt.gf" args="0x070400,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="magichouse.collectionItem.typeNameTxt.tf" args="Arial,12,0x000000,true"/>
+		<set type="flash.filters.GlowFilter" stylename="magichouse.collectionItem.typeNameTxt.gf" args="0xffffff,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="magichouse.collectionItem.typeValueTxt.tf" args="Arial,13,0xffffff,true"/>
+		<set type="flash.filters.GlowFilter" stylename="magichouse.collectionItem.typeValueTxt.gf" args="0x000000,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="magichouse.collectionItem.nameTxt.tf" args="Arial,13,0xfb9732,true"/>
+		<set type="flash.filters.GlowFilter" stylename="magichouse.collectionItem.nameTxt.gf" args="0x080000,1,2,2,10"/>
+		<set type="flash.text.TextFormat" stylename="magichouse.collectionItem.notActivityTxt.tf" args="Arial,13,0xaaaaaa,true"/>
+		<set type="flash.filters.GlowFilter" stylename="magichouse.collectionItem.notActivityTxt.gf" args="0x000000,1,2,2,10"/> 
+		
+		<set stylename="magicHouse.collectionMainView.freeCount.textTF" args="Arial,12,0xf5ffbe,,,,,,center" type="flash.text.TextFormat"/>
+		<set type="flash.filters.GlowFilter" stylename="magicHouse.collectionMainView.freeCountTxt.gf" args="0x005606,2,2,2,10"/> 
+		<set stylename="magicHouse.collectionMainView.chargeCount.textTF" args="Arial,12,0xfeecab,,,,,,center" type="flash.text.TextFormat"/>
+		<set type="flash.filters.GlowFilter" stylename="magicHouse.collectionMainView.chargeCountTxt.gf" args="0x562900,2,2,2,10"/> 
+		
+	</sets>
+<!-- ============================================== -->
+	<components>	
+		<component classname="magicHouse.MagicHouseMainView" stylename="magicHouse.mainViewFrame" 
+			x="10" y="10" width="947" height="588" parentStyle="bigBaseFrame" containerX="10" containerY="31" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="magicHouse.mainViewFrame.bg" parentStyle="core.bg6920" width="901"
+			height="492" x="12" y="47" scaleGridString="5,10,80,20" />
+			
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="magicHouse.mainViewFrame.collectionBtn" 
+			unSelectedStyle="magichouse.magiccollectionbtn.unselected" selectedStyle="magichouse.magiccollectionbtn.selected" x="33" y="11"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="magicHouse.mainViewFrame.treasureBtn" 
+			unSelectedStyle="magichouse.treasureroombtn.unselected" selectedStyle="magichouse.treasureroombtn.selected" x="158" y="11"/>	
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="magicHouse.collectionMainView.typeWeaponBtn" 
+			backStyle="magichouse.collection.weaponbtn" x="18" y="-37"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="magicHouse.collectionMainView.freeBtn" 
+			backStyle="magichouse.freedrawbtn" x="539" y="385"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="magicHouse.collectionMainView.goldenBtn" 
+			backStyle="magichouse.goldencasket" x="713" y="385"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="magicHouse.collectionMainView.helpBtn" 
+			backStyle="asset.ddtcore.helpbuttonShort" x="811" y="-83"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="magicHouse.treasuerHouseView.helpBtn" 
+			backStyle="asset.ddtcore.helpbuttonShort" x="329" y="-58"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="magicHouse.collectionItemView.UpGradeBtn" 
+			backStyle="magichouse.collection.upgradebtn" x="597" y="87"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magicHouse.collectionMainView.lianchoubichuTxt" 
+			textFormatStyle="magicHouse.collectionMainView.lianchoubichu.textTF" filterString="magicHouse.collectionMainView.lianchoubichu.textGF" 
+			autoSize="none" x="713" y="416" width="172" height="20"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magicHouse.collectionMainView.freeCountTxt" 
+			textFormatStyle="magicHouse.collectionMainView.freeCount.textTF" filterString="magicHouse.collectionMainView.freeCountTxt.gf" 
+			autoSize="none" x="604" y="391" width="30" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magicHouse.collectionMainView.chargeCountTxt" 
+			textFormatStyle="magicHouse.collectionMainView.chargeCount.textTF" filterString="magicHouse.collectionMainView.chargeCountTxt.gf" 
+			autoSize="none" x="778" y="391" width="30" height="20"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magicHouse.collectionMainView.promoteTotleAbilityTxt" 
+			textFormatStyle="magicHouse.collectionMainView.promoteTotleAbility.textTF" filterString="magicHouse.collectionMainView.promoteTotleAbility.textGF" 
+			autoSize="none" x="709" y="418" width="210" height="40"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magicHouse.collectionMainView.valueTotleAbilityTxt" 
+			textFormatStyle="magicHouse.collectionMainView.valueTotleAbility.textTF" filterString="magicHouse.collectionMainView.valueTotleAbility.textGF" 
+			autoSize="none" x="709" y="418" width="40" height="20"/>	
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magicHouse.collectionItemView.filterText1" 
+			textFormatStyle="magicHouse.collectionItemView.filterText1TF" filterString="magicHouse.collectionItemView.filterText1GF" 
+			autoSize="none" x="709" y="418" width="170" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magicHouse.collectionItemView.filterText2" 
+			textFormatStyle="magicHouse.collectionItemView.filterText2TF" filterString="magicHouse.collectionItemView.filterText2GF" 
+			autoSize="none" x="709" y="418" width="170" height="40"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magicHouse.collectionItemView.filterText3" 
+			textFormatStyle="magicHouse.collectionItemView.filterText3TF" filterString="magicHouse.collectionItemView.filterText3GF" 
+			autoSize="none" x="709" y="418" width="170" height="20"/>	
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magicHouse.collectionItemView.itemLvlText" 
+			textFormatStyle="magicHouse.collectionItemView.itemLvlTF" filterString="magicHouse.collectionItemView.itemLvlGF" 
+			autoSize="none" x="560" y="70" width="60" height="20"/>	
+			
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="magicHouse.treasureHouseView.bagList.bg1" 
+			resourceLink="core.Scale9CornerImage.scale9CornerBuildingManagerBG1,core.Scale9CornerImage.weilifur" 
+			imageRectString=",2|0|1|2|0"  width="477" height="482" x="0" y="-5" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="magicHouse.treasureHouseView.bagList.bg2" 
+			resourceLink="core.Scale9CornerImage.scale9CornerBuildingManagerBG2,core.Scale9CornerImage.weilifur" 
+			imageRectString=",6|5|6|6|0"  width="474" height="476" x="2" y="-3" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="magicHouse.treasureHouseView.bagList.bg" 
+			resourceLink="magicHouse.treasureHouseView.bagList.bg1,magicHouse.treasureHouseView.bagList.bg2" x="-485" y="-7" />
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="magichouse.collectionView.itemCell.btn" backStyle="magichouse.itemCell.btn"
+			x="-3" y="48" />
+			
+		<component classname="magicHouse.magicCollection.MagicHouseUpgradeProgress" stylename="magicHouse.collectionItem.upgrade.progress" 
+			x="593" y="68" width="123" height="18"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magichouse.collectionView.boxGetAwards" 
+			filterString="magichouse.collectionView.boxGetAwardsGF" textFormatStyle="magichouse.collectionView.boxGetAwardsTF" 
+			x="79" y="50" width="150" height="25" />	
+			
+		<component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="magichouse.ItemPreviewListFrame" 
+			parentStyle="BaseFrame" closestyle="" width="395" height="370" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magichouse.collectionItem.upgradeProgressText" 
+			textFormatStyle="magichouse.collectionItem.upgradeProgressTF" filterString="magichouse.collectionItem.upgradeProgressGF" autoSize="none" 
+			x="7" y="2" width="80" height="20"/>
+			
+			
+		<component classname="com.pickgliss.ui.image.Image" stylename="magichouse.chargeBoxGetOne" resourceLink="magichouse.singledraw" x="30" y="6"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="magichouse.chargeBoxGetFive" resourceLink="magichouse.tendraw" x="30" y="6"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="magichouse.getBox.oneSelectBtn" 
+			parentStyle="core.selectedCheck2" filterString="null,lightFilter,null,grayFilter" displacement="true" backStyle="magichouse.chargeBoxGetOne" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="magichouse.getBox.fiveSelectBtn" 
+			parentStyle="core.selectedCheck2" filterString="null,lightFilter,null,grayFilter" displacement="true" backStyle="magichouse.chargeBoxGetFive" />
+			
+		<component classname="com.pickgliss.ui.controls.TextButton"
+			stylename="magichouse.chargeBoxframe.confirmBtn" parentStyle="core.simplebt"
+			x="59" y="146" />
+		<component classname="com.pickgliss.ui.controls.TextButton"
+			stylename="magichouse.chargeBoxframe.cancleBtn" parentStyle="core.simplebt"
+			x="225" y="146" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magichouse.collectionItem.chargeBoxNeedMoneyText" 
+			textFormatStyle="magichouse.collectionItem.chargeBoxNeedMoneyTF" filterString="magichouse.collectionItem.chargeBoxNeedMoneyGF" 
+			autoSize="none" x="30" y="106" width="300" height="40"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magichouse.tipFrame.tipText" 
+			textFormatStyle="magichouse.collectionItem.chargeBoxNeedMoneyTF" filterString="magichouse.collectionItem.chargeBoxNeedMoneyGF" 
+			autoSize="none" wordWrap="true" x="31" y="77" width="350" height="50"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="magicHouse.treasureView.stateChangeBtn" 
+			backStyle="magichouse.treasure.stateChangeBtn" x="0" y="-3" />
+			
+			
+			
+		<component classname="magicHouse.magicCollection.MagicHouseMagicPotionSelectFrame" stylename="magichouse.magicpotion.selecterFrame" 
+			parentStyle="BaseFrame" escEnable='true' backStyle="magichouse.magicpotion.selecter.FrameBg" width="406" height="230" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="magichouse.magicpotion.selecter.FrameBg" 
+			parentStyle="SimpleFrameBackgoundOneIII" imageRectString=",17|17|58|17|4" />
+		<component classname="com.pickgliss.ui.controls.NumberSelecter" stylename="magicHouse.collectionItem.upgrade.magicpotion.NumberSelecter" 
+			backStyle="magichouse.magicpotionCount.NumberSelecterTextBg" targetFieldStyle='magichouse.magicpotionCount.NumberSelecterTxt' 
+			upStyle="magichouse.magicpotionCount.DownButton" downStyle="magichouse.magicpotionCount.UpButton" 
+			valueLimit="1,50" x='158' y='81' />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="magichouse.magicpotionCount.NumberSelecterTextBg"
+			parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"	width="140" height="24"	/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magichouse.magicpotionCount.NumberSelecterTxt"
+			textFormatStyle="magichouse.collectionItem.CommodityTF" autoSize="none" type="input"
+			x='2' y='2' width="136" height="22" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="magichouse.magicpotionCount.UpButton" 
+			backStyle="asset.core.numberSelecterUp" pressEnable="true" x='140' y='-15' />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="magichouse.magicpotionCount.DownButton" 
+			backStyle="asset.core.numberSelecterDown" pressEnable="true" x='140' y='11' />
+			
+		<component classname="magicHouse.MagicHouseTipFrame" stylename="magichouse.tipFrame" 
+			parentStyle="BaseFrame" escEnable='true' backStyle="magichouse.magicpotion.selecter.FrameBg" width="406" height="200" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magichouse.titleTip.Text" 
+			filterString="magichouse.titleTip.TextGT" textFormatStyle="magichouse.titleTip.TextTF"  width="100" x="160" y="11" />
+		
+		<component classname="com.pickgliss.ui.core.Component" stylename="magichouse.collectionItem.titleTipContent" 
+			tipStyle="core.CallPropTxtTips" x="393" y="76" tipDirctions="2,5,7" tipWidth="150" tipGapH="120" tipGapV="10"/>
+		
+		<component classname="magicHouse.magicCollection.MagicHouseCollectionItemTip" stylename="magichouse.itemTips"/>
+		<component classname="com.pickgliss.ui.core.Component" stylename="magichouse.collectionItem.itemTipContent" 
+			tipStyle="magichouse.itemTips" tipDirctions="2,5,7" tipGapH="10" tipGapV="10"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magichouse.collectionItem.titleTxt"
+			textFormatStyle="magichouse.collectionItem.titleTxt.tf" filterString="magichouse.collectionItem.titleTxt.gf"
+			x="12" y="10"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magichouse.collectionItem.typeNameTxt"
+			textFormatStyle="magichouse.collectionItem.typeNameTxt.tf" filterString="magichouse.collectionItem.typeNameTxt.gf"
+			x="14" y="35"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magichouse.collectionItem.typeValueTxt"
+			textFormatStyle="magichouse.collectionItem.typeValueTxt.tf" filterString="magichouse.collectionItem.typeValueTxt.gf"
+			x="46" y="34"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magichouse.collectionItem.nameTxt"
+			textFormatStyle="magichouse.collectionItem.nameTxt.tf" filterString="magichouse.collectionItem.nameTxt.gf"
+			x="0" y="0"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magichouse.collectionItem.detailTxt"
+			textFormatStyle="magichouse.collectionItem.nameTxt.tf" filterString="magichouse.collectionItem.nameTxt.gf"
+			x="0" y="0" autoSize="none" wordWrap="true" width="210" height="20" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="magichouse.collectionItem.notActivityTxt"
+			textFormatStyle="magichouse.collectionItem.notActivityTxt.tf" filterString="magichouse.collectionItem.notActivityTxt.gf"
+			x="83" y="61"/>
+			
+	</components>
+<!-- ============================================== -->	
+	<customDisplay>
+		<custom classname="bagAndInfo.bag.RichesButton" stylename="magichouse.collectionView.freeBtn"
+			x="486" y="382" width="45" height="45" tipStyle="ddt.view.tips.MultipleLineTip" tipWidth="280"
+			tipGapV="6" tipGapH="6" tipDirctions="0,1,2" />
+		<custom classname="bagAndInfo.bag.RichesButton" stylename="magichouse.collectionView.chargeBtn"
+			x="659" y="382" width="45" height="45" tipStyle="ddt.view.tips.MultipleLineTip" tipWidth="280"
+			tipGapV="6" tipGapH="6" tipDirctions="0,1,2" />
+		
+		<custom classname="magicHouse.magicCollection.MagicHouseCollectionMainView" stylename="magicHouse.magicHouseCollectionMainView" x="21" y="91" />
+		<custom classname="magicHouse.treasureHouse.MagicHouseTreasureHouseView" stylename="magicHouse.magicHouseTreasureHouseView" x="503" y="66" />
+		
+		<custom classname="magicHouse.magicCollection.MagicHouseChargeBoxCountFrame" stylename="magicHouse.chargeBoxFrame" 
+			backStyle="SimpleFrameBackgoundOneIII" closestyle = "core.closebt" titleStyle = "FrameTitleTextStyle" 
+			titleOuterRectPosString = "14,10,5" closeInnerRectString = "44,6,3,30,14" moveInnerRectString = "0,30,0,30,1"
+			moveEnable="true" width="350" height="200" escEnable="true" enterEnable="true"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.promoteMagicAttackPos" x="28" y="374" />
+		<custom classname="flash.geom.Point" stylename="magicHouse.promoteMagicDefensePos" x="27" y="397" />
+		<custom classname="flash.geom.Point" stylename="magicHouse.promoteCritDamagePos" x="27" y="417" />	
+		<custom classname="flash.geom.Point" stylename="magicHouse.valueMagicAttackPos" x="233" y="375" />	
+		<custom classname="flash.geom.Point" stylename="magicHouse.valueMagicDefensePos" x="241" y="397" />
+		<custom classname="flash.geom.Point" stylename="magicHouse.valueCritDamagePos" x="200" y="417" />
+		<custom classname="flash.geom.Point" stylename="magicHouse.TreasureBag.Pos" x="-475" y="-1"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemcell1Pos" x="65" y="28"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemcell2Pos" x="170" y="28"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemcell3Pos" x="275" y="28"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.miditemPos" x="0" y="114"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.senioritemPos" x="0" y="228"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemAddAttributeTxtPos" x="387" y="18"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemAttributeTxtPos1" x="426" y="39"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemAttributeTxtPos2" x="415" y="60"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemAttributeValueTxtPos1" x="500" y="40"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemAttributeValueTxtPos2" x="500" y="60"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemNextLevelTxtPos" x="700" y="26"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemNextLevelAttributeTxtPos1" x="754" y="48"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemNextLevelAttributeTxtPos2" x="754" y="68"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemNextLevelValueTxtPos1" x="835" y="48"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemNextLevelValueTxtPos2" x="835" y="68"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.itemUpGradeCellPos" x="614" y="16"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.get1boxBtnPos" x="49" y="73"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.get5boxBtnPos" x="187" y="73"/>
+		
+		<custom classname="magichouse.collection.helpContent" stylename="magichouse.collection.help.content" x="34" y="75"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.selectedCountTxtPos" x="-49" y="83"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.selectedNeedTxtPos" x="51" y="127"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.selectedOkBtnPos" x="72" y="169"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collection.selectedCancekBtnPos" x="256" y="169"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.tipFrame.OkBtnPos" x="72" y="139"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.tipFrame.CancekBtnPos" x="256" y="139"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.attributeTopTxtPos" x="763" y="56"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.titleTipAttackTxtPos" x="16" y="34"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.titleTipDefenseTxtPos" x="16" y="58"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.titleTipDamageTxtPos" x="16" y="82"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.titleTipAttackValueTxtPos" x="93" y="34"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.titleTipDefenseValueTxtPos" x="93" y="58"/>		
+		<custom classname="flash.geom.Point" stylename="magicHouse.titleTipDamageValueTxtPos" x="93" y="82"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.titleTipTitleTxtPos" x="47" y="11"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.collectionItemTip.activityStatusTxtPos" x="13" y="61"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collectionItemTip.detailTxtPos" x="13" y="83"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collectionItemTip.placeTxtPos" x="13" y="103"/>
+		<custom classname="flash.geom.Point" stylename="magicHouse.collectionItemTip.activityTxtPos" x="83" y="61"/>
+		
+	</customDisplay>
+<!-- ============================================== -->	
+	<bitmaps>
+		<bitmapData resourceLink="magichouse.magiccollectionbtn.selected" x="-14" y="-2"/>
+		<bitmapData resourceLink="magichouse.treasureroombtn.selected" x="-14" y="-2"/>
+		<bitmapData resourceLink="magichouse.treasure.bag.bankCellBg" x="0" y="0" />
+		<bitmapData resourceLink="magichouse.treasure.bag.bagCellBg" x="0" y="0" />
+		<bitmapData resourceLink="magichouse.treasure.bagtip" x="114" y="0" />
+		
+		<bitmapData resourceLink="magichouse.upgradeprogress.progress" x="7" y="4" />
+		
+		<bitmapData resourceLink="magichouse.collection.freeCell" x="486" y="382" width="45" height="45" />
+		<bitmapData resourceLink="magichouse.collection.chargeCell" x="659" y="382" width="45" height="45" />
+		
+	</bitmaps>
+</style>

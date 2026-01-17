@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="battleground" version="1.0.1" source="ui/turkey/swf/battleground.swf"> 
+  <sets> 
+    <set stylename="battleground.GF1" args="0x391a0a,1,3,3,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="battleground.TF1" args="Arial,16,0xffc350,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="battleground.GF2" args="0x744a16,1,3,3,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="battleground.TF2" args="Arial,16,0xe8e0c2,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="battleground.GF3" args="0x744a16,1,3,3,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="battleground.TF3" args="Arial,16,0xffedbc,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="battleground.GF4" args="0x760606,2,3,3,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="battleground.TF4" args="Arial,16,0xffedbc,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="battleground.GF5" args="0x744a16,1,3,3,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="battleground.TF5" args="Arial,12,0xffedbc,true,,,,,center" type="flash.text.TextFormat"/> 
+  </sets>  
+  <components> 
+    <component classname="battleGroud.view.BattleGroudView" stylename="battleGroud.battleGroudView" backStyle="SimpleFrameBackgoundOne" width="700" height="470" moveEnable="false" escEnable="true" enterEnable="true" cancelButtonStyle="core.simplebt" buttonToBottom="13" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="17,12,5" containerX="0" containerY="0" closestyle="core.closebt" closeInnerRectString="44,11,6,30,14"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="battleGroud.battleGroudView.txt1" textFormatStyle="battleground.TF1"  filterString="battleground.GF1" x="183" y="297"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="battleGroud.battleGroudView.txt2" textFormatStyle="battleground.TF2"  filterString="battleground.GF2" autoSize="none" width="84" height="24" x="160" y="341"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="battleGroud.battleGroudView.txt3" textFormatStyle="battleground.TF2"  filterString="battleground.GF2" autoSize="none" width="84" height="24" x="160" y="371"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="battleGroud.battleGroudView.txt4" textFormatStyle="battleground.TF4"  filterString="battleground.GF4" autoSize="none" width="84" height="24" x="114" y="252"/>
+    <component classname="com.pickgliss.ui.core.Component" stylename="battleGroud.battleGroudView.comp"  width="84" height="24" x="152" y="341"  tipStyle="ddt.view.tips.OneLineTip"  tipDirctions="0,1,2"/>
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="battleGroud.battleGroudView.vBox" spacing="5" x="45" y="150" height="300 "/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="battleGroud.battleGroudView.scrollpanel" parentStyle="core.ScrollPanel" width="325" height="310" hScrollProxy="2" vScrollProxy="0" x="335" y="111" viewportInnerRectString="0,22,-6,-3,0"/> 
+  <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="battleGroud.battleGroudView.txt5" textFormatStyle="battleground.TF5"  filterString="battleground.GF5" x="344" y="93"/>
+<component classname="com.pickgliss.ui.controls.container.HBox" stylename="battleGroud.battleGroudView.hBox" x="354" y="160" spacing="20"/>
+<component classname="com.pickgliss.ui.controls.ListPanel" stylename="battleGround.scrollPanel" parentStyle="core.ScrollPanel" vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="0" hScrollProxy="2" vUnitIncrement="3" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|battleGroud.view.BattleGroundScrollPanelCell,451,451" listStyle="com.pickgliss.ui.controls.list.List" width="340" height="330"/>
+  
+  </components>  
+  <customDisplay>
+<custom classname="flash.geom.Point" stylename="battleGroud.hBox3Pos" x="354" y="365"/>
+<custom classname="flash.geom.Point" stylename="battleGroud.hBox2Pos" x="354" y="262"/>
+<custom classname="flash.geom.Point" stylename="battleGroud.txt5Pos" x="160" y="407"/>
+<custom classname="flash.geom.Point" stylename="battleGroud.helpBtnPos" x="614" y="6"/>
+</customDisplay>
+  <bitmaps> 
+    <bitmapData resourceLink="battle.ground" x="8" y="38"/>  
+    <bitmapData resourceLink="battle.goodsContent" x="115" y="170"/>  
+    <bitmapData resourceLink="battle.descript" x="448" y="70"/>  
+    <bitmapData resourceLink="battle.descriptMc.back" x="303" y="68"/> 
+  </bitmaps> 
+</style>

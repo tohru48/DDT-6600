@@ -1,0 +1,87 @@
+<style name="newYearRice" version="1.0.1" source="ui/turkey/swf/newYearRice.swf">
+	<sets>
+		<set stylename="NewYearRiceMainView.materialsNumTF" args="Arial,14,0xf94000,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="NewYearRiceMainView.materialsNumGF" args="0x360400,1,2,2,30" type="flash.filters.GlowFilter"/> 
+		<set stylename="NewYearRiceMainView.psTxtTF" args="Arial,12,0xffb400,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="NewYearRiceMainView.psTxtGF" args="0x2c0500,1,2,2,30" type="flash.filters.GlowFilter"/> 
+	
+	</sets>
+	
+	<components>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="newYearRice.closebt"
+			backStyle="asset.newYearRice.CloseBtn"/>
+		<component classname="newYearRice.view.NewYearRiceMainView" backStyle="SimpleFrameBackgoundOne"
+			closestyle="newYearRice.closebt" stylename="NewYearRice.MainView" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+			closeInnerRectString="500,47,-93,46,13" width="480" height="300" />
+		<component classname="newYearRice.view.NewYearRiceOpenFrameView" backStyle="SimpleFrameBackgoundOne"
+			closestyle="newYearRice.closebt" stylename="NewYearRiceMainView.NewYearRiceOpenView" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+			closeInnerRectString="500,47,-93,46,13" width="480" height="300" />	
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="NewYearRiceMainView.clostBtn" 
+			backStyle="asset.newYearRice.CloseBtn" x="100" y="20"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="NewYearRiceMainView.dinnerSelectedBtn" selectedStyle="asset.newYearRice.DinnerSelect" unSelectedStyle="asset.newYearRice.DinnerNoSelect" displacement="false" filterString="null,null,null,grayFilter" x="11" y="-36"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="NewYearRiceMainView.banquetSelectedBtn" selectedStyle="asset.newYearRice.BanquetSelect" unSelectedStyle="asset.newYearRice.BanquetNoSelect" displacement="false" filterString="null,null,null,grayFilter" x="106" y="-36"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="NewYearRiceMainView.hanSelectedBtn" selectedStyle="asset.newYearRice.HanSelect" unSelectedStyle="asset.newYearRice.HanNoSelect" displacement="false" filterString="null,null,null,grayFilter" x="261" y="-36"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="NewYearRiceMainView.makeBtn" 
+			backStyle="asset.newYearRice.MakeBtn" x="286" y="147"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="NewYearRiceMainView.materialsNum_1" 
+			filterString="NewYearRiceMainView.materialsNumGF" 
+			textFormatStyle="NewYearRiceMainView.materialsNumTF" autoSize="none" width="100" height="25" x="74" y="51"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="NewYearRiceMainView.materialsNum_2" 
+			filterString="NewYearRiceMainView.materialsNumGF" 
+			textFormatStyle="NewYearRiceMainView.materialsNumTF" autoSize="none" width="100" height="25" x="314" y="51"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="NewYearRiceMainView.materialsNum_3" 
+			filterString="NewYearRiceMainView.materialsNumGF" 
+			textFormatStyle="NewYearRiceMainView.materialsNumTF" autoSize="none" width="100" height="25" x="74" y="110"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="NewYearRiceMainView.materialsNum_4" 
+			filterString="NewYearRiceMainView.materialsNumGF" 
+			textFormatStyle="NewYearRiceMainView.materialsNumTF" autoSize="none" width="100" height="25" x="314" y="110"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="NewYearRiceOpenFrameView.openBtn" 
+			backStyle="asset.newYearRice.OpenBtn" filterString="null,lightFilter,lightFilter,grayFilter" x="273" y="292"/>	
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="NewYearRiceOpenFrameView.inviteBtn" 
+			backStyle="asset.newYearRice.InviteBtn" filterString="null,lightFilter,lightFilter,grayFilter" x="65" y="292"/>	
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="NewYearRiceMainView.helpBtn" 
+			backStyle="asset.newYearRice.helpBtn" x="390" y="-38"/>
+		<component classname="com.pickgliss.ui.controls.Frame" stylename="NewYearRiceMainView.help.main" parentStyle="BaseFrame" width="408" height="488" moveEnable="true" escEnable="true" moveInnerRectString="0,30,0,30,1"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="NewYearRiceMainView.help.bgHelp" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" width="373" height="379" x="17" y="44"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="NewYearRiceMainView.help.btnOk" parentStyle="core.simplebt" x="150" y="434" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="NewYearRiceMainView.psTxt" 
+			filterString="NewYearRiceMainView.psTxtGF" 
+			textFormatStyle="NewYearRiceMainView.psTxtTF" autoSize="none" width="480" height="25" x="-7" y="304"/>
+	</components>
+	
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="asset.newYearRice.view.pos" x="-54" y="-150"/>
+		<custom classname="flash.geom.Point" stylename="NewYearRiceMainView.Materials0" x="74" y="46"/>
+		<custom classname="flash.geom.Point" stylename="NewYearRiceMainView.Materials1" x="314" y="46"/>
+		<custom classname="flash.geom.Point" stylename="NewYearRiceMainView.Materials2" x="74" y="105"/>
+		<custom classname="flash.geom.Point" stylename="NewYearRiceMainView.Materials3" x="314" y="105"/>
+		
+		<custom classname="newYearRice.view.PlayerCell" stylename="NewYearRiceOpenFrameView.playerCell.0" x="54" y="-3"/>
+		<custom classname="newYearRice.view.PlayerCell" stylename="NewYearRiceOpenFrameView.playerCell.1" x="54" y="94"/>
+		<custom classname="newYearRice.view.PlayerCell" stylename="NewYearRiceOpenFrameView.playerCell.2" x="54" y="192"/>
+		<custom classname="newYearRice.view.PlayerCell" stylename="NewYearRiceOpenFrameView.playerCell.3" x="413" y="-3"/>
+		<custom classname="newYearRice.view.PlayerCell" stylename="NewYearRiceOpenFrameView.playerCell.4" x="413" y="94"/>
+		<custom classname="newYearRice.view.PlayerCell" stylename="NewYearRiceOpenFrameView.playerCell.5" x="413" y="192"/>
+	
+		<custom classname="asset.newYearRice.helpContent" stylename="NewYearRiceMainView.help.content" x="34" y="75"/>
+	</customDisplay>
+	<bitmaps>
+		<bitmapData resourceLink="asset.newYearRice.DinnerNoSelect" x="5" y="0"/>
+		<bitmapData resourceLink="asset.newYearRice.BanquetNoSelect" x="5" y="0"/>
+		<bitmapData resourceLink="asset.newYearRice.HanNoSelect" x="5" y="0"/>
+		<bitmapData resourceLink="asset.newYearRice.GoodsBottomFrame" x="13" y="225"/>
+		<bitmapData resourceLink="asset.newYearRice.RewardBg" x="25" y="199"/>
+		<bitmapData resourceLink="asset.newYearRice.MaterialsTxtBG" x="21" y="17"/>
+		
+		<bitmapData resourceLink="asset.newYearRice.MaterialsBG0" x="-17" y="-10"/>
+		<bitmapData resourceLink="asset.newYearRice.MaterialsBG1" x="-17" y="-12"/>
+		<bitmapData resourceLink="asset.newYearRice.MaterialsBG2" x="-17" y="-14"/>
+		<bitmapData resourceLink="asset.newYearRice.MaterialsBG3" x="-17" y="-7"/>
+		
+		
+	</bitmaps>
+</style>

@@ -1,0 +1,47 @@
+<style name="growthPackage" version="2.0.1" source="ui/turkey/swf/growthPackage.swf">
+
+	<sets>
+		<set type="flash.text.TextFormat" stylename="assets.growthPackage.BtnTxtTF" args="Arial,14,0xC2FFAD,,,,,,left" leading="2"/>
+		<set type="flash.filters.GlowFilter" stylename="assets.growthPackage.BtnTxtGF" args="0x185204,1,2,2,10"/>
+		<set stylename="growthPackage.explainTxt.textTF" args="Arial,12,0xffffff,true,,,,,left" type="flash.text.TextFormat" />
+		<set stylename="growthPackage.explainTxt.textGF" args="0xab0707,1,2,2,10" type="flash.filters.GlowFilter" />
+	</sets>
+	
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="growthPackageItem.cellsBgPos"  x="109" y="-2" />
+		<custom classname="flash.geom.Point" stylename="growthPackageItem.cellsPos"  x="130" y="4" />
+	</customs>
+	
+	
+	<components>
+		<component classname="growthPackage.view.GrowthPackageFrame" backStyle="SimpleFrameBackgound"
+			closestyle="core.closebt" stylename="GrowthPackageFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+			closeInnerRectString="44,19,6,30,14" width="680" height="552" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="growthPackage.getBtnTxt" filterString="assets.growthPackage.BtnTxtGF" textFormatStyle="assets.growthPackage.BtnTxtTF" width="30"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="growthPackage.getBtn" backgoundInnerRectString="9,15,5,7,-1" textStyle="growthPackage.getBtnTxt" backStyle="assets.growthPackage.getBtn" x="555" y="12" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="growthPackage.LevelBg1" resourceLink="assets.growthPackage.LevelBg1" scaleGridString="20,20,25,25"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="growthPackage.LevelBg2" resourceLink="assets.growthPackage.LevelBg2" scaleGridString="20,20,25,25"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="growthPackage.LevelBg3" resourceLink="assets.growthPackage.LevelBg3" scaleGridString="20,20,25,25"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="growthPackage.explainTxt.text"  textFormatStyle="growthPackage.explainTxt.textTF"  filterString="growthPackage.explainTxt.textGF"  wordWrap="true" x='173' y='-35' width="600" height="40" />
+	</components>
+	
+	
+	<bitmaps>
+		<bitmapData resourceLink="assets.growthPackage.FrameBg" x="-6" y="-8" />
+		<bitmapData resourceLink="assets.growthPackage.getIcon" x="544" y="4" />
+		<bitmapData resourceLink="assets.growthPackage.Item0" x="24" y="13" />
+		<bitmapData resourceLink="assets.growthPackage.Item1" x="24" y="13" />
+		<bitmapData resourceLink="assets.growthPackage.Item2" x="24" y="13" />
+		<bitmapData resourceLink="assets.growthPackage.Item3" x="22" y="6" />
+		<bitmapData resourceLink="assets.growthPackage.Item4" x="22" y="6" />
+		<bitmapData resourceLink="assets.growthPackage.Item5" x="22" y="6" />
+		<bitmapData resourceLink="assets.growthPackage.Item6" x="14" y="3" />
+		<bitmapData resourceLink="assets.growthPackage.Item7" x="14" y="3" />
+		<bitmapData resourceLink="assets.growthPackage.Item8" x="0" y="-5" />
+		
+	</bitmaps>
+
+</style>

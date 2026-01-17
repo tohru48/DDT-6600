@@ -1,0 +1,33 @@
+<style name="newversionguide" version="6.1.0" source="ui/turkey/swf/newversionguide.swf">
+	<sets>
+		<set stylename="newVersionGuide.npc.TF"  args="Arial,12,0xffffff"  type="flash.text.TextFormat" />
+		<set stylename="newVersionGuide.npc.GF" args="0x000000,2,4,4,30"  type="flash.filters.GlowFilter"/>
+	</sets>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="hall.buildingTip.pos" x="-117" y="57"/>
+		<custom classname="flash.geom.Point" stylename="hall.ringStation.buildingTip.pos" x="0" y="57"/>
+		<custom classname="flash.geom.Point" stylename="hall.ringStation.icon.pos5" x="-422" y="-55"/>
+		<custom classname="flash.geom.Point" stylename="hall.ringStation.icon.pos6" x="-387" y="-55"/>
+		
+		<custom classname="flash.geom.Point" stylename="hall.npcPaopao.pos7" x="-230" y="-79"/>
+		<custom classname="flash.geom.Point" stylename="hall.npcPaopao.pos8" x="32" y="-140"/>
+		<custom classname="flash.geom.Point" stylename="hall.npcPaopao.pos9" x="94" y="-71"/>
+		<custom classname="flash.geom.Point" stylename="hall.npcPaopao.pos10" x="86" y="-63"/>
+		<custom classname="flash.geom.Point" stylename="hall.npcPaopao.pos11" x="107" y="-31"/>
+		<custom classname="flash.geom.Point" stylename="hall.npcPaopao.pos12" x="107" y="-140"/>
+		<custom classname="flash.geom.Point" stylename="hall.npcPaopao.pos13" x="52" y="-148"/>
+	</customs>
+	
+	<components>
+		<component classname="com.pickgliss.ui.controls.TextButton"
+			stylename="newVersionGuide.btn" parentStyle="core.simplebt" x="334" y="153" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newVersionGuide.npcTxt"  textFormatStyle="newVersionGuide.npc.TF"
+			filterString="newVersionGuide.npc.GF"  wordWrap="true" width="126"  height="79" x="-68" y="-83"/>
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="hall.newVersionGuide.tip1" x="240" y="79"/>
+		<bitmapData resourceLink="hall.newVersionGuide.tip2" x="240" y="79"/>
+	</bitmaps>
+</style>

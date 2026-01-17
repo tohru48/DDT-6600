@@ -1,0 +1,68 @@
+<style name="integralshop" version="1.0.1" source="ui/turkey/swf/integralshop.swf">
+<sets>
+	<set stylename="integralShopView_TF1" args="Arial,14,0xfdf4bb,true" type="flash.text.TextFormat" leading="5" letterSpacing="0"/>
+	<set stylename="integralShopView_GF1" args="0x6a3c0c,2,4,4,10" type="flash.filters.GlowFilter"></set>
+
+	<set stylename="integralShopView_TF2" args="Arial,12,0xfffef4,true" type="flash.text.TextFormat"/>
+	<set stylename="integralShopView_GF2" args="0xaa2828,2,4,4,10" type="flash.filters.GlowFilter"></set>
+		
+	<set stylename="integralShopView_TF3" type="flash.text.TextFormat" args="Arial,12,0xfff8d6,,,,,,center"/>
+	<set stylename="integralShopView_GF3" type="flash.filters.GlowFilter" args="0x4b270d,1,4,4,30"/>
+
+	<set stylename="integralShopView_TF4" type="flash.text.TextFormat" args="Arial,11,0xe8ce97,true" leading="0"/>
+	<set stylename="integralShopView_GF4" type="flash.filters.GlowFilter" args="0x5c3d11,1,2,2,30"/>
+	
+	<set stylename="integralShopView_TF5" type="flash.text.TextFormat" args="Arial,16,0xe8ce97,true"/>
+	<set stylename="integralShopView_GF5" type="flash.filters.GlowFilter" args="0x5c3d11,1,2,2,30"/>
+
+	<set stylename="integralShopView_TF6" type="flash.text.TextFormat" args="Arial,12,0xf1c55d,true"/>
+	<set stylename="integralShopView_GF6" type="flash.filters.GlowFilter" args="0x4e2f10,1,2,2,30"/>
+
+	<set stylename="integralShopView_TF7" type="flash.text.TextFormat" args="Arial,14,0xfff8d6" align="center"/>
+	<set stylename="integralShopView_GF7" type="flash.filters.GlowFilter" args="0x4b270d,2,4,4,30"/>
+
+</sets>
+<components>
+	<!--窗口-->
+	<component classname="oldplayerintegralshop.view.IntegralShopView" stylename="oldplayerintegralshop.IntegralShopView" backStyle="SimpleFrameBackgoundOne" 
+		parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,14,6,30,14"
+		containerX="15" containerY="38" titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1"
+		width="518" height="498" moveEnable="false" escEnable="true" />
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="integralShopView.frameBottom" parentStyle="core.bg6920" 
+			width="510" height="463" x="4" y="7" scaleGridString="5,10,80,20" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="integralShopView.infoBg"
+		parentStyle="core.Scale9CornerImage.deepFur" width="496" height="200" x="11" y="15" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="integralShopView.infoText" leading="0"
+		textFormatStyle="integralShopView_TF1" filterString="integralShopView_GF1" autoSize="none" width="430" height="113" wordWrap="true" x="27" y="67"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="integralShopView.integralText" 
+		textFormatStyle="integralShopView_TF2" filterString="integralShopView_GF2"  x="142" y="100"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="integralShopView.call" 
+		textFormatStyle="integralShopView_TF2" filterString="integralShopView_GF2"  x="175" y="130"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="integralShopView.pageTxt" 
+		textFormatStyle="integralShopView_TF3" filterString="integralShopView_GF3" 
+		autoSize="none" width="65" height="20" x="338" y="405"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="integralShopView.buyBtn" 
+		backStyle="asset.integralShopView.buyBtn" x="147" y="54"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="integralShopView.nameTxt" 
+		textFormatStyle="integralShopView_TF4" filterString="integralShopView_GF4" 
+		autoSize="none" width="150" height="38" x="77" y="3" wordWrap="true"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="integralShopView.needMoneyTxt" 
+		textFormatStyle="integralShopView_TF5" filterString="integralShopView_GF5" 
+		autoSize="none" width="60" height="25" x="77" y="27"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="integralShopView.integral" 
+		textFormatStyle="integralShopView_TF6" filterString="integralShopView_GF6"  x="170" y="30"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="integralShopView.integralNum" 
+		textFormatStyle="integralShopView_TF7" filterString="integralShopView_GF7"  
+		autoSize="none" width="88" height="23" x="79" y="405"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="integralShopView.foreBtn" 
+		backStyle="asset.integralShopView.foreBtn" x="280" y="401"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="integralShopView.nextBtn" 
+		backStyle="asset.integralShopView.nextBtn" x="409" y="401"/>
+</components>
+<bitmaps>
+	<bitmapData resourceLink="asset.integralShopView.viewBg" x="2" y="6" />
+</bitmaps>
+<customs>
+	<custom classname="flash.geom.Point" stylename="integralShopView.itemCell.pos" x="3" y="3" />	
+</customs>
+</style>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="gameOver" version="1.0.1" source="ui/turkey/swf/gameOver.swf"> 
+  <sets> 
+    <set stylename="experience.LeftViewNameTF" args="Arial,15,0xF7F1B3,bold" type="flash.text.TextFormat"/>  
+    <set stylename="experience.LeftViewScoreTF" args="Arial,15,0xFFFFFF,bold,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="experience.expCountTF" args="Arial,26,0xFFFFFF,bold,italic,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="experience.normalTotalTF" args="Arial,34,0xFFFFFF,bold,italic" type="flash.text.TextFormat"/>  
+    <set stylename="experience.typeTxtTF" args="FZHei-B01S,23,0xFFFFFF,bold,italic" type="flash.text.TextFormat"/>  
+    <set stylename="experience.expTxtFilter_1" args="0x8A0000,1,2,2,1.5," type="flash.filters.GlowFilter"/>  
+    <set stylename="experience.expTxtFilter_2" args="0xFF0000,1,4,4,1.8,3" type="flash.filters.GlowFilter"/>  
+    <set stylename="experience.exploitTxtFilter_1" args="0x003300,1,2,2,1.5" type="flash.filters.GlowFilter"/>  
+    <set stylename="experience.exploitTxtFilter_2" args="0x00FF00,1,4,4,1.8,3" type="flash.filters.GlowFilter"/>  
+    <set stylename="experience.expTypeTxtFilter" args="0xFF0000,1,2,2,3" type="flash.filters.GlowFilter"/>  
+    <set stylename="experience.exploitTypeTxtFilter" args="0x009900,1,2,2,3" type="flash.filters.GlowFilter"/>  
+    <set stylename="takeoutCard.LuckyCardOverFilter" args="0xFFFF00,1,8,8,2.5,3" type="flash.filters.GlowFilter"/>  
+    <set stylename="gameOver.TFormat_12" args="Arial,14,0x000000,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="gameOver.TFormat_13" args="Verdana,14,0x000000,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="gameOver.TFormat_14" args="Verdana,12,0xFFFFFF,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="gameOver.TFormat_15" args="Arial,14,0x000000,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="gameOver.TFormat_16" args="Arial,24,0x774513,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="gameOver.TFormat_17" args="Arial,14,0x5B3E00,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="gameOver.TFormat_18" args="Arial,16,0x6D3806,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="gameOver.TFormat_19" args="Verdana,12,0xFF0000,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="takeoutCard.GoldTextFormat" args="Arial,19,0x9C3F09,bold,,,,,center" type="flash.text.TextFormat"/>  
+    <set args="0xFFFFFF,1,4,4,500" stylename="gameOver.GoldTextFilter" type="flash.filters.GlowFilter"/>  
+    <set stylename="takeoutCard.CardItemNameTxtTF" args="Arial,11,0x000000,blod,,,,,center" type="flash.text.TextFormat"/>  
+    <set args="0xFFFFFF,1,4,4,500" stylename="gameOver.CardItemNameFilter" type="flash.filters.GlowFilter"/>  
+    <set args="0x000000,1,4,4,10" stylename="filter.gameover.goodsCountFilter" type="flash.filters.GlowFilter"/>  
+    <set args="0xFFFFFF,1,3,3,100" stylename="filter.gameover.WhiteFilter" type="flash.filters.GlowFilter"/>  
+    <set args="0xFFFFCC,1,3,3,100" stylename="filter.gameover.Filter_1" type="flash.filters.GlowFilter"/>  
+    <set args="0xFEF3D5,1,3,3,100" stylename="filter.gameover.Filter_2" type="flash.filters.GlowFilter"/>  
+    <set stylename="gameOver.VipDescTxtTF" args="Arial,12,0xffe440" type="flash.text.TextFormat"/>  
+    <set stylename="gameOver.VipDescTxtGF" args="0x3a002a,1,4,4,20" type="flash.filters.GlowFilter"/> 
+  </sets>  
+  <components> 
+    <!--挑战经验信息-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.damageOrKillTxt" textFormatStyle="gameOver.TFormat_13" x="8" y="72" autoSize="none" width="88" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.expTxt" textFormatStyle="gameOver.TFormat_14" filterString="filter.gameover.goodsCountFilter" parentStyle="gameOver.damageOrKillTxt" y="170"/>  
+    <!--翻牌-->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gameOver.CardGoldM" resourceLink="asset.gameOver.cardGoldTitle,asset.gameOver.cardGold"/>  
+    <!--拾取-->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="gameOver.bagScaleBGAsset" parentStyle="bagScaleBGAssetCore" width="270" height="390" y="60"/>  
+    <!--关卡信息结算-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.DungeonExpNameTxt" textFormatStyle="gameOver.TFormat_12" y="0" autoSize="none" width="154" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.VipDescTxt" textFormatStyle="gameOver.VipDescTxtTF" filterString="gameOver.VipDescTxtGF" x="485" y="-53"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="gameOver.VipIcon" resourceLink="asset.game.smallplayer.seniorVIP" x="462" y="-52"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="gameOver.VipDiscountBg" resourceLink="asset.core.VipDiscountBg" x="456" y="-57"/> 
+  </components>  
+  <customDisplay> 
+    <!--胜利失败动画-->  
+    <custom classname="flash.geom.Point" stylename="gameOver.goForPowerPosition" x="98" y="-119"/>  
+    <!--挑战经验信息-->  
+    <!--  
+		<custom classname="flash.geom.Point" stylename="gameOver.ecperience11" x="83" y="52"/>
+		<custom classname="flash.geom.Point" stylename="gameOver.ecperience12" x="187" y="52"/>
+		<custom classname="flash.geom.Point" stylename="gameOver.ecperience13" x="293" y="52"/>
+		<custom classname="flash.geom.Point" stylename="gameOver.ecperience14" x="398" y="52"/>
+		<custom classname="flash.geom.Point" stylename="gameOver.ecperience21" x="508" y="52"/>
+		<custom classname="flash.geom.Point" stylename="gameOver.ecperience22" x="612" y="52"/>
+		<custom classname="flash.geom.Point" stylename="gameOver.ecperience23" x="718" y="52"/>
+		<custom classname="flash.geom.Point" stylename="gameOver.ecperience24" x="823" y="52"/>
+		--> 
+  </customDisplay>  
+  <components name="3.0 新增"> 
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.LeftViewNameTxt" textFormatStyle="experience.LeftViewNameTF" width="107" height="20" x="36" y="9"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.LeftViewScoreTxt" textFormatStyle="experience.LeftViewScoreTF" autoSize="none" width="158" height="20" x="148" y="7"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.expCountTxt" textFormatStyle="experience.expCountTF" autoSize="none" width="150" height="35" x="290" y="68"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.expCountTxt1" parentStyle="experience.expCountTxt" y="77"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.expCountTxt2" parentStyle="experience.expCountTxt" y="63"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.expTypeTxt" textFormatStyle="experience.typeTxtTF" filterString="experience.expTypeTxtFilter" autoSize="none"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.exploitTypeTxt" textFormatStyle="experience.typeTxtTF" filterString="experience.exploitTypeTxtFilter" autoSize="none"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.normalTotalText" textFormatStyle="experience.normalTotalTF" autoSize="none" width="150"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="takeoutCard.PlayerItemNameTxt" textFormatStyle="gameOver.TFormat_15" filterString="filter.gameover.WhiteFilter" autoSize="none" width="90" height="20" x="9" y="127" isAutoFitLength="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="takeoutCard.CardItemNameTxt" textFormatStyle="takeoutCard.CardItemNameTxtTF" filterString="gameOver.CardItemNameFilter" width="90" height="20" x="9" y="23" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="takeoutCard.GoldTxt" textFormatStyle="takeoutCard.GoldTextFormat" filterString="gameOver.GoldTextFilter" autoSize="none" width="90" height="24" x="9" y="50" isAutoFitLength="true"/> 
+  </components>  
+  <customDisplay name="3.0 新增"> 
+    <custom classname="flash.geom.Point" stylename="experience.LeftViewCharacterLightPos" x="256" y="271"/>  
+    <custom classname="flash.geom.Point" stylename="experience.LeftViewCharacterWinPos" x="392" y="-28"/>  
+    <custom classname="flash.geom.Point" stylename="experience.LeftViewCharacterLosePos" x="389" y="-28"/>  
+    <custom classname="flash.geom.Point" stylename="experience.FriendItemHeadPos" x="5" y="2"/>  
+    <custom classname="flash.geom.Point" stylename="experience.FriendItemTxtPos_3" x="307" y="7"/>  
+    <custom classname="flash.geom.Point" stylename="experience.FriendItemPos_1" x="20" y="488"/>  
+    <custom classname="flash.geom.Point" stylename="experience.FriendItemPos_2" x="20" y="518"/>  
+    <custom classname="flash.geom.Point" stylename="experience.FriendItemPos_3" x="20" y="548"/>  
+    <custom classname="flash.geom.Point" stylename="experience.ItemBgPos" x="-35" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="experience.ResultSealLuckyLeft" x="-360" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="experience.ResultSealPos" x="282" y="-17"/>  
+    <custom classname="flash.geom.Point" stylename="experience.RightViewPos" x="553" y="15"/>  
+    <custom classname="flash.geom.Point" stylename="experience.FightingExpItemPos" x="0" y="67"/>  
+    <custom classname="flash.geom.Point" stylename="experience.AttatchExpItemPos" x="0" y="176"/>  
+    <custom classname="flash.geom.Point" stylename="experience.ExploitExpItemPos" x="0" y="350"/>  
+    <custom classname="flash.geom.Point" stylename="experience.TotalItemNumTxtPos" x="300" y="10"/>  
+    <custom classname="flash.geom.Point" stylename="experience.RightViewTotalPos" x="0" y="488"/>  
+    <custom classname="flash.geom.Point" stylename="experience.txtStartPos" x="30" y="13"/>  
+    <custom classname="flash.geom.Point" stylename="experience.txtOffset" x="138" y="30"/>  
+    <custom classname="flash.geom.Point" stylename="experience.TotalTextLightPos" x="-24" y="11"/>  
+    <custom classname="flash.geom.Point" stylename="takeoutCard.SmallCardViewPos" x="500" y="50"/>  
+    <custom classname="flash.geom.Point" stylename="takeoutCard.LargeCardViewPos" x="50" y="75"/>  
+    <custom classname="flash.geom.Point" stylename="takeoutCard.SmallCardViewCountDownPos" x="126" y="-39"/>  
+    <custom classname="flash.geom.Point" stylename="takeoutCard.LargeCardViewCountDownPos" x="-8" y="-77"/>  
+    <custom classname="flash.geom.Point" stylename="takeoutCard.LargeCardViewTitlePos" x="91" y="-58"/>  
+    <custom classname="flash.geom.Point" stylename="takeoutCard.LargeCardView.CardGetNotePos" x="289" y="-68"/> 
+  </customDisplay>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.gameOver.PVPExpViewBgAsset" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.gameAsset.ExpItemBgAsset" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.game.expTxtBgAsset" x="54" y="179"/>  
+    <!--挑战经验信息条目-->  
+    <bitmapData resourceLink="asset.gameOver.ExperienceOFFER200" x="58" y="127"/>  
+    <bitmapData resourceLink="asset.gameOver.ExperienceIconMarry" y="3"/>  
+    <!--翻牌-->  
+    <bitmapData resourceLink="asset.gameOver.cardGold" x="7" y="87"/>  
+    <bitmapData resourceLink="asset.gameOver.cardMoney" x="9" y="78"/>  
+    <bitmapData resourceLink="asset.gameOver.cardGift" x="9" y="78"/>  
+    <!--拾取-->  
+    <bitmapData resourceLink="asset.gameOver.TrophyTitle" x="2" y="5"/>  
+    <bitmapData resourceLink="asset.gameOver.TrophyViewBg" x="7" y="75"/>  
+    <!--关卡信息结算-->  
+    <bitmapData resourceLink="asset.gameOver.ExperienceExp2" x="109" y="136"/>  
+    <bitmapData resourceLink="asset.gameOver.DungeonEXPTitleBG" x="153"/>  
+    <bitmapData resourceLink="asset.gameOver.DungeonEXPBG" y="54"/>  
+    <!--大翻牌-->  
+    <bitmapData resourceLink="asset.game.PVEpeopleTip" x="303" y="-10"/>  
+    <!-- 新版经验结算_3.0 -->  
+    <bitmapData resourceLink="asset.experience.friendViewTitleBg" x="13" y="424"/>  
+    <bitmapData resourceLink="asset.experience.friendViewTitle" x="205" y="430"/>  
+    <bitmapData resourceLink="asset.experience.characterLightBg" x="24" y="34"/>  
+    <bitmapData resourceLink="asset.experience.friendViewBodyBg" x="13" y="460"/>  
+    <bitmapData resourceLink="asset.experience.tabName" x="68" y="465"/>  
+    <bitmapData resourceLink="asset.experience.tabExp" x="219" y="465"/>  
+    <bitmapData resourceLink="asset.experience.tabExploit" x="377" y="465"/>  
+    <bitmapData resourceLink="asset.experience.rightViewTitleBg2" x="70" y="7"/>  
+    <bitmapData resourceLink="asset.experience.rightViewTitleMyResult" x="150" y="17"/>  
+    <bitmapData resourceLink="asset.experience.rightViewResultTxt" x="50" y="43"/>  
+    <bitmapData resourceLink="asset.experience.rightViewTotalTxt" x="0" y="27"/>  
+    <bitmapData resourceLink="asset.experience.fightExpItemTitle" x="101" y="6"/>  
+    <bitmapData resourceLink="asset.experience.attachExpItemTitle" x="164" y="7"/>  
+    <bitmapData resourceLink="asset.experience.attachExploitItemTitle" x="141" y="7"/>  
+    <bitmapData resourceLink="asset.gameOver.cardBack" x="-3" y="-11"/>  
+    <bitmapData resourceLink="asset.experience.TotalExpTxt" x="153" y="7"/>  
+    <bitmapData resourceLink="asset.experience.TotalExploitTxt" x="153" y="49"/>  
+    <bitmapData resourceLink="asset.takeoutCard.GoldTxt" x="17" y="21"/>  
+    <bitmapData resourceLink="asset.takeoutCard.GoldBitmap" x="27" y="77"/>  
+    <bitmapData resourceLink="asset.takeoutCard.TitleBitmap" x="250" y="-20" width="210" height="40"/>  
+    <bitmapData resourceLink="asset.core.payBuffAsset73.note" x="410" y="-22" width="155"/>  
+    <bitmapData resourceLink="asset.takeoutCard.InstructionBitmap" x="594" y="-61"/>  
+    <bitmapData resourceLink="asset.core.payBuffAsset73.note" x="204" y="270"/>  
+    <!-- 通过ComponentFactory.Instance.creatBitmapData 创建 bitmapData 时需要在这里添加节点 -->  
+    <bitmapData resourceLink="asset.takeoutCard.CountDownNum_0"/>  
+    <bitmapData resourceLink="asset.takeoutCard.CountDownNum_1"/>  
+    <bitmapData resourceLink="asset.takeoutCard.CountDownNum_2"/>  
+    <bitmapData resourceLink="asset.takeoutCard.CountDownNum_3"/>  
+    <bitmapData resourceLink="asset.takeoutCard.CountDownNum_4"/>  
+    <bitmapData resourceLink="asset.takeoutCard.CountDownNum_5"/>  
+    <bitmapData resourceLink="asset.takeoutCard.CountDownNum_6"/>  
+    <bitmapData resourceLink="asset.takeoutCard.CountDownNum_7"/>  
+    <bitmapData resourceLink="asset.takeoutCard.CountDownNum_8"/>  
+    <bitmapData resourceLink="asset.takeoutCard.CountDownNum_9"/>  
+    <bitmapData resourceLink="asset.experience.TotalExpNum_0"/>  
+    <bitmapData resourceLink="asset.experience.TotalExpNum_1"/>  
+    <bitmapData resourceLink="asset.experience.TotalExpNum_2"/>  
+    <bitmapData resourceLink="asset.experience.TotalExpNum_3"/>  
+    <bitmapData resourceLink="asset.experience.TotalExpNum_4"/>  
+    <bitmapData resourceLink="asset.experience.TotalExpNum_5"/>  
+    <bitmapData resourceLink="asset.experience.TotalExpNum_6"/>  
+    <bitmapData resourceLink="asset.experience.TotalExpNum_7"/>  
+    <bitmapData resourceLink="asset.experience.TotalExpNum_8"/>  
+    <bitmapData resourceLink="asset.experience.TotalExpNum_9"/>  
+    <bitmapData resourceLink="asset.experience.TotalExpNum_+"/>  
+    <bitmapData resourceLink="asset.experience.TotalExpNum_-"/>  
+    <bitmapData resourceLink="asset.experience.TotalExploitNum_0"/>  
+    <bitmapData resourceLink="asset.experience.TotalExploitNum_1"/>  
+    <bitmapData resourceLink="asset.experience.TotalExploitNum_2"/>  
+    <bitmapData resourceLink="asset.experience.TotalExploitNum_3"/>  
+    <bitmapData resourceLink="asset.experience.TotalExploitNum_4"/>  
+    <bitmapData resourceLink="asset.experience.TotalExploitNum_5"/>  
+    <bitmapData resourceLink="asset.experience.TotalExploitNum_6"/>  
+    <bitmapData resourceLink="asset.experience.TotalExploitNum_7"/>  
+    <bitmapData resourceLink="asset.experience.TotalExploitNum_8"/>  
+    <bitmapData resourceLink="asset.experience.TotalExploitNum_9"/>  
+    <bitmapData resourceLink="asset.experience.TotalExploitNum_+"/>  
+    <bitmapData resourceLink="asset.experience.TotalExploitNum_-"/>  
+    <bitmapData resourceLink="asset.core.EnthrallIcon" x="-70" y="-5"/>  
+    <bitmapData resourceLink="asset.experience.attachExpItemTxt_a5" x="2"/>  
+    <bitmapData resourceLink="asset.experience.exploitExpItemTxt_a4" x="2"/>  
+    <bitmapData resourceLink="asset.experience.fightExpItemTxt_a3" x="-1" y="0"/>  
+    <bitmapData resourceLink="asset.experience.attachExpItemTxt_a0" x="-3" y="0"/>  
+    <bitmapData resourceLink="asset.experience.attachExpItemTxt_a6" x="2" y="0"/>  
+    <bitmapData resourceLink="asset.experience.attachExpItemTxt_b9" x="-3" y="0"/>  
+    <bitmapData resourceLink="asset.experience.attachExpItemTxt_a3" x="4" y="0"/>  
+    <bitmapData resourceLink="asset.experience.attachExpItemTxt_b0" x="-3" y="0"/>  
+    <bitmapData resourceLink="asset.experience.fightExpItemTxt_b0" x="-2" y="0"/>  
+    <bitmapData resourceLink="asset.experience.exploitExpItemTxt_a2" x="2" y="0"/>  
+    <bitmapData resourceLink="asset.experience.exploitExpItemTxt_b6" x="1" y="0"/>  
+    <bitmapData resourceLink="asset.core.VipDiscountBg" width="137" height="40"/>  
+    <bitmapData resourceLink="asset.takeoutCard.isBindBitmap" x="27" y="77"/> 
+  </bitmaps> 
+</style>

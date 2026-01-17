@@ -1,0 +1,227 @@
+<style name="home" version="6.1.0" source="ui/turkey/swf/home.swf">
+<sets>
+	<set stylename="home.list.nameTxtTF" args="Arial,14,0x000000,true" type="flash.text.TextFormat" />
+	<set stylename="home.list.nameTxtGF"  args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter" />
+	<set stylename="home.decoration.tabSelectedTxtTF" args="Arial,14,0xfff3bc,true" type="flash.text.TextFormat"/>
+<set stylename="home.decoration.tabUnselectedTxtTF" args="Arial,14,0xda943b,true" type="flash.text.TextFormat"/>
+<set stylename="home.decoration.tabSelectedTxtGF" args="0x5f3108,1,4,4,30" type="flash.filters.GlowFilter"/>
+<set stylename="home.decoration.tabUnselectedTxtGF" args="0x341c02,1,4,4,30" type="flash.filters.GlowFilter"/>
+<set stylename="home.decoration.pageGF" args="0x4b270d,1,4,4,10" type="flash.filters.GlowFilter"/>
+<set stylename="home.decoration.pageTF" args="Arial,12,0xfff8d6,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="home.decoration.GF1" args="0x60320B,2,4,4,10" type="flash.filters.GlowFilter"/>
+<set stylename="home.fight.reportTextTF" args="Arial,12,0xFFFF00" type="flash.text.TextFormat" leading="5" letterSpacing="1"/>
+<set stylename="home.decoration.TF1" args="Arial,9,0xFFDD94" type="flash.text.TextFormat"/>
+<set stylename="home.decoration.GF2" args="0x60320B,2,4,4,10" type="flash.filters.GlowFilter"/>
+<set stylename="home.fight.reportTextGF" args="0x000000,1,4,4,8" type="flash.filters.GlowFilter"/>
+<set stylename="home.extend.detailTxtTF" args="Arial,12,0xE7CB99" type="flash.text.TextFormat" leading="5"/>
+<set stylename="home.decoration.TF2" args="Arial,12,0xFF7800,true" type="flash.text.TextFormat"/>
+<set stylename="home.extend.detailTxtGF" args="0x62410E,2,4,4,10" type="flash.filters.GlowFilter"/>
+<set stylename="home.extend.titleTxtTF" args="Arial,16,0xFFC000,true" type="flash.text.TextFormat"/>
+<set stylename="home.extend.titleTxtGF" args="0x451c06,2,4,4,10" type="flash.filters.GlowFilter"/>
+<set stylename="home.prosperity.tipTitleGF" args="0x000000,1,2,2,4" type="flash.filters.GlowFilter"/>
+<set stylename="home.prosperity.tipDetailTF" args="Arial,14,0xffde00" type="flash.text.TextFormat" leading="5" letterSpacing="1"/>
+<set stylename="home.prosperity.tipDescribeTF" args="Arial,14,0xFFFFff" type="flash.text.TextFormat" leading="5" letterSpacing="1"/>
+<set stylename="home.prosperity.tipDetailGF" args="0x000000,1,2,2,4" type="flash.filters.GlowFilter"/>
+<set stylename="home.prosperity.tipDescribeGF" args="0x000000,1,2,2,4" type="flash.filters.GlowFilter"/>
+<set stylename="home.prosperity.TF" args="Arial,12,0xFFFF00" type="flash.text.TextFormat" leading="5" letterSpacing="1"/>
+<set stylename="home.prosperity.GF" args="0x000000,1,4,4,8" type="flash.filters.GlowFilter"/>
+<set stylename="home.prosperity.tipTitleTF" args="Arial,16,0xfd9b00,true" type="flash.text.TextFormat" leading="5" letterSpacing="1"/>
+
+</sets>
+<customs>
+	<custom classname="flash.geom.Point" stylename="home.friendViewPos" x="960" y="36"/>
+	<custom classname="flash.geom.Point" stylename="home.hostStatuePos" x="615" y="138"/>	
+	
+<!-- npc或建筑对应的玩家停靠位置 -->
+	<custom classname="flash.geom.Point" stylename="home.farmPlayerPos" x="571" y="446" /> 
+	<custom classname="flash.geom.Point" stylename="home.horseracingPlayerPos" x="1174" y="531" />
+<!-- 	npc或建筑tips位置 -->
+	<custom classname="flash.geom.Point" stylename="home.build.farmTipPos" x="252" y="209" />
+	
+	<custom classname="home.components.HomeFriendListCell" stylename="home.friendlistStyle" />
+	<custom classname="flash.geom.Point" stylename="home.levelIconPos" x="10" y="7"/>
+	<custom classname="flash.geom.Point" stylename="home.switchBtnPos" x="0" y="35"/>	
+<custom classname="flash.geom.Point" stylename="home.build.barTipPos" x="1657" y="104"/>
+<custom classname="flash.geom.Point" stylename="home.decorationViewPos" x="0" y="436"/>
+<custom classname="home.views.fight.HomeFightReportView" stylename="home.fight.reportView" x="769" y="5"/>
+<custom classname="flash.geom.Point" stylename="home.fight.lifeWarnPos" x="262" y="21"/>
+<custom classname="flash.geom.Point" stylename="home.setViewPos" x="25" y="14"/>
+<custom classname="home.views.fight.HomeFightCount" stylename="home.fight.homeStateCount" imageStyle="home.fight.level" x="323" y="40" mouseEnabled="false" mouseChildren="false" countWidth="60"/>
+<custom classname="flash.geom.Point" stylename="home.fight.lifeReducePos" x="275" y="36"/>
+<custom classname="home.views.fight.HomeFightCount" stylename="home.fight.goldCount" imageStyle="home.fight.level" x="484" y="40" mouseEnabled="false" mouseChildren="false" countWidth="60"/>
+<custom classname="flash.geom.Point" stylename="home.decoration.itemPos" x="8" y="5"/>
+<custom classname="home.views.fight.HomeFightCount" stylename="home.fight.levelCount" imageStyle="home.fight.level" x="1217" y="601" mouseEnabled="false" mouseChildren="false" countWidth="60"/>
+<custom classname="home.views.fight.HomeFightCount" stylename="home.fight.countDown" imageStyle="home.fight.count" mouseEnabled="false" mouseChildren="false" countWidth="200"/>
+<custom classname="flash.geom.Point" stylename="home.fight.countDownRevivePos" x="84" y="62"/>
+<custom classname="flash.geom.Point" stylename="home.fight.playerPos" x="804" y="642"/>
+<custom classname="flash.geom.Point" stylename="home.fight.hpStripBgPos" x="-11" y="14"/>
+<custom classname="flash.geom.Point" stylename="home.fight.countDownWaitPos" x="84" y="83"/>
+<custom classname="flash.geom.Point" stylename="home.fight.newWinPos" x="359" y="129"/>
+<custom classname="flash.geom.Point" stylename="home.fight.hpStripPos" x="-10" y="15"/>
+<custom classname="flash.geom.Point" stylename="home.fight.newLostPos" x="438" y="244"/>
+<custom classname="flash.geom.Point" stylename="home.fight.tipCheckBtnPos" x="46" y="59"/>
+<custom classname="flash.geom.Point" stylename="home.extend.titleBg2Pos" x="76" y="10"/>
+<custom classname="home.fight.HelpText" stylename="home.fight.HelpText" x="180" y="213"/>
+<custom classname="flash.geom.Point" stylename="home.fight.ReviveCheckBtnPos" x="93" y="123"/>
+<custom classname="flash.geom.Point" stylename="home.extend.titleTxt2Pos" x="115" y="14"/>
+<custom classname="flash.geom.Point" stylename="home.fight.boguEntryPos" x="1234" y="725"/>
+<custom classname="flash.geom.Point" stylename="home.anotherDimensionPos" x="1193" y="434"/>
+<custom classname="flash.geom.Point" stylename="home.extend.titleBg1Pos" x="62" y="11"/>
+<custom classname="flash.geom.Point" stylename="home.extend.itemCellPos" x="193" y="293"/>
+<custom classname="flash.geom.Point" stylename="home.extend.titleTxt1Pos" x="102" y="15"/>
+<custom classname="game.model.GameNeedMovieInfo" stylename="home.fight.boguEntryMovieInfo" type="2" path="image/game/living/Living001.swf" classPath="game.living.Living001"/>
+<custom classname="flash.geom.Point" stylename="home.extend.countTxtPos" x="295" y="343"/>
+<custom classname="flash.geom.Point" stylename="home.laboratoryPlayerPos" x="1730" y="793"/>
+<custom classname="flash.geom.Point" stylename="home.housePlayerPos" x="771" y="300"/>
+<custom classname="flash.geom.Point" stylename="home.extend.beforeContainerPos" x="10" y="27"/>
+<custom classname="flash.geom.Point" stylename="home.extend.itemCell2Pos" x="278" y="292"/>
+<custom classname="flash.geom.Point" stylename="home.extend.afterContainerPos" x="275" y="12"/>
+<custom classname="flash.geom.Point" stylename="home.barPlayerPos" x="1867" y="440"/>
+<custom classname="flash.geom.Point" stylename="home.build.laboratoryTipPos" x="1801" y="615"/>
+<custom classname="flash.geom.Point" stylename="home.build.houseTipPos" x="500" y="100"/>
+<custom classname="flash.geom.Point" stylename="home.extend.extendMcPos" x="11" y="16"/>
+<custom classname="flash.geom.Point" stylename="home.build.templeTipPos" x="31" y="330"/>
+<custom classname="flash.geom.Point" stylename="home.templePlayerPos" x="310" y="488"/>
+<custom classname="flash.geom.Point" stylename="home.fishingPlayerPos" x="1770" y="562"/>
+<custom classname="flash.geom.Point" stylename="home.renshenPlayerPos" x="1011" y="475"/>
+<custom classname="flash.geom.Point" stylename="home.moneytreePlayerPos" x="1468" y="707"/>
+<custom classname="flash.geom.Point" stylename="home.extend.countTxtPos0" x="236" y="343"/>
+<custom classname="flash.geom.Point" stylename="home.extend.countTxtPos1" x="210" y="343"/>
+
+</customs>
+<components>
+<!-- 	热区-->
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.farmBtn"
+			backStyle="home.hotZone.farm" x="175" y="118"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.horseracingBtn"
+			backStyle="home.hotZone.horseracing" x="1147" y="346"/>
+			
+	<component classname="com.pickgliss.ui.controls.ListPanel"  stylename="home.friendlistPanel" 
+		vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,5,0,0,0"
+		factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|home.friendlistStyle,30,163"
+		listStyle="com.pickgliss.ui.controls.list.List" width="190" height="333"
+		x="47" y="8" vUnitIncrement="10" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.list.nameTxt"  
+		textFormatStyle="home.list.nameTxtTF" filterString="home.list.nameTxtGF" autoSize="none" width="100" height="20"
+		x="44" y="10"  isAutoFitLength="true" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.gohomeBtn" 
+		backStyle="home.goHome" displacement="false"  filterString="null,lightFilter,lightFilter,grayFilter"
+		x="911" y="491" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" resourceLink="home.fight.fightStateBg,home.fight.goldBg" stylename="home.fight.GainGold" width="136" height="62" x="420" y="20" imageRectString="0|
+
+136|0|62|13,15|33|13|33|13" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="3,2" tipGapV="5"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.laboratoryBtn" backStyle="home.hotZone.laboratory" x="1817" y="614"/>
+<component classname="home.views.fight.HomeFightReviveFrame" parentStyle="BaseFrame" moveEnable="false" width="325" height="200" containerX="0" containerY="0" stylename="home.fight.HomeFightReviveFrame"/>
+<component classname="bagAndInfo.bag.RichesButton" stylename="home.fight.enterClickBtn" width="90" height="60" buttonMode="true" x="1186" y="680"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.fight.giftLevelText" textFormatStyle="home.list.nameTxtTF" filterString="home.list.nameTxtGF" width="100" height="20" x="670" 
+
+y="23"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.fight.reviveBtn" backStyle="home.fight.reviveBtnBg" x="132" y="134"/>
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="home.fight.transmitted" x="1246" y="681" resourceLink="asset.game.transmitted"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="home.eyeBtn" x="963" y="0" resourceLink="asset.toobar.eyeClose,asset.toobar.eyeOpen" tipStyle="ddt.view.tips.OneLineTip" 
+
+tipDirctions="1"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.decorationBtn" backStyle="home.decoration" filterString="null,lightFilter,lightFilter,grayFilter" x="886" y="473"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="home.decoration.showHideBtn" resourceLink="home.decoration.hide,home.decoration.show" x="970" y="-24"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.decoration.decorationsBtn" backStyle="home.decoration.decorations" x="900" y="10"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.fight.reportContentText" wordWrap="true" type="dynamic" textFormatStyle="home.fight.reportTextTF" 
+
+filterString="home.fight.reportTextGF"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.decoration.restoreBtn" backStyle="home.decoration.restore" x="777" y="52"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.decoration.saveBtn" backStyle="home.decoration.save" x="777" y="94"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.decoration.backBtn" backStyle="home.decoration.back" x="900" y="110"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="home.fight.rewardBtn" resourceLink="home.fight.rewardBtnBg" x="606" y="6" tipDirctions="3,2" tipGapV="5"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="home.decoration.decorationBg" resourceLink="home.decoration.decorationUnselect,home.decoration.decorationSelect"/>
+<component classname="com.pickgliss.ui.text.TextArea" stylename="home.fight.reportContent" parentStyle="core.SimpleTextArea" textStyle="home.fight.reportContentText" x="4" y="7" width="225" height="116"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.barBtn" backStyle="home.hotZone.bar" x="1607" y="87"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.decoration.tabSelectedTxt" textFormatStyle="home.decoration.tabSelectedTxtTF" filterString="home.decoration.tabSelectedTxtGF" 
+
+width="50" height="20"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="home.decoration.buyBg" resourceLink="home.decoration.buyUnselectBg,home.decoration.buySelectBg" x="0" y="6"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.fight.reportText" parentStyle="home.fight.reportContentText" wordWrap="false" autoSize="none" width="220" heigth="20" x="4" 
+
+y="7"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.decoration.tabUnselectedTxt" textFormatStyle="home.decoration.tabUnselectedTxtTF" 
+
+filterString="home.decoration.tabUnselectedTxtGF" width="50" height="20"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.houseBtn" backStyle="home.hotZone.house" x="516" y="5"/>
+<component classname="bagAndInfo.bag.RichesButton" stylename="home.fight.helpClickBtn" width="26" height="22" buttonMode="true" x="1283" y="652"/>
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="home.fight.reportSelectedBtn" unSelectedStyle="home.fight.unReduceBtn" selectedStyle="home.fight.reduceBtn" 
+
+filterString="null,lightFilter,null,grayFilter" x="-27"/>
+<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="home.decoration.baseTabBtn" selectedStyle="home.decoration.tabSelected" unSelectedStyle="home.decoration.tabUnselected" 
+
+filterString="null,lightFilter,null,grayFilter" textStyle="home.decoration.tabSelectedTxt,home.decoration.tabUnselectedTxt" backgoundInnerRectString="15|19|7|7|-1,15|19|7|7|-1"/>
+<component classname="com.pickgliss.ui.controls.container.HBox" stylename="home.decoration.tabHbox" spacing="10" x="-6" y="1"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.extend.extendBtn" x="886" y="421" backStyle="home.extend.extend"/>
+<component classname="home.views.HomeExtendFrame" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" stylename="home.extendFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" 
+
+containerX="19" containerY="46" closeInnerRectString="44,19,6,30,14" width="600" height="450"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.fight.recoverBtn" backStyle="home.fight.recoverBg" x="426" y="523" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" 
+
+tipGapV="10"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.extend.startExtendBtn" x="387" y="303" backStyle="home.extend.startExtend"/>
+<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="home.decoration.wallTabBtn" parentStyle="home.decoration.baseTabBtn"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.fight.helpBtn" backStyle="home.fight.help" x="1283" y="652"/>
+<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="home.decoration.floorTabBtn" parentStyle="home.decoration.baseTabBtn"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.extend.titleTxt" width="100" height="20" textFormatStyle="home.extend.titleTxtTF" filterString="home.extend.titleTxtGF"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.fight.frostBtn" backStyle="home.fight.frostBg" x="511" y="523" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" 
+
+tipGapV="10"/>
+<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="home.decoration.flowerTabBtn" parentStyle="home.decoration.baseTabBtn"/>
+<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="home.decoration.boothTabBtn" parentStyle="home.decoration.baseTabBtn"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="home.decoration.selectImage" resourceLink="home.decoration.select" scaleGridString="10,10,40,20" width="102" height="51" x="896" 
+
+y="7"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.extend.detailTxt" x="37" y="329" width="100" height="20" textFormatStyle="home.extend.detailTxtTF" 
+
+filterString="home.extend.detailTxtGF"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.decoration.prePageBtn" backStyle="home.decoration.btnPrePage" x="681" y="0"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="home.fight.count" 
+
+resourceLink="home.fight.count1,home.fight.count2,home.fight.count3,home.fight.count4,home.fight.count5,home.fight.count6,home.fight.count7,home.fight.count8,home.fight.count9,home.fight.count0"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.decoration.nextPageBtn" backStyle="home.decoration.btnNextPage" x="804" y="0"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="home.fight.level" 
+
+resourceLink="home.fight.level1,home.fight.level2,home.fight.level3,home.fight.level4,home.fight.level5,home.fight.level6,home.fight.level7,home.fight.level8,home.fight.level9,home.fight.level0"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.decoration.purchaseBtn" backStyle="home.decoration.purchase" x="900" y="60"/>
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="home.decoration.currentPageInput" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="739" y="0" width="62" 
+
+height="23"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.decoration.currentPage" textFormatStyle="home.decoration.pageTF" filterString="home.decoration.pageGF" x="737" y="4" 
+
+autoSize="none" width="70" type="dynamic" height="20" text="1/1"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.decoration.itemName" textFormatStyle="home.decoration.TF1" filterString="home.decoration.GF1" x="44" y="84" autoSize="center"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.decoration.price" textFormatStyle="home.decoration.TF2" filterString="home.decoration.GF2" x="91" y="16"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.decoration.giftBtn" backStyle="home.decoration.gift" x="88" y="69"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.decoration.buyBtn" backStyle="home.decoration.buy" x="88" y="42"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" resourceLink="home.fight.fightStateBg,home.fight.homeHp" stylename="home.fight.homeState" width="136" height="62" x="260" y="20" imageRectString="0|136|0|62|13,15|33|16|33|13" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="3,2" tipGapV="5"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.moneytreeBtn" backStyle="home.hotZone.moneytree" x="1391" y="489"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.templeBtn" backStyle="home.hotZone.temple" x="4" y="245"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.fishingBtn" backStyle="home.hotZone.fishing" x="1815" y="416"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.prosperity.tipTitleTxt" wordWrap="true" type="dynamic" textFormatStyle="home.prosperity.tipTitleTF" filterString="home.prosperity.tipTitleGF" x="10" y="8" width="190"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.properity.tipDetail" wordWrap="true" type="dynamic" textFormatStyle="home.prosperity.tipDetailTF" filterString="home.prosperity.tipDetailGF" x="10" y="68" width="190"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.prosperity.tipTxt" wordWrap="true" type="dynamic" textFormatStyle="home.prosperity.tipDescribeTF" filterString="home.prosperity.tipDescribeGF" x="10" y="30" width="190"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.prosperity.helpButton" backStyle="home.prosperity.helpBtn" x="182" y="10"/>
+<component classname="home.views.prosperity.Prosperity" stylename="home.prosperity" tipStyle="home.views.prosperity.ProsperityTip" tipDirctions="1,2,3,4" tipGapV="-160" tipGapH="-390" x="2" y="7"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.renshenBtn" backStyle="home.hotZone.renshen" x="957" y="247"/>
+
+</components>
+<bitmaps>
+	<bitmapData  resourceLink="home.cellBg"  x="0"  y="7"/>
+	<bitmapData resourceLink="home.extend.house0" x="12" y="19"/>
+<bitmapData resourceLink="home.extend.house1" x="11" y="16"/>
+<bitmapData resourceLink="home.extend.arrow" x="242" y="104"/>
+<bitmapData resourceLink="home.decoration.useFlag" x="73" y="1"/>
+<bitmapData resourceLink="home.decoration.ticket" x="119" y="11"/>
+<bitmapData resourceLink="home.fight.boguEntryImage" x="1188" y="638"/>
+<bitmapData resourceLink="home.fight.bossInvadeText" x="82" y="14"/>
+<bitmapData resourceLink="home.fight.propBar" x="341" y="554"/>
+<bitmapData resourceLink="home.fight.bossLevelText" x="1191" y="592"/>
+<bitmapData resourceLink="home.decoration.had" x="88" y="42"/>
+<bitmapData resourceLink="home.test.equipment" x="12" y="54"/>
+<bitmapData resourceLink="home.extend.afterBg" x="0" y="0"/>
+<bitmapData resourceLink="home.fight.waitReviveText" x="130" y="14"/>
+<bitmapData resourceLink="home.extend.beforeBg" x="0" y="0"/>
+</bitmaps>
+</style>

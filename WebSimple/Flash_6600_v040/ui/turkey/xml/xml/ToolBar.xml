@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="toolbar" version="1.0.1" source="ui/turkey/swf/toolbar.swf"> 
+  <sets> 
+    <set stylename="toolbar.bubbleTypeFt" args="Arial,12,0xd9d9d9,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="toolbar.bubbleInfoFt" args="Arial,12,0xd9d9d9,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="toolbar.bubbleStateFt" args="Arial,12,0xd9d9d9,,,,,,center" type="flash.text.TextFormat"/>  
+    <set args="1,1,0x000000" stylename="toolbar.bubbleTypeFl" type="flash.filters.DropShadowFilter"/> 
+  </sets>  
+  <components> 
+  	<component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.setScale" resourceLink="asset.toolbar.setScale" x="-4" y="-9"/>
+  	<component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.homeScale" resourceLink="asset.toolbar.homeScale" x="0" y="0"/>
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.homeMovie" resourceLink="asset.toolbar.homeMCAsset" x="0" y="0"/>
+  	
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.gobackbtn" backStyle="consortion.gobackStyle" useLogID="21" x="943" y="539" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.goexitbtn" backStyle="consortion.goexitStyle" useLogID="21" x="946" y="540" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.turntobtn" backStyle="consortion.turntoStyle" useLogID="16" x="895" y="540" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.gosignbtn" backStyle="consortion.gosignStyle" useLogID="20"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.goActivity" backStyle="consortion.gosignStyle" useLogID="20" x="838" y="540" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.goimbtn" backStyle="consortion.goimStyle" useLogID="19" x="780" y="543" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.gotaskbtn" backStyle="consortion.gotaskStyle" useLogID="17" x="730" y="539" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.goemailbtn" backStyle="consortion.goemailStyle" useLogID="18" x="677" y="536" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.gobagbtn" backStyle="consortion.gobagStyle" useLogID="15" x="623" y="539" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.goshopbtn" backStyle="consortion.goshopStyle" useLogID="14" x="567" y="539" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.goshopStyle" resourceLink="asset.toolbar.shopBtnAsset,consortion.goshopMovie,asset.toolbar.shopScale,asset.toolbar.shopBtnAsset"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.gobagStyle" resourceLink="asset.toolbar.bagBtnAsset,consortion.bagMovie,asset.toolbar.bagScale,asset.toolbar.bagBtnAsset"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.goemailStyle" resourceLink="asset.toolbar.emailBtnAsset,consortion.gomailMovie,asset.toolbar.mailScale,asset.toolbar.emailBtnAsset"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.gotaskStyle" resourceLink="asset.toolbar.taskBtnAsset,consortion.jobMovie,asset.toolbar.jobScale,asset.toolbar.taskBtnAsset"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.goimStyle" resourceLink="asset.toolbar.imBtnAsset,consortion.friendMovie,asset.toolbar.friendScale,asset.toolbar.imBtnAsset"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.gosignStyle" resourceLink="asset.toolbar.signBtnAsset,consortion.signMovie,asset.toolbar.signScale,asset.toolbar.signBtnAsset"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.turntoStyle" resourceLink="asset.toolbar.turntoBtnAsset,consortion.otherMovie,asset.toolbar.otherScale,asset.toolbar.turntoBtnAsset"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.goexitStyle" resourceLink="asset.toolbar.exitBtnAsset,consortion.outMovie,asset.toolbar.outScale,asset.toolbar.exitBtnAsset"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.gobackStyle" resourceLink="asset.toolbar.returnBtnAsset,consortion.outMovie,asset.toolbar.outScale,asset.toolbar.returnBtnAsset"/>  
+    <!-- 设置 -->  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.setbtn" backStyle="consortion.setStyle" useLogID="14" x="832" y="538" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>  
+    <!-- 设置 -->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.setStyle" resourceLink="asset.toolbar.setBtnAsset,consortion.setMovie,asset.toolbar.setScale,asset.toolbar.setBtnAsset"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.goshopMovie" resourceLink="asset.toolbar.shopMCAsset"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.gomailMovie" resourceLink="asset.toolbar.mailMCAsset"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.bagMovie" resourceLink="asset.toolbar.bagMCAsset" x="-2"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.jobMovie" resourceLink="asset.toolbar.jobMCAsset"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.friendMovie" resourceLink="asset.toolbar.friendMCAsset"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.signMovie" resourceLink="asset.toolbar.signMCAsset"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.otherMovie" resourceLink="asset.toolbar.otherMCAsset"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.outMovie" resourceLink="asset.toolbar.outMCAsset"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.setMovie" resourceLink="asset.toolbar.setMCAsset"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.gochargebtn" backStyle="asset.toolbar.supplyBtnAsset" useLogID="13" x="492" y="562" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.hall.clientDownloadBtn" backStyle="asset.hall.clientDownloadBtnAsset" tipStyle="ddt.view.tips.OneLineTip" tipGapV="-27" tipGapH="4" tipDirctions="6" pressEnable="true" x="902" y="113"/>  
+   <component classname="com.pickgliss.ui.image.MovieImage" stylename="toolbar.complainbtn" resourceLink="asset.toolbar.complainBtnAsset" useLogID="22" tipStyle="ddt.view.tips.OneLineTip" tipGapV="-27" tipGapH="4" tipDirctions="6" width="40" height="41"/>
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.ShortCutBtn" backStyle="asset.toolbar.ShortCutBtn" useLogID="23" x="897" y="0" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="6" tipGapV="-28" tipGapH="2"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="toolbar.bubbleBg" parentStyle="tipPanel.bubble" x="0" y="0" width="290" height="50"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toolbar.bubbleTypeTxt" textFormatStyle="toolbar.bubbleTypeFt" filterString="toolbar.bubbleTypeFl" autoSize="none" x="5" y="10" width="60" height="20" type="input"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toolbar.bubbleInfoTxt" textFormatStyle="toolbar.bubbleInfoFt" filterString="toolbar.bubbleTypeFl" autoSize="none" x="70" y="10" width="120" height="20" type="input" isAutoFitLength="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toolbar.bubbleStateTxt" textFormatStyle="toolbar.bubbleStateFt" filterString="toolbar.bubbleTypeFl" autoSize="none" x="190" y="10" width="100" height="20" type="input"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="toolbar.fblink" backStyle="asset.toolbar.fblink" width="89" height="28" x="780" y="15"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.gochargebtn.SNS" backStyle="asset.toolbar.supplyBtnAsset.SNS" useLogID="13" x="492" y="562" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.competitionbtn" backStyle="consortion.competitionStyle" useLogID="14" x="835" y="540" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.competitionStyle" resourceLink="asset.toolbar.competitionBtnAsset,asset.toolbar.competitionBtnAsset,asset.toolbar.competitionBtnAsset,asset.toolbar.competitionBtnAsset"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.hall.savePageBtn" backStyle="asset.hall.savePageBtnAsset" tipStyle="ddt.view.tips.OneLineTip" tipGapV="-27" tipGapH="4" tipDirctions="6" pressEnable="true" x="904" y="0"/>
+ 	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.petbtn" backStyle="consortion.petStyle" useLogID="14" x="840" y="540" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.petMovie" resourceLink="asset.toolbar.petMCAsset" x="0" y="0"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.petStyle" resourceLink="asset.toolbar.petBtnAsset,consortion.petMovie,consortion.petScale,asset.toolbar.petBtnAsset"/>
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.petScale" resourceLink="asset.toolbar.petScale" x="-8" y="-15"/>
+ <component classname="com.pickgliss.ui.controls.container.VBox" stylename="toolbar.rightVBox" x="959" y="4" spacing="3"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.horseStyle" 
+
+resourceLink="asset.toolbar.horseBtnAsset,consortion.horseMovie,consortion.horseScale,asset.toolbar.horseBtnAsset"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.horsebtn" backStyle="consortion.horseStyle" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="12"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toolbar.eyebtn" resourceLink="asset.toobar.eyeClose,asset.toobar.eyeOpen" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="1"/>
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.horseMovie" resourceLink="asset.toolbar.horseMCAsset"/>
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="consortion.horseScale" resourceLink="asset.toolbar.horseScale" x="-4" y="-9"/> 
+  </components>  
+  <customDisplay> 
+    <custom classname="flash.geom.Rectangle" stylename="feedback.btnGlowRec" x="-5" y="12" width="20"/>  
+    <custom classname="flash.geom.Point" stylename="toolbar.bagShineIconPos" x="17" y="23"/>  
+    <custom classname="flash.geom.Point" stylename="toolbar.ShineAssetPos" x="24" y="32"/>  
+    <custom classname="flash.geom.Point" stylename="toolbar.bubbleRegularPos" x="528" y="540"/>  
+    <custom classname="flash.geom.Point" stylename="toolbar.bubbleBasePos" x="776" y="566"/>  
+    <custom classname="flash.geom.Point" stylename="turkey.337.vippage" x="180" y="350"/>
+  </customDisplay>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.toolbar.toolBarBg" x="563" y="559"/>  
+    <bitmapData resourceLink="asset.toolbar.bgGradient" x="485" y="521"/>  
+    <bitmapData resourceLink="asset.toolbar.shopShine" x="-6"/>  
+    <bitmapData resourceLink="asset.toolbar.packageShine" x="-3"/>  
+    <bitmapData resourceLink="asset.toolbar.mailShine" x="-3"/>  
+    <bitmapData resourceLink="asset.toolbar.friendShine" x="-8" y="0" width="58" height="60"/>  
+    <bitmapData resourceLink="asset.toolbar.signShine" x="-3" y="0" width="58" height="60"/>  
+    <bitmapData resourceLink="asset.toolbar.otherShine" x="-3" y="0" width="58" height="62"/>  
+    <bitmapData resourceLink="asset.toolbar.outShine" y="0" width="54"/>  
+    <bitmapData resourceLink="asset.toolbar.emailBtnAsset" x="2"/>  
+    <!--图标文字  x="623" y="579"-->  
+    <bitmapData resourceLink="asset.toolbar.mailTxt" x="680" y="579"/>  
+    <bitmapData resourceLink="asset.toolbar.bagTxt" x="623" y="579"/>  
+    <bitmapData resourceLink="asset.toolbar.shopTxt" x="567" y="579"/>  
+    <bitmapData resourceLink="asset.toolbar.jobTxt" x="731" y="579"/>  
+    <bitmapData resourceLink="asset.toolbar.friendTxt" x="787" y="579"/>  
+    <bitmapData resourceLink="asset.toolbar.ActivityTxt" x="842" y="579"/>  
+    <!--      <bitmapData resourceLink="asset.toolbar.signTxt" x="4"  y="39"/> -->  
+    <bitmapData resourceLink="asset.toolbar.otherTxt" x="891" y="579"/>  
+    <bitmapData resourceLink="asset.toolbar.outTxt" x="943" y="579"/>  
+    <bitmapData resourceLink="asset.toolbar.returnTxt" x="943" y="579"/>  
+    <bitmapData resourceLink="asset.toolbar.mailScale" y="-22" x="-8"/>  
+    <bitmapData resourceLink="asset.toolbar.bagScale" y="-23" x="-11"/>  
+    <bitmapData resourceLink="asset.toolbar.shopScale" y="-20" x="-10"/>  
+    <bitmapData resourceLink="asset.toolbar.jobScale" y="-20" x="-10"/>  
+    <bitmapData resourceLink="asset.toolbar.friendScale" y="-20" x="-10"/>  
+    <bitmapData resourceLink="asset.toolbar.signScale" y="-20" x="-10"/>  
+    <bitmapData resourceLink="asset.toolbar.otherScale" y="-20" x="-10"/>  
+    <bitmapData resourceLink="asset.toolbar.outScale" y="-20" x="-10"/>  
+    <!-- 设置文字 -->  
+    <bitmapData resourceLink="asset.toolbar.setTxt" x="840" y="579"/>  
+    <bitmapData resourceLink="asset.toolbar.setBtnAsset" x="1" y="0"/>  
+    <bitmapData resourceLink="asset.toolbar.setScale" y="-15" x="0"/>  
+    <bitmapData resourceLink="asset.toolbar.setShine" x="-3" y="0"/>  
+    <bitmapData resourceLink="asset.toolbar.setBtnAsset" x="1" y="0"/> 
+    <bitmapData resourceLink="asset.toolbar.petTxt" x="841" y="579"/>
+  </bitmaps> 
+</style>

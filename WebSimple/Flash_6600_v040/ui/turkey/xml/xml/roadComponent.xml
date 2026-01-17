@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="roadComponent" version="1.0.1" source="ui/turkey/swf/roadComponent.swf"> 
+  <sets> 
+    <set stylename="core.frametitleGF" args="0x442006,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="core.frametitleTF" args="Arial,14,0xffeebf,true" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set stylename="frameTitleIITF" args="Arial,14,0xFFFFFF,true" type="flash.text.TextFormat"/>  
+    <set stylename="frameNameTF" args="Arial,14,0x000000" type="flash.text.TextFormat"/>  
+    <set stylename="core.simpleAlertContentTF" args="Arial,14,0x654600,true,,,,,center,,,,15" type="flash.text.TextFormat" leading="0"/>  
+    <set stylename="roadComponent.simpleTextButtonTF" args="Arial,14,0xfff6a8,true" letterSpacing="0" type="flash.text.TextFormat"/>  
+    <set stylename="simpleTextButtonTF_Yellow" args="Arial,11,0xFFF6A8" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set args="0x715008,1,4,4,30" stylename="roadComponent.simpleTextButtonGF" type="flash.filters.GlowFilter"/>  
+    <set args="0x710E06,1,4,4,10" stylename="simpleTextButtonGF_Yellow" type="flash.filters.GlowFilter"/>  
+    <set args="0x714108,1,4,4,10" stylename="simpleTextButtonGF" type="flash.filters.GlowFilter"/>  
+    <set args="0x330000,1,3,3,500" stylename="simpleTextTitleGF" type="flash.filters.GlowFilter"/>  
+    <set args="0xffffff,1,4,4,10" stylename="alphaLayerGilter" type="flash.filters.GlowFilter"/>  
+    <set args="0xFFFFFF,1,4,4,30" stylename="core.simpleAlertContentGF" type="flash.filters.GlowFilter"/>  
+    <set args="1,0,0,0,25,0,1,0,0,25,0,0,1,0,25,0,0,0,1,0" stylename="lightFilter" type="flash.filters.ColorMatrixFilter"/>  
+    <set args="0.3,0.59,0.11,0,0,0.3,0.59,0.11,0,0,0.3,0.59,0.11,0,0,0,0,0,1,0" stylename="grayFilter" type="flash.filters.ColorMatrixFilter"/>  
+    <set args="0x000000,1,2,2,10,1" stylename="P_g1" type="flash.filters.GlowFilter"/>  
+    <set args="0x000000,1,4,4,10,1" stylename="P_g3" type="flash.filters.GlowFilter"/>  
+    <set args="0xffffff,1,3,3,10,1" stylename="P_g4" type="flash.filters.GlowFilter"/>  
+    <set args="0xffffff,1,2,2,10,1" stylename="P_g5" type="flash.filters.GlowFilter"/>  
+    <set args="0x542200,1,2,2,10,1" stylename="P_g6" type="flash.filters.GlowFilter"/>  
+    <set stylename="PFormat_1" args="Arial,13,0xffffff" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_2" args="Verdana,12,0x000000,true,,,,,right" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_3" args="Tahoma,14,0xFF1C0F,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_4" args="Arial,13,0x000000,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_5" args="Verdana,13,0xffffff,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_6" args="Arial,14,0x99ff00,true" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_7" args="Tahoma,14,0xbcff75,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_8" args="Verdana,14,0x333333,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_9" args="Verdana,14,0xF0A337,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_11" args="Verdana,14,0xFFCD21,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_12" args="Verdana,12,0xFFFAC2,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_13" args="Verdana,12,0xFFFFFF,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_14" args="Verdana,12,0xf1f0f0,,,,,,left" leading="2" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_16" args="Arial,14,0xFF0000,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_17" args="Arial,14,0xffffff,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_18" args="Arial,15,0xffffff,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_20" args="Arial,12,0x000000,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_21" args="Arial,12,0xffffff,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_22" args="Verdana,16,0xFF9900,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_23" args="Arial,16,0xFF0000,true" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_24" args="Verdana,14,0x07e5ff,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_25" args="Arial,14,0xFFFF00,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_26" args="Arial,12,0xFFFFFF,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_27" args="Arial,11,0xfff3d7,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="droplist.CellTextTF" args="Arial,12,0xffffff,bold" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_28" args="Arial,14,0xffffff,true" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_29" args="Arial,14,0x13aeff,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcore.NumberSelecterTextTF" args="Arial,14,0xffffff,bold,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcore.NumberSelecterTextGF" args="0x4c3417,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="church.simpleTextButtonTF1" args="Arial,14,0xfff6a8,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="church.simpleTextButtonGF1" args="0x9e0253,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="church.simpleTextButtonGF2" args="0x00702a,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="PFormat_30" args="Verdana,13,0x66ff00,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="RoomPFormat_27" args="Arial,12,0xfff3d7,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="PFormat_32" args="Arial,12,0xfff3d7,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="core.skills.frametitleTF" args="Arial,13,0xffeebf,true" letterSpacing="0" type="flash.text.TextFormat"/>  
+    <set stylename="core.auction.frametitleTF" args="Arial,13,0xffeebf,true" type="flash.text.TextFormat"/>
+    <set stylename="roadComponent.newfightlib.simpleTextButtonTF" args="Arial,10,0xfff6a8,true" type="flash.text.TextFormat"/>
+    <set stylename="core.quest.simpleAlertContentTF" args="Arial,12,0x654600,true,,,,,center,,,,15" type="flash.text.TextFormat" leading="0"/>    
+  </sets>  
+  <shaderFilters mainpath="filters/" perRate="10" pbjLoadError="加載濾鏡檔失敗" pbjLoadSuccess="加載濾鏡檔成功" pbjLoading="正在加載濾鏡檔 {progress}"/>  
+  <components> 
+    <!-- DropList -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="droplist.Bg" resourceLink="asset.vip.BG1,asset.vip.BG2,asset.vip.BG3,asset.vip.BG4,asset.vip.BG5,asset.vip.BG6,asset.vip.BG7,asset.vip.BG8,asset.vip.BG9" width="510" height="240"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="droplist.Container" spacing="2" x="4" y="4"/>  
+    <component classname="com.pickgliss.ui.controls.list.DropList" stylename="droplist.SimpleDropList" containerStyle="droplist.Container" backStyle="core.commonTipBg" cellStyle="ddt.view.FriendDropListCell" showLength="8"/>  
+    <!-- DropListCell -->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="droplist.CellBg" resourceLink="asset.IM.title_0,asset.IM.lookItem_bg"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="droplist.CellText" textFormatStyle="droplist.CellTextTF" autoSize="none" x="35" y="4" width="180" height="20"/>  
+    <!--SelectedCheckButton-->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.unSelectedCheck" resourceLink="asset.core.check001a,asset.core.check001b,asset.core.check001b,asset.core.check001a"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.selectedCheck" resourceLink="asset.core.check001c,asset.core.check001d,asset.core.check001d,asset.core.check001a" y="-2"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="core.simpleSelectBtn" unSelectedStyle="core.unSelectedCheck" selectedStyle="core.selectedCheck" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="core.selectedCheck2" unSelectedStyle="asset.core.check2UnSelected" selectedStyle="asset.core.check2Selected"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="core.redSelectedCheck" unSelectedStyle="core.RadioButton.Red.CheckBtnUnSelect" selectedStyle="core.RadioButton.Red.CheckBtnSelect"/>  
+    <!--Image-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.commonTipBg" resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="bagScaleBGAssetCore" resourceLink="asset.core.ddtScale9CornerImage17.1,asset.core.ddtScale9CornerImage17.2,asset.core.ddtScale9CornerImage17.3,asset.core.ddtScale9CornerImage17.4,asset.core.ddtScale9CornerImage17.5,asset.core.ddtScale9CornerImage17.6,asset.core.ddtScale9CornerImage17.7,asset.core.ddtScale9CornerImage17.8,asset.core.ddtScale9CornerImage17.9"/>  
+    <!--button-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.simplebtbg" resourceLink="asset.core.btmc002" scaleGridString="15,12,40,20"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.closebt" backStyle="asset.core.bg010"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.smallClosebt" backStyle="asset.core.bg011"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.SimpleButtonTextStyle1" textFormatStyle="church.simpleTextButtonTF1" filterString="church.simpleTextButtonGF1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.SimpleButtonTextStyle2" textFormatStyle="church.simpleTextButtonTF1" filterString="church.simpleTextButtonGF2"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="church.simplebt1" backStyle="core.simplebtbg" textStyle="church.SimpleButtonTextStyle1" backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="church.simplebt2" backStyle="core.simplebtbg" textStyle="church.SimpleButtonTextStyle2" backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="core.simplebt" backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle" backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter"/>  
+    <!--Text-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.commonTipText" textFormatStyle="core.commonTipTF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.commonTipText1" textFormatStyle="core.commonTipTF1"/>
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="simpleAlertContentText" textFormatStyle="core.simpleAlertContentTF" filterString="core.simpleAlertContentGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="FrameTitleTextStyle" textFormatStyle="core.frametitleTF" filterString="core.frametitleGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="SimpleButtonTextStyle" textFormatStyle="roadComponent.simpleTextButtonTF" filterString="roadComponent.simpleTextButtonGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="simpleButtonTextStyleYellow" textFormatStyle="simpleTextButtonTF_Yellow" filterString="simpleTextButtonGF"/>  
+    <!--Frame-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="SimpleFrameBackgound" resourceLink="asset.core.frameBigBg" scaleGridString="80,70,770,480"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="SimpleFrameBackgoundOne" resourceLink="asset.core.framesmallBg" scaleGridString="80,70,500,250"/>  
+   <component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="BaseFrame"
+			backStyle="SimpleFrameBackgoundOneIII" submitButtonStyle="core.simplebt"
+			cancelButtonStyle="core.simplebt" closestyle="core.closebt"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="16,11,5"
+			closeInnerRectString="44,11,5,30,14" moveInnerRectString="6,30,7,30,1" width="250"
+			height="180"/>
+    <component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="church.BaseFrame" backStyle="SimpleFrameBackgoundOneIII" submitButtonStyle="church.simplebt2" cancelButtonStyle="church.simplebt1" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="16,11,5" closeInnerRectString="44,11,5,30,14" moveInnerRectString="6,30,7,30,1" width="250" height="180"/>  
+    <component classname="com.pickgliss.ui.controls.Frame" stylename="bigBaseFrame" backStyle="SimpleFrameBackgound" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="16,12,5" closeInnerRectString="44,20,4,30,14" moveInnerRectString="0,30,0,30,1"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="SimpleFrameBackgoundOneIII"
+			resourceLink="SimpleFrameBackgoundOne,asset.core.btmBimap" imageRectString=",17|17|42|17|4"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="SimpleFrameBackgoundOneIV" resourceLink="SimpleFrameBackgoundOne,asset.core.btmBimap" imageRectString=",17|17|56|17|4"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="SimpleFrameBackgoundOneIIII" resourceLink="SimpleFrameBackgound,asset.core.btmBimap" imageRectString=",20|23|42|17|4"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="SimpleFrameBackgoundOneV" resourceLink="SimpleFrameBackgoundOne"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.core.btmBimap" resourceLink="asset.core.btmBG" scaleGridString="14,13,250,22"/>  
+    <!--Alert-->  
+    <component classname="com.pickgliss.ui.controls.alert.SimpleAlert" stylename="SimpleAlert" submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" buttonToBottom="12" textStyle="simpleAlertContentText" titleOuterRectPosString="12,12,5" backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" containerX="20" containerY="40" frameInnerRectString="45,45,70,85,-1" moveInnerRectString="0,30,0,30,1" closeInnerRectString="44,6,6,30,14" frameMiniW="270" frameMiniH="130"/>  
+    <!-- 滚动条    -->  
+    <component classname="com.pickgliss.ui.controls.Scrollbar" stylename="core.VScrollbar" thumbStyle="core.scrollVThumb" trackStyle="core.scrollTrackAsset" decreaseButtonStyle="core.scrollUpButton" increaseButtonStyle="core.scrollDownButton" thumbMinSize="14" decreaseButtonInnerRectString="22,21,0,0,9" increaseButtonInnerRectString="22,21,0,0,10" trackInnerRectString="2,1,17,17,0" orientation="0" thumbAreaInnerRectString="4,3,20,21,0"/>  
+    <component classname="com.pickgliss.ui.controls.Scrollbar" stylename="core.HScrollbar" thumbStyle="core.scrollHThumb" trackStyle="core.scrollTrackAssetH" decreaseButtonStyle="core.scrollLeftButton" increaseButtonStyle="core.scrollRightButton" thumbMinSize="14" decreaseButtonInnerRectString="0,0,19,19,11" increaseButtonInnerRectString="0,0,19,19,12" trackInnerRectString="15,16,3,0,0" orientation="1" thumbAreaInnerRectString="17,18,5,2,0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.scroll.thumbV" resourceLink="asset.core.scroll.thumbV" scaleGridString="6,6,8,40" width="12" height="50"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.scroll.thumbH" resourceLink="asset.core.scroll.thumbH" scaleGridString="6,3,15,10" width="12" height="50"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.scrollVThumb" backStyle="core.scroll.thumbV" filterString="null,lightFilter,null,grayFilter" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.scrollHThumb" backStyle="core.scroll.thumbH" filterString="null,lightFilter,null,grayFilter" displacement="false"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.scrollTrackAsset" resourceLink="asset.core.scroll.track" scaleGridString="4,1,12,2"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.scrollTrackAssetH" resourceLink="asset.core.scroll.trackH" scaleGridString="1,5,3,10"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.scrollUpButton" backStyle="asset.core.scroll.arrowUp" filterString="null,lightFilter,null,grayFilter" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.scrollLeftButton" backStyle="asset.core.scroll.arrowUp" filterString="null,lightFilter,null,grayFilter" backgoundRotation="270" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.scrollDownButton" backStyle="asset.core.scroll.arrowDown" filterString="null,lightFilter,null,grayFilter" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.scrollRightButton" backStyle="asset.core.scroll.arrowDown" filterString="null,lightFilter,null,grayFilter" backgoundRotation="270" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="core.ScrollPanel" vScrollbarStyle="core.VScrollbar" hScrollbarStyle="core.HScrollbar" hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0" hScrollProxy="2" vScrollProxy="1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.redItembg" resourceLink="asset.core.comboxItembg3" scaleGridString="10,3,68,20"/>  
+    <!--普通下拉条-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.comboxInputbg1" resourceLink="asset.core.comboxInputbg1" scaleGridString="10,20,40,23" width="54" height="33"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.comboxInputbg2" resourceLink="asset.core.comboxInputbg2" scaleGridString="12,12,30,18" width="37" height="26"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.comboxItembgB" resourceLink="asset.core.comboxItembgB" scaleGridString="4,12,26,14" width="30" height="22"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.comboxListBG1" resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40" width="50" height="40"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.comboxButtonAsset1" resourceLink="core.comboxInputbg1,asset.core.comboxBTB" imageRectString=",0|5|27|26|12"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.comboxButtonAsset2" resourceLink="core.comboxInputbg2,asset.core.comboxBtn3" imageRectString=",1|3|20|19|12"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.comboxButtonAsset3" resourceLink="asset.core.comboxInputbg3,asset.core.comboxBtn3" imageRectString=",1|8|20|19|12"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.comboxButtonAsset4" resourceLink="asset.core.comboxInputbg4,asset.core.comboxBtn4" imageRectString=",-1|0|23|23|12"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.comboxButton1" backStyle="core.comboxButtonAsset1" height="32" width="200" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.comboxButton2" backStyle="core.comboxButtonAsset2" height="26" width="200" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.comboxButton3" backStyle="core.comboxButtonAsset3" height="26" width="200" displacement="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.comboxListCellTxt" filterString="P_g1" textFormatStyle="PFormat_21"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.comboxListCellTxt4" filterString="P_g1" textFormatStyle="PFormat_28"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.comboxListCellTxt3" filterString="P_g6" textFormatStyle="PFormat_27" autoSize="none" width="110"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.comboxListCellAsset" resourceLink=",core.comboxItembgB,core.comboxItembgB" fillAlphaRect="true"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.comboxListCellAsset2" resourceLink=",asset.core.comboxItembg3,asset.core.comboxItembg3" fillAlphaRect="true"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.comboxListCellAsset3" resourceLink=",asset.core.comboxItembg3,asset.core.comboxItembg3" fillAlphaRect="true" x="14"/>  
+    <component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter" stylename="core.comboxListCell" backStyle="core.comboxListCellAsset" textStyle="core.comboxListCellTxt" backgoundInnerRectString="3,10,2,5,-1" autoSizeAble="false" width="300" height="22"/>  
+    <component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter" stylename="core.comboxListCell3" backStyle="core.comboxListCellAsset3" textStyle="core.comboxListCellTxt3" backgoundInnerRectString="5,-9,2,5,-1" autoSizeAble="false" width="78" height="22"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="core.ComboxListpanel1" vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,0,22,0,5" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|core.comboxListCell,24,150" listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.GoodsTipBg" backgoundInnerRectString="2,2,6,3,-1" hScrollProxy="2" vScrollProxy="1" vUnitIncrement="5"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="core.ComboxListpanel2" vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="-5,22,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|core.comboxListCell3,24,78" listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.comboxListBG1" backgoundInnerRectString="2,2,6,3,-1" hScrollProxy="2" vScrollProxy="1" vUnitIncrement="5"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="core.ComboxListpanel3" vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="3,0,22,0,5" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|core.comboxListCell,24,150" listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.GoodsTipBg" backgoundInnerRectString="2,6,6,3,-1" hScrollProxy="2" vScrollProxy="1" vUnitIncrement="5"/>  
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="core.Combox1" listPanelStyle="core.ComboxListpanel1" buttonStyle="core.comboxButton1" width="140" height="32" textStyle="core.comboxListCellTxt" listInnerRectString="5,33,10,100,18" textInnerRectString="5,25,5,0,0"/>  
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="core.Combox2" listPanelStyle="core.ComboxListpanel1" buttonStyle="core.comboxButton2" width="140" height="28" textStyle="core.comboxListCellTxt" listInnerRectString="5,33,10,100,18" textInnerRectString="5,25,5,0,0"/>  
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="core.Combox3" listPanelStyle="core.ComboxListpanel2" buttonStyle="core.comboxButton3" width="140" height="28" textStyle="core.comboxListCellTxt3" listInnerRectString="5,33,10,50,18" snapItemHeight="true" textInnerRectString="5,25,5,0,0"/>  
+    <component classname="com.pickgliss.ui.controls.Frame" stylename="bigBaseFrame2" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="16,12,5" closeInnerRectString="44,20,4,30,14" moveInnerRectString="0,30,0,30,1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.roomcomboxListCellTxt" filterString="P_g6" textFormatStyle="RoomPFormat_27" autoSize="none"/>  
+    <!--TextArea-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.SimpleTextAreaTextStyle" filterString="P_g1" textFormatStyle="PFormat_21" wordWrap="true" type="input" mouseEnabled="true"/>  
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="core.SimpleTextArea" vScrollbarStyle="core.VScrollbar" hScrollbarStyle="core.HScrollbar" hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0" hScrollProxy="2" vScrollProxy="1" textStyle="core.SimpleTextAreaTextStyle"/>  
+    <!-- new Stuff -->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.comboxListCellAsset4" resourceLink=",asset.core.comboxItembg4,asset.core.comboxItembg4" fillAlphaRect="true"/>  
+    <component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter" stylename="core.comboxListCell4" backStyle="core.comboxListCellAsset4" textStyle="core.comboxListCellTxt4" backgoundInnerRectString="2,-10,-2,0,-1" autoSizeAble="false" width="129" height="17"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.comboxButton5" backStyle="core.comboxButtonAsset4" height="24" width="149" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="core.ComboxListpanel4" vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,4,-3,0,3" viewportInnerRectString="0,0,22,0,5" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|core.comboxListCell4,21,140" listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.bg2001" backgoundInnerRectString="6,-2,6,6,-1" hScrollProxy="2" vScrollProxy="0" vUnitIncrement="5"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg2001" resourceLink="asset.core.bg2001" scaleGridString="50,50,100,100" width="155" height="133"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg2006" resourceLink="asset.core.bg2006" width="430" height="243" scaleGridString="80,60,100,70"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.close2bg" resourceLink="asset.component.close1,asset.component.close2,asset.component.close2"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.close2" backStyle="core.close2bg" filterString="null,lightFilter,null,grayFilter" displacement="false"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.minimizeBg" resourceLink="asset.component.mini1,asset.component.mini2,asset.component.mini2"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.minimize" backStyle="core.minimizeBg" filterString="null,lightFilter,null,grayFilter" displacement="false"/>  
+    <!-- NumberSelecter -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtcore.NumberSelecterTextBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="90" height="32"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtcore.NumberSelecterText" textFormatStyle="ddtcore.NumberSelecterTextTF" filterString="ddtcore.NumberSelecterTextGF" autoSize="none" type="input" x="6" y="6" width="80" height="22"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtcore.NumberSelecterUpButton" backStyle="core.quickNumberLeftBtn" filterString="null,lightFilter,null,grayFilter" x="98" y="3"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtcore.NumberSelecterDownButton" backStyle="core.quickNumberRightBtn" filterString="null,lightFilter,null,grayFilter" x="-117" y="3"/>  
+    <custom classname="com.pickgliss.ui.controls.NumberSelecter" stylename="ddtcore.NumberSelecter" backStyle="ddtcore.NumberSelecterTextBg" targetFieldStyle="ddtcore.NumberSelecterText" upStyle="ddtcore.NumberSelecterDownButton" downStyle="ddtcore.NumberSelecterUpButton" valueLimit="1,100" x="133" y="152"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.comboxListCellAsset5" resourceLink=",asset.core.comboxItembg3,asset.core.comboxItembg3" fillAlphaRect="true" x="-1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.comboxListCellAsset6" resourceLink=",asset.core.comboxItembg3,asset.core.comboxItembg3" fillAlphaRect="true" x="7"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="droplist.im.Container" spacing="2" x="10" y="4"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="core.baglockbt" backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle" backgoundInnerRectString="10,10,7,13,-1" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.comboxListCellTxt5" filterString="P_g6" textFormatStyle="PFormat_30" autoSize="none" width="86"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.comboxListCellTxt6" filterString="P_g6" textFormatStyle="PFormat_32" autoSize="none" width="67"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.commonTipBg1" resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40" width="220"/>  
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="core.Combox3_1" listPanelStyle="core.ComboxListpanel2_1" buttonStyle="core.comboxButton3" width="140" height="28" textStyle="core.comboxListCellTxt3" listInnerRectString="5,33,10,50,18" snapItemHeight="true" textInnerRectString="5,25,5,0,0"/>  
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="core.Combox3_2" listPanelStyle="core.ComboxListpanel2_2" buttonStyle="core.comboxButton3" width="140" height="28" textStyle="core.comboxListCellTxt3" listInnerRectString="5,33,10,50,18" snapItemHeight="true" textInnerRectString="5,25,5,0,0"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="core.ComboxListpanel2_1" vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="10,22,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|core.comboxListCell3,24,78" listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.comboxListBG1" backgoundInnerRectString="2,2,6,3,-1" hScrollProxy="2" vScrollProxy="1" vUnitIncrement="5"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="core.ComboxListpanel2_2" vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="10,22,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|core.comboxListCell5,24,78" listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.comboxListBG1" backgoundInnerRectString="2,2,6,3,-1" hScrollProxy="2" vScrollProxy="1" vUnitIncrement="5"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="core.ComboxListpanel5" vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="-2,22,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|core.comboxListCell3,24,78" listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.comboxListBG1" backgoundInnerRectString="2,2,6,3,-1" hScrollProxy="2" vScrollProxy="1" vUnitIncrement="5"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="core.ComboxListpanel6" vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="-2,22,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|core.comboxListCell5,24,78" listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.comboxListBG1" backgoundInnerRectString="2,2,6,3,-1" hScrollProxy="2" vScrollProxy="1" vUnitIncrement="5"/>  
+    <component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter" stylename="core.comboxListCell5" backStyle="core.comboxListCellAsset5" textStyle="core.comboxListCellTxt3" backgoundInnerRectString="5,-9,2,5,-1" autoSizeAble="false" width="120" height="22"/>  
+    <component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter" stylename="core.comboxListCell6" backStyle="core.comboxListCellAsset6" textStyle="core.comboxListCellTxt3" backgoundInnerRectString="5,-9,2,5,-1" autoSizeAble="false" width="94" height="22"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="SimpleButtonTextStyle.newfightlib" textFormatStyle="roadComponent.newfightlib.simpleTextButtonTF" filterString="roadComponent.simpleTextButtonGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="SkillsFrameTitleTextStyle" textFormatStyle="core.skills.frametitleTF" filterString="core.frametitleGF"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.comboxButton4" backStyle="core.comboxButtonAsset5" height="26" width="200" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="core.Combox5" listPanelStyle="core.ComboxListpanel6" buttonStyle="core.comboxButton3" width="140" height="28" textStyle="core.comboxListCellTxt5" listInnerRectString="5,33,10,50,18" snapItemHeight="true" textInnerRectString="5,25,5,0,0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.comboxListBG2" resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40" width="50" height="40"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.comboxButtonAsset5" resourceLink="asset.core.comboxInputbg3,asset.core.comboxBtn3" imageRectString="41|0|110|30|12,1|28|20|19|12"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="core.simplebt.baglock" backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle" backgoundInnerRectString="7,14,7,13,-1" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Auction.FrameTitleTextStyle" textFormatStyle="core.auction.frametitleTF" filterString="core.frametitleGF"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="core.simplebt.newfightlib" backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle.newfightlib" backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter"/>
+  	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="SimpleFrameBackgoundOne2" resourceLink="asset.core.framesmallBg" scaleGridString="80,70,500,250" width="770" height="555"/>
+
+  	<component classname="com.pickgliss.ui.controls.alert.SimpleAlert" stylename="SimpleAlert2" submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" buttonToBottom="12" 
+
+textStyle="simpleAlertContentText" titleOuterRectPosString="12,12,5" backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" containerX="20" containerY="40" 
+
+frameInnerRectString="45,45,70,85,-1" moveInnerRectString="0,30,0,30,1" closeInnerRectString="44,6,6,30,14" frameMiniW="420" frameMiniH="130"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.roundClosebt" backStyle="asset.core.bg012"/>
+  </components>  
+  <bitmaps> 
+    <!--输入框的黑背景-->  
+    <bitmapData resourceLink="asset.core.bg007" width="98" height="25"/>  
+    <bitmapData resourceLink="asset.IM.title_0" width="218"/>  
+    <bitmapData resourceLink="asset.component.close2" y="1"/>  
+    <bitmapData resourceLink="asset.core.scroll.trackOne" width="18" height="13"/>  
+    <!-- 背景底纹系列 -->  
+    <bitmapData resourceLink="asset.core.btmc011"/>  
+    <!-- 半透明大底 --> 
+  </bitmaps> 
+</style>

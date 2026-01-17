@@ -1,0 +1,288 @@
+<style name="toffilist" version="1.0.1" source="ui/turkey/swf/toffilist.swf">
+	<!--名人堂-->
+	<sets>
+			<!--Filter-->
+		<set args="0x000000,1,2,2,10" stylename="toffilist.T_d1" type="flash.filters.DropShadowFilter"/>
+		<set args="0x000000,1,2,2,10" stylename="toffilist.T_d11" type="flash.filters.GlowFilter"/>
+		<set args="0x301b09,1,2,2,10" stylename="toffilist.T_d12" type="flash.filters.DropShadowFilter"/>
+		<set args="0x000000,1,3,3,1000" stylename="toffilist.T_g1" type="flash.filters.GlowFilter"/>
+		<set args="0x48300C,1,4,4,1000" stylename="toffilist.T_g2" type="flash.filters.GlowFilter"/>
+		<set args="0x48300C,1,2,2,1000" stylename="toffilist.T_g3" type="flash.filters.GlowFilter"/>
+		<set args="0x000000,1,2,2,1000" stylename="toffilist.T_g4" type="flash.filters.GlowFilter"/>
+		<set args="0x4b270d,1,4,4,30" stylename="toffilist.T_g5" type="flash.filters.GlowFilter"/>
+		<set stylename="toffilist.T_5" args="Arial,12,0xFFFFFF" type="flash.text.TextFormat"/>
+			<!--TextFormat-->
+		<set stylename="toffilist.T_1" args="Arial,16,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set stylename="toffilist.T_2" args="Arial,16,0x99FF00,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="toffilist.T_3" args="Arial,12,0xFFFFFF,true" type="flash.text.TextFormat"/>
+		<set stylename="toffilist.T_4" args="Arial,14,0xFFFFFF,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="toffilist.tabBtn.unTextStyle" args="Arial,14,0xf3e494,true" type="flash.text.TextFormat" />
+		<set args="0x674219,1,4,4,30" stylename="toffilist.tabBtn.filter" type="flash.filters.GlowFilter"/>
+		<set stylename="toffilist.tab2Btn.unTextStyle" args="Arial,14,0xcae1a3,true" type="flash.text.TextFormat"/>
+		<set stylename="toffilist.tab2Btn.unTextStyle1" args="Arial,12,0xcae1a3,true" type="flash.text.TextFormat" letterSpacing="-2"/>
+		<set args="0x0d5954,1,2,2,1000" stylename="toffilist.tab2Btn.filter" type="flash.filters.GlowFilter"/>
+		<set stylename="toffilist.tab3Btn.unTextStyle" args="Arial,12,0xfff6a8" type="flash.text.TextFormat"/>
+		<set args="0x774d1b,1,2,2,1000" stylename="toffilist.tab3Btn.filter" type="flash.filters.GlowFilter"/>
+		<set stylename="toffilist.right.listTitleTF" args="Arial,12,0xffea9c,true,,,,,center" type="flash.text.TextFormat"/>
+		<set args="0x4f3700,1,2,2,1000" stylename="toffilist.right.listTitleFilter" type="flash.filters.GlowFilter"/>
+		<set stylename="toffilist.right.leftinfoTitleTF" args="Arial,12,0xfff3b9,true,,,,,left" type="flash.text.TextFormat"/>
+		<set args="0x573d1e,1,2,2,1000" stylename="toffilist.right.leftinfoTitleFilter" type="flash.filters.GlowFilter"/>
+		<set stylename="toffilist.T_1_Name" args="Arial,15,0xFFFFFF,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="toffilist.pageTF" args="Arial,12,0xFFF8D6,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="toffilist.titleInfoTF" args="Arial,10,0xfff6a8,ture" type="flash.text.TextFormat"/>
+<set stylename="toffilist.titleInfoGF" args="0x715008,2,4,4,30" type="flash.filters.GlowFilter"/>
+<set stylename="toffilist.titleInfo_TF1" args="Arial,12,0xffffff,ture" type="flash.text.TextFormat" leading="5"/>
+<set stylename="toffilist.titleInfo_GF1" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>
+<set stylename="toffilist.titleInfo_TF2" args="Arial,12,0xf8c600" type="flash.text.TextFormat" leading="5" letterSpacing="-1"/>
+<set stylename="toffilist.titleInfo_GF2" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>
+<set stylename="toffilist.titleInfo_TF3" args="Arial,11,0xffffff" type="flash.text.TextFormat" leading="6"  letterSpacing="-1"/>
+<set stylename="toffilist.titleInfo_GF3" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>
+<set stylename="toffilist.titleInfo_TF4" args="Arial,14,0xae4fff,true" type="flash.text.TextFormat"/>
+<set stylename="toffilist.titleInfo_GF4" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>
+<set stylename="toffilist.titleInfo_TF5" args="Arial,14,0x00d2ff,true" type="flash.text.TextFormat"/>
+<set stylename="toffilist.titleInfo_GF5" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>
+<set stylename="toffilist.titleInfo_TF6" args="Arial,14,0xff4cc2,true" type="flash.text.TextFormat"/>
+<set stylename="toffilist.titleInfo_GF6" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>
+<set stylename="toffilist.titleInfo_TF7" args="Arial,14,0xff7e00,true" type="flash.text.TextFormat"/>
+<set stylename="toffilist.titleInfo_GF7" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>
+<set stylename="toffilist.titleInfo_TF8" args="Arial,14,0xf076ff,true" type="flash.text.TextFormat"/>
+<set stylename="toffilist.titleInfo_TF9" args="Arial,14,0xffdc3a,true" type="flash.text.TextFormat"/>
+<set stylename="toffilist.titleInfo_TF10" args="Arial,14,0x7090ff,true" type="flash.text.TextFormat"/>
+<set stylename="toffilist.titleInfo_TF11" args="Arial,14,0x8cec5c,true" type="flash.text.TextFormat"/>
+<set stylename="toffilist.titleInfo_TF12" args="Arial,14,0xfff0b5,true" type="flash.text.TextFormat" letterSpacing="7"/>
+<set stylename="toffilist.titleInfo_GF12" args="0x45290c,2,4,4,30" type="flash.filters.GlowFilter"/>
+	</sets>
+	<components>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.listItemText_1" autoSize="center" textFormatStyle="toffilist.T_5" filterString="toffilist.T_d1"/>
+	
+		<!--名人堂背景-->
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.rightBg" width="500" height="539" resourceLink="asset.tofflist.rightBg,core.Scale9CornerImage.Scale9CornerImage7,core.bg6920" imageRectString="10|10|10|10|0,0|0|0|0|0,20|20|61|20|0"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="tofflist.right.listBg" resourceLink="tofflist.right.listBg01,tofflist.right.listTitleBgImg"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="tofflist.right.listBg01" width="446" height="321" resourceLink="asset.core.btmc011" scaleGridString="5,10,80,20"/>
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="tofflist.right.listTitleBgImg" resourceLink="asset.tofflist.right.listTitleAsset" x="1" y="4"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.Toffilist.upDownTextBgImgAsset" x="351" y="428" width="64" height="24" resourceLink="asset.core.NewScale9CornerImage6.1,asset.core.NewScale9CornerImage6.2,asset.core.NewScale9CornerImage6.3,asset.core.NewScale9CornerImage6.4,asset.core.NewScale9CornerImage6.5,asset.core.NewScale9CornerImage6.6,asset.core.NewScale9CornerImage6.7,asset.core.NewScale9CornerImage6.8,asset.core.NewScale9CornerImage6.9"/>
+		
+		<!--名人堂左侧信息-->
+			<!--text-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.text1" x="140" y="367" width="100" height="20"  textFormatStyle="toffilist.T_4" filterString="toffilist.T_d12"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.consortiaName" autoSize="none" x="288" y="366" width="115" height="20" textFormatStyle="toffilist.T_2" isAutoFitLength="true" filterString="toffilist.T_g1"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.nameTxt" x="116" y="330" textFormatStyle="toffilist.T_1" filterString="toffilist.T_g2" autoSize="none" width="300" height="25" isAutoFitLength="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.chairmanNameTxt" y="330" textFormatStyle="toffilist.T_1" filterString="toffilist.T_g3" autoSize="none" width="300" height="25" isAutoFitLength="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.chairmanNameTxt2" y="330" textFormatStyle="toffilist.T_1" filterString="toffilist.T_g3" autoSize="none" width="300" height="25" isAutoFitLength="true"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.updateTimeTxt" x="1" y="-24" width="220" height="20" textFormatStyle="toffilist.T_3" filterString="toffilist.T_g4"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.leftInfoRankText" x="89" y="31" autoSize="center" textFormatStyle="toffilist.T_1" filterString="toffilist.T_d1"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.leftInfoLevelText" x="249" y="31" autoSize="center" textFormatStyle="toffilist.T_1" filterString="toffilist.T_d1"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.leftInfoValueText" x="341" y="31" autoSize="center" textFormatStyle="toffilist.T_1" filterString="toffilist.T_d1"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.leftInfoComPareText" x="75" y="31" autoSize="center" textFormatStyle="toffilist.T_1" filterString="toffilist.T_d1"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.leftInfoRankTitleText" textFormatStyle="toffilist.right.leftinfoTitleTF" filterString="toffilist.right.leftinfoTitleFilter" x="7" y="34"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.leftInfoLevelTitleText" textFormatStyle="toffilist.right.leftinfoTitleTF" filterString="toffilist.right.leftinfoTitleFilter" x="187" y="34"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.leftInfoValueTitleText"  textFormatStyle="toffilist.right.leftinfoTitleTF" filterString="toffilist.right.leftinfoTitleFilter" x="254" y="32" width="70"/>
+		
+			<!--Img-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="toffilist.textBg" x="122" y="364" width="104" height="23" resourceLink="asset.core.NewScale9CornerImage6.1,asset.core.NewScale9CornerImage6.2,asset.core.NewScale9CornerImage6.3,asset.core.NewScale9CornerImage6.4,asset.core.NewScale9CornerImage6.5,asset.core.NewScale9CornerImage6.6,asset.core.NewScale9CornerImage6.7,asset.core.NewScale9CornerImage6.8,asset.core.NewScale9CornerImage6.9"/>
+		
+			<!--Btn-->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="toffilist.lookEquip_btn" x="359" y="395" backStyle="core.bg6905" textStyle="simpleButtonTextStyleYellow" backgoundInnerRectString="18,18,7,10,-1" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="toffilist.lookEffort_btn" x="375" y="362" backStyle="core.bg6905" textStyle="simpleButtonTextStyleYellow" backgoundInnerRectString="18,18,7,10,-1" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="toffilist.applyJoinClub_btn" x="375" y="362" backStyle="core.bg6905" textStyle="simpleButtonTextStyleYellow" backgoundInnerRectString="18,18,7,10,-1" filterString="null,lightFilter,null,grayFilter"/>
+		
+		<!--名人堂右侧信息-->
+			<!--Btn-->
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="toffilist.prePageBtn" x="291" y="428" backStyle="asset.ddtcore.leftBtn" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="toffilist.nextPageBtn" x="421" y="428" backStyle="asset.ddtcore.rightBtn" filterString="null,lightFilter,null,grayFilter"/>
+			<!--菜单1-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="tofflist.tab1BtnBg1" x="17" y="8" resourceLink="asset.core.btmc004" scaleGridString="10,9,52,22"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="tofflist.tab1BtnBg2" resourceLink="asset.core.btmc005" scaleGridString="30,25,60,35"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="tofflist.tabBtn.unTextStyle" textFormatStyle="toffilist.tabBtn.unTextStyle" filterString="toffilist.tabBtn.filter" multiline="false" wordWrap="false"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.personalImg" resourceLink="tofflist.tab1BtnBg2,asset.Toffilist.personalAsset" imageRectString="0|88|0|43|13,16|61|10|27|13"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.consortiaImg" resourceLink="tofflist.tab1BtnBg2,asset.Toffilist.consortiaAsset" imageRectString="0|88|0|43|13,19|52|10|27|13"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="tofflist.theServerBtn" textStyle="asset.Toffilist.theServerAsset" fieldX="28" fieldY="2" unSelectedStyle="asset.core.check2UnSelected" selectedStyle="asset.core.check2Selected" displacement="false"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="tofflist.crossServerBtn" textStyle="asset.Toffilist.crossServerAsset" fieldX="28" fieldY="2" unSelectedStyle="asset.core.check2UnSelected" selectedStyle="asset.core.check2Selected" displacement="false" x="99"/>
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="tofflist.personalBtn" textStyle=",tofflist.tabBtn.unTextStyle" unSelectedStyle="tofflist.tab1BtnBg1" selectedStyle="toffilist.personalImg" displacement="false" x="280" y="-10" backgoundInnerRectString="27|55|13|25|13,4|66|8|36|13"/>
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="tofflist.consortiaBtn" textStyle=",tofflist.tabBtn.unTextStyle" unSelectedStyle="tofflist.tab1BtnBg1" selectedStyle="toffilist.consortiaImg" displacement="false" x="360" y="-10" backgoundInnerRectString="27|55|13|25|13,7|66|8|36|13"/>
+		
+			<!--菜单2-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="tofflist.tab2BtnBg3" x="8" y="8" resourceLink="asset.core.btmc006" scaleGridString="10,5,54,19"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="tofflist.tab2BtnBg1"  y="8" resourceLink="asset.core.btmc006" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="tofflist.tab2BtnBg101"  y="8" resourceLink="asset.core.btmc006"  />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="tofflist.tab2BtnBg2" resourceLink="asset.core.btmc007" scaleGridString="20,13,50,24"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="tofflist.tab2Btn.unTextStyle" textFormatStyle="toffilist.tab2Btn.unTextStyle" filterString="toffilist.tab2Btn.filter" multiline="false" wordWrap="false"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="tofflist.tab2Btn.unTextStyle1" textFormatStyle="toffilist.tab2Btn.unTextStyle1" filterString="toffilist.tab2Btn.filter" multiline="false" wordWrap="false"/>
+		
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.battleImg2" resourceLink="tofflist.tab2BtnBg2,asset.Toffilist.battleImg2Asset" imageRectString="0|72|0|40|13,7|58|6|25|13" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.gradeOrderImg2" resourceLink="tofflist.tab2BtnBg2,asset.Toffilist.gradeOrderImg2Asset" imageRectString="0|72|0|40|13,12|47|6|25|13"  />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.assetImg2" resourceLink="tofflist.tab2BtnBg2,asset.Toffilist.assetImg2Asset" imageRectString="0|72|0|40|13,12|47|6|25|13" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.achievementpointImg2" resourceLink="tofflist.tab2BtnBg2,asset.Toffilist.achievementpointImg2Asset" imageRectString="0|72|0|40|13,12|47|6|25|13" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.charmvalueImg2" resourceLink="tofflist.tab2BtnBg2,asset.Toffilist.charmvalueImg2Asset" imageRectString="0|72|0|40|13,7|58|6|25|13" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.matchesImg2" resourceLink="tofflist.tab2BtnBg2,asset.Toffilist.matches2Asset" imageRectString="0|72|0|40|13,12|47|6|25|13"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="toffilist.battleBtn" textStyle=",tofflist.tab2Btn.unTextStyle" unSelectedStyle="tofflist.tab2BtnBg101" selectedStyle="toffilist.battleImg2" displacement="false" backgoundInnerRectString="0|72|13|25|13,20|72|5|29|13" filterString="null,lightFilter,null,grayFilter" />
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="toffilist.gradeOrderBtn" textStyle=",tofflist.tab2Btn.unTextStyle" unSelectedStyle="tofflist.tab2BtnBg1" selectedStyle="toffilist.gradeOrderImg2" displacement="false" filterString="null,lightFilter,null,grayFilter" backgoundInnerRectString="0|72|13|25|13,10|72|5|29|13" />
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="toffilist.assetBtn" textStyle=",tofflist.tab2Btn.unTextStyle" unSelectedStyle="tofflist.tab2BtnBg1" selectedStyle="toffilist.assetImg2" displacement="false" filterString="null,lightFilter,null,grayFilter" backgoundInnerRectString="0|72|13|25|13,8|72|5|29|13" />
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="toffilist.achievementpointBtn" textStyle=",tofflist.tab2Btn.unTextStyle" unSelectedStyle="tofflist.tab2BtnBg1" selectedStyle="toffilist.achievementpointImg2" displacement="false" filterString="null,lightFilter,null,grayFilter" backgoundInnerRectString="0|72|13|25|13,11|72|5|29|13" />
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="toffilist.charmvalueBtn" textStyle=",tofflist.tab2Btn.unTextStyle" unSelectedStyle="tofflist.tab2BtnBg101" selectedStyle="toffilist.charmvalueImg2" displacement="false" filterString="null,lightFilter,null,grayFilter" backgoundInnerRectString="0|72|13|25|13,5|72|5|29|13" />
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="toffilist.mathesBtn" textStyle=",tofflist.tab2Btn.unTextStyle" unSelectedStyle="tofflist.tab2BtnBg1" selectedStyle="toffilist.matchesImg2" displacement="false" filterString="null,lightFilter,null,grayFilter" backgoundInnerRectString="0|72|13|25|13,5|72|5|29|13" />
+			<!--菜单3-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="tofflist.thirdBtnBg" resourceLink="asset.core.btmc009" scaleGridString="12,12,48,20"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="tofflist.thirdBtnBgselected" filterString="lightFilter" resourceLink="asset.core.btmc009" scaleGridString="12,12,48,20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="tofflist.tab3Btn.unTextStyle" textFormatStyle="toffilist.tab3Btn.unTextStyle" filterString="toffilist.tab3Btn.filter" multiline="false" wordWrap="false"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="toffilist.dayAddBtn" textStyle="tofflist.tab3Btn.unTextStyle,tofflist.tab3Btn.unTextStyle" unSelectedStyle="tofflist.thirdBtnBg" selectedStyle="tofflist.thirdBtnBgselected" backgoundInnerRectString="11|43|8|30|13,11|43|8|30|13,11|43|8|30|13" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="toffilist.weekAddBtn" textStyle="tofflist.tab3Btn.unTextStyle,tofflist.tab3Btn.unTextStyle" unSelectedStyle="tofflist.thirdBtnBg" selectedStyle="tofflist.thirdBtnBgselected" backgoundInnerRectString="6|43|8|30|13,6|43|8|30|13,6|43|8|30|13" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="toffilist.accumulateBtn" textStyle="tofflist.tab3Btn.unTextStyle,tofflist.tab3Btn.unTextStyle" unSelectedStyle="tofflist.thirdBtnBg" selectedStyle="tofflist.thirdBtnBgselected" backgoundInnerRectString="7|43|8|30|13,7|43|8|30|13,7|43|8|30|13" filterString="null,lightFilter,null,grayFilter"/>
+			<!--text-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.pageTxt" x="371" y="433" width="60" height="20" textFormatStyle="toffilist.pageTF" filterString="toffilist.T_g5"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.listTitleText" textFormatStyle="toffilist.right.listTitleTF" filterString="toffilist.right.listTitleFilter"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.listItemText" autoSize="center" textFormatStyle="toffilist.T_1" filterString="toffilist.T_d1"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.listItemNameText" autoSize="none" isAutoFitLength="true" textFormatStyle="toffilist.T_1_Name" filterString="toffilist.T_d11"/>
+		
+			<!--Img-->
+		
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="tofflist.orderlist.vboxContainer" spacing="-5"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="tofflist.orderlistitem.shine" width="445" height="40" x="-5" y="-4" resourceLink="asset.core.NewScale9CornerImage8.1,asset.core.NewScale9CornerImage8.2,asset.core.NewScale9CornerImage8.3,asset.core.NewScale9CornerImage8.4,asset.core.NewScale9CornerImage8.5,asset.core.NewScale9CornerImage8.6,asset.core.NewScale9CornerImage8.7,asset.core.NewScale9CornerImage8.8,asset.core.NewScale9CornerImage8.9"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="tofflist.gridItemBg" resourceLink="tofflist.gridItemBg01,tofflist.gridItemBg02"/>
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="tofflist.gridItemBg01" width="436" height="28" resourceLink="asset.core.ScaleLeftRightImage2.1,asset.core.ScaleLeftRightImage2.2,asset.core.ScaleLeftRightImage2.3"/>
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="tofflist.gridItemBg02" width="436" height="28" resourceLink="asset.core.ScaleLeftRightImage3.1,asset.core.ScaleLeftRightImage3.2,asset.core.ScaleLeftRightImage3.3"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.RankingLift" resourceLink="asset.Toffilist.shengImg,asset.Toffilist.downImg" x="10" y="-5"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.RankingLiftTwo" resourceLink="asset.Toffilist.shengImg,asset.Toffilist.downImg" x="10" y="-5"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.lefeinfoTitleBg" resourceLink="asset.Toffilist.IRankImgAsset,asset.Toffilist.myGuildRankImgAsset" x="0" y="0"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.coreIcon.orderNo1AssetImg" resourceLink="asset.coreIcon.orderNo1Asset" x="-3"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.topThreeRink" resourceLink="asset.coreIcon.orderNo1AssetImg,asset.coreIcon.orderNo2Asset,asset.coreIcon.orderNo3Asset"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.titleTxt2" textFormatStyle="toffilist.titleInfo_TF5" filterString="toffilist.titleInfo_GF5" x="124" y="91" type="dynamic"/>
+<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="toffilist.mountsBtn" textStyle=",tofflist.tab2Btn.unTextStyle1" unSelectedStyle="tofflist.tab2BtnBg1" selectedStyle="toffilist.mountsImg2" displacement="false" filterString="null,lightFilter,null,grayFilter" backgoundInnerRectString="17|55|13|25|13,4|60|5|29|13" selected="true"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.titleTxt1" textFormatStyle="toffilist.titleInfo_TF4" filterString="toffilist.titleInfo_GF4" x="124" y="10" type="dynamic"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.mountsLevelText" textFormatStyle="toffilist.titleInfo_TF12" filterString="toffilist.titleInfo_GF12" x="322" y="33"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.mountsImg2" resourceLink="tofflist.tab2BtnBg2,asset.Toffilist.mountsAsset" imageRectString="0|60|0|40|13,7|47|6|25|13" />
+<component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.toffilist.titleInfoBtn" displacement="false" backStyle="core.bg6905" textStyle="asset.toffilist.titleInfoTxt" tipStyle="tofflist.view.TofflistTitleInfoTip" tipDirctions="7,3,6" backgoundInnerRectString="7,88,10,35,13" x="191" y="-2"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="tofflist.titleTips.bg" width="640" height="320" resourceLink="core.commonTipBg,HRuleAsset,HRuleAsset,HRuleAsset,VRuleAsset" imageRectString=",5|630|71|2|13,5|630|158|2|13,5|630|239|2|13,327|320|6|2|13"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="VRuleAsset" resourceLink="HRuleAsset" rotation="90"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.toffilist.titleInfoTxt" textFormatStyle="toffilist.titleInfoTF" filterString="toffilist.titleInfoGF" autoSize="none" x="0" y="0" width="78" height="20" type="dynamic"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.titleInfoTxt" textFormatStyle="toffilist.titleInfo_TF1" filterString="toffilist.titleInfo_GF1" x="11" y="10" type="dynamic"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.content" textFormatStyle="toffilist.titleInfo_TF3" filterString="toffilist.titleInfo_GF3" x="95" y="32" type="dynamic"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.require" textFormatStyle="toffilist.titleInfo_TF2" filterString="toffilist.titleInfo_GF2" x="9" y="32" type="dynamic" />
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.titleTxt3" textFormatStyle="toffilist.titleInfo_TF6" filterString="toffilist.titleInfo_GF6" x="124" y="170" type="dynamic"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.titleTxt4" textFormatStyle="toffilist.titleInfo_TF7" filterString="toffilist.titleInfo_GF7" x="124" y="250" type="dynamic"/>
+	</components>
+	
+	<!--自定义-->
+	<customDisplay>
+		<!--名人堂左侧信息-->
+		<custom classname="flash.geom.Point" stylename="tofflist.rightViewPos" x="497" y="0"/>
+		<custom classname="flash.geom.Point" stylename="tofflist.playerPos" x="293" y="140"/>
+		<custom classname="flash.geom.Point" stylename="tofflist.rankPos" x="208" y="100"/>
+		<custom classname="flash.geom.Point" stylename="tofflist.item.badgePos" x="4" y="4"/>
+		<custom classname="flash.geom.Point" stylename="tofflist.orderlistPos" x="5" y="39"/>
+		
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="person_local_battle" titleHLinePt="70,4|254,4" titleTextPt="8,7|147,7|338,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="person_local_level" titleHLinePt="60,4|215,4|272,4" titleTextPt="3,7|123,7|222,7|326,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="person_local_achive" titleHLinePt="79,4|253,4" titleTextPt="26,7|151,7|317,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="person_local_charm" titleHLinePt="61,4|226,4|339,4" titleTextPt="3,7|133,7|254,0|362,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="person_local_match" titleHLinePt="65,4|226,4" titleTextPt="4,7|132,7|279,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="person_cross_battle" titleHLinePt="67,4|226,4|300,4" titleTextPt="6,7|136,7|238,2|360,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="person_cross_level" titleHLinePt="59,4|195,4|251,4|329,4" titleTextPt="3,7|114,7|199,7|265,2|359,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="person_cross_achive" titleHLinePt="56,4|221,4|294,4" titleTextPt="15,7|123,7|234,7|333,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="person_cross_charm" titleHLinePt="60,4|200,4|270,4|329,4" titleTextPt="4,7|115,7|205,1|276,2|362,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="consortia_local_battle" titleHLinePt="92,4|265,4" titleTextPt="17,7|163,7|342,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="consortia_local_level" titleHLinePt="92,4|265,4|328,4" titleTextPt="19,7|163,7|272,7|361,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="consortia_local_asset" titleHLinePt="92,4|265,4" titleTextPt="19,7|163,7|308,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="consortia_local_charm" titleHLinePt="92,4|258,4" titleTextPt="19,7|163,7|328,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="consortia_cross_battle" titleHLinePt="92,4|238,4|325,4" titleTextPt="15,7|158,7|260,1|364,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="consortia_cross_level" titleHLinePt="63,4|206,4|250,4|313,4" titleTextPt="5,7|125,7|207,7|260,2|356,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="consortia_cross_asset" titleHLinePt="92,4|257,4|317,4" titleTextPt="17,7|156,7|263,0|330,7"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="consortia_cross_charm" titleHLinePt="92,4|257,4|317,4" titleTextPt="17,7|156,7|263,0|356,7"/>
+		
+		<custom classname="tofflist.view.TofflistLeftInfoView" stylename="tofflist.leftInfoView" x="27" y="455"/>
+		<!--名人堂右侧信息-->
+		<!--菜单1-->
+		<custom classname="tofflist.view.TofflistStairMenu" stylename="tofflist.stairMenu" x="18" y="28"/>
+		<!--菜单2-->
+		<custom classname="tofflist.view.TofflistTwoGradeMenu" stylename="tofflist.twoGradeMenu" x="20" y="68" spacing="-4"/>
+		<!--菜单3-->
+		<custom classname="tofflist.view.TofflistThirdClassMenu" stylename="tofflist.hirdClassMenu" x="346" y="72"/>
+		 	
+		 <!--网格标题框-->
+		<custom classname="tofflist.view.TofflistGridBox" stylename="tofflist.gridBox" x="27" y="105"/>
+		 /&gt;
+		 <!--网格列表
+		 -->
+		<custom classname="tofflist.view.TofflistOrderItem" stylename="tofflist.orderItem" resourceLink="0#toffilist.listItemText|&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;1#toffilist.listItemNameText|&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;2#toffilist.listItemText|&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;3#toffilist.listItemText|&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;4#toffilist.listItemText|&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;5#toffilist.mountsLevelText" setAllStyleXY="0#2,4,60|1#65,4,163,22|2#226,4,235~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#2,4,55,22|1#56,4,152,22|2#278,4,138,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#2,4,55,22|1#77,4,163,22|2#226,4,235,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#2,4,55,22|1#59,4,162,22|2#346,4,103,22|3#202,4,130,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#2,4,60|1#58,4,163,22|2#210,4,235~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#32,4,55,22|1#92,4,160,22|2#233,4,235,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#32,4,55,22|1#92,4,160,22|2#316,4,138,22|3#268,4,50,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#32,4,55,22|1#92,4,160,22|2#233,4,235,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#32,4,55,22|1#92,4,160,22|2#233,4,235,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#2,4,55,22|1#54,4,168,22|2#315,4,103,22|3#194,4,130,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#2,4,55,22|1#56,4,132,22|2#330,4,108,22|3#230,4,110,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#2,4,55,22|1#50,4,168,22|2#306,4,103,22|3#187,4,130,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#2,4,55,22|1#59,4,132,22|2#327,4,108,22|3#240,4,110,22|4#203,4,55,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#32,4,55,22|1#92,4,137,22|2#328,4,103,22|3#213,4,130,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#0,4,55,22|1#61,4,137,22|2#320,4,108,22|3#224,4,110,22|4#198,4,55,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#32,4,55,22|1#92,4,137,22|2#328,4,103,22|3#213,4,130,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#32,4,55,22|1#92,4,137,22|2#328,4,103,22|3#213,4,130,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#2,4,55,22|1#304,4,129,22|3#59,4,130,22|5#188,6,103,22~&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;0#2,4,55,22|1#304,4,129,22|2#47,6,103,22|3#218,6,103,22|5#159,6,103,22"/>
+		
+		<custom classname="flash.geom.Point" stylename="tofflist.levelIconPos" x="244" y="30"/>
+		
+		<custom classname="flash.geom.Point" stylename="tofflist.rankImagePos1" x="41" y="-5"/>
+		<custom classname="flash.geom.Point" stylename="tofflist.comparePos1" x="191" y="32"/>
+		<custom classname="flash.geom.Point" stylename="tofflist.valueTitlePos1" x="259" y="33"/>
+		<custom classname="flash.geom.Point" stylename="tofflist.valueTextPos1" x="364" y="32"/>
+		
+		<custom classname="flash.geom.Point" stylename="tofflist.rankImagePos2" x="14" y="-5"/>
+		<custom classname="flash.geom.Point" stylename="tofflist.comparePos2" x="160" y="32"/>
+		<custom classname="flash.geom.Point" stylename="tofflist.valueTitlePos2" x="313" y="33"/>
+		<custom classname="flash.geom.Point" stylename="tofflist.valueTextPos2" x="382" y="32"/>
+		<custom classname="tofflist.data.TofflistLayoutInfo" stylename="person_local_mounts" titleHLinePt="65,4|189,4|307,4" titleTextPt="5,7|81,7|214,2|327,7"/>
+<custom classname="tofflist.data.TofflistLayoutInfo" stylename="person_cross_mounts" titleHLinePt="60,4|152,4|236,4|310,4" titleTextPt="4,7|64,7|161,3|252,2|326,7"/>
+<custom classname="flash.geom.Point" stylename="tofflist.tips.rightViewPos" x="321" y="0"/>
+<custom classname="flash.geom.Point" stylename="tofflist.person.levelStarPos" x="199" y="7"/>
+<custom classname="flash.geom.Point" stylename="tofflist.cross.levelStarPos" x="174" y="5"/>
+<custom classname="flash.geom.Point" stylename="tofflist.myRank.levelStarPos" x="335" y="35"/>
+<custom classname="flash.geom.Point" stylename="tofflist.leftview.levelStarPos" x="126" y="367"/>
+<custom classname="flash.geom.Point" stylename="tofflist.leftview.MountsLevelPos" x="112" y="367"/>
+	</customDisplay>
+	
+	<bitmaps>
+		<!--名人堂左侧信息-->
+		<bitmapData x="16" y="365" resourceLink="asset.Toffilist.fightingImgAsset1_1"/><!-- 战斗-->
+		<bitmapData x="25" y="361" resourceLink="asset.Toffilist.exploitImgAsset1_1"/><!-- 功勋-->
+		<bitmapData x="30" y="365" resourceLink="asset.Toffilist.EXPImgAsset1_1"/><!--EXP-->
+		<bitmapData x="30" y="365" resourceLink="asset.Toffilist.scoreAsset1"/><!--分数-->
+		<bitmapData x="25" y="358" resourceLink="asset.Toffilist.wealthImgAsset1_1"/><!--财富-->
+		<bitmapData x="30" y="365" resourceLink="asset.Toffilist.LnTAImgAsset1_1"/><!--总资产-->
+		<bitmapData x="30" y="365" resourceLink="asset.Toffilist.AchievementImgAsset1_1"/><!-- 成就点-->
+		<bitmapData x="30" y="365" resourceLink="asset.Toffilist.charmvalueImgAsset1_1"/><!-- 魅力-->
+		
+		<bitmapData x="235" y="364" resourceLink="asset.Toffilist.guildImgAsset"/>
+		
+		<bitmapData x="10" y="6" resourceLink="asset.Toffilist.IRankImgAsset"/><!--0 我的排名-->
+		<bitmapData x="10" y="6" resourceLink="asset.Toffilist.myGuildRankImgAsset"/><!--1 我的公会排名-->
+		<bitmapData x="5" y="34" resourceLink="asset.Toffilist.rankingImgAsset1_2"/><!--2 排名-->
+		<bitmapData x="233" y="34" resourceLink="asset.Toffilist.exploitImgAsset1_2"/><!--3 功勋-->
+		<bitmapData x="232" y="33" resourceLink="asset.Toffilist.gradeImgAsset1_2"/><!--4 等级-->
+		<bitmapData x="317" y="33" resourceLink="asset.Toffilist.EXPImgAsset1_2"/><!--5 EXP-->		
+		<bitmapData x="233" y="34" resourceLink="asset.Toffilist.wealthImgAsset1_2"/><!--6 财富-->
+		<bitmapData x="233" y="34" resourceLink="asset.Toffilist.LnTAImgAsset1_2"/><!--7 总资产-->
+		<bitmapData x="233" y="34" resourceLink="asset.Toffilist.fightingImgAsset1_2"/><!--8 战斗-->
+		<bitmapData x="233" y="34" resourceLink="asset.Toffilist.AchievementImgAsset1_2"/><!--9 成就点-->
+		<bitmapData x="114" y="38" resourceLink="asset.Toffilist.shengImg"/>
+		<bitmapData x="114" y="38" resourceLink="asset.Toffilist.downImg"/>
+		<!--名人堂右侧信息-->
+		<bitmapData x="-4" y="-3" resourceLink="asset.Toffilist.menu2LightAsset"/><!--菜单2发光图片-->
+		
+		<bitmapData resourceLink="asset.Toffilist.meansTitleImgAsset"/><!--0总资产-->
+		<bitmapData resourceLink="asset.Toffilist.battleTitleImgAsset"/><!--1战斗力-->
+		<bitmapData resourceLink="asset.Toffilist.orderTitleImgAsset"/><!--2所在区-->
+		<bitmapData resourceLink="asset.Toffilist.rankingTitleImgAsset"/><!--3排名-->
+		<bitmapData resourceLink="asset.Toffilist.nameTitleImgAsset"/><!--4名称-->
+		<bitmapData resourceLink="asset.Toffilist.consortiaExploitTitleImgAsset"/><!--5公会功勋-->
+		<bitmapData resourceLink="asset.Toffilist.individualExploitTitleImgAsset"/><!--6个人功勋-->
+		<bitmapData resourceLink="asset.Toffilist.gradeOrderTitleImgAsset"/><!--7等级-->
+		<bitmapData resourceLink="asset.Toffilist.achievementpointTitleImgAsset"/><!--8成就点数-->
+		<bitmapData resourceLink="asset.Toffilist.wealthTitleImgAsset"/><!--9财富-->
+		<bitmapData resourceLink="asset.Toffilist.EXPTitleImgAsset"/><!--10EXP-->
+		<bitmapData resourceLink="asset.Toffilist.battleImg2Asset" width="56" height="25"/>
+		<bitmapData resourceLink="asset.Toffilist.gradeOrderImg2Asset" width="41" height="25"/>
+		<bitmapData resourceLink="asset.Toffilist.exploitOrderImg2Asset" width="41" height="25"/>
+		<bitmapData resourceLink="asset.Toffilist.achievementpointImg2Asset" width="41" height="25"/>
+		<bitmapData resourceLink="asset.Toffilist.charmvalueImg2Asset" width="41" height="25"/>
+		<bitmapData resourceLink="asset.Toffilist.matches2Asset" width="41" height="25"/>
+		
+		<bitmapData x="-2" y="0" resourceLink="asset.toffilist.orderNo1Asset"/>
+		
+		<bitmapData resourceLink="toffilist.leftImgBg" x="2" y="2"/>
+		<bitmapData x="30" y="365" resourceLink="asset.Toffilist.mountsImgAsset1_1"/>
+		
+	</bitmaps>
+</style>

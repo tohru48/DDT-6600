@@ -1,0 +1,121 @@
+﻿<style name="redPackage" version="6.4.0" source="ui/turkey/swf/redPackage.swf">
+	<components>
+	<component classname="redPackage.view.RedPackageConsortiaSelectFrame" stylename="redpkg.consortia.selectFrame"
+			parentStyle="BaseFrame" width="525" height="328" moveEnable="false"  autoExit="true"
+	/>
+	<component classname="redPackage.view.RedPackageConsortiaSendFrame" stylename="redpkg.consortia.sendFrame"
+			parentStyle="BaseFrame" width="389" height="346" moveEnable="false"  autoExit="true"
+	/>
+	<component classname="redPackage.view.RedPackageConsortiaGainFrame" stylename="redpkg.consortia.gainFrame"
+			parentStyle="BaseFrame" width="693" height="388" moveEnable="false"
+	/>
+	<component classname="redPackage.view.RedPackageConsortiaGainedRecordFrame" stylename="redpkg.consortia.gainRecordFrame"
+			parentStyle="BaseFrame" width="528" height="371" moveEnable="false" autoExit="true"
+	/>
+<!-- 	确认框 -->
+	<component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="redpkg.sendConfirmFrame"
+		parentStyle="BaseFrame" width="320" height="160" containerX="13" containerY="45" moveEnable="false"/>
+	
+<!-- 	公会单个红包领取记录 昵称文本框-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortionGain.GainRecord.nickTxt" 
+		textFormatStyle="redpkg.GainRecord.nick.tf" filterString="redpkg.GainRecord.nick.gf" x="192" y="60" width="270" height="22"/>
+		
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortionGain.GainRecord.wishWordsTxt" 
+		textFormatStyle="redpkg.GainRecord.wishwords.tf" filterString="redpkg.GainRecord.wishwords.gf" x="30" y="134" width="464" height="22" wordWrap="true"/>
+<!-- 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortionGain.SendPkg.wishWordsTxt"  -->
+<!-- 		textFormatStyle="redpkg.GainRecord.wishwords.tf" filterString="redpkg.GainRecord.wishwords.gf" x="38" y="182" width="313" height="62"/> -->
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortionGain.GainRecord.moneyTxt" 
+		textFormatStyle="redpkg.GainRecord.money.tf" filterString="redpkg.GainRecord.money.gf" x="245" y="109" width="120" height="22"/>
+	
+<!-- 	公会抢红包界面 未领取文字 -->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortionGain.didntGain.txt" 
+		textFormatStyle="redpkg.cGain.didntGain.tf" filterString="redpkg.cGain.didntGain.gf" x="6" y="7" width="445" height="22"/>
+<!-- 	公会抢红包界面 已经领取文字 -->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortionGain.gained.txt" 
+		textFormatStyle="redpkg.cGain.gained.tf" filterString="redpkg.cGain.gained.gf" x="6" y="7" autoSize="none" width="445" height="22"/>
+<!-- 	公会抢红包界面 抢红包按钮 -->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="redpkg.consortionGain.gainBtn" backStyle="asset.redpkg.consortionGain.gainBtn" x="459" y="2"/>
+<!-- 	公会抢红包界面 领取记录按钮 -->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="redpkg.consortionGain.gainHistoryBtn" backStyle="asset.redpkg.consortionGain.historyBtn" x="528" y="2"/>
+	
+<!-- 	公会发送红包界面背景 -->
+	<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="redpkg.consortionSend.Back" width="348" height="216" x="20" y="45"
+			 resourceLink="core.Scale9CornerImage.BGAsset8,core.Scale9CornerImage.BGAsset9"
+			imageRectString=",3|3|3|5|0" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortion.sendMoney.txt" 
+		textFormatStyle="redpkg.cSend.money.tf" filterString="redpkg.cSend.money.gf" x="158" y="115" width="178" height="20"  wordWrap="true" type="input" mouseEnabled="true"/>
+<!-- 	领取记录界面滚动条cell文字 -->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortion.gainrecord.listCellTxt" 
+		textFormatStyle="redpkg.gainRecord.cell.tf" filterString="redpkg.gainRecord.cell.gf" autoSize="none" isAutoFitLength="true" x="6" y="6" width="432" height="20"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortion.detail.txt" 
+		textFormatStyle="redpkg.cSend.detail.tf" filterString="redpkg.cSend.detail.gf" x="39" y="182" width="310" height="64" wordWrap="true"/>
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortion.sendMoney.label" 
+		textFormatStyle="redpkg.cSend.money.labe.tf" filterString="redpkg.cSend.money.label.gf" x="41" y="114" width="78" height="20"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="redpkg.consortion.sendNumber.label" 
+		textFormatStyle="redpkg.cSend.money.labe.tf" filterString="redpkg.cSend.money.label.gf" x="30" y="150" width="78" height="20"/>
+<!-- 	公会发送红包帮助 -->
+	<component classname="com.pickgliss.ui.controls.ListPanel" stylename="redpkg.help.scrollPanel" parentStyle="core.ScrollPanel" 
+			vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="0" hScrollProxy="2"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|redPackage.view.RedPackageHelpCell,451,451" 
+			listStyle="com.pickgliss.ui.controls.list.List" width="354" height="365"/>
+			
+<!-- 	公会领取红包界面 滚动条 -->
+	<component classname="com.pickgliss.ui.controls.ListPanel" stylename="redpkg.List" parentStyle="core.ScrollPanel" 
+			vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="0" hScrollProxy="2"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|redPackage.view.RedPackageGainListCell,33,177" 
+			listStyle="com.pickgliss.ui.controls.list.List" width="638" height="298" x="30" y="56" />
+	
+<!-- 	公会单个红包领取记录界面 滚动条 -->
+	<component classname="com.pickgliss.ui.controls.ListPanel" stylename="redpkg.gainRecord.ListPanel" parentStyle="core.ScrollPanel" 
+			vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="0" hScrollProxy="2"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|redPackage.view.RedPackageGainRecordListCell,33,177" 
+			listStyle="com.pickgliss.ui.controls.list.List" width="462" height="156" x="30" y="171" />
+	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="redpkg.consortion.SendBtn" backStyle="asset.redpkg.consortionSend.btn" x="70" y="148"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="redpkg.consortion.GainBtn" backStyle="asset.redpkg.consortionGain.btn" x="310" y="148"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="redpkg.consortionSend.sendBtn" backStyle="asset.redpkg.consortionSend.Sendbtn" x="61" y="273"/>
+	</components>
+	<sets>
+		<set stylename="redpkg.gainRecord.cell.tf" args="Arial,12,0xe1b76c,false,,,,,left" type="flash.text.TextFormat" />
+		<set stylename="redpkg.gainRecord.cell.gf" args="0x411c07,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="redpkg.GainRecord.money.tf" args="Arial,16,0xfcef77,true,,,,,left" type="flash.text.TextFormat" />
+		<set stylename="redpkg.GainRecord.money.gf" args="0x481406,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="redpkg.GainRecord.wishwords.tf" args="Arial,12,0xff0000,false,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="redpkg.GainRecord.wishwords.gf" args="0x000000,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="redpkg.GainRecord.nick.tf" args="Arial,14,0xfffd8a,false,,,,,left" type="flash.text.TextFormat" />
+		<set stylename="redpkg.GainRecord.nick.gf" args="0x4f240a,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="redpkg.cGain.didntGain.tf" args="Arial,14,0xfff5cc,false,,,,,left" type="flash.text.TextFormat" />
+		<set stylename="redpkg.cGain.didntGain.gf" args="0x5a2300,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="redpkg.cGain.gained.tf" args="Arial,14,0xe1b866,false,,,,,left" type="flash.text.TextFormat" />
+		<set stylename="redpkg.cGain.gained.gf" args="0x3f1b04,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="redpkg.cSend.money.labe.tf" args="Arial,14,0xe6ce98,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="redpkg.cSend.money.label.gf" args="0x381306,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="redpkg.cSend.money.tf" args="Arial,14,0xe6ce98,,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="redpkg.cSend.money.gf" args="0x4b3719,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="redpkg.cSend.detail.tf" args="Arial,12,0xff0000,false,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="redpkg.cSend.detail.gf" args="0x000000,1,4,4,30" type="flash.filters.GlowFilter"/>
+	</sets>
+	<customs>
+	</customs>
+	<bitmaps>
+		<bitmapData resourceLink="redpkg.help" x="13" y="41"/>
+	</bitmaps>
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="redpkg.HelpContentPos" x="31" y="49"/>
+		<custom classname="flash.geom.Point" stylename="redpkg.helpBtnPos" x="572" y="6"/>
+	
+	</customDisplay>
+</style>

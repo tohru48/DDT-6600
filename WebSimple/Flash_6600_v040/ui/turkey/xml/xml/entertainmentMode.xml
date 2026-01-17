@@ -1,0 +1,73 @@
+<style name="entertainmentMode" version="1.0.1" source="ui/turkey/swf/entertainmentMode.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="asset.entertainment.TF1" args="Arial,14,0xe1cf9a,true"/>
+		<set type="flash.filters.GlowFilter" stylename="asset.entertainment.GF1" args="0x5b2d0b,2,2,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="asset.entertainment.TF2" args="Arial,16,0xe1cf9a,true"/>
+		<set type="flash.filters.GlowFilter" stylename="asset.entertainment.GF2" args="0x5b2d0b,2,2,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="asset.entertainment.TF3" args="Arial,16,0xe1cf9a,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="asset.entertainment.GF3" args="0x5b2d0b,2,2,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="asset.entertainment.TF4" args="Arial,12,0xc8c8c8,false"/>
+		<set type="flash.filters.GlowFilter" stylename="asset.entertainment.GF4" args="0x000000,2,2,2,30"/>
+	
+		<set stylename="asset.entertainment.GF5" args="0x4b270d,1,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="asset.entertainment.TF5" args="Arial,12,0xfff8d6,,,,,,center" type="flash.text.TextFormat"/>
+	</sets>
+	<bitmaps>
+		<bitmapData resourceLink="asset.Entertainment.mode.bg" x="0" y="0"/>
+		<bitmapData resourceLink="asset.Entertainment.mode.random" x="0" y="0"/>
+		<bitmapData resourceLink="asset.Entertainment.mode.light" x="0" y="0"/>
+		<bitmapData resourceLink="asset.Entertainment.mode.dark" x="0" y="0"/>
+		<bitmapData resourceLink="asset.Entertainment.mode.propBox" x="0" y="0"/>
+	</bitmaps>
+	<customDisplay>
+		<custom classname="entertainmentMode.view.EntertainmentInfoFrame" backStyle="SimpleFrameBackgoundOne" stylename="entertainment.infoFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,11,5" closeInnerRectString="44,6,6,30,14" containerX="10" containerY="30" width="443" height="367"/>
+		<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="entertainment.TrophyList" x="26" y="45" vSpace="5" hSpace="10"/>
+		<custom classname="flash.geom.Point" stylename="asset.Entertainment.pkBtn.Pos" x="516" y="409"/>
+	</customDisplay>
+	
+	<components>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel"
+			stylename="entertainment.view.scrollPanel" viewportInnerRectString="13,0,0,0,0"
+			parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="0"
+			width="390" height="275" x="15" y="32" vUnitIncrement="10" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="entertainment.frameBottom" parentStyle="core.bg6920" scaleGridString="5,10,80,20" width="400" height="300" x="11" y="16"/>
+			
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="entertainment.BG02" resourceLink="core.Scale9CornerImage.SimpleTableBackgound2,core.Scale9CornerImage.weilifur" imageRectString=",5|7|5|7|0" width="257" height="224" x="6" y="2"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="entertainment.nextBtn" backStyle="asset.ddtcore.rightBtn" width="54" height="25" x="179" y="249" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="entertainment.prevBtn" backStyle="asset.ddtcore.leftBtn" width="54" height="25" x="52" y="249" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="entertainment.TrophyBGI" resourceLink="entertainment.BG01,entertainment.BG02" x="8" y="15"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="entertainment.HelpBtn" backStyle="asset.Entertainment.mode.HelpBtnBG" x="667" y="-32"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="entertainment.BG01" width="262" height="227" resourceLink="asset.core.ddtScale9CornerImage12,core.Scale9CornerImage.weilifur" imageRectString=",1|1|1|1|0" x="3"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="entertainment.PageCountBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="65" height="24" x="110" y="250"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="entertainment.pageTxt" textFormatStyle="asset.entertainment.TF5" filterString="asset.entertainment.GF5" x="123" y="254" autoSize="none" width="40" height="26"/>
+		<!--窗口-->
+		<component classname="entertainmentMode.view.EntertainmentModeView" stylename="entertainment.EntertainmentModeView" backStyle="SimpleFrameBackgoundOne" 
+			parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,14,6,30,14"
+			containerX="15" containerY="38" titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1"
+			width="773" height="535" moveEnable="false" escEnable="true" />
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.entertainment.joinBtn" backStyle="asset.Entertainment.mode.join" useLogID="48" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="207" y="416"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.entertainment.createBtn" backStyle="asset.Entertainment.mode.create" useLogID="48" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="350" y="416"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.entertainment.enterBtn" backStyle="asset.Entertainment.mode.enter" useLogID="48" x="240" y="18"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.entertainment.nextBtn" backStyle="asset.Entertainment.mode.right.nextbtnAsset" x="105" y="434"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.entertainment.preBtn" backStyle="asset.Entertainment.mode.right.prebtnAsset" x="8" y="434"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleDropListTarget" stylename="asset.entertainment.searchtxt" textFormatStyle="asset.entertainment.TF1" filterString="asset.entertainment.GF1" autoSize="none" type="input"  x="13" y="21" width="220" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.entertainment.roomPlayerNum" textFormatStyle="asset.entertainment.TF2" filterString="asset.entertainment.GF2" x="160" y="15" width="40" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.entertainment.score" textFormatStyle="asset.entertainment.TF3" filterString="asset.entertainment.GF3" autoSize="none" x="623" y="8" width="65" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.entertainment.list.score" textFormatStyle="asset.entertainment.TF3" filterString="asset.entertainment.GF3" autoSize="none" width="90" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.entertainment.time.title" textFormatStyle="asset.entertainment.TF4" filterString="asset.entertainment.GF4" autoSize="none" x="323" y="13" width="190" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.entertainment.time" textFormatStyle="asset.entertainment.TF4" filterString="asset.entertainment.GF4" autoSize="none" x="323" y="34" width="190" height="20"/>
+		
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="asset.entertainment.panel" parentStyle="core.ScrollPanel" viewportInnerRectString="0,22,0,0,0" vScrollbarInnerRectString="21,4,0,0,3" width="225" height="390" x="509" y="79" vUnitIncrement="10"/>
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.entertainment.searchBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="220" height="25" x="8" y="18" />
+	</components>
+	<customs>
+		<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="asset.entertainment.ItemList" x='13' y='62' hSpace='-3' vSpace='3'/>
+	</customs>
+</style>

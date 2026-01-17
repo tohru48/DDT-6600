@@ -1,0 +1,86 @@
+<style name="playerDress" version="1.0.1"
+	source="ui/turkey/swf/playerDress.swf">
+<sets>
+	<set type="flash.filters.GlowFilter" args="0x5F3011,1,2,2,30" stylename="playerDress.brownGF" />
+	<set type="flash.text.TextFormat" args="Arial,11,0xFFF2B2"  stylename="playerDress.brownTF" />
+	
+	<set type="flash.filters.GlowFilter" args="0x4b270d,1,4,4,30" stylename="playerDress.brownInputGF" />
+	<set type="flash.text.TextFormat" args="Arial,14,0xfff8d6"  stylename="playerDress.brownInputTF" />
+	
+	<set type="flash.text.TextFormat" args="Arial,12,0xfff8d6"  stylename="playerDress.searchInputTF" />
+</sets>
+<customDisplay>
+	<custom classname="playerDress.views.DressMainView" stylename="playerDress.dressMainView" x="0" y="0" />
+	<custom classname="playerDress.views.PlayerDressView" stylename="playerDress.playerDressView" x="12" y="4" />
+	<custom classname="playerDress.views.DressBagView" stylename="playerDress.dressBagView" x="0" y="23" />
+	<custom classname="flash.geom.Point" stylename="playerDress.baglistPos" x="15" y="58"/>
+	<custom classname="flash.geom.Point" stylename="playerDress.hidePanelPos" x="87" y="232"/>
+	<custom classname="flash.geom.Point" stylename="playerDress.characterPos" x="240" y="77"/>
+	<custom classname="flash.geom.Point" stylename="playerDress.cellPos0" x="29" y="59"/>
+	<custom classname="flash.geom.Point" stylename="playerDress.cellPos1" x="29" y="116"/>
+	<custom classname="flash.geom.Point" stylename="playerDress.cellPos2" x="29" y="176"/>
+	<custom classname="flash.geom.Point" stylename="playerDress.cellPos3" x="29" y="234"/>
+	<custom classname="flash.geom.Point" stylename="playerDress.cellPos4" x="339" y="59"/>
+	<custom classname="flash.geom.Point" stylename="playerDress.cellPos5" x="339" y="116"/>
+	<custom classname="flash.geom.Point" stylename="playerDress.cellPos6" x="339" y="176"/>
+	<custom classname="flash.geom.Point" stylename="playerDress.cellPos7" x="339" y="234"/>
+	<custom classname="flash.geom.Point" stylename="playerDress.renewalBtnPos" x="215" y="387"/>
+	<custom classname="flash.geom.Point" stylename="playerDress.dressTipPos" x="355" y="383"/>
+</customDisplay>
+<components>
+<!-- 装扮界面 -->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="playerDress.saveBtn" backStyle="playerDress.save"  x="215" y="244"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerDress.decTxt"  
+		textFormatStyle="playerDress.brownTF" filterString="playerDress.brownGF"  x="23" y="349" autoSize="none" wordWrap="true" width="370" height="80" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="playerDress.okBtn" backStyle="playerDress.OK" 
+		 x="324" y="298"  tipStyle = "ddt.view.tips.OneLineTip" tipDirctions = "3" />
+	<component classname="com.pickgliss.ui.controls.ComboBox" stylename="playerDress.modelCombo"
+			parentStyle="core.Combox2"   x="118"  y="297" width="140" listInnerRectString="5,28,10,50,18"/>
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="playerDress.hideHatCheckBox" 
+		x="93" y="249" width="25" height="25"  parentStyle="core.simpleSelectBtn" />
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="playerDress.hideGlassCheckBox" 
+		x="147" y="249" width="25" height="25"  parentStyle="core.simpleSelectBtn" />
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="playerDress.hideSuitCheckBox" 
+		x="93" y="265" width="25" height="25"  parentStyle="core.simpleSelectBtn" />
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="playerDress.hideWingCheckBox" 
+		x="147" y="265" width="25" height="25"  parentStyle="core.simpleSelectBtn" />
+<!-- 			装扮背包 -->
+	<component classname="com.pickgliss.ui.controls.ComboBox" stylename="playerDress.assortCombo"
+			x="13"  y="26" width="130"  parentStyle="core.Combox2"  listInnerRectString="5,28,10,195,18" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerDress.searchTxt"
+			textFormatStyle="playerDress.searchInputTF" filterString="playerDress.brownInputGF"  maxChars="30"  autoSize="none"/>
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="playerDress.searchInput"  
+			backStyle="core.Scale9CornerImage.scale9CornerImageInputBG" focusBackStyle="core.Scale9CornerImage.scale9CornerImageInputBG" 
+			 textStyle="playerDress.searchTxt" focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="7,10,5,2,0" 
+			x='149' y='27' width="125" height="26"  multiline="false"   />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="playerDress.searchBtn" backStyle="playerDress.search"  
+			x="277" y="25"/>
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="playerDress.maleBtn" 
+		 unSelectedStyle="playerDress.maleUnSelect"  selectedStyle="playerDress.maleSelect" 
+		x="53" y="387"  filterString="null,lightFilter,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="playerDress.femaleBtn" 
+		 unSelectedStyle="playerDress.femaleUnSelect"  selectedStyle="playerDress.femaleSelect" 
+		x="17" y="387"  filterString="null,lightFilter,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="playerDress.sortBtn" backStyle="playerDress.sort"  
+		x="285" y="388"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="playerDress.renewalBtn" backStyle="playerDress.renewal"  
+		x="220" y="388"/>		
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="playerDress.leftBtn" backStyle="playerDress.left"  
+		x="91" y="390"/>	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="playerDress.rightBtn" backStyle="playerDress.right"  
+		x="177" y="390"/>	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerDress.pageTxt"
+		x="143" y="393"	textFormatStyle="playerDress.brownInputTF" filterString="playerDress.brownInputGF" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="playerDress.pageBG" 
+		x="132" y="390" width="45" height="24" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"  />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="playerDress.helpBtn" backStyle="asset.ddtcore.helpbuttonShort"  
+		 x="763" y="-47" filterString="null,lightFilter,null,grayFilter"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="playerDress.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-18" y="-51" width="370" height="376" />
+	<component classname="store.HelpPrompt" stylename="playerDress.HelpPrompt" bg9ScalseStyle="playerDress.HelpFrame.FrameBg" contentStyle="playerDress.readMe" x="35" y="97" />
+	<component classname="store.HelpFrame" stylename="playerDress.HelpFrame" parentStyle="BaseFrame" width="404" height="484" />
+</components>
+<bitmaps>
+	<bitmapData resourceLink="playerDress.BG"  x="0" y="0"/>
+	<bitmapData resourceLink="playerDress.bottomBg" x="13" y="383"/>
+</bitmaps>
+</style>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="gameII" version="1.0.1" source="ui/turkey/swf/gameII.swf"> 
+  <sets/>  
+  <components> 
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.game.simpleBoxPicAsset" resourceLink="asset.game.yellowbox,asset.game.redBoxAsset,asset.game.riceDumplingAsset,asset.game.moonCake,asset.game.lanternAsset,asset.game.xmasBell,asset.game.ChineseLanternAsset,asset.game.ChineseLanternAssetFu" x="0" y="0"/> 
+  </components>  
+  <customDisplay/>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.game.yellowAsset" width="50" height="50" smoothing="true"/>  
+    <bitmapData resourceLink="asset.game.redBoxAsset" width="50" height="50" smoothing="true"/>  
+    <bitmapData resourceLink="asset.game.riceDumplingAsset" width="50" height="50" smoothing="true"/>  
+    <bitmapData resourceLink="asset.game.lanternAsset" width="50" height="50" smoothing="true"/>  
+    <bitmapData resourceLink="asset.game.soulHatAsset" width="47" height="24" smoothing="true"/>  
+    <bitmapData resourceLink="asset.game.hongbaoAsset" width="50" height="50" smoothing="true"/> 
+  </bitmaps> 
+</style>

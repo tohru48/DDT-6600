@@ -1,0 +1,178 @@
+<style name="petsBag" version="1.0.1" source="ui/zh_cn/swf/petsBag.swf">
+	<sets>
+		<set stylename="petsBag.levelProgressTF" args="Arial,11,0xffffff,,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="petsBag.rePet.TF" args="宋体,12,0xfff3bc,,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="petsBag.feed.TF" args="宋体,12,0xfff3bc,,,,,,center" type="flash.text.TextFormat" />
+		
+		<set stylename="petsBag.releasePet.TF" args="宋体,12,0xfff3bc,,,,,,center" type="flash.text.TextFormat" />
+		
+		<set stylename="petsBag.Prop.TF" args="宋体,14,0xFFF06E,true,,,,,center"	type="flash.text.TextFormat"/>		 
+		<set stylename="petsBag.Prop.TF2" args="宋体,14,0xFFF6C9,true,,,,,center"	type="flash.text.TextFormat"/>
+		<set stylename="petsBag.petName.TF" args="宋体,14,0xffcc00,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="petsBag.fightPowr.TF" args="宋体,14,0xffead9,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="petsBag.Lv.TF" args="宋体,16,0xffd500,true,,,,,center" type="flash.text.TextFormat" /> 
+		<set stylename="petsBag.petSkill.TF" args="宋体,14,0xFFE9BD,true,,,,,center" letterSpacing="2" type="flash.text.TextFormat" />
+		<set stylename="petsBag.fightSkill.TF" args="宋体,14,0xFFE9BD,true,,,,,center" letterSpacing="2" type="flash.text.TextFormat" />
+		
+		<set stylename="petsBag.inputPetName.TF" args="宋体,14,0xfff8d6,true,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="petsBag.rePetNameAlert.TF" args="宋体,12,0xf6eeba,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="petsBag.rePetNameAlert.TF2" args="宋体,12,0xe20000,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="petsBag.inputPetName.GF" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.rePetNameAlert.GF" args="0x693812,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.rePetNameAlert.GF2" args="0xfff8e5,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.inputPetNameLbl.TF" args="宋体,14,0xfff1bf,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="petsBag.inputPetNameLbl.GF" args="0x632f00,1,4,4,30" type="flash.filters.GlowFilter" />
+		
+		<set stylename="petsBag.petSkill.GF" args="0x4D2B05,1,4,4,30" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.fightSkill.GF" args="0x4D2B05,1,4,4,30" type="flash.filters.GlowFilter" />		
+		<set stylename="petsBag.Lv.GF" args="0x633100,1,4,4,30" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.fightPowr.GF" args="0x76251l,1,2,2,2,1" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.petName.GF" args="0x000000,1,4,4,30" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.rePet.GF" args="0x143f86,1,4,4,30" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.feed.GF" args="0x861414,1,4,4,30" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.releasePet.GF" args="0x735002,1,4,4,30" type="flash.filters.GlowFilter" />
+		
+		<set stylename="petsBagMoneyInfoGF" args="0x003d71,1,2,2,30" type="flash.filters.GlowFilter"/>
+		<set stylename="petsBag.Prop.GF" args="0x4f2000,1,4,4,30" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.Prop.GF2" args="0x6f5100,1,4,4,30" type="flash.filters.GlowFilter" /> 
+		<set stylename="petsBag.Prop.GF3" args="0x6f5100,1,2,2,10" type="flash.filters.GlowFilter" /> 
+		<set stylename="petsBag.petHappyTip.happyValueLblTF" args="宋体,13,0x000000,true,,,,,left" type="flash.text.TextFormat" /> 
+		<set stylename="petsBag.petHappyTip.happyValueLblGF" args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter" />	 
+		<set stylename="petsBag.petHappyTip.happyValueTxtTF" args="宋体,14,0xfe6dc6,true,,,,,left" type="flash.text.TextFormat" /> 
+		<set stylename="petsBag.petHappyTip.happyValueTxtGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.petHappyTip.happyHeartLblTF" args="宋体,13,0x000000,true,,,,,left" type="flash.text.TextFormat" /> 
+		<set stylename="petsBag.petHappyTip.happyHeartLblGF"  args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.petHappyTip.happyHeartTxtTF" args="宋体,14,0xff9933,true,,,,,left" type="flash.text.TextFormat" /> 
+		<set stylename="petsBag.petHappyTip.happyHeartTxtGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.petHappyTip.happyDescTF" args="宋体,14,0xffffff" leading="3" type="flash.text.TextFormat"/>
+		
+		<set stylename="petsBag.PetFoodNumberSelectFrame.TextTF" args="宋体,16,0xffeebf,true" letterSpacing="2" type="flash.text.TextFormat"/>
+		<set stylename="petsBag.PetFoodNumberSelectFrame.TextGF" args="0x442006,1,4,4,30" type="flash.filters.GlowFilter"/> 
+		<set stylename="petsBag.PetFoodNumberSelectFrame.NeedFoodTextTF" args="宋体,12,0xffeebf,true" letterSpacing="2" type="flash.text.TextFormat"/>
+	</sets>
+
+	<customDisplay>
+		<custom classname="petsBag.view.PetsBagOutView" stylename="petsBagOutPnl" x="2" y="1" />
+		<custom classname="petsBag.view.PetsBagOtherView" stylename="petsBagOtherPnl.other" x="22" y="85" />
+		<custom classname="petsBag.view.ShowPet" stylename="petsBag.showPet" x="2" y="129" /> 
+		<custom classname="petsBag.view.PetSkillPnl" stylename="petsBag.petSkillPnl" x="16" y="334" />
+		<custom classname="petsBag.view.PetGameSkillPnl" stylename="petsBag.petGameSkillPnl" x="258" y="325" />
+		<custom classname="petsBag.view.item.PetBigItem" stylename="petsBag.petBigItem" x="120" y="118" />
+		<custom classname="petsBag.view.item.FeedItem" stylename="petsBag.feedItem" x="190" y="209" />
+		
+		<custom classname="flash.display.Sprite" stylename="petsBag.sprite.moveScroll" x="22" y="6"/>
+		<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="petsBag.simpleTileList.petSkill" x='0' y='0'  hSpace='4' vSpace='3'/>
+		
+		<custom classname="flash.geom.Point" stylename="petsBag.gameSkillPnl.point0" x="7" y="8"/>
+		<custom classname="flash.geom.Point" stylename="petsBag.gameSkillPnl.point1" x="101" y="9"/>
+		<custom classname="flash.geom.Point" stylename="petsBag.gameSkillPnl.point2" x="7" y="63"/> 
+		<custom classname="flash.geom.Point" stylename="petsBag.gameSkillPnl.point3" x="101" y="62"/> 
+		<custom classname="flash.geom.Point" stylename="petsBag.gameSkillPnl.point4" x="53" y="37"/> 
+		<custom classname="flash.geom.Point" stylename="petsBag.PetFoodNumberSelectFrame.numberSelecterPos" x="142" y="79" />
+		<custom classname="flash.geom.Point" stylename="petsBag.PetFoodNumberSelectFrame.needFoodTextPos" x="54" y="133" />
+		<component classname="petsBag.view.RePetNameFrame" stylename="petsBag.rePetNameFrame"  parentStyle="BaseFrame" moveEnable="false" width="320" height="192" containerX="15" containerY="5"/>
+		<custom classname="asset.core.ItemCellUnSelected" stylename="petsBag.skillItemBG" alpha="0.5" width="46" height="46" x="0" y="0" />
+		
+		<custom classname="com.pickgliss.ui.controls.container.VBox" stylename="petsBag.showPet.vbox" spacing="-3" x="10" y="0"/>
+	</customDisplay>
+	
+	<components> 
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.PetName" textFormatStyle="petsBag.petName.TF" filterString="petsBag.petName.GF" x="17" y="97" multiline="false" wordWrap="false" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.fightPowr" textFormatStyle="petsBag.fightPowr.TF" filterString="petsBag.fightPowr.GF" x="318" y="89" multiline="false" wordWrap="false" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.Lv" textFormatStyle="petsBag.Lv.TF" filterString="petsBag.Lv.GF" x="40" y="10" multiline="false" wordWrap="false" />
+	 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.rePetStyle" textFormatStyle="petsBag.rePet.TF" filterString="petsBag.rePet.GF"  multiline="false" wordWrap="false" />
+	 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.feedStyle" textFormatStyle="petsBag.feed.TF" filterString="petsBag.feed.GF"  multiline="false" wordWrap="false" />
+	 	
+	 	
+	 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.releasePetStyle" textFormatStyle="petsBag.releasePet.TF" filterString="petsBag.releasePet.GF"  multiline="false" wordWrap="false" />
+	 	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.propName" textFormatStyle="petsBag.Prop.TF" filterString="petsBag.Prop.GF" x="0" y="0"  width="104" height="21"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.propValue" textFormatStyle="petsBag.Prop.TF2" filterString="petsBag.Prop.GF2,petsBag.Prop.GF3" x="0" y="0" autoSize="none" width="104" height="21"/>
+	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.petSkill" textFormatStyle="petsBag.petSkill.TF" filterString="petsBag.petSkill.GF" x="9" y="315" multiline="false" wordWrap="false" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.fightSkill" textFormatStyle="petsBag.fightSkill.TF" filterString="petsBag.fightSkill.GF" x="256" y="315" multiline="false" wordWrap="false" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.inputPetName" textFormatStyle="petsBag.inputPetName.TF" filterString="petsBag.inputPetName.GF" autoSize="none" maxChars="14" width="122" height="23" x="132" y="68" type="input"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.rePetNameAlert" textFormatStyle="petsBag.rePetNameAlert.TF" filterString="petsBag.rePetNameAlert.GF" autoSize="none" width="194" height="23" x="38" y="100"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.rePetNameAlert2" textFormatStyle="petsBag.rePetNameAlert.TF2" filterString="petsBag.rePetNameAlert.GF2" autoSize="none" width="34" height="23" x="150" y="100"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.text.inputPetNameLbl" textFormatStyle="petsBag.inputPetNameLbl.TF" filterString="petsBag.inputPetNameLbl.GF" autoSize="none" width="134" height="23" x="3" y="68"/>
+	
+		<component classname="petsBag.view.PetExpProgress" stylename="petExpProgress" tipStyle = "ddt.view.tips.OneLineTip" tipDirctions = "3,7,6" tipGapV = "4" x="8" y="286" width="168" height="18" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.info.LevelProgressText" textFormatStyle="petsBag.levelProgressTF" filterString="petsBagMoneyInfoGF" autoSize="none" x="35" y="2" width="199" height="18"/>
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="petsBag.thuck.maxGraphic" resourceLink="petsBag.ExpProgress.Bitmap_thuck1,petsBag.ExpProgress.Bitmap_thuck2,petsBag.ExpProgress.Bitmap_thuck3" width="198" height="10" x="32" y="6"/>
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="petsBag.thuck.Graphic" resourceLink="petsBag.MaxExpProgress.Bitmap_thuck1,petsBag.MaxExpProgress.Bitmap_thuck2,petsBag.MaxExpProgress.Bitmap_thuck3" width="198" height="10" x="32" y="6"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="petsBag.RedButton"
+			parentStyle="core.bg6921"/>
+		
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="petsBag.button.rePetName" backStyle="petsBag.button.blueBg" backgoundInnerRectString="12,12,3,7,-1" x="249" y="94" filterString="null,lightFilter,null,grayFilter" textStyle="petsBag.text.rePetStyle"  />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="petsBag.button.revertPet" backStyle="petsBag.button.yellowBg" backgoundInnerRectString="12,12,3,7,-1" x="302" y="94" filterString="null,lightFilter,null,grayFilter" textStyle="petsBag.text.releasePetStyle"  />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="petsBag.button.releaseName" backStyle="petsBag.button.yellowBg" backgoundInnerRectString="12,12,3,7,-1" x="355" y="94" filterString="null,lightFilter,null,grayFilter" textStyle="petsBag.text.releasePetStyle"  />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="petsBag.button.feed" backStyle="petsBag.button.redBg" backgoundInnerRectString="12,12,3,7,-1" x="186" y="262" filterString="null,lightFilter,null,grayFilter" textStyle="petsBag.text.feedStyle"  />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="petsBag.button.fight" backStyle="petsBag.bg.fight" width="162" height="50" x="249" y="265"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="petsBag.button.unFight" backStyle="petsBag.bg.unFight" width="162" height="46" x="249" y="265"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="petsBag.bg"
+			parentStyle="core.bg6899" width="100"/>	
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="petsBag.bg2"
+			parentStyle="core.bg6908" width="100"/>		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="petsBag.button.left" backStyle="assets.petsBag.leftPage"  x="6" y="31"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="petsBag.button.right" backStyle="assets.petsBag.rightPage"  x="385" y="31"/>
+				
+		<component classname="petsBag.view.item.PetPropButton" stylename="petsBag.propbutton.attack" x="251" y="156" height = "17" color="0xff1361" tipDirctions="7,5,6,4" tipGapV = "4"  />
+		<component classname="petsBag.view.item.PetPropButton" stylename="petsBag.propbutton.defence" x="251" y="185" height = "17" color="0x3ef4ff"  tipDirctions="7,5,6,4" tipGapV = "4"  />
+		<component classname="petsBag.view.item.PetPropButton" stylename="petsBag.propbutton.HP" x="251"  y="127" height = "17" color="0xff0000"  tipDirctions="7,5,6,4" tipGapV = "4" />
+		<component classname="petsBag.view.item.PetPropButton" stylename="petsBag.propbutton.agility" x="251" y="213" height = "17" color="0x65e936"  tipDirctions="7,5,6,4" tipGapV = "4" />
+		<component classname="petsBag.view.item.PetPropButton" stylename="petsBag.propbutton.luck" x="251"  y="240" height = "17" color="0xff9933"  tipDirctions="7,5,6,4" tipGapV = "4" />
+		
+		<component classname="petsBag.view.PetHappyBar" stylename="petsBag.petHappyBar" tipStyle = "petsBag.view.item.PetHappyTip" tipDirctions = "7,5,6,4" tipGapV = "30" x="13" y="256" />				
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="petsBag.scrollPanel.petSkillPnl" parentStyle="core.ScrollPanel" width="218" height="86" vScrollProxy="0" hScrollProxy="2"  y="1" x="1" vUnitIncrement="3"/> 
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="petsBag.scrollPanel.petSkillPnlWatch" parentStyle="core.ScrollPanel" width="394" height="86" vScrollProxy="0" hScrollProxy="2"  y="1" x="1" vUnitIncrement="3"/>
+ 
+ 		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="petsBag.petItemContainer" x="37" y="23" spacing="-5" />
+ 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="petsBag.petMoveScroll.bottomBg0" parentStyle="core.Scale9CornerImage.BGAsset8" x="3" y="2" width="428" height="78" />
+ 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="petsBag.petMoveScroll.bottomBg" parentStyle="core.Scale9CornerImage.BGAsset9" x="24" y="4" width="385" height="72" />
+ 
+		 <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="petsBag.light" parentStyle="copyFile.img28" width="68" height="64" x="-4" y="-4"/>
+		 <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="petsBag.repetName.inputBG" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="134" height="30" x="125" y="62"/>
+		 
+		 <component classname="com.pickgliss.ui.image.MutipleImage" stylename="petsBag.SkillPnl.myBG" parentStyle="core.Scale9CornerImage.BGAsset8" x="12.5" y="332.5" width="237" height="105" />		
+		 <component classname="com.pickgliss.ui.controls.BaseButton" stylename="petsBag.btnHelp" backStyle="asset.ddtcore.helpbutton" filterString="null,lightFilter,null,grayFilter" x="746" y="-42"/>
+		 
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="petsBag.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" width="370" height="376" />
+		<component classname="store.HelpPrompt" stylename="petsBag.HelpPrompt" bg9ScalseStyle="petsBag.HelpFrame.FrameBg" contentStyle="petsBag.helpFrame.petText" x="180" y="213" />
+		<component classname="store.HelpFrame" stylename="petsBag.HelpFrame" parentStyle="BaseFrame" width="404" height="484" />
+		 
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.petHappyTip.happyValueLbl" textFormatStyle="petsBag.petHappyTip.happyValueLblTF" filterString="petsBag.petHappyTip.happyValueLblGF"  width="134" height="23" x="10" y="10"/>		 
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.petHappyTip.happyValueTxt" textFormatStyle="petsBag.petHappyTip.happyValueTxtTF" filterString="petsBag.petHappyTip.happyValueTxtGF"  width="134" height="23" x="3" y="68"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.petHappyTip.happyHeartLbl" textFormatStyle="petsBag.petHappyTip.happyHeartLblTF" filterString="petsBag.petHappyTip.happyHeartLblGF"  width="134" height="23" x="3" y="68"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.petHappyTip.happyHeartTxt" textFormatStyle="petsBag.petHappyTip.happyHeartTxtTF" filterString="petsBag.petHappyTip.happyHeartTxtGF"  width="134" height="23" x="3" y="68"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.petHappyTip.happyDesc" textFormatStyle="petsBag.petHappyTip.happyDescTF"  width="134" height="23" x="3" y="68"/>
+	
+		<component classname="petsBag.view.PetFoodNumberSelectFrame" stylename="petsBag.PetFoodNumberSelectFrame"  parentStyle="BaseFrame" moveEnable="false" width="400" height="220" containerX="15" containerY="5"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.PetFoodNumberSelectFrame.Text" textFormatStyle="petsBag.PetFoodNumberSelectFrame.TextTF" filterString="petsBag.PetFoodNumberSelectFrame.TextGF" x="37" y="80" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.PetFoodNumberSelectFrame.NeedFoodText" textFormatStyle="petsBag.PetFoodNumberSelectFrame.NeedFoodTextTF" filterString="petsBag.PetFoodNumberSelectFrame.TextGF" x="10" y="74" />
+	</components>
+	
+	<customs> 
+		 
+	</customs>
+	
+	<bitmaps>
+		<bitmapData resourceLink="assets.petsBag.Background_Progress1" x="0" y="0" />	 
+		<bitmapData resourceLink="assets.petsBag.fightPower" x="246" y="88" />
+		<bitmapData resourceLink="assets.petsBag.Lv" x="5" y="10" />
+		<bitmapData resourceLink="assets.petsBag.fight2" x="21" y="-7" />
+		<bitmapData resourceLink="assets.petsBag.lock" x="-7" y="-2" /> 
+		<bitmapData resourceLink="assets.petsBag.fight3" x="49" y="-112" />
+		
+		<bitmapData resourceLink="assets.petsBag.Q0" x="11" y="12" />
+		<bitmapData resourceLink="assets.petsBag.Q1" x="11" y="12" />
+		<bitmapData resourceLink="assets.petsBag.Q2" x="11" y="12" />
+		<bitmapData resourceLink="assets.petsBag.Q3" x="11" y="12" />
+		<bitmapData resourceLink="assets.petsBag.Q4" x="11" y="12" />
+		<bitmapData resourceLink="assets.petsBag.BG" x="-6" y="6" />	 
+		<bitmapData resourceLink="assets.petsBag.downArowImg" x="390" y="120" />
+		
+	</bitmaps>
+</style>

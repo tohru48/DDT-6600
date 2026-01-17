@@ -1,0 +1,257 @@
+2015-04-22 20:23:27,977 - [9] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:23:43,484 - [16] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:23:47,821 - [16] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:23:50,441 - [15] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:23:53,717 - [11] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:24:03,311 - [16] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:24:12,313 - [11] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:24:16,525 - [11] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:24:19,208 - [9] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:24:26,836 - [18] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:24:38,396 - [3] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:24:47,818 - [15] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:24:52,764 - [6] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:25:12,919 - [11] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:25:21,327 - [16] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:25:28,566 - [15] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:25:39,049 - [12] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:25:43,729 - [6] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:25:59,563 - [9] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:26:07,566 - [18] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:26:11,403 - [3] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:26:22,230 - [12] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:27:31,135 - [16] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:28:04,129 - [11] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:28:09,308 - [12] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:28:10,790 - [3] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:28:11,196 - [11] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:28:15,330 - [16] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:28:28,403 - [6] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:28:29,245 - [15] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:28:31,648 - [3] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:28:32,131 - [6] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:29:05,921 - [16] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:29:13,502 - [11] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:30:31,690 - [12] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:31:40,486 - [11] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:32:48,455 - [18] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:39:33,369 - [6] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:39:54,898 - [15] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:45:02,764 - [12] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:45:29,736 - [12] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:45:55,243 - [15] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:45:59,486 - [25] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:46:53,555 - [27] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:47:19,358 - [18] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:47:28,453 - [18] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:47:53,382 - [6] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:48:26,797 - [12] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:48:35,564 - [22] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:48:37,389 - [9] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:51:11,502 - [22] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:51:36,337 - [26] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:52:03,029 - [6] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:52:37,286 - [25] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:52:55,304 - [6] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:53:22,745 - [22] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:53:33,259 - [15] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:53:54,647 - [23] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 20:54:38,920 - [15] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:55:38,902 - [26] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 20:57:18,695 - [6] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 21:00:48,843 - [26] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 21:02:28,075 - [25] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 21:02:31,211 - [26] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 21:02:31,351 - [22] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.Exception: Exceção do tipo 'System.Exception' foi acionada.
+   em Bussiness.PlayerBussiness.GetUserSingleByNickName(String nickName)
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 38
+2015-04-22 21:03:40,194 - [3] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 21:04:14,842 - [16] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-22 21:07:28,656 - [27] - ERROR - Tank.Request.Login - Diaxiz: xpzehb
+2015-04-22 23:11:43,397 - [57] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.ActivePlayer(PlayerInfo& player, String userName, String passWord, Boolean sex, Int32 gold, Int32 money, String IP, String site)
+2015-04-22 23:12:26,774 - [41] - ERROR - Tank.Request.Login - Lindooooo: faqhuj
+2015-04-22 23:14:47,050 - [59] - ERROR - Tank.Request.Login - Lindooooo: ipnoxu
+2015-04-22 23:16:14,328 - [63] - ERROR - Tank.Request.Login - Lindooooo: eshxcn
+2015-04-22 23:16:23,610 - [60] - ERROR - Tank.Request.Login - Lindooooo: cfjcnn
+2015-04-22 23:16:38,385 - [60] - ERROR - Tank.Request.Login - Lindooooo: ppfyjf

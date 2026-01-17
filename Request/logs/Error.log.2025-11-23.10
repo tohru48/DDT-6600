@@ -1,0 +1,7 @@
+2025-11-23 13:43:19,669 - [14] - ERROR - Bussiness.LanguageMgr - Language file : bin\Languages\Language-br.txt not found !
+2025-11-23 13:44:07,386 - [9] - ERROR - Bussiness.BaseBussiness - GetSingleRandomName
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.GetSingleRandomName(Int32 sex) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 9303
+2025-11-23 13:44:08,861 - [47] - ERROR - Bussiness.BaseBussiness - GetSingleRandomName
+System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: Bussiness.PlayerBussiness.GetSingleRandomName(Int32 sex) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\PlayerBussiness.cs içinde: satýr 9303

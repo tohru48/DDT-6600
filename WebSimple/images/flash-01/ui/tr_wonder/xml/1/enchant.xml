@@ -1,0 +1,62 @@
+<style name="enchant" version="2.0.1" source="ui/zh_cn/swf/enchant.swf">
+
+	<sets>
+		<set stylename="enchant.TF1" args="宋体,12,0xffd200,true,,,,,left" type="flash.text.TextFormat"  leading="5" />
+		<set stylename="enchant.GF1" args="0x542801,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="enchant.TF2" args="宋体,12,0xfff17c" type="flash.text.TextFormat"  leading="5" />
+		<set stylename="enchant.GF2" args="0x542801,1,4,4,30" type="flash.filters.GlowFilter"/>
+	</sets>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="enchant.bagCellPos" x="50" y="278"/>
+		<custom classname="flash.geom.Point" stylename="enchant.itemCellPos" x="256" y="97"/>
+		<custom classname="flash.geom.Point" stylename="enchant.equipCellPos" x="81" y="97"/>
+		<custom classname="flash.geom.Point" stylename="enchant.moviePos" x="2" y="57"/>
+		<custom classname="flash.geom.Point" stylename="enchant.moviePos2" x="-8" y="-2"/>
+		
+		<custom classname="flash.geom.Point" stylename="enchant.leftDrapSpritePos" x="26" y="36"/>
+		
+		<custom classname="flash.geom.Point" stylename="enchant.bagListPos" x="369" y="42"/>
+		<custom classname="flash.geom.Point" stylename="enchant.proBagListPos" x="369" y="216"/>
+		
+		<custom classname="flash.geom.Point" stylename="enchant.percentTxtPos" x="133" y="32"/>
+	</customs>
+	
+	<components>
+		<!-- 附魔值文字 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="enchant.valueTxt" textFormatStyle="enchant.TF1" x="56" y="207"
+			filterString="enchant.GF1" multiline="false" wordWrap="false" />
+		<!-- 附魔说明文字 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="enchant.descTxt" textFormatStyle="enchant.TF2" x="113" y="232"
+			filterString="enchant.GF2" multiline="false" wordWrap="false" />
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="enchant.enchantBtn" 
+			backStyle="asset.enchantBtn"  x="130" y="342"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="enchant.upGrade" 
+			parentStyle="core.selectedCheck2" filterString="null,lightFilter,null,grayFilter" displacement="true" 
+			backStyle="asset.enchant.upGradeBg" x="325" y="283"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="enchant.buyBtn" backStyle="asset.enchant.buy" 
+			enable="true" x="105" y="283"/>
+			
+		<component classname="gemstone.items.ExpBar"
+			stylename="enchant.expBar" tipStyle="ddt.view.tips.OneLineTip"
+			tipDirctions="0,1,2"  x="107"  y="204" />
+		<component classname="enchant.view.EnchantTips" stylename="enchant.enchantTips"/>
+		
+		<component classname="store.HelpFrame" stylename="enchant.HelpFrame" parentStyle="BaseFrame" width="404" height="484" />
+		<custom classname="enchant.helpFrame.text" stylename="enchant.helpFrame.text" x="-150" y="-153"/>	
+		<component classname="store.HelpPrompt" stylename="enchant.ComposeHelpPrompt" parentStyle="ddtstore.HelpPrompt" 
+			contentStyle="enchant.helpFrame.text" />
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.enchant.itemBg" x="50" y="65"/>
+		<!-- 升至下一级 -->
+		<bitmapData resourceLink="asset.enchant.upGradeBg" x="-47" y="36"/>
+		<bitmapData resourceLink="enchant.progressColor.bg" x="35" y="34"/>
+		
+	</bitmaps>
+</style>

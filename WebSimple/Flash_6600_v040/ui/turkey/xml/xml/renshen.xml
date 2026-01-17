@@ -1,0 +1,215 @@
+<style name="renshen" version="6.4.0" source="ui/turkey/swf/renshen.swf">
+	<components>
+<!-- 	人参菜单 -->
+	<component classname="renshen.view.RenshenMenu"
+			closestyle="core.closebt" titleOuterRectPosString="24,10,5" titleStyle="FrameTitleTextStyle" backStyle="SimpleFrameBackgoundOne" 
+			closeInnerRectString="44,14,6,30,14" stylename="renshen.mainframe"
+			 x="-160" y="-140" escEnable="true"
+			width="660" height="530" />
+<!-- 			msgbox确认按钮  -->
+<!-- 			<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.run.msgbox.Btn" backStyle="renshen.btn.hit" x="64" y="394"/> -->
+<!-- 			msgbox文字 -->
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="renshen.runmsgbox.detail.Txt" 
+		textFormatStyle="rs.run.msgbox.tf" filterString="rs.run.msgbox.gf"  type="dynamic"
+		autoSize="none" wordWrap="true" x="149" y="37" width="367" height="120" />
+<!-- 		做题checkbox -->
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="renshen.selectMovie" 
+		resourceLink="renshen.check"/>
+<!-- 	人参npc点击后弹出 -->
+	<component classname="renshen.view.RenshenFirstFrame"
+			closestyle="core.closebt" titleOuterRectPosString="24,10,5" titleStyle="FrameTitleTextStyle" backStyle="SimpleFrameBackgoundOne" 
+			closeInnerRectString="44,14,6,30,14" stylename="renshen.firstframe"
+			 x="-160" y="-140" escEnable="true"
+			width="407" height="239" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.btn.runConfirm" 
+		backStyle="renshen.runmsgbox.confirm" x="377" y="199"/>
+<!-- 		帮助 -->
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="core.scrollPanel" parentStyle="core.ScrollPanel" 
+			vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="0" hScrollProxy="2" vUnitIncrement="3" 
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|renshen.view.scrollpanel.CoreScrollPanelCell,451,451" 
+			listStyle="com.pickgliss.ui.controls.list.List" width="354" height="365"/>
+<!-- 	立即煮宰确认框 -->
+	<component classname="renshen.view.RenshenKillFrame"
+			closestyle="core.closebt" titleOuterRectPosString="24,10,5" titleStyle="FrameTitleTextStyle" backStyle="SimpleFrameBackgoundOne" 
+			closeInnerRectString="44,14,6,30,14" stylename="renshen.killframe"
+			 x="-160" y="-140" escEnable="true"
+			width="407" height="239" />
+<!-- 			答题 -->
+<component classname="renshen.view.RenshenAnswerQuestionsFrame" stylename="renshen.AnswerQuestionsFram" backStyle="SimpleFrameBackgound" 
+		titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,14,6,30,14"
+		containerX="15" containerY="38" titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1"
+		width="500" height="550" moveEnable="false" escEnable="true" />
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="renshen.FrameBgBottom" parentStyle="asset.core.btmBimap" x="18" y="136" width="370" height="82" />
+	
+	
+	
+<!-- 	付款弹框 -->
+	<component classname="magicStone.components.MagicStoneConfirmView" stylename="renshen.rmb.confirmView"  parentStyle="SimpleAlert"/>
+<!-- 	一击必中 按钮 -->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.hit.Btn" backStyle="renshen.btn.hit" x="39" y="394"/>
+<!-- 	双倍积分按钮 -->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.double.Btn" backStyle="renshen.btn.double" x="262" y="394"/>
+<!-- 		我要煮宰 按钮 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.wantkill.Btn" backStyle="renshen.btn.wantShowMainMenu" x="64" y="154"/>	
+<!-- 		什么也不做 按钮 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.donothing.Btn" backStyle="renshen.btn.donothing" x="245" y="154"/>
+<!-- 		鼓励一下 按钮 		 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.cheer.Btn" backStyle="renshen.btn.cheer" x="64" y="154"/>
+<!-- 		挖苦一下 按钮  -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.torment.Btn" backStyle="renshen.btn.torment" x="245" y="154"/>
+		
+		<custom classname="ddt.view.PlayerPortraitView" stylename="renshen.portraitView" x="26" y="48"/>
+<!-- 		浇水	按钮 	 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.drink.Btn" backStyle="renshen.btn.drink" x="50" y="410"/>		
+<!-- 		施肥	按钮 	 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.shifei.Btn" backStyle="renshen.btn.shifei" x="144" y="410"/>		
+<!-- 		进入大冒险 按钮 		 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.running.Btn" backStyle="renshen.btn.running" x="239" y="410"/>		
+<!-- 		驱除病魔 按钮		 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.riddisease.Btn" backStyle="renshen.btn.riddisease" x="332" y="410"/>		
+<!-- 		知识改变人参 按钮		 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.knowledge.Btn" backStyle="renshen.btn.knowledge" x="425" y="410"/>		
+<!-- 		煮宰人参 按钮		 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.kill.Btn" backStyle="renshen.btn.kill" x="522" y="410"/>
+
+<!-- 		现在煮宰 按钮		 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.killnow.Btn" backStyle="renshen.btn.killnow" x="64" y="154"/>
+<!-- 		养肥后宰 按钮		 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.killlater.Btn" backStyle="renshen.btn.killlater" x="245" y="154"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="renshen.helpBtn" backStyle="assets.renshen.helpBtn" x="773" y="-32"/>
+
+
+		<!-- 		掉血文本框 -->
+<!-- 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="renshen.loseHealth.Txt"  -->
+<!-- 		textFormatStyle="rs.loseHealth.tf" filterString="rs.loseHealth.gf"  type="dynamic" -->
+<!-- 		x="20" y="200" width="60" height="20"/> -->
+		<!-- 		加血文本框 -->
+<!-- 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="renshen.addHealth.Txt"  -->
+<!-- 		textFormatStyle="rs.addHealth.tf" filterString="rs.addHealth.gf"  type="dynamic" -->
+<!-- 		x="20" y="200" width="60" height="20"/> -->
+<!-- 				奔跑距离文字 -->
+<!-- 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="renshen.meter.Txt"  -->
+<!-- 		textFormatStyle="rs.meter.tf" filterString="rs.meter.gf"  type="dynamic" -->
+<!-- 		x="800" y="300" width="100" height="20"/> -->
+		
+		
+<!-- 		是否现在煮宰确认 文本框 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="renshen.killnow.Txt" 
+		textFormatStyle="rs.killnow.tf" filterString="rs.killnow.gf"  type="dynamic"
+		x="123" y="38" width="100" height="20" />
+		
+<!-- 		第一个窗口说明文字框 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="renshen.firstDetail.Txt" 
+		textFormatStyle="rs.firstDetail.tf" filterString="rs.firstDetail.gf" autoSize="none" wordWrap="true"
+		x="123" y="66" width="260" height="44" />
+<!-- 		第一个窗口提示确认文字框 -->
+<!-- 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="renshen.firstConfirm.Txt"  -->
+<!-- 		textFormatStyle="rs.firstConfirm.tf" filterString="rs.firstConfirm.gf"  type="dynamic" -->
+<!-- 		x="95" y="303" width="100" height="20"/> -->
+		
+<!-- 		剩余时间 文本框-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="renshen.timeRemain.Txt" 
+		textFormatStyle="rs.timeRemain.tf" filterString="rs.timeRemain.gf"  type="dynamic"
+		x="506" y="369" width="100" height="20"/>
+		
+		<component classname="renshen.ui.RenshenStateSP" stylename="renshen.AchState" 
+		tipStyle = "ddt.view.tips.OneLineTip" tipDirctions = "3,7,6"
+		/>
+		
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="lantern.view.questionTitle.renshen" 
+		textFormatStyle="lantern.view.tf1" filterString="lantern.view.gf1" x="99" y="103"/>
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="lantern.view.questionCount.renshen" 
+		textFormatStyle="lantern.view.tf1" filterString="lantern.view.gf1" x="179" y="103"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="lantern.view.questionCDTime.renshen" 
+		textFormatStyle="lantern.view.tf1" filterString="lantern.view.gf1" x="311" y="103"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="lantern.view.question.renshen" 
+		textFormatStyle="lantern.view.questionTF" filterString="lantern.view.gf2" x="73" y="204" width="350" height="60" wordWrap="true"/>	
+	
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="lantern.view.careInfo.renshen"
+		textFormatStyle="lantern.view.tf4" filterString="lantern.view.gf4" x="22" y="449"/>
+	
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="lantern.view.questionTIMU.renshen" 
+		textFormatStyle="lantern.view.questionTF" filterString="lantern.view.gf2" x="73" y="155" width="350" height="60" wordWrap="true"/>	
+	
+	
+	
+	</components>
+	<sets>
+	<set type="flash.text.TextFormat" stylename="rs.run.msgbox.tf" args="Arial,14,0xffffff" leading="5" letterSpacing="0"/>
+	<set type="flash.filters.GlowFilter" stylename="rs.run.msgbox.gf" args="0x231010,1,4,4,30"/>
+	
+		<set stylename="rs.timeRemain.tf" args="Arial,12,0xfef7ea,true" type="flash.text.TextFormat"/>
+		<set stylename="rs.timeRemain.gf" args="0x572c09,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="rs.firstConfirm.tf" args="Arial,16,0xff0000,true" type="flash.text.TextFormat"/>
+		<set stylename="rs.firstConfirm.gf" args="0x5b3100,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="rs.firstDetail.tf" args="Arial,14,0x754804,true" type="flash.text.TextFormat"/>
+		<set stylename="rs.firstDetail.gf" args="0xffffff,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="rs.killnow.tf" args="Arial,12,0x754804,true,,,,,center,,,,5" type="flash.text.TextFormat"/>
+		<set stylename="rs.killnow.gf" args="0xffffff,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="rs.loseHealth.tf" args="Arial,16,0xff0000,true" type="flash.text.TextFormat"/>
+		<set stylename="rs.loseHealth.gf" args="0x5b3100,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="rs.addHealth.tf" args="Arial,16,0x00ff00,true" type="flash.text.TextFormat"/>
+		<set stylename="rs.addHealth.gf" args="0x5b3100,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="rs.meter.tf" args="Arial,14,0xffffff,false" type="flash.text.TextFormat"/>
+		<set stylename="rs.meter.gf" args="0x000000,1,2,2,20" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="lantern.view.tf1" type="flash.text.TextFormat"  args="Arial,14,0xffc600,true"/>
+		<set stylename="lantern.view.gf1" type="flash.filters.GlowFilter" args="0x2f0202,2,4,4,30"/>
+		
+		<set stylename="lantern.view.gf2" type="flash.filters.GlowFilter" args="0x4c0727,2,4,4,30"/>
+		<set stylename="lantern.view.questionTF" type="flash.text.TextFormat"  args="Arial,14,0xfff88d,true" leading="0"/>
+	
+	<set stylename="lantern.view.tf4" type="flash.text.TextFormat"  args="Arial,12,0xffe35f" letterSpacing="0" leading="0"/>
+	<set stylename="lantern.view.gf4" type="flash.filters.GlowFilter" args="0x572525,2,4,4,30"/>
+	
+	</sets>
+	
+	<customs>
+	<custom classname="flash.geom.Point" stylename="renshen.view.selectPos0" x="73" y="200"/>
+	<custom classname="flash.geom.Point" stylename="renshen.view.selectPos1" x="73" y="235"/>
+	<custom classname="flash.geom.Point" stylename="renshen.view.selectPos2" x="73" y="265"/>
+	<custom classname="flash.geom.Point" stylename="renshen.view.selectPos3" x="73" y="298"/>
+	
+	
+		<custom classname="flash.geom.Point" stylename="pos.state.0" x="38" y="223"/>
+		<custom classname="flash.geom.Point" stylename="pos.state.1" x="144" y="223"/>
+		<custom classname="flash.geom.Point" stylename="pos.state.2" x="258" y="223"/>
+		<custom classname="flash.geom.Point" stylename="pos.state.3" x="377" y="223"/>
+		<custom classname="flash.geom.Point" stylename="pos.state.4" x="494" y="223"/>
+		
+		<custom classname="flash.geom.Point" stylename="renshen.HelpContentPos" x="31" y="49"/>
+		<custom classname="flash.geom.Point" stylename="renshen.helpBtnPos" x="572" y="6"/>
+		<custom classname="flash.geom.Point" stylename="achieve.title.pos" x="31" y="207"/>
+	</customs>
+	<bitmaps>
+		<bitmapData  resourceLink="renshen.head.killconfirm"  x="20" y="80"/>
+<!-- 		主菜单 -->
+		<bitmapData  resourceLink="renshen.img.title"  x="98" y="11"/>
+		<bitmapData  resourceLink="renshen.menu.bg"  x="18" y="65"/>
+		<bitmapData  resourceLink="renshen.timeprogress.cover"  x="24" y="119"/>
+		<bitmapData  resourceLink="renshen.timeprogress.bar"  x="124" y="141"/>
+		
+		<bitmapData  resourceLink="renshen.state.0"  />
+		<bitmapData  resourceLink="renshen.state.1"  />
+		<bitmapData  resourceLink="renshen.state.2"  />
+		<bitmapData  resourceLink="renshen.state.3"  />
+		<bitmapData  resourceLink="renshen.state.4"  />
+		
+		<bitmapData  resourceLink="renshen.dowhat"  x="28" y="130"/>
+		
+	</bitmaps>
+	<customDisplay>
+<!-- 		<custom classname="flash.geom.Point" stylename="moneyTree.fruit0.pos" x="138" y="96"/> -->
+	</customDisplay>
+</style>

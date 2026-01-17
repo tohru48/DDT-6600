@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="fightFootballTime" version="1.0.1" source="ui/turkey/swf/fightFootballTime.swf"> 
+  <sets> 
+    <set stylename="fightFootballTime.expView.TF" args="Arial,35,0xFFFFFF,true" letterSpacing="6" type="flash.text.TextFormat"/>  
+    <set stylename="fightFootballTime.expView.GF" args="0xFF0000,1,12,12,6,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightFootballTime.match.TF" args="Arial,45,0xFFCC66,true" letterSpacing="6" type="flash.text.TextFormat"/>  
+    <set stylename="fightFootballTime.match.GF" args="0x000000,1,12,12,6,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightFootballTime.TFormat_1" args="Arial,16,0xffeebf,true" type="flash.text.TextFormat"/>  
+    <set stylename="fightFootballTime.gameview.RedScoreTxtTF" args="Arial,22,0xFF0000,true" align="left" type="flash.text.TextFormat"/>  
+    <set stylename="fightFootballTime.gameview.blueScoreTxtTF" args="Arial,22,0x0000FF,true" align="right" type="flash.text.TextFormat"/>  
+    <set type="flash.text.TextFormat" stylename="fightFootballTime.match.tipTxt.tf" args="Arial,15,0xfffd48"/>  
+    <set type="flash.filters.GlowFilter" stylename="fightFootballTime.match.tipTxt.gf" args="0x3b2415,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="fightFootballTime.match.descTxt.tf" args="Arial,12,0xfff8d6" leading="6" letterSpacing="2"/>  
+    <set type="flash.filters.GlowFilter" stylename="fightFootballTime.match.descTxt.gf" args="0x4b270d,0.7,4,4,30"/>  
+    <set stylename="fightFootballTime.CharacterItemLoadingFilter" args="0xFFFFFF,1,4,4,5" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightFootballTime.CharacterItemLoadingFilterRed" args="0xFF0000,1,4,6,6" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightFootballTime.CharacterItemLoadingFilterBlue" args="0x0000FF,1,4,6,6" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightFootballTime.expView.RedScoreTxtTF" args="Arial,36,0xFFFFFF,true" align="center" type="flash.text.TextFormat"/>  
+    <set stylename="fightFootballTime.expView.blueScoreTxtTF" args="Arial,36,0xFFFFFF,true" align="center" type="flash.text.TextFormat"/>  
+    <set stylename="fightFootballTime.gameView.nextPlayerRedTxtTF" args="Arial,25,0xFF0000,true" align="center" type="flash.text.TextFormat"/>  
+    <set stylename="fightFootballTime.gameView.nextPlayerBlueTxtTF" args="Arial,25,0x0000FF,true" align="center" type="flash.text.TextFormat"/>  
+    <set stylename="fightFootballTime.expView.finalScoreTxtGF" args="0xff2e78,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightFootballTime.expView.finalScoreTxtFT" args="Arial,32,0xff0000,true,true" type="flash.text.TextFormat"/> 
+  </sets>  
+  <customDisplay> 
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.match.startbtnPos" x="276" y="326"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.match.bntBgPos" x="279" y="354"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.playerMoviePos" x="717" y="232"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.vsMoviePos" x="-222" y="127"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.redIconPos" x="378" y="33"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.blueIconPos" x="680" y="257"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.levelIconPos1" x="131" y="6"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.nameTxtPos1" x="192" y="16"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.percentTxtPos1" x="274" y="50"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.levelIconPos2" x="83" y="324"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.nameTxtPos2" x="138" y="335"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.percentTxtPos2" x="72" y="295"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.levelIconPos3" x="131" y="6"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.nameTxtPos3" x="192" y="16"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.percentTxtPos3" x="274" y="50"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.levelIconPos4" x="56" y="266"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.nameTxtPos4" x="104" y="277"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.percentTxtPos4" x="68" y="237"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.rooloading.timerMoviePos" x="293" y="614"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.fengepos" x="100" y="241"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.stateIconWinpos" x="-73" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.stateIconFailpos" x="-98" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.stateIconPingpos" x="309" y="42"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.charaterpos" x="239" y="63"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.redTeamIconpos1" x="216" y="146"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.blueTeamIconpos1" x="432" y="154"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.redScorepos1" x="295" y="175"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.blueScorepos1" x="371" y="175"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.bihaopos1" x="361" y="189"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.redTeamIconpos2" x="221" y="169"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.blueTeamIconpos2" x="419" y="100"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.redScorepos2" x="313" y="210"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.blueScorepos2" x="378" y="201"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.bihaopos2" x="361" y="214"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.doorpos1" x="208" y="259"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.doorpos2" x="326" y="259"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.doorpos3" x="171" y="323"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.doorpos4" x="279" y="323"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.doorpos5" x="388" y="323"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.timepos1" x="275" y="272"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.timepos2" x="399" y="272"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.timepos3" x="237" y="339"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.timepos4" x="347" y="339"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.timepos5" x="459" y="339"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.RightViewPos" x="553" y="15"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.scoretxtpos" x="336" y="422"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.exptxtpos" x="416" y="463"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.gameview.bifenpos" x="446" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.gameview.redScorepos" x="69" y="12"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.gameview.blueScorepos" x="-21" y="12"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.gameview.bihaopos" x="50" y="17"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.roomloading.oktxt1" x="234" y="48"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.roomloading.oktxt2" x="742" y="359"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.roomloading.oktxt3" x="453" y="48"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.roomloading.oktxt4" x="538" y="359"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.gameview.redBlood1" x="561" y="48"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.gameview.redBlood2" x="609" y="48"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.gameview.blueBlood1" x="348" y="48"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.gameview.blueBlood2" x="396" y="48"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.SmallCardViewCountDownPos" x="350" y="-38"/>  
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.expView.nickNamePos" x="9" y="121"/> 
+  </customDisplay>  
+  <components> 
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightFootballTime.expView.expTxt" textFormatStyle="fightFootballTime.expView.TF" filterString="fightFootballTime.expView.GF" x="120" y="343" width="173" height="40"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="fightFootballTime.match.CancelButton" backStyle="fightFootballTime.match.cancelAsset" x="274" y="325" visible="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightFootballTime.match.timeTxt" textFormatStyle="fightFootballTime.match.TF" filterString="fightFootballTime.match.GF" x="120" y="343" width="173" height="40"/>  
+    <component classname="fightFootballTime.view.FightFootballTimeMatchView" stylename="fightFootballTime.matchView" parentStyle="bigBaseFrame2" titleOuterRectPosString="16,11,5" width="405" height="490" titleStyle="fightFootballTime.FrameTitleTextStyle" containerY="4" containerX="-1" closeInnerRectString="44,10,7,30,14"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightFootballTime.FrameTitleTextStyle" textFormatStyle="fightFootballTime.TFormat_1" filterString="core.frametitleGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightFootballTime.gameview.RedScoreTxt" textFormatStyle="fightFootballTime.gameview.RedScoreTxtTF" filterString="fightFootballTime.CharacterItemLoadingFilter" autoSize="none" width="60"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightFootballTime.gameview.BlueScoreTxt" textFormatStyle="fightFootballTime.gameview.blueScoreTxtTF" filterString="fightFootballTime.CharacterItemLoadingFilter" autoSize="none" width="60"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="fightFootballTime.match.txtVBox" y="0" x="0" spacing="3"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="fightFootballTime.match.txtScrollPanel" parentStyle="core.ScrollPanel" vScrollProxy="0" width="243" height="130" x="31" y="330" viewportInnerRectString="0,0,9,110,1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightFootballTime.match.tipTxt" textFormatStyle="fightFootballTime.match.tipTxt.tf" filterString="fightFootballTime.match.tipTxt.gf" x="0" y="-10"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightFootballTime.match.descTxt" textFormatStyle="fightFootballTime.match.descTxt.tf" filterString="fightFootballTime.match.descTxt.gf" x="0" y="0" width="200" height="300"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightFootballTime.expView.RedScoreTxt" textFormatStyle="fightFootballTime.expView.RedScoreTxtTF" filterString="fightFootballTime.CharacterItemLoadingFilterRed" autoSize="none" width="60"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightFootballTime.expView.BlueScoreTxt" textFormatStyle="fightFootballTime.expView.blueScoreTxtTF" filterString="fightFootballTime.CharacterItemLoadingFilterBlue" autoSize="none" width="60"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightFootballTime.gameView.nextPlayerRed" textFormatStyle="fightFootballTime.gameView.nextPlayerRedTxtTF" filterString="fightFootballTime.CharacterItemLoadingFilter" autoSize="none" width="180" x="654" y="82"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightFootballTime.gameView.nextPlayerBlue" textFormatStyle="fightFootballTime.gameView.nextPlayerBlueTxtTF" filterString="fightFootballTime.CharacterItemLoadingFilter" autoSize="none" width="180" x="654" y="82"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightFootballTime.expView.finalScoreTxtFFT" textFormatStyle="fightFootballTime.expView.finalScoreTxtFT" autoSize="none" width="180" height="45" isAutoFitLength="true" antiAliasType="normal"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="fightFootballTime.expView.finalScoreTxt" textFieldStyle="fightFootballTime.expView.finalScoreTxtFFT" colors="0xffffff,0xf6ff00" filterString="fightFootballTime.expView.finalScoreTxtGF" alphas="1,1" ratios="45,255" x="120" y="343"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="fightFootballTime.match.smalllmap" x="32" y="337"/>  
+    <bitmapData resourceLink="fightFootballTime.match.matchingTxt" x="30" y="402"/>  
+    <bitmapData resourceLink="fightFootballTime.match.bg" x="12" y="37"/>  
+    <bitmapData resourceLink="fightFootballTime.match.btnBg" x="279" y="351"/>  
+    <bitmapData resourceLink="fightFootballTime.roomloading.redBg1" x="9" y="0"/>  
+    <bitmapData resourceLink="fightFootballTime.roomloading.redBg2" x="220" y="0"/>  
+    <bitmapData resourceLink="fightFootballTime.roomloading.blueBg1" x="617" y="0"/>  
+    <bitmapData resourceLink="fightFootballTime.roomloading.blueBg2" x="434" y="203"/>  
+    <bitmapData resourceLink="fightFootballTime.expView.scoreInfoBg" x="10" y="27"/>  
+    <bitmapData resourceLink="fightFootballTime.expView.overInfoBg" x="10" y="390"/>  
+    <bitmapData resourceLink="fightFootballTime.expView.myScoreBg" x="145" y="52"/>  
+    <bitmapData resourceLink="fightFootballTime.expView.totaltxt" x="45" y="408"/>  
+    <bitmapData resourceLink="fightFootballTime.expView.goldtxt" x="202" y="424"/>  
+    <bitmapData resourceLink="fightFootballTime.expView.exptxt" x="156" y="464"/>  
+    <bitmapData resourceLink="fightFootballTime.expView.jiahao" x="371" y="474"/>  
+    <bitmapData resourceLink="fightFootballTime.expView.fenge" x="44" y="91"/>  
+    <bitmapData resourceLink="fightFootballTime.expView.scoreTxtBg" x="300" y="428"/>  
+    <bitmapData resourceLink="fightFootballTime.expView.expTxtBg" x="288" y="474"/>  
+    <bitmapData resourceLink="fightFootballTime.game.scoreBG" x="444" y="0"/>  
+    <bitmapData resourceLink="fightFootballTime.match.matchingTxtBg" x="25" y="329"/>  
+    <bitmapData resourceLink="fightFootballTime.match.descBg" x="22" y="327"/>  
+    <bitmapData resourceLink="fightFootballTime.expView.noScoreTxt" x="102" y="270"/>  
+    <bitmapData resourceLink="fightFootballTime.expView.shuoming" x="660" y="578"/>  
+    <bitmapData resourceLink="fightFootballTime.gameView.nextPlayer" x="164" y="67"/>  
+    <bitmapData resourceLink="fightFootballTime.expView.rewardTxtBg" x="35" y="-30"/> 
+  </bitmaps> 
+</style>

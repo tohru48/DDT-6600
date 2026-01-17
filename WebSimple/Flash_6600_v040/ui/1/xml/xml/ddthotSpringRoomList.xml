@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddthotSpringRoomList" version="1.0.1" source="ui/turkey/swf/ddthotSpringRoomList.swf"> 
+  <sets> 
+    <set stylename="ddthotSpringRoomList.TF1" args="Arial,14,0xffea9c,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddthotSpringRoomList.TF2" args="Arial,18,0xffffff,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddthotSpringRoomList.TF3" args="Arial,16,0xe7d5a9,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddthotSpringRoomList.TF4" args="Arial,12,0xfff8d6,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddthotSpringRoomList.GF1" args="0x4f3700,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddthotSpringRoomList.GF3" args="0x321e0a,2,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddthotSpringRoomList.GF4" args="0x4b270d,2,2,2,10" type="flash.filters.GlowFilter"/> 
+  </sets>  
+  <customDisplay> 
+    <custom classname="flash.geom.Point" stylename="asset.HotSpringMainView.roomListPos" x="574" y="123"/>  
+    <custom classname="flash.geom.Point" stylename="asset.corel.formLineBig.pos1" x="673" y="95"/>  
+    <custom classname="flash.geom.Point" stylename="asset.corel.formLineBig.pos2" x="829" y="95"/> 
+  </customDisplay>  
+  <components> 
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtHotSpringMainView.title" textFormatStyle="ddthotSpringRoomList.TF1" filterString="ddthotSpringRoomList.GF1" autoSize="none" width="75" height="20" y="99"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.roomCurCount" textFormatStyle="ddthotSpringRoomList.TF4" filterString="ddthotSpringRoomList.GF4" autoSize="none" width="45" height="20" x="723" y="425"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.roomCount" textFormatStyle="ddthotSpringRoomList.TF4" filterString="ddthotSpringRoomList.GF4" width="44" height="20" x="748" y="425"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.lblRoomNumber" textFormatStyle="ddthotSpringRoomList.TF3" filterString="ddthotSpringRoomList.GF3" autoSize="none" width="50" height="26" x="26" y="9"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.lblRoomName" textFormatStyle="ddthotSpringRoomList.TF2" width="182" height="18" x="105" y="9"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.lblCurCount" textFormatStyle="ddthotSpringRoomList.TF3" filterString="ddthotSpringRoomList.GF3" autoSize="none" width="26" height="20" x="270" y="9"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.percentSinge" textFormatStyle="ddthotSpringRoomList.TF3" filterString="ddthotSpringRoomList.GF3" autoSize="none" width="13" height="18" x="297" y="9"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.lblMaxCount" textFormatStyle="ddthotSpringRoomList.TF3" filterString="ddthotSpringRoomList.GF3" width="26" height="20" x="313" y="9"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ddthotSpringRoomList.BG1" resourceLink="asset.background.churchroomlist" width="984" height="493.05" x="10" y="49"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddthotSpringRoomList.BG2" resourceLink="asset.core.ScaleBitmapImage1" width="476" height="328" x="29" y="65" scaleGridString="33,26,59,70"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ddthotSpringRoomList.BG3" resourceLink="asset.HotSpringMainView.roomListBGAsset" width="475" height="475" x="510" y="59"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddthotSpringRoomList.BG4" parentStyle="core.bg6920" width="360" height="320" x="568" y="90" scaleGridString="5,10,80,20"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ddthotSpringRoomList.BG5" resourceLink="asset.HotSpringMainView.sellItemBG" x="570" y="95" width="355" height="31"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.HotSpringMainView.roomItemBG" resourceLink="ddtHotSpring.memberItem.BG2,ddtHotSpring.memberItem.BG1,ddtHotSpring.memberItem.BG3"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtHotSpring.memberItem.BG1" resourceLink="ddtHotSpringRoom.MemberItem.ScaleLeftRightImage3,ddtHotSpring.MemberItemVLine" x="-1" y="5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtHotSpring.memberItem.BG2" resourceLink="ddtHotSpringRoom.MemberItem.ScaleLeftRightImage2,ddtHotSpring.MemberItemVLine" x="-1" y="5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtHotSpring.memberItem.BG3" resourceLink="ddtHotSpringRoom.MemberItem.ScaleLeftRightImage1,ddtHotSpring.MemberItemVLine" x="-1" y="5"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="ddtHotSpringRoom.MemberItem.ScaleLeftRightImage3" resourceLink="asset.core.ScaleLeftRightImage3.1,asset.core.ScaleLeftRightImage3.2,asset.core.ScaleLeftRightImage3.3" width="350"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="ddtHotSpringRoom.MemberItem.ScaleLeftRightImage2" resourceLink="asset.core.ScaleLeftRightImage2.1,asset.core.ScaleLeftRightImage2.2,asset.core.ScaleLeftRightImage2.3" width="350"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="ddtHotSpringRoom.MemberItem.ScaleLeftRightImage1" resourceLink="asset.core.ScaleLeftRightImage1.1,asset.core.ScaleLeftRightImage1.2,asset.core.ScaleLeftRightImage1.3" width="350"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtHotSpring.MemberItemVLine" resourceLink="ddtHotSpring.MemberItem.VlineI,ddtHotSpring.MemberItem.VlineII"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="ddtHotSpring.MemberItem.VlineI" resourceLink="asset.corel.formLine" x="100" y="4"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="ddtHotSpring.MemberItem.VlineII" parentStyle="ddtHotSpring.MemberItem.VlineI" x="256"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.ddtHotSpringRoomList.PageCountBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="65" height="21" x="717" y="423"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.HotSpringMainView.roomListPos1" parentStyle="core.Scale9CornerImage.scale9CornerSparkBG" width="358" height="40" x="-3"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ddthotSpringRoomList.PageBg" resourceLink="asset.HotSpringRoomList.PageBg" width="360" height="36" x="570" y="416"/>  
+    <!-- button -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.HotSpringMainView.roomListItemBtn" width="334" height="30"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.HotSpringMainView.firstPageBtn" backStyle="asset.ddtcore.firstBtn" filterString="null,lightFilter,null,grayFilter" x="603" y="421"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.HotSpringMainView.preBtn" backStyle="asset.ddtcore.leftBtn" filterString="null,lightFilter,null,grayFilter" x="656" y="421"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.HotSpringMainView.nextBtn" backStyle="asset.ddtcore.rightBtn" filterString="null,lightFilter,null,grayFilter" x="789" y="421"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.HotSpringMainView.lastPagBtn" backStyle="asset.ddtcore.endBtn" filterString="null,lightFilter,null,grayFilter" x="842" y="421"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.HotSpringMainView.quickEnterBtn" backStyle="asset.ddtauctionHouse.quickEnterBtnAsset" x="654" y="458" filterString="null,lightFilter,lightFilter,grayFilter"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.ddtauctionHouse.quickEnterBtnAsset" resourceLink="ddthotSpring.btn,asset.HotSpringMainView.Accession" imageRectString="140|45|0|0|9,110|33|5|-71|9"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.HotSpringMainView.creatRoomBtn" backStyle="asset.HotSpringMainView.creatRoomBtnAsset1" x="847" y="458" filterString="null,lightFilter,lightFilter,grayFilter"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.HotSpringMainView.creatRoomBtnAsset1" resourceLink="ddthotSpring.btn1,asset.HotSpringMainView.openHouse" imageRectString="140|45|0|0|9,109|33|5|-71|9"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddthotSpring.btn" parentStyle="core.bg6908"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddthotSpring.btn1" parentStyle="core.bg6899"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.HotSpringPlayerBase.headMaskAsset" resourceLink="asset.hotSpring.HeadMaskAsset" width="125" height="132"/>  
+    <!--Vbox-->  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="asset.HotSpringMainView.roomListVBox" spacing="-5"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.HotSpringMainView.titleBGAsset" x="134" y="4"/>  
+    <bitmapData resourceLink="asset.HotSpringMainView.IMGBGAsset" x="32" y="69" width="470" height="320"/>  
+    <bitmapData resourceLink="asset.HotSpringMainView.freeIMGAsset" x="3" y="36"/>  
+    <bitmapData resourceLink="asset.HotSpringMainView.roomItem.lockAsset" x="60" y="7"/> 
+  </bitmaps> 
+</style>

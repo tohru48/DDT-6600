@@ -1,0 +1,226 @@
+<Result value="true" message="Success!">
+  <Item ID="1" QuestType="1" Title="Ngày 1" Detail="Ngày 1" Objective="Ngày 1" NeedMinLevel="1" NeedMaxLevel="35" Period="1">
+    <Item_Condiction QuestID="1" CondictionID="1" CondictionTitle="Đạt cấp 5" CondictionType="61" Para1="0" Para2="5" IndexType="1" />
+    <Item_Condiction QuestID="1" CondictionID="2" CondictionTitle="Đạt cấp 8" CondictionType="61" Para1="0" Para2="8" IndexType="1" />
+    <Item_Condiction QuestID="1" CondictionID="3" CondictionTitle="Đạt cấp 10" CondictionType="61" Para1="0" Para2="10" IndexType="1" />
+  </Item>
+  <Item ID="2" QuestType="1" Title="Ngày 2" Detail="Ngày 2" Objective="Ngày 2" NeedMinLevel="1" NeedMaxLevel="35" Period="2">
+    <Item_Condiction QuestID="2" CondictionID="1" CondictionTitle="Quà 7 ngày-Sơ mua ở Shop Xu Khóa" CondictionType="14" Para1="201229" Para2="1" IndexType="2" />
+    <Item_Condiction QuestID="2" CondictionID="2" CondictionTitle="Quà 7 ngày-Trung mua ở Shop Xu Khóa" CondictionType="14" Para1="201230" Para2="1" IndexType="2" />
+    <Item_Condiction QuestID="2" CondictionID="3" CondictionTitle="Quà 7 ngày-Cao mua ở Shop Xu Khóa " CondictionType="14" Para1="201231" Para2="1" IndexType="2" />
+  </Item>
+  <Item ID="3" QuestType="1" Title="Ngày 3" Detail="Ngày 3" Objective="Ngày 3" NeedMinLevel="1" NeedMaxLevel="35" Period="3">
+    <Item_Condiction QuestID="3" CondictionID="1" CondictionTitle="Cường hóa vũ khí lên cấp 3" CondictionType="9" Para1="7" Para2="3" IndexType="3" />
+    <Item_Condiction QuestID="3" CondictionID="2" CondictionTitle="Cường hóa vũ khí lên cấp 5" CondictionType="9" Para1="7" Para2="5" IndexType="3" />
+    <Item_Condiction QuestID="3" CondictionID="3" CondictionTitle="Cường hóa vũ khí lên cấp 8" CondictionType="9" Para1="7" Para2="8" IndexType="3" />
+  </Item>
+  <Item ID="4" QuestType="1" Title="Ngày 4" Detail="Ngày 4" Objective="Ngày 4" NeedMinLevel="1" NeedMaxLevel="35" Period="4">
+    <Item_Condiction QuestID="4" CondictionID="1" CondictionTitle=" Vàng đạt 20.000 " CondictionType="-1" Para1="0" Para2="20000" IndexType="2" />
+    <Item_Condiction QuestID="4" CondictionID="2" CondictionTitle=" Vàng đạt 50.000" CondictionType="-1" Para1="0" Para2="50000" IndexType="2" />
+    <Item_Condiction QuestID="4" CondictionID="3" CondictionTitle=" Vàng đạt 100.000 " CondictionType="-1" Para1="0" Para2="100000" IndexType="2" />
+  </Item>
+  <Item ID="5" QuestType="1" Title="Ngày 5" Detail="Ngày 5" Objective="Ngày 5" NeedMinLevel="1" NeedMaxLevel="35" Period="5">
+    <Item_Condiction QuestID="5" CondictionID="1" CondictionTitle="Vào 1 guild" CondictionType="18" Para1="0" Para2="1" IndexType="4" />
+    <Item_Condiction QuestID="5" CondictionID="2" CondictionTitle="Cống hiến guild hôm nay +10" CondictionType="30" Para1="0" Para2="10" IndexType="4" />
+    <Item_Condiction QuestID="5" CondictionID="3" CondictionTitle="Cống hiến guild hôm nay +20" CondictionType="30" Para1="0" Para2="20" IndexType="4" />
+  </Item>
+  <Item ID="6" QuestType="1" Title="Ngày 6" Detail="Ngày 6" Objective="Ngày 6" NeedMinLevel="1" NeedMaxLevel="35" Period="6">
+    <Item_Condiction QuestID="6" CondictionID="1" CondictionTitle="Hạ Daniliz-Tổ Kiến Ma (Thường)" CondictionType="13" Para1="2103" Para2="1" IndexType="5" />
+    <Item_Condiction QuestID="6" CondictionID="2" CondictionTitle="Hạ Boss Sulan-Tà Thần (Thường)" CondictionType="13" Para1="3117" Para2="1" IndexType="5" />
+    <Item_Condiction QuestID="6" CondictionID="3" CondictionTitle="Hạ Boss Quốc Vương-Vương Thành Gà (Khó)" CondictionType="13" Para1="1206" Para2="1" IndexType="5" />
+  </Item>
+  <Item ID="7" QuestType="1" Title="Ngày 7" Detail="Ngày 7" Objective="Ngày 7" NeedMinLevel="1" NeedMaxLevel="35" Period="7">
+    <Item_Condiction QuestID="7" CondictionID="1" CondictionTitle="Vượt Bộ Lạc Tà Thần-Khó" CondictionType="21" Para1="3206" Para2="1" IndexType="5" />
+    <Item_Condiction QuestID="7" CondictionID="2" CondictionTitle="Vượt Giải Cứu Gà Con-Khó" CondictionType="21" Para1="7204" Para2="1" IndexType="5" />
+    <Item_Condiction QuestID="7" CondictionID="3" CondictionTitle="Vượt Vương Thành Gà-Khó" CondictionType="21" Para1="1277" Para2="1" IndexType="5" />
+  </Item>
+  <Item ID="8" QuestType="2" Title="Đạt cấp 15" Detail="Đạt cấp 15" Objective="" NeedMinLevel="0" NeedMaxLevel="65" Period="1">
+    <Item_Condiction QuestID="8" CondictionID="1" CondictionTitle="Đạt cấp 15" CondictionType="61" Para1="0" Para2="15" IndexType="31" />
+  </Item>
+  <Item ID="9" QuestType="2" Title="Bái sư/Nhận đệ tử 1 người" Detail="Bái sư/Nhận đệ tử 1 người" Objective="" NeedMinLevel="0" NeedMaxLevel="65" Period="1">
+    <Item_Condiction QuestID="9" CondictionID="1" CondictionTitle="Bái sư/Nhận đệ tử 1 người" CondictionType="35" Para1="0" Para2="1" IndexType="32" />
+  </Item>
+  <Item ID="10" QuestType="2" Title="Vào 1 guild" Detail="Vào 1 guild" Objective="" NeedMinLevel="0" NeedMaxLevel="65" Period="1">
+    <Item_Condiction QuestID="10" CondictionID="1" CondictionTitle="Vào 1 guild" CondictionType="18" Para1="0" Para2="1" IndexType="33" />
+  </Item>
+  <Item ID="11" QuestType="2" Title="Thắng 15 trận chiến đấu" Detail="Thắng 15 trận chiến đấu" Objective="" NeedMinLevel="0" NeedMaxLevel="65" Period="1">
+    <Item_Condiction QuestID="11" CondictionID="1" CondictionTitle="Thắng 15 trận chiến đấu" CondictionType="6" Para1="0" Para2="15" IndexType="34" />
+  </Item>
+  <Item ID="12" QuestType="2" Title="Tham gia 5 trận chiến đấu 2v2" Detail="Tham gia 5 trận chiến đấu 2v2" Objective="" NeedMinLevel="0" NeedMaxLevel="65" Period="1">
+    <Item_Condiction QuestID="12" CondictionID="1" CondictionTitle="Tham gia 5 trận chiến đấu 2v2" CondictionType="34" Para1="2" Para2="5" IndexType="34" />
+  </Item>
+  <Item ID="13" QuestType="2" Title="Vũ khí cường hóa +5" Detail="Vũ khí cường hóa +5" Objective="" NeedMinLevel="0" NeedMaxLevel="65" Period="1">
+    <Item_Condiction QuestID="13" CondictionID="1" CondictionTitle="Vũ khí cường hóa +5" CondictionType="9" Para1="7" Para2="5" IndexType="35" />
+  </Item>
+  <Item ID="14" QuestType="2" Title="Hợp thành thành công Đá Bạch Hổ Lv1" Detail="Hợp thành thành công Đá Bạch Hổ Lv1" Objective="" NeedMinLevel="0" NeedMaxLevel="65" Period="1">
+    <Item_Condiction QuestID="14" CondictionID="1" CondictionTitle="Hợp thành thành công Đá Bạch Hổ Lv1" CondictionType="19" Para1="11013" Para2="1" IndexType="36" />
+  </Item>
+  <Item ID="15" QuestType="2" Title="Vượt Giải Cứu Gà Con-Khó" Detail="Vượt Giải Cứu Gà Con-Khó" Objective="" NeedMinLevel="0" NeedMaxLevel="65" Period="1">
+    <Item_Condiction QuestID="15" CondictionID="1" CondictionTitle="Vượt Giải Cứu Gà Con-Khó" CondictionType="21" Para1="7204" Para2="1" IndexType="37" />
+  </Item>
+  <Item ID="16" QuestType="2" Title="Đạt Lv25" Detail="Đạt Lv25" Objective="" NeedMinLevel="15" NeedMaxLevel="65" Period="2">
+    <Item_Condiction QuestID="16" CondictionID="1" CondictionTitle="Đạt Lv25" CondictionType="61" Para1="0" Para2="25" IndexType="31" />
+  </Item>
+  <Item ID="17" QuestType="2" Title="Hoàn thành 10 trận Guild chiến" Detail="Hoàn thành 10 trận Guild chiến" Objective="" NeedMinLevel="15" NeedMaxLevel="65" Period="2">
+    <Item_Condiction QuestID="17" CondictionID="1" CondictionTitle="Hoàn thành 10 trận Guild chiến" CondictionType="23" Para1="1" Para2="10" IndexType="34" />
+  </Item>
+  <Item ID="18" QuestType="2" Title="Hợp thành thành công Đá Huyền Vũ Lv3" Detail="Hợp thành thành công Đá Huyền Vũ Lv3" Objective="" NeedMinLevel="15" NeedMaxLevel="65" Period="2">
+    <Item_Condiction QuestID="18" CondictionID="1" CondictionTitle="Hợp thành thành công Đá Huyền Vũ Lv3" CondictionType="19" Para1="11007" Para2="1" IndexType="36" />
+  </Item>
+  <Item ID="19" QuestType="2" Title="Vũ khí cường hóa +9" Detail="Vũ khí cường hóa +9" Objective="" NeedMinLevel="15" NeedMaxLevel="65" Period="2">
+    <Item_Condiction QuestID="19" CondictionID="1" CondictionTitle="Vũ khí cường hóa +9" CondictionType="9" Para1="7" Para2="9" IndexType="35" />
+  </Item>
+  <Item ID="20" QuestType="2" Title="Vượt Đại Chiến Rồng-Khó" Detail="Vượt Đại Chiến Rồng-Khó" Objective="" NeedMinLevel="15" NeedMaxLevel="65" Period="2">
+    <Item_Condiction QuestID="20" CondictionID="1" CondictionTitle="Vượt Đại Chiến Rồng-Khó" CondictionType="21" Para1="5204" Para2="1" IndexType="37" />
+  </Item>
+  <Item ID="21" QuestType="2" Title="Vượt Đấu Trường Gà-Khó" Detail="Vượt Đấu Trường Gà-Khó" Objective="" NeedMinLevel="15" NeedMaxLevel="65" Period="2">
+    <Item_Condiction QuestID="21" CondictionID="1" CondictionTitle="Vượt Đấu Trường Gà-Khó" CondictionType="21" Para1="6204" Para2="1" IndexType="37" />
+  </Item>
+  <Item ID="22" QuestType="2" Title="Khảm 1 Châu Báu Lv3" Detail="Khảm 1 Châu Báu Lv3" Objective="" NeedMinLevel="15" NeedMaxLevel="65" Period="2">
+    <Item_Condiction QuestID="22" CondictionID="1" CondictionTitle="Khảm 1 Châu Báu Lv3" CondictionType="-2" Para1="3" Para2="1" IndexType="39" />
+  </Item>
+  <Item ID="23" QuestType="2" Title="Tham gia 2 trận Lôi Đài" Detail="Tham gia 2 trận Lôi Đài" Objective="" NeedMinLevel="15" NeedMaxLevel="65" Period="2">
+    <Item_Condiction QuestID="23" CondictionID="1" CondictionTitle="Tham gia 2 trận Lôi Đài" CondictionType="23" Para1="12" Para2="2" IndexType="40" />
+  </Item>
+  <Item ID="24" QuestType="2" Title="Đạt Lv35" Detail="Đạt Lv35" Objective="" NeedMinLevel="25" NeedMaxLevel="65" Period="3">
+    <Item_Condiction QuestID="24" CondictionID="1" CondictionTitle="Đạt Lv35" CondictionType="61" Para1="0" Para2="35" IndexType="31" />
+  </Item>
+  <Item ID="25" QuestType="2" Title="Hợp thành thành công Đá Huyền Vũ Lv4" Detail="Hợp thành thành công Đá Huyền Vũ Lv4" Objective="" NeedMinLevel="25" NeedMaxLevel="65" Period="3">
+    <Item_Condiction QuestID="25" CondictionID="1" CondictionTitle="Hợp thành thành công Đá Huyền Vũ Lv4" CondictionType="19" Para1="11008" Para2="1" IndexType="36" />
+  </Item>
+  <Item ID="26" QuestType="2" Title="Tăng cấp pet lên Lv10" Detail="Tăng cấp pet lên Lv10" Objective="" NeedMinLevel="25" NeedMaxLevel="65" Period="3">
+    <Item_Condiction QuestID="26" CondictionID="1" CondictionTitle="Tăng cấp pet lên Lv10" CondictionType="50" Para1="0" Para2="10" IndexType="41" />
+  </Item>
+  <Item ID="27" QuestType="2" Title="Nón cường hóa +8" Detail="Nón cường hóa +8" Objective="" NeedMinLevel="25" NeedMaxLevel="65" Period="3">
+    <Item_Condiction QuestID="27" CondictionID="1" CondictionTitle="Nón cường hóa +8" CondictionType="9" Para1="1" Para2="8" IndexType="35" />
+  </Item>
+  <Item ID="28" QuestType="2" Title="Vượt Đấu Trường Dũng Sĩ-Khó" Detail="Vượt Đấu Trường Dũng Sĩ-Khó" Objective="" NeedMinLevel="25" NeedMaxLevel="65" Period="3">
+    <Item_Condiction QuestID="28" CondictionID="1" CondictionTitle="Vượt Đấu Trường Dũng Sĩ-Khó" CondictionType="21" Para1="13204" Para2="1" IndexType="37" />
+  </Item>
+  <Item ID="29" QuestType="2" Title="Vượt Đại Chiến Rồng-Anh Hùng" Detail="Vượt Đại Chiến Rồng-Anh Hùng" Objective="" NeedMinLevel="25" NeedMaxLevel="65" Period="3">
+    <Item_Condiction QuestID="29" CondictionID="1" CondictionTitle="Vượt Đại Chiến Rồng-Anh Hùng" CondictionType="21" Para1="5304" Para2="1" IndexType="37" />
+  </Item>
+  <Item ID="30" QuestType="2" Title="Khảm 1 Châu Báu Lv7" Detail="Khảm 1 Châu Báu Lv7" Objective="" NeedMinLevel="25" NeedMaxLevel="65" Period="3">
+    <Item_Condiction QuestID="30" CondictionID="1" CondictionTitle="Khảm 1 Châu Báu Lv7" CondictionType="-2" Para1="7" Para2="1" IndexType="39" />
+  </Item>
+  <Item ID="31" QuestType="2" Title="Sử dụng 1 Thuốc Tu Luyện Cấp 2" Detail="Sử dụng 1 Thuốc Tu Luyện Cấp 2" Objective="" NeedMinLevel="25" NeedMaxLevel="65" Period="3">
+    <Item_Condiction QuestID="31" CondictionID="1" CondictionTitle="Sử dụng 1 Thuốc Tu Luyện Cấp 2" CondictionType="3" Para1="40002" Para2="1" IndexType="42" />
+  </Item>
+  <Item ID="32" QuestType="2" Title="Vũ khí cường hóa +12" Detail="Vũ khí cường hóa +12" Objective="" NeedMinLevel="25" NeedMaxLevel="65" Period="3">
+    <Item_Condiction QuestID="32" CondictionID="1" CondictionTitle="Vũ khí cường hóa +12" CondictionType="9" Para1="7" Para2="12" IndexType="35" />
+  </Item>
+  <Item ID="33" QuestType="2" Title="Đạt Lv45" Detail="Đạt Lv45" Objective="" NeedMinLevel="35" NeedMaxLevel="65" Period="4">
+    <Item_Condiction QuestID="33" CondictionID="1" CondictionTitle="Đạt Lv45" CondictionType="61" Para1="0" Para2="45" IndexType="31" />
+  </Item>
+  <Item ID="34" QuestType="2" Title="Vượt Vòng Xoáy Thời Gian-Khó" Detail="Vượt Vòng Xoáy Thời Gian-Khó" Objective="" NeedMinLevel="35" NeedMaxLevel="65" Period="4">
+    <Item_Condiction QuestID="34" CondictionID="1" CondictionTitle="Vượt Vòng Xoáy Thời Gian-Khó" CondictionType="21" Para1="12204" Para2="1" IndexType="37" />
+  </Item>
+  <Item ID="35" QuestType="2" Title="Vượt Bộ Lạc Tà Thần-Anh Hùng" Detail="Vượt Bộ Lạc Tà Thần-Anh Hùng" Objective="" NeedMinLevel="35" NeedMaxLevel="65" Period="4">
+    <Item_Condiction QuestID="35" CondictionID="1" CondictionTitle="Vượt Bộ Lạc Tà Thần-Anh Hùng" CondictionType="21" Para1="3306" Para2="1" IndexType="37" />
+  </Item>
+  <Item ID="36" QuestType="2" Title="Tu luyện HP đạt Lv20" Detail="Tu luyện HP đạt Lv20" Objective="" NeedMinLevel="35" NeedMaxLevel="65" Period="4">
+    <Item_Condiction QuestID="36" CondictionID="1" CondictionTitle="Tu luyện HP đạt Lv20" CondictionType="-3" Para1="1" Para2="20" IndexType="42" />
+  </Item>
+  <Item ID="37" QuestType="2" Title="Khảm 1 Châu Báu Lv11" Detail="Khảm 1 Châu Báu Lv11" Objective="" NeedMinLevel="35" NeedMaxLevel="65" Period="4">
+    <Item_Condiction QuestID="37" CondictionID="1" CondictionTitle="Khảm 1 Châu Báu Lv11" CondictionType="-2" Para1="11" Para2="1" IndexType="39" />
+  </Item>
+  <Item ID="38" QuestType="2" Title="Mê Cung đạt tầng 10" Detail="Mê Cung đạt tầng 10" Objective="" NeedMinLevel="35" NeedMaxLevel="65" Period="4">
+    <Item_Condiction QuestID="38" CondictionID="1" CondictionTitle="Mê Cung đạt tầng 10" CondictionType="-5" Para1="0" Para2="10" IndexType="43" />
+  </Item>
+  <Item ID="39" QuestType="2" Title="Áo cường hóa +12" Detail="Áo cường hóa +12" Objective="" NeedMinLevel="35" NeedMaxLevel="65" Period="4">
+    <Item_Condiction QuestID="39" CondictionID="1" CondictionTitle="Áo cường hóa +12" CondictionType="9" Para1="5" Para2="12" IndexType="35" />
+  </Item>
+  <Item ID="40" QuestType="2" Title="Tham gia Doanh Chiến" Detail="Tham gia Doanh Chiến" Objective="" NeedMinLevel="35" NeedMaxLevel="65" Period="4">
+    <Item_Condiction QuestID="40" CondictionID="1" CondictionTitle="Tham gia Doanh Chiến" CondictionType="23" Para1="24" Para2="1" IndexType="44" />
+  </Item>
+  <Item ID="41" QuestType="2" Title="Đạt Lv55" Detail="Đạt Lv55" Objective="" NeedMinLevel="45" NeedMaxLevel="65" Period="5">
+    <Item_Condiction QuestID="41" CondictionID="1" CondictionTitle="Đạt Lv55" CondictionType="61" Para1="0" Para2="55" IndexType="31" />
+  </Item>
+  <Item ID="42" QuestType="2" Title="Tăng cấp vũ khí 1" Detail="Tăng cấp vũ khí 1" Objective="" NeedMinLevel="45" NeedMaxLevel="65" Period="5">
+    <Item_Condiction QuestID="42" CondictionID="1" CondictionTitle="Tăng cấp vũ khí 1" CondictionType="-4" Para1="7" Para2="1" IndexType="45" />
+  </Item>
+  <Item ID="43" QuestType="2" Title="Khảm 1 Châu Báu Lv13" Detail="Khảm 1 Châu Báu Lv13" Objective="" NeedMinLevel="45" NeedMaxLevel="65" Period="5">
+    <Item_Condiction QuestID="43" CondictionID="1" CondictionTitle="Khảm 1 Châu Báu Lv13" CondictionType="-2" Para1="13" Para2="1" IndexType="39" />
+  </Item>
+  <Item ID="44" QuestType="2" Title="Vượt Vòng Xoáy Thời Gian-Anh Hùng" Detail="Vượt Vòng Xoáy Thời Gian-Anh Hùng" Objective="" NeedMinLevel="45" NeedMaxLevel="65" Period="5">
+    <Item_Condiction QuestID="44" CondictionID="1" CondictionTitle="Vượt Vòng Xoáy Thời Gian-Anh Hùng" CondictionType="21" Para1="12304" Para2="1" IndexType="37" />
+  </Item>
+  <Item ID="45" QuestType="2" Title="Nón cường hóa +12" Detail="Nón cường hóa +12" Objective="" NeedMinLevel="45" NeedMaxLevel="65" Period="5">
+    <Item_Condiction QuestID="45" CondictionID="1" CondictionTitle="Nón cường hóa +12" CondictionType="9" Para1="1" Para2="12" IndexType="35" />
+  </Item>
+  <Item ID="46" QuestType="2" Title="Vượt Đấu Trường Dũng Sĩ-Anh Hùng" Detail="Vượt Đấu Trường Dũng Sĩ-Anh Hùng" Objective="" NeedMinLevel="45" NeedMaxLevel="65" Period="5">
+    <Item_Condiction QuestID="46" CondictionID="1" CondictionTitle="Vượt Đấu Trường Dũng Sĩ-Anh Hùng" CondictionType="21" Para1="13304" Para2="1" IndexType="37" />
+  </Item>
+  <Item ID="47" QuestType="2" Title="Tu luyện tấn công đạt Lv40" Detail="Tu luyện tấn công đạt Lv40" Objective="" NeedMinLevel="45" NeedMaxLevel="65" Period="5">
+    <Item_Condiction QuestID="47" CondictionID="1" CondictionTitle="Tu luyện tấn công đạt Lv40" CondictionType="-3" Para1="2" Para2="40" IndexType="42" />
+  </Item>
+  <Item ID="48" QuestType="2" Title="Tăng cấp pet lên Lv40" Detail="Tăng cấp pet lên Lv40" Objective="" NeedMinLevel="45" NeedMaxLevel="65" Period="5">
+    <Item_Condiction QuestID="48" CondictionID="1" CondictionTitle="Tăng cấp pet lên Lv40" CondictionType="50" Para1="0" Para2="40" IndexType="41" />
+  </Item>
+  <Item ID="49" QuestType="2" Title="Đạt Lv60" Detail="Đạt Lv60" Objective="" NeedMinLevel="55" NeedMaxLevel="65" Period="6">
+    <Item_Condiction QuestID="49" CondictionID="1" CondictionTitle="Đạt Lv60" CondictionType="61" Para1="0" Para2="60" IndexType="31" />
+  </Item>
+  <Item ID="50" QuestType="2" Title="Khảm 1 Châu Báu Lv15" Detail="Khảm 1 Châu Báu Lv15" Objective="" NeedMinLevel="55" NeedMaxLevel="65" Period="6">
+    <Item_Condiction QuestID="50" CondictionID="1" CondictionTitle="Khảm 1 Châu Báu Lv15" CondictionType="-2" Para1="15" Para2="1" IndexType="39" />
+  </Item>
+  <Item ID="51" QuestType="2" Title="Tăng cấp vũ khí 2" Detail="Tăng cấp vũ khí 2" Objective="" NeedMinLevel="55" NeedMaxLevel="65" Period="6">
+    <Item_Condiction QuestID="51" CondictionID="1" CondictionTitle="Tăng cấp vũ khí 2" CondictionType="-4" Para1="7" Para2="2" IndexType="45" />
+  </Item>
+  <Item ID="52" QuestType="2" Title="Tăng cấp áo 1" Detail="Tăng cấp áo 1" Objective="" NeedMinLevel="55" NeedMaxLevel="65" Period="6">
+    <Item_Condiction QuestID="52" CondictionID="1" CondictionTitle="Tăng cấp áo 1" CondictionType="-4" Para1="5" Para2="1" IndexType="45" />
+  </Item>
+  <Item ID="53" QuestType="2" Title="Tu luyện phòng thủ đạt Lv55" Detail="Tu luyện phòng thủ đạt Lv55" Objective="" NeedMinLevel="55" NeedMaxLevel="65" Period="6">
+    <Item_Condiction QuestID="53" CondictionID="1" CondictionTitle="Tu luyện phòng thủ đạt Lv55" CondictionType="-3" Para1="3" Para2="55" IndexType="42" />
+  </Item>
+  <Item ID="54" QuestType="2" Title="Tăng cấp pet lên Lv50" Detail="Tăng cấp pet lên Lv50" Objective="" NeedMinLevel="55" NeedMaxLevel="65" Period="6">
+    <Item_Condiction QuestID="54" CondictionID="1" CondictionTitle="Tăng cấp pet lên Lv50" CondictionType="50" Para1="0" Para2="50" IndexType="41" />
+  </Item>
+  <Item ID="55" QuestType="2" Title="Đạt Lv65" Detail="Đạt Lv65" Objective="" NeedMinLevel="60" NeedMaxLevel="65" Period="7">
+    <Item_Condiction QuestID="55" CondictionID="1" CondictionTitle="Đạt Lv65" CondictionType="61" Para1="0" Para2="65" IndexType="31" />
+  </Item>
+  <Item ID="56" QuestType="2" Title="Khảm 1 Châu Báu Lv17" Detail="Khảm 1 Châu Báu Lv17" Objective="" NeedMinLevel="60" NeedMaxLevel="65" Period="7">
+    <Item_Condiction QuestID="56" CondictionID="1" CondictionTitle="Khảm 1 Châu Báu Lv17" CondictionType="-2" Para1="17" Para2="1" IndexType="39" />
+  </Item>
+  <Item ID="57" QuestType="2" Title="Tăng cấp nón 1" Detail="Tăng cấp nón 1" Objective="" NeedMinLevel="60" NeedMaxLevel="65" Period="7">
+    <Item_Condiction QuestID="57" CondictionID="1" CondictionTitle="Tăng cấp nón 1" CondictionType="-4" Para1="1" Para2="1" IndexType="45" />
+  </Item>
+  <Item ID="58" QuestType="2" Title="Vượt Đấu Trường Dũng Sĩ - Legend" Detail="Vượt Đấu Trường Dũng Sĩ - Legend" Objective="" NeedMinLevel="60" NeedMaxLevel="65" Period="7">
+    <Item_Condiction QuestID="58" CondictionID="1" CondictionTitle="Vượt Đấu Trường Dũng Sĩ - Legend" CondictionType="21" Para1="13404" Para2="1" IndexType="37" />
+  </Item>
+  <Item ID="59" QuestType="2" Title="Tu luyện tấn công đạt Lv60" Detail="Tu luyện tấn công đạt Lv60" Objective="" NeedMinLevel="60" NeedMaxLevel="65" Period="7">
+    <Item_Condiction QuestID="59" CondictionID="1" CondictionTitle="Tu luyện tấn công đạt Lv60" CondictionType="-3" Para1="2" Para2="60" IndexType="42" />
+  </Item>
+  <Item ID="60" QuestType="3" Title="Nạp thẻ đạt 200 Xu" Detail="Nạp thẻ đạt 200 Xu" Objective="" NeedMinLevel="0" NeedMaxLevel="25" Period="1">
+    <Item_Condiction QuestID="60" CondictionID="1" CondictionTitle="Nạp thẻ đạt 200 Xu" CondictionType="38" Para1="0" Para2="200" IndexType="0" />
+  </Item>
+  <Item ID="61" QuestType="3" Title="Nạp thẻ đạt 500 Xu" Detail="Nạp thẻ đạt 500 Xu" Objective="" NeedMinLevel="0" NeedMaxLevel="25" Period="1">
+    <Item_Condiction QuestID="61" CondictionID="1" CondictionTitle="Nạp thẻ đạt 500 Xu" CondictionType="38" Para1="0" Para2="500" IndexType="0" />
+  </Item>
+  <Item ID="62" QuestType="3" Title="Nạp thẻ đạt 30000 Xu" Detail="Nạp thẻ đạt 30000 Xu" Objective="" NeedMinLevel="0" NeedMaxLevel="25" Period="1">
+    <Item_Condiction QuestID="62" CondictionID="1" CondictionTitle="Nạp thẻ đạt 30000 Xu" CondictionType="38" Para1="0" Para2="30000" IndexType="0" />
+  </Item>
+  <Item ID="63" QuestType="3" Title="Nạp thẻ đạt 40000 Xu" Detail="Nạp thẻ đạt 40000 Xu" Objective="" NeedMinLevel="0" NeedMaxLevel="25" Period="1">
+    <Item_Condiction QuestID="63" CondictionID="1" CondictionTitle="Nạp thẻ đạt 40000 Xu" CondictionType="38" Para1="0" Para2="40000" IndexType="0" />
+  </Item>
+  <Item ID="64" QuestType="3" Title="Nạp thẻ đạt 50000 Xu" Detail="Nạp thẻ đạt 50000 Xu" Objective="" NeedMinLevel="0" NeedMaxLevel="25" Period="1">
+    <Item_Condiction QuestID="64" CondictionID="1" CondictionTitle="Nạp thẻ đạt 50000 Xu" CondictionType="38" Para1="0" Para2="50000" IndexType="0" />
+  </Item>
+  <Item ID="65" QuestType="3" Title="Shop tiêu phí đạt 100 Xu" Detail="Shop tiêu phí đạt 100 Xu" Objective="" NeedMinLevel="0" NeedMaxLevel="25" Period="2">
+    <Item_Condiction QuestID="65" CondictionID="1" CondictionTitle="Shop tiêu phí đạt 100 Xu" CondictionType="10" Para1="-1" Para2="100" IndexType="0" />
+  </Item>
+  <Item ID="66" QuestType="3" Title="Shop tiêu phí đạt 500 Xu" Detail="Shop tiêu phí đạt 500 Xu" Objective="" NeedMinLevel="0" NeedMaxLevel="25" Period="2">
+    <Item_Condiction QuestID="66" CondictionID="1" CondictionTitle="Shop tiêu phí đạt 500 Xu" CondictionType="10" Para1="-1" Para2="500" IndexType="0" />
+  </Item>
+  <Item ID="67" QuestType="3" Title="Shop tiêu phí đạt 1000 Xu" Detail="Shop tiêu phí đạt 1000 Xu" Objective="" NeedMinLevel="0" NeedMaxLevel="25" Period="2">
+    <Item_Condiction QuestID="67" CondictionID="1" CondictionTitle="Shop tiêu phí đạt 1000 Xu" CondictionType="10" Para1="-1" Para2="1000" IndexType="0" />
+  </Item>
+  <Item ID="68" QuestType="3" Title="Shop tiêu phí đạt 5000 Xu" Detail="Shop tiêu phí đạt 5000 Xu" Objective="" NeedMinLevel="0" NeedMaxLevel="25" Period="2">
+    <Item_Condiction QuestID="68" CondictionID="1" CondictionTitle="Shop tiêu phí đạt 5000 Xu" CondictionType="10" Para1="-1" Para2="5000" IndexType="0" />
+  </Item>
+  <Item ID="69" QuestType="3" Title="Shop tiêu phí đạt 10000 Xu" Detail="Shop tiêu phí đạt 10000 Xu" Objective="" NeedMinLevel="0" NeedMaxLevel="25" Period="2">
+    <Item_Condiction QuestID="69" CondictionID="1" CondictionTitle="Shop tiêu phí đạt 10000 Xu" CondictionType="10" Para1="-1" Para2="10000" IndexType="0" />
+  </Item>
+  <Item ID="70" QuestType="3" Title="Tổ chức 1 lần hôn lễ" Detail="Tổ chức 1 lần hôn lễ" Objective="" NeedMinLevel="0" NeedMaxLevel="25" Period="3">
+    <Item_Condiction QuestID="70" CondictionID="1" CondictionTitle="Tổ chức 1 lần hôn lễ" CondictionType="17" Para1="0" Para2="1" IndexType="0" />
+  </Item>
+</Result>

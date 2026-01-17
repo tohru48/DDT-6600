@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="fightlib" version="1.0.1" source="ui/turkey/swf/newfightlib.swf"> 
+  <sets> 
+    <set stylename="fightLib.info.Normal12TF" args="Arial,10,0x000000" type="flash.text.TextFormat"/>  
+    <set stylename="fightLib.info.reputeNormal14TF" args="Arial,14,0xFF9B3B,true" type="flash.text.TextFormat"/>  
+    <set stylename="fightLib.info.geuestNormal14TF" args="Arial,14,0x70FFDE,true" type="flash.text.TextFormat"/>  
+    <set stylename="fightLib.info.Gray14TF" args="Arial,14,0xffffff,true" type="flash.text.TextFormat"/>  
+    <set stylename="fightLib.info.BlackBorder" args="0x000000,1,2,2,10,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightLib.Award.AwardTF" args="Arial,16,0xfff3bc,true" type="flash.text.TextFormat"/>  
+    <set stylename="fightLib.Award.AwardGF" args="0x5b1907,1,4,4,30,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightLib.Alert.AlertFieldTF" args="Arial,20,0xFFFFFF" type="flash.text.TextFormat"/>  
+    <set stylename="fightLib.Alert.AlertFieldGF" args="0x2F1800,1,5,5,10,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightLib.Question.InfoFieldTF" args="Arial,13,0xFFF4D4,true" type="flash.text.TextFormat" letterSpacing="3"/>  
+    <set stylename="fightLib.Question.BlackBorderGF" args="0x000000,1,2,2,10,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightLib.Question.InfoFieldGF" args="0x7c4519,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightLib.Question.QuestionFieldGF" args="0x5b1907,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightLib.Question.QuestionFieldTF" args="Arial,16,0xfff7cf,true" type="flash.text.TextFormat" letterSpacing="1"/>  
+    <set stylename="fightLib.Question.TimeFieldTF" args="Arial,30,0xe20000,true,,,,,right" type="flash.text.TextFormat"/>  
+    <set stylename="fightLib.Question.TimeFieldBorder" args="0xFFF8e5,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightLib.Question.AnswerGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="fightLib.Question.AnswerTF" args="Arial,24,0xffffff,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="fightLib.info.Normal13TF" args="Arial,11,0x000000,true,,,,,center" type="flash.text.TextFormat"/>
+  </sets>  
+  <customDisplay> 
+    <custom classname="fightLib.view.FightLibPlayerInfoView" stylename="fightLib.view.FightLibPlayerInfoView" x="15" y="13"/>  
+    <custom classname="fightLib.view.LessonsView" stylename="fightLib.view.LessonsView" x="270" y="10"/>  
+    <custom classname="ddt.view.buff.BuffControl" stylename="fightLib.PlyerInfo.Buff" x="35" y="328"/>  
+    <custom classname="ddt.view.common.LevelIcon" stylename="fightLib.PlyerInfo.LevelIcon" x="194" y="153"/>  
+    <custom classname="ddt.view.common.VipLevelIcon" stylename="fightLib.PlayerInfo.VipIcon"/>  
+    <custom classname="ddt.view.academyCommon.academyIcon.AcademyIcon" stylename="fightLib.view.FightLibPlayerInfoView.AcademyIcon" tipStyle="ddt.view.academyCommon.academyIcon.AcademyIconTip" tipDirctions="7,6" tipGapV="5" tipGapH="5" x="-4"/>  
+    <custom classname="ddt.view.common.MarriedIcon" stylename="fightLib.PlyerInfo.MarriedIcon" tipStyle="ddt.view.tips.MarriedTip" tipDirctions="7" tipGapV="5" tipGapH="5"/>  
+    <custom classname="flash.geom.Point" stylename="fightlib.startbtn.pos" x="609" y="393"/>  
+    <custom classname="flash.geom.Point" stylename="fightLib.Lessons.LessonShinePosition" x="12" y="-5"/>  
+    <custom classname="flash.geom.Point" stylename="fightLib.Lessons.LevelShinePosition" x="-7" y="-6"/>  
+    <custom classname="flash.geom.Point" stylename="fightLib.PlayerInfo.FigurePosition" x="160" y="165"/>  
+    <custom classname="flash.geom.Point" stylename="fightLib.Award.bgPos" x="380" y="58"/>  
+    <custom classname="fightLib.view.LessonButton" stylename="fightLib.Lesson.MeasureButton" icon="fightLib.Lessons.icon.Measure" label="fightLib.Lessons.label.Measure" type="measure" x="49" y="56"/>  
+    <custom classname="fightLib.view.LessonButton" stylename="fightLib.Lesson.TwentyButton" icon="fightLib.Lessons.icon.Twenty" label="fightLib.Lessons.label.Twenty" x="202" y="56" mesIdx="1"/>  
+    <custom classname="fightLib.view.LessonButton" stylename="fightLib.Lesson.SixtyFiveButton" icon="fightLib.Lessons.icon.SixtyFive" label="fightLib.Lessons.label.SixtyFive" x="49" y="165" mesIdx="1"/>  
+    <custom classname="fightLib.view.LessonButton" stylename="fightLib.Lesson.HighThrowButton" icon="fightLib.Lessons.icon.HighThrow" label="fightLib.Lessons.label.HighThrow" x="202" y="165" mesIdx="2"/>  
+    <custom classname="fightLib.view.LessonButton" stylename="fightLib.Lesson.HighGapButton" icon="fightLib.Lessons.icon.HighGap" label="fightLib.Lessons.label.HighGap" x="49" y="275" mesIdx="2"/>  
+    <custom classname="fightLib.view.LessonButton" stylename="fightLib.Lesson.LassButton" enabled="false" x="202" y="275"/>  
+    <custom classname="fightLib.view.LevelButton" stylename="fightLib.lesson.LowButton" backStyle="fightlib.lesson.levelBtnLowBg" buttonMode="true" x="272" y="428"/>  
+    <custom classname="fightLib.view.LevelButton" stylename="fightLib.lesson.MediumButton" backStyle="fightlib.lesson.levelBtnMediumBg" buttonMode="true" x="381" y="428"/>  
+    <custom classname="fightLib.view.LevelButton" stylename="fightLib.lesson.HighButton" backStyle="fightlib.lesson.levelBtnHighBg" buttonMode="true" x="490" y="428"/>  
+    <custom classname="fightLib.GreenArrow" stylename="fightLib.GreenArrow" x="880" y="70" rotation="945" mouseChildren="false" mouseEnable="false"/>  
+    <custom classname="fightLib.Lessons.GuildMovie" stylename="fightLib.Lessons.GuildMovie" mouseEnable="false" x="-155.75" y="108.8"/>  
+    <custom classname="fightLib.view.FightLibAwardView" stylename="fightLib.view.FightLibAwardView" backColor="0x502B05" x="376" y="54" width="317" height="345" visible="false"/>  
+    <custom classname="fightLib.view.AwardCell" stylename="fightLib.Award.AwardList.cell" width="146"/>  
+    <custom classname="flash.geom.Point" stylename="fightLib.Award.AwardList.cell.PicPos" x="3" y="3"/>  
+    <custom classname="flash.geom.Point" stylename="fightLib.Award.AwardList.cell.ContentSize" x="43" y="43"/>  
+    <custom classname="fightLib.Lessons.LessonShine" stylename="fightLib.Lessons.LessonShine" mouseEnable="false" mouseChildren="false"/>  
+    <custom classname="fightLib.Lessons.LevelShine" stylename="fightLib.Lessons.LevelShine" mouseEnable="false" mouseChildren="false" width="104"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="fightlib.questFrame.rightBottomBgImg" parentStyle="asset.core.btmBimap" x="204" y="209" width="156" height="126"/>  
+    <custom classname="fightLib.view.FightLibQuestionFrame" stylename="fightLib.view.FightLibQuestionFrame" backStyle="SimpleFrameBackgoundOne" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,9,5" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" width="380" height="370" moveEnable="false"/>  
+    <custom classname="flash.geom.Point" stylename="fightLib.Question.Time.TopRight" x="330" y="148"/>  
+    <custom classname="flash.geom.Point" stylename="fightLib.game.barrierPos" x="780" y="150"/>  
+    <custom classname="fightLib.view.FightLibAlertView" stylename="fightLib.view.FightLibAlertView"/>  
+    <custom classname="flash.geom.Point" stylename="fithtLib.Alert.CenterPosition" x="310" y="138"/> 
+  </customDisplay>  
+  <components> 
+    <component classname="com.pickgliss.ui.image.MutipleImage" resourceLink="asset.fightlib.bgImg1,fightlib.titleBgImg,fightlib.asset.titleImg" stylename="asset.fightlib.bgImg" x="7" y="39"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" resourceLink="asset.fightlib.bg" stylename="asset.fightlib.bgImg1"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" resourceLink="asset.fightlib.playerinfoViewbgImg1,core.buff.buffBgImg,fightlib.asset.playerinfoTitleImg" stylename="asset.fightlib.playerinfoViewbgImg" x="7" y="39"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" resourceLink="fightlib.asset.playerinfoBg" stylename="asset.fightlib.playerinfoViewbgImg1" x="-5" y="163"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="asset.fightLibPlayerItem.iconContainer" x="194" y="193" spacing="4"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.PlayerInfo.NicknameField" textFormatStyle="fightLib.info.Normal12TF" filterString="roomListTextGF" autoSize="none" background="false" width="120" height="22" x="38" y="110"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.PlayerInfo.ConsortiaNameField" textFormatStyle="fightLib.info.Normal12TF" filterString="roomListTextGF" autoSize="none" width="95" height="22" x="135" y="112"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.PlayerInfo.ReputeTitleField" textFormatStyle="fightLib.info.reputeNormal14TF" filterString="fightLib.Question.BlackBorderGF" autoSize="none" width="75" height="22" x="39" y="133"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.PlayerInfo.ReputeField" textFormatStyle="fightLib.info.Gray14TF" filterString="fightLib.info.BlackBorder" autoSize="none" width="75" height="22" x="72" y="133"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.PlayerInfo.GesteTitleField" textFormatStyle="fightLib.info.geuestNormal14TF" filterString="fightLib.Question.BlackBorderGF" autoSize="none" x="133" y="133" width="55" height="22"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.PlayerInfo.GesteField" textFormatStyle="fightLib.info.Gray14TF" filterString="fightLib.info.BlackBorder" autoSize="none" x="169" y="133" width="55" height="22"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.WeaponNameField" textFormatStyle="fightLib.info.Normal13TF" filterString="roomListTextGF" autoSize="none" width="65" height="65" wordWrap="true"/>  
+    <!-- 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.Award.AwardExpField" textFormatStyle="fightLib.Award.AwardTF" filterString="fightLib.Award.AwardGF" autoSize="none" x="44" y="43" width="204.2" height="30.4"/> -->  
+    <!-- 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.Award.AwardGiftField" textFormatStyle="fightLib.Award.AwardTF" filterString="fightLib.Award.AwardGF" autoSize="none" x="144" y="43" width="204.2" height="30.4"/> -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.Award.AwardTextField" textFormatStyle="fightLib.Award.AwardTF" filterString="fightLib.Award.AwardGF" autoSize="left" x="14" y="54"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.Alert.AlertField" textFormatStyle="fightLib.Alert.AlertFieldTF" filterString="fightLib.Alert.AlertFieldGF" multiline="true" wordWrap="true" autoSize="none" x="24" y="24" width="460" height="116" mouseEnable="false"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="fightLib.Award.AwardScrollPanel" parentStyle="core.ScrollPanel" x="10" y="84" width="308" height="208" vScrollProxy="1" hScrollProxy="2"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="fightLib.Alert.SubmitButton" parentStyle="core.simplebt" x="72" y="87"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="fightLib.Alert.CancelButton" parentStyle="core.simplebt" x="72" y="87" visible="false"/>  
+    <!-- Question Start -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.Question.InfoField" textFormatStyle="fightLib.Question.InfoFieldTF" filterString="fightLib.Question.InfoFieldGF" multiline="true" wordWrap="true" autoSize="none" x="24" y="46" width="310" height="64" mouseEnabled="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.Question.QuestionField" textFormatStyle="fightLib.Question.QuestionFieldTF" filterString="fightLib.Question.QuestionFieldGF" multiline="true" wordWrap="true" autoSize="none" x="24" y="104" width="310" height="44" mouseEnabled="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.Question.TimeField" textFormatStyle="fightLib.Question.TimeFieldTF" filterString="fightLib.Question.TimeFieldBorder" mouseEnabled="false" autoSize="none" x="180" y="148" width="180" height="50"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="fightLib.Question.ReAnswerButton" parentStyle="core.simplebt.newfightlib" x="210" y="230"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="fightLib.Question.ViewTutorialButton" parentStyle="core.simplebt.newfightlib" x="210" y="278"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="fightLib.Question.AnswerBtnbg" parentStyle="core.Scale9CornerImage.deepFur" width="128" height="50"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="fightLib.Question.Answer1" backStyle="fightLib.Question.AnswerBtnbg" x="40" y="160" mouseChildren="false"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="fightLib.Question.Answer2" backStyle="fightLib.Question.AnswerBtnbg" x="40" y="216" mouseChildren="false"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="fightLib.Question.Answer3" backStyle="fightLib.Question.AnswerBtnbg" x="40" y="274" mouseChildren="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.Question.Answer.PositionField" textFormatStyle="fightLib.Question.AnswerTF" filterString="fightLib.Question.AnswerGF" x="20" y="7" mouseEnabled="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="fightLib.Question.AnswerField" textFormatStyle="fightLib.Question.AnswerTF" filterString="fightLib.Question.AnswerGF" autoSize="none" x="43" y="7" width="74" height="30" mouseEnabled="false"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="fightLib.Game.GirlGuildBack" width="626" height="210" resourceLink="fightLib.Game.GirlGuild.GuideBg_1,fightLib.Game.GirlGuild.GuideBg_2,fightLib.Game.GirlGuild.GuideBg_3,fightLib.Game.GirlGuild.GuideBg_4,fightLib.Game.GirlGuild.GuideBg_5,fightLib.Game.GirlGuild.GuideBg_6,fightLib.Game.GirlGuild.GuideBg_7,fightLib.Game.GirlGuild.GuideBg_8,fightLib.Game.GirlGuild.GuideBg_9"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="fightlib.lesson.awardBg" parentStyle="core.Scale9CornerImage.deepFur" width="340" height="356" x="366" y="44"/>  
+    <!--<component classname="com.pickgliss.ui.image.MutipleImage" stylename="fightlib.lesson.levelBtnBg" resourceLink="core.Scale9CornerImage.scale9CornerBuildingManagerBG1" width="80" height="48" /> -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="fightlib.lesson.levelBtnLowBg" resourceLink="fightlib.lesson.levelBtnBg,fightLib.Lessons.hardness.Low"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="fightlib.lesson.levelBtnMediumBg" resourceLink="fightlib.lesson.levelBtnBg,fightLib.Lessons.hardness.Medium"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="fightlib.lesson.levelBtnHighBg" resourceLink="fightlib.lesson.levelBtnBg,fightLib.Lessons.hardness.High"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="fightLib.levelBtnAreaBg" resourceLink="fightLib.levelBtnAreaBg1,fightLib.levelBtnAreaBg2" x="247" y="403"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="fightLib.levelBtnAreaBg1" parentStyle="core.bg6920" width="356" height="98"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="fightLib.levelBtnAreaBg2" resourceLink="asset.core.ItemBgUnSelected" width="334" height="72" x="13" y="15"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="fightlib.titleBgImg" resourceLink="asset.ddtcivil.titleBg" x="192" y="-38"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="fightLib.Lessons.CancelButton" parentStyle="asset.ddtroom.cancelButton" x="609" y="393" visible="false"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="tank.view.fightLib.AnswerBack2" parentStyle="core.goldlinebg" width="157" height="187" x="9" y="15"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="tank.view.fightLib.AnswerBack1" parentStyle="core.bg6920" width="174" height="213"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="tank.view.fightLib.AnswerBack" resourceLink="tank.view.fightLib.AnswerBack1,tank.view.fightLib.AnswerBack2" x="20" y="130"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.fightlib.charecaterPng" x="380" y="58"/>  
+    <bitmapData resourceLink="fightLib.lesson.background" x="-6" y="39"/>  
+    <bitmapData resourceLink="fightLib.Lessons.hardness.Low" x="18" y="12"/>  
+    <bitmapData resourceLink="fightLib.Lessons.hardness.Medium" x="18" y="12"/>  
+    <bitmapData resourceLink="fightLib.Lessons.hardness.High" x="18" y="12"/>  
+    <bitmapData resourceLink="fightLib.Lessons.hardness.Selected" x="-7.1" y="-5.6" width="104" height="62" visible="false"/>  
+    <bitmapData resourceLink="fightLib.Lessons.lesson.Selected" x="12" y="-5" visible="false"/>  
+    <bitmapData resourceLink="fightLib.Award.Title" x="5" y="10"/>  
+    <bitmapData resourceLink="bagAndInfo.bag.bagMoneyInfo" width="328" height="30" x="10" y="384"/>  
+    <bitmapData resourceLink="fightLib.Award.Geted" x="63" y="97" visible="false"/>  
+    <bitmapData resourceLink="fightLib.Award.Type1" x="4" y="45"/>  
+    <bitmapData resourceLink="fightLib.Award.Type6" x="104" y="45"/>  
+    <bitmapData resourceLink="fightLib.Game.GirlGuild.Girl" x="640" smoothing="true" y="22"/>  
+    <bitmapData resourceLink="fightLib.Award.TipsText" x="57" y="292"/>  
+    <bitmapData resourceLink="fightlib.asset.titleImg" x="406" y="-34"/>  
+    <bitmapData resourceLink="fightlib.asset.playerinfoTitleImg" x="8" y="11"/>  
+    <bitmapData resourceLink="fightlib.asset.difficultyTitle" x="250" y="390"/> 
+  </bitmaps> 
+</style>

@@ -1,0 +1,78 @@
+<style name="gypsyShop" version="6.4.0" source="ui/zh_cn/swf/gypsyShop.swf">
+	<components>
+		<component classname="gypsyShop.view.GypsyShopMainFrame" backStyle="gypsy.bg"
+			closestyle="core.roundClosebt" closeInnerRectString="42,-7,116,42,14" stylename="gypsy.mainframe"
+			 x="-160" y="-140" escEnable="true"
+			width="481" height="581" />
+	
+		<component classname="gypsyShop.ui.confirmAlertFrame.ConfirmWithNotShowCheckAlert" stylename="gypsy.confirmView"  parentStyle="SimpleAlert"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="gypsy.refreshBtn" backStyle="gypsy.frame.btn.refresh"   x= "162" y="522" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gypsy.closeBtn.unit.icon" resourceLink="gypsy.icon.dianjuanWithNoBG,gypsy.icon.honor" x="150" y="24"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gypsy.BuyBtn" filterString="null,lightFilter,null,grayFilter" backStyle="gypsy.btn.buy" pressEnable="true" x='133' y='54'/>
+		
+		<component classname="gypsyShop.ui.confirmAlertFrame.ConfirmFrameHonourWithNotShowCheckAlert"
+		closestyle="core.closebt" titleOuterRectPosString="24,10,5" titleStyle="FrameTitleTextStyle" backStyle="SimpleFrameBackgoundOne" 
+			closeInnerRectString="44,14,6,30,14"
+		stylename="gypsy.confirmViewHonour"  parentStyle="Frame" width="320" height="180"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gypsy.btn.helpBtn" 
+			backStyle="gypsy.helpBtn" x="410" y="123"/>
+		
+		<component classname="gypsyShop.view.GypsyHelpFrame" backStyle="SimpleFrameBackgoundOneIII" width="400"
+		height="480" stylename="gypsy.helpFrame" titleStyle="FrameTitleTextStyle" escEnable = "true" parentStyle="BaseFrame"  type="2" closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" 
+		submitButtonStyle="core.simplebt" moveEnable="true" containerX="20" containerY="40" titleOuterRectPosString="12,11,5"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gypsy.textfield.itemname" 
+		textFormatStyle="gypsy.text.itemname" filterString="gypsy.ft.itemname"  type="dynamic"
+		 x="79" y="6" width="120" height="20"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gypsy.textfield.price" 
+		textFormatStyle="gypsy.text.price" filterString="gypsy.ft.price"  type="dynamic"
+		x="81" y="25" width="65" height="20"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gypsy.textfield.honourRemain" 
+		textFormatStyle="gypsy.text.honourRemain" filterString="gypsy.ft.honourRemain"  type="dynamic"
+		 x="163" y="498"  width="85" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gypsy.textfield.rmbTicketRemain" 
+		textFormatStyle="gypsy.text.rmbTicketRemain" filterString="gypsy.ft.rmbTicketRemain"
+		x="58" y="498" width="85" height="30"  />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gypsy.textfield.timeRefreshDetail" 
+		textFormatStyle="gypsy.text.timeRefreshDetail" filterString="gypsy.ft.timeRefreshDetail"  type="dynamic"
+		x="253" y="497" width="190" height="20"/>
+	</components>
+	<sets>
+		<set stylename="gypsy.text.itemname" args="宋体,14,0xffdd94,false" type="flash.text.TextFormat"/>
+		<set stylename="gypsy.ft.itemname" args="0x281300,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="gypsy.text.price" args="宋体,16,0xff7800,true" type="flash.text.TextFormat"  align="center"/>
+		<set stylename="gypsy.ft.price" args="0x281300,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="gypsy.text.honourRemain" args="宋体,14,0xfff2b2,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="gypsy.ft.honourRemain" args="0x21554d,1,2,2,10" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="gypsy.text.rmbTicketRemain" args="宋体,14,0xfff2b2,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="gypsy.ft.rmbTicketRemain" args="0x21554d,1,2,2,10" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="gypsy.text.timeRefreshDetail" args="宋体,14,0xfff8d6,true" type="flash.text.TextFormat"/>
+		<set stylename="gypsy.ft.timeRefreshDetail" args="0x67380e,1,4,4,30" type="flash.filters.GlowFilter"/>
+	</sets>
+	<customs>
+	</customs>
+	<bitmaps>
+		<bitmapData resourceLink="gypsy.npc.title"/>
+		
+		<bitmapData stylename="gypsy.bg" resourceLink="gypsy.frame.bg"/>
+		<bitmapData resourceLink="gypsy.frame.cell.bg"/>
+		<bitmapData resourceLink="gypsy.frame.rare.title" x="184" y="62"/> 
+		<bitmapData stylename="gypsy.refresh.bmp" resourceLink="gypsy.frame.btn.refresh"/>
+		
+		<bitmapData resourceLink="gypsy.money.bg"/>
+		<bitmapData resourceLink="gypsy.icon.dianjuanWithBG"  x="30" y="494"/>
+		<bitmapData resourceLink="gypsy.icon.dianjuanWithNoBG"/>
+		<bitmapData resourceLink="gypsy.icon.honor"/>
+	</bitmaps>
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="gypsy.pt.honour.icon" x="139" y="493"/>
+		<custom classname="flash.geom.Point" stylename="gypsy.pt.rmb" x="30" y="493"/>
+		<custom classname="flash.geom.Point" stylename="gypsy.pt.honour.bg" x="138" y="493"/>
+	</customDisplay>
+</style>

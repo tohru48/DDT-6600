@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtburied" version="1.0.1" source="ui/turkey/swf/ddtburied.swf"> 
+  <sets> 
+    <set stylename="ddtburiedTF1" args="Arial,12,0xffee8a,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="ddtburiedGF1" args="0x000000,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtburiedTF2" args="Arial,16,0xffffff,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="ddtburiedGF2" args="0x402615,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtburiedTF3" args="Arial,14,0xffea9c,,,,,,left" type="flash.text.TextFormat" leading="5"/>  
+    <set stylename="ddtburiedGF3" args="0x4a3301,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtburiedTF4" args="Arial,14,0xffffff,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="ddtburiedGF4" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtburiedTF5" args="Arial,14,0xffe46b,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="ddtburiedGF5" args="0x4b1b1b,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtburiedTF6" args="Arial,14,0xffd338,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="ddtburiedGF6" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtburiedTF7" args="Arial,12,0xea1818,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="ddtburiedGF7" args="0xe0e0df,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtburiedTF8" args="Arial,14,0xfff4d4,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="ddtburiedGF8" args="0x7c4519,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtburiedTF9" args="Arial,12,0xffffff,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="ddtburiedGF9" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtburiedTF10" args="Arial,12,0xfefb57,,,,,,left" type="flash.text.TextFormat" letterSpacing="1" leading="5"/>  
+    <set stylename="ddtburiedGF10" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtburiedTF11" args="Arial,14,0xffd338,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtburiedGF11" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtburied.complete.buttonTextTF" args="Arial,12,0xe3ffb4,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtburied.complete.buttonTextGF" args="0x006255,1,4,4,30" type="flash.filters.GlowFilter"/> 
+  </sets>  
+  <components> 
+    <component classname="ddtBuried.BuriedFrame" backStyle="SimpleFrameBackgoundOne" stylename="ddtBuried.BuriedFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" x="-160" y="-40" closeInnerRectString="44,19,6,30,14" width="1000" height="600"/>  
+    <component classname="ddt.view.TransactionsFrame" backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" stylename="ddtBuried.views.TransactionsFrame" titleStyle="FrameTitleTextStyle" parentStyle="BaseFrame" titleOuterRectPosString="15,10,5" x="-160" y="-40" submitButtonStyle="ddt.buried.core.simplebt" cancelButtonStyle="ddt.buried.core.simplebt" closeInnerRectString="44,19,6,30,14" width="400" height="185"/>  
+    <component classname="ddtBuried.views.DuriedHelpFrame" backStyle="SimpleFrameBackgoundOneIII" width="400" height="480" stylename="ddtburied.view.helpFrame" titleStyle="FrameTitleTextStyle" escEnable="true" parentStyle="BaseFrame" type="2" closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" submitButtonStyle="" cancelButtonStyle="ddt.buried.core.simplebt" moveEnable="true" containerX="20" containerY="40" titleOuterRectPosString="12,11,5"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtBuried.views.TransactionsFrame.selectBtn" parentStyle="core.simpleSelectBtn" textStyle="ddtburied.right.desTxt" displacement="false" fieldX="18" fieldY="-2" x="231" y="121"/>  
+    <!--精彩活动 大背景 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtburied.scale9cornerImageTree" width="725" height="488" x="17" y="42" parentStyle="core.bg6920"/>  
+    <!--精彩活动 小背景 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtburied.recharge.scale9cornerImageTree" width="434" height="373" x="17" y="42" parentStyle="ddtburied.libao.goldLine"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtburied.buriedItem.txt" textFormatStyle="ddtburiedTF1" x="33" y="6" filterString="ddtburiedGF1" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="ddt.buried.core.simplebt" backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle" backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter" x="158" y="446"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtburied.left.unseleBtnTxt" textFormatStyle="ddtburiedTF2" x="19" y="16" filterString="ddtburiedGF2" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtburied.left.nameTxt" textFormatStyle="ddtburiedTF3" x="19" y="14" filterString="ddtburiedGF3" multiline="true" wordWrap="true" width="105"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtburied.right.desTxt" textFormatStyle="ddtburiedTF4" x="262" y="486" filterString="ddtburiedGF4" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtburied.right.btnTxt" textFormatStyle="ddtburiedTF5" x="94" y="7" filterString="ddtburiedGF5" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtburied.view.descriptTxt" textFormatStyle="ddtburiedTF6" x="218" y="358" filterString="ddtburiedGF6" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtburied.view.descriptTxt2" textFormatStyle="ddtburiedTF11" x="201" y="358" filterString="ddtburiedGF11" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtburied.right.aTtionTxt" textFormatStyle="ddtburiedTF7" x="196" y="505" filterString="ddtburiedGF7" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtburied.alert.txt" textFormatStyle="ddtburiedTF8" x="93" y="77" filterString="ddtburiedGF8" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtburied.left.back" x="2" resourceLink="ddtburied.noselected,ddtburied.selected"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtburied.rightBottomBgImg" parentStyle="asset.core.btmBimap" x="255" y="456" width="475" height="62"/>  
+    <component classname="ddtBuried.BuriedShopFrame" backStyle="SimpleFrameBackgoundOneIII" width="480" height="536" stylename="ddtburied.view.labyrinthShopFrame" titleStyle="FrameTitleTextStyle" escEnable="true" parentStyle="BaseFrame" type="2" closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" submitButtonStyle="" cancelButtonStyle="ddt.labyrinth.core.simplebt" moveEnable="true" containerX="20" containerY="40" titleOuterRectPosString="12,11,5"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="ddtburied.left.vBox" spacing="5" x="45" y="160"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtburied.left.scrollpanel" parentStyle="core.ScrollPanel" width="210" height="465" hScrollProxy="2" vScrollProxy="0" x="2" y="8"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtburied.right.scrollpanel" parentStyle="core.ScrollPanel" width="467" height="310" hScrollProxy="2" vScrollProxy="0" x="258" y="150"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="buried.views.showTotalBtnIMG" resourceLink="buried.totalInfo.show,buried.totalInfo.hide"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="buried.views.moveOutBtn" backStyle="buried.moveOutBtn" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="buried.views.moveInBtn" backStyle="buried.moveInBtn" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="buried.views.returnBtn" backStyle="buried.returnBtn" x="35" y="4"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="buried.shopBtn" backStyle="buried.shaizi.shopBtn" x="11" y="550"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="buried.findBtn" backStyle="buried.start.findBtn" x="402" y="427"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtburied.freeBtn" backStyle="buried.shaizi.freeBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" x="696" y="539"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtburied.shopBtn" backStyle="buried.shaizi.shopBtn" x="186" y="538"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtburied.updateStar" backStyle="buried.shaizi.updateStar" x="499" y="541" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtburied.payBtn" backStyle="buried.shaizi.payBtn" x="679" y="530" width="139" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtburied.returnBtn" backStyle="buried.shaizi.returnBtn" x="623" y="497"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtburied.overBtn" backStyle="ddtburied.getover" x="333" y="17"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtburied.helpBtn" backStyle="buried.shaizi.helpBtn" x="835" y="10"/>  
+    <!--任务追踪-->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtburied.taskTrackbg" resourceLink="buried.taskTrack.bg" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtburied.taskBuried" backStyle="buried.taskTrack.buriedBtn" x="-21" y="0"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtburied.taskBuriedPopBtn" backStyle="buried.taskTrack.buriedPopBtn" x="-21" y="0"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtburied.taskTitle" textFormatStyle="ddtburiedTF9" filterString="ddtburiedGF9" x="0" y="0" autoSize="left"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtburied.taskInfo" textFormatStyle="ddtburiedTF10" filterString="ddtburiedGF10" wordWrap="true" width="138" x="14" y="22"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtburied.taskInfoBtn" backStyle="asset.hall.auctionResgressbtn" width="138" x="14" y="22"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtburied.TaskItemList" parentStyle="core.ScrollPanel" width="197" height="140" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtburied.treasure" resourceLink="buried.taskTrack.treasure" x="147" y="1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtburied.daily" resourceLink="buried.taskTrack.daily" x="143" y="-3"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtburied.complete.buttonText" textFormatStyle="ddtburied.complete.buttonTextTF" filterString="ddtburied.complete.buttonTextGF"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="ddtburied.complete.buttonTextBtn" autoSizeAble="false" backStyle="core.bg6902" textStyle="ddtburied.complete.buttonText" x="53" y="132" width="105" height="30" backgoundInnerRectString="8,76,6,30,13" filterString="null,lightFilter,null,grayFilter" visible="false"/> 
+  <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="buried.rewardboxBtn0" backStyle="buried.box0"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="buried.rewardboxBtn1" backStyle="buried.box1"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="buried.rewardboxBtn2" backStyle="buried.box2"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="buried.rewardboxBtn4" backStyle="buried.box4"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="buried.rewardboxBtn3" backStyle="buried.box3"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtburied.progressBar" textFormatStyle="ddtburiedTF11" filterString="ddtburiedGF11" wordWrap="true" width="60" y="25"/>
+
+  </components>  
+  <customDisplay> 
+  <custom classname="flash.geom.Point" stylename="ddtburied.payBtn.txt.pos" x="109" y="23"/>
+    <custom classname="com.pickgliss.ui.core.Component" stylename="buried.cellTipComponent" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>  
+    <custom classname="flash.geom.Point" stylename="ddtburied.taskTrack.pos" x="803" y="168"/>  
+    <custom classname="flash.geom.Point" stylename="ddtburied.taskInfo.pos" x="1" y="30"/> 
+    <custom classname="flash.geom.Point" stylename="ddtburied.box.pos2" x="254" y="-7"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.box.pos4" x="515" y="-7"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.box.pos3" x="383" y="-7"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.boxOpened.pos1" x="118" y="-14"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.boxOpened.pos0" x="-11" y="-14"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.boxOpened.pos3" x="377" y="-14"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.boxOpened.pos2" x="248" y="-14"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.boxTips.pos0" x="-1" y="-6"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.boxTips.pos1" x="127" y="-6"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.progressBar.pos0" x="-64" y="28"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.boxOpened.pos4" x="509" y="-14"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.progressBar.pos1" x="66" y="28"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.boxTips.pos2" x="256" y="-6"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.progressBar.pos2" x="196" y="28"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.boxTips.pos3" x="385" y="-6"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.progressBar.pos3" x="326" y="28"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.boxTips.pos4" x="514" y="-6"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.box.pos0" x="-6" y="-7"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.progressBar.pos4" x="456" y="28"/>
+<custom classname="flash.geom.Point" stylename="ddtburied.box.pos1" x="124" y="-7"/>
+  </customDisplay>  
+  <bitmaps> 
+    <bitmapData resourceLink="buried.stoneShop.btn" x="0" y="0"/>  
+    <bitmapData resourceLink="buried.stone" x="3" y="2"/>  
+    <bitmapData resourceLink="buried.money" x="3" y="4"/>  
+    <bitmapData resourceLink="buried.bindMoney" x="3" y="4"/>  
+    <bitmapData resourceLink="buried.card.01" x="0" y="0"/>  
+    <bitmapData resourceLink="buried.card.02" x="0" y="0"/>  
+    <bitmapData resourceLink="buried.card.highLigth" x="0" y="0"/>  
+    <bitmapData resourceLink="buried.shaizi.back" x="0" y="0"/>  
+    <bitmapData resourceLink="buried.shaizi.downBack" x="123" y="512"/>  
+    <bitmapData resourceLink="buried.shaizi.returnBtn" x="271" y="43"/>  
+    <bitmapData resourceLink="buried.shaizi.startPoint" x="0.75" y="-7.95"/>  
+    <bitmapData resourceLink="buried.shaizi.lightStone" x="0" y="0"/>  
+    <bitmapData resourceLink="buried.shaizi.helpBtn" x="0" y="0"/>  
+    <bitmapData resourceLink="ddtburied.can.repeat" x="45" y="-13"/>  
+    <bitmapData resourceLink="ddtburied.luck.backgroud" x="244" y="47"/>  
+    <bitmapData resourceLink="ddtburied.farme.backgroud" x="244" y="47"/>  
+    <bitmapData resourceLink="ddtburied.luck.btn" x="0" y="0"/>  
+    <bitmapData resourceLink="ddtburied.farme.btn" x="0" y="0"/>  
+    <bitmapData resourceLink="ddtburied.fighter.back" x="255" y="108"/>  
+    <bitmapData resourceLink="ddtburied.zhuanpan.back" x="243" y="48"/>  
+    <bitmapData resourceLink="ddtburied.gotoRecharge" x="0" y="0"/>  
+    <bitmapData resourceLink="buried.shaizi.backStep" x="-2" y="0"/> 
+    <!-- <bitmapData resourceLink="buried.start.findBtn" x="0" y="0"/> -->
+    
+  </bitmaps> 
+</style>

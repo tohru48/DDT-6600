@@ -1,0 +1,81 @@
+<style name="vipintegralshop" version="1.0.1" source="ui/turkey/swf/vipintegralshop.swf">
+<sets>
+	<set stylename="vipIntegralShopView_TF1" args="Arial,12,0xfdf4bb,true" type="flash.text.TextFormat" leading="0" letterSpacing="0"/>
+	<set stylename="vipIntegralShopView_GF1" args="0x6a3c0c,2,4,4,10" type="flash.filters.GlowFilter"></set>
+
+	<set stylename="vipIntegralShopView_TF2" args="Arial,12,0xfffef4,true" type="flash.text.TextFormat"/>
+	<set stylename="vipIntegralShopView_GF2" args="0xaa2828,2,4,4,10" type="flash.filters.GlowFilter"></set>
+		
+	<set stylename="vipIntegralShopView_TF3" type="flash.text.TextFormat" args="Arial,12,0xfff8d6,,,,,,center"/>
+	<set stylename="vipIntegralShopView_GF3" type="flash.filters.GlowFilter" args="0x4b270d,1,4,4,30"/>
+
+	<set stylename="vipIntegralShopView_TF4" type="flash.text.TextFormat" args="Arial,12,0xe8ce97,true"/>
+	<set stylename="vipIntegralShopView_GF4" type="flash.filters.GlowFilter" args="0x5c3d11,1,2,2,30"/>
+	
+	<set stylename="vipIntegralShopView_TF5" type="flash.text.TextFormat" args="Arial,16,0xe8ce97,true"/>
+	<set stylename="vipIntegralShopView_GF5" type="flash.filters.GlowFilter" args="0x5c3d11,1,2,2,30"/>
+
+	<set stylename="vipIntegralShopView_TF6" type="flash.text.TextFormat" args="Arial,14,0xf1c55d,true"/>
+	<set stylename="vipIntegralShopView_GF6" type="flash.filters.GlowFilter" args="0x4e2f10,1,2,2,30"/>
+
+	<set stylename="vipIntegralShopView_TF7" type="flash.text.TextFormat" args="Arial,14,0xfff8d6" align="center"/>
+	<set stylename="vipIntegralShopView_GF7" type="flash.filters.GlowFilter" args="0x4b270d,2,4,4,30"/>
+
+	<set stylename="vipIntegralShopView_TF8" type="flash.text.TextFormat" args="Arial,12,0x24f084,true"/>
+	<set stylename="vipIntegralShopView_GF8" type="flash.filters.GlowFilter" args="0x0a2303,2,4,4,30"/>
+
+	<set stylename="vipIntegralShopView_TF9" type="flash.text.TextFormat" args="Arial,10,0xc4c4c4,true"/>
+	<set stylename="vipIntegralShopView_GF9" type="flash.filters.GlowFilter" args="0x40270f,2,4,4,30"/>
+</sets>
+<components>
+	<!--窗口-->
+	<component classname="vipIntegralShop.view.VipIntegralShopView" stylename="vipIntegralshop.vipIntegralShopView" backStyle="SimpleFrameBackgoundOne" 
+		parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,14,6,30,14"
+		containerX="15" containerY="38" titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1"
+		width="518" height="498" moveEnable="false" escEnable="true" />
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="vipIntegralShopView.frameBottom" parentStyle="core.bg6920" 
+			width="510" height="463" x="4" y="7" scaleGridString="5,10,80,20" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="vipIntegralShopView.infoBg"
+		parentStyle="core.Scale9CornerImage.deepFur" width="496" height="200" x="11" y="15" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipIntegralShopView.infoText" 
+		textFormatStyle="vipIntegralShopView_TF1" filterString="vipIntegralShopView_GF1"  x="38" y="75" autoSize="none" width="410" height="100" wordWrap="true"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipIntegralShopView.integralText" 
+		textFormatStyle="vipIntegralShopView_TF2" filterString="vipIntegralShopView_GF2"  x="142" y="100"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipIntegralShopView.call" 
+		textFormatStyle="vipIntegralShopView_TF2" filterString="vipIntegralShopView_GF2"  x="290" y="105"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipIntegralShopView.pageTxt" 
+		textFormatStyle="vipIntegralShopView_TF3" filterString="vipIntegralShopView_GF3" 
+		autoSize="none" width="65" height="20" x="350" y="405"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="vipIntegralShopView.buyBtn" 
+		backStyle="asset.vipIntegralShopView.buyBtn" x="147" y="54"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipIntegralShopView.nameTxt" 
+		textFormatStyle="vipIntegralShopView_TF4" filterString="vipIntegralShopView_GF4" 
+		autoSize="none" width="150" height="25" x="77" y="7"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipIntegralShopView.needMoneyTxt" 
+		textFormatStyle="vipIntegralShopView_TF5" filterString="vipIntegralShopView_GF5" 
+		autoSize="none" width="60" height="25" x="77" y="27"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipIntegralShopView.integral" 
+		textFormatStyle="vipIntegralShopView_TF6" filterString="vipIntegralShopView_GF6"  x="170" y="27"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipIntegralShopView.integralNum" 
+		textFormatStyle="vipIntegralShopView_TF7" filterString="vipIntegralShopView_GF7"  
+		autoSize="none" width="88" height="23" x="157" y="405"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="vipIntegralShopView.foreBtn" 
+		backStyle="asset.vipIntegralShopView.foreBtn" x="290" y="401"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="vipIntegralShopView.nextBtn" 
+		backStyle="asset.vipIntegralShopView.nextBtn" x="418" y="401"/>
+		
+	<!-- 快速购买 -->
+	<component classname="vipIntegralShop.view.VipIntegralShopBuyCell"  stylename="vipIntegralShopView.QuickBuyAlert"  parentStyle="BaseFrame" 
+		containerY="30" width="340" height="225"/>	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipIntegralShopView.limitInfo" 
+		textFormatStyle="vipIntegralShopView_TF8" filterString="vipIntegralShopView_GF8"  x="97" y="58"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipIntegralShopView.buyOver" 
+		textFormatStyle="vipIntegralShopView_TF9" filterString="vipIntegralShopView_GF9"  x="78" y="58"/>
+</components>
+<bitmaps>
+	<bitmapData resourceLink="asset.vipIntegralShopView.viewBg" x="2" y="6" />
+</bitmaps>
+<customs>
+	<custom classname="flash.geom.Point" stylename="vipIntegralShopView.itemCell.pos" x="3" y="3" />	
+</customs>
+</style>

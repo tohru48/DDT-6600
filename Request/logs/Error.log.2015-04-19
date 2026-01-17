@@ -1,0 +1,202 @@
+2015-04-19 20:38:37,523 - [31] - ERROR - Tank.Request.VisualizeRegister - VisualizeRegister
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Tank.Request.VisualizeRegister.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\VisualizeRegister.cs:linha 51
+2015-04-19 20:43:11,444 - [6] - ERROR - Tank.Request.AASUpdateState - ASSUpdateState:
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: value
+   em System.Boolean.Parse(String value)
+   em Tank.Request.AASUpdateState.Page_Load(Object sender, EventArgs e) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\AASUpdateState.cs:linha 33
+2015-04-19 20:43:11,849 - [5] - ERROR - Bussiness.BaseBussiness - Init Register
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.RegisterUser(String UserName, String NickName, String Password, Boolean Sex, Int32 Money, Int32 GiftToken, Int32 Gold)
+2015-04-19 20:43:37,730 - [7] - ERROR - Tank.Request.AuctionPageList - AuctionPageList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.AuctionPageList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\AuctionPageList.cs:linha 31
+2015-04-19 20:43:56,496 - [17] - ERROR - Bussiness.Interface.BaseInterface - UnEncryptCharge
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.Interface.BaseInterface.UnEncryptCharge(String content, Int32& result, String site)
+2015-04-19 20:44:06,699 - [5] - ERROR - Tank.Request.ConsortiaAllyList - ConsortiaAllyList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.ConsortiaAllyList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ConsortiaAllyList.cs:linha 31
+2015-04-19 20:44:07,042 - [17] - ERROR - Tank.Request.ConsortiaApplyAllyList - ConsortiaApplyAllyList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.ConsortiaApplyAllyList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ConsortiaApplyAllyList.cs:linha 31
+2015-04-19 20:44:07,510 - [7] - ERROR - Tank.Request.ConsortiaApplyUsersList - ConsortiaApplyUsersList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.ConsortiaApplyUsersList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ConsortiaApplyUsersList.cs:linha 31
+2015-04-19 20:44:09,897 - [7] - ERROR - Tank.Request.ConsortiaDutyList - ConsortiaDutyList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.ConsortiaDutyList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ConsortiaDutyList.cs:linha 31
+2015-04-19 20:44:10,256 - [5] - ERROR - Tank.Request.ConsortiaEquipControl - ConsortiaEventList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.ConsortiaEquipControl.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ConsortiaEquipControl.cs:linha 31
+2015-04-19 20:44:10,724 - [17] - ERROR - Tank.Request.ConsortiaEquipControlList - ConsortiaList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.ConsortiaEquipControlList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ConsortiaEquipControlList.cs:linha 34
+2015-04-19 20:44:11,332 - [5] - ERROR - Tank.Request.ConsortiaEventList - ConsortiaEventList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.ConsortiaEventList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ConsortiaEventList.cs:linha 31
+2015-04-19 20:44:11,940 - [17] - ERROR - Tank.Request.ConsortiaIMList - ConsortiaIMList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.ConsortiaIMList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ConsortiaIMList.cs:linha 31
+2015-04-19 20:44:12,315 - [17] - ERROR - Tank.Request.ConsortiaInviteUsersList - ConsortiaInviteUsersList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.ConsortiaInviteUsersList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ConsortiaInviteUsersList.cs:linha 31
+2015-04-19 20:44:13,578 - [13] - ERROR - Tank.Request.ConsortiaList - ConsortiaList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.ConsortiaList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ConsortiaList.cs:linha 31
+2015-04-19 20:44:14,202 - [7] - ERROR - Tank.Request.ConsortiaNameCheck - ConsortiaCheck
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Tank.Request.csFunction.ConvertSql(String inputString) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\csFunction.cs:linha 38
+   em Tank.Request.ConsortiaNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ConsortiaNameCheck.cs:linha 29
+2015-04-19 20:44:14,592 - [17] - ERROR - Tank.Request.ConsortiaUsersList - ConsortiaUsersList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.ConsortiaUsersList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ConsortiaUsersList.cs:linha 31
+2015-04-19 20:44:16,137 - [7] - ERROR - Bussiness.Interface.BaseInterface - UnEncryptLogin
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.Interface.BaseInterface.UnEncryptLogin(String content, Int32& result, String site)
+2015-04-19 20:44:18,929 - [17] - ERROR - Tank.Request.dailyloglist - dailyloglist
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.dailyloglist.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\dailyloglist.cs:linha 30
+2015-04-19 20:44:24,530 - [13] - ERROR - Tank.Request.ExperienceRate - ExperienceRateUpdate:
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.ExperienceRate.Page_Load(Object sender, EventArgs e) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ExperienceRate.cs:linha 35
+2015-04-19 20:45:00,020 - [7] - ERROR - Tank.Request.IMFriendsBbs - Normal:
+System.Exception: Impossível conectar-se ao servidor remoto
+   em Tank.Request.IMFriendsBbs.Normal.FriendsString(String uid) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\IMFriendsBbs.cs:linha 56
+2015-04-19 20:45:00,659 - [5] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetFriendsGood(String UserName)
+2015-04-19 20:45:14,372 - [7] - ERROR - Tank.Request.LoadUserEquip - LoadUserEquip
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.LoadUserEquip.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\LoadUserEquip.cs:linha 30
+2015-04-19 20:45:14,746 - [7] - ERROR - Tank.Request.LoadUserItems - LoadUserItems
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.LoadUserItems.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\LoadUserItems.cs:linha 30
+2015-04-19 20:45:15,230 - [14] - ERROR - Tank.Request.LoadUserMail - LoadUserMail
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.LoadUserMail.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\LoadUserMail.cs:linha 30
+2015-04-19 20:45:15,713 - [7] - ERROR - Tank.Request.LoadUsersSort - LoadUsersSort
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.LoadUsersSort.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\LoadUsersSort.cs:linha 32
+2015-04-19 20:45:22,141 - [7] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.PlayerBussiness.GetUserLoginList(String userName)
+2015-04-19 20:45:27,507 - [17] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Bussiness.ProduceBussiness.GetAllLuckstarActivityRank()
+2015-04-19 20:45:29,176 - [17] - ERROR - Tank.Request.MailSenderList - MailSenderList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.MailSenderList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\MailSenderList.cs:linha 30
+2015-04-19 20:45:31,251 - [5] - ERROR - Tank.Request.MarryInfoPageList - MarryInfoPageList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.MarryInfoPageList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\MarryInfoPageList.cs:linha 31
+2015-04-19 20:45:35,681 - [7] - ERROR - Tank.Request.NickNameCheck - NickNameCheck
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Tank.Request.csFunction.ConvertSql(String inputString) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\csFunction.cs:linha 38
+   em Tank.Request.NickNameCheck.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NickNameCheck.cs:linha 31
+2015-04-19 20:45:36,446 - [14] - ERROR - Tank.Request.NoticeServerUpdate - ExperienceRateUpdate:
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.NoticeServerUpdate.Page_Load(Object sender, EventArgs e) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\NoticeServerUpdate.cs:linha 35
+2015-04-19 20:47:01,840 - [14] - ERROR - Tank.Request.ServerList - Load server list error:
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Tank.Request.ServerList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ServerList.cs:linha 43
+2015-04-19 20:47:03,510 - [14] - ERROR - Tank.Request.ServerList1 - ServerList1 error:
+System.ServiceModel.CommunicationObjectFaultedException: O objeto de comunicação, System.ServiceModel.Channels.ServiceChannel, não pode ser usado para comunicação porque está no estado Com Falha.
+
+Server stack trace: 
+   em System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em System.ServiceModel.ClientBase`1.System.ServiceModel.ICommunicationObject.Close(TimeSpan timeout)
+   em Tank.Request.ServerList1.Page_Load(Object sender, EventArgs e) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\ServerList1.cs:linha 33
+2015-04-19 20:48:34,083 - [20] - ERROR - Tank.Request.UserGoodsInfo - UserGoodsInfo
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.UserGoodsInfo.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\UserGoodsInfo.cs:linha 30
+2015-04-19 20:48:35,363 - [20] - ERROR - Tank.Request.UserQuestList - UserQuestList
+System.ArgumentNullException: Valor não pode ser nulo.
+Nome do parâmetro: String
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em Tank.Request.UserQuestList.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\UserQuestList.cs:linha 30
+2015-04-19 20:48:38,405 - [14] - ERROR - Tank.Request.VisualizeRegister - VisualizeRegister
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em Tank.Request.VisualizeRegister.ProcessRequest(HttpContext context) na C:\Users\Administrador\Desktop\Source_6.1\SourceByFelipe\Tank.Request\VisualizeRegister.cs:linha 51

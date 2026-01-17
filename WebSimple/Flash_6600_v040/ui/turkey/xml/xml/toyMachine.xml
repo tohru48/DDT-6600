@@ -1,0 +1,59 @@
+<style name="toyMachine" version="1.0.1" source="ui/turkey/swf/toyMachine.swf">
+	<sets>
+		<set stylename="toyMachine.titleTF1" args="Arial,16,0xfe0101,true" type="flash.text.TextFormat"></set>
+		<set stylename="toyMachine.titleGF1" args="0xeef6e4,2,4,4,30" type="flash.filters.GlowFilter"></set>
+		<set stylename="toyMachine.titleTF2" args="Arial,16,0xfe0101" type="flash.text.TextFormat"></set>
+		<set stylename="toyMachine.titleGF2" args="0xeef6e4,2,4,4,30" type="flash.filters.GlowFilter"></set>
+<set stylename="toyMachine.yinX1TextTF2" args="Arial,12,0x5c5c5c,true" type="flash.text.TextFormat"/>
+<set stylename="toyMachine.jinX1TextGF2" args="0xfffde1,4,4,4,30" type="flash.filters.GlowFilter"/>
+<set stylename="toyMachine.yinX1TextGF2" args="0xffffff,4,4,4,30" type="flash.filters.GlowFilter"/>
+<set stylename="toyMachine.jinX1TextTF2" args="Arial,12,0xc65700,true" type="flash.text.TextFormat"/>
+
+	</sets>
+	<customs>
+		<custom classname="flash.geom.Point" stylename="toyMachine.silverPos" x="76" y="29"/>
+		<custom classname="flash.geom.Point" stylename="toyMachine.goldPos" x="454" y="29"/>
+		<custom classname="flash.geom.Point" stylename="toyMachine.countDownPos" x="66" y="374"/>
+	</customs>
+	<components>	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toyMachine.yinX10Text" textFormatStyle="toyMachine.yinX1TextTF2" filterString="toyMachine.yinX1TextGF2" autoSize="center" x="162" y="312"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toyMachine.yinX1Text" textFormatStyle="toyMachine.yinX1TextTF2" filterString="toyMachine.yinX1TextGF2" autoSize="center" x="93" y="312"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toyMachine.jinX10Text" textFormatStyle="toyMachine.jinX1TextTF2" filterString="toyMachine.jinX1TextGF2" autoSize="center" x="160" y="315"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toyMachine.jinX1Text" textFormatStyle="toyMachine.jinX1TextTF2" filterString="toyMachine.jinX1TextGF2" autoSize="center" x="93" y="315"/>
+		
+		<!-- Frame -->
+		<component classname="toyMachine.view.ToyMachineFrame" stylename="toyMachine.toyMachineFrame" backStyle="SimpleFrameBackgoundOne" 
+			parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,22,6,30,14"
+			containerX="15" containerY="38" titleOuterRectPosString="24,10,5" moveInnerRectString="0,30,0,30,1"
+			width="898" height="559" moveEnable="false" escEnable="true" y="80"/>		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="toyMachine.rewardBtn1" 
+			backStyle="asset.toyMachine.silvelBtn" x="63" y="-5"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="toyMachine.rewardBtn2" 
+			backStyle="asset.toyMachine.goldBtn" x="63" y="-5"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toyMachine.machineBg" 
+			resourceLink="asset.toyMachine.silvelBg,asset.toyMachine.goldBg" x="0" y="31"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toyMachine.grappleOneBtnBg" 
+			resourceLink="asset.toyMachine.grappleOne1,asset.toyMachine.grappleOne1,asset.toyMachine.grappleOne2" x="0" y="31"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toyMachine.grappleTenBtnBg" 
+			resourceLink="asset.toyMachine.grappleTen1,asset.toyMachine.grappleTen1,asset.toyMachine.grappleTen2" x="0" y="31"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="toyMachine.grappleOneBtn" 
+			backStyle="toyMachine.grappleOneBtnBg" displacement="false" x="66" y="229" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="toyMachine.grappleTenBtn" 
+			backStyle="toyMachine.grappleTenBtnBg" displacement="false" x="131" y="229" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="toyMachine.freeCountBg" 
+			resourceLink="asset.toyMachine.freeCountBg" filterString="null,lightFilter,null,grayFilter" x="24" y="234" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toyMachine.countDown"
+			textFormatStyle="toyMachine.titleTF1" filterString="toyMachine.titleGF1" x="9" y="5"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toyMachine.freeNum"
+			textFormatStyle="toyMachine.titleTF2" filterString="toyMachine.titleGF2" autoSize="center" x="55" y="1"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toyMachine.tipsInfo" 
+			resourceLink="asset.toyMachine.info1,asset.toyMachine.info2" x="19" y="398"/>
+		<custom classname="ddt.view.caddyII.LookTrophy" backStyle="SimpleFrameBackgoundOne" stylename="toyMachine.LookTrophy" closestyle="core.closebt" 
+				titleStyle="FrameTitleTextStyle"  titleOuterRectPosString="10,11,5" closeInnerRectString="44,6,6,30,14"
+				 containerX="10" containerY="30" width="305" height="336"   x="354" y="90"/>
+
+	</components>
+	<bitmaps>
+		<bitmapData resourceLink="asset.toyMachine.bg" x="4" y="6"/>
+		</bitmaps>
+</style>

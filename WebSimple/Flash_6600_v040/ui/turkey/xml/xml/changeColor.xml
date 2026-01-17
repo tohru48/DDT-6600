@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="changeColor" version="1.0.1" source="ui/turkey/swf/changeColor.swf"> 
+  <sets> 
+    <set stylename="changeColot.TF1" args="Arial,16,0xfffbe9,true" letterSpacing="1" type="flash.text.TextFormat"/>  
+    <set stylename="changeColot.GF1" args="0x744a16,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="changeColot.TF2" args="Arial,12,0xffe6a9,true" letterSpacing="1" type="flash.text.TextFormat"/>  
+    <set stylename="changeColot.GF2" args="0x6c4d26,1,4,4,30" type="flash.filters.GlowFilter"/> 
+  </sets>  
+  <bitmaps> 
+    <!--变色卡_左.png-->  
+    <bitmapData resourceLink="asset.changeColor.leftViewBgImg"/>  
+    <!--变色按钮.png-->  
+    <bitmapData resourceLink="asset.changeColor.changeColorBtnImg"/>  
+    <!--装备.png-->  
+    <bitmapData resourceLink="asset.changeColor.text1Img"/>  
+    <!--变色的装备Text.png-->  
+    <bitmapData resourceLink="asset.changeColor.textImg"/>  
+    <!--变色卡_发光框.png-->  
+    <bitmapData resourceLink="asset.changeColor.textGlowImg"/> 
+  </bitmaps>  
+  <components> 
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.changeColor.text1" textFormatStyle="changeColot.TF1" filterString="changeColot.GF1" width="100" height="50"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.changeColor.text2" textFormatStyle="changeColot.TF2" filterString="changeColot.GF2" width="120" height="50"/>  
+    <!--窗口-->  
+    <component classname="changeColor.view.ChangeColorFrame" stylename="changeColor.ChangeColorFrame" backStyle="SimpleFrameBackgoundOne" width="825" height="515" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14" containerX="20" containerY="40" titleOuterRectPosString="10,6,5" moveInnerRectString="0,30,0,30,1" moveEnable="true" escEnable="true"/>  
+    <!--右边背景-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="changeColor.rightViewBg" parentStyle="core.bg6920"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="changeColorAssetOne" parentStyle="core.Scale9CornerImage.SimpleTableBackgound1" width="350" height="422" x="1" y="33"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="changeColorAssetTwo" parentStyle="core.Scale9CornerImage.SimpleTableBackgound2" x="-1" y="1"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ColorBGAsset2" resourceLink="changeColorAssetOne,changeColor.info.paper2" width="350" height="418" imageRectString=",4|4|36|-25|0"/>  
+    <component classname="com.pickgliss.ui.image.TiledImage" stylename="changeColor.info.paper2" resourceLink="bagAndInfo.info.personalInfoBgAsset6" width="350" height="418" x="17" y="353"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ColorBGAsset3" resourceLink="changeColorAssetTwo,changeColor.info.paper2" imageRectString=",4|8|6|5|0"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ColorBGAsset4" resourceLink="ColorBGAsset2,ColorBGAsset3" width="350" height="418" imageRectString=",6|4|37|-26|0"/>  
+    <!-- 右边变色按钮底 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="changeColor.changeColorBtn.bg" resourceLink="asset.core.btmBG" scaleGridString="14,13,250,22"/>  
+    <!--右边变色按钮-->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="changeColor.changeColorBtn" backStyle="asset.changeColor.change" width="110" height="40" filterString="null,lightFilter,lightFilter,grayFilter"/> /&gt; 
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.changeColor.change" resourceLink="ddtchangeColorBtn,asset.changeColor.font" imageRectString="160|49|0|0|9,144|35|5|-80|9"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtchangeColorBtn" parentStyle="core.bg6910"/>  
+    <!-- 左边 -->  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="changeColor.leftViewBg" resourceLink="asset.changeColor.leftViewbg" x="10" y="69"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="changeColor.leftViewBg1" resourceLink="asset.changeColor.leftViewbg1" x="8" y="302"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="changeColor.leftViewBg2" resourceLink="asset.changeColor.leftViewbg2" x="13" y="71"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="changeColor.checkBg" resourceLink="asset.changeColor.CheckBoxBg" x="263" y="215"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ColorEditCell.Bg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="116" height="119" x="13" y="322"/>  
+    <custom classname="ddt.view.ColorEditor" stylename="changeColor.ColorEdit"/> 
+  </components>  
+  <!--提交问题坐标-->  
+  <customs> 
+    <!--左边背景坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.leftViewBgImgRec" x="1" y="38" width="411" height="416"/>  
+    <!--左边人物坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.charaterRec" x="10" y="85"/>  
+    <!--左边改变物体颜色对象坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.colorEditCellRec" x="27" y="337"/>  
+    <!--左边颜色编辑器坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.colorEditorRec" x="138" y="328"/>  
+    <!--左边隐藏帽子按钮坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.hideHatRec" x="264" y="232"/>  
+    <!--左边隐藏眼镜按钮坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.hideGlassRec" x="313" y="232"/>  
+    <!--左边隐藏套装按钮坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.hideSuitRec" x="264" y="248"/>  
+    <!--左边隐藏翅膀按钮坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.hideWingRec" x="313" y="248"/>  
+    <!--右边容器坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.rightViewRec" x="430" y="0"/>  
+    <!--右边背景坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.rightViewBgRec" x="-6" y="34" width="361" height="420"/>  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.rightViewBgRec1" x="-1" y="7" width="350" height="346"/>  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.buttonBgRec" x="4" y="388" width="342" height="56"/>  
+    <!--右边装备文字坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.text1ImgRec" x="10" y="10"/>  
+    <!--右边变色的装备文字坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.textImgRec" x="74" y="1"/>  
+    <!--右边变色的装备文字发光坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.textImgGlowRec" x="65" y="11" width="185"/>  
+    <!--右边背包格子坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.bagListViewRec" x="10" y="51"/>  
+    <!--右边变色按钮坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="changeColor.changeColorBtnRec" x="174" y="392"/> 
+  </customs>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.changeColor.title" x="61" y="9"/> 
+  </bitmaps> 
+</style>

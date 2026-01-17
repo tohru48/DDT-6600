@@ -1,0 +1,159 @@
+﻿<style name="treasurePuzzle" version="1.0.1" source="ui/turkey/swf/treasurePuzzle.swf">
+	<sets>
+		<set stylename="treasurePuzzle.helpView.contentTitleTFormat"  args="Arial,16,0xffc600,true,,,,,left"  type="flash.text.TextFormat" />
+		<set stylename="treasurePuzzle.helpView.contentTitlelinktxtGF" args="0x664010,1,1,1,2"  type="flash.filters.GlowFilter"/>	
+		
+		<set stylename="treasurePuzzle.helpView.contentTextTFormat"  args="Arial,12,0xfff8cc,true,,,,,left"  type="flash.text.TextFormat" leading="5"/>
+		<set stylename="treasurePuzzle.helpView.contentTextlinktxtGF" args="0x5e3f0e,1,1,1,2"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="treasurePuzzle.redTitleTFormat"  args="Arial,16,0xffe913,true,,,,,left"  type="flash.text.TextFormat" />
+		<set stylename="treasurePuzzle.helpView.redTitletxtGF" args="0x5c0000,1,1,1,2"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="treasurePuzzle.blueTitleTFormat"  args="Arial,16,0xcaf1ff,true,,,,,left"  type="flash.text.TextFormat" />
+		<set stylename="treasurePuzzle.helpView.blueTitletxtGF" args="0x002277,1,1,1,2"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="treasurePuzzle.yellowTitleTFormat"  args="Arial,16,0xffee9e,true,,,,,left"  type="flash.text.TextFormat" />
+		<set stylename="treasurePuzzle.helpView.yellowTitletxtGF" args="0x573300,1,1,1,2"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="treasurePuzzle.helpView.rewardContentTextTFormat"  args="Arial,12,0xfff196,true,,,,,left"  type="flash.text.TextFormat" leading="5"  x="10" y="62"/>
+		<set stylename="treasurePuzzle.helpView.rewardcontentTextlinktxtGF" args="0x5f330d,1,1,1,2"  type="flash.filters.GlowFilter"/>	
+		
+		<set stylename="treasurePuzzle.mainView.piceDataContentTextTFormat"  args="Arial,14,0xe8ce97,true,,,,,left"  type="flash.text.TextFormat" leading="5"  x="10" y="62"/>
+		<set stylename="treasurePuzzle.mainView.piceDatacontentTextlinktxtGF" args="0x#fff496,1,3,1,2"  type="flash.filters.GlowFilter"/>	
+		
+		<set stylename="treasurePuzzle.view.Input_1" args="Arial,14,0xfff8d6" type="flash.text.TextFormat"/>
+		<set stylename="treasurePuzzle.view.Input_2" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="treasurePuzzle.view.RewardtopTextTFormat" args="Arial,14,0xfff4d4,true,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="treasurePuzzle.view.RewardtopTexttxtGF" args="0x7c4519,1,7,7,2" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="treasurePuzzle.view.RewardInput_1" args="Arial,14,0xfff9da" type="flash.text.TextFormat" leading='5'/>
+		<set stylename="treasurePuzzle.view.Reward.G_2" args="0x5f3d11,1,2,2,10" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="treasurePuzzle.view.zhuTFormat" args="Arial,12,0xfff9da" type="flash.text.TextFormat" leading='2'/>
+		<set stylename="treasurePuzzle.view.zhutxtGF" args="0x850202,1,4,4,10" type="flash.filters.GlowFilter"/>
+	</sets>
+
+	<customDisplay>
+		
+	</customDisplay>
+		
+	<components>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasurePuzzle.view.Rewardbtn" 
+			backStyle="treasurePuzzle.view.btn" x="133" y="270"/>
+		<component classname="treasurePuzzle.view.TreasurePuzzleRewardInfoView" stylename="treasurePuzzle.view.rewardInfoView"
+			backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="20" containerY="40"
+			closeInnerRectString="44,19,6,30,14" x="100" y="342" width="390" height="370"/>
+	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasurePuzzle.helpView.contentTitle" textFormatStyle="treasurePuzzle.helpView.contentTitleTFormat"  filterString="treasurePuzzle.helpView.contentTitlelinktxtGF"    x="3" y="1" width="205" height="40" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasurePuzzle.helpView.contentText" textFormatStyle="treasurePuzzle.helpView.contentTextTFormat"  filterString="treasurePuzzle.helpView.contentTextlinktxtGF"    x="10" y="27" width="450" height="400" wordWrap="true"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasurePuzzle.redTitle" textFormatStyle="treasurePuzzle.redTitleTFormat"  filterString="treasurePuzzle.helpView.redTitletxtGF"    x="60" y="25" width="450" height="400" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasurePuzzle.blueTitle" textFormatStyle="treasurePuzzle.blueTitleTFormat"  filterString="treasurePuzzle.helpView.blueTitletxtGF"    x="60" y="25" width="450" height="400" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasurePuzzle.yellowTitle" textFormatStyle="treasurePuzzle.yellowTitleTFormat"  filterString="treasurePuzzle.helpView.yellowTitletxtGF"    x="60" y="25" width="450" height="400" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasurePuzzle.helpView.rewardContentText" textFormatStyle="treasurePuzzle.helpView.rewardContentTextTFormat"  filterString="treasurePuzzle.helpView.rewardcontentTextlinktxtGF"    x="34" y="54" width="365" height="600" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasurePuzzle.mainView.piceDataContentText" textFormatStyle="treasurePuzzle.mainView.piceDataContentTextTFormat"  filterString="treasurePuzzle.mainView.piceDatacontentTextlinktxtGF"    width="150" height="100" wordWrap="true"/>
+		
+			
+		<component classname="treasurePuzzle.view.TreasurePuzzleMainView" stylename="treasurePuzzle.TreasurePuzzleFrame" backStyle="SimpleFrameBackgoundOne" 
+			titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,14,6,30,14"
+			containerX="15" containerY="38" titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1"
+			width="640" height="510" moveEnable="false" escEnable="true" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasurePuzzle.getRewardBnt" backStyle="treasurePuzzle.treasurePuzzlerewardBnt" filterString="null,lightFilter,lightFilter,grayFilter" x="220" y="387" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasurePuzzle.helpBnt" backStyle="treasurePuzzle.treasurePuzzlehelpBnt" filterString="null,lightFilter,lightFilter,grayFilter" x="450" y="396" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasurePuzzle.leftBnt" backStyle="treasurePuzzle.left" filterString="null,lightFilter,lightFilter,grayFilter" x="6" y="150" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="treasurePuzzle.rightBnt" backStyle="treasurePuzzle.right" filterString="null,lightFilter,lightFilter,grayFilter" x="577" y="150" />
+		
+		<component classname="treasurePuzzle.view.TreasurePuzzleHelpView" stylename="treasurePuzzle.helpView" backStyle="SimpleFrameBackgoundOne" 
+			titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,14,6,30,14"
+			containerX="15" containerY="38" titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1"
+			width="490" height="520" moveEnable="false" escEnable="true" />
+		
+		
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasurePuzzle.helpView.frameBg" width="450" height="456" x="3" y="6" parentStyle="core.bg6920"/>
+		
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="treasurePuzzle.helpView.helpPanel" parentStyle="core.ScrollPanel" width="425" height="115" vUnitIncrement="3" vScrollProxy="0" x="18" y="334"/>  
+    	
+    	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="treasurePuzzle.helpView.helpPanel2" parentStyle="core.ScrollPanel" width="438" height="300" vUnitIncrement="5" vScrollProxy="0" x="5" y="9"/>  
+    	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="treasurePuzzle.helpView.Vbox" x="0" y="0" spacing="15" /> 
+  	
+    	
+    	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="treasurePuzzle.view.InputTextbackAsset" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="171" height="33"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasurePuzzle.view.InputTextStyle"
+			textFormatStyle="treasurePuzzle.view.Input_1" filterString="treasurePuzzle.view.Input_2" />
+		
+    	<component classname="com.pickgliss.ui.controls.TextInput" stylename="treasurePuzzle.view.RewardtextInput1"
+			x='85' y='55' width="171" height="33" backStyle="treasurePuzzle.view.InputTextbackAsset"
+			focusBackStyle="treasurePuzzle.view.InputTextbackAsset" textStyle="treasurePuzzle.view.InputTextStyle"
+			focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="7,10,8,2,0" 
+			displayAsPassword='false' maxChars='14' multiline='false' />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="treasurePuzzle.view.RewardtextInput2"
+			parentStyle='treasurePuzzle.view.RewardtextInput1' y='95' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasurePuzzle.view.RewardtopText" textFormatStyle="treasurePuzzle.view.RewardtopTextTFormat"  filterString="treasurePuzzle.view.RewardtopTexttxtGF"    x="17" y="22" width="320" height="40" wordWrap="true"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasurePuzzle.view.RewardNameText" textFormatStyle="treasurePuzzle.view.RewardtopTextTFormat"  filterString="treasurePuzzle.view.RewardtopTexttxtGF"    x="17" y="62" width="100" height="40" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasurePuzzle.view.RewardPhoneText" textFormatStyle="treasurePuzzle.view.RewardtopTextTFormat"  filterString="treasurePuzzle.view.RewardtopTexttxtGF"    x="17" y="101" width="100" height="40" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasurePuzzle.view.RewardAddressText" textFormatStyle="treasurePuzzle.view.RewardtopTextTFormat"  filterString="treasurePuzzle.view.RewardtopTexttxtGF"    x="17" y="138" width="100" height="40" wordWrap="true"/>
+		
+		<component classname="com.pickgliss.ui.text.TextArea"  stylename="treasurePuzzle.view.RewardsimpleTextArea" 
+			parentStyle="core.SimpleTextArea" backgoundStyle="treasurePuzzle.view.textinputBg"  
+			backgoundInnerRectString="-1,20,5,3,0" viewportInnerRectString="8,22,12,10,0"
+			textStyle="treasurePuzzle.view.RewardsimpleText1" maxChars="400"
+			vScrollProxy='0'  
+		/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="treasurePuzzle.view.textinputBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="480" height="200" x="4" y="123"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename='treasurePuzzle.view.RewardsimpleText1'
+			textFormatStyle="treasurePuzzle.view.RewardInput_1" filterString="treasurePuzzle.view.Reward.G_2" type='input'  multiline='true' wordWrap='true'  maxChars='400'/>
+			
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasurePuzzle.view.zhuText" textFormatStyle="treasurePuzzle.view.zhuTFormat"  filterString="treasurePuzzle.view.zhutxtGF"    x="21" y="223" width="350" height="40" wordWrap="true"/>
+		
+	</components>
+	<customs>
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.redContentPos" x="33" y="60"/>
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.blueContentPos" x="33" y="160"/>
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.yellowContentPos" x="33" y="260"/>
+		<custom classname="flash.geom.Rectangle" stylename="treasurePuzzle.DetailTextAreaRec"
+			x="86" y="129" width='235' height='95' />
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.mainView.pice1DataTextPos" x="137" y="164"/>
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.mainView.pice2DataTextPos" x="353" y="164"/>
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.mainView.pice3DataTextPos" x="541" y="164"/>
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.mainView.pice4DataTextPos" x="137" y="342"/>
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.mainView.pice5DataTextPos" x="353" y="342"/>
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.mainView.pice6DataTextPos" x="541" y="342"/>
+		
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.view.tuBgPos" x="9" y="13"/>	
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.view.tu_an1Pos" x="12" y="14"/>	
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.view.tu_an2Pos" x="173" y="14"/>	
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.view.tu_an3Pos" x="370" y="14"/>	
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.view.tu_an4Pos" x="12" y="192"/>	
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.view.tu_an5Pos" x="204" y="192"/>	
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.view.tu_an6Pos" x="402" y="160"/>	
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.view.tu_liang1Pos" x="12" y="14"/>	
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.view.tu_liang2Pos" x="173" y="14"/>	
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.view.tu_liang3Pos" x="370" y="14"/>	
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.view.tu_liang4Pos" x="12" y="192"/>	
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.view.tu_liang5Pos" x="204" y="192"/>	
+		<custom classname="flash.geom.Point" stylename="treasurePuzzle.view.tu_liang6Pos" x="402" y="160"/>	
+				
+	</customs>
+	
+	<bitmaps>
+		<bitmapData resourceLink="treasurePuzzle.topBg"  x="141" y="-43"/>
+		<bitmapData resourceLink="treasurePuzzle.downBg" x="4" y="7"/>
+		<bitmapData resourceLink="treasurePuzzle.treasurePuzzletopBg" x="6" y="9"/>
+		<bitmapData resourceLink="treasurePuzzle.treasurePuzzledownBg" x="6" y="325"/>
+		
+		<bitmapData resourceLink="treasurePuzzle.redTitleBg" x="16" y="15"/>
+		<bitmapData resourceLink="treasurePuzzle.blueTitleBg" x="16" y="15"/>
+		<bitmapData resourceLink="treasurePuzzle.yellowTitleBg" x="16" y="15"/>
+		
+		
+		<bitmapData resourceLink="treasurePuzzle.view.iconTxtBg" x="-7" y="-6"  width="360"  height="285"/>
+		<bitmapData resourceLink="treasurePuzzle.view.btnBg" x="1" y="268" width="345"/>
+		
+		
+		
+	</bitmaps>
+</style>

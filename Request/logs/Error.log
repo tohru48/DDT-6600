@@ -1,0 +1,8 @@
+2025-12-07 14:24:15,073 - [19] - ERROR - Bussiness.LanguageMgr - Language file : bin\Languages\Language-br.txt not found !
+2025-12-07 14:24:43,368 - [21] - ERROR - Bussiness.Managers.ItemMgr - Init
+System.ArgumentException: Ayný anahtara sahip öðe zaten eklenmiþ.
+   konum: System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   konum: System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   konum: Bussiness.Managers.ItemMgr.LoadMagicStones(List`1 items) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\Managers\ItemMgr.cs içinde: satýr 79
+   konum: Bussiness.Managers.ItemMgr.LoadItem(Dictionary`2 infos, Dictionary`2 userBoxs) D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\Managers\ItemMgr.cs içinde: satýr 118
+   konum: Bussiness.Managers.ItemMgr.Init() D:\DDTANK\Dosyalar\DDtank_6.5\Source\Bussiness\Bussiness\Managers\ItemMgr.cs içinde: satýr 59

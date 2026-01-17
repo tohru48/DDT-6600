@@ -1,0 +1,309 @@
+<style name="roomlist" version="1.0.1" source="ui/spain/swf/RoomList.swf">
+<sets>
+	<set stylename="roomList.MovingNotificationFilter" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="roomList.pvpRoomList.frameExplainTF" args="Times New Roman,15,0x000000,true" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.IDTF" args="Arial,18,0x32291B,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.roomNameTF" args="Arial,14,0xded890" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.grayTF" args="Arial,14,0xd3c1ad" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pveRoomList.roomNameTF" args="Arial,14,0xcae8bb" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pveRoomList.roomNameTFII" args="Arial,14,0xb8b8b8" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pveRoomList.grayTF" args="Arial,16,0b8b8b8,true" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.watchPlaceCountTF" args="Arial,14,0xe1cf9a" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.placeCountTF" args="Arial,16,0xe1cf9a,true" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.placeCountTFII" args="Arial,16,0xd3c1ad,true" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.placeCountTFIII" args="Arial,14,0xd3c1ad" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.passTextTF" args="null,14,0x000000,true" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.svrnameTextTF" args="Arial,18,0xFFFFFF,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pveRoomList.placeCountTF" args="Arial,16,0xffeb8a,true" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pveRoomList.placeCountTFII" args="Arial,16,0xb8b8b8,true" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.nickNameTF" args="Arial,14,0x000000" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.playerItemNameTF" args="Arial,14,0x000000" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.consortiaNameTF" args="Arial,12,0x000000" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.reputeTF" args="Arial,14,0x333333,true" type="flash.text.TextFormat"/>
+	<set stylename="roomList.pvpRoomList.gesteTF" args="Arial,13,0x333333,true" type="flash.text.TextFormat"/>
+	
+	<set stylename="roomList.MovingNotificationTF" args="Arial,12,0xFFFF33" type="flash.text.TextFormat"/>
+	<set stylename="roomList.MovingNotificationKeyWordTF" args="Arial,12,0xFF0000" type="flash.text.TextFormat"/>
+	
+	<set stylename="asset.DungeonList.itemHardTextTF" args="Arial,14,0xffeb8a" type="flash.text.TextFormat"/>
+	<set stylename="asset.DungeonList.itemHardTextTFII" args="Arial,14,0xb8b8b8" type="flash.text.TextFormat"/>
+	<set stylename="asset.DungeonList.itemHardTextGF" args="0x162e00,1,2,2,10" type="flash.filters.GlowFilter"/>
+	<set stylename="roomList.pvpRoomList.placeCountGFII" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+	<set stylename="roomList.pveRoomList.placeCountGF" args="0x000000,1,3,3,10" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="asset.roomList.siftTF" args="Arial,14,0xd6e4ca,true" type="flash.text.TextFormat"/>
+</sets>
+<customDisplay>
+	<custom classname="roomList.pvpRoomList.RoomListPlayerItem" stylename="roomList.RoomListPlayerItemCell" />
+	<custom classname="ddt.view.common.LevelIcon" stylename="roomList.levelIcon" x="939" y="93"/>
+	<custom classname="ddt.view.common.VipLevelIcon" stylename="roomList.VipIcon" x="0" y="0"/>
+	
+	<custom classname="flash.geom.Point" stylename="roomList.MovingNotificationRoomPos" x="33" y="396"/>
+	<custom classname="flash.geom.Point" stylename="roomList.MovingNotificationDungeonPos" x="25" y="390"/>
+	<custom classname="flash.geom.Rectangle" stylename="roomList.MovingNotification.DisplayRect" x="0" y="0" width="460" height="15" />
+	<custom classname="flash.geom.Point" stylename="roomList.simpMapPos" x="224" y="24"/>
+	<custom classname="flash.geom.Point" stylename="roomList.MapShowPos" x="163" y="2"/>
+	<custom classname="flash.geom.Point" stylename="dungeonList.simpMapPos" x="13" y="10"/>
+	<custom classname="flash.geom.Point" stylename="dungeonList.MapShowPos" x="161" y="-4"/>
+	<custom classname="flash.geom.Point" stylename="roomListItem.maskPos" x="149" y="5"/>
+	<custom classname="flash.geom.Rectangle" stylename="roomList.maskRectangle" x="0" y="30" width="205" height="68" />
+	<custom classname="flash.geom.Rectangle" stylename="dungeonList.maskRectangle" x="0" y="30" width="205" height="68" />
+	<custom classname="flash.geom.Point" stylename="roomListItem.SmallBoxButtonPos" x="520" y="-4"/>
+	<custom classname="flash.geom.Point" stylename="roomList.RoomListMapTipPanel.BGSize" x="145" y="178"/>
+	<custom classname="flash.geom.Point" stylename="dungeonList.lockPos" x="147" y="14"/>
+</customDisplay>
+
+<components>
+	<!--Frame-->
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="roomList.RoomListMapTipPanel.SrollPanel" parentStyle="core.ScrollPanel" width="140" height="170" vScrollProxy="0" hScrollProxy="2"  y="3" x="1" vUnitIncrement="3"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="pvpRoomList.CreateRoomBG" resourceLink="SimpleFrameBackgound,core.ScaleBitmap001,core.scale9CornerImage1,core.scale9CornerImage1" imageRectString=",10|10|30|330|1,22|22|63|80|1,22|22|170|70|4" />
+	<component classname="roomList.pvpRoomList.RoomListCreateRoomView" backStyle="pvpRoomList.CreateRoomBG" width="310" height="410" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="1,6,1" stylename="roomList.pvpRoomList.RoomListCreateRoomView" x="300" y="100" moveEnable="true"  buttonToBottom="13" containerX = "20" containerY = "40" cancelButtonStyle="core.simplebt" submitButtonStyle="core.simplebt"/>
+	<!--Button-->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.roomList.createBtn" backStyle="asset.roomList.Create" useLogID="50" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="670" y="453" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.roomList.rivalshipBtn" backStyle="asset.roomList.rivalship" useLogID="48" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="510" y="451"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.roomList.lookupBtn" backStyle="asset.roomList.lookup" useLogID="49" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="605" y="450"/>
+	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.roomList.IDBtn" backStyle="asset.roomList.ID" x="20" y="83"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.roomList.roomNameBtn" backStyle="asset.roomList.roomName" x="80" y="83"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.roomList.roomModeBtn" backStyle="asset.roomList.roomMode" x="340" y="83"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.roomList.hardLevelBtn" backStyle="asset.roomList.hardLevel"  x="472" y="83"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.roomList.placeCountBtn" backStyle="asset.roomList.placeCount"  x="615" y="83"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.roomList.nextBtn" backStyle="asset.roomList.next" x="628" y="394"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.roomList.preBtn" backStyle="asset.roomList.pre" x="505" y="394"/>
+	
+	<!--AddFriendFrame-->
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="roomList.bg007" resourceLink="asset.core.bg007" width="98" height="25" scaleGridString="5,10,94,15"/>
+	<!--textBg-->
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="roomList.pvpRoomList.textBg" resourceLink="asset.roomList.textBg_01,asset.roomList.textBg_02" width="170"  x="90" y="84"/>
+	<!--Text-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomList.pvpRoomList.ExplainTextStyle" textFormatStyle="roomList.pvpRoomList.frameExplainTF"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" backStyle="asset.roomList.white" stylename="roomList.pvpRoomList.ExplainText" type="input" textFormatStyle="roomList.pvpRoomList.frameExplainTF" autoSize="none" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="0,0,0,0,0" x="120" y="50" width="160" height="20"  maxChars="14"/>
+
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="roomList.pvpRoomList.passTextStyle" textFormatStyle="roomList.pvpRoomList.passTextTF" />
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="roomList.pvpRoomList.passText" textStyle="roomList.pvpRoomList.passTextStyle" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="10,10,3,2,0" x="90" y="82" width="145" height="20" displayAsPassword="true" maxChars="6"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="roomList.pvpRoomList.svrnameText" textFormatStyle="roomList.pvpRoomList.svrnameTextTF" filterString="svrnameTextGF"  autoSize="none" x="661" y="31" width="83"  height="85" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomList.MovingNotificationText" textFormatStyle="roomList.MovingNotificationTF" filterString="roomList.MovingNotificationFilter" 
+		x="230" y="22" width="460" height="20" type="dynamic" autoSize="center"/>
+
+	<!--SelectedButton-->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="roomList.pvpRoomList.exploreBtn" backStyle="asset.roomList.explore" x="10" y="145" enable="false"/>
+	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="roomList.pvpRoomList.LightAthleticsBtn" backStyle="asset.roomList.light_01" x="115" y="140" displacement="false" filterString="null,null,null,null" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="roomList.pvpRoomList.passBtn" backStyle="asset.roomList.passText" useLogID="54" x="100" y="70" displacement="false" filterString="null,null,null,null" />
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="roomList.pvpRoomList.simpleSelectBtn" parentStyle="core.simpleSelectBtn" useLogID="54" displacement="false"  x="265" y="86" />
+	
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="roomList.pvpRoomList.roomListBG" parentStyle="core.Scale9CornerImage.scale9CornerImage24"  width="755" height="364" x="7" y="67" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="roomList.pvpRoomList.roomListBGII" parentStyle="core.scale9cornerImageTree" width="269" height="116"  x="492" y="430" />
+	
+	<component classname="com.pickgliss.ui.image.CloneImage" stylename="roomList.pvpRoomList.roomListItemBG" resourceLink="asset.roomList.commonBG_02" width="0" height="290" direction="1" gape="2" x="20" y="111"/>
+	
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.room.TypeBtn_A" unSelectedStyle="asset.room.TypeBtn_A_01" selectedStyle="asset.room.TypeBtn_A_02" x="10" y="243" />
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.room.TypeBtn_B" unSelectedStyle="asset.room.TypeBtn_B_01" selectedStyle="asset.room.TypeBtn_B_02" x="999999999" y="999999999" />
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.room.TypeBtn_C" unSelectedStyle="asset.room.TypeBtn_C_01" selectedStyle="asset.room.TypeBtn_C_02" x="999999999" y="999999999" />
+	<!--RoomListItem-->
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="roomList.pvpRoomList.roomListItem" resourceLink="asset.roomList.sel_01,asset.roomList.sel_02"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="roomList.pvpRoomList.mode" resourceLink="asset.roomList.roomType0,asset.roomList.roomType1" x="18" y="13"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="roomList.pvpRoomList.IDText" textFormatStyle="roomList.pvpRoomList.IDTF" autoSize="none" filterString="simpleTextIIGF" width="50" height="25" y="3"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="roomList.pvpRoomList.nameText" textFormatStyle="roomList.pvpRoomList.roomNameTF,roomList.pvpRoomList.grayTF" autoSize="none" isAutoFitLength="true" width="158" height="25" x="10" y="45" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="roomList.pvpRoomList.placeCountText" textFormatStyle="roomList.pvpRoomList.placeCountTF,roomList.pvpRoomList.placeCountTFII" filterString="roomList.pveRoomList.placeCountGF" x="168" y="44" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="roomList.pvpRoomList.watchPlaceCountText" textFormatStyle="roomList.pvpRoomList.watchPlaceCountTF,roomList.pvpRoomList.placeCountTFIII" filterString="roomList.pveRoomList.placeCountGF" x="200" y="46" />
+	
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="roomList.pvpRoomList.ItemList" x="20" y="112" spacing = "-13" />
+	
+	<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="roomList.itemContainer" x='24' y='83' hSpace='5' vSpace='2'/>
+	<!--PlayerList-->
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="roomList.pvpRoomList.playerListBG" resourceLink="asset.roomList.playerListBg_01,asset.roomList.playerListBg_02" x="765" y="9"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="roomList.pvpRoomList.nickNameText" textFormatStyle="roomList.pvpRoomList.nickNameTF" filterString="roomListTextGF" autoSize="none" width="104" height="22" isAutoFitLength="true" x="783" y="40" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="roomList.pvpRoomList.consortiaNameText" textFormatStyle="roomList.pvpRoomList.consortiaNameTF" filterString="roomListTextGF" autoSize="none" isAutoFitLength="true" width="92" height="19" x="883" y="41" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="roomList.pvpRoomList.reputeText" textFormatStyle="roomList.pvpRoomList.reputeTF" filterString="roomListTextIIGF" x="842" y="65" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="roomList.pvpRoomList.gesteText" textFormatStyle="roomList.pvpRoomList.gesteTF" filterString="roomListTextIIGF" x="939" y="67" />
+	
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="roomList.pvpRoomList.playerItemName" textFormatStyle="roomList.pvpRoomList.playerItemNameTF" filterString="roomListTextIIGF" autoSize="none" width="132" height="20" isAutoFitLength="true" x="30" y="3" />
+	
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="roomList.pvpRoomList.playerlist" parentStyle="core.ScrollPanel" width="196" height="204" x="783" y="324"/>
+	
+	<component classname="com.pickgliss.ui.controls.ListPanel" stylename="roomList.pvpRoomList.playerlistII" hScrollbarStyle="core.HScrollbar" vScrollbarStyle="core.VScrollbar" hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|roomList.RoomListPlayerItemCell,26,177" listStyle="com.pickgliss.ui.controls.list.List" width="195" height="208" x="788" y="331" hScrollProxy="2" vUnitIncrement="10"/>
+	
+	<custom classname="flash.geom.Point" stylename="roomList.playerPos" x="825" y="107"/>
+	<custom classname="flash.geom.Point" stylename="roomList.playerListPos" x="0" y="-8"/>
+	<custom classname="flash.geom.Point" stylename="dungeonList.playerListPos" x="0" y="-9"/>
+	
+	<custom classname="ddt.view.common.SexIcon" stylename="roomList.roomPlayerItem.SexIcon" size="0.8" x="153" y="2"/>
+	<custom classname="ddt.view.buff.BuffControl" stylename="asset.roomList.buff" x="787" y="260"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="roomList.RoomList.lookupBG" resourceLink="core.bg006,core.bg002,bg007,bg007" imageRectString=",9|9|39|9|4,110|137|40|27|13,110|137|78|27|13" />
+	<component classname="roomList.LookupRoomFrame" backStyle="roomList.RoomList.lookupBG" width="300" height="165" stylename="roomList.RoomList.lookupFrame" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" x="347" y="210" parentStyle="BaseFrame"  moveEnable="true" buttonToBottom="13" cancelButtonStyle = "core.simplebt" submitButtonStyle = "core.simplebt"/>
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="roomList.RoomList.IDTextinput" backStyle="SimpleInputTextStyleII" textStyle="SimpleInputTextStyleII" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="10,10,3,2,0" x="100" y="40" width="135" height="25" maxChars="3"/>
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="roomList.RoomList.passTextinput" backStyle="SimpleInputTextStyleII" textStyle="SimpleInputTextStyleII" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="10,10,3,2,0" autoSize="none" x="100" y="78" width="135" height="25" maxChars="6"/>
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="roomList.pvpRoomList.checkBoxBtn" parentStyle="core.simpleSelectBtn" displacement="false"  x="20" y="84" />
+
+	<component classname="roomList.PassInputFrame" backStyle="roomList.RoomList.passTextinpuBG" width="290" height="135" stylename="roomList.RoomList.passInputFrame" x="347" y="210" parentStyle="BaseFrame"  moveEnable="true" buttonToBottom="13" cancelButtonStyle = "core.simplebt" submitButtonStyle = "core.simplebt"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="roomList.RoomList.passTextinpuBG" resourceLink="core.bg006,core.bg002,bg007" imageRectString=",9|9|39|9|4,110|137|40|27|13" />
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="roomList.passInputFrame.passTextinput" textStyle="SimpleInputTextStyleII" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="10,10,3,2,0" x="109" y="43" width="135" height="25" maxChars="6"/>
+	<custom classname="flash.geom.Point" stylename="roomList.RoomList.pvpModelRoomListTipPanelPos" x="342" y="107"/>
+	<custom classname="flash.geom.Point" stylename="roomList.RoomList.pvphardLeveRoomListTipPanelPos" x="473" y="107"/>
+	
+	
+	<custom classname="flash.geom.Point" stylename="roomList.DungeonList.pveModelRoomListTipPanelPos" x="278" y="106"/>
+	<custom classname="flash.geom.Point" stylename="roomList.DungeonList.pveHardLeveRoomListTipPanelPos" x="347" y="104"/>
+	<custom classname="flash.geom.Point" stylename="roomList.DungeonList.pveMapRoomListTipPanelPos" x="0" y="-3"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="roomList.RoomList.tipItemBg" resourceLink="asset.roomList.tipItemBg" scaleGridString="14,13,50,37"/>
+	<custom classname="ddt.view.common.MarriedIcon" stylename="roomList.MarriedIcon" tipStyle="ddt.view.tips.MarriedTip" 	tipDirctions="7,6" tipGapV="5" tipGapH="5" x="0" y="0" />
+	
+	<custom classname="flash.geom.Point" stylename="roomList.pvpRoomList.roomListTipPanelSize"
+		x="128" y="38"/>
+	<custom classname="flash.geom.Point" stylename="roomList.pvpRoomList.roomListTipPanelSizeII"
+		x="138" y="32"/>
+	
+	<custom classname="flash.geom.Point" stylename="roomList.DungeonList.DungeonListTipPanelSizeII"
+		x="105" y="32"/>
+	<custom classname="flash.geom.Point" stylename="roomList.DungeonList.DungeonListTipPanelSizeIII"
+		x="118" y="28"/>
+	<custom classname="ddt.view.academyCommon.academyIcon.AcademyIcon" stylename="roomList.roomListPlayerItem.AcademyIcon" tipStyle="ddt.view.academyCommon.academyIcon.AcademyIconTip" tipDirctions="7,6" tipGapV="5" tipGapH="5" x="-4" y="0" />
+	<!--DungeonList-->
+	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.roomList.btnSiftReset" backStyle="asset.roomList.siftReset" x="478" y="78"/>
+	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.DungeonList.IDBtn" backStyle="asset.DungeonList.ID_PVE" x="18" y="77"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.DungeonList.roomNameBtn" backStyle="asset.DungeonList.name_PVE" x="19" y="77"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.DungeonList.roomModeBtn" backStyle="asset.DungeonList.model_PVE" x="275" y="77"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.DungeonList.hardLevelBtn" backStyle="asset.DungeonList.hardLevel_PVE"  x="566" y="77"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.DungeonList.placeCountBtn" backStyle="asset.DungeonList.placeCount_PVE"  x="678" y="77"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.DungeonList.mapBtn" backStyle="asset.DungeonList.map_PVE"  x="447" y="77"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.DungeonList.nextBtn" backStyle="asset.DungeonList.next_PVE" x="628" y="384"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.DungeonList.preBtn" backStyle="asset.DungeonList.pre_PVE" x="505" y="384"/>
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="asset.roomListPlayerItem.iconContainer" x="939" y="128" spacing="4"/>
+	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.DungeonList.createBtn" backStyle="asset.roomList.Create" useLogID="53" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="676" y="448" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.DungeonList.rivalshipBtn" backStyle="asset.roomList.rivalship" useLogID="51" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="517" y="446" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.DungeonList.lookupBtn" backStyle="asset.roomList.lookup" useLogID="52" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="615" y="445"/>
+	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.DungeonList.iconButton_02" backStyle="asset.DungeonList.iconBtn" x="220" y="82"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.DungeonList.iconButton_03" backStyle="asset.DungeonList.iconBtn" x="433" y="82"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="asset.DungeonList.itemHardTextStyle" textFormatStyle="asset.DungeonList.itemHardTextTF,asset.DungeonList.itemHardTextTFII" filterString="asset.DungeonList.itemHardTextGF" x="175" y="15"/>
+	<!--DungeonListItem-->
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="roomList.DungeonList.DungeonListItem" resourceLink="asset.DungeonList.pveSel_01,asset.DungeonList.pveSel_02"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="roomList.DungeonList.nameText" textFormatStyle="roomList.pveRoomList.roomNameTF,roomList.pveRoomList.roomNameTFII" autoSize="none" x="8" y="43" width="158" height="25" isAutoFitLength="true"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="roomList.DungeonList.placeCountText" textFormatStyle="roomList.pveRoomList.placeCountTF,roomList.pveRoomList.placeCountTFII" filterString="roomList.pveRoomList.placeCountGF" x="169" y="42"/>
+	
+	<custom classname="flash.geom.Point" stylename="roomList.DungeonList.pveMapIconPos" x="430" y="2"/>
+	<custom classname="flash.geom.Point" stylename="roomList.DungeonList.pveMapPanelPos" x="94" y="103"/>
+	<!--Frame-->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="roomList.pveRoomList.BOSSBtn" backStyle="asset.DungeonList.boss" x="120" y="143" enable="false"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="pvpRoomList.DungeonList.dungeonBtnBG" resourceLink="asset.DungeonList.dungeon,asset.roomList.light_02"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="roomList.pveRoomList.dungeonBtn" backStyle="pvpRoomList.DungeonList.dungeonBtnBG" x="10" y="138" displacement="false" filterString="null,null,null,null"/>
+	
+	<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="roomList.DungeonList.ItemList" x='27' y='102' hSpace='9' vSpace='-3'/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="roomList.LookUpView.Pass" resourceLink="asset.roomList.Pass" x="40" y="82"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="roomList.pvpRoomList.effortBtn" backStyle="asset.DungeonList.ID_PVE" x="937" y="115"/>
+	
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.roomList.bmpCbFb" backStyle="asset.roomList.siftCbBg" displacement="false" x="94" y="81"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.roomList.bmpCbHardLv" backStyle="asset.roomList.siftCbBg" displacement="false" width="107" x="346" y="81"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.roomList.txtFb" textFormatStyle="asset.roomList.siftTF" y="82"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.roomList.txtHardLv" textFormatStyle="asset.roomList.siftTF" y="82"/>
+	
+	<component stylename="serverlist.room.ServerNameText"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="serverlist.ServerNameTextFormat"
+		autoSize="none"
+		background="false"
+		x="0" y="0"
+		width="120" height="24"/>
+	
+	<custom stylename = "serverlist.room.ServerDropList"
+		classname="serverlist.view.RoomListServerDropList"
+		x="630" y="8"
+		/>
+	<component stylename="serverlist.room.CurrentServerNameText"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="serverlist.room.CurrentServerNameTextFormat"
+		align="center"
+		autoSize="none"
+		background="false"
+		buttonMode="true"
+		x="6" y="24"
+		width="100" height="24"/>
+		
+	<component stylename="serverlist.room.DropListCombo"
+		classname="com.pickgliss.ui.controls.ComboBox"
+		parentStyle="core.Combox3" selctedPropName="text" 
+		listInnerRectString="5,33,10,100,18"
+		x="1" y="21"
+		width="104" height="30" />
+	<component classname="com.pickgliss.ui.controls.ComboBox" stylename="roomList.pvpRoomList.modeMenu"
+			width="106" height="30" parentStyle="core.Combox3" selctedPropName="text" x="129" y="57"/>
+	<component stylename="serverlist.room.DropListPanel"
+		classname="com.pickgliss.ui.controls.ScrollPanel" 
+		parentStyle="core.ScrollPanel" 
+		hScrollProxy = "2"
+		vScrollProxy = "1"
+		width="120" height="96" x="5" y="25" />
+</components>
+
+<bitmaps>
+	<bitmapData resourceLink="asset.roomList.roomModelText" x="0" y="105"/>
+	<bitmapData resourceLink="asset.roomList.CreateRoomText"/>
+	<bitmapData resourceLink="asset.roomList.white" />
+	
+	<bitmapData resourceLink="asset.roomList.textBg_01"/>
+	<bitmapData resourceLink="asset.roomList.textBg_02"/>
+	
+	<bitmapData resourceLink="asset.roomList.athletics" x="120" y="145"/>
+	<bitmapData resourceLink="asset.roomList.explore"/>
+	<bitmapData resourceLink="asset.roomList.light_01"/>
+	<bitmapData resourceLink="asset.roomList.light_02"/>
+	<bitmapData resourceLink="asset.roomList.bg_01"/>
+	
+	<bitmapData resourceLink="asset.roomList.bg_01" x="8" y="215"/>
+	<bitmapData resourceLink="asset.roomList.explainText_2" x="15" y="230"/>
+	<bitmapData resourceLink="asset.roomList.passText" />
+	
+	<bitmapData resourceLink="asset.roomList.titleBg_01" x="263" y="10"/>
+	<bitmapData resourceLink="asset.roomList.titleBg_02" x="24" y="60"/>
+	<bitmapData resourceLink="asset.roomList.commonBG_01" x="20" y="395"/>
+	<bitmapData resourceLink="asset.roomList.svrname" x="656" y="13"/>
+	
+	<bitmapData resourceLink="asset.roomList.commonBG_02"/>
+	
+	<bitmapData resourceLink="asset.roomList.ID"/>
+	<bitmapData resourceLink="asset.roomList.roomName"/>
+	<bitmapData resourceLink="asset.roomList.roomMode"/>
+	<bitmapData resourceLink="asset.roomList.hardLevel"/>
+	<bitmapData resourceLink="asset.roomList.placeCount"/>
+	<bitmapData resourceLink="asset.roomList.next"/>
+	<bitmapData resourceLink="asset.roomList.pre"/>
+	
+	<bitmapData resourceLink="asset.roomList.mode_0"/>
+	<bitmapData resourceLink="asset.roomList.mode_01"/>
+	<bitmapData resourceLink="asset.roomList.mode_02"/>
+	
+	<bitmapData resourceLink="asset.roomList.NAN" x="480" y="-3"/>
+	<bitmapData resourceLink="asset.roomList.lock" x="117" y="16"/>
+	
+	<bitmapData resourceLink="asset.roomList.playerListBg_01" x="-1" y="-3"/>
+	<bitmapData resourceLink="asset.roomList.playerListBg_02"/>
+	
+	<bitmapData resourceLink="asset.roomList.Pass" x="75" y="75"/>
+	<bitmapData resourceLink="asset.roomList.inputID" x="15" y="40" />
+	<bitmapData resourceLink="asset.roomList.gray" x="111" y="80" />
+	<bitmapData resourceLink="asset.roomList.inputPass" x="26" y="40"/>
+	<!--DungeonList-->
+	<bitmapData resourceLink="asset.DungeonList.DungeonListBG"/>
+	<bitmapData resourceLink="asset.DungeonList.dungeon" x="5" y="5"/>
+	<bitmapData resourceLink="asset.DungeonList.explainText_1" x="15" y="230"/>
+	<bitmapData resourceLink="asset.roomList.hardLevel_0" x="-10" y="2"/>
+	<bitmapData resourceLink="asset.roomList.txtImage" x="20" y="50"/>
+	<bitmapData resourceLink="asset.roomList.commonBG_03" x="22" y="388"/>
+	<bitmapData resourceLink="asset.DungeonList.itemMask" x="164" y="3"/>
+	
+	<bitmapData resourceLink="asset.roomList.siftBg" x="17" y="76"/>
+	<bitmapData resourceLink="asset.roomList.siftFb" x="28" y="81"/>
+	<bitmapData resourceLink="asset.roomList.siftHardLv" x="280" y="81"/>
+	
+	<bitmapData resourceLink="asset.serverlist.RoomListBG" x="2" y="3"/>
+	</bitmaps>
+</style> 

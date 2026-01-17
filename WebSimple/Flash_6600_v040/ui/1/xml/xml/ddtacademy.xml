@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtacademy" version="1.0.1" source="ui/turkey/swf/ddtacademy.swf"> 
+  <sets> 
+    <!-- AcademyPlayerPanel -->  
+    <!-- 
+	 <set stylename="academy.register.MatrimonyFieldGF" args="0x0066ff,1,3,3,10,1" type="flash.filters.GlowFilter" />
+ -->  
+    <set stylename="academy.AcademyPlayerPanel.TextAreaInputTF" args="Arial,14,0x512e1a" type="flash.text.TextFormat"/>  
+    <!-- 资料 -->  
+    <set stylename="academy.ddtAcademyPlayerPanel.guildNameTF" args="Arial,14,0xffffff," type="flash.text.TextFormat"/>  
+    <set stylename="academy.ddtAcademyPlayerPanel.guildNameFilter" args="0x7e4e23,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!--AcademyMemberListView-->  
+    <!-- 搜索 -->  
+    <set stylename="ddtacademy.searchTF" args="Arial,10,0xfff8d6," type="flash.text.TextFormat"/>  
+    <set stylename="ddtacademy.searchGF" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtacademy.searchBtnTF" args="Arial,14,0xfff1b0,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtacademy.searchBtnGF" args="0x771c00,1,4,4,400" type="flash.filters.GlowFilter"/>  
+    <!-- 列表 -->  
+    <set stylename="ddtacademy.TFList" args="Arial,14,0xffea9c,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtacademy.GFList" args="0x4f3700,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="academy.AcademyMemberListView.pageTF" args="Arial,12,0xfff8d6,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="academy.AcademyMemberListView.pageGF" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!-- 按钮 -->  
+    <set stylename="ddtacademy.TF1" args="Arial,14,0xfff6a8,ture" type="flash.text.TextFormat" letterSpacing="2"/>  
+    <set stylename="ddtacademy.GF1" args="0x715008,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!--AcademyMemberItem-->  
+    <set stylename="academy.AcademyMemberItem.NameTF" args="Arial,14,0xffffff,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="academy.AcademyMemberItem.NameGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="academy.AcademyMemberItem.fightPowerTxtTF" args="Arial,14,0x000000,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="academy.AcademyMemberItem.fightPowerTxtGF" args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtacademy.TF1_2" args="Arial,11,0xfff6a8,ture,,,,,center" type="flash.text.TextFormat"/>
+    <set stylename="ddtacademy.TF1_1" args="Arial,11,0xfff6a8,ture" type="flash.text.TextFormat"/>
+  </sets>  
+  <customDisplay> 
+    <!-- AcademyPlayerPanel -->  
+    <custom classname="flash.geom.Point" stylename="academy.AcademyMemberListView" x="207" y="207"/>  
+    <custom classname="flash.geom.Point" stylename="academy.AcademyMemberListViewII" x="170" y="170"/>  
+    <custom classname="flash.geom.Point" stylename="academy.view.AcademyMemberListViewPos" x="-7" y="0"/>  
+    <!-- leftBg2 -->  
+    <custom classname="flash.geom.Point" stylename="ddtacademy.academyleftBg2Pos" x="29" y="68"/>  
+    <!-- 小图标 -->  
+    <custom classname="ddt.view.common.VipLevelIcon" stylename="academy.playerPanel.VipIcon" x="218" y="159"/>  
+    <custom classname="ddt.view.common.MarriedIcon" stylename="academy.playerPanel.MarriedIcon" tipStyle="ddt.view.tips.MarriedTip" tipDirctions="7" tipGapV="5" tipGapH="5" x="220" y="192"/>  
+    <custom classname="ddt.view.common.LevelIcon" stylename="academy.AcademyPlayerPanel.levelIcon" x="218" y="124"/>  
+    <custom classname="ddt.view.common.LevelIcon" stylename="academy.AcademyMemberItem.levelIcon" x="185" y="4"/>  
+    <custom classname="flash.geom.Point" stylename="academy.view.AcademyPlayerPanel.playerPos" x="194" y="130"/>  
+    <!-- text -->  
+    <custom classname="flash.geom.Point" stylename="academy.view.AcademyView.text1pos" x="400" y="131"/>  
+    <custom classname="flash.geom.Point" stylename="academy.view.AcademyView.text2pos" x="400" y="180"/>  
+    <custom classname="flash.geom.Point" stylename="academy.view.AcademyView.text3pos" x="400" y="233"/>  
+    <custom classname="flash.geom.Point" stylename="academy.view.AcademyView.text4pos" x="370" y="112"/>  
+    <custom classname="flash.geom.Point" stylename="academy.view.AcademyView.text5pos" x="398" y="136"/>  
+    <custom classname="flash.geom.Point" stylename="academy.view.AcademyView.text6pos" x="331" y="162"/>  
+    <custom classname="flash.geom.Point" stylename="academy.view.AcademyView.textLablepos" x="281" y="97"/>  
+    <!--AcademyMemberListView-->  
+    <custom classname="flash.geom.Point" stylename="AcademyMemberListView.rightListBg" x="531" y="108"/>  
+    <!-- 背景 -->  
+    <custom classname="flash.geom.Point" stylename="asset.ddtAcademy.bigBgPos" x="13" y="47"/> 
+  </customDisplay>  
+  <components> 
+    <!--AcademyPlayerPanel-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.TextAreaDy" textFormatStyle="academy.AcademyPlayerPanel.TextAreaInputTF" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="academy.AcademyPlayerPanel.IntroductionText" parentStyle="core.SimpleTextArea" textStyle="academy.AcademyPlayerPanel.TextAreaDy" vScrollProxy="1" x="276" y="260" width="192" height="55" vUnitIncrement="10"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.AcademyPlayerPanel.leftBg" parentStyle="core.Scale9CornerImage.redBgGoldLine" x="23" y="61" width="474" height="316"/>  
+    <!-- text -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.PlayerNameII" textFormatStyle="academy.AcademyMemberItem.NameTF" filterString="academy.AcademyMemberItem.NameGF" autoSize="none" isAutoFitLength="true" x="45" y="78" width="137" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.guildName" textFormatStyle="academy.ddtAcademyPlayerPanel.guildNameTF" filterString="academy.ddtAcademyPlayerPanel.guildNameFilter" x="385" y="214" width="135" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.repute" textFormatStyle="academy.ddtAcademyPlayerPanel.guildNameTF" filterString="academy.ddtAcademyPlayerPanel.guildNameFilter" x="395" y="232" width="70" height="17" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.winProbabilityTxt" textFormatStyle="academy.ddtAcademyPlayerPanel.guildNameTF" filterString="academy.ddtAcademyPlayerPanel.guildNameFilter" x="373" y="130" width="63" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.fightPowerTxt" textFormatStyle="academy.ddtAcademyPlayerPanel.guildNameTF" filterString="academy.ddtAcademyPlayerPanel.guildNameFilter" x="388" y="111" width="63" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.honourOfMasterTxt" textFormatStyle="academy.ddtAcademyPlayerPanel.guildNameTF" filterString="academy.ddtAcademyPlayerPanel.guildNameFilter" x="365" y="191" width="63" height="22" type="dynamic"/>  
+    <!-- 信息 -->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="academy.ddtAcademyPlayerPanel.textLableBg" resourceLink="asset.ddtacademy.textLableBg,asset.ddtacademy.textLableBgII" x="281" y="111"/>  
+    <!-- 拜师收徒 -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="requestMasterBtnImage" resourceLink="core.bg6899,asset.ddtAcademyPlayerPanel.requestMaster" imageRectString=",44|142|6|34|13" width="233" height="50"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.ddtAcademyPlayerPanel.requestMasterBtn" backStyle="requestMasterBtnImage" enable="false" x="33" y="319"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="requestApprenticeBtnImage" resourceLink="core.bg6908,asset.ddtAcademyPlayerPanel.requestApprentice" imageRectString=",6|215|6|37|13" width="233" height="50"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.ddtAcademyPlayerPanel.requestApprenticeBtn" backStyle="requestApprenticeBtnImage" enable="false" x="33" y="319"/>  
+    <!-- 四个按钮 -->  
+    <!-- 查看装备 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtacademy.equipTxt" textFormatStyle="ddtacademy.TF1_2" filterString="ddtacademy.GF1" autoSize="none" x="0" y="0" width="90" height="40" type="dynamic" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academy.ddtAcademyPlayerPanel.equipBtn" backStyle="core.bg6905" textStyle="asset.ddtacademy.equipTxt" backgoundInnerRectString="5,40,7,9,-1" filterString="null,lightFilter,null,grayFilter" x="374" y="277"/>  
+    <!-- 私聊 -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtacademy.talkBtn" resourceLink="core.bg6905,core.talkImage" imageRectString="0|90|0|44|13,11|21|13|19|13"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtacademy.talkTxt" textFormatStyle="ddtacademy.TF1_1" filterString="ddtacademy.GF1" autoSize="none" x="0" y="0" width="90" height="40" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academy.ddtAcademyPlayerPanel.talkBtn" backStyle="ddtacademy.talkBtn" textStyle="asset.ddtacademy.talkTxt" backgoundInnerRectString="34,15,7,12,-1" filterString="null,lightFilter,null,grayFilter" x="281" y="277"/>  
+    <!-- 加为好友 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtacademy.addTxt" textFormatStyle="ddtacademy.TF1_2" filterString="ddtacademy.GF1" autoSize="none" x="0" y="0" width="78" height="40" type="dynamic" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academy.ddtAcademyPlayerPanel.addBtn" backStyle="core.bg6905" textStyle="asset.ddtacademy.addTxt" backgoundInnerRectString="12,26,7,9,-1" filterString="null,lightFilter,null,grayFilter" x="374" y="318"/>  
+    <!-- 求婚 -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtacademy.courtshipBtn" resourceLink="core.bg6905,core.redHeart" imageRectString="0|90|0|44|13,9|21|15|19|13"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtacademy.courtshipTxt" textFormatStyle="ddtacademy.TF1_1" filterString="ddtacademy.GF1" autoSize="none" x="0" y="0" width="90" height="20" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academy.ddtAcademyPlayerPanel.courtshipBtn" backStyle="ddtacademy.courtshipBtn" textStyle="asset.ddtacademy.courtshipTxt" backgoundInnerRectString="33,16,15,11,-1" filterString="null,lightFilter,null,grayFilter" x="281" y="318"/>  
+    <!--AcademyMemberListView-->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.ddtAcademyPlayerPanel.rightBg" parentStyle="core.Scale9CornerImage.redBgGoldLine" x="519" y="95" width="465" height="423"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtacademy.ApprenticeTitle" resourceLink="core.bg6911,asset.ddtacademy.ApprenticeTitleTxt" x="0" y="0" imageRectString=",20|97|12|24|13" width="135" height="40"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtacademy.ApprenticeTitleBg" backStyle="ddtacademy.ApprenticeTitle" x="529" y="56"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtacademy.MasterTitle" resourceLink="asset.core.btmc005,asset.ddtacademy.MasterTitleTxt" x="0" y="0" imageRectString=",18|103|7|28|13" width="140" height="40"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.ddtacademy.MasterTitleBg" backStyle="ddtacademy.MasterTitle" x="529" y="60"/>  
+    <!-- 
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="academy.AcademyMemberListView.GenderBtnContainer" spacing="9" x="540" y="89"/>
+	 -->  
+    <!-- 搜索 -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtacademy.searchBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="146" height="26" x="759" y="66"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtacademy.searchTextStyle" textFormatStyle="ddtacademy.searchTF" filterString="ddtacademy.searchGF" multiline="false" wordwrap="false" autoSize="none"/>  
+    <component classname="com.pickgliss.ui.controls.TextInput" stylename="academy.ddtAcademyMemberListView.searchText" textStyle="ddtacademy.searchTextStyle" x="765" y="71" autoSize="none" width="130" height="20" maxChars="14" multiline="false" wordwrap="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtacademy.equipBtnTxt" textFormatStyle="ddtacademy.searchBtnTF" filterString="ddtacademy.searchBtnGF" autoSize="none" x="8" y="5" width="78" height="20" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academy.ddtAcademyMemberListView.searchBtn" backStyle="asset.core.btmc018" textStyle="asset.ddtacademy.equipBtnTxt" backgoundInnerRectString="20,24,7,11,-1" filterString="null,lightFilter,null,grayFilter" x="910" y="62"/>  
+    <!--AcademyMemberItem-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyMemberItem.nameTxt" textFormatStyle="academy.AcademyMemberItem.NameTF" filterString="academy.AcademyMemberItem.NameGF" autoSize="none" isAutoFitLength="true" type="dynamic" x="7" y="6" width="145" height="22"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyMemberItem.fightPowerTxt" textFormatStyle="academy.AcademyMemberItem.fightPowerTxtTF" filterString="academy.AcademyMemberItem.fightPowerTxtGF" autoSize="none" type="dynamic" x="212" y="7" width="113" height="22"/>  
+    <!-- 列表框 -->  
+    <!-- 内容 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtacademy.nameTitle" textFormatStyle="ddtacademy.TFList" filterString="ddtacademy.GFList" autoSize="none" isAutoFitLength="true" x="591" y="116" width="50" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtacademy.levelTitle" textFormatStyle="ddtacademy.TFList" filterString="ddtacademy.GFList" autoSize="none" isAutoFitLength="true" x="708" y="116" width="50" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtacademy.fightpowerTitle" textFormatStyle="ddtacademy.TFList" filterString="ddtacademy.GFList" autoSize="none" isAutoFitLength="true" x="777" y="116" width="50" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtacademy.stateTitle" textFormatStyle="ddtacademy.TFList" filterString="ddtacademy.GFList" autoSize="none" isAutoFitLength="true" x="885" y="116" width="50" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="academy.AcademyMemberListView.state_icon" resourceLink="asset.ddtacademy.online_Asset,asset.ddtacademy.offlineAsset" x="319" y="8"/>  
+    <!-- 小分割线 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtacademy.formIine1" resourceLink="asset.corel.formLine" x="149" y="4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtacademy.formIine2" resourceLink="asset.corel.formLine" x="222" y="4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtacademy.formIine3" resourceLink="asset.corel.formLine" x="301" y="4"/>  
+    <!-- 表格行底 -->  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="ddtacademy.rightview.signalLineBg1bg" parentStyle="core.ScaleleftrightImage.lineBg3" width="429" height="20"/>\ 
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="ddtacademy.rightview.signalLineBg2bg" parentStyle="core.ScaleleftrightImage.lineBg2" width="429" height="20"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtacademy.rightview.signalLineBg" resourceLink="ddtacademy.rightview.signalLineBg1bg,ddtacademy.rightview.signalLineBg2bg"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="academy.ddtAcademyMemberListView.itemEffect" resourceLink="core.Scale9CornerImage.scale9CornerSparkBG" width="438" height="36" x="-5" y="-4"/>  
+    <!-- 标题分割线 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtacademy.formIineBig1" resourceLink="asset.corel.formLineBig" x="687" y="110"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtacademy.formIineBig2" resourceLink="asset.corel.formLineBig" x="760" y="110"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtacademy.formIineBig3" resourceLink="asset.corel.formLineBig" x="838" y="110"/>  
+    <!-- 内容显示 -->  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="academy.AcademyMemberListView.List" spacing="-3" x="538" y="148" height="100"/>  
+    <!-- 翻页-->  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.ddtAcademyMemberListView.preBtn" backStyle="asset.ddtcore.leftBtn" x="545" y="464"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.ddtAcademyMemberListView.nextBtn" backStyle="asset.ddtcore.rightBtn" x="688" y="464"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyMemberListView.page" textFormatStyle="academy.AcademyMemberListView.pageTF" filterString="academy.AcademyMemberListView.pageGF" x="595" y="467" autoSize="none" width="96" height="22" type="dynamic" text="1/1" aotuSize="none"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtacademy.pageLastBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="85" height="20" x="600" y="465"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtacademy.pagePreBg" resourceLink="asset.core.pagePreBg" width="210" height="40" x="541" y="455"/>  
+    <!-- 按钮 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.AcademyMemberListView.freeBtnTxt" textFormatStyle="ddtacademy.TF1_1" filterString="ddtacademy.GF1" autoSize="none" x="0" y="0" width="78" height="20" type="dynamic" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academy.AcademyMemberListView.freeBtn" backStyle="core.simplebtbg" textStyle="asset.AcademyMemberListView.freeBtnTxt" backgoundInnerRectString="10,11,10,3,-1" filterString="null,lightFilter,null,grayFilter" x="752" y="458"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="takeMasterTxt" resourceLink="core.bg6899,asset.ddtacademy.takeMasterTxt" imageRectString=",29|76|4|33|13" width="118" height="42"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.ddtAcademyMemberListView.takeMasterBtn" backStyle="takeMasterTxt" x="852" y="455"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="takeStudentTxt" resourceLink="core.bg6908,asset.ddtacademy.takeStudentTxt" imageRectString=",21|73|5|31|13" width="118" height="42"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.ddtAcademyMemberListView.takeStudentBtn" backStyle="takeStudentTxt" x="852" y="455"/> 
+  </components>  
+  <bitmaps> 
+    <!-- 标题 -->  
+    <bitmapData resourceLink="asset.ddtacademy.academyTitleAsset" x="211" y="-2"/>  
+    <!--AcademyPlayerPanel-->  
+    <bitmapData resourceLink="asset.academy.online" x="426" y="94" visible="false"/>  
+    <!-- 资料 -->  
+    <bitmapData resourceLink="asset.ddtacademy.dataImage" x="284" y="65"/>  
+    <!--AcademyMemberListView--> 
+  </bitmaps> 
+</style>

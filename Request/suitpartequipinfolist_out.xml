@@ -1,0 +1,45 @@
+<Result value="true" message="Success!">
+  <item ID="1" ContainEquip="7050,70501,70502,70503" PartName="WOW- Samurai" />
+  <item ID="1" ContainEquip="5583,5696" PartName="giáp kiến(S)" />
+  <item ID="1" ContainEquip="1801,1701" PartName="mũ kiến(S)" />
+  <item ID="2" ContainEquip="7045,70451,70452,70453" PartName="wow-kem" />
+  <item ID="2" ContainEquip="5584,5697" PartName="Áo Halloween(S)" />
+  <item ID="2" ContainEquip="1804,1703" PartName="Nón Halloween (S)" />
+  <item ID="3" ContainEquip="2277,2177" PartName="Trái tim dâu tây (S)" />
+  <item ID="3" ContainEquip="3301,3405" PartName="Phong cách độc thân(S)" />
+  <item ID="3" ContainEquip="5371,5471" PartName="Tuổi trẻ ngọt ngào(S)" />
+  <item ID="4" ContainEquip="7048,70481,70482,70483" PartName="WOW-Photocopy" />
+  <item ID="4" ContainEquip="5591,5804" PartName="Áo học sinh (S)" />
+  <item ID="4" ContainEquip="6191,6297" PartName="Học sinh ngây thơ (S)" />
+  <item ID="5" ContainEquip="7060,70601,70602,70603" PartName="wow-noel" />
+  <item ID="5" ContainEquip="15038" PartName="Ông Gà Noel (S)" />
+  <item ID="5" ContainEquip="13525" PartName="Người tuyết baby (S)" />
+  <item ID="6" ContainEquip="5708,5823" PartName="Hoàng Bào(S)" />
+  <item ID="6" ContainEquip="1729,1828" PartName="Hoàng Khôi (S)" />
+  <item ID="7" ContainEquip="5710,5824" PartName="Áo Công Chúa Gà (S)" />
+  <item ID="7" ContainEquip="1730,1830" PartName="Nón Hoàng Tử Gà  (S)" />
+  <item ID="8" ContainEquip="1174,1274" PartName="Nón Lạc Việt (S)" />
+  <item ID="8" ContainEquip="5155,5254" PartName="Áo Lạc Việt (S)" />
+  <item ID="8" ContainEquip="7073,70731,70732,70733" PartName="Wow-Hoả Phụng Kích" />
+  <item ID="9" ContainEquip="1755" PartName="Dã lang" />
+  <item ID="9" ContainEquip="5728" PartName="Dã lang" />
+  <item ID="10" ContainEquip="1854" PartName="Thiên ưng" />
+  <item ID="10" ContainEquip="5843" PartName="Thiên ưng" />
+  <item ID="11" ContainEquip="7095,70951,70952,70953,70954" PartName="Legend-Gươm Thần" />
+  <item ID="11" ContainEquip="5731,5846" PartName="Khải Hoàn Bào (S)" />
+  <item ID="11" ContainEquip="1757,1858" PartName="Khải Hoàn Khôi (S)" />
+  <item ID="12" ContainEquip="13668" PartName="Captain America" />
+  <item ID="12" ContainEquip="17012" PartName="Khiên Captain" />
+  <item ID="13" ContainEquip="8317" PartName="Bao tay Athena +3" />
+  <item ID="13" ContainEquip="8317" PartName="Bao tay Athena +3" />
+  <item ID="14" ContainEquip="8417" PartName="Bao tay Athena +4" />
+  <item ID="14" ContainEquip="8417" PartName="Bao tay Athena +4" />
+  <item ID="15" ContainEquip="8517" PartName="Bao tay Athena +5" />
+  <item ID="15" ContainEquip="8517" PartName="Bao tay Athena +5" />
+  <item ID="16" ContainEquip="9328" PartName="Nhẫn Athena +3" />
+  <item ID="16" ContainEquip="9328" PartName="Nhẫn Athena +3" />
+  <item ID="17" ContainEquip="9428" PartName="Nhẫn Athena +4" />
+  <item ID="17" ContainEquip="9428" PartName="Nhẫn Athena +4" />
+  <item ID="18" ContainEquip="9528" PartName="Nhẫn Athena +5" />
+  <item ID="18" ContainEquip="9528" PartName="Nhẫn Athena +5" />
+</Result>

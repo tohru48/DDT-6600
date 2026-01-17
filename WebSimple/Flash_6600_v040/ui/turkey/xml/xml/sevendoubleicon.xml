@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="sevendoubleicon" version="5.1.0" source="ui/turkey/swf/sevendoubleicon.swf"> 
+  <components> 
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="sevenDouble.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" width="370" height="376"/>  
+    <component classname="store.HelpPrompt" stylename="sevenDouble.HelpPrompt" bg9ScalseStyle="sevenDouble.HelpFrame.FrameBg" contentStyle="asset.sevenDouble.helpPromptTxt" x="180" y="213"/>  
+    <component classname="store.HelpFrame" stylename="sevenDouble.HelpFrame" parentStyle="BaseFrame" width="404" height="484"/> 
+  </components> 
+</style>

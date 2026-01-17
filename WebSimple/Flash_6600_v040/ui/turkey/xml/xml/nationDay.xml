@@ -1,0 +1,43 @@
+<style name="nationDay" version="1.0.1" source="ui/turkey/swf/nationDay.swf">
+	<sets>
+		<set stylename="nationDay.TimeFieldTF" args="Arial,14,0xffffc8,true" type="flash.text.TextFormat" />
+		<set stylename="nationDay.TimeFieldGF" args="0x0,1,2,2,10" type="flash.filters.GlowFilter"/>
+	
+		<set stylename="nationDay.DescriptionTF" args="Arial,12,0xffd878,true" type="flash.text.TextFormat" leading="5"/>
+		<set stylename="nationDay.DescriptionGF" args="0x532100,1,2,2,10" type="flash.filters.GlowFilter"/>
+	
+		<set stylename="nationDay.wordNumTF" args="Arial,12,0xffffff" type="flash.text.TextFormat" align="right"/>
+		<set stylename="nationDay.wordNumGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+	</sets>
+	<customs>
+		<!-- 国庆兑换 -->
+		<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="nationDay.haveGoodsBox1" x='164' y='192' hSpace='60'/>
+		<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="nationDay.haveGoodsBox2" x='164' y='256' hSpace='60' vSpace="49" />
+		<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="nationDay.haveGoodsBox3" x='164' y='369' hSpace='60' vSpace="50" />
+		<custom classname="flash.geom.Point" stylename="nationDay.fireworkPos1" x="488" y="189" />
+		<custom classname="flash.geom.Point" stylename="nationDay.fireworkPos2" x="488" y="280" />
+		<custom classname="flash.geom.Point" stylename="nationDay.fireworkPos3" x="488" y="414" />
+		<custom classname="flash.geom.Point" stylename="nationDay.fireworkPlayPos0" x="-273" y="-124" />
+		<custom classname="flash.geom.Point" stylename="nationDay.fireworkPlayPos1" x="-273" y="-124" />
+		<custom classname="flash.geom.Point" stylename="nationDay.fireworkPlayPos2" x="-273" y="-274" />
+	</customs>
+	<components>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="nationDay.actTime" 
+			textFormatStyle="nationDay.TimeFieldTF" filterString="nationDay.TimeFieldGF" autoSize="none" 
+			x="230" y="115" width="200" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="nationDay.description" 
+			textFormatStyle="nationDay.DescriptionTF" filterString="nationDay.DescriptionGF" 
+			x="234" y="143" width="345" height="20" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="nationDay.wordNum" 
+			textFormatStyle="nationDay.wordNumTF" filterString="nationDay.wordNumGF" 
+			x="0" y="24" width="40" height="20" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="nationDay.closeBtn"
+			backStyle="asset.activity.closeBtn"  x="547" y="33"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="nationDay.getAwardBtn" 
+			backStyle="asset.activity.getAwardBtn"/>
+	</components>
+	<bitmaps>
+		<bitmapData resourceLink="asset.activity.wordBg" width="45" height="45"/>
+	</bitmaps>
+
+</style>

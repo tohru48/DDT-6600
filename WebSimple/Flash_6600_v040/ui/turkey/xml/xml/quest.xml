@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="quest" version="1.0.0" source="ui/turkey/swf/quest.swf"> 
+  <sets> 
+    <!--TextFormat args:font,size,color,bold,italic,underline,url,target,align,leftMargin,rightMargin, indent:Object = null, leading:Object = null-->  
+    <set type="flash.text.TextFormat" stylename="core.quest.QuestConditionTextFormat" args="Arial,11,0xFFFFFF,true"/>  
+    <set type="flash.text.TextFormat" stylename="core.quest.QuestConditionStatusFormat" args="Arial,12,0x76fff7,true"/>  
+    <set type="flash.text.TextFormat" stylename="core.quest.QuestInfoDescFormat" letterSpacing="0" leading="6" args="Arial,14,0xffecc2"/>  
+    <set args="Arial,11,0xffffff" stylename="personalInfoCheckBoxTextTF" type="flash.text.TextFormat"/>  
+    <set type="flash.text.TextFormat" stylename="core.quest.QuestItemRewardNameFormat" args="Arial,12,0xffea9c"/>  
+    <set type="flash.text.TextFormat" stylename="core.quest.MCQuestRewardTypeTF" args="Arial,14,0xfff000,true"/>  
+    <set type="flash.text.TextFormat" stylename="core.quest.QuestItemRewardQuantityFormat" args="Arial,14,0xFFFFFF,true"/>  
+    <set type="flash.text.TextFormat" stylename="asset.tryOnTxtTF" args="Arial,14,0xFFFF00,true"/>  
+    <set type="flash.text.TextFormat" stylename="core.quest.NewQuestSubTitleFormat" args="Arial,14,0xFFFF00,true"/>  
+    <set type="flash.text.TextFormat" stylename="core.quest.NewQuestTitleFormat" args="Arial,16,0xFFFFFF,true"/>  
+    <!--QuestItem:normal,normal selected,highlighted,highlighted selected-->  
+    <!--任务列表中的任务名-->  
+    <set type="flash.text.TextFormat" args="Arial,12,0xfff0b5,true" align="center" stylename="core.quest.QuestItemTitleFormatNormal"/>  
+    <set type="flash.text.TextFormat" args="Arial,12,0xff5400,true" align="center" stylename="core.quest.QuestItemTitleFormatSelected"/>  
+    <set type="flash.text.TextFormat" args="Arial,12,0x3fe6ff,true" align="center" stylename="core.quest.QuestItemTitleFormatHighlighted"/>  
+    <set type="flash.text.TextFormat" args="Arial,12,0x3fe6ff,true" align="center" stylename="core.quest.QuestItemTitleFormatHighlightedSelected"/>  
+    <set type="flash.text.TextFormat" stylename="core.quest.infoCollect.AlertFormat2" args="Arial,12,0xFF0000,true" align="left" letterSpacing="2"/>  
+    <set type="flash.filters.GlowFilter" args="0x4f2700,2,4,4,30" stylename="core.quest.MCQuestRewardTypeGF"/>  
+    <set type="flash.filters.GlowFilter" args="0x411212,2,4,4,30" stylename="core.quest.QuestItemRewardNameGF"/>  
+    <set type="flash.filters.GlowFilter" args="0x3c230f,2,4,4,30" stylename="core.quest.QuestItemTitleFilterGray"/>  
+    <set type="flash.filters.GlowFilter" args="0x663518,2,4,4,30" stylename="core.quest.QuestItemTitleFilterNormal"/>  
+    <set type="flash.filters.GlowFilter" args="0xFFFFFF,2,4,4,30" stylename="core.quest.QuestItemTitleFilterSelected"/>  
+    <set type="flash.filters.GlowFilter" args="0x543500,2,4,4,30" stylename="core.quest.QuestItemTitleFilterHighlighted"/>  
+    <set type="flash.filters.GlowFilter" args="0x543500,2,4,4,30" stylename="core.quest.QuestItemTitleFilterHighlightedSelected"/>  
+    <set type="flash.filters.GlowFilter" args="0x4f2700,2,4,4,30" stylename="asset.tryOnTxtGF"/>  
+    <set type="flash.filters.GlowFilter" args="0x4f2700,2,4,4,30" stylename="core.quest.QuestFilterBlack_2_1000"/>  
+    <set type="flash.filters.GlowFilter" args="0x512800,2,4,4,30" stylename="core.quest.QuestInfoDescGF"/>  
+    <set type="flash.filters.GlowFilter" args="0x3c230f,2,4,4,30" stylename="core.quest.QuestFilterBlack_2_300"/>  
+    <set type="flash.filters.GlowFilter" args="0x000000,1,3,3,10.00" stylename="core.quest.QuestFilterBlack_3_1000"/>  
+    <set type="flash.filters.GlowFilter" args="0xFF6C00,1,8,8,2.6" stylename="core.quest.QuestFilterBrown_8_200"/>  
+    <set type="flash.text.TextFormat" stylename="core.quest.infoCollect.InputFormat" args="Arial,14,0xFFFFFF,true" align="left"/>  
+    <set type="flash.text.TextFormat" stylename="core.quest.infoCollect.LabelFormat" args="Arial,14,0xFFFFFF,true" align="right"/>  
+    <set type="flash.text.TextFormat" stylename="core.quest.infoCollect.AlertFormat" args="Arial,12,0xFF0000,true" align="right"/>  
+    <!-- VIP提示 -->  
+    <set stylename="quest.vipDescTxtTF" args="Arial,10,0xfff000" type="flash.text.TextFormat"/>  
+    <set stylename="quest.vipDescTxtGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <!--一键完成-->  
+    <set stylename="quest.complete.buttonText" args="Arial,12,0xd9ffff,true" type="flash.text.TextFormat" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="ddtcalendar.CalendarGrid.GetButtonTextTF" filterString="ddtcalendar.CalendarGrid.GetButtonTextGF"/>  
+    <set stylename="ddtcalendar.CalendarGrid.GetButtonTextTF" args="Arial,12,0xe3ffb4,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.CalendarGrid.GetButtonTextGF" args="0x006255,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtcalendar.DownLoad.GetButtonTextTF" args="Arial,14,0xf8ffae,true" letterSpacing="0" type="flash.text.TextFormat"/>  
+    <set stylename="ddtcalendar.DownLoad.GetButtonTextGF" args="0x624500,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!-- 任务托管 -->  
+    <set type="flash.text.TextFormat" stylename="trusteeship.spiritValueTxt.tf" args="Arial,12,0xfff6c9,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="trusteeship.spiritValueTxt.gf" args="0x3f1e08,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="trusteeship.speedUpTipTxt.tf" args="Arial,14,0xffd843"/>  
+    <set type="flash.filters.GlowFilter" stylename="trusteeship.speedUpTipTxt.gf" args="0x471e00,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="trusteeship.speedUpTimeTxt.tf" args="Arial,12,0xfffaad"/>  
+    <set type="flash.filters.GlowFilter" stylename="trusteeship.speedUpTimeTxt.gf" args="0x471e00,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="trusteeship.startCancelTxt.tf" args="Arial,13,0xe3ffb4,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="trusteeship.startCancelTxt.gf" args="0x006255,1,4,4,30"/>  
+    <set stylename="quest.complete.yellowButtonTextTF" args="Arial,14,0xf8ffae,true" letterSpacing="1" type="flash.text.TextFormat"/>  
+    <set stylename="quest.complete.yellowButtonTextGF" args="0x624500,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="quest.complete.yellowButtonTextGF2" args="0x551f01,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set type="flash.text.TextFormat" stylename="core.quest.QuestItemIncreaseRewardQuantityFormat" args="Arial,11,0xFFFFFF,true"/>
+    <set type="flash.text.TextFormat" stylename="core.quest.MCQuestIncreaseRewardTypeTF" args="Arial,11,0xfff000,true"/>
+    <set args="Arial,12,0xffffff" stylename="personalInfoCheckBoxTitleTextTF" type="flash.text.TextFormat"/>
+  </sets>  
+  <components> 
+    <component classname="quest.TaskMainFrame" stylename="QuestFrame" backStyle="SimpleFrameBackgound" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="18,9,5" moveEnable="false" escEnable="true" closestyle="core.closebt" closeInnerRectString="44,19,6,30,14" x="140" y="20" width="770" height="563"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="quest.rightBottomBgImg" parentStyle="asset.core.btmBimap" x="302" y="480" width="438" height="55"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="quest.questinfoPanelView.vbox" spacing="5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="quest.getAwardBtnBg" resourceLink="core.BigRedButton,asset.core.quest.QuestOverBtn" imageRectString="0|178|0|47|13,30|118|6|35|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="quest.goDungeonBtnBg" resourceLink="core.bg6908,asset.core.quest.GoDungeonAsset" imageRectString="0|178|0|44|13,15|148|5|35|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="quest.gotoAcademyBtnBg" resourceLink="core.BigRedButton,asset.core.quest.gotoAcademyBtn" imageRectString="0|252|0|46|13,11|231|8|32|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="quest.downloadClientBg" resourceLink="core.bg6907" imageRectString="0|182|0|36|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="quest.downloadClientBg1" resourceLink="core.bg6907" imageRectString="0|143|0|36|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="quest.goConsortiaBtnBg" resourceLink="core.bg6907,asset.core.quest.goConsortiaBtn" imageRectString="0|120|0|30|13,7|101|7|22|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="quest.buySpinelBtnBg" resourceLink="core.bg6907,asset.core.quest.buySpinelBtn" imageRectString="0|120|0|38|13,10|95|8|19|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="quest.goGameBtnBg" resourceLink="core.bg6908,asset.core.quest.goGame" imageRectString="0|178|0|47|13,30|118|6|35|13"/>  
+    <component stylename="quest.getAwardBtn" classname="com.pickgliss.ui.controls.BaseButton" backStyle="quest.getAwardBtnBg" x="429" y="485" filterString="null,lightFilter,null,grayFilter"/>  
+    <component stylename="core.quest.GoDungeonBtn" classname="com.pickgliss.ui.controls.BaseButton" backStyle="quest.goDungeonBtnBg" x="433" y="485"/>  
+    <component stylename="core.quest.goGameBtn" classname="com.pickgliss.ui.controls.BaseButton" backStyle="quest.goGameBtnBg" x="429" y="485" filterString="null,lightFilter,null,grayFilter"/>  
+    <component stylename="core.quest.gotoAcademyBtn" classname="com.pickgliss.ui.controls.BaseButton" backStyle="quest.gotoAcademyBtnBg" x="396" y="486"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="core.quest.DownloadClientBtn" autoSizeAble="false" backStyle="quest.downloadClientBg2" textStyle="quest.complete.DownloadClientText" x="608" y="491" width="124" height="36" backgoundInnerRectString="9,90,9,30,13" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="core.quest.GoToConsortiaBtn" backStyle="quest.goSociatyBg" textStyle="quest.complete.DownloadClientText" x="260" y="406" width="115" height="36" backgoundInnerRectString="8,90,9,30,13" filterString="null,lightFilter,null,grayFilter" autoSizeAble="false"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="core.quest.buySpinelBtn" autoSizeAble="false" backStyle="quest.downloadClientBg" textStyle="quest.complete.DownloadClientText" x="505" y="270" width="182" height="36" backgoundInnerRectString="8,90,9,30,13" filterString="null,lightFilter,null,grayFilter"/>  
+    <!--任务信息-->  
+    <component stylename="core.quest.QuestInfoItem.scrollPanel" classname="com.pickgliss.ui.controls.ScrollPanel" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="1" width="416" height="145" x="10" y="22"/>  
+    <component stylename="core.quest.QuestInfoPanel" classname="com.pickgliss.ui.controls.ScrollPanel" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="1" width="443" height="435" x="-2" y="21"/>  
+    <component stylename="core.quest.QuestDescriptPanel" classname="com.pickgliss.ui.controls.ScrollPanel" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="1" width="395" height="86"/>  
+    <!--任务文本-->  
+    <component stylename="core.quest.QuestConditionText" classname="com.pickgliss.ui.text.FilterFrameText" filterString="core.quest.QuestItemTitleFilterGray" textFormatStyle="core.quest.QuestConditionTextFormat" x="34" y="5" aotuSize="none" wordWrap="true" width="280" height="35"/>  
+    <!--任务进度-->  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="quest.targetPanel.vbox" spacing="0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="quest.targetPanel.titleImg" resourceLink="asset.core.quest.notNecessary,asset.core.quest.necessary" y="5" x="-2"/>  
+    <component stylename="core.quest.QuestConditionStatus" classname="com.pickgliss.ui.text.FilterFrameText" filterString="core.quest.QuestFilterBlack_2_300" textFormatStyle="core.quest.QuestConditionStatusFormat" y="22" x="32"/>  
+    <!-- VIP提示 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="quest.vipDescTxt" textFormatStyle="quest.vipDescTxtTF" filterString="quest.vipDescTxtGF" x="311" y="2" width="133" height="40" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="quest.vipBg" resourceLink="asset.quest.vipBg" x="289" y="2" width="150"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="quest.vipIcon" resourceLink="asset.game.smallplayer.seniorVIP" x="292" y="7"/>  
+    <!--任务奖励星级-->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="quest.complete.star" resourceLink="asset.core.quest.darkstar,asset.core.quest.redstar"/>  
+    <!-- 一键完成 -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="quest.improve" backStyle="asset.core.quest.improve" x="333" y="15" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="quest.complete.buttonText" textFormatStyle="ddtcalendar.CalendarGrid.GetButtonTextTF" filterString="ddtcalendar.CalendarGrid.GetButtonTextGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="quest.complete.DownloadClientText" textFormatStyle="ddtcalendar.DownLoad.GetButtonTextTF" filterString="ddtcalendar.DownLoad.GetButtonTextGF"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="quest.complete.button" autoSizeAble="false" backStyle="core.bg6902" textStyle="quest.complete.buttonText" x="267" y="1" width="139" height="30" backgoundInnerRectString="6,76,5,30,13" filterString="null,lightFilter,null,grayFilter" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>  
+    <component stylename="core.quest.QuestSpandText" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="core.quest.simpleAlertContentTF" filterString="core.simpleAlertContentGF" x="-5" y="8" width="338" height="60" wordWrap="true"/>  
+    <component classname="quest.QuestImproveFrame" closestyle="core.closebt" stylename="quest.improveFrame" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="11,11,5" containerX="20" containerY="40" closeInnerRectString="49,12,7,30,14" width="370" height="140" moveInnerRectString="0,30,0,30,1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.questBack.bg" resourceLink="asset.ddtcore.frameBg" scaleGridString="30,25,157,183" width="330" height="15" x="0" y="0"/>  
+    <!--任务描述-->  
+    <component stylename="core.quest.QuestInfoDescription" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="core.quest.QuestInfoDescFormat" filterString="core.quest.QuestInfoDescGF" autoSize="right" wordWrap="true" multiline="true" width="420" y="0" height="90"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.core.quest.QuestInfoDescTitleImg" resourceLink="asset.core.quest.QuestInfoDescTitle" y="5" x="7"/>  
+    <!--Reward-->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="rewardCell.BGStyle1" resourceLink="core.goldlinebg,core.GoodItemCellBg" imageRectString="0|153|0|54|13,5|44|5|44|13"/>  
+    <component stylename="core.quest.QuestItemRewardName" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="core.quest.QuestItemRewardNameFormat" filterString="core.quest.QuestItemRewardNameGF" x="60" y="9" width="90" wordWrap="true"/>  
+    <component stylename="core.quest.QuestItemRewardQuantity" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="core.quest.QuestItemRewardQuantityFormat" filterString="core.quest.QuestFilterBlack_2_1000" x="40" y="48" width="41" height="18"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.quest.MCQuestRewardBuff" resourceLink="asset.core.quest.RewardText.Buff1,asset.core.quest.RewardText.Buff2,asset.core.quest.RewardText.Buff3,asset.core.quest.RewardText.Buff4" x="0" y="0" width="69" height="21"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.quest.eligiblyWord" resourceLink="asset.core.quest.eligibly1,asset.core.quest.eligibly2" x="7" y="5"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.quest.MCQuestRewardType" textFormatStyle="core.quest.MCQuestRewardTypeTF" filterString="core.quest.MCQuestRewardTypeGF" x="0" y="8"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.quest.MCQuestRewardImprove" textFormatStyle="core.quest.MCQuestIncreaseRewardTypeTF" filterString="core.quest.MCQuestRewardTypeGF" x="0" y="15"/>  
+    <component stylename="core.quest.ChooseFrame.scrollPanel" classname="com.pickgliss.ui.controls.ScrollPanel" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="1" width="346" height="120" x="8" y="23"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="quest.QuestCateTitleBG" resourceLink="asset.core.QuestCateTitleBG,asset.core.QuestCateTitleBGStyle2" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.core.quest.QuestItemLight" parentStyle="core.Scale9CornerImage.scale9CornerSparkBG" x="-4" y="-5" width="222" height="40"/>  
+    <!-- 	<component classname="com.pickgliss.ui.image.ScaleFrameImage"  -->  
+    <!-- 		stylename="core.quest.MCQuestCateTitle"  -->  
+    <!-- 		resourceLink="asset.core.quest.QuestCateTitle1Expanded,asset.core.quest.QuestCateTitle2Expanded, -->  
+    <!-- 		asset.core.quest.QuestCateTitle3Expanded,asset.core.quest.QuestCateTitle4Expanded, -->  
+    <!-- 		asset.core.quest.QuestCateTitle5Expanded,asset.core.quest.QuestCateTitle6Expanded, -->  
+    <!-- 		asset.core.quest.QuestCateTitle7Expanded,asset.core.quest.QuestCateTitle8Expanded, -->  
+    <!-- 		asset.core.quest.QuestCateTitle1Collapsed,asset.core.quest.QuestCateTitle2Collapsed, -->  
+    <!-- 		asset.core.quest.QuestCateTitle3Collapsed,asset.core.quest.QuestCateTitle4Collapsed, -->  
+    <!-- 		asset.core.quest.QuestCateTitle5Collapsed,asset.core.quest.QuestCateTitle6Collapsed, -->  
+    <!-- 		asset.core.quest.QuestCateTitle7Collapsed,asset.core.quest.QuestCateTitle8Collapsed" -->  
+    <!-- 		x="65" y="14"/> -->  
+    <!-- 	<component classname="com.pickgliss.ui.image.ScaleFrameImage"  -->  
+    <!-- 		stylename="core.quest.MCQuestCateTitleIcon"  -->  
+    <!-- 		resourceLink="asset.core.quest.QuestCateTitle1Icon,asset.core.quest.QuestCateTitle2Icon, -->  
+    <!-- 		asset.core.quest.QuestCateTitle3Icon,asset.core.quest.QuestCateTitle4Icon,asset.core.quest.QuestCateTitle5Icon, -->  
+    <!-- 		asset.core.quest.QuestCateTitle7Icon,asset.core.quest.QuestCateTitle6Icon,asset.core.quest.QuestCateTitle6Icon" -->  
+    <!-- 		x="12" y="12"/> -->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.quest.MCQuestCateTitle" resourceLink="asset.core.quest.QuestCateTitle1Expanded,asset.core.quest.QuestCateTitle2Expanded,asset.core.quest.QuestCateTitle3Expanded,asset.core.quest.QuestCateTitle4Expanded,asset.core.quest.QuestCateTitle8Expanded,asset.core.quest.QuestCateTitle9Expanded,asset.core.quest.QuestCateTitle10Expanded,asset.core.quest.QuestCateTitle1Collapsed,asset.core.quest.QuestCateTitle2Collapsed,asset.core.quest.QuestCateTitle3Collapsed,asset.core.quest.QuestCateTitle4Collapsed,asset.core.quest.QuestCateTitle8Collapsed,asset.core.quest.QuestCateTitle9Collapsed,asset.core.quest.QuestCateTitle10Collapsed" x="60" y="14" /> 
+  <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.quest.MCQuestCateTitleIcon" resourceLink="asset.core.quest.QuestCateTitle1Icon,asset.core.quest.QuestCateTitle2Icon,asset.core.quest.QuestCateTitle3Icon,asset.core.quest.QuestCateTitle4Icon,asset.core.quest.QuestCateTitle6Icon,asset.core.quest.QuestCateTitle5Icon,asset.core.quest.QuestCateTitle10Icon" x="12" y="12" /> 
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.quest.MCQuestItemBG" resourceLink="core.leftrightImage.image5,core.leftrightImage.image6" width="214" height="31"/>  
+    <!--装备试穿系统-->  
+    <component classname="tryonSystem.TryonPanelFrame" closestyle="core.closebt" stylename="tryonSystem.tryonFrame" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="18,9,5" containerX="20" containerY="40" closeInnerRectString="44,6,3,30,14" width="442" height="337" moveInnerRectString="0,30,0,30,1"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.core.tryon.cellLight" parentStyle="core.Scale9CornerImage.scale9CornerSparkBG" width="90" height="104" x="-1" y="-2"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="tryonNickNameText" textFormatStyle="bagAndInfo.info.NicknameFieldTF" filterString="bagMoneyInfoGF" x="20" y="25" width="153" height="21"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.core.hideTxt" textFormatStyle="personalInfoCheckBoxTitleTextTF" filterString="playerInfoViewCheckBoxGF" x="34" y="178" width="153" height="21"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="tryonCheckBoxText" textFormatStyle="personalInfoCheckBoxTextTF" filterString="playerInfoViewCheckBoxGF" width="104" height="21"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="tryon.HideGlassCheckBox" textStyle="tryonCheckBoxText" parentStyle="core.simpleSelectBtn" fieldX="18" fieldY="-1" width="103" height="28" x="34" y="196" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="tryon.HideHatCheckBox" textStyle="tryonCheckBoxText" parentStyle="core.simpleSelectBtn" fieldX="18" fieldY="-1" width="103" height="28" x="109" y="196" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="tryon.HideSuitCheckBox" textStyle="tryonCheckBoxText" parentStyle="core.simpleSelectBtn" fieldX="18" fieldY="-1" width="103" height="28" x="34" y="211" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="tryon.HideWingCheckBox" textStyle="tryonCheckBoxText" parentStyle="core.simpleSelectBtn" fieldX="18" fieldY="-1" width="103" height="28" x="109" y="211" displacement="false"/>  
+    <!-- 3.2物品发光效果 -->  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.core.itemShinelight" resourceLink="asset.core.itemShine" x="81" y="15"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.core.itemBigShinelight" resourceLink="asset.core.itemBigShine" x="43" y="47"/>  
+    <!--奖励选择系统-->  
+    <component classname="tryonSystem.ChooseFrame" closestyle="core.closebt" stylename="tryonSystem.ChoosePanelFrame" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="11,11,5" containerX="20" containerY="40" closeInnerRectString="49,12,7,30,14" width="380" height="250" moveInnerRectString="0,30,0,30,1"/>  
+    <!--试穿大背景圆角九宫格-->  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="core.tryOnBigBg" resourceLink="core.tryOnBigBgAsset" x="17" y="22"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.tryOnSmallBg" parentStyle="church.main.createRoomFrameLeftTopBg" width="190" height="217" x="221" y="17"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.core.tryon.cellBG" parentStyle="core.goldlinebg" width="84" height="94" x="3" y="3"/>  
+    <component stylename="asset.tryOnTxt" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="asset.tryOnTxtTF" filterString="asset.tryOnTxtGF" x="229" y="3"/>  
+    <!--QuestList-->  
+    <component stylename="core.quest.QuestItemTitleNormal" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="core.quest.QuestItemTitleFormatNormal,core.quest.QuestItemTitleFormatSelected,core.quest.QuestItemTitleFormatHighlighted,core.quest.QuestItemTitleFormatHighlightedSelected" filterString="core.quest.QuestItemTitleFilterNormal,core.quest.QuestItemTitleFilterSelected,core.quest.QuestItemTitleFilterHighlighted,core.quest.QuestItemTitleFilterHighlightedSelected" autoSize="none" x="2" y="7" width="210" height="24"/>  
+    <component stylename="core.quest.QuestItemList" classname="com.pickgliss.ui.controls.ScrollPanel" parentStyle="core.ScrollPanel" x="0" y="57" width="240" height="140"/>  
+    <component stylename="core.quest.questCateList" classname="com.pickgliss.ui.controls.ScrollPanel" vScrollProxy="0" parentStyle="core.ScrollPanel" x="25" y="51" width="267" height="485"/>  
+    <!-- Info collect -->  
+    <component stylename="core.quest.infoCollect.Label" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="core.quest.infoCollect.LabelFormat" filterString="core.quest.MCQuestRewardTypeGF" autoSize="none" background="false" x="20" y="0" width="80" height="20"/>  
+    <component stylename="core.quest.infoCollect.InputData" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="core.quest.infoCollect.InputFormat" type="input" autoSize="none" border="true" borderColor="0x8d6d44" background="true" backgroundColor="0x312118" x="100" y="0" width="190" height="24"/>  
+    <component stylename="core.quest.infoCollect.InputValidate" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="core.quest.infoCollect.InputFormat" type="input" autoSize="none" border="true" borderColor="0x8d6d44" background="true" backgroundColor="0x312118" x="100" y="48" width="190" height="24"/>  
+    <component stylename="core.quest.infoCollect.Alert" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="core.quest.infoCollect.AlertFormat" autoSize="none" x="100" y="24" width="245" height="24"/>  
+    <component stylename="core.quest.infoCollect.Result" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="core.quest.infoCollect.AlertFormat" autoSize="none" x="100" y="72" width="245" height="24"/>  
+    <component stylename="core.quest.infoCollect.CheckBtn" classname="com.pickgliss.ui.controls.TextButton" parentStyle="bagKeySetButton1" x="296" y="17"/>  
+    <component stylename="core.quest.infoCollect.SubmitBtn" classname="com.pickgliss.ui.controls.TextButton" parentStyle="bagKeySetButton1" x="296" y="17"/>  
+    <component stylename="core.quest.infoCollect.dictext" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="core.quest.infoCollect.AlertFormat2" filterString="quest.complete.yellowButtonTextGF2" autoSize="none" x="57" y="105" width="350" height="70"/>  
+    <!-- 任务托管 -->  
+    <component classname="com.pickgliss.ui.image.Image" stylename="trusteeship.spiritTxtBg" resourceLink="asset.trusteeship.spiritTxtBg" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2,3" x="4" y="28"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trusteeship.spiritValueTxt" textFormatStyle="trusteeship.spiritValueTxt.tf" filterString="trusteeship.spiritValueTxt.gf" autoSize="none" width="47" height="22" x="4" y="30"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trusteeship.speedUpTipTxt" textFormatStyle="trusteeship.speedUpTipTxt.tf" filterString="trusteeship.speedUpTipTxt.gf" x="136" y="18"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trusteeship.speedUpTimeTxt" textFormatStyle="trusteeship.speedUpTimeTxt.tf" filterString="trusteeship.speedUpTimeTxt.gf" x="231" y="20"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="trusteeship.speedUpBtn" backStyle="asset.trusteeship.speedUpBtn" x="283" y="16"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trusteeship.startCancelTxt" textFormatStyle="trusteeship.startCancelTxt.tf" filterString="trusteeship.startCancelTxt.gf" x="0" y="0" autoSize="none" wordWrap="true" width="57" height="22"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="trusteeship.startCancelBtn" parentStyle="core.simplebt" backStyle="core.bg6902" backgoundInnerRectString="8,75,3,30,13" textStyle="trusteeship.startCancelTxt" width="84" height="30" x="350" y="13"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="trusteeship.buyBtn" backStyle="asset.trusteeship.buyBtn" x="57" y="19" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2,3"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="quest.yellowButtonBg" resourceLink="core.bg6907" imageRectString="0|143|0|36|13"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="quest.complete.yellowButtonText" textFormatStyle="quest.complete.yellowButtonTextTF" filterString="quest.complete.yellowButtonTextGF"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="quest.gotoConsortiaBtnBg" resourceLink="core.bg6907" imageRectString="0|143|0|36|13"/>  
+    <component stylename="core.quest.QuestItemIncreaseRewardQuantity" classname="com.pickgliss.ui.text.FilterFrameText" textFormatStyle="core.quest.QuestItemIncreaseRewardQuantityFormat" filterString="core.quest.QuestFilterBlack_2_1000" x="40" y="48" width="41" height="18"/>
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="quest.downloadClientBg2" resourceLink="core.bg6907" imageRectString="0|124|0|36|13"/>
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="quest.goSociatyBg" resourceLink="core.bg6907" imageRectString="0|165|0|36|13"/>
+  	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.quest.goSceneBtn" backStyle="asset.core.quest.gotoSceneBtn" x="429" y="485"/>
+<component classname="ddt.command.QuickUseFrame" backStyle="SimpleFrameBackgoundOneIII" stylename="ddtcore.QuickUseFrame" parentStyle="BaseFrame" containerY="30" width="383" height="208"/>
+
+  	
+  </components>  
+  <customs> 
+    <custom classname="asset.core.QuestCateExpandBgAsset" stylename="asset.core.QuestCateExpandBg" x="0" y="57"/>  
+    <custom classname="asset.core.quest.GetNewQuestMovieAsset" stylename="core.quest.GetNewQuestMovie" x="275" y="240" buttonMode="true"/>  
+    <custom classname="flash.geom.Point" stylename="quest.tryon.character.pos" x="160" y="47"/>  
+    <custom classname="flash.geom.Point" stylename="ddt.tryoncell.pos" x="12" y="15"/>  
+    <custom classname="flash.geom.Point" stylename="quest.tryon.tryonPanelPos" x="-11" y="-2"/>  
+    <custom classname="flash.geom.Point" stylename="quest.tryon.simplelistPos" x="224" y="23"/>  
+    <custom classname="flash.geom.Point" stylename="quest.rightBgpos" x="293" y="42"/>  
+    <custom classname="flash.geom.Point" stylename="asset.core.questcateTile.okPos" x="168" y="8"/>  
+    <custom classname="flash.geom.Point" stylename="quest.leftBgpos" x="20" y="46"/>  
+    <custom classname="flash.geom.Point" stylename="quest.cateTitleView.recommendPos" x="185" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="quest.bmpNEWPos" x="186" y="12"/>  
+    <custom classname="flash.geom.Point" stylename="quest.bmpNEWPosForStrip" x="170" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="quest.infoPanelPos" x="302" y="25"/>  
+    <custom classname="flash.geom.Point" stylename="quest.rewardCellPos" x="38" y="29"/>  
+    <custom classname="flash.geom.Point" stylename="quest.rewardCellPos2" x="-1" y="-1"/>  
+    <custom classname="flash.geom.Point" stylename="quest.awardPanel.listpos" x="10" y="25"/>  
+    <custom classname="flash.geom.Point" stylename="quest.awardPanel.listpos1" x="10" y="3"/>  
+    <custom classname="flash.geom.Point" stylename="ChooseFrame.SimpleTileList.pos" x="12" y="20"/>  
+    <custom classname="flash.geom.Point" stylename="quest.awardPanel.listposr" x="13" y="33"/>  
+    <custom classname="flash.geom.Point" stylename="quest.awardPanel.listposr1" x="13" y="18"/>  
+    <custom stylename="quest.complete.starLevel" classname="quest.QuestStarListView" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapH="200" x="180" y="6"/>  
+    <!-- 任务托管 -->  
+    <custom classname="quest.TrusteeshipView" stylename="quest.trusteeshipView" x="304" y="481"/>  
+    <custom classname="ddt.command.StripTip" stylename="trusteeship.buyBtnStrip" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2,3" width="68" height="32" x="54" y="12"/>  
+    <custom classname="flash.geom.Point" stylename="quest.awardPanel.panelpos" x="8" y="60"/> 
+  </customs>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.core.quest.QuestInfoPlanTitle" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.core.quest.QuestInfoCondTitle" x="0" y="0" width="90" height="24"/>  
+    <bitmapData resourceLink="asset.core.quest.QuestRewardCellBG" x="0" y="0" width="158" height="55"/>  
+    <bitmapData resourceLink="asset.core.quest.QuestRewardCellBGShine" x="-1" y="-2"/>  
+    <bitmapData resourceLink="asset.core.quest.RewardText.Buff1" x="0" y="0" width="69" height="21"/>  
+    <bitmapData resourceLink="asset.core.quest.RewardText.Buff2" x="0" y="0" width="69" height="21"/>  
+    <bitmapData resourceLink="asset.core.quest.RewardText.Buff3" x="0" y="0" width="69" height="21"/>  
+    <bitmapData resourceLink="asset.core.quest.RewardText.Buff4" x="0" y="0" width="69" height="21"/>  
+    <bitmapData resourceLink="asset.core.quest.RewardText.Type1" x="-2" y="0"/>  
+    <bitmapData resourceLink="asset.core.quest.RewardText.Type2" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.core.quest.RewardText.Type3" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.core.quest.RewardText.Type4" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.core.quest.RewardText.Type5" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.core.quest.RewardText.Type6" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.core.quest.textImg.NEW" x="160" y="0" width="49" height="40"/>  
+    <bitmapData resourceLink="asset.core.quest.textImg.OK" x="160" y="-4" width="49" height="40"/>  
+    <bitmapData resourceLink="asset.core.quest.recommend" x="173" y="-4" width="37" height="37"/>  
+    <bitmapData resourceLink="asset.core.quest.textImg.TaskFlagGrade40" x="0" y="0" width="40" height="40"/>  
+    <bitmapData resourceLink="asset.core.quest.QuestCateTitle5Expanded" x="0" y="-1"/>  
+    <bitmapData resourceLink="asset.core.quest.QuestCateTitle5Collapsed" x="0" y="-2"/>  
+    <bitmapData resourceLink="asset.core.quest.titleBG" x="300" y="52"/>  
+    <bitmapData resourceLink="asset.core.quest.styleGuideleaf" x="2" y="24"/>  
+    <bitmapData resourceLink="asset.core.quest.QuestItemSelected" width="214" height="33" y="-1"/>  
+    <bitmapData resourceLink="asset.core.quest.QuestItemUnselectedStyle2" width="214" height="31"/>  
+    <bitmapData resourceLink="asset.core.quest.QuestItemUnselected" width="214" height="31"/>  
+    <bitmapData resourceLink="asset.core.quest.RewardText.OptionalTitle" x="13" y="-9"/>  
+    <bitmapData resourceLink="asset.core.quest.necessary" x="-2"/>  
+    <bitmapData resourceLink="asset.core.quest.notNecessary" x="-2"/>  
+    <bitmapData resourceLink="asset.core.quest.QuestCateTitle7Expanded" y="3"/>  
+    <bitmapData resourceLink="asset.core.quest.QuestCateTitle7Collapsed" y="3"/>  
+    <!-- 任务托管 -->  
+    <bitmapData resourceLink="asset.trusteeship.spiritImage" x="3" y="5"/>  
+    <bitmapData resourceLink="asset.trusteeship.speedUpBg" x="127" y="13"/>  
+    <bitmapData resourceLink="asset.trusteeship.textImg" x="160" y="-6"/>  
+    <bitmapData resourceLink="asset.core.quest.QuestCateTitle8Expanded" y="3"/>  
+    <bitmapData resourceLink="asset.core.quest.QuestCateTitle8Collapsed" y="3"/>  
+    <bitmapData resourceLink="asset.core.quest.QuestCateTitle5Icon" x="0" y="4"/> 
+    
+    <bitmapData resourceLink="asset.quest.vipBg" width="140" height="34"/>
+  </bitmaps> 
+</style>

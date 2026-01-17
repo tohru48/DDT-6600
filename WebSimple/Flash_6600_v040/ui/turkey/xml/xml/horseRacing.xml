@@ -1,0 +1,123 @@
+<style name="horseRacing" version="6.4.0" source="ui/turkey/swf/horseRacing.swf">
+	<components>	
+		<component classname="horseRacing.view.ui.QuickBuyHorseRacing"  stylename="horseracing.quickBuyAlert" 
+		backStyle="SimpleFrameBackgoundOneIII" parentStyle="BaseFrame" 
+		containerY="30" width="340" height="230"/>	
+	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horseracing.ScoreTips"   tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" x="215" y="73"/>
+	
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRacing.BtnFirstPage" backStyle="horseracing.BtnFirstPage" filterString="null,lightFilter,null,grayFilter" x="165" y="488"></component>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRacing.BtnPrePage" backStyle="horseracing.BtnPrePage" filterString="null,lightFilter,null,grayFilter" x="221" y="488"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRacing.BtnNextPage" backStyle="horseracing.BtnNextPage" filterString="null,lightFilter,null,grayFilter" x="336" y="488"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="horseRacing.BtnEndPage" backStyle="horseracing.BtnEndPage" filterString="null,lightFilter,null,grayFilter" x="393" y="488"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseRacing.CurrentPage" textFormatStyle="horseracing.CurrentPageTF" filterString="horseracing.CurrentPageFilter" x="273" y="494" autoSize="none" width="70" type="dynamic" height="20" text="1/1"></component>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="horseRacing.CurrentPageInput" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="275" y="490" width="62" height="23"></component>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseRacing.timesUsed" 
+			textFormatStyle="horseracing.timesUsedTF" 
+			filterString="horseracing.timesUsedFilter" 
+			x="215" y="47" autoSize="none" width="85" type="dynamic" height="20"></component>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseRacing.scores" 
+			textFormatStyle="horseracing.scoresTF" 
+			filterString="horseracing.scoresFilter" 
+			x="215" y="73" autoSize="none" width="85" type="dynamic" height="20"></component>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseRacing.moneyType" 
+			textFormatStyle="horseracing.moneyNameTF" 
+			filterString="horseracing.moneyNameFilter" text="马术点"
+			x="146" y="27" autoSize="none" width="85" type="dynamic" height="20"></component>
+
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="horseRacing.BtnGotoRace" backStyle="horseracing.BtnGotoRace" x="305" y="45"
+			 tipDirctions="7,6,5,1,6,4" />
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="horseRacing.FriendList" parentStyle="core.ScrollPanel" 
+			vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="0" hScrollProxy="2" vUnitIncrement="3"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|horseRacing.view.ui.HorseRacingInviteListCell,33,177" 
+			listStyle="com.pickgliss.ui.controls.list.List" width="257" height="232" x="18" y="19" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="horseRacing.StartRaceBtn"
+			backStyle="horseracing.BtnStartRace" x="83" y="266"/>
+		
+		
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="npcBoard.bg" resourceLink="farm.baseFrameBg2,farm.baseFrameBg3"
+			imageRectString="0|458|0|470|13,-14|481|-8|492|13,11|399|55|0|15" />
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="friendsView.bg" resourceLink="farm.baseFrameBg2,farm.baseFrameBg3"
+			imageRectString="0|274|0|312|13,-14|304|-8|342|13,11|399|55|0|15" />
+	</components>
+	
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseracing.textfield.itemname" 
+		textFormatStyle="horseracing.text.itemname" filterString="horseracing.ft.itemname"  type="dynamic"
+		 x="79" y="6" width="120" height="20"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="horseracing.textfield.price" 
+		textFormatStyle="horseracing.text.price" filterString="horseracing.ft.price"  type="dynamic"
+		x="81" y="27" width="120" height="20"/>
+	<sets>
+		<set stylename="horseracing.text.price" args="Arial,14,0xffdd94,false" type="flash.text.TextFormat"  align="center"/>
+		<set stylename="horseracing.ft.price" args="0x5c3d11,1,2,2,10" type="flash.filters.GlowFilter"/>
+	
+		<set stylename="horseracing.text.itemname" args="Arial,14,0xffdd94,false" type="flash.text.TextFormat"/>
+		<set stylename="horseracing.ft.itemname" args="0x5c3d11,1,2,2,10" type="flash.filters.GlowFilter"/>
+	
+		<set stylename="horseracing.CurrentPageTF" args="Arial,12,0xfff8d6,true,,,,,center" type="flash.text.TextFormat"></set>
+		<set stylename="horseracing.CurrentPageFilter" args="0x4b270d,1,4,4,10" type="flash.filters.GlowFilter"></set>
+		
+		<set stylename="horseracing.timesUsedTF" args="Arial,16,0xffcc00,true,,,,,left" type="flash.text.TextFormat"></set>
+		<set stylename="horseracing.timesUsedFilter" args="0x5b3100,1,4,4,10" type="flash.filters.GlowFilter"></set>
+		
+		<set stylename="horseracing.scoresTF" args="Arial,16,0xffcc00,true,,,,,left" type="flash.text.TextFormat"></set>
+		<set stylename="horseracing.scoresFilter" args="0x5b3100,1,4,4,10" type="flash.filters.GlowFilter"></set>
+		
+		<set stylename="horseracing.moneyNameTF" args="Arial,12,0xffcc00,true,,,,,left" type="flash.text.TextFormat"></set>
+		<set stylename="horseracing.moneyNameFilter" args="0x5b3100,1,4,4,10" type="flash.filters.GlowFilter"></set>
+	</sets>
+	<customs>
+	<!-- 	npc面板 -->
+		<custom classname="horseRacing.view.NPCBoard"
+				stylename="horseRacing.NPCBoard" parentStyle="BaseFrame"
+				backStyle="npcBoard.bg" closestyle="farm.closeBtn"
+				closeInnerRectString="34,10,-15,34,14" x="30" y="80" width="481"
+				height="492" />
+				
+		<!-- 			好友面板 -->
+		<custom classname="horseRacing.view.FriendsView"
+			stylename="horseRacing.FriendsView" parentStyle="BaseFrame"
+			 closestyle="farm.closeBtn"
+			closeInnerRectString="34,-1,-15,34,14" x="30" y="80" width="299"
+			titleStyle="horseracing.friend.title"
+			backStyle="horseracing.friend.bg"
+			height="341" />
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="horseracing.friend.bg"
+			resourceLink="farm.baseFrameBg2,farm.baseFrameBg3,horseracing.FriendConfirmBG,assets.farm.titleSmall"
+			imageRectString="10|16|8|19|0,,19|24|54|27|4,61|154|-24|28|13" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="horseracing.friend.title" textFormatStyle="farm.farmShopPayPnlTitle.TF"
+			filterString="farm.farmShopPayPnlTitle.GF" x="107" y="-15" />
+			
+		
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="horseracing.FriendConfirmBG" resourceLink="asset.core.btmBG"
+			scaleGridString="14,13,250,22"/>
+	</customs>
+	<bitmaps>
+		
+		<bitmapData  resourceLink="horseracing.endline" y="280"/>
+		<bitmapData  resourceLink="horseracing.startline" y="280"/>
+		<bitmapData  resourceLink="horseracing.runway"/>
+		<bitmapData  resourceLink="horseracing.RaceBG"/>
+		
+		<bitmapData  resourceLink="horseracing.img.title" x="99" y="-64"/>
+		<bitmapData  resourceLink="horseracing.img.bg" x="8" y="10"/>
+		<bitmapData  resourceLink="horseracing.img.border" x="-14" y="-20"/>
+	</bitmaps>
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="horseracing.raceView.pos" x="0" y="-54"/>
+		<custom classname="flash.geom.Point" stylename="horseracing.npcBoard.pos" x="262" y="87"/>
+		<custom classname="flash.geom.Point" stylename="horseracing.friend.pos" x="640" y="35"/>
+		<custom classname="flash.geom.Point" stylename="horseracing.itemsCell.pos" x="5" y="5"/>
+		<custom classname="flash.geom.Point" stylename="horseracing.pageSelecter.pos" x="-85" y="-60"/>
+		
+	</customDisplay>
+</style>

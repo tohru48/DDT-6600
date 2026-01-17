@@ -1,0 +1,161 @@
+﻿<style name="anotherDimension" version="1.0.1" source="ui/turkey/swf/anotherDimension.swf">
+<sets>
+	<set stylename="anotherDimension.canZhanlingTxtTF" args="Arial,12,0xe3e6d8,true" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.canZhanlingTxtGF" args="0x000318,1,3,3,10,1" type="flash.filters.GlowFilter"/>	
+	
+	<set stylename="anotherDimension.canZhanlingCountTxtTF" args="Arial,12,0xff0000,true" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.canZhanlingCountTxtGF" args="0x000318,1,3,3,10,1" type="flash.filters.GlowFilter"/>	
+	
+	<set stylename="anotherDimension.daojishiTxtTF" args="Arial,12,0xffffff,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.daojishiTxtGF" args="0x320101,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="anotherDimension.daojishiTxtTF2" args="Arial,12,0xff0000,true" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.daojishiTxtGF2" args="0x320101,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="anotherDimension.shijiankongzhiTxtTF" args="Arial,11,0xdecfa6,true" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.shijiankongzhiTxtGF" args="0x580600,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+	<set stylename="anotherDimension.kongjianzhangwoTxtTF" args="Arial,11,0xdecfa6,true" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.kongjianzhangwoTxtGF" args="0x580600,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+	<set stylename="anotherDimension.lueduodashiTxtTF" args="Arial,11,0xdecfa6,true" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.lueduodashiTxtGF" args="0x580600,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="anotherDimension.allInCheckBtnLabelTF" args="Arial,12,0xfcf3a7,true" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.allInCheckBtnLabelGF" args="0x5a2c00,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="anotherDimension.levelTxtTF" args="Arial,12,0xffee30,true" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.levelTxtGF" args="0x300000,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="anotherDimension.msgTxtTF" args="Arial,12,0xc1bca2,true" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.msgTxtGF" args="0x391300,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="anotherDimension.anotherDimensionOtherItemTip.titleTextTF" args="Arial,14,0xefff00,true" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.anotherDimensionOtherItemTip.titleTextGF" args="0x000000,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="anotherDimension.anotherDimensionOtherItemTip.chanchuTitleTxtTF" args="Arial,12,0xffffff,true" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.anotherDimensionOtherItemTip.chanchuTitleTxtGF" args="0x000000,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="anotherDimension.anotherDimensionOtherItemTip.chanchuTextTF" args="Arial,12,0xff0000,true" type="flash.text.TextFormat" leading="-3"/>
+	<set stylename="anotherDimension.anotherDimensionOtherItemTip.chanchuTextGF" args="0x000000,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="anotherDimension.anotherDimensionOtherItemTip.haveItemTextTF" args="Arial,12,0x99ff33,true" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.anotherDimensionOtherItemTip.haveItemTextGF" args="0x000000,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="anotherDimension.progress.progressTxtTF" args="Arial,10,0xd9d9d9,true" type="flash.text.TextFormat"/>
+	<set stylename="anotherDimension.progress.progressTxtGF" args="0x500101,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+</sets>
+<customDisplay>
+	<custom classname="flash.geom.Point" stylename="anotherDimension.anotherDimensionMainViewPos" x="69" y="30"/>	
+	<custom classname="flash.geom.Point" stylename="anotherDimension.anotherDimension.anotherPos1" x="50" y="163"/>
+	<custom classname="flash.geom.Point" stylename="anotherDimension.anotherDimension.anotherPos2" x="213" y="96"/>
+	<custom classname="flash.geom.Point" stylename="anotherDimension.anotherDimension.anotherPos3" x="387" y="161"/>
+	<custom classname="flash.geom.Point" stylename="anotherDimension.anotherDimension.headBitmapPos" x="113" y="18"/>
+	
+	<custom classname="flash.geom.Point" stylename="anotherDimension.anotherDimension.selfPos1" x="58" y="297"/>
+	<custom classname="flash.geom.Point" stylename="anotherDimension.anotherDimension.selfPos2" x="208" y="297"/>
+	<custom classname="flash.geom.Point" stylename="anotherDimension.anotherDimension.selfPos3" x="356" y="297"/>
+	<custom classname="flash.geom.Point" stylename="anotherDimension.itemCellPos" x="578" y="235"/>
+	<custom classname="flash.geom.Point" stylename="anotherDimension.anotherDimensionOtherItemView.anotherDimensionOthertipPos" x="118" y="35"/>
+	<custom classname="flash.geom.Point" stylename="anotherDimension.progressPos" x="662" y="231"/>
+	
+</customDisplay>
+<components>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="anotherDimension.searchBnt" backStyle="anotherDimension.searchBntBg" 
+		x="213" y="444"  filterString="null,lightFilter,null,grayFilter"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="anotherDimension.helpBnt" backStyle="anotherDimension.helpBntBG" 
+		x="765" y="24"  filterString="null,lightFilter,null,grayFilter"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="anotherDimension.closeBnt" backStyle="anotherDimension.closeBntBG" 
+		x="791" y="24"  filterString="null,lightFilter,null,grayFilter"/>
+	
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.canZhanlingTxt" textFormatStyle="anotherDimension.canZhanlingTxtTF" filterString="anotherDimension.canZhanlingTxtGF" x="48" y="430" autoSize="none" width="128" height="40" wordWrap="true"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.canLueduoTxt" textFormatStyle="anotherDimension.canZhanlingTxtTF" filterString="anotherDimension.canZhanlingTxtGF" x="387" y="430" autoSize="none" width="128" height="40" wordWrap="true"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.canZhanlingCountTxt" textFormatStyle="anotherDimension.canZhanlingCountTxtTF" filterString="anotherDimension.canZhanlingCountTxtGF" x="134" y="447"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.canLueduoCountTxt" textFormatStyle="anotherDimension.canZhanlingCountTxtTF" filterString="anotherDimension.canZhanlingCountTxtGF" x="453" y="447"/>
+	
+	
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="anotherDimension.anotherDimensionOtherItemView.zhanlingBnt" backStyle="anotherDimension.zhanlingBntBg" 
+		x="42" y="102"  filterString="null,lightFilter,null,grayFilter"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="anotherDimension.anotherDimensionOtherItemView.lueduoBnt" backStyle="anotherDimension.fightBntbg" 
+		x="42" y="102"  filterString="null,lightFilter,null,grayFilter"/>	
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.daojishiTxt" textFormatStyle="anotherDimension.daojishiTxtTF" filterString="anotherDimension.daojishiTxtGF" autoSize="none" width="74" height="20" x="32" y="104"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.daojishiTxt2" textFormatStyle="anotherDimension.daojishiTxtTF2" filterString="anotherDimension.daojishiTxtGF2" x="43" y="104"/>
+			
+	
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="anotherDimension.shijiankongzhi.select" resourceLink="asset.core.check2Selected,anotherDimension.shijiankongzhi" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="anotherDimension.shijiankongzhi.unselect" resourceLink="asset.core.check2UnSelected,anotherDimension.shijiankongzhi" />
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="anotherDimension.shijiankongzhiSelectBnt" unSelectedStyle="anotherDimension.shijiankongzhi.unselect" selectedStyle="anotherDimension.shijiankongzhi.select"  x="588" y="52" />
+	
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="anotherDimension.kongjianzhangwo.select" resourceLink="asset.core.check2Selected,anotherDimension.kongjianzhangwo" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="anotherDimension.kongjianzhangwo.unselect" resourceLink="asset.core.check2UnSelected,anotherDimension.kongjianzhangwo" />
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="anotherDimension.kongjianzhangwoSelectBnt" unSelectedStyle="anotherDimension.kongjianzhangwo.unselect" selectedStyle="anotherDimension.kongjianzhangwo.select"  x="588" y="105" />
+		
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="anotherDimension.lueduodashi.select" resourceLink="asset.core.check2Selected,anotherDimension.lueduodashi" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="anotherDimension.lueduodashi.unselect" resourceLink="asset.core.check2UnSelected,anotherDimension.lueduodashi" />
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="anotherDimension.lueduodashiSelectBnt" unSelectedStyle="anotherDimension.lueduodashi.unselect" selectedStyle="anotherDimension.lueduodashi.select"  x="588" y="157" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.shijiankongzhiTxt" textFormatStyle="anotherDimension.shijiankongzhiTxtTF" filterString="anotherDimension.shijiankongzhiTxtGF" x="561" y="77"  autoSize="none" width="250" height="40" wordWrap="true"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.kongjianzhangwoTxt" textFormatStyle="anotherDimension.kongjianzhangwoTxtTF" filterString="anotherDimension.kongjianzhangwoTxtGF" x="561" y="130"  autoSize="none" width="250" height="40" wordWrap="true"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.lueduodashiTxt" textFormatStyle="anotherDimension.lueduodashiTxtTF" filterString="anotherDimension.lueduodashiTxtGF" x="561" y="181"  autoSize="none" width="250" height="40" wordWrap="true"/>
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.allInCheckBtnLabel" textFormatStyle="anotherDimension.allInCheckBtnLabelTF" filterString="anotherDimension.allInCheckBtnLabelGF"/>
+	
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton"
+			stylename="anotherDimension.allInCheckBtn" parentStyle="core.simpleSelectBtn"
+			filterString="null,lightFilter,null,grayFilter" displacement="true"
+			textStyle="anotherDimension.allInCheckBtnLabel" fieldX="20" fieldY="-3" x="680"
+			y="281" />
+			
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.levelTxt" textFormatStyle="anotherDimension.levelTxtTF" filterString="anotherDimension.levelTxtGF" x="584" y="217"/>
+	
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="anotherDimension.upGradeBnt" backStyle="anotherDimension.upgradeBntbg" 
+		x="675" y="239"  filterString="null,lightFilter,null,grayFilter"/>
+		
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="anotherDimension.msgBox" spacing="2" x="3" y="7"/>
+		
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="anotherDimension.msgBoxScroll" parentStyle="core.ScrollPanel" width="250" height="170" x="561" y="322"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.msgTxt" textFormatStyle="anotherDimension.msgTxtTF" filterString="anotherDimension.msgTxtGF" x="0" y="0"   width="235" height="20"  wordWrap="true"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.anotherDimensionOtherItemTip.titleText" textFormatStyle="anotherDimension.anotherDimensionOtherItemTip.titleTextTF" filterString="anotherDimension.anotherDimensionOtherItemTip.titleTextGF" x="12" y="11"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.anotherDimensionOtherItemTip.chanchuTitleTxt" textFormatStyle="anotherDimension.anotherDimensionOtherItemTip.chanchuTitleTxtTF" filterString="anotherDimension.anotherDimensionOtherItemTip.chanchuTitleTxtGF" x="12" y="37"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.anotherDimensionOtherItemTip.chanliangTitleTxt" textFormatStyle="anotherDimension.anotherDimensionOtherItemTip.chanchuTitleTxtTF" filterString="anotherDimension.anotherDimensionOtherItemTip.chanchuTitleTxtGF" x="12" y="66"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.anotherDimensionOtherItemTip.canLueduoTitleTxt" textFormatStyle="anotherDimension.anotherDimensionOtherItemTip.chanchuTitleTxtTF" filterString="anotherDimension.anotherDimensionOtherItemTip.chanchuTitleTxtGF" x="12" y="93"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.anotherDimensionOtherItemTip.chanchuText" textFormatStyle="anotherDimension.anotherDimensionOtherItemTip.chanchuTextTF" filterString="anotherDimension.anotherDimensionOtherItemTip.chanchuTextGF" autoSize="none" width="128" height="38" wordWrap="true" x="74" y="37"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.anotherDimensionOtherItemTip.chanliangText" textFormatStyle="anotherDimension.anotherDimensionOtherItemTip.chanchuTitleTxtTF" filterString="anotherDimension.anotherDimensionOtherItemTip.chanchuTitleTxtGF" x="85" y="66"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.anotherDimensionOtherItemTip.canLueduoText" textFormatStyle="anotherDimension.anotherDimensionOtherItemTip.chanchuTitleTxtTF" filterString="anotherDimension.anotherDimensionOtherItemTip.chanchuTitleTxtGF" x="12" y="108"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.anotherDimensionOtherItemTip.haveItemText" textFormatStyle="anotherDimension.anotherDimensionOtherItemTip.haveItemTextTF" filterString="anotherDimension.anotherDimensionOtherItemTip.haveItemTextGF" x="13" y="143"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="anotherDimension.progress.progressTxt" textFormatStyle="anotherDimension.progress.progressTxtTF" filterString="anotherDimension.progress.progressTxtGF" x="34" y="-15"/>
+	
+	<component classname="anotherDimension.view.AnotherDimensionHelpFrame" backStyle="SimpleFrameBackgoundOneIII" width="400"
+			height="480" stylename="anotherDimension.view.helpFrame" titleStyle="FrameTitleTextStyle" escEnable = "true" parentStyle="BaseFrame"  type="2" closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" 
+			submitButtonStyle="" cancelButtonStyle="anotherDimension.core.simplebt" moveEnable="true" containerX="20" containerY="40" titleOuterRectPosString="12,11,5"/>
+			
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="anotherDimension.core.simplebt"
+			backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle"
+			backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter" x="158" y="446"/>
+</components>
+
+<bitmaps>
+	<bitmapData resourceLink="anotherDimension.shijiankongzhi" x="0" y="0"/>
+	<bitmapData resourceLink="anotherDimension.zhanling" x="53" y="301"/>
+	<bitmapData resourceLink="anotherDimension.fightOver" x="20" y="32"/>
+	<bitmapData resourceLink="anotherDimension.daojishiBg" x="34" y="103"/>
+	<bitmapData resourceLink="anotherDimension.shijiankongzhi" x="29" y="5" />
+	<bitmapData resourceLink="anotherDimension.kongjianzhangwo" x="29" y="5" />
+	<bitmapData resourceLink="anotherDimension.lueduodashi" x="29" y="5" />
+	<bitmapData resourceLink="anotherDimension.buyTip" x="10" y="38" />
+	<bitmapData resourceLink="anotherDimension.fightOverzhanling" x="20" y="32"/>
+	
+	<bitmapData resourceLink="anotherDimension.bossIcon1" x="34" y="26"/>
+	<bitmapData resourceLink="anotherDimension.bossIcon2" x="40" y="40"/>
+	<bitmapData resourceLink="anotherDimension.bossIcon3" x="46" y="36"/>
+	<bitmapData resourceLink="anotherDimension.bossIcon4" x="41" y="20"/>
+	<bitmapData resourceLink="anotherDimension.bossIcon5" x="40" y="40"/>
+	
+</bitmaps>
+</style>

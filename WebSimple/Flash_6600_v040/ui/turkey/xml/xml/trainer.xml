@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="trainer" version="1.0.1" source="ui/turkey/swf/trainer.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="trainer.welcome.tfName" args="Arial,13,0x006699,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="trainer.welcome.glow1" args="0xFFFFFF,1,6,6,3.6,1"/>  
+    <set stylename="trainer.welcome.conentTextTF" args="Arial,14,0xfff3b9,true,,,,,left" type="flash.text.TextFormat" leading="16" letterSpacing="0"/>  
+    <set stylename="trainer.welcome.conentTextFilter" args="0x573d1e,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="trainer.welcome.conentTextTF1" args="Arial,16,0xff0000,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="trainer.welcome.conentTextFilter1" args="0xffffff,1,4,4,30" type="flash.filters.GlowFilter"/> 
+  </sets>  
+  <customDisplay> 
+    <custom classname="asset.trainer.mcTaskTarget" stylename="trainer.mcTaskTarget" x="297" y="93"/> 
+  </customDisplay>  
+  <customs> 
+    <custom classname="asset.trainer.shineGift" stylename="trainer.shineGift" x="688" y="89" width="111" height="27"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posWelcome" x="320" y="186"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posPlaneI" x="166" y="458"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.shopGiftArrowPos" x="756" y="140"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.shopGiftTipPos" x="767" y="212"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBarBag" x="612" y="545"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBarIM" x="772" y="545"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBarShop" x="554" y="545"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBarChannel" x="880" y="545"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBarMail" x="667" y="545"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBarSign" x="828" y="545"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBuildGameRoom" x="476" y="82"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBuildCivil" x="196" y="52"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBuildMasterRoom" x="100" y="167"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBuildConsortia" x="145" y="189"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBuildDungeon" x="735" y="291"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBuildStore" x="510" y="-3"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBuildShop" x="437" y="412"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBuildChurch" x="339" y="230"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBuildToffList" x="293" y="17"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBuildHotWell" x="343" y="28"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBuildAuction" x="734" y="31"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posBuildCampaignLab" x="47" y="70"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.welcome.mainFrame.okBtn.pos" x="200" y="176"/>  
+    <custom classname="flash.geom.Point" stylename="trainer.posLockFocus" x="570" y="643"/> 
+  </customs>  
+  <components> 
+    <!--Frame-->  
+    <component classname="trainer.view.WelcomeView" stylename="trainer.welcome.mainFrame" moveEnable="false" parentStyle="GuideFrame" containerX="0" containerY="0" width="420" height="230"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.welcome.name" filterString="trainer.welcome.glow1" textFormatStyle="trainer.welcome.tfName" width="200" height="50" x="219" y="45"/>  
+    <component classname="trainer.view.GhostTipFrame" stylename="GhostTip" backStyle="SimpleFrameBackgound" parentStyle="BaseFrame" moveEnable="false" escEnable="false" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,6,5" width="555" height="200"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.welcome.conentText" filterString="trainer.welcome.conentTextFilter" textFormatStyle="trainer.welcome.conentTextTF" autoSize="none" width="280" height="135" x="135" y="46"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.welcome.conentText1" filterString="trainer.welcome.conentTextFilter1" textFormatStyle="trainer.welcome.conentTextTF1" autoSize="none" width="50" height="25" x="128" y="109"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.trainer.question.transparentBg" width="274" height="57" x="-290" y="21"/>  
+    <bitmapData resourceLink="asset.trainer.question.answer" width="241" height="55" x="-275" y="23"/>  
+    <bitmapData resourceLink="asset.trainer.ghostTip" width="555" height="140" x="5" y="25"/> 
+  </bitmaps> 
+</style>

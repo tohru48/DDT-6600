@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="dragonboat" version="2.0.1" source="ui/turkey/swf/dragonboat.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="dragonBoat.mainFrame.progressTxt.tf" args="Arial,12,0xffe8b0,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.mainFrame.progressTxt.gf" args="0x711802,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.mainFrame.timeTxt.tf" args="Arial,12,0xdac37f" letterSpacing="2"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.mainFrame.timeTxt.gf" args="0x693812,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.mainFrame.scoreTxt.tf" args="Arial,12,0xfff8d6,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.mainFrame.scoreTxt.gf" args="0x4b270d,1,2,2,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.mainFrame.rankTxt.tf" args="Arial,25,0xffd800,true,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.mainFrame.rankTxt.gf" args="0x251200,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.mainFrame.needTxt.tf" args="Arial,16,0xccff8a,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.mainFrame.needTxt.gf" args="0x251200,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.mainFrame.bottomTxt.tf" args="Arial,10,0xffe35f" leading="-2"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.mainFrame.bottomTxt.gf" args="0x572525,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.mainFrame.cell.rankTxt.tf" args="Arial,18,0xffffff,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.mainFrame.cell.rankTxt.gf" args="0x000000,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.mainFrame.cell.scoreTxt.tf" args="Arial,14,0xffffff,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.mainFrame.cell.scoreTxt.gf" args="0x000000,1,2,2,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.mainFrame.normalPromptTxt.tf" args="Arial,14,0xfff4d4,true" letterSpacing="0"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.mainFrame.normalPromptTxt.gf" args="0x7C4519,2,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.mainFrame.consumePromptTxt2.tf" args="Arial,12,0x000000"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.mainFrame.consumePromptTxt2.gf" args="0xffffff,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.mainFrame.normalInputTxt.tf" args="Arial,14,0xFFFFFF,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.mainFrame.normalInputTxt.gf" args="0x4c3417,2,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.shopFrame.coinTxt.tf" args="Arial,14,0xffcc00,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.shopFrame.coinTxt.gf" args="0x5b3100,1,4,4,500"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.shopFrame.coinNumTxt.tf" args="Arial,12,0xfff8d6,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.shopFrame.coinNumTxt.gf" args="0x4b270d,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.shopFrame.labelTxt.tf" args="Arial,12,0xe20000,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.shopFrame.labelTxt.gf" args="0xfff8e5,1,4,4,500"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.shopFrame.cellNameTxt.tf" args="Arial,12,0xe8ce97,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.shopFrame.cellNameTxt.gf" args="0x5c3d11,1,2,2,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.shopFrame.cellNeedMoneyTxt.tf" args="Arial,16,0xe8ce97,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.shopFrame.cellNeedMoneyTxt.gf" args="0x5c3d11,1,2,2,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.shopFrame.cellCannotBuyTipTxt.tf" args="Arial,12,0xe21a1a,true,,,,,right"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.shopFrame.cellCannotBuyTipTxt.gf" args="0x5b3100,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.shopFrame.cellAwardName.tf" args="Arial,14,0xffffff"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.shopFrame.cellAwardName.gf" args="0x000000,1,2,2,30"/>  
+    <set stylename="asset.dragonboatLeftPlayer.NameGF" args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.playerBottomTxtTF" args="Arial,12,0xd8ca88,,,,,,left" leading="0" letterSpacing="0"/>  
+    <set type="flash.filters.GlowFilter" stylename="dragonBoat.playerBottomTxtGF" args="0x2e0000,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="dragonBoat.mainFrame.bottomTxt.tf2" args="Arial,12,0xffe35f,,,,,,left"/>  
+    <set stylename="asset.dragonboatLeftPlayer.NameTF" args="Arial,14,0xffffff,,,,,,center" type="flash.text.TextFormat"/> 
+  </sets>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="dragonBoat.mainFrame.selfRankPos" x="379" y="47"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.mainFrame.otherRankPos" x="379" y="47"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.mainFrame.itemCountTxtPos" x="112" y="392"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.mainFrame.rightBottomTxtPos" x="445" y="441"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.mainFrame.cell.nameTxtPos" x="71" y="10"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.mainFrame.otherCell.zoneTxtPos" x="171" y="10"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.mainFrame.otherCell.scoreTxtPos" x="239" y="10"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.mainFrame.consumeView.textWord1Pos" x="49" y="56"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.mainFrame.consumeView.ownMoneyPos" x="146" y="57"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.shopFrame.pageTxtPos" x="305" y="371"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.shopFrame.cellMoneyTxtPos" x="165" y="26"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.shopFrame.cellItemCellPos" x="3" y="3"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.shopFrame.buyFrameContentPos" x="6" y="26"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.shopFrame.boatMcPos" x="179" y="231"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.shopFrame.cellAwardSelfPos" x="300" y="6"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.shopFrame.cellAwardOtherPos" x="310" y="6"/>  
+    <custom classname="flash.geom.Point" stylename="drgonBoat.playerHeaderShinePos" x="-37" y="-29"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.mainFrame.scoreTxt1Pos" x="112" y="419"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.mainFrame.scoreTxt2Pos" x="112" y="447"/>  
+    <custom classname="flash.geom.Point" stylename="drgonBoat.playerPos" x="225" y="117"/>  
+    <custom classname="flash.geom.Point" stylename="dragonBoat.mainFrame.consumeView.ownMoneyPos2" x="255" y="90"/>  
+    <custom classname="flash.geom.Point" stylename="asset.dragonboatLeftPlayerLevelIconPos" x="35" y="62"/> 
+    <custom classname="flash.geom.Point" stylename="kingStatue.mainFrame.statuePos" x="32" y="32"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame.inputBgPos" x="188" y="56"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame.inputTxtPos" x="188" y="61"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame.maxBtnPos" x="313" y="57"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame.inputBg2Pos" x="188" y="92"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame.inputTxt2Pos" x="188" y="97"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame.maxBtn2Pos" x="313" y="94"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame.tipsPos" x="41" y="126"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame2.descPos" x="-10" y="64"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame2.ownMoneyPos" x="139" y="65"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame2.inputBgPos" x="159" y="96"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame2.txtPos" x="103" y="98"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame2.inputTxtPos" x="159" y="100"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame2.ownBindMoneyPos" x="284" y="65"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame2.tipsPos" x="34" y="175"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.consumeFrame2.selectItemPos" x="191" y="147"/>
+<custom classname="flash.geom.Point" stylename="kingStatue.mainFrame.scoreTxtPos" x="120" y="408"/>
+  </customs>  
+  <components> 
+    <component classname="dragonBoat.view.DragonBoatFrame" backStyle="SimpleFrameBackgound" closestyle="core.closebt" stylename="DragonBoatFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true" closeInnerRectString="44,19,6,30,14" width="904" height="555"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="dragonBoat.mainFrame.selfRank.btn" unSelectedStyle="asset.dragonBoat.mainFrame.selfRank.unBtn" selectedStyle="asset.dragonBoat.mainFrame.selfRank.btn" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="dragonBoat.mainFrame.otherRank.btn" unSelectedStyle="asset.dragonBoat.mainFrame.otherRank.unBtn" selectedStyle="asset.dragonBoat.mainFrame.otherRank.btn" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="dragonBoat.mainFrame.normalDecorateBtn" backStyle="asset.dragonBoat.mainFrame.normalDecorateBtn" x="31" y="295"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="dragonBoat.mainFrame.highDecorateBtn" backStyle="asset.dragonBoat.mainFrame.highDecorateBtn" x="206" y="295"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="dragonBoat.mainFrame.normalBuildBtn" backStyle="asset.dragonBoat.mainFrame.normalBuildBtn" x="31" y="295"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="dragonBoat.mainFrame.highBuildBtn" backStyle="asset.dragonBoat.mainFrame.highBuildBtn" x="206" y="295"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="dragonBoat.mainFrame.scoreBtn" backStyle="asset.dragonBoat.mainFrame.scoreBtn" x="219" y="437"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="dragonBoat.mainFrame.helpBtn" backStyle="asset.dragonBoat.mainFrame.helpBtn" x="748" y="4"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.mainFrame.progressTxt" textFormatStyle="dragonBoat.mainFrame.progressTxt.tf" filterString="dragonBoat.mainFrame.progressTxt.gf" autoSize="none" x="98" y="263" width="180" height="24"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.mainFrame.timeTxt" textFormatStyle="dragonBoat.mainFrame.timeTxt.tf" filterString="dragonBoat.mainFrame.timeTxt.gf" x="50" y="353"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.mainFrame.scoreTxt" textFormatStyle="dragonBoat.mainFrame.scoreTxt.tf" filterString="dragonBoat.mainFrame.scoreTxt.gf" autoSize="none" x="106" y="424" width="100" height="24"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.mainFrame.rankTxt" textFormatStyle="dragonBoat.mainFrame.rankTxt.tf" filterString="dragonBoat.mainFrame.rankTxt.gf" autoSize="none" x="400" y="413" width="100" height="50"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.mainFrame.needTxt" textFormatStyle="dragonBoat.mainFrame.needTxt.tf" filterString="dragonBoat.mainFrame.needTxt.gf" autoSize="none" x="609" y="381" width="100" height="24"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.mainFrame.bottomTxt" textFormatStyle="dragonBoat.mainFrame.bottomTxt.tf" filterString="dragonBoat.mainFrame.bottomTxt.gf" x="204" y="381" wordWrap="true" width="160" height="50"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="dragonBoat.mainFrame.selfRankList" parentStyle="core.ScrollPanel" vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="0" hScrollProxy="2" vUnitIncrement="3" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|dragonBoat.view.DragonBoatSelfRankItem,41,438" listStyle="com.pickgliss.ui.controls.list.List" width="465" height="244" x="7" y="47"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="dragonBoat.mainFrame.otherRankList" parentStyle="core.ScrollPanel" vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="0" hScrollProxy="2" vUnitIncrement="3" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|dragonBoat.view.DragonBoatOtherRankItem,41,438" listStyle="com.pickgliss.ui.controls.list.List" width="465" height="244" x="7" y="47"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.mainFrame.cell.rankTxt" textFormatStyle="dragonBoat.mainFrame.cell.rankTxt.tf" filterString="dragonBoat.mainFrame.cell.rankTxt.gf" autoSize="none" x="0" y="8" width="70" height="24"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.mainFrame.cell.scoreTxt" textFormatStyle="dragonBoat.mainFrame.cell.scoreTxt.tf" filterString="dragonBoat.mainFrame.cell.scoreTxt.gf" autoSize="none" x="209" y="9" width="80" height="24"/>  
+    <component classname="dragonBoat.view.DragonBoatConsumeView" stylename="DragonBoatNormalView" parentStyle="BaseFrame" escEnable="true" width="450" height="205"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.mainFrame.normalPromptTxt" textFormatStyle="dragonBoat.mainFrame.normalPromptTxt.tf" filterString="dragonBoat.mainFrame.normalPromptTxt.gf" x="33" y="80"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.mainFrame.consumePromptTxt2" textFormatStyle="dragonBoat.mainFrame.consumePromptTxt2.tf" filterString="dragonBoat.mainFrame.consumePromptTxt2.gf" x="113" y="119" autoSize="none" wordWrap="true" width="380" height="50"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.mainFrame.normalInputTxt" textFormatStyle="dragonBoat.mainFrame.normalInputTxt.tf" filterString="dragonBoat.mainFrame.normalInputTxt.gf" restrict="0-9" maxChars="7" wordWrap="false" multiline="false" type="input" autoSize="none" width="120" height="30" x="207" y="80"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="dragonBoat.mainFrame.normal.maxBtn" backStyle="asset.dragonBoat.mainFrame.normal.maxBtn" x="339" y="77"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="dragonBoat.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" width="370" height="376"/>  
+    <component classname="store.HelpPrompt" stylename="dragonBoat.HelpPrompt" bg9ScalseStyle="dragonBoat.HelpFrame.FrameBg" contentStyle="asset.dragonBoat.helpPromptTxt" x="180" y="213"/>  
+    <component classname="store.HelpFrame" stylename="dragonBoat.HelpFrame" parentStyle="BaseFrame" width="404" height="484"/>  
+    <component classname="dragonBoat.view.DragonBoatShopFrame" backStyle="SimpleFrameBackgoundOneIII" width="480" height="521" stylename="DragonBoatShopFrame" titleStyle="FrameTitleTextStyle" escEnable="true" parentStyle="BaseFrame" type="1" closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" cancelButtonStyle="core.simplebt" moveEnable="true" buttonToBottom="13" containerX="20" containerY="40" titleOuterRectPosString="12,11,5"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="dragonBoat.shopFrame.bg" parentStyle="ddtshop.GoodItemContainerBg" x="1" y="5"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.shopFrame.coinTxt" textFormatStyle="dragonBoat.shopFrame.coinTxt.tf" filterString="dragonBoat.shopFrame.coinTxt.gf" x="10" y="369"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="dragonBoat.shopFrame.coinBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="88" height="23" x="169" y="367"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.shopFrame.coinNumTxt" textFormatStyle="dragonBoat.shopFrame.coinNumTxt.tf" filterString="dragonBoat.shopFrame.coinNumTxt.gf" autoSize="none" width="83" height="24" x="172" y="371"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.shopFrame.labelTxt" textFormatStyle="dragonBoat.shopFrame.labelTxt.tf" filterString="dragonBoat.shopFrame.labelTxt.gf" x="5" y="397"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="dragonBoat.shopFrame.pageBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="314" y="367" width="62" height="23"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="dragonBoat.shopFrame.preBtn" backStyle="asset.dragonBoat.shopFrame.preBtn" x="257" y="365"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="dragonBoat.shopFrame.nextBtn" backStyle="asset.dragonBoat.shopFrame.nextBtn" x="378" y="365"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="dragonBoat.shopFrame.cellBuyBtn" backStyle="asset.dragonBoat.shopFrame.cellBuyBtn" x="130" y="54"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.shopFrame.cellNameTxt" textFormatStyle="dragonBoat.shopFrame.cellNameTxt.tf" filterString="dragonBoat.shopFrame.cellNameTxt.gf" autoSize="none" width="128" height="22" x="77" y="7"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.shopFrame.cellNeedMoneyTxt" textFormatStyle="dragonBoat.shopFrame.cellNeedMoneyTxt.tf" filterString="dragonBoat.shopFrame.cellNeedMoneyTxt.gf" autoSize="none" width="60" height="25" x="77" y="27"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.shopFrame.cellCannotBuyTipTxt" textFormatStyle="dragonBoat.shopFrame.cellCannotBuyTipTxt.tf" filterString="dragonBoat.shopFrame.cellCannotBuyTipTxt.gf" autoSize="none" width="125" height="22" x="77" y="57"/>  
+    <component classname="dragonBoat.view.DragonBoatBuyFrame" stylename="DragonBoatBuyFrame" parentStyle="BaseFrame" escEnable="true" width="355" height="192"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.shopFrame.cellAwardName" textFormatStyle="dragonBoat.shopFrame.cellAwardName.tf" filterString="dragonBoat.shopFrame.cellAwardName.gf" isAutoFitLength="true" autoSize="none" width="105" height="20" x="300" y="11"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.shopFrame.cellAwardName2" parentStyle="dragonBoat.shopFrame.cellAwardName" autoSize="none" width="88" height="20" x="317" y="11"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.mainFrame.bottomTxt2" textFormatStyle="dragonBoat.mainFrame.bottomTxt.tf2" filterString="dragonBoat.mainFrame.bottomTxt.gf" x="510" y="413" wordWrap="true" width="315" height="30"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dragonBoat.playerBottomTxt" textFormatStyle="dragonBoat.playerBottomTxtTF" filterString="dragonBoat.playerBottomTxtGF" x="40" y="293" wordWrap="true" width="300" height="50"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.dragonboatLeftPlayer.Name" textFormatStyle="asset.dragonboatLeftPlayer.NameTF" filterString="asset.dragonboatLeftPlayer.NameGF" autoSize="none" width="132" height="20" isAutoFitLength="true" x="120" y="30"/> 
+<component classname="store.HelpPrompt" stylename="dragonBoat.statueHelpPrompt" bg9ScalseStyle="dragonBoat.HelpFrame.FrameBg" contentStyle="asset.dragonBoat.stateHelpPromptTxt" x="180" y="213"/>
+<component classname="dragonBoat.view.KingStatueNormalBuildView" stylename="KingStatueNormalBuildView" parentStyle="BaseFrame" escEnable="true" width="390" height="205"/>
+<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="KingStatue.checkBtn1" parentStyle="ddtshop.CartItemSelectBtn" textStyle="dragonBoat.mainFrame.normalPromptTxt" fieldX="24" fieldY="0" x="20" y="61"/>
+<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="KingStatue.checkBtn2" parentStyle="ddtshop.CartItemSelectBtn" textStyle="dragonBoat.mainFrame.normalPromptTxt" fieldX="24" fieldY="0" x="20" y="101"/>
+<component classname="dragonBoat.view.KingStatueHighBuildView" stylename="KingStatueHighBuildView" parentStyle="BaseFrame" escEnable="true" width="390" height="255"/>
+ <component classname="store.HelpPrompt" stylename="laurel.statueHelpPrompt" bg9ScalseStyle="dragonBoat.HelpFrame.FrameBg" contentStyle="laurel.statueHelpPromptTxt" x="180" y="213"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="laurel.normalFertilizeBtn" backStyle="laurel.normalFertilize" x="31" y="295"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="laurel.normalPrayBtn" backStyle="laurel.normalPray" x="31" y="295"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="laurel.highFertilizeBtn" backStyle="laurel.highFertilize" x="206" y="295"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="laurel.highPrayBtn" backStyle="laurel.highPray" x="206" y="295"/>
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.bg" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.smallBorder" x="373" y="41"/>  
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.selfRank.bg" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.otherRank.bg" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.progress" x="93" y="262"/>  
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.progressBg" x="89" y="257"/>  
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.cellRankth1" x="9" y="6"/>  
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.cellRankth2" x="9" y="6"/>  
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.cellRankth3" x="9" y="6"/>  
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.normal.inputBg" x="208" y="75"/>  
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.playerHeaderBg" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.playerBg" x="10" y="16"/>  
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.dragonboatBg" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.playerHeaderNo1" x="235" y="35"/> 
+    <bitmapData resourceLink="kingStatue.BG" x="0" y="0"/>
+    <bitmapData resourceLink="asset.dragonBoat.mainFrame.playerBg2" x="8" y="6"/>
+  </bitmaps> 
+</style>

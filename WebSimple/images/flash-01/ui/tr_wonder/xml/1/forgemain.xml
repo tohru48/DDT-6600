@@ -1,0 +1,49 @@
+<style name="forgemain" version="5.2.0" source="ui/spain/swf/forgemain.swf">
+
+	<sets>
+		
+	</sets>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="forgeMainView.leftBgPos" x="66" y="59"/>
+		
+		<custom classname="flash.geom.Point" stylename="forgeMainView.rightBgViewPos" x="394" y="35"/>
+		
+		<custom classname="flash.geom.Point" stylename="forgeMainView.latentEnergyViewPos" x="36" y="29"/>
+		
+		<custom classname="flash.geom.Point" stylename="forgeMainView.exaltPanelPos" x="73" y="44"/>
+		
+		<custom classname="flash.geom.Point" stylename="forgeMainView.gemstoneFramePos" x="47" y="8"/>
+	</customs>
+	
+	<components>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="forgeMainView.tabVBox" 
+			spacing="1" x="12" y="47" />
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="forgeMainView.tabSelectedButton0" 
+			selectedStyle="asset.forgeMainView.tabSelectedButton0" 
+			unSelectedStyle="asset.forgeMainView.tabSelectedButton0" displacement="false"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="forgeMainView.tabSelectedButton1" 
+			selectedStyle="asset.forgeMainView.tabSelectedButton1" 
+			unSelectedStyle="asset.forgeMainView.tabSelectedButton1" displacement="false"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="forgeMainView.tabSelectedButton2" 
+			selectedStyle="asset.forgeMainView.tabSelectedButton2" 
+			unSelectedStyle="asset.forgeMainView.tabSelectedButton2" displacement="false"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="forgeMainView.tabSelectedButton3" 
+			selectedStyle="asset.forgeMainView.tabSelectedButton4" 
+			unSelectedStyle="asset.forgeMainView.tabSelectedButton4" displacement="false"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="forgeMainView.tabSelectedButton4" 
+			selectedStyle="asset.forgeMainView.tabSelectedButton3" 
+			unSelectedStyle="asset.forgeMainView.tabSelectedButton3" displacement="false"/>
+		
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.forgeMainView.tabSelectedButton0" x="-1" y="-5"/>
+		<bitmapData resourceLink="asset.forgeMainView.tabSelectedButton1" x="-1" y="-13"/>
+		<bitmapData resourceLink="asset.forgeMainView.tabSelectedButton2" x="-1" y="-22"/>
+		<bitmapData resourceLink="asset.forgeMainView.tabSelectedButton3" x="-1" y="-45"/>
+		<bitmapData resourceLink="asset.forgeMainView.tabSelectedButton4" x="-1" y="-33"/>
+	</bitmaps>
+</style>

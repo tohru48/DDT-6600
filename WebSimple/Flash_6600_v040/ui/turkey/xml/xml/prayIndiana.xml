@@ -1,0 +1,71 @@
+<style name="prayIndiana" version="1.0.1" source="ui/turkey/swf/prayIndiana.swf">
+<sets>
+  	<set stylename="PrayIndianaFrame.helpTextTF" args="Arial,12,0xffbe10,,,,,,center" type="flash.text.TextFormat" leading="-3"/>
+  	<set stylename="PrayIndianaFrame.helpTextGF" args="0x582e04,1,2,2,30" type="flash.filters.GlowFilter"/>
+  	<set stylename="PrayIndianaFrame.prayTextTF" args="Arial,11,0xd3a94f,,,,,,left" type="flash.text.TextFormat" leading="-3"/>
+  	<set stylename="PrayIndianaFrame.prayTextGF" args="0x582e04,1,2,2,30" type="flash.filters.GlowFilter"/>
+  	<set stylename="PrayIndianaFrame.paopaoTextTF" args="Arial,12,0xffbe10,,,,,,center" type="flash.text.TextFormat"/>
+  	<set stylename="PrayIndianaFrame.paopaoTextGF" args="0x582e04,1,2,2,30" type="flash.filters.GlowFilter"/>
+  	<set stylename="PrayIndianaFrame.probabilityTextTF" args="Arial,12,0xffe400,true,,,,,left" type="flash.text.TextFormat"/>
+  	<set stylename="PrayIndianaFrame.probabilityTextGF" args="0x582e04,1,2,2,30" type="flash.filters.GlowFilter"/>
+  	<set stylename="PrayIndianaFrame.showStarTimeTF" args="Arial,12,0xefd8b7,,,,,,left" type="flash.text.TextFormat"/>
+  	<set stylename="PrayIndianaFrame.showStarTimeGF" args="0x450b03,1,2,2,30" type="flash.filters.GlowFilter"/>
+  	
+  	
+</sets>
+<customDisplay>
+	<custom classname="flash.geom.Point" stylename="prayIndiana.paopao.pos" x="467" y="391"/>
+	<custom classname="prayIndiana.view.SlideView" stylename="PrayIndianaFrame.slide" x="24" y="422"/>
+	<custom classname="prayIndiana.view.PrayGoodsView" stylename="PrayIndianaFrame.PrayGoodsView" x="25" y="16"/>
+</customDisplay>
+<components>
+	<!-- 主界面 -->
+	<component classname="prayIndiana.view.PrayIndianaFrame" closestyle="prayIndiana.closebt" stylename="PrayIndianaManager.PrayIndianaFrame" titleStyle="FrameTitleTextStyle"
+		titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+		closeInnerRectString="518,42,24,42,13" width="550" height="524" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="prayIndiana.closebt"
+			backStyle="prayIndiana.closeBtn"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+		stylename="PrayIndianaFrame.lotteryBtn" backStyle="prayIndiana.lotteryBtn"
+		x="105" y="297" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+		stylename="PrayIndianaFrame.refreshBtn" backStyle="prayIndiana.refreshBtn"
+		x="278" y="297" />	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+		stylename="PrayIndianaFrame.prayBtn" backStyle="prayIndiana.prayBtn"
+		x="391" y="398" />		
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+		stylename="PrayIndianaFrame.perfectPrayBtn" backStyle="prayIndiana.perfectPrayBtn"
+		x="391" y="438" />		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PrayIndianaFrame.helpText" 
+		x="26" y="345" autoSize="none" width="470" height="40" wordWrap="true" textFormatStyle="PrayIndianaFrame.helpTextTF" filterString="PrayIndianaFrame.helpTextGF" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PrayIndianaFrame.prayText" 
+		x="27" y="452" autoSize="none" width="345" height="40" wordWrap="true" textFormatStyle="PrayIndianaFrame.prayTextTF" filterString="PrayIndianaFrame.prayTextGF" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PrayIndianaFrame.paopaoText" 
+		x="250" y="292" autoSize="center" textFormatStyle="PrayIndianaFrame.paopaoTextTF" filterString="PrayIndianaFrame.paopaoTextGF" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PrayIndianaFrame.probabilityText" 
+		x="349" y="399" autoSize="none" width="50" height="25" textFormatStyle="PrayIndianaFrame.probabilityTextTF" filterString="PrayIndianaFrame.probabilityTextGF" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PrayIndianaFrame.paopaoPrayText" 
+		x="479" y="396" autoSize="center" textFormatStyle="PrayIndianaFrame.paopaoTextTF" filterString="PrayIndianaFrame.paopaoTextGF" />	
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="PrayIndianaFrame.helpBtn" 
+			backStyle="prayIndiana.helpBtn" x="473" y="-22"/>
+	<component classname="store.HelpFrame" stylename="PrayIndianaFrame.HelpFrame" parentStyle="BaseFrame" width="404" height="484" />
+	<component classname="store.HelpPrompt" stylename="PrayIndianaFrame.HelpPrompt" 
+			bg9ScalseStyle="PrayIndianaFrame.HelpFrame.FrameBg" contentStyle="asset.PrayIndianaFrame.helpWord"
+			x="17" y="43" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="PrayIndianaFrame.HelpFrame.FrameBg" 
+			parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" 
+			x="0" y="0" width="370" height="376" />
+			
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PrayIndianaFrame.showStarTime" 
+		x="164" y="-16" autoSize="left" width="250" height="25" textFormatStyle="PrayIndianaFrame.showStarTimeTF" filterString="PrayIndianaFrame.showStarTimeGF" />	
+			
+	
+</components>
+<bitmaps>
+   <bitmapData resourceLink="prayIndiana.FrameBG" x="-2" y="-70"/>
+   <bitmapData resourceLink="prayIndiana.lotteryProbabilityT" x="24" y="400"/>
+   <bitmapData resourceLink="prayIndiana.paopao" x="237" y="288"/>
+   <bitmapData resourceLink="prayIndiana.TweenFrameBG" x="24" y="422"/>
+</bitmaps>
+</style>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtbead" version="1.0.1" source="ui/turkey/swf/ddtbead.swf"> 
+  <sets> 
+  	<set type="flash.text.TextFormat" stylename="beadSystem.simpleAlertContentTF_1" args="Arial,12,0x654600,true,,,,,center,,,,15" leading="2"/>
+	<set type="flash.text.TextFormat" stylename="beadSystem.simpleAlertContentTF_2" args="Arial,12,0x654600,true,,,,,center,,,,15" leading="0"/>
+
+    <set stylename="bead.BackoutBtnTextTF" args="Arial,12,0xfff6a8,,,,,,center" letterSpacing="0" type="flash.text.TextFormat"/>  
+    <set stylename="bead.BackoutBtnTextGF" args="0x715008,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadInsetView.beadCell.name.gf" args="0x000000,1,2,2,30"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.beadTip.name.gf" args="0x000000,1,2,2,30"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.beadTip.expLevel.gf" args="0x000000,1,2,2,30"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.beadTip.disc.gf" args="0x000000,1,4,4,30"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadGetBead.beadCell.name.gf" args="0x000000,1,2,2,30"/>  
+    <set stylename="beadSystem.FeedProgressTF" args="Arial,11,0xFFE9B3,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="beadSystem.FeedProgressGF" args="0x701A00,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="beadSystem.TF6" args="Arial,14,0xfff6a8,true,,,,,center" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set stylename="beadSystem.GF3" args="0x715008,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="beadSystem.pageTF" args="Arial,12,0xFFF8D6,,,,,,center" type="flash.text.TextFormat"/>  
+    <set args="0x4b270d,1,4,4,30" stylename="beadSystem.T_g5" type="flash.filters.GlowFilter"/>  
+    <set type="flash.text.TextFormat" stylename="beadSystem.getBead.requestBtn.tip.name.tf" args="Arial,10,0xe900fe,true"/>  
+    <set type="flash.text.TextFormat" stylename="beadSystem.getBead.requestBtn.tip.disc.tf" args="Arial,12,0xffffff,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.getBead.requestBtn.tip.name.gf" args="0x000000,1,2,2,30"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.getBead.requestBtn.tip.disc.gf" args="0x000000,1,2,2,30"/>  
+    <set type="flash.text.TextFormat" stylename="beadSystem.beadCell.name.tf" args="Arial,12,0x000000,,,,,,center" leading="0"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.beadCell.name.gf" args="0xffffff,1,2,2,30"/>  
+    <!-- 白色 -->  
+    <set type="flash.text.TextFormat" stylename="beadSystem.beadCell.name.tf1" args="Arial,10,0xffffff,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.beadCell.name.gf1" args="0x000000,2,2,2,30"/>  
+    <!-- 蓝色 -->  
+    <set type="flash.text.TextFormat" stylename="beadSystem.beadCell.name.tf2" args="Arial,10,0x7fd3ff,,,,,,center"/>  
+    <!-- 红色 -->  
+    <set type="flash.text.TextFormat" stylename="beadSystem.beadCell.name.tf3" args="Arial,10,0xff4e4e,,,,,,center"/>  
+    <!-- 黄色 -->  
+    <set type="flash.text.TextFormat" stylename="beadSystem.beadCell.name.tf4" args="Arial,10,0xffdf1e,,,,,,center"/>  
+    <!-- 宝珠升级槽下面字体设置 -->  
+    <set type="flash.text.TextFormat" stylename="beadSystem.underBead.tf" args="Arial,12,0xffe68e,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.underBead.gf" args="0x44230b,2,2,2,30"/>  
+    <!-- 获取宝珠界面标题 -->  
+    <set type="flash.text.TextFormat" stylename="beadSystem.getBeadViewTitle.tf" args="Arial,14,0xffe399,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.getBeadViewTitle.gf" args="0x4a1617,2,2,2,30"/>  
+    <!-- 钻头标题 -->  
+    <set type="flash.text.TextFormat" stylename="beadSystem.drillItem.text.tf" args="Arial,12,0xfff2b2,true,,,,,center"/>  
+    <!-- 获得经验 -->  
+    <set type="flash.text.TextFormat" stylename="beadSystem.simpleAlertContentTF" args="Arial,14,0x654600,true,,,,,center,,,,15" leading="10"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.simpleAlertContentGF" args="0xFFFFFF,1,4,4,30"/>  
+    <!-- lock/unlock -->  
+    <set stylename="beadSystem.lockandunlock.tf" args="Arial,14,0xffead9,true,,,,,center" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set stylename="beadSystem.lockandunlock.gf" args="0x76251e,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!-- feed button -->  
+    <set stylename="beadSystem.beadFeedBtn.tf" args="Arial,14,0xebfeff,true,,,,,center" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set stylename="beadSystem.beadFeedBtn.gf" args="0x005774,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set args="Arial,12,0xcfb280" stylename="beadSystem.AutoOpenTF" type="flash.text.TextFormat"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.AutoOpenGF" args="0x411212,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="beadSystem.getBeadView.freeGetTipTxt.tf" args="Arial,12,0xffffff"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.getBeadView.freeGetTipTxt.gf" args="0xe00000,1,2,2,30"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.warnAlertContentGF" args="0xFFFFFF,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="beadSystem.warnAlertContentTF" args="Arial,12,0xff0000,true,,,,,center,,,,15" leading="10"/>  
+    <set type="flash.text.TextFormat" stylename="beadSystem.simpleAlertInfoTF" args="Arial,16,0x0,true,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.simpleAlertInfoGF" args="0xffffff,1,4,2,30"/>  
+    <set type="flash.text.TextFormat" stylename="beadSystem.simpleAlertTipTF" args="Arial,14,0x391f00"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.simpleAlertTipGF" args="0x391f00,1,4,2,30"/>  
+    <set type="flash.text.TextFormat" stylename="beadSystem.simpleAlertYESTF" args="Arial,16,0xcc1300,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="beadSystem.simpleAlertYESGF" args="0xd5ac7c,1,4,2,30"/>  
+    <set stylename="beadSystem.textGF" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="beadSystem.textTF" args="Arial,15,0xfff8d6,,,,,,left" type="flash.text.TextFormat"/>  
+    <set type="flash.text.TextFormat" stylename="beadSystem.beadCell.name.tf5" args="Arial,10,0xfb1df3,,,,,,center"/> 
+  </sets>  
+  <customDisplay> 
+    <custom classname="beadSystem.views.BeadInfoView" stylename="beadInfoView" x="3" y="11"/>  
+    <custom classname="beadSystem.views.PlayerBeadInfoView" stylename="playerBeadInfoView" x="28" y="89"/>  
+    <custom classname="beadSystem.views.BeadBagListView" stylename="beadBagListView" x="413" y="11"/>  
+    <custom classname="beadSystem.views.BeadGetView" stylename="beadGetView" x="2" y="330"/>  
+    <custom classname="beadSystem.controls.BeadLockButton" stylename="beadLockBtn" backStyle="beadSystem.getBead.lockImage" x="270" y="370"/>  
+    <custom classname="beadSystem.controls.BeadBagList" stylename="beadBagList" x="50" y="27"/>  
+    <!-- 打孔 -->  
+    <custom classname="store.view.embed.HoleExpBar" stylename="beadSystem.HoleExpBar" x="340" y="272" visible="false" tipStyle="ddt.view.tips.OneLineTip" tipGapV="6" tipGapH="6" tipDirctions="2,1,0"/>  
+    <!-- 孔位置 -->  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint1" x="144" y="100"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint2" x="106" y="151"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint3" x="181" y="151"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint4" x="144" y="12"/>  
+    <custom classname="flash.geom.Point" stylename="ddt.beadSystem.FeedBeadConfirmPos" x="69" y="90"/>
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint5" x="206" y="26"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint6" x="78" y="26"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint7" x="35" y="74"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint8" x="247" y="71"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint9" x="265" y="134"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint10" x="17" y="136"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint11" x="39" y="198"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint12" x="247" y="198"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint13" x="16" y="272"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint14" x="70" y="272"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint15" x="122" y="272"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint16" x="175" y="272"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint17" x="228" y="272"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint18" x="281" y="272"/>  
+    <custom classname="flash.geom.Point" stylename="bead.Embedpoint19" x="328" y="9"/>  
+    <custom classname="flash.geom.Point" stylename="beadSystem.upPreviewTipPos" x="80" y="80"/>  
+    <custom classname="flash.geom.Point" stylename="beadSystem.upPreviewTipArrayPos" x="80" y="80"/>  
+    <custom classname="beadSystem.tips.BeadTip" stylename="beadSystem.beadTipPanel"/>  
+    <!-- PlayerBeadInfoCellPoints -->  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint1" x="191" y="122"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint2" x="145" y="185"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint3" x="236" y="184"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint4" x="188" y="12"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint5" x="260" y="29"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint6" x="114" y="29"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint7" x="58" y="91"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint8" x="318" y="91"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint9" x="333" y="164"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint10" x="42" y="164"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint11" x="62" y="235"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint12" x="309" y="235"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint13" x="40" y="306"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint14" x="99" y="340"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint15" x="159" y="375"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint16" x="226" y="375"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint17" x="287" y="340"/>  
+    <custom classname="flash.geom.Point" stylename="bead.PlayerEmbedpoint18" x="345" y="306"/>  
+    <!-- 钻头下拉 -->  
+    <custom classname="beadSystem.controls.DrillSelectButton" stylename="beadSystem.DrillButton" x="329" y="241"/>  
+    <custom classname="beadSystem.controls.DrillItem" stylename="beadSystem.DrillItem"/>  
+    <custom classname="flash.geom.Point" stylename="beadSystem.DrillItemIconPos" x="0" y="1"/>  
+    <custom classname="flash.geom.Point" stylename="beadSystem.DrillSelectBtnTextPos" x="17" y="5"/>  
+    <custom classname="flash.geom.Point" stylename="beadSystem.DrillItemTextPos" x="30" y="5"/>  
+    <custom classname="store.data.HoleExpModel" stylename="BeadHoleModel" maxLv="5" oprationLv="5" explist="400|600|700|800|800"/>  
+    <custom classname="flash.geom.Point" stylename="beadSystem.oneKeyFeedMCpos" x="30" y="5"/> 
+    
+    <custom classname="flash.geom.Point" stylename="bead.moneyTextPosUnderBeadBag" x="267" y="408"/>
+    <custom classname="flash.geom.Point" stylename="guide.bead.txtPos" x="503" y="-54"/>
+  </customDisplay>  
+  <components> 
+  	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.BeadConfirm" textFormatStyle="beadSystem.simpleAlertContentTF_1" filterString="beadSystem.simpleAlertContentGF" autoSize="none" x="28" y="78" width="220" height="58" wordWrap="true"/>
+  	
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.getBeadView.freeGetTipTxt" textFormatStyle="beadSystem.getBeadView.freeGetTipTxt.tf" filterString="beadSystem.getBeadView.freeGetTipTxt.gf" autoSize="none" width="340" height="22" x="6" y="91"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="beadSystem.getBead.lockImage" resourceLink="asset.beadSystem.beadInset.buyLockBG,asset.beadSystem.beadInset.lockBtn"/>  
+    <!-- 开孔 -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="bead.OpenHoleBtnImage" resourceLink="core.bg6905,asset.ddtstore.EmbedOpenHoleImage" imageRectString=",-5|27|0|29|13"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="beadSystem.beadTip.bg" resourceLink="asset.core.tip.GoodsTipBg" scaleGridString="10,10,60,45" width="205" height="99"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="beadSystem.beadTip.hLine" resourceLink="asset.core.tip.HRuleAsset" width="169" height="2" scaleGridString="10,1,159,1" x="4" y="34"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="beadSystem.beadTip.hLine2" parentStyle="beadSystem.beadTip.hLine" x="4" y="67"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.beadTip.name" textFormatStyle="beadSystem.beadTip.name.tf" filterString="beadSystem.beadTip.name.gf" autoSize="none" x="13" y="7" width="190" height="27"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.beadTip.expLevel" textFormatStyle="beadSystem.beadTip.expLevel.tf" filterString="beadSystem.beadTip.expLevel.gf" autoSize="none" x="13" y="42" width="185" height="22"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.beadTip.disc" textFormatStyle="beadSystem.beadTip.disc.tf" filterString="beadSystem.beadTip.disc.gf" autoSize="none" x="14" y="73" width="190" height="22"/>  
+    <!-- 孔 -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="beadSystem.openHoleSelectedImage" parentStyle="core.Scale9CornerImage.scale9CornerImage16" width="55" height="55" x="-3" y="-4"/>  
+    <!-- 进度条 -->  
+    <component classname="beadSystem.controls.BeadFeedProgress" stylename="beadSystem.FeedProgress" x="327" y="108" width="60" height="18"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.FeedProgressText" textFormatStyle="beadSystem.FeedProgressTF" filterString="beadSystem.FeedProgressGF" autoSize="none" x="-7" y="-1" width="123" height="18"/>  
+    
+    <component classname="beadSystem.controls.BeadFeedButton"
+			stylename="beadSystem.feedbtn1" backStyle="beadSystem.feed.feedBtn"
+			x="14" y="370" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"
+			filterString="null,lightFilter,null,grayFilter" /><!-- 合成按钮 -->
+
+		<component classname="beadSystem.controls.BeadLockButton"
+			stylename="beadSystem.lockbtn1" backStyle="beadSystem.lockOrUnlockBtn"
+			x="14" y="406" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"
+			filterString="null,lightFilter,null,grayFilter" /><!-- 锁定按钮 -->
+
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="beadSystem.feedAllBtn" backStyle="beadSystem.feed.feedAllBtn"
+			x="124" y="392" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" />
+			
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="beadSystem.sortBtn" backStyle="beadSystem.sortBeadBtn" filterString="null,lightFilter,null,grayFilter" x="238" y="368"/>
+    
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="beadSystem.openHole" backStyle="bagAndGift.YelloButton" backgoundInnerRectString="13,15,9,10,-1" textStyle="beadSystem.openHoleTxt" x="332" y="288" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="3,7,6" filterString="null,lightFilter,null,grayFilter"/>  
+    <!-- 开孔按钮 -->  
+    <!-- feed Button -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.feedbtnStyle" textFormatStyle="beadSystem.beadFeedBtn.tf" filterString="beadSystem.beadFeedBtn.gf" multiline="false" wordWrap="false"/>  
+    <!-- open hole -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.openHoleTxt" textFormatStyle="beadSystem.TF6" filterString="beadSystem.GF3" multiline="false" wordWrap="false"/>  
+    <!-- lock and unlock -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.lockAndUnlockBtnText" textFormatStyle="beadSystem.lockandunlock.tf" filterString="beadSystem.lockandunlock.gf" multiline="false" wordWrap="false"/>  
+    <!-- 翻页按钮 -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="beadSystem.prePageBtn" x="118" y="368" backStyle="asset.ddtbead.leftBtn" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="beadSystem.nextPageBtn" x="199" y="368" backStyle="asset.ddtbead.rightBtn" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.pageTxt" x="168" y="371" width="60" height="20" textFormatStyle="beadSystem.pageTF" filterString="beadSystem.T_g5"/>  
+    <!-- 获取宝珠按钮 -->  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="beadSystem.getBead.requestBtn1" backStyle="beadSystem.requestBtn1" x="29" y="23" tipStyle="beadSystem.tips.BeadBtnTip" tipDirctions="7,6,5,4,0" tipGapH="-30" tipGapV="-23"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="beadSystem.getBead.requestBtn2" backStyle="beadSystem.requestBtn2" x="130" y="16" parentStyle="beadSystem.getBead.requestBtn1"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="beadSystem.getBead.requestBtn3" backStyle="beadSystem.requestBtn3" x="227" y="15" parentStyle="beadSystem.getBead.requestBtn1"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="beadSystem.getBead.requestBtn4" backStyle="beadSystem.requestBtn4" x="334" y="10" parentStyle="beadSystem.getBead.requestBtn1"/>  
+    <!-- 获取宝珠按钮TIP -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="beadSystem.getBead.requestBtn.tip.bg" resourceLink="asset.core.tip.GoodsTipBg" scaleGridString="10,10,60,45"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.getBead.requestBtn.tip.name" textFormatStyle="beadSystem.getBead.requestBtn.tip.name.tf" filterString="beadSystem.getBead.requestBtn.tip.name.gf" autoSize="left" x="3" y="7"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.getBead.requestBtn.tip.disc" textFormatStyle="beadSystem.getBead.requestBtn.tip.disc.tf" filterString="beadSystem.getBead.requestBtn.tip.disc.gf" autoSize="left" x="10" y="26"/>  
+    <!-- 钻头列表 -->  
+    <component classname="com.pickgliss.ui.controls.list.DropList" stylename="beadSystem.drillList" containerStyle="droplist.Container" backStyle="beadSystem.DrillListBg" cellStyle="beadSystem.controls.DrillItem" x="427" y="243"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="beadSystem.DrillListBg" parentStyle="core.commonTipBg" width="84" height="100"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.drillItemText" textFormatStyle="beadSystem.drillItem.text.tf" autoSize="left" x="30" y="5"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="beadSystem.drillItemHighLight" parentStyle="core.Scale9CornerImage.scale9CornerSparkBG" width="90" height="35" x="-4" y="-5"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="beadSystem.selectDrillBtn" backStyle="beadSystem.drillSelectBtnBg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="beadSystem.drillSelectBtnBg" resourceLink="core.Scale9CornerImage.scale9CornerImageInputBG,beadSystem.drillSelectBtnArrow" imageRectString="0|90|0|26|13,65|22|3|21|13" width="90" height="26"/>  
+    <!-- 宝珠背包cell名字 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.beadCell.name" textFormatStyle="beadSystem.beadCell.name.tf" filterString="beadSystem.beadCell.name.gf" autoSize="none" x="3" y="26" width="40" height="38"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.beadCellEquip.name" textFormatStyle="beadSystem.beadCell.name.tf" filterString="beadSystem.beadCell.name.gf1" autoSize="none" x="-6" y="32" width="65" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.upderBeadUpgradeCell.Text" textFormatStyle="beadSystem.underBead.tf" filterString="beadSystem.underBead.gf" autoSize="none" x="294" y="87" width="150" height="38"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.feedBeadShowExpTextOneFeed" textFormatStyle="beadSystem.simpleAlertContentTF" filterString="beadSystem.simpleAlertContentGF" autoSize="none" x="0" y="96" width="270" height="38"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.getBeadTitle" textFormatStyle="beadSystem.getBeadViewTitle.tf" filterString="beadSystem.getBeadViewTitle.gf" autoSize="none" x="-61" y="325" width="300" height="38"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.feedBeadShowExpText" textFormatStyle="beadSystem.simpleAlertContentTF" filterString="beadSystem.simpleAlertContentGF" autoSize="none" x="31" y="96" width="200" height="38"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.feedBeadWarningText" textFormatStyle="beadSystem.simpleAlertContentTF" filterString="beadSystem.simpleAlertContentGF" autoSize="none" x="32" y="86" width="450" height="60" wordWrap="false"/>  
+    <component classname="store.HelpPrompt" stylename="beadSystem.HelpPrompt" bg9ScalseStyle="beadSystem.HelpFrame.FrameBg" contentStyle="beadSystem.helpTxt" x="180" y="213"/>  
+    <component classname="store.HelpFrame" stylename="beadSystem.HelpFrame" parentStyle="BaseFrame" width="404" height="484"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="beadSystem.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" width="370" height="376"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="beadSystem.autoOpenBeadCheckBtn" parentStyle="core.simpleSelectBtn" filterString="null,lightFilter,null,grayFilter" displacement="true" textStyle="beadSystem.AutoOpenLabel" fieldX="-102" fieldY="-2" x="108" y="8"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.AutoOpenLabel" textFormatStyle="beadSystem.AutoOpenTF" filterString="beadSystem.AutoOpenGF" x="-58" y="-3"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="beadSystem.btnHelp" backStyle="asset.ddtcore.helpbuttonShort" filterString="null,lightFilter,null,grayFilter" x="738" y="-93"/>  
+    <component classname="beadSystem.views.BeadFeedInfoFrame" stylename="BeadFeedInfoFrame" parentStyle="SimpleAlert" width="415" height="220" moveEnable="false" escEnable="true" enterEnable="true" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,10,5" containerX="20" containerY="40" closestyle="core.closebt" closeInnerRectString="44,6,6,30,14"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.feedBeadShowInfoOneFeed" textFormatStyle="beadSystem.simpleAlertInfoTF" filterString="beadSystem.simpleAlertInfoGF" x="15" y="10" autoSize="none" width="340" height="50" worldWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.feedBeadShowTipOneFeed" textFormatStyle="beadSystem.simpleAlertTipTF" x="40" y="54"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.feedBeadShowTipYES" textFormatStyle="beadSystem.simpleAlertYESTF" x="138" y="54"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="beadSystem.feedBeadInputBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="121" height="30" x="126" y="77"/>  
+    <component classname="com.pickgliss.ui.controls.TextInput" stylename="beadSystem.textinput" textStyle="beadSystem.text" textInnerRectString="10,10,3,2,0" height="20" maxChars="3" width="121" x="136" y="82"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="beadSystem.text" textFormatStyle="beadSystem.textTF" filterString="beadSystem.textGF"/>  
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="beadSystem.autoOpenTitle" x="87" y="-10"/>  
+    <bitmapData resourceLink="beadSystem.pageTxt.bg" x="152" y="365"/> 
+  </bitmaps> 
+</style>

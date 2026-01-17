@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="forgemain" version="5.2.0" source="ui/turkey/swf/forgemain.swf"> 
+  <sets/>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="forgeMainView.leftBgPos" x="66" y="59"/>  
+    <custom classname="flash.geom.Point" stylename="forgeMainView.rightBgViewPos" x="425" y="60"/>  
+    <custom classname="flash.geom.Point" stylename="forgeMainView.latentEnergyViewPos" x="73" y="56"/>  
+    <custom classname="flash.geom.Point" stylename="forgeMainView.gemstoneFramePos" x="47" y="44"/> 
+  </customs>  
+  <components> 
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="forgeMainView.tabVBox" spacing="1" x="8" y="51"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="forgeMainView.tabSelectedButton0" selectedStyle="asset.forgeMainView.tabSelectedButton0" unSelectedStyle="asset.forgeMainView.tabUnSelectedButton0" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="forgeMainView.tabSelectedButton1" selectedStyle="asset.forgeMainView.tabSelectedButton1" unSelectedStyle="asset.forgeMainView.tabUnSelectedButton1" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="forgeMainView.tabSelectedButton2" selectedStyle="asset.forgeMainView.tabSelectedButton2" unSelectedStyle="asset.forgeMainView.tabUnSelectedButton2" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="forgeMainView.tabSelectedButton3" selectedStyle="asset.forgeMainView.tabSelectedButton3" unSelectedStyle="asset.forgeMainView.tabUnSelectedButton3" displacement="false"/> 
+ 	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="forgeMainView.tabSelectedButton4" selectedStyle="asset.forgeMainView.tabSelectedButton4" 
+
+unSelectedStyle="asset.forgeMainView.tabUnSelectedButton4" displacement="false"/>
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.forgeMainView.tabUnSelectedButton0" x="4" y="0"/>  
+    <bitmapData resourceLink="asset.forgeMainView.tabUnSelectedButton1" x="4" y="0"/>  
+    <bitmapData resourceLink="asset.forgeMainView.tabUnSelectedButton2" x="4" y="0"/>  
+    <bitmapData resourceLink="asset.forgeMainView.tabUnSelectedButton3" x="4" y="0"/> 
+    <bitmapData resourceLink="asset.forgeMainView.tabUnSelectedButton4" x="4" y="0"/>
+<bitmapData resourceLink="asset.forgeMainView.tabSelectedButton4" x="0" y="1"/>
+    
+  </bitmaps> 
+</style>

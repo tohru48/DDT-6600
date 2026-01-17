@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="league" version="2.0.1" source="ui/turkey/swf/league.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="leagueShopFrame.moneyCountTxt.tf" args="Arial,14,0xfff8d6,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="leagueShopFrame.moneyCountTxt.gf" args="0x4b270d,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="leagueShopFrame.pageTxt.tf" args="Arial,12,0xfff8d6,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="leagueShopFrame.pageTxt.gf" args="0x4b270d,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="leagueShopCell.nameTxt.tf" args="Arial,12,0xe8ce97,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="leagueShopCell.nameTxt.gf" args="0x5c3d11,1,2,2,30"/>  
+    <set type="flash.text.TextFormat" stylename="leagueShopCell.needMoneyTxt.tf" args="Arial,16,0xe8ce97,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="leagueShopCell.needMoneyTxt.gf" args="0x5c3d11,1,2,2,30"/>  
+    <set type="flash.text.TextFormat" stylename="leagueShopCell.cannotBuyTipTxt.tf" args="Arial,12,0xfffdee,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="leagueShopCell.cannotBuyTipTxt.gf" args="0x8f0101,1,4,4,30"/> 
+  </sets>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="leagueShopCell.itemCell.pos" x="3" y="3"/> 
+  </customs>  
+  <components> 
+    <component classname="league.view.LeagueShopFrame" backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" stylename="league.LeagueShopFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" containerX="20" containerY="40" escEnable="true" closeInnerRectString="44,19,6,30,14" width="525" height="543"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="leagueShopFrame.foreBtn" backStyle="asset.leagueShopFrame.foreBtn" x="280" y="438"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="leagueShopFrame.nextBtn" backStyle="asset.leagueShopFrame.nextBtn" x="406" y="438"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="leagueShopFrame.moneyCountTxt" textFormatStyle="leagueShopFrame.moneyCountTxt.tf" filterString="leagueShopFrame.moneyCountTxt.gf" autoSize="none" width="90" height="25" x="75" y="443"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="leagueShopFrame.pageTxt" textFormatStyle="leagueShopFrame.pageTxt.tf" filterString="leagueShopFrame.pageTxt.gf" autoSize="none" width="65" height="25" x="338" y="440"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="leagueShopCell.buyBtn" backStyle="asset.leagueShopCell.buyBtn" x="147" y="54"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="leagueShopCell.nameTxt" textFormatStyle="leagueShopCell.nameTxt.tf" filterString="leagueShopCell.nameTxt.gf" autoSize="none" width="150" isAutoFitLength="true" height="25" x="77" y="7"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="leagueShopCell.needMoneyTxt" textFormatStyle="leagueShopCell.needMoneyTxt.tf" filterString="leagueShopCell.needMoneyTxt.gf" autoSize="none" width="60" height="25" x="77" y="27"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="leagueShopCell.cannotBuyTipTxt" textFormatStyle="leagueShopCell.cannotBuyTipTxt.tf" filterString="leagueShopCell.cannotBuyTipTxt.gf" autoSize="none" width="125" height="25" x="82" y="57" wordWrap="true"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.leagueShopFrame.bg" x="0" y="6"/>  
+    <bitmapData resourceLink="asset.leagueShopCell.bg" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.leagueShopCell.moneyIcon" x="146" y="27"/> 
+  </bitmaps> 
+</style>

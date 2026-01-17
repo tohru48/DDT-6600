@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="christmas" version="2.0.1" source="ui/turkey/swf/christmas.swf"> 
+  <sets> 
+    <!-- 选择场景界面 -->  
+    <set stylename="christmas.chooseRoom.ItemCellTipTextTF" args="Arial,12,0xE1DB7C,,,,,,left" type="flash.text.TextFormat" letterSpacing="0" leading="0"/>  
+    <set stylename="christmas.chooseRoom.ItemCellTipTextGF" args="0x63320E,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set type="flash.text.TextFormat" stylename="christmas.chooseRoom.activeTimeTxtTF" args="Arial,14,0xFFFAAD,true,,,,,left"/>  
+    <set type="flash.filters.GlowFilter" stylename="christmas.chooseRoom.activeTimeTxtGF" args="0x471E00,1,4,4,10"/>  
+    <!-- 堆雪人界面 -->  
+    <set stylename="christmas.makingSnowmen.completeTextTF" args="Arial,12,0xFFD200,true,,,,,left" type="flash.text.TextFormat" leading="5" letterSpacing="2"/>  
+    <set stylename="christmas.makingSnowmen.completeTextGF" args="0x542801,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="christmas.makingSnowmen.TF20" args="Arial,14,0xfff6c9,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="christmas.makingSnowmen.GF20" args="0x402f00,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="christmas.Button.TFormat_2" args="Arial,14,0xfff3bc,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="christmas.Button.GF2" args="0x5c2302,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="christmas.selectBnt.TF4" args="Arial,12,0xfff2b2,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="christmas.selectBnt.GF4" args="0x411c00,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="christmas.makingSnowmen.addCountTextTF" args="Arial,16,0xfffaad,true,,,,,center" type="flash.text.TextFormat" leading="5" letterSpacing="2"/>  
+    <set stylename="christmas.makingSnowmen.addCountTextGF" args="0x471e00,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="christmas.makingSnowmen.conditionTxtTF" args="Arial,14,0xffea9c,true,,,,,center" type="flash.text.TextFormat" leading="5" letterSpacing="2"/>  
+    <set stylename="christmas.makingSnowmen.conditionTxtGF" args="0x4f0000,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="christmas.list.countTxtTF" args="Arial,14,0xe8ce97,true,,,,,center" type="flash.text.TextFormat" leading="0" letterSpacing="0"/>  
+    <set stylename="christmas.list.countTxtGF" args="0x5a2200,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <!-- 打雪人界面 -->  
+    <set type="flash.text.TextFormat" stylename="christmas.christmasRoom.snowPackNumTxtTF" args="Arial,14,0xFFBA00,true,,,,,left"/>  
+    <set type="flash.filters.GlowFilter" stylename="christmas.christmasRoom.snowPackNumTxtGF" args="0x000000,1,4,4,10"/>  
+    <set stylename="christmas.snowpackDoubleTF4" args="Arial,14,0xffffff,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="christmas.snowpackDoubleGF4" args="0x000000,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="christmas.snowpackDoubleTF8" args="Arial,14,0xfff4d4,true,,,,,left" type="flash.text.TextFormat" leading="0" letterSpacing="0"/>  
+    <set stylename="christmas.snowpackDoubleGF8" args="0x7c4519,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="christmas.snowpackDoubleTF9" args="Arial,12,0xFF0000,true,,,,,left" type="flash.text.TextFormat" leading="0" letterSpacing="0"/>  
+    <set stylename="christmas.snowpackDoubleGF9" args="0xFFFFFF,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="christmas.monster.TF" args="Arial,14,0xe1d795,true" type="flash.text.TextFormat"/>  
+    <set stylename="christmas.monster.GF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="christmas.WaitingView.TxtTF" args="Arial Black,64,0xFFFFFF,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="christmas.WaitingView.TxtGF" args="0xFF0000,1,12,12,2" type="flash.filters.GlowFilter"/>  
+    <set type="flash.text.TextFormat" stylename="christmas.room.snowSpeakTxtTF" args="Arial,16,0x010101,true,,,,,left" leading="2"/>  
+    <set type="flash.filters.GlowFilter" stylename="christmas.room.snowSpeakTxtGF" args="0x7c4519,1,4,4,10"/>  
+    <set stylename="christmas.inputTxtTF" args="Arial,14,0xfff6c9,bold,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="christmas.textFormat1" args="Arial,16,0x5BFF09,true" type="flash.text.TextFormat"/> 
+    
+    <set stylename="chrismas.addSlowTxtTF" args="Arial,14,0xfff38c" type="flash.text.TextFormat"/>
+	<set type="flash.filters.GlowFilter" stylename="chrismas.addSlowTxtGF" args="0x502302,2,4,4,10"/>
+  </sets>  
+  <customs> 
+    <custom classname="christmas.view.makingSnowmenView.ChristmasMakingSnowmenFrame" stylename="christmas.makingSnowmen.frame" x="0" y="33"/>  
+    <custom classname="christmas.view.makingSnowmenView.ChristmasSnowmenView" stylename="christmas.Snowmen.view" x="53" y="54"/>  
+    <custom classname="flash.geom.Point" stylename="christmasListItem.cellPos" x="177" y="-1"/>  
+    <custom classname="christmas.items.ChristmasListItem" stylename="christmas.view.christmasShopItem"/>  
+    <custom classname="christmas.view.playingSnowman.RoomMenuView" stylename="christmas.room.menuView" x="909" y="530"/>  
+    <custom classname="flash.geom.Point" stylename="christmas.RoomView.sceneMapVOPosII" x="160" y="1080"/>  
+    <!-- 战斗图标  人物 -->  
+    <custom classname="christmas.fighting" stylename="asset.christmas.fighting" resourceLink="christmas.fighting" x="3" y="-200"/>  
+    <!-- 战斗图标  怪物 -->  
+    <custom classname="christmas.fighting" stylename="asset.christmasMonster.fighting" resourceLink="christmas.fighting" x="3" y="-198"/>  
+    <custom classname="ddt.view.common.VipLevelIcon" stylename="asset.christmas.VipIcon"/>  
+    <custom classname="christmas.resurrect" stylename="asset.christmas.resurrect" resourceLink="christmas.resurrect" x="0" y="0"/>  
+    <custom classname="christmas.tombstone" stylename="asset.christmas.tombstone" resourceLink="christmas.tombstone" x="-1" y="-5"/>  
+    <custom classname="asset.room.flowerMc" stylename="christmas.room.flowerMc" resourceLink="asset.room.flowerMc" x="3" y="-198"/>  
+    <custom classname="asset.room.pentaMc" stylename="christmas.room.pentaMc" resourceLink="asset.room.pentaMc" x="3" y="-198"/>  
+    <custom classname="asset.room.snowballMc" stylename="christmas.room.snowballMc" resourceLink="asset.room.snowballMc" x="3" y="-198"/> 
+  </customs>  
+  <components> 
+    <!-- 选择场景界面 -->  
+    <component classname="christmas.view.ChristmasChooseRoomFrame" backStyle="SimpleFrameBackgound" closestyle="core.closebt" stylename="chooseRoom.christmas.ChristmasChooseRoomFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true" closeInnerRectString="44,19,6,30,14" width="442" height="536"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="chooseRoom.christmas.ChristmasChooseRoomFrameBgImg" resourceLink="asset.core.btmc011" x="0" y="-2" width="398" height="473" scaleGridString="20,20,60,40"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.chooseRoom.chooseRoomText" x="17" y="355" textFormatStyle="christmas.chooseRoom.ItemCellTipTextTF" filterString="christmas.chooseRoom.ItemCellTipTextGF" wordWrap="true" width="380" height="30"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="christmas.chooseRoom.enter.btn" backStyle="asset.christmasChooseRoom.enter" x="18" y="420" filterString="null,lightFilter,lightFilter,grayFilter"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="christmas.chooseRoom.enterHeap.btn" backStyle="asset.christmasChooseRoom.enterHeap" x="190" y="420" filterString="null,lightFilter,lightFilter,grayFilter"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="christmas.chooseRoom.help.btn" backStyle="asset.christmasChooseRoom.help" x="326" y="-41" filterString="null,lightFilter,lightFilter,grayFilter"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.chooseRoom.activeTimeTxt" filterString="christmas.chooseRoom.activeTimeTxtGF" textFormatStyle="christmas.chooseRoom.activeTimeTxtTF" autoSize="none" height="30" width="250" x="179" y="79"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="christmas.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" width="370" height="376"/>  
+    <component classname="store.HelpPrompt" stylename="christmas.HelpPrompt" bg9ScalseStyle="christmas.HelpFrame.FrameBg" contentStyle="christmas.helpFrame.Text" x="180" y="213"/>  
+    <component classname="store.HelpFrame" stylename="christmas.HelpFrame" parentStyle="BaseFrame" width="404" height="484"/>  
+    <!-- 堆雪人场景 -->  
+    <component classname="christmas.view.makingSnowmenView.ChristmasMakingSnowmenFrame" backStyle="SimpleFrameBackgound" closestyle="core.closebt" stylename="chooseRoom.christmas.ChristmasMakingSnowmenFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true" closeInnerRectString="44,19,6,30,14" width="746" height="536"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.makingSnowmen.completeTxt" x="17" y="319" textFormatStyle="christmas.makingSnowmen.completeTextTF" filterString="christmas.makingSnowmen.completeTextGF" wordWrap="true" width="200" height="30"/>  
+    <!-- 经验条 -->  
+    <component classname="christmas.items.ExpBar" stylename="christmas.makingSnowmen.expBar" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" x="34" y="346"/>  
+    <!-- 经验值文本框 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.makingSnowmen.expBarTxt" textFormatStyle="christmas.makingSnowmen.TF20" filterString="christmas.makingSnowmen.GF20" multiline="false" wordWrap="false" autoSize="none" x="16" y="2" width="173" height="20"/>  
+    <!-- 添加雪块按钮 -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="christmas.makingSnowmen.addSnowBnt" backStyle="asset.makingSnowmen.addSnowBnt" x="76" y="390" filterString="null,lightFilter,lightFilter,grayFilter"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.Button.TextStyle" textFormatStyle="christmas.Button.TFormat_2" filterString="christmas.Button.GF2" multiline="false" wordWrap="false"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="christmas.RedButton" parentStyle="core.ScaleleftrightImage.RedButton"/>  
+    <!-- 双倍添加 -->  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="christmas.makingSnowmen.selectBtn" parentStyle="core.simpleSelectBtn" textStyle="christmas.right.desTxt" displacement="false" fieldX="18" fieldY="-2" x="69" y="121"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.right.desTxt" textFormatStyle="christmas.selectBnt.TF4" x="262" y="486" filterString="christmas.selectBnt.GF4" multiline="false" wordWrap="false"/>  
+    <!-- 已堆雪人的数量文本 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.makingSnowmen.addCountText" x="348" y="414" textFormatStyle="christmas.makingSnowmen.addCountTextTF" filterString="christmas.makingSnowmen.addCountTextGF" wordWrap="true" width="100" height="30"/>  
+    <!-- 活动时间文本 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.makingSnowmen.activeTimeTxt" filterString="christmas.chooseRoom.activeTimeTxtGF" textFormatStyle="christmas.chooseRoom.activeTimeTxtTF" autoSize="none" height="30" width="250" x="517" y="424"/>  
+    <!-- 条件文本 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.makingSnowmen.conditionTxt" filterString="christmas.makingSnowmen.conditionTxtGF" textFormatStyle="christmas.makingSnowmen.conditionTxtTF" autoSize="none" height="30" width="60" x="323" y="100"/>  
+    <!-- 奖励文本 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.makingSnowmen.rewardTxt" filterString="christmas.makingSnowmen.conditionTxtGF" textFormatStyle="christmas.makingSnowmen.conditionTxtTF" autoSize="none" height="30" width="60" x="459" y="100"/>  
+    <!-- 滚动条 -->  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="christmas.goodsListBox" spacing="10" x="45" y="160"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="christmas.right.scrollpanel" thumbStyle="core.scrollVThumb" parentStyle="core.ScrollPanel" width="320" height="410" hScrollProxy="2" vScrollProxy="0" x="0" y="35"/>  
+    <!-- 奖励文本 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.list.countTxt" filterString="christmas.list.countTxtGF" textFormatStyle="christmas.list.countTxtTF" autoSize="none" wordWrap="true" height="40" width="130" x="9" y="10"/>  
+    <!-- 领取奖励按钮 -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="christmas.makingSnowmen.receiveBtn" backStyle="asset.makingSnowmen.receiveBtn" x="290" y="19" filterString="null,lightFilter,lightFilter,grayFilter"/>  
+    <!-- 锁的按钮 -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="christmas.makingSnowmen.lockBtn" backStyle="asset.makingSnowmen.lockBtn" x="290" y="15" filterString="null,lightFilter,lightFilter,grayFilter"/>  
+    <!-- 还差多少的文本 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.list.poorTxt" filterString="christmas.makingSnowmen.completeTextGF" textFormatStyle="christmas.makingSnowmen.completeTextTF" autoSize="none" height="30" width="120" x="27" y="38"/>  
+    <custom classname="christmas.view.makingSnowmenView.ChristmasMakingSnowmenRightFrame" stylename="christmas.makingSnowmen.mSnoRightFrame" x="1" y="-2"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.christmas.switchBtnIMG" resourceLink="asset.christmasRoom.menu.switchBtn1,asset.christmasRoom.menu.switchBtn2,asset.christmasRoom.menu.switchBtn1"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.christmasRoom.switchBtn" backStyle="asset.christmasRoom.menu.switchBtn1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.christmasRoom.switchIMG" resourceLink="asset.christmasRoom.menu.close,asset.christmasRoom.menu.open" x="10" y="10"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.christmasRoom.returnBtnOver" resourceLink="asset.christmasRoom.menu.selected,asset.christmasRoom.menu.return"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.christmasRoom.returnBtnIMG" resourceLink="asset.christmasRoom.menu.return,asset.christmasRoom.returnBtnOver,asset.christmasRoom.menu.return"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.christmasRoom.returnBtn" backStyle="asset.christmasRoom.returnBtnIMG" x="45" y="6"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.christmasroom.characterPlayerNameAsset" textFormatStyle="christmas.textFormat1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.christmasRoom.snowPackNumTxt" filterString="christmas.christmasRoom.snowPackNumTxtGF" textFormatStyle="christmas.christmasRoom.snowPackNumTxtTF" autoSize="none" height="30" width="50" x="956" y="12"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.christmasRoom.activeTimeTxt" filterString="christmas.christmasRoom.snowPackNumTxtGF" textFormatStyle="christmas.christmasRoom.snowPackNumTxtTF" autoSize="none" height="30" width="150" x="880" y="44"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="christmas.max.Bnt" backStyle="christmas.max.bnt" x="288" y="89" filterString="null,lightFilter,lightFilter,grayFilter"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.alert.txt" textFormatStyle="christmas.snowpackDoubleTF8" x="23" y="77" filterString="christmas.snowpackDoubleGF8" wordWrap="true" multiline="true" width="360" height="80"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.alert.txtTwo" textFormatStyle="christmas.snowpackDoubleTF9" x="160" y="120" filterString="christmas.snowpackDoubleGF9" wordWrap="true" multiline="true" width="240" height="80"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.addNum.txt" textFormatStyle="christmas.snowpackDoubleTF8" x="43" y="90" filterString="christmas.snowpackDoubleGF8" wordWrap="true" multiline="true" width="180" height="40"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.input.txt" textFormatStyle="christmas.inputTxtTF" x="219" y="91" autoSize="none" type="input" restrict="0-9" maxChars="5" width="60" height="20"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="christmas.views.snowpackDoubleFrame.selectBtn" parentStyle="core.simpleSelectBtn" textStyle="christmas.right.desTxt" displacement="false" fieldX="18" fieldY="-2" x="215" y="122"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="ddt.christmas.core.simplebt" backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle" backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter" x="158" y="446"/>  
+    <component classname="christmas.view.makingSnowmenView.SnowPackDoubleFrame" backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" stylename="christmas.views.SnowPackDoubleFrame" titleStyle="FrameTitleTextStyle" parentStyle="BaseFrame" titleOuterRectPosString="15,10,5" x="-160" y="-40" submitButtonStyle="ddt.christmas.core.simplebt" cancelButtonStyle="ddt.christmas.core.simplebt" closeInnerRectString="44,19,6,30,14" width="400" height="215"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.monster.name" textFormatStyle="christmas.monster.TF" filterString="christmas.monster.GF" x="10" width="150" wordWrap="true" multiline="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.WaitingView.loadingText" textFormatStyle="christmas.WaitingView.TxtTF" filterString="christmas.WaitingView.TxtGF" x="322" y="211"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.WaitingView.timeText" textFormatStyle="christmas.WaitingView.TxtTF" filterString="christmas.WaitingView.TxtGF" x="439" y="317"/>  
+    <!-- 圣诞老人说话 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.room.snowSpeakTxt" textFormatStyle="christmas.room.snowSpeakTxtTF" wordWrap="true" multiline="true" autoSize="none" height="100" width="150" x="704" y="346"/>
+    
+     <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chrismas.addSlowTxt" textFormatStyle="chrismas.addSlowTxtTF" filterString="chrismas.addSlowTxtGF" autoSize="none" width="60" height="22" x="0" y="0"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="christmas.buyBtn" backStyle="asset.chrismas.buyBtn" x="27" y="407"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.doubleAdd.txt" textFormatStyle="christmas.selectBnt.TF4" x="67" y="126" filterString="christmas.selectBnt.GF4" wordWrap="true" multiline="true" width="280" height="40"/>
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="christmas.addSlowMenBtn" backStyle="chrismas.addSlowBg" textStyle="chrismas.addSlowTxt" filterString="null,lightFilter,null,grayFilter" backgoundInnerRectString="10,12,7,12,-1" x="76" y="390"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="christmas.makingSnowmen.todayAddCountText" x="343" y="402" textFormatStyle="christmas.makingSnowmen.addCountTextTF" filterString="christmas.makingSnowmen.addCountTextGF" wordWrap="true" width="100" height="30"/>
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.christmas.room.titleImg" x="-7" y="1"/>  
+    <bitmapData resourceLink="asset.christmas.room.entranceImg" x="-1" y="97"/>  
+    <bitmapData resourceLink="asset.christmas.room.activityTimeImg" x="61" y="79"/>  
+    <bitmapData resourceLink="asset.christmas.makingSnowmenImg" x="-6" y="-4"/>  
+    <!--经验条背景 -->  
+    <bitmapData resourceLink="christmas.expBack" x="0" y="0"/>  
+    <!--经验条 -->  
+    <bitmapData resourceLink="christmas.expFrome" x="-208" y="4.5"/>  
+    <bitmapData resourceLink="asset.christmas.snowpacknum" x="800" y="0"/>  
+    <bitmapData resourceLink="christmas.input.png" x="215" y="87"/>  
+    <bitmapData resourceLink="asset.christmasRoom.menu.selected" x="-10" y="-3"/>  
+    <bitmapData resourceLink="asset.christmas.room.snowSpeakImg" x="686" y="324"/>  
+    <bitmapData resourceLink="asset.makingSnowmen.receiveOK" x="296" y="6"/> 
+  </bitmaps> 
+</style>

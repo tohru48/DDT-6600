@@ -1,0 +1,19 @@
+<Result value="true" message="Success!">
+  <Item ID="1" Type="0" TemplateID="201233" Count="15" ValidDate="0" IsBind="false" GetFrom="Đăng nhập nhận mỗi ngày" SondNode="0|0" />
+  <Item ID="2" Type="0" TemplateID="201234" Count="15" ValidDate="0" IsBind="false" GetFrom="Dùng tích điểm boss rồng để đổi" SondNode="0|0" />
+  <Item ID="3" Type="0" TemplateID="201235" Count="2" ValidDate="0" IsBind="false" GetFrom="Điểm hoạt bát đạt 80 sẽ nhận được" SondNode="0|0" />
+  <Item ID="4" Type="0" TemplateID="201236" Count="10" ValidDate="0" IsBind="false" GetFrom="Dùng vàng mê cung để đổi" SondNode="0|0" />
+  <Item ID="5" Type="1" TemplateID="17003" Count="1" ValidDate="7" IsBind="true" GetFrom="" SondNode="1|2" />
+  <Item ID="6" Type="1" TemplateID="17001" Count="1" ValidDate="7" IsBind="true" GetFrom="" SondNode="3|4" />
+  <Item ID="7" Type="0" TemplateID="201237" Count="50" ValidDate="0" IsBind="false" GetFrom="Phó bản, event" SondNode="0|0" />
+  <Item ID="8" Type="1" TemplateID="17005" Count="2" ValidDate="7" IsBind="true" GetFrom="" SondNode="1|2|3|4|5|6" />
+  <Item ID="9" Type="0" TemplateID="201238" Count="50" ValidDate="0" IsBind="false" GetFrom="Phó bản, event" SondNode="0|0" />
+  <Item ID="10" Type="0" TemplateID="20144" Count="10" ValidDate="0" IsBind="false" GetFrom="Phó bản, event" SondNode="0|0" />
+  <Item ID="11" Type="1" TemplateID="7031" Count="1" ValidDate="7" IsBind="true" GetFrom="" SondNode="1|2|3|4|5|6|7|8" />
+  <Item ID="12" Type="1" TemplateID="7057" Count="1" ValidDate="7" IsBind="true" GetFrom="" SondNode="1|2|3|4|5|6|8|9" />
+  <Item ID="13" Type="0" TemplateID="20134" Count="10" ValidDate="0" IsBind="false" GetFrom="Phó bản, event" SondNode="0|0" />
+  <Item ID="14" Type="1" TemplateID="8614" Count="2" ValidDate="7" IsBind="true" GetFrom="" SondNode="1|2|3|4|5|6|7|8|10|11" />
+  <Item ID="15" Type="0" TemplateID="112272" Count="30" ValidDate="0" IsBind="true" GetFrom="Phó bản, event" SondNode="0|0" />
+  <Item ID="16" Type="1" TemplateID="9623" Count="2" ValidDate="7" IsBind="true" GetFrom="" SondNode="1|2|3|4|5|6|8|9|12|13" />
+  <Item ID="17" Type="1" TemplateID="17000" Count="1" ValidDate="7" IsBind="false" GetFrom="" SondNode="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16" />
+</Result>

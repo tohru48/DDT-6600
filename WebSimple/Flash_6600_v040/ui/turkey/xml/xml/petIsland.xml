@@ -1,0 +1,5 @@
+﻿<style name="petIsland" version="6.4.0" source="ui/turkey/swf/petIsland.swf">
+		<customDisplay>
+<custom classname="petIsland.view.PetIslandReturnBar" stylename="asset.petIsland.returnMenu" x="906" y="530"/>
+</customDisplay>
+</style>

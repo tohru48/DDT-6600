@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtmainbtn" version="1.0.0" source="ui/turkey/swf/ddtmainbtn.swf"> 
+  <sets> 
+    <set stylename="mainbtn.award.textTF" args="Arial,12,0xfff000" type="flash.text.TextFormat"/>  
+    <set stylename="mainbtn.award.textGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/> 
+  </sets>  
+  <components> 
+    <!--  领奖-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="mainbtn.award.text" textFormatStyle="core.simpleAlertContentTF" filterString="core.simpleAlertContentGF" x="40" y="53"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="mainbtn.award.topBg" resourceLink="asset.ddtmainbtn.LargeBackgroundBg,asset.ddtmainbtn.DailyTopImg" imageRectString="0|262|0|98|13,-2|263|-1|98|13" x="26" y="115"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="mainbtn.award.dailyGetButton" backStyle="asset.ddtmainbtn.DailyGetButton" x="58" y="124"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="mainbtn.award.vipBigButton" backStyle="asset.ddtVip.button" x="110" y="124"/> 
+  </components>  
+  <customDisplay> 
+    <custom classname="mainbutton.AwardFrame" stylename="ddtmainbutton.AwardFrame" backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="24,10,5" closeInnerRectString="44,12,6,30,14" moveInnerRectString="0,30,0,30,1" width="315" height="240" escEnable="true"/> 
+  </customDisplay>  
+  <!--<component classname="vip.view.VipFrame" stylename="vip.VipFrame" backStyle="vip.SimpleFrameBackgound" parentStyle="BaseFrame"
+			titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,10,6,30,14"
+			containerX="15" containerY="38" titleOuterRectPosString="12,12,5" moveInnerRectString="0,30,0,30,1"
+			width="536" height="512" moveEnable="false" escEnable='true' />--> 
+</style>

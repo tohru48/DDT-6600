@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtim" version="1.0.1" source="ui/turkey/swf/ddtIM.swf"> 
+  <sets> 
+  	<set stylename="format_IM_02_h" args="Arial,10,0xe3ffb4,true,,,,,center" type="flash.text.TextFormat" leading="-2"/>
+  	
+    <set stylename="IM.InviteDialogFrame.frameTitleTF" args="Arial,18,0x666666,true" type="flash.text.TextFormat"/>  
+    <set stylename="frameTitleTF" args="Arial,18,0xfff8d6" type="flash.text.TextFormat"/>  
+    <set stylename="im.stateItem.stateNameTF" args="Arial,12,0x000000" type="flash.text.TextFormat"/>  
+    <set stylename="im.stateItem.autoReplyTF" args="Arial,12,0x000000" type="flash.text.TextFormat"/>  
+    <set stylename="frameTitleTFII" args="Arial,12,0xff0000" type="flash.text.TextFormat"/>  
+    <set stylename="frameTitleTFIII" args="Arial,12,0xe20000" type="flash.text.TextFormat"/>  
+    <set stylename="explainTextTF" args="Arial,14,0xfff4d4,true" type="flash.text.TextFormat"/>  
+    <set stylename="simpleAlertContentTF_01" args="Arial,14,0x000000" type="flash.text.TextFormat"/>  
+    <set stylename="simpleAlertContentTF_02" args="Arial,14,0x000000,true" type="flash.text.TextFormat"/>  
+    <set stylename="simpleAlertContentTF_03" args="Arial,15,0xfff8d6,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="IM.InviteDialogFrame.explainTextTF" args="Arial,20,0x000000,true" type="flash.text.TextFormat"/>  
+    <set stylename="imBgSelfNameText" args="Arial,18,0xFFFFFF,true" type="flash.text.TextFormat"/>  
+    <set args="0xfff8e5,1,4,4,10" stylename="simpleAlertContentGF" type="flash.filters.GlowFilter"/>  
+    <set args="0x7c4519,1,4,4,10" stylename="simpleAlertContentGF_addFriendTip" type="flash.filters.GlowFilter"/>  
+    <set args="0xffffff,1,2,2,5" stylename="im.stateNameTFT" type="flash.filters.GlowFilter"/>  
+    <set args="0x512800,1,4,4,350" stylename="IM.GF_01" type="flash.filters.GlowFilter"/>  
+    <set stylename="chatFrame.levelTF" args="Arial,11,0xffffff" leading="-3" type="flash.text.TextFormat"/>  
+    <set stylename="chatFrame.nameTF" args="Arial,14,0xffffff,true" type="flash.text.TextFormat"/>  
+    <set stylename="RecordFrame.TF" args="Arial,12,0x2b5164,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="messageboxItem.nameTF" args="Arial,12,0xf4f4f3,true" type="flash.text.TextFormat"/>  
+    <set args="0x000000,1,4,4,5" stylename="messageboxItem.nameGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="format_IM_01" args="Arial,12,0xefd099,true" type="flash.text.TextFormat"/>  
+    <set stylename="format_IM_02" args="Arial,10,0xe3ffb4,true" type="flash.text.TextFormat" leading="-5"/>  
+    <set stylename="format_IM_03" args="Arial,12,0xffffff,true" type="flash.text.TextFormat"/>  
+    <set stylename="format_IM_04" args="Arial,14,0xffffff,true" type="flash.text.TextFormat"/>  
+    <set stylename="glowgilter_IM_01" args="0x4a310b,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="glowgilter_IM_02" args="0x006255,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="glowgilter_frameTitleTF" args="0x4b270d,1,4,4,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="glowgilter_IM_03" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="glowgilter_IM_04" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="format_IM_05" args="Arial,12,0xe3ffb4,true" type="flash.text.TextFormat"/>  
+    <set stylename="format_IM_021" args="Arial,12,0xe3ffb4,true" type="flash.text.TextFormat"/>
+  </sets>  
+  <components> 
+  	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="IMView.integralShopBtn" backStyle="asset.IM.integralShop" x="211" y="1"/>
+  	
+    <!-- 确定添加好友提示 -->  
+    <component classname="im.FriendGroupFrame" stylename="friendGroupFrame" parentStyle="BaseFrame" width="354" height="188" moveEnable="true" escEnable="true" backStyle="core.bg2006" closestyle="core.close2" closeInnerRectString="34,11,10,25,14" titleStyle="friendGroupFrame.titletxt" titleOuterRectPosString="13,15,5"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="friendGroupFrame.titletxt" textFormatStyle="format_IM_04" filterString="glowgilter_IM_04"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="friendGroupFrame.confirm" parentStyle="core.simplebt" x="60" y="133" backgoundInnerRectString="21,21,8,14,-1" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="friendGroupFrame.close" parentStyle="core.simplebt" x="219" y="133" backgoundInnerRectString="21,21,8,14,-1" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="friendGroupFrame.choose" listPanelStyle="core.ComboxListpanel4" buttonStyle="core.comboxButton5" width="149" height="24" textStyle="core.comboxListCellTxt4" listInnerRectString="3,26,-1,129,18" textInnerRectString="5,25,2,0,0" x="159" y="97"/>  
+    <!-- chatFrame -->  
+    <component classname="im.chatFrame.PrivateChatFrame" stylename="privateChatFrame" width="495" height="360" moveEnable="true" escEnable="true" disposeChildren="false" backStyle="core.bg2006" closestyle="core.close2" titleStyle="privateRecordFrame.titletxt" minimizeStyle="core.minimize" titleOuterRectPosString="13,15,5" closeInnerRectString="34,11,10,25,14" moveInnerRectString="9,42,9,30,1" minimizeRectString="33,45,10,25,14"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="privateRecordFrame.titletxt" textFormatStyle="format_IM_03"/>  
+    <component classname="im.chatFrame.PrivateRecordFrame" stylename="privateRecordFrame" width="265" height="360" moveEnable="false" escEnable="false" disposeChildren="false" backStyle="core.bg2006" titleStyle="privateRecordFrame.titletxt" titleOuterRectPosString="13,15,5" moveInnerRectString="9,42,9,30,1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chatFrame.selflevel" textFormatStyle="chatFrame.levelTF" wordWrap="false" mouseEnabled="false" x="17" y="296"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chatFrame.selfName" textFormatStyle="chatFrame.nameTF" wordWrap="false" mouseEnabled="false" autoSize="none" isAutoFitLength="true" width="84" x="16" y="313"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chatFrame.targetlevel" textFormatStyle="chatFrame.levelTF" wordWrap="false" mouseEnabled="false" x="17" y="126"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chatFrame.targetName" textFormatStyle="chatFrame.nameTF" wordWrap="false" mouseEnabled="false" autoSize="none" isAutoFitLength="true" width="84" x="16" y="146"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.putText" textFormatStyle="chatFrame.levelTF" wordWrap="true" mouseEnabled="true"/>  
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="chatFrame.output" parentStyle="core.SimpleTextArea" textStyle="IM.putText" editable="false" width="370" height="142" x="105" y="57"/>  
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="chatFrame.input" parentStyle="core.SimpleTextArea" textStyle="IM.putText" editable="true" width="370" height="85" x="105" y="211"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="chatFrame.outputBG" resourceLink="asset.chatFrame.textArea.bg" scaleGridString="20,20,50,50" width="370" height="162" x="105" y="37"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="chatFrame.inputBG" resourceLink="asset.chatFrame.textArea.bg" scaleGridString="20,20,50,50" width="370" height="85" x="105" y="211"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="chatFrame.send" parentStyle="core.simplebt" x="389" y="310"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="chatFrame.record" backStyle="asset.chatFrame.record" filterString="null,lightFilter,null,grayFilter" x="105" y="302"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chatFrame.warningword" textFormatStyle="chatFrame.levelTF" wordWrap="true" mouseEnabled="false" x="126" y="32" width="350"/>  
+    <!-- RecordFrame -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="recordFrame.contentBG" resourceLink="asset.chatFrame.textArea.bg" scaleGridString="20,20,50,50" width="242" height="267" x="12" y="36"/>  
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="recordFrame.content" parentStyle="core.SimpleTextArea" textStyle="IM.putText" editable="false" width="242" height="244" x="12" y="58"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="recordFrame.close" parentStyle="core.simplebt" x="176" y="310"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="recordFrame.first" backStyle="asset.recordFrame.firstPage" filterString="null,lightFilter,null,grayFilter" x="20" y="43"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="recordFrame.pre" backStyle="asset.recordFrame.perPage" filterString="null,lightFilter,null,grayFilter" x="44" y="43"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="recordFrame.next" backStyle="asset.recordFrame.nextPage" filterString="null,lightFilter,null,grayFilter" x="197" y="43"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="recordFrame.last" backStyle="asset.recordFrame.lastPage" filterString="null,lightFilter,null,grayFilter" x="216" y="43"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="recordFrame.inputStyle" textFormatStyle="RecordFrame.TF" wordWrap="false" mouseEnabled="true"/>  
+    <component classname="com.pickgliss.ui.controls.TextInput" stylename="recordFrame.input" backStyle="asset.recordFrame.pageInput" textStyle="recordFrame.inputStyle" textInnerRectString="1,2,0,2,0" x="95" y="38" width="38" height="19"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="recordFrame.word" textFormatStyle="RecordFrame.TF" wordWrap="false" mouseEnabled="false" x="137" y="38"/>  
+    <!--Frame -->  
+    <component classname="im.IMView" backStyle="SimpleFrameBackgoundOneIII" width="302" height="556" stylename="IMFrame" x="680" y="2" parentStyle="BaseFrame" moveEnable="true" closestyle="core.closebt" closeInnerRectString="44,8,6,30,14" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="12,12,5" moveInnerRectString="0,30,0,30,1" escEnable="true" containerX="20" containerY="40"/>  
+    <!--TextButton -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtIM.downBtnText" textFormatStyle="format_IM_02" filterString="glowgilter_IM_02" multiline="true" height="50"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="IM.BtnShin" parentStyle="core.Scale9CornerImage.scale9CornerImage16"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="IM.BtnBG" parentStyle="core.bg6902"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.AddFriendBGI" resourceLink="IM.BtnBG,asset.IM.addFBtn" imageRectString="0|80|0|35|13,5|24|6|21|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.AddFriendBGIX" resourceLink="IM.BtnBG" imageRectString="0|80|0|35|13,5|24|6|21|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.AddFriendBGII" resourceLink="IM.AddFriendBGI,IM.BtnShin" imageRectString=",-5|90|-5|45|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.AddFriendBGI2" parentStyle="IM.AddFriendBGI" imageRectString="0|100|0|35|13,5|24|6|21|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.AddFriendBGII2" resourceLink="IM.AddFriendBGI2,IM.BtnShin" imageRectString=",-5|110|-5|45|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.AddFriendBGI3" parentStyle="IM.AddFriendBGIX" imageRectString="0|100|0|35|13,5|24|6|21|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.AddFriendBGII3" resourceLink="IM.AddFriendBGI3,IM.BtnShin" imageRectString=",-5|110|-5|45|13"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="IM.AddFriendBtn" backStyle="im.AddFriendImg" backgoundInnerRectString="33,20,8,13,-1" textStyle="ddtIM.downBtnText_1" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" tipGapV="5" x="7" y="461"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="im.AddFriendImg" resourceLink="IM.AddFriendBGI,IM.AddFriendBGII,IM.AddFriendBGI,IM.AddFriendBGI"/>  
+    <!-- 查看装备 加好友 -->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="im.AddFriendImg2" resourceLink="IM.AddFriendBGI2,IM.AddFriendBGII2,IM.AddFriendBGI2,IM.AddFriendBGI2"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="im.AddFriendImg3" resourceLink="IM.AddFriendBGI3,IM.AddFriendBGII3,IM.AddFriendBGI3,IM.AddFriendBGI3"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.AddBleakBGI" resourceLink="IM.BtnBG,asset.IM.blackBtn" imageRectString="0|80|0|35|13,5|24|6|21|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.AddBleakBGII" resourceLink="IM.AddBleakBGI,IM.BtnShin" imageRectString=",-5|90|-5|45|13"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="IM.AddBleakBtn" backStyle="im.AddBleakImg" backgoundInnerRectString="35,20,5,13,-1" textStyle="ddtIM.downBtnText" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" tipGapV="5" x="173" y="461"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="im.AddBleakImg" resourceLink="IM.AddBleakBGI,IM.AddBleakBGII,IM.AddBleakBGI,IM.AddBleakBGI"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.AddAcadeBGI" resourceLink="IM.BtnBG,asset.IM.masterBtn" imageRectString="0|80|0|35|13,5|24|6|21|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.AddAcadeBGII" resourceLink="IM.AddAcadeBGI,IM.BtnShin" imageRectString=",-5|90|-5|45|13"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="IMView.myAcademyBtn" backStyle="im.myAcademyImg" backgoundInnerRectString="31,20,4,13,-1" textStyle="ddtIM.downBtnText" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" tipGapV="5" x="90" y="461"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="im.myAcademyImg" resourceLink="IM.AddAcadeBGI,IM.AddAcadeBGII,IM.AddAcadeBGI,IM.AddAcadeBGI"/>  
+    <!--SelectedButton -->  
+    <component classname="com.pickgliss.ui.controls.container.HBox" stylename="IM.btnHbox" spacing="1" x="-2" y="123"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IMSelectedBtnBG" resourceLink="asset.IM.selectLeftBtn,asset.IM.IMBtn_01" imageRectString="0|98|0|40|13,12|25|13|21|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="CMSelectedBtnBG" resourceLink="asset.IM.selectCenterBtn,asset.IM.CMBtn_01" imageRectString="0|93|-3|43|13,15|20|14|17|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="MBSelectedBtnBG" resourceLink="asset.IM.selectCenterBtn,asset.IM.MicroBlog_01" imageRectString="0|93|-3|43|13,15|20|14|17|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="COSelectedBtnBG" resourceLink="asset.IM.selectCenterBtn,asset.IM.consortiaListBtn_01" imageRectString="0|93|-3|43|13,15|21|13|20|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="LISelectedBtnBG" resourceLink="asset.IM.selectRightBtn,asset.IM.LikeBtn_01" imageRectString="0|93|-1|41|13,18|18|11|23|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="LISelectedBtnBGII" resourceLink="asset.IM.selectCenterBtn,asset.IM.LikeBtn_01" imageRectString="0|93|-3|43|13,18|18|11|23|13"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtIM.selectText" textFormatStyle="format_IM_01" filterString="glowgilter_IM_01"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="IMView.IMSelectedBtn" textStyle="ddtIM.selectText,ddtIM.selectText" unSelectedStyle="asset.IM.unselectBtn" selectedStyle="IMSelectedBtnBG" displacement="false" backgoundInnerRectString="38|98|14|40|13,10|76|7|25|13" autoSizeAble="true"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="IMView.CMSelectedBtn" textStyle="ddtIM.selectText,ddtIM.selectText" unSelectedStyle="asset.IM.unselectBtn" selectedStyle="CMSelectedBtnBG" displacement="false" backgoundInnerRectString="38|93|14|43|13,10|56|7|25|13"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="IMView.MBSelectedBtn" textStyle="ddtIM.selectText,ddtIM.selectText" unSelectedStyle="asset.IM.unselectBtn" selectedStyle="MBSelectedBtnBG" displacement="false" backgoundInnerRectString="38|93|14|43|13,10|56|7|25|13"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="IMView.consortiaListBtn" textStyle="ddtIM.selectText,ddtIM.selectText" unSelectedStyle="asset.IM.unselectBtn" selectedStyle="COSelectedBtnBG" displacement="false" backgoundInnerRectString="38|93|14|43|13,10|56|7|25|13"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="IMView.LikeSelectedBtn" textStyle="ddtIM.selectText,ddtIM.selectText" unSelectedStyle="asset.IM.unselectBtn" selectedStyle="LISelectedBtnBG" displacement="false" backgoundInnerRectString="38|93|14|41|13,10|56|7|25|13"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="IMView.LikeSelectedBtnII" textStyle="ddtIM.selectText,ddtIM.selectText" unSelectedStyle="asset.IM.unselectBtn" selectedStyle="LISelectedBtnBGII" displacement="false" backgoundInnerRectString="38|93|14|41|13,10|56|7|25|13"/>  
+    <!--Text -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="im.addFriendInputBG" parentStyle="im.Browse.baiduBG" width="175" height="30" x="84" y="15"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.TextStyle" textFormatStyle="explainTextTF" x="10" y="20" filterString="simpleAlertContentGF_addFriendTip"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.TextStyleII" textFormatStyle="frameTitleTFIII" x="2" y="42" filterString="simpleAlertContentGF" multiline="true" wordWrap="true" width="285"/>  
+    <!--Item -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="IM.customInputBG" resourceLink="asset.IM.customInputBG" scaleGridString="20,10,30,15"/>  
+    <component classname="com.pickgliss.ui.controls.TextInput" stylename="IM.item.customInput" backStyle="IM.customInputBG" textStyle="IM.item.title" textInnerRectString="10,10,2,6,0" x="-1" y="0" width="234" height="23"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="IM.item.titleItemBg" resourceLink="asset.IM.title_0,asset.IM.title_1,asset.IM.title_2"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="IM.item.triangle" resourceLink="asset.IM.triangle_1,asset.IM.triangle_2" x="8" y="4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="IM.item.FriendState" resourceLink="asset.IM.awayIconAsset1,asset.IM.busyIconAsset1,asset.IM.noDistrubIconAsset1,asset.IM.shoppingIconAsset1" x="7" y="7"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="IM.item.FriendItemBg" resourceLink="asset.IM.title_0,asset.IM.item_1,asset.IM.item_2"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="IM.IMlistPanel" vScrollbarStyle="core.VScrollbar" hScrollbarStyle="core.HScrollbar" hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|IM.IMListPlayerItemCell,33,235,false" listStyle="com.pickgliss.ui.controls.list.List" width="244" height="283" hScrollProxy="2" x="0" y="69" vUnitIncrement="10"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="IM.ConsortiaListPanel" vScrollbarStyle="core.VScrollbar" hScrollbarStyle="core.HScrollbar" hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|IM.ConsortiaListItemCell,30,235" listStyle="com.pickgliss.ui.controls.list.List" width="238" height="280" hScrollProxy="2" x="0" y="69" vUnitIncrement="10"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="IM.LikeFriendListPanel" parentStyle="IM.ConsortiaListPanel" width="244" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|im.LikeFriendItem,30,235"/>  
+    <!--CMFriendList -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="im.CMFriendList.CMFriendListBG_02" resourceLink="asset.IM.item_2" width="233" height="45" scaleGridString="5,6,233,29" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="im.CMFriendList.CMFriendListBG_01" resourceLink="asset.IM.title_0" width="233" height="45" scaleGridString="5,15,210,10" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="im.item.CMFriendListBG" resourceLink="im.CMFriendList.CMFriendListBG_01,im.CMFriendList.CMFriendListBG_02"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.CMFriendListItem.name" textFormatStyle="simpleAlertContentTF_02" x="60" y="2" width="200" isAutoFitLength="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.CMFriendListItem.CMname" textFormatStyle="simpleAlertContentTF_01" x="110" y="22" width="200" isAutoFitLength="true"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="IM.CMFriendList.CMFriendList" x="0" y="0" spacing="2"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="IM.CMFriendList.downPageBtn" backStyle="asset.ddtcore.rightBtn" width="54" height="25" x="64" y="313" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="IM.CMFriendList.upPageBtn" backStyle="asset.ddtcore.leftBtn" width="54" height="25" x="-9" y="313" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.InviteI" resourceLink="IM.BtnBG" imageRectString="0|80|0|35|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.InviteII" resourceLink="IM.InviteI,IM.BtnShin" imageRectString=",-5|90|-5|45|13"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="IM.CMFriendList.InviteBlogBtn" backStyle="im.InviteImg" backgoundInnerRectString="9,20,7,13,-1" textStyle="ddtIM.downBtnText" x="127" y="308"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="im.InviteImg" resourceLink="IM.InviteI,IM.InviteII,IM.InviteI,IM.InviteI"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.IMList.selfName" textFormatStyle="imBgSelfNameText" filterString="IM.GF_01" autoSize="none" width="139" height="25" isAutoFitLength="true" x="120" y="11"/>  
+    <custom classname="ddt.view.common.LevelIcon" stylename="IM.imView.LevelIcon" x="88" y="6"/>  
+    <custom classname="ddt.view.common.LevelIcon" stylename="IM.item.levelIcon" x="2" y="2"/>  
+    <custom classname="ddt.view.common.LevelIcon" stylename="chatFrame.selfLevelIcon" x="52" y="294"/>  
+    <custom classname="ddt.view.common.LevelIcon" stylename="chatFrame.targetLevelIcon" x="52" y="125"/>  
+    <!--IMLookup -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="im.Browse.baiduBG" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="240" height="30" x="8" y="-3"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="IM.IMLookup.cleanUpBtn" backStyle="asset.core.nameInputDropListTarget.close" x="224" y="4"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.IMLookup.text" textFormatStyle="simpleAlertContentTF_03" filterString="glowgilter_IM_03"/>  
+    <component classname="com.pickgliss.ui.controls.TextInput" stylename="IM.IMLookup.textinput" textStyle="IM.IMLookup.text" textInnerRectString="10,10,3,2,0" x="10" y="3" width="200" height="20" maxChars="13"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="IM.IMLookup.lookUpBG" parentStyle="core.commonTipBg" width="220" height="45" x="9" y="27"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="IM.IMLookup.lookupList" x="10" y="30" spacing="2"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="IM.friendItem.privateChatBtn" backStyle="asset.IM.privateChat" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="183" y="6"/>  
+    <!--sns邀请 -->  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="IM.friendItem.snsInviteBtn" parentStyle="IM.friendItem.privateChatBtn" backStyle="asset.IM.inviteIcon" x="182" y="6"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="IM.friendItem.deleteBtn" backStyle="asset.IM.delete" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="205" y="7"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="IM.ConsortiaListItem.privateChatBtn" backStyle="asset.IM.privateChat" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="190" y="5"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="IM.CMFriendListItem.privateChatBtn" backStyle="asset.IM.privateChat" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="185" y="15"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="IM.CMFriendListItem.addFriendBtn" backStyle="asset.IM.add" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="205" y="15"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="IM.CMFriendListItem.inviteBtn" backStyle="asset.IM.inviteIcon" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="197" y="15"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.InviteDialogFrame.Textinput" type="input" autoSize="none" textFormatStyle="IM.InviteDialogFrame.frameTitleTF" filterString="bagAndInfo.AddPrice.SelBtnGF" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="10,10,3,2,0" x="3" y="2" width="270" height="90"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="IM.IMLookupItem.addFriendBtn" backStyle="asset.IM.add" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="185" y="5"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="IM.IMLookupItem.inviteBtn" backStyle="asset.IM.inviteIcon" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="182" y="5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.BGMovieImage" resourceLink="IM.BG01,IM.BG02" x="-4" y="152"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.BG01" width="262" height="302" resourceLink="asset.core.ddtScale9CornerImage12,core.Scale9CornerImage.weilifur" imageRectString=",1|1|1|1|0" x="3"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.BG02" resourceLink="core.Scale9CornerImage.SimpleTableBackgound2,core.Scale9CornerImage.weilifur" imageRectString=",5|7|5|7|0" width="257" height="300" x="6" y="2"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="im.InviteDialogFrame.inputBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="-12" y="-6" width="297" height="96"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="IMView.selectStateBtn" backStyle="im.selectStateBtnImg"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="im.selectStateBtnImg" resourceLink="asset.IM.selectStateBtnAsset,asset.IM.selectStateBtnOverAsset,asset.IM.selectStateBtnAsset,asset.IM.selectStateBtnAsset" width="40" height="20"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="im.stateIcon" resourceLink="asset.IM.onlineIconAsset,asset.IM.awayIconAsset,asset.IM.busyIconAsset,asset.IM.shoppingIconAsset,asset.IM.noDistrubIconAsset"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.stateItem.stateName" textFormatStyle="im.stateItem.stateNameTF" filterString="im.stateNameTFT" x="25" y="3"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.stateItem.AutoReplyInputTxt" textFormatStyle="im.stateItem.autoReplyTF" filterString="im.stateNameTFT" y="2"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.stateIconBtn.stateNameTxt" textFormatStyle="im.stateItem.autoReplyTF" x="131" y="39" filterString="im.stateNameTFT"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="IM.stateSelectListBgAsset" parentStyle="core.commonTipBg" width="84" height="100"/>  
+    <component classname="com.pickgliss.ui.controls.list.DropList" stylename="IMView.stateList" containerStyle="droplist.Container" backStyle="IM.stateSelectListBgAsset" cellStyle="im.PlayerStateItem" x="95" y="53"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtIM.downBtnText2" textFormatStyle="format_IM_02" filterString="glowgilter_IM_02" autoSize="none" width="48" height="25"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="IM.friendItem.callBackBtn" backStyle="asset.IM.callBack" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="130" y="5"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtIM.IMdownBtnText" textFormatStyle="format_IM_02" filterString="glowgilter_IM_02" wordWrap="true" multiline="true" autoSize="none" width="55" height="50"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.AddFriendBGI4" parentStyle="IM.AddFriendBGIX" imageRectString="0|70|0|35|13,5|24|6|21|13"/>
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="im.AddFriendImg4" resourceLink="IM.AddFriendBGI3,IM.AddFriendBGII3,IM.AddFriendBGI3,IM.AddFriendBGI3"/>
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="IM.AddFriendBGII4" resourceLink="IM.AddFriendBGI4,IM.BtnShin" imageRectString=",-5|80|-5|45|13"/>
+  </components>  
+  <customDisplay> 
+    <custom classname="ddt.view.PlayerPortraitView" stylename="chatFrame.selfPortrait" x="22" y="211"/>  
+    <custom classname="ddt.view.PlayerPortraitView" stylename="chatFrame.targetPortrait" x="22" y="40"/>  
+    <custom classname="ddt.view.PlayerPortraitView" stylename="im.PlayerPortrait" x="5" y="2"/>  
+    <custom classname="im.StateIconButton" stylename="IM.stateIconButton" x="92" y="35"/>  
+    <custom classname="im.PlayerStateItem" stylename="im.playerStateItem"/>  
+    <custom classname="im.AutoReplyInput" stylename="im.autoReplyInput" x="91" y="60"/>  
+    <!--IMList -->  
+    <custom classname="im.IMListItemView" stylename="IM.IMListPlayerItemCell"/>  
+    <custom classname="flash.geom.Point" stylename="recordFrame.pos" x="475" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="IM.IMListPlayerItemCell.sexIconPos" x="0" y="3"/>  
+    <!--IMConsortiaList -->  
+    <custom classname="im.ConsortiaListItemView" stylename="IM.ConsortiaListItemCell"/>  
+    <custom classname="ddt.view.common.LevelIcon" stylename="IM.CMFriendListItem.levelIcon" x="60" y="20"/>  
+    <custom classname="flash.geom.Point" stylename="IM.CMFriendListItem.sexIconPos" x="88" y="22"/>  
+    <custom classname="flash.geom.Point" stylename="IM.CMFriendList.titlePos" x="0" y="7"/>  
+    <custom classname="flash.geom.Point" stylename="IM.IMList.listPos" x="93" y="154"/>  
+    <custom classname="flash.geom.Point" stylename="IM.IMView.IMLookupViewPos" x="-2" y="92"/>  
+    <custom classname="flash.geom.Point" stylename="IM.friendItem.CMFIconPos" x="140" y="4"/>  
+    <custom classname="flash.geom.Point" stylename="IM.IMListItemView.masterIconPos" x="140" y="4"/>  
+    <custom classname="flash.geom.Point" stylename="messagebox.sexPos" x="8" y="1"/>  
+    <custom classname="flash.geom.Point" stylename="ListItemView.ItemDeletePos" x="205" y="7"/>  
+    <custom classname="flash.geom.Point" stylename="ListItemView.titleDeletePos" x="205" y="3"/>  
+    <custom classname="flash.geom.Point" stylename="ListItemView.lookBtn" x="220" y="2"/> 
+  </customDisplay>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.IM.iconBg" x="-7" y="-1"/>  
+    <bitmapData resourceLink="asset.IM.title_0" width="218"/>  
+    <bitmapData resourceLink="asset.IM.lookItem_bg" width="218"/>  
+    <bitmapData resourceLink="asset.IM.title_1"/>  
+    <bitmapData resourceLink="asset.IM.title_2"/>  
+    <bitmapData resourceLink="asset.IM.triangle_1"/>  
+    <bitmapData resourceLink="asset.IM.triangle_2"/>  
+    <bitmapData resourceLink="asset.IM.item_1"/>  
+    <bitmapData resourceLink="asset.IM.item_2"/>  
+    <bitmapData resourceLink="asset.IM.unselectBtn" y="4"/>  
+    <bitmapData resourceLink="asset.IM.IMBtn_01" x="-1"/>  
+    <bitmapData resourceLink="asset.IM.IMBtn_02"/>  
+    <bitmapData resourceLink="asset.IM.CMBtn_01" x="-1"/>  
+    <bitmapData resourceLink="asset.IM.CMBtn_02"/>  
+    <bitmapData resourceLink="asset.IM.MicroBlog_01" x="-1"/>  
+    <bitmapData resourceLink="asset.IM.MicroBlog_02"/>  
+    <bitmapData resourceLink="asset.IM.consortiaListBtn_01" x="-1"/>  
+    <bitmapData resourceLink="asset.IM.consortiaListBtn_02"/>  
+    <bitmapData resourceLink="asset.IM.LikeBtn_01" x="-1"/>  
+    <bitmapData resourceLink="asset.IM.LikeBtn_02"/>  
+    <bitmapData resourceLink="asset.IM.NAN" x="31" y="36"/>  
+    <bitmapData resourceLink="asset.IM.selectStateBtnAsset"/>  
+    <bitmapData resourceLink="asset.IM.selectStateBtnOverAsset"/>  
+    <bitmapData resourceLink="asset.IM.onlineIconAsset" x="2" y="2"/>  
+    <bitmapData resourceLink="asset.IM.awayIconAsset" x="2" y="2"/>  
+    <bitmapData resourceLink="asset.IM.busyIconAsset" x="2" y="2"/>  
+    <bitmapData resourceLink="asset.IM.noDistrubIconAsset" x="2" y="2"/>  
+    <bitmapData resourceLink="asset.IM.shoppingIconAsset" x="2" y="2"/>  
+    <bitmapData resourceLink="asset.IM.deleteFriendBtnAsset"/>  
+    <bitmapData resourceLink="asset.IM.addFriendBtnAsset"/>  
+    <bitmapData resourceLink="asset.IM.masterBtnAsset"/>  
+    <bitmapData resourceLink="asset.IM.replyInputBgAsset" width="160"/>  
+    <bitmapData resourceLink="asset.IM.stateSelectListBgAsset" width="160"/>  
+    <bitmapData resourceLink="sset.IM.stateItemOverBgAsset" width="165"/>  
+    <bitmapData resourceLink="asset.IM.Noname" x="5" y="4" smoothing="true" scaleX="0.7" scaleY="0.7"/>  
+    <bitmapData resourceLink="asset.IM.iconLight" x="1" y="0" smoothing="true" scaleX="0.8" scaleY="0.8"/>  
+    <bitmapData resourceLink="asset.IM.inviteIcon"/>  
+    <bitmapData resourceLink="asset.IM.shoppingIconAsset1" x="-2" y="-2"/>  
+    <bitmapData resourceLink="asset.chatFrame.worningbg" width="372" x="105" y="36" height="41"/>  
+    <bitmapData resourceLink="asset.chatFrame.worning" x="108" y="41"/>  
+    <bitmapData resourceLink="asset.recordFrame.pageBG" width="242" x="12" y="36"/>  
+    <bitmapData resourceLink="asset.messagebox.sign" x="15" y="16"/>  
+    <bitmapData resourceLink="asset.messagebox.newSign" x="230" y="6"/>  
+    <bitmapData resourceLink="asset.awardSystem.addFriendFont" x="24" y="44"/>  
+    <bitmapData resourceLink="asset.IM.cleanOutIconAsset" x="-3" y="-2"/>  
+    <bitmapData resourceLink="asset.IM.callBacked" x="130" y="5"/>  
+    <bitmapData resourceLink="asset.IM.cleanOutIconAsset1" x="2" y="2"/> 
+    
+    <bitmapData resourceLink="asset.IM." x="-1"/>
+  </bitmaps> 
+</style>

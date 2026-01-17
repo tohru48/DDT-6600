@@ -1,0 +1,125 @@
+<style name="house" version="6.1.0" source="ui/turkey/swf/house.swf">
+<sets>
+	<set stylename="house.hostNameTF" args="Arial,14,0xfff1bf,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="house.hostNameGF"  args="0x571900,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="house.tabSelectedTxtTF" args="Arial,11,0xfff3bc,true,,,,,center" type="flash.text.TextFormat" leading="-3"/>
+	<set stylename="house.tabSelectedTxtGF"  args="0x5f3108,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="house.tabUnselectedTxtTF" args="Arial,11,0xda943b,true,,,,,center" type="flash.text.TextFormat" leading="-3"/>
+	<set stylename="house.tabUnselectedTxtGF"  args="0x341c02,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="house.itemNameTxtTF" args="Arial,9,0xffdd94" type="flash.text.TextFormat" />
+	<set stylename="house.itemNameTxtGF"  args="0x60320b,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="house.priceTxtTF" args="Arial,12,0xff7800,true" type="flash.text.TextFormat" />
+	<set stylename="house.priceTxtGF"  args="0x60320b,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="house.pageTF" args="Arial,12,0xFFF8D6,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="house.pageGF" args="0x4b270d,1,4,4,30"  type="flash.filters.GlowFilter" />
+</sets>
+<customs>
+	<custom classname="flash.geom.Point" stylename="house.menuPos" x="888" y="446" /> 
+	<custom classname="flash.geom.Point" stylename="house.decorationBarPos" x="0" y="437" /> 
+	<custom classname="flash.geom.Point" stylename="house.tabSpritePos" x="32" y="16" /> 
+	<custom classname="flash.geom.Point" stylename="house.nameTxtPos" x="4" y="77" /> 
+	<custom classname="flash.geom.Point" stylename="house.payTypePos" x="120" y="7" /> 
+	<custom classname="flash.geom.Point" stylename="house.shopCellPos" x="13" y="10" /> 
+	<custom classname="flash.geom.Point" stylename="house.storeCellPos" x="16" y="13" /> 
+	<custom classname="flash.geom.Point" stylename="house.playerOperatePos" x="40" y="300" /> 
+	<custom classname="flash.geom.Point" stylename="house.HouseDiscoloration.cell" x="27" y="23" /> 
+	<custom classname="ddt.view.ColorEditor" stylename="house.HouseDiscoloration.ColorEdit" x="111" y="-2"/>
+	<custom classname="flash.geom.Point" stylename="house.HouseDiscoloration.storeBgUnselected" x="12" y="12" /> 
+	
+</customs>
+<components>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="house.hostName"  
+		textFormatStyle="house.hostNameTF" filterString="house.hostNameGF" autoSize="none" width="150" height="20"
+		x="459" y="17"  />
+<!-- 		menu -->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.decorationBtn" 
+		backStyle="house.decoration" x="0" y="50"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.goBackBtn" 
+		backStyle="house.goBack" x="0" y="100"/>
+<!-- 		bar -->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.storeBtn" 
+		backStyle="house.store" x="900" y="15"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.purchaseBtn" 
+		backStyle="house.purchase" x="900" y="65"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.returnBtn" 
+		backStyle="house.return" x="900" y="115"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.revertBtn" 
+		backStyle="house.revert" x="801" y="63"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.discolorationBtn" 
+		backStyle="house.discoloration" x="801" y="90"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.saveBtn" 
+		backStyle="house.save" x="801" y="113"/>
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="house.foldBtn" 
+		unSelectedStyle="house.fold" selectedStyle="house.unfold" 
+		x="963" y="-24" />
+
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="house.tabSelectedTxt"  
+		textFormatStyle="house.tabSelectedTxtTF" filterString="house.tabSelectedTxtGF"  autoSize="none" width="63" height="38" wordWrap="true"/>		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="house.tabUnselectedTxt"  
+		textFormatStyle="house.tabUnselectedTxtTF" filterString="house.tabUnselectedTxtGF" autoSize="none" width="63" height="38" wordWrap="true"/>		
+	<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="house.baseTabBtnWrap" 
+		selectedStyle="house.tabSelected" unSelectedStyle="house.tabUnselected" filterString="null,lightFilter,null,grayFilter" 
+		textStyle="house.tabSelectedTxt,house.tabUnselectedTxt" backgoundInnerRectString="3|70|2|29|13,3|70|2|29|13" />		
+	
+	<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="house.baseTabBtn" 
+		selectedStyle="house.tabSelected" unSelectedStyle="house.tabUnselected" filterString="null,lightFilter,null,grayFilter" 
+		textStyle="house.tabSelectedTxt,house.tabUnselectedTxt" backgoundInnerRectString="3|70|7|29|13,3|70|7|29|13" />		
+		
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="house.tabHbox" spacing="1" x="0" y="0"/>
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="house.storeHbox" spacing="1" x="13" y="53"/>			
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="house.purchaseHbox" spacing="0" x="15" y="56"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.leftBtn"  backStyle="house.left"
+		x="6" y="16"/>	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.rightBtn"  backStyle="house.right"
+		x="679" y="16"/>	
+	
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="house.storeBg" resourceLink="house.storeBgUnselected,house.storeBgSelected" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="house.goodsBg" resourceLink="house.goodsBgUnselected,house.goodsBgSelected" />		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="house.itemNameTxt"  
+		textFormatStyle="house.itemNameTxtTF" filterString="house.itemNameTxtGF"  width="100" height="20"
+		x="11" y="83"/>		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="house.priceTxt"  
+		textFormatStyle="house.priceTxtTF" filterString="house.priceTxtGF"  width="50" height="20"
+		x="88" y="10"/>	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.ownBtn"  backStyle="house.own"
+		x="84" y="40"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.buyBtn"  backStyle="house.buy"
+		x="84" y="40"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.giveBtn"  backStyle="house.give"
+		x="84" y="66"/>	
+		
+	<component classname="com.pickgliss.ui.controls.BaseButton" 	stylename="house.prevBtn"  backStyle="asset.ddtcore.leftBtn"
+		x="706" y="14"  filterString="null,lightFilter,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" 	stylename="house.nextBtn" backStyle="asset.ddtcore.rightBtn"
+		x="829" y="14"  filterString="null,lightFilter,null,grayFilter" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText"
+		stylename="house.pageTxt"  textFormatStyle="house.pageTF" filterString="house.pageGF" 
+		x="785" y="17" width="60" height="20"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+		stylename="house.pageBG"  parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"  
+		x="773" y="13" width="45" height="24" />	
+
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="house.goodsCellLight" width="156" height="102" 
+		x="-2" y="-3"  resourceLink="house.selectedLight" scaleGridString="10,10,20,20"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="house.storeCellLight" width="97" height="106" 
+		x="0" y="0"  resourceLink="house.selectedLight" scaleGridString="10,10,20,20"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="house.selectedLight"  width="102" height="51" 
+		x="0" y="0"  resourceLink="house.selectedLight" scaleGridString="10,10,20,20"/>
+		
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.HouseDiscoloration.disBtn" 
+		backStyle="asset.house.discolorationBtn" x="128" y="103"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="house.HouseDiscoloration.revertBtn" 
+		backStyle="asset.house.revert" x="262" y="109"/>
+	<component classname="house.views.HouseDiscoloration" backStyle="SimpleFrameBackgound"
+			closestyle="core.closebt" stylename="house.HouseDiscoloration.frame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+			closeInnerRectString="338,44,6,30,13" width="411" height="222" />
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="house.HouseDiscoloration.bg" 
+			parentStyle="core.bg6920" width="371" height="161" x="-2" y="-4" scaleGridString="5,10,80,20" />
+</components>
+<bitmaps>
+	<bitmapData  resourceLink="house.titleBg"  x="434"  y="0"/>
+	<bitmapData  resourceLink="house.tick"  x="72"  y="4"/>
+	<bitmapData  resourceLink="house.try"  x="12"  y="50"/>
+</bitmaps>
+</style>

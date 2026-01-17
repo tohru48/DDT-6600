@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="wantstrong" version="1.0.1" source="ui/turkey/swf/wantstrong.swf"> 
+  <sets> 
+    <set stylename="wantstrong.view.mainFrame.rightTitle.titleTF" args="Arial,12,0xffe41c,true,,,,,left" type="flash.text.TextFormat" leading="23" letterSpacing="0"/>  
+    <set stylename="wantstrong.view.mainFrame.rightTitle.titleFilter" args="0x43210e,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="wantstrong.view.mainFrame.rightTitle.title2TF" args="Arial,13,0xffe41c,true,,,,,left" type="flash.text.TextFormat" leading="0" letterSpacing="1"/>  
+    <set stylename="wantstrong.view.mainFrame.rightTitle.title2Filter" args="0x43210e,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="wantstrong.view.mainFrame.rightTitle.contentTF" args="Arial,10,0xead9ac" type="flash.text.TextFormat" />  
+    <set stylename="wantstrong.view.mainFrame.rightTitle.contentFilter" args="0x593820,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="wantstrong.view.mainFrame.rightTitle.numTF" args="Arial,12,0xffe41c,true" type="flash.text.TextFormat" leading="5" letterSpacing="1"/>  
+    <set stylename="wantstrong.view.mainFrame.rightTitle.honorTF" args="Arial,12,0xffe41c" type="flash.text.TextFormat" leading="5" letterSpacing="1"/>  
+    <set stylename="wantstrong.view.mainFrame.rightTitle.numFilter" args="0x43210e,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="wantstrong.ActivityCellTitleSelectedTextTF" args="Arial,16,0xf4d96b" type="flash.text.TextFormat"/>  
+    <set stylename="wantstrong.ActivityCellTitleSelectedTextGF" args="0x541e00,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="wantstrong.ActivityCellTitleSpecialSelectedTextTF" args="Arial,16,0xfff600,true" type="flash.text.TextFormat"/>  
+    <set stylename="wantstrong.ActivityCellTitleSpecialSelectedTextGF" args="0x741b00,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="wantstrong.ActivityCellTitleUnSelectedTextTF" args="Arial,16,0xffffff" type="flash.text.TextFormat"/>  
+    <set stylename="wantstrong.ActivityCellTitleUnSelectedTextGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/> 
+  </sets>  
+  <customDisplay> 
+    <!--Frame-->  
+    <custom classname="wantstrong.view.WantStrongFrame" stylename="wantStrong.WantStrongFrame" backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="24,10,5" closeInnerRectString="44,22,6,30,14" moveInnerRectString="0,30,0,30,1" width="752" height="490" escEnable="true"/>  
+    <custom classname="wantstrong.LargeBackgroundBg" stylename="wangstrong.ActivityListBg" x="31" y="53" width="210" height="410"/>  
+    <!-- <custom classname="com.pickgliss.ui.controls.ScrollPanel" stylename="wantstrong.WantStrongList" x="0" y="0" parentStyle="core.ScrollPanel" viewportInnerRectString="0,0,0,-6,0" vScrollbarInnerRectString="21,-20,4,-8,3" hScrollProxy="2" vScrollProxy="0" width="172" height="368" vUnitIncrement="10"/> -->
+    <custom classname="wantstrong.view.WantStrongList"
+			stylename="wantstrong.WantStrongList" x="42" y="68" />  
+    <custom classname="wantstrong.view.WantStrongMenu" stylename="wantstrong.WantStrongMenu" x="0" y="0"/>  
+    <custom classname="wantstrong.view.WantStrongContentView" stylename="wantstrong.WantStrongContentView" x="0" y="0"/>  
+    <custom classname="wantstrong.view.WantStrongDetail" stylename="wantstrong.WantStrongDetail" x="0" y="0"/> 
+  </customDisplay>  
+  <components> 
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wantstrong.view.mainFrame.rightTitle.Text" textFormatStyle="wantstrong.view.mainFrame.rightTitle.titleTF" filterString="wantstrong.view.mainFrame.rightTitle.titleFilter" y="8" x="23"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wantstrong.view.mainFrame.rightTitle.2Text" textFormatStyle="wantstrong.view.mainFrame.rightTitle.title2TF" filterString="wantstrong.view.mainFrame.rightTitle.title2Filter" y="8" x="20" wordWrap="true" width="150" height="55"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wantstrong.view.mainFrame.rightContent.Text" textFormatStyle="wantstrong.view.mainFrame.rightTitle.contentTF" filterString="wantstrong.view.mainFrame.rightTitle.contentFilter" width="325" height="55" wordWrap="true" type="dynamic" x="106" y="46"/>  
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="wantstrong.view.mainFrame.rightContent.TextArea" textFormatStyle="wantstrong.view.mainFrame.rightContent.Text" parentStyle="core.SimpleTextArea" width="305" height="70" x="120" y="46"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wantstrong.view.mainFrame.freeBackRightContent.Text" textFormatStyle="wantstrong.view.mainFrame.rightTitle.contentTF" filterString="wantstrong.view.mainFrame.rightTitle.contentFilter" x="120" y="50" width="65" height="30"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wantstrong.view.mainFrame.allBackRightContent.Text" textFormatStyle="wantstrong.view.mainFrame.rightTitle.contentTF" filterString="wantstrong.view.mainFrame.rightTitle.contentFilter" x="120" y="80" width="65" height="30"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wantstrong.view.mainFrame.freeBackRightContentNum.Text" textFormatStyle="wantstrong.view.mainFrame.rightTitle.numTF" filterString="wantstrong.view.mainFrame.rightTitle.numFilter" x="226" y="50" width="305" height="30"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wantstrong.view.mainFrame.freeBackRightContentHonor.Text" textFormatStyle="wantstrong.view.mainFrame.rightTitle.honorTF" filterString="wantstrong.view.mainFrame.rightTitle.numFilter" x="260" y="50" width="305" height="30"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wantstrong.view.mainFrame.allBackRightContentNum.Text" textFormatStyle="wantstrong.view.mainFrame.rightTitle.numTF" filterString="wantstrong.view.mainFrame.rightTitle.numFilter" x="220" y="80" width="305" height="30"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wantstrong.view.mainFrame.allBackRightContentHonor.Text" textFormatStyle="wantstrong.view.mainFrame.rightTitle.honorTF" filterString="wantstrong.view.mainFrame.rightTitle.numFilter" x="257" y="80" width="305" height="30"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wantstrong.goon" backStyle="wantstrong.right.goon" focusFrameStyle="wantstrong.btn.focus" x="353" y="4"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wantstrong.freeback" backStyle="wantstrong.freegetback" focusFrameStyle="wantstrong.btn.focus" x="349" y="50"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wantstrong.allback" backStyle="wantstrong.allgetback" focusFrameStyle="wantstrong.btn.focus" x="349" y="79"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="wantstrong.WantStrongList" parentStyle="core.ScrollPanel" viewportInnerRectString="0,0,0,-6,0" vScrollbarInnerRectString="21,-20,4,-8,3" hScrollProxy="2" vScrollProxy="0" width="172" height="368" x="0" y="0" vUnitIncrement="10"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wantstrong.ActivityCellTitleText" textFormatStyle="wantstrong.ActivityCellTitleUnSelectedTextTF,wantstrong.ActivityCellTitleSelectedTextTF" filterString="wantstrong.ActivityCellTitleUnSelectedTextGF,wantstrong.ActivityCellTitleSelectedTextGF" x="18" y="14"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wantstrong.ActivitySpecailCellTitleText" textFormatStyle="wantstrong.ActivityCellTitleUnSelectedTextTF,wantstrong.ActivityCellTitleSpecialSelectedTextTF" filterString="wantstrong.ActivityCellTitleUnSelectedTextGF,wantstrong.ActivityCellTitleSpecialSelectedTextGF" x="18" y="14"/>  
+    <!--FRAME大背景 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="wantstrong.view.scale9ImageBg" width="713" height="426" x="19" y="44" parentStyle="core.bg6920"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="wantstrong.BG1" resourceLink="asset.core.ScaleBitmapImage1" width="220" height="416" x="25" y="50" scaleGridString="33,26,59,70"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="wantstrong.BG02" resourceLink="core.Scale9CornerImage.SimpleTableBackgound2,core.Scale9CornerImage.weilifur" imageRectString=",5|5|5|5|0" width="474" height="408" x="6" y="2"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="wantstrong.BG03" resourceLink="core.Scale9CornerImage.Scale9CornerImage18,wantstrong.BG02" imageRectString=",5|5|5|5|0" width="484" height="416" x="244" y="50"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="wantstrong.ActivityState.Vbox" x="0" y="0" spacing="6"/>  
+    <!-- WantStrongCell -->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="wantstrong.ActivityCellBg" x="2" resourceLink="wantstrong.ActivityCellBgUnSelected,wantstrong.ActivityCellBgSelected" height="50"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="wantstrong.ActivitySpecialCellBg" x="2" resourceLink="wantstrong.ActivityCellSpicalBgUnSelected,wantstrong.ActivityCellSpicalBgSelected" height="50"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="wantstrong.ActivityCellBgSelected" resourceLink="wantstrong.ActivityContentBg"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="wantstrong.ActivityCellSpicalBgUnSelected" resourceLink="wantstrong.ActivitySpicalBg"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="wantstrong.ActivityCellSpicalBgSelected" resourceLink="wantstrong.ActivitySpicalSelectedBg"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="wantstrong.ActivityCellBgUnSelected" resourceLink="wantstrong.ActivityCellUnSelectedBg"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="wantstrong.ActivityDetailList" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="1" width="470" height="385" x="246" y="65" vUnitIncrement="10"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="wantstrong.huaweng" x="28" y="56"/>  
+    <bitmapData resourceLink="wantstrong.right.cellbg" x="11" y="0"/> 
+  </bitmaps> 
+</style>

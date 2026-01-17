@@ -1,0 +1,7 @@
+<style name="task" version="1.0.1" source="ui/zh_cn/swf/task.swf">
+<sets>
+</sets>
+<bitmaps>
+	<bitmapData resourceLink="asset.task.mainScale9CornerImageLT" width="710" height="543"/>
+</bitmaps>
+</style>

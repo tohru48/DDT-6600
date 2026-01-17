@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="sevendoublegame" version="5.1.0" source="ui/turkey/swf/sevendoublegame.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="sevenDouble.countDownView.txt.tf" args="Arial,14,0xffffff"/>  
+    <set type="flash.filters.GlowFilter" stylename="sevenDouble.countDownView.txt.gf" args="0x781f00,1,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="sevenDouble.game.playerNameTxt.tf" args="Arial,12,0xffffff,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="sevenDouble.game.playerNameTxt.gf" args="0x000000,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="sevenDouble.game.buffCountDownTxt.tf" args="Arial,14,0xff0000"/>  
+    <set type="flash.filters.GlowFilter" stylename="sevenDouble.game.buffCountDownTxt.gf" args="0x000000,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="sevenDouble.game.buffTitleTxt.tf" args="Arial,14,0xff0000,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="sevenDouble.game.buffTitleTxt.gf" args="0x000000,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="sevenDouble.rankView.titleTxt.tf" args="Arial,12,0xffba00,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="sevenDouble.rankView.titleTxt.gf" args="0x000000,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="sevenDouble.rankView.cellTxt.tf" args="Arial,14,0xffffff"/>  
+    <set type="flash.filters.GlowFilter" stylename="sevenDouble.rankView.cellTxt.gf" args="0x000000,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="sevenDouble.rankView.cellNameTxt.tf" args="Arial,14,0xffffff,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="sevenDouble.rankView.cellNameTxt.gf" args="0x000000,1,4,4,30"/> 
+  </sets>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="sevenDouble.rankView.nameTitleTxtPos" x="74" y="36.5"/>  
+    <custom classname="flash.geom.Point" stylename="sevenDouble.rankView.rateTitleTxtPos" x="144" y="37"/>  
+    <custom classname="flash.geom.Point" stylename="sevenDouble.rankView.cellNameTxtPos" x="55" y="1"/>  
+    <custom classname="flash.geom.Point" stylename="sevenDouble.rankView.cellRateTxtPos" x="133" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="sevenDouble.gameStart.countDownViewPos" x="485" y="217"/>  
+    <custom classname="flash.geom.Point" stylename="sevenDouble.gamePlayer.fightMcPos" x="2" y="-93"/>  
+    <custom classname="flash.geom.Point" stylename="sevenDouble.game.waitStartGamePromptPos" x="522" y="249"/> 
+    
+    <custom classname="flash.geom.Point" stylename="sevenDouble.game.countDownViewPos" x="200" y="0"/>
+	<custom classname="flash.geom.Point" stylename="sevenDouble.game.runpercentViewPos" x="445" y="0"/>
+	<custom classname="flash.geom.Point" stylename="sevenDouble.rankView.sprintTitleTxtPos" x="175" y="37"/>
+<custom classname="flash.geom.Point" stylename="sevenDouble.rankView.cellAwardCellPos" x="168" y="-6"/>
+  </customs>  
+  <components> 
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sevenDouble.moveOutBtn" backStyle="asset.sevenDouble.moveOutBtn" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sevenDouble.moveInBtn" backStyle="asset.sevenDouble.moveInBtn" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sevenDouble.returnBtn" backStyle="asset.sevenDouble.returnBtn" x="35" y="4"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sevenDouble.leapBtn" backStyle="asset.sevenDouble.leapBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,1" x="23" y="13"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sevenDouble.invisibilityBtn" backStyle="asset.sevenDouble.invisibilityBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,1" x="23" y="57"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sevenDouble.cleanBtn" backStyle="asset.sevenDouble.cleanBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,1" x="23" y="100"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sevenDouble.countDownView.txt" textFormatStyle="sevenDouble.countDownView.txt.tf" filterString="sevenDouble.countDownView.txt.gf" x="14" y="10"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sevenDouble.game.playerNameTxt" textFormatStyle="sevenDouble.game.playerNameTxt.tf" filterString="sevenDouble.game.playerNameTxt.gf" autoSize="none" x="-220" y="-110" width="250" height="18"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sevenDouble.game.buffCountDownTxt" textFormatStyle="sevenDouble.game.buffCountDownTxt.tf" filterString="sevenDouble.game.buffCountDownTxt.gf" x="96" y="2"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sevenDouble.game.buffTitleTxt" textFormatStyle="sevenDouble.game.buffTitleTxt.tf" filterString="sevenDouble.game.buffTitleTxt.gf" x="4" y="2"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sevenDouble.rankViewMoveOutBtn" backStyle="asset.sevenDouble.rankViewMoveOutBtn" x="-24" y="37"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sevenDouble.rankViewMoveInBtn" backStyle="asset.sevenDouble.rankViewMoveInBtn" x="-24" y="37"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sevenDouble.rankView.titleTxt" textFormatStyle="sevenDouble.rankView.titleTxt.tf" filterString="sevenDouble.rankView.titleTxt.gf" x="3" y="37"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sevenDouble.rankView.cellTxt" textFormatStyle="sevenDouble.rankView.cellTxt.tf" filterString="sevenDouble.rankView.cellTxt.gf" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="sevenDouble.rankView.cellNameTxt" textFormatStyle="sevenDouble.rankView.cellNameTxt.tf" filterString="sevenDouble.rankView.cellNameTxt.gf" autoSize="none" width="120" height="18" x="19" y="0"/>  
+    <component classname="sevenDouble.view.SevenDoubleBuyConfirmView" stylename="SevenDoubleBuyConfirmView1" parentStyle="SimpleAlert" frameInnerRectString="60,45,50,85,-1"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="sevenDouble.HelpButton" backStyle="asset.ddtcore.helpbutton" x="677" y="-2"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.sevenDouble.leapPromptArrow" x="0" y="-19"/>  
+    <bitmapData resourceLink="asset.sevenDouble.buffCountDownBg" width="140"/> 
+  </bitmaps> 
+</style>

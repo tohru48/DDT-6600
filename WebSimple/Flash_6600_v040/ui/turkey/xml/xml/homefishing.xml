@@ -1,0 +1,102 @@
+<style name="homefishing" version="6.6.0" source="ui/turkey/swf/homefishing.swf">
+	<sets>
+		<set stylename="home.fishing.timeTextTF" args="Arial,16,0xffcc00,true" type="flash.text.TextFormat" />
+		<set stylename="home.fishing.timeTextGF" args="0x074247,2,4,4,10" type="flash.filters.GlowFilter" />
+		<set stylename="home.fishing.cellNameTF" args="Arial,12,0xf9f4d0,true" type="flash.text.TextFormat" />
+		<set stylename="home.fishing.cellNameGF" args="0x2a3853,2,4,4,10" type="flash.filters.GlowFilter" />
+		<set stylename="home.fishing.cellPriceTF" args="Arial,12,0x14e9aa,true" type="flash.text.TextFormat" />
+		<set stylename="home.fishing.cellPriceGF" args="0x2a3853,2,4,4,10" type="flash.filters.GlowFilter" />
+		<set stylename="home.fishing.cellScoreTF" args="Arial,11,0xffcc00,true" type="flash.text.TextFormat" />
+		<set stylename="home.fishing.CurrentPageTF" args="Arial,12,0xfff8d6,,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="home.fishing.CurrentPageGF" args="0x113d33,1,4,4,10" type="flash.filters.GlowFilter" />
+		<set stylename="home.fishing.gameTiemTextTF" args="Arial,16,0xffffff,true" type="flash.text.TextFormat" />
+		<set stylename="home.fishing.gameTiemTextGF" args="0x182d2b,2,4,4,10" type="flash.filters.GlowFilter" />
+		<set stylename="home.fishing.gainTextTF" args="Arial,16,0xffffff,true" type="flash.text.TextFormat" />
+		<set stylename="home.fishing.gainTextGF" args="0x074247,2,4,4,10" type="flash.filters.GlowFilter" />
+		<set stylename="home.fishing.rewardTextTF" args="Arial,13,0xffffff,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="home.fishing.rewardTextGF" args="0x000000,2,4,4,10" type="flash.filters.GlowFilter" />
+		<set stylename="home.fishing.reportTextAreaTF" args="Arial,12,0xFFFFFF" type="flash.text.TextFormat" leading="5" letterSpacing="1"/>
+		<set stylename="home.fishing.reportTextAreaGF"  args="0x000000,1,4,4,8" type="flash.filters.GlowFilter" />
+		
+	</sets>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="home.fishing.cellPos" x="5" y="4" />
+		<custom classname="flash.geom.Point" stylename="home.fishing.fishingRodPos" x="431" y="435"/>
+		<custom classname="flash.geom.Point" stylename="home.fishing.fishActionPos" x="8" y="17"/>
+		<custom classname="flash.geom.Point" stylename="home.fishing.gameScorePos" x="210" y="523"/>
+		<custom classname="flash.geom.Point" stylename="home.fishing.gameGainPos" x="234" y="493"/>
+		<custom classname="flash.geom.Point" stylename="home.fishing.playerPortPos" x="33" y="462"/>
+		<custom classname="flash.geom.Point" stylename="home.fishing.fishImagePos" x="75" y="35"/>
+		<custom classname="ddt.view.PlayerPortraitView" stylename="home.fishing..PlayerPortrait" iconFrame="2" x="5" y="2" />
+	</customs>
+	
+	<components>
+		<component classname="home.views.fishing.HomeFishingFrame" stylename="home.fishing.frame" containerX="31" containerY="88" 
+			escEnable="true" backStyle="home.fishing.frameBg" width="497" height="547" closestyle="home.fishing.frameClose" 
+			closeInnerRectString="43,0,45,43,14" moveInnerRectString="0,30,0,30,1" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.fishing.gotoFishingBtn" 
+			backStyle="home.fishing.gotoFishing" x="260" y="5" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.fishing.timeText"  
+			textFormatStyle="home.fishing.timeTextTF" filterString="home.fishing.timeTextGF" x="187" y="14" />		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.fishing.scoreText"  
+			parentStyle="home.fishing.timeText" x="192" y="33"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.fishing.cellName" isAutoFitLength="true"
+			textFormatStyle="home.fishing.cellNameTF" filterString="home.fishing.cellNameGF" autoSize="none" width="125" height="25" x="77" y="10" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.fishing.cellPrice"  
+			textFormatStyle="home.fishing.cellPriceTF" filterString="home.fishing.cellPriceGF" x="80" y="30" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.fishing.cellScore"  
+			textFormatStyle="home.fishing.cellScoreTF" filterString="home.fishing.timeTextGF" x="82" y="54" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.fishing.cellBuyBtn" 
+			backStyle="home.fishing.buyBtn" x="130" y="31" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.fishing.frameHelpBtn" 
+			backStyle="home.fishing.frameHelp" filterString="null,lightFilter,null,grayFilter" x="392" y="-44" />
+		
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.fishing.BtnFirstPageBtn" backStyle="home.fishing.BtnFirstPage" filterString="null,lightFilter,null,grayFilter" x="69" y="399" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.fishing.BtnPrePageBtn" backStyle="home.fishing.BtnPrePage" filterString="null,lightFilter,null,grayFilter" x="126" y="399" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.fishing.BtnNextPageBtn" backStyle="home.fishing.BtnNextPage" filterString="null,lightFilter,null,grayFilter" x="255" y="399" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="home.fishing.BtnEndPageBtn" backStyle="home.fishing.BtnEndPage" filterString="null,lightFilter,null,grayFilter" x="311" y="399" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.fishing.CurrentPage" textFormatStyle="home.fishing.CurrentPageTF" filterString="home.fishing.CurrentPageGF" x="183" y="404" autoSize="none" width="70" height="20" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.fishing.frameClose" backStyle="home.fishing.frameCloseBg" />
+			
+		<!-- 钓鱼game页面 -->	
+		<component classname="home.views.fishing.HomeFishingGameView" stylename="home.fishing.gameView" containerX="11" containerY="0" 
+			escEnable="true" backStyle="home.fishing.gameBg" width="686" height="584" closestyle="home.fishing.frameClose" 
+			closeInnerRectString="43,0,30,43,14" moveInnerRectString="0,30,0,30,1" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.fishing.flingRodBtn" 
+			backStyle="home.fishing.flingRod" x="531" y="461" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="3" tipGapH="-75"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.fishing.finishRodBtn" 
+			backStyle="home.fishing.finishRod" x="531" y="461" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="3" tipGapH="-75"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.fishing.catchFishBtn" 
+			backStyle="home.fishing.catchFish" x="531" y="508" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="3" tipGapH="-75"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.fishing.gameTiemText"
+			textFormatStyle="home.fishing.gameTiemTextTF" filterString="home.fishing.gameTiemTextGF" x="357" y="58" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.fishing.gainText" 
+			textFormatStyle="home.fishing.gainTextTF" filterString="home.fishing.gainTextGF" x="222" y="468" />
+			
+		<component classname="home.views.fishing.HomeFishingRewardFrame" stylename="home.fishing.rewardFrame" containerX="11" containerY="0" 
+			escEnable="true" backStyle="home.fishing.rewardBg" width="379" height="216" closestyle="home.fishing.frameClose" 
+			closeInnerRectString="43,5,5,43,14" moveInnerRectString="0,30,0,30,1" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.fishing.rewardText" 
+			textFormatStyle="home.fishing.rewardTextTF" filterString="home.fishing.rewardTextGF" x="0" y="186" autoSize="none" width="355" height="44" wordWrap="true" />		
+	
+		<component classname="com.pickgliss.ui.text.TextArea" stylename="home.fishing.reportTextArea" parentStyle="core.SimpleTextArea"
+			textStyle="home.fishing.reportText" x="292" y="460" width="230" height="85" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="home.fishing.reportText" wordWrap="true" type="dynamic"
+			textFormatStyle="home.fishing.reportTextAreaTF" filterString="home.fishing.reportTextAreaGF" mouseEnabled="true" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="home.fishing.chatBtn" tipStyle="ddt.view.tips.OneLineTip" 
+	 		backStyle="home.fishing.chat" tipDirctions="0,4,5" x="615" y="426"/>
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="home.fishing.CurrentPageBg" x="185" y="400" />
+		<bitmapData resourceLink="home.fishing.rewardHalo" x="46" y="0" />
+		<bitmapData resourceLink="home.fishing.fishloading" x="95" y="50" />
+		<bitmapData resourceLink="home.fishing.remainCount" x="270" y="59" />
+		<bitmapData resourceLink="home.fishing.nowRemainCount" x="35" y="0" />
+	</bitmaps>
+</style>

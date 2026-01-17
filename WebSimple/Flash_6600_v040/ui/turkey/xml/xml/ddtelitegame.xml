@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtelitegame" version="1.0.1" source="ui/turkey/swf/ddtelitegame.swf"> 
+  <sets> 
+    <set stylename="ddteliteGame.TF1" args="Arial,14,0xfff6a8,true" type="flash.text.TextFormat" leading="0"/>  
+    <set stylename="ddteliteGame.TF2" args="Arial,14,0xff0000,true" type="flash.text.TextFormat" leading="0" align="center"/>  
+    <set stylename="ddteliteGame.TF3" args="Arial,13,0xffffff,true" type="flash.text.TextFormat" leading="0"/>  
+    <set stylename="ddteliteGame.TF4" args="Arial,14,0xf5e3c0,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddteliteGame.TF5" args="Arial,14,0xf5aa51,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddteliteGame.TF6" args="Arial,14,0xffe555,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddteliteGame.TF7" args="Arial,14,0xfff8ac,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddteliteGame.TF8" args="Arial,14,0xffd800,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddteliteGame.TF9" args="Arial,11,0xfffbe9,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddteliteGame.TF10" args="Arial,11,0xefd099" type="flash.text.TextFormat"/>  
+    <set stylename="ddteliteGame.TF11" args="Arial,12,0xfff8d6,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddteliteGame.TF12" args="Arial,14,0xffffff,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddteliteGame.TF13" args="Arial,12,0x000000,,,,,,right" type="flash.text.TextFormat"/>  
+    <set stylename="ddteliteGame.TF14" args="Arial,14,0xffea9c,true,,,,,center" type="flash.text.TextFormat" letterSpacing="2"/>  
+    <set stylename="ddteliteGame.TF15" args="Arial,14,0x000000,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddteliteGame.TF16" args="Arial,14,0xffea9c,ture,,,,,center" type="flash.text.TextFormat" letterSpacing="1"/>  
+    <set stylename="ddteliteGame.GF1" args="0x7c4519,1,4,4,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddteliteGame.GF2" args="0x993300,1,4,4,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddteliteGame.GF3" args="0xffffff,1,4,4,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddteliteGame.GF4" args="0x2c1802,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddteliteGame.GF5" args="0x744a16,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddteliteGame.GF6" args="0x4a310b,1,4,4,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddteliteGame.GF11" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddteliteGame.GF12" args="0x000000,1,3,3,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddteliteGame.GF13" args="0xFFFFFF,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddteliteGame.GF14" args="0x4f3700,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddteliteGame.GF15" args="0xffffff,1,2,2,20" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddteliteGame.GF16" args="0x4f3700,1,4,4,30" type="flash.filters.GlowFilter"/> 
+  </sets>  
+  <components> 
+    <!-- readyFrame -->  
+    <component classname="eliteGame.view.EliteGameReadyFrame" stylename="ddteliteGameReadyFrame" parentStyle="BaseFrame" width="372" height="213" moveEnable="false" escEnable="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.readyFrame.firstLine" textFormatStyle="ddteliteGame.TF1" filterString="ddteliteGame.GF1" autoSize="none" x="82" y="55" width="230" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.readyFrame.mapNameTitle" parentStyle="ddteliteGame.readyFrame.firstLine" x="100" y="80" width="170"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.readyFrame.mapName" textFormatStyle="ddteliteGame.TF3" filterString="ddteliteGame.GF2" autoSize="none" x="180" y="80" width="170" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.readyFrame.timeTitle" parentStyle="ddteliteGame.readyFrame.firstLine" x="94" y="102" width="170"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.readyFrame.time" textFormatStyle="ddteliteGame.TF3" filterString="ddteliteGame.GF2" autoSize="none" x="204" y="102" width="170" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.readyFrame.readyTip" textFormatStyle="ddteliteGame.TF2" filterString="ddteliteGame.GF3" autoSize="none" x="55" y="126" width="280" height="20"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="ddteliteGame.readyFrame.readyBtn" parentStyle="core.simplebt" x="131" y="159"/>  
+    <!-- paarungFrame -->  
+    <component classname="eliteGame.view.EliteGamePaarungFrame" stylename="ddteliteGamePaarungFrame" width="980" height="540" moveEnable="false" escEnable="true" backStyle="SimpleFrameBackgound" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="16,12,5" closeInnerRectString="44,20,4,30,14" moveInnerRectString="0,30,0,30,1"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddteliteGameGigBg" resourceLink="asset.ddttexpsystem.bg1,asset.ddttexpsystem.bg2,asset.ddttexpsystem.bg3,asset.ddttexpsystem.bg4,asset.ddttexpsystem.bg5,asset.ddttexpsystem.bg6,asset.ddttexpsystem.bg7,asset.ddttexpsystem.bg8,asset.ddttexpsystem.bg9" width="945" height="430" x="18" y="98"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.1" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" acceptRank="1" isAutoFitLength="true" autoSize="none" x="39" y="169" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.2" acceptRank="2" x="837" y="408" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.3" acceptRank="3" x="837" y="247" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.4" acceptRank="4" x="39" y="329" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.5" acceptRank="5" x="39" y="407" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.6" acceptRank="6" x="837" y="170" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.7" acceptRank="7" x="837" y="329" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.8" acceptRank="8" x="39" y="247" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.9" acceptRank="9" x="39" y="275" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.10" acceptRank="10" x="837" y="358" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.11" acceptRank="11" x="837" y="196" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.12" acceptRank="12" x="39" y="435" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.13" acceptRank="13" x="39" y="357" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.14" acceptRank="14" x="837" y="277" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.15" acceptRank="15" x="837" y="436" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.1.16" acceptRank="16" x="39" y="199" textFormatStyle="ddteliteGame.TF4" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.2.1" textFormatStyle="ddteliteGame.TF5" filterString="ddteliteGame.GF4" acceptRank="1,16" isAutoFitLength="true" autoSize="none" x="178" y="183" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.2.8" acceptRank="8,9" x="178" y="265" textFormatStyle="ddteliteGame.TF5" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.2.4" acceptRank="4,13" x="178" y="344" textFormatStyle="ddteliteGame.TF5" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.2.5" acceptRank="5,12" x="178" y="426" textFormatStyle="ddteliteGame.TF5" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.2.6" acceptRank="6,11" x="697" y="183" textFormatStyle="ddteliteGame.TF5" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.2.3" acceptRank="3,14" x="697" y="265" textFormatStyle="ddteliteGame.TF5" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.2.7" acceptRank="7,10" x="697" y="346" textFormatStyle="ddteliteGame.TF5" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.2.2" acceptRank="2,15" x="697" y="426" textFormatStyle="ddteliteGame.TF5" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.3.1" textFormatStyle="ddteliteGame.TF6" filterString="ddteliteGame.GF4" acceptRank="1,8,9,16" isAutoFitLength="true" autoSize="none" x="243" y="226" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.3.4" acceptRank="4,5,12,13" x="243" y="385" textFormatStyle="ddteliteGame.TF6" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.3.3" acceptRank="3,6,11,14" x="634" y="226" textFormatStyle="ddteliteGame.TF6" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.3.2" acceptRank="2,7,10,15" x="634" y="385" textFormatStyle="ddteliteGame.TF6" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.4.1" textFormatStyle="ddteliteGame.TF7" filterString="ddteliteGame.GF4" acceptRank="1,8,9,16,4,5,12,13" isAutoFitLength="true" autoSize="none" x="310" y="307" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.4.2" acceptRank="3,6,11,14,2,7,10,15" x="569" y="307" textFormatStyle="ddteliteGame.TF7" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" width="108" height="22"/>  
+    <component classname="eliteGame.view.EliteGamePaarungText" stylename="ddteliteGame.paarungView.5.1" textFormatStyle="ddteliteGame.TF8" filterString="ddteliteGame.GF4" isAutoFitLength="true" autoSize="none" x="438" y="350" width="108" height="22"/>  
+    <!-- preview -->  
+    <component classname="eliteGame.view.EliteGamePreview" stylename="ddteliteGamePreview" backStyle="SimpleFrameBackgound" width="564" height="550" moveEnable="false" escEnable="true" submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="16,11,5" closeInnerRectString="44,11,5,30,14" moveInnerRectString="6,30,7,30,1"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddteliteGame.Preview.scoreRankBtn.unselectedbmp" resourceLink="core.bg6900,asset.ddtelitegame.rankUnSeAsset" imageRectString=",9|77|4|25|13" width="100" height="36" x="11" y="5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddteliteGame.Preview.scoreRankBtn.selectedbmp" resourceLink="core.bg6901,asset.ddtelitegame.rankSeAsset" imageRectString=",15|87|5|33|13" width="115" height="40"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddteliteGame.Preview.scoreRankBtn" selectedStyle="ddteliteGame.Preview.scoreRankBtn.selectedbmp" unSelectedStyle="ddteliteGame.Preview.scoreRankBtn.unselectedbmp" filterString="null,lightFilter,null,grayFilter" x="142" y="46"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddteliteGame.Preview.ruleBtn.unselectedbmp" resourceLink="core.bg6900,asset.ddtelitegame.ruleUnSeAsset" imageRectString=",10|77|5|21|13" width="100" height="36" x="11" y="5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddteliteGame.Preview.ruleBtn.selectedbmp" resourceLink="core.bg6901,asset.ddtelitegame.ruleSeAsset" imageRectString=",15|87|10|26|13" width="115" height="40"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddteliteGame.Preview.ruleBtn" selectedStyle="ddteliteGame.Preview.ruleBtn.selectedbmp" unSelectedStyle="ddteliteGame.Preview.ruleBtn.unselectedbmp" filterString="null,lightFilter,null,grayFilter" x="35" y="46"/>  
+    <!-- ruleview -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddteliteGame.Preview.ruleview.bg" x="-1" y="12" width="509" height="196" resourceLink="asset.core.NewScale9CornerImage1.1,asset.core.NewScale9CornerImage1.2,asset.core.NewScale9CornerImage1.3,asset.core.NewScale9CornerImage1.4,asset.core.NewScale9CornerImage1.5,asset.core.NewScale9CornerImage1.6,asset.core.NewScale9CornerImage1.7,asset.core.NewScale9CornerImage1.8,asset.core.NewScale9CornerImage1.9"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddteliteGame.Preview.ruleview.scroll" vScrollbarInnerRectString="21,-7,0,0,3" x="7" y="21" width="487" height="178" vScrollbarStyle="core.VScrollbar" hScrollbarStyle="core.HScrollbar" hScrollbarInnerRectString="0,22,21,0,4" viewportInnerRectString="0,22,0,0,0" hScrollProxy="2" vScrollProxy="1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddteliteGame.Preview.ruleview.btnBg" width="509" height="45" x="-2" y="396" resourceLink="asset.core.btmBG" scaleGridString="14,13,250,22"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="ddteliteGame.Preview.ruleview.joinRoom" x="47" y="400" backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle" backgoundInnerRectString="17,17,10,14,-1" filterString="null,lightFilter,null,grayFilter"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="ddteliteGame.Preview.ruleview.showRank" x="256" y="400" backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle" backgoundInnerRectString="17,17,10,14,-1" filterString="null,lightFilter,null,grayFilter"/>  
+    <!-- 30394060button -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.core.selectButton30_40light" parentStyle="core.Scale9CornerImage.scale9CornerSparkBG" width="142" height="51" x="25" y="3"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.core.selectButton30_40selected" resourceLink="asset.ddteliteGame.between30_40Button,asset.core.selectButton30_40light"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.core.selectButton41_60selected" resourceLink="asset.ddteliteGame.between41_60Button,asset.core.selectButton30_40light"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddteliteGame.Preview.ruleview.award30_40" filterString="null,lightFilter,null,grayFilter" unSelectedStyle="asset.ddteliteGame.between30_40Button" selectedStyle="asset.core.selectButton30_40selected" x="-14" y="204"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddteliteGame.Preview.ruleview.award41_60" filterString="null,lightFilter,null,grayFilter" unSelectedStyle="asset.ddteliteGame.between41_60Button" selectedStyle="asset.core.selectButton41_60selected" x="140" y="205"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.Preview.ruleview.sixteenSeTxt" textFormatStyle="ddteliteGame.TF9" filterString="ddteliteGame.GF5"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.Preview.ruleview.sixteenunSeTxt" textFormatStyle="ddteliteGame.TF10" filterString="ddteliteGame.GF6"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="ddteliteGame.Preview.ruleview.sixteen" selectedStyle="core.bg6923" unSelectedStyle="core.bg6922" textStyle="ddteliteGame.Preview.ruleview.sixteenSeTxt,ddteliteGame.Preview.ruleview.sixteenunSeTxt" backgoundInnerRectString="10|12|17|19|-1,10|13|8|6|-1" unSelectedButtonOuterRectPosString="0,11,5"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="ddteliteGame.Preview.ruleview.eight" selectedStyle="core.bg6923" unSelectedStyle="core.bg6922" textStyle="ddteliteGame.Preview.ruleview.sixteenSeTxt,ddteliteGame.Preview.ruleview.sixteenunSeTxt" backgoundInnerRectString="10|12|17|19|-1,10|13|8|6|-1" unSelectedButtonOuterRectPosString="0,11,5"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="ddteliteGame.Preview.ruleview.four" selectedStyle="core.bg6923" unSelectedStyle="core.bg6922" textStyle="ddteliteGame.Preview.ruleview.sixteenSeTxt,ddteliteGame.Preview.ruleview.sixteenunSeTxt" backgoundInnerRectString="10|12|17|19|-1,10|13|8|6|-1" unSelectedButtonOuterRectPosString="0,11,5"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="ddteliteGame.Preview.ruleview.two" selectedStyle="core.bg6923" unSelectedStyle="core.bg6922" textStyle="ddteliteGame.Preview.ruleview.sixteenSeTxt,ddteliteGame.Preview.ruleview.sixteenunSeTxt" backgoundInnerRectString="10|15|17|19|-1,10|12|8|6|-1" unSelectedButtonOuterRectPosString="0,11,5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddteliteGame.Preview.ruleview.rewardBg1" width="509" height="99" x="-2" y="294" resourceLink="core.Scale9CornerImage.BGAsset5,core.Scale9CornerImage.BGAsset6" imageRectString=",2|0|2|2|0"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddteliteGame.Preview.ruleview.rewardBg2" width="483" height="68" x="10" y="307" resourceLink="asset.core.NewScale9CornerImage6.1,asset.core.NewScale9CornerImage6.2,asset.core.NewScale9CornerImage6.3,asset.core.NewScale9CornerImage6.4,asset.core.NewScale9CornerImage6.5,asset.core.NewScale9CornerImage6.6,asset.core.NewScale9CornerImage6.7,asset.core.NewScale9CornerImage6.8,asset.core.NewScale9CornerImage6.9"/>  
+    <component classname="com.pickgliss.ui.controls.container.HBox" stylename="ddteliteGame.Preview.ruleview.hbox" x="11" y="256" spacing="1"/>  
+    <component classname="com.pickgliss.ui.controls.container.HBox" stylename="ddteliteGame.Preview.ruleview.Texthbox" x="55" y="264" spacing="32"/>  
+    <component classname="com.pickgliss.ui.controls.container.HBox" stylename="ddteliteGame.Preview.ruleview.awardhbox" x="33" y="317" spacing="8"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddteliteGame.Preview.ruleview.awardcellBg" height="48" width="48" x="-1" y="-1" resourceLink="asset.ddtcore.goods.cellBg" scaleGridString="8,8,55,55"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.Preview.ruleview.goodsCount" filterString="ddteliteGame.GF13" textFormatStyle="ddteliteGame.TF13" autoSize="none" width="24" height="22" x="60" y="82"/>  
+    <!-- rankview -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddteliteGame.Preview.bg" x="21" y="86" width="522" height="445" resourceLink="asset.core.btmc011" scaleGridString="5,10,80,20"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddteliteGame.between30_40Btn" backStyle="asset.ddteliteGame.between30_40" x="17" y="-28" displacement="false" unSelectedStyle="asset.core.check2UnSelected" selectedStyle="asset.core.check2Selected"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddteliteGame.between41_50Btn" backStyle="asset.ddteliteGame.between41_60" x="189" y="-27" displacement="false" unSelectedStyle="asset.core.check2UnSelected" selectedStyle="asset.core.check2Selected"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="eliteGame.scoreRankView.bg1" resourceLink="asset.ddttliteGameRankView.bg" scaleGridString="40,40,125,200" width="509" height="330" x="-5" y="46"/>  
+    <!-- title -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.scoreRank.rankText" textFormatStyle="ddteliteGame.TF14" filterString="ddteliteGame.GF14" autoSize="center" x="-66" y="54" width="220" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.scoreRank.nameText" textFormatStyle="ddteliteGame.TF14" filterString="ddteliteGame.GF14" autoSize="center" x="83" y="54" width="220" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.scoreRank.scoreText" textFormatStyle="ddteliteGame.TF14" filterString="ddteliteGame.GF14" autoSize="center" x="290" y="54" width="220" height="20"/>  
+    <!-- 标题分割线 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddteliteGame.scoreRankview.formIineBig1" resourceLink="asset.corel.formLineBig" x="89" y="49"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddteliteGame.scoreRankview.formIineBig2" resourceLink="asset.corel.formLineBig" x="301" y="49"/>  
+    <!-- 内容分割线 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddteliteGame.scoreRankView.line11" resourceLink="asset.corel.formLine" x="86" y="4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddteliteGame.scoreRankView.line22" resourceLink="asset.corel.formLine" x="298" y="4"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.scoreRankView.updateTimeTxt" textFormatStyle="ddteliteGame.TF12" filterString="ddteliteGame.GF12" autoSize="none" x="-8" y="383" width="300" height="20"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="ddteliteGame.scoreItem.vbox" spacing="2" x="4" y="88" width="500" height="272"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="ddteliteGame.scoreItemBg.vbox" spacing="4" x="4" y="88" width="500" height="272"/>  
+    <!-- 排名积分 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddteliteGame.scoreRankView.rankScoreBg" x="-5" y="5" width="505" resourceLink="asset.core.btmBG" scaleGridString="14,13,250,22"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.scoreRank.myRank" textFormatStyle="ddteliteGame.TF16" filterString="ddteliteGame.GF16" autoSize="none" x="-5" y="14" width="100" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.scoreRank.scoretitle" textFormatStyle="ddteliteGame.TF16" filterString="ddteliteGame.GF16" autoSize="none" x="252" y="14" width="90" height="20"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddteliteGame.scoreRankView.myRankTextBG" x="88" y="12" width="100" height="22" resourceLink="asset.core.NewScale9CornerImage6.1,asset.core.NewScale9CornerImage6.2,asset.core.NewScale9CornerImage6.3,asset.core.NewScale9CornerImage6.4,asset.core.NewScale9CornerImage6.5,asset.core.NewScale9CornerImage6.6,asset.core.NewScale9CornerImage6.7,asset.core.NewScale9CornerImage6.8,asset.core.NewScale9CornerImage6.9"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddteliteGame.scoreRankView.myScoreTextBG" x="318" y="12" width="100" height="22" resourceLink="asset.core.NewScale9CornerImage6.1,asset.core.NewScale9CornerImage6.2,asset.core.NewScale9CornerImage6.3,asset.core.NewScale9CornerImage6.4,asset.core.NewScale9CornerImage6.5,asset.core.NewScale9CornerImage6.6,asset.core.NewScale9CornerImage6.7,asset.core.NewScale9CornerImage6.8,asset.core.NewScale9CornerImage6.9"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.scoreRankView.rankAndScoreTxt" textFormatStyle="ddteliteGame.TF11" filterString="ddteliteGame.GF11" autoSize="none" x="94" y="16" width="90" height="20"/>  
+    <!-- 表格行底 -->  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="ddteliteGame.scoreRankView.lineBg1bg" width="486" height="28" resourceLink="asset.core.ScaleLeftRightImage3.1,asset.core.ScaleLeftRightImage3.2,asset.core.ScaleLeftRightImage3.3"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="ddteliteGame.scoreRankView.lineBg2bg" width="486" height="28" resourceLink="asset.core.ScaleLeftRightImage2.1,asset.core.ScaleLeftRightImage2.2,asset.core.ScaleLeftRightImage2.3"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddteliteGame.scoreRankView.lineBg" resourceLink="ddteliteGame.scoreRankView.lineBg1bg,ddteliteGame.scoreRankView.lineBg2bg"/>  
+    <!-- 上下页 -->  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddteliteGame.scoreRankView.nextBtn" backStyle="asset.ddtcore.rightBtn" x="444" y="381"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddteliteGame.scoreRankView.preBtn" backStyle="asset.ddtcore.leftBtn" x="255" y="381"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.scoreRankView.pageText" textFormatStyle="ddteliteGame.TF11" filterString="ddteliteGame.GF11" autoSize="none" x="347" y="387" width="65" height="20"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddteliteGame.scoreRankView.pageTextBG" x="313" y="382" width="127" height="24" resourceLink="asset.core.NewScale9CornerImage6.1,asset.core.NewScale9CornerImage6.2,asset.core.NewScale9CornerImage6.3,asset.core.NewScale9CornerImage6.4,asset.core.NewScale9CornerImage6.5,asset.core.NewScale9CornerImage6.6,asset.core.NewScale9CornerImage6.7,asset.core.NewScale9CornerImage6.8,asset.core.NewScale9CornerImage6.9"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddteliteGame.scoreRankView.topThree" resourceLink="asset.coreIcon.orderNo1Asset,asset.coreIcon.orderNo2Asset,asset.coreIcon.orderNo3Asset" x="19" y="3"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.scoreItem.rank" textFormatStyle="ddteliteGame.TF15" filterString="ddteliteGame.GF15" autoSize="none" width="64" height="29" x="10" y="7"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.scoreItem.name" textFormatStyle="ddteliteGame.TF15" filterString="ddteliteGame.GF15" autoSize="none" width="180" height="29" x="102" y="7"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddteliteGame.scoreItem.score" textFormatStyle="ddteliteGame.TF15" filterString="ddteliteGame.GF15" autoSize="none" width="250" height="29" x="269" y="7"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddteliteGame.small.between30_40Btn" backStyle="asset.ddteliteGame.small.between30_40" x="17" y="-28" displacement="false" unSelectedStyle="asset.core.check2UnSelected" selectedStyle="asset.core.check2Selected"/>
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddteliteGame.small.between41_50Btn" backStyle="asset.ddteliteGame.small.between41_60" x="189" y="-27" displacement="false" unSelectedStyle="asset.core.check2UnSelected" selectedStyle="asset.core.check2Selected"/>
+  </components>  
+  <customDisplay> 
+    <custom classname="flash.geom.Point" stylename="ddteliteGame.paarungView.select1" x="52" y="131"/>  
+    <custom classname="flash.geom.Point" stylename="ddteliteGame.paarungView.select2" x="169" y="131"/>  
+    <custom classname="ddt.view.PlayerPortraitView" stylename="ddteliteGame.GiftBannerPortrait" x="455" y="254"/>  
+    <custom classname="eliteGame.view.EliteGameRuleView" stylename="ddteliteGameRuleView" x="29" y="81"/>  
+    <custom classname="eliteGame.view.EliteGameScoreRankView" stylename="ddteliteGameScoreRankView" x="35" y="118"/>  
+    <!-- rankview -->  
+    <custom classname="flash.geom.Point" stylename="eliteGame.scoreRank.myRankText.pos" x="94" y="16"/>  
+    <custom classname="flash.geom.Point" stylename="eliteGame.scoreRank.myScoreText.pos" x="324" y="16"/>  
+    <custom classname="flash.geom.Point" stylename="ddteliteGame.Preview.ruleview.staicText.pos" x="0" y="0"/> 
+  </customDisplay>  
+  <bitmaps> 
+    <!-- rankview -->  
+    <bitmapData resourceLink="ddteliteGame.scoreRank.rankBmp" x="23" y="52"/>  
+    <bitmapData resourceLink="ddteliteGame.scoreRank.nameBmp" x="179" y="52"/>  
+    <bitmapData resourceLink="ddteliteGame.scoreRank.scorebmp" x="387" y="52"/>  
+    <bitmapData resourceLink="aaset.ddtelitgame.paarungFrame.titleBmp" x="283" y="32"/>  
+    <bitmapData resourceLink="asset.ddteliteGame.pauungview.BG" x="36" y="116"/>  
+    <bitmapData resourceLink="asset.ddteliteGame.between30_40" x="34" y="4"/>  
+    <bitmapData resourceLink="asset.ddteliteGame.between30_40Button" x="27" y="6"/>  
+    <bitmapData resourceLink="asset.ddteliteGame.between41_60" x="34" y="4"/>  
+    <bitmapData resourceLink="asset.ddteliteGame.between41_60Button" x="27" y="5"/>  
+    <bitmapData resourceLink="asset.eliteGame.pauungview.16" x="286" y="121"/>  
+    <bitmapData resourceLink="asset.eliteGame.pauungview.8" x="390" y="121"/>  
+    <bitmapData resourceLink="asset.eliteGame.pauungview.4" x="496" y="121"/>  
+    <bitmapData resourceLink="asset.eliteGame.pauungview.2" x="600" y="121"/>  
+    <bitmapData resourceLink="asset.ddteliteGame.small.between30_40" x="20" y="3"/>
+    <bitmapData resourceLink="asset.ddteliteGame.small.between41_60" x="20" y="3"/>
+  </bitmaps> 
+</style>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="challengeRoom" version="1.0.1" source="ui/turkey/swf/challengeRoom.swf"> 
+  <sets></sets>  
+  <customDisplay> 
+    <!--RoomPrivateView--> 
+  </customDisplay>  
+  <components> 
+    <!--Text-->  
+    <!--Image-->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.room.challengeChooseMapViewBg" parentStyle="asset.room.chooseMapBaseBg" width="590" height="426" y="5"/>  
+    <!--Button-->  
+    <!-- Frame -->  
+    <!--scrollPanel--> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.room.challengeChooseMap.RoundTime" x="325" y="8"/>  
+    <bitmapData resourceLink="asset.room.challengeChooseMap.ChooseMapBitmap" x="25" y="112"/>  
+    <bitmapData resourceLink="asset.room.challengeChooseMap.RoomModeTypeBig" x="25" y="42"/>  
+    <bitmapData resourceLink="asset.room.challengeChooseMap.ChallengeMapInfoBg" x="315" y="135"/>  
+    <bitmapData resourceLink="asset.room.ChallengeRoomBg1" x="5" y="-1"/>  
+    <bitmapData resourceLink="asset.room.BlueTeam" x="25" y="2"/>  
+    <bitmapData resourceLink="asset.room.RedTeam" x="390" y="3"/> 
+  </bitmaps> 
+</style>

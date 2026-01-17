@@ -1,0 +1,84 @@
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bombom Project</title>
+  <link rel="stylesheet" href="Lib/style.css">
+  <script>
+	  window.onload = function () {
+		const isUC = /UCBrowser/i.test(navigator.userAgent);
+		if (isUC) {
+		  document.body.classList.add("uc-mode");
+		}
+	  };
+  </script>
+  <script type="text/javascript" src="script/newloginprocc.js"></script>
+</head>
+
+<body>
+  <!-- Sayfa içerisindeki genel pozisyonlama için dış kapsayıcı div -->
+  <div class="position">
+
+    <!-- Formu saran ana container -->
+    <form class="container">
+
+      <!-- Ortalamayı sağlayan wrapper -->
+      <div class="centering-wrapper">
+
+        <!-- Sayfanın sol/sağ ortalanmış ana bölümü -->
+        <div class="section1 text-center">
+
+          <!-- Ana başlık -->
+          <div class="primary-header">Bombom Project</div>
+
+          <!-- Alt başlık -->
+          <div class="secondary-header">Test sunucusuna hoş geldin!</div>
+
+          <!-- Kullanıcı girişi alanlarını kapsayan bölüm -->
+          <div class="input-position">
+
+            <!-- Kullanıcı adı giriş alanı -->
+            <div class="form-group">
+              <h5 class="input-placeholder" id="email-txt">
+                Kullanıcı Adı:
+                <span class="error-message" id="email-error"></span>
+              </h5>
+              <input type="email" required name="logemail" class="form-style" id="logemail" autocomplete="off" style="margin-bottom: 20px;">
+              <!-- E-posta simgesi -->
+              <i class="input-icon uil uil-at"></i>
+            </div>
+
+            <!-- Şifre giriş alanı -->
+            <div class="form-group">
+              <h5 class="input-placeholder" id="pword-txt">
+                Şifre:
+                <span class="error-message" id="password-error"></span>
+              </h5>
+              <input type="password" required name="logpass" class="form-style" id="logpass" autocomplete="on">
+              <!-- Kilit simgesi -->
+              <i class="input-icon uil uil-lock-alt"></i>
+            </div>
+
+          </div> <!-- input-position sonu -->
+
+          <!-- Gerekiyorsa ek içerik koymak için boş bırakılmış alan -->
+          <div class="password-container"></div>
+
+          <!-- Giriş butonunun bulunduğu bölüm -->
+          <div class="btn-position">
+            <button onclick="return checklogin();" type="submit" class="btn">Giriş Yap</button>
+          </div>
+
+          <!-- Giriş başarılıysa gösterilecek olan bilgi kutusu -->
+          <div class="alert success" id="successAlert" style="display: none;">
+            <strong>Giriş işlemi başarıyla tamamlandı.</strong>
+            <p>Yönlendiriliyorsun lütfen bekleyiniz.</p>
+            <!-- Yükleniyor animasyonu -->
+            <img src="images/loading.gif" alt="Yükleniyor..." style="margin-top: 10px;">
+          </div>
+        </div> <!-- section1 sonu -->
+      </div> <!-- centering-wrapper sonu -->
+    </form> <!-- form sonu -->
+  </div> <!-- position sonu -->
+</body>
+</html>

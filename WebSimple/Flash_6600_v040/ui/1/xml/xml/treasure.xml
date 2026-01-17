@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="treasure" version="2.0.1" source="ui/turkey/swf/treasure.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="treasure.frame.txt.tf" args="Arial,16,0xffffff,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="treasure.frame.txt.gf" args="0x42281e,1,4,4,30"/>  
+    <set stylename="treasure.NumberTF" args="Arial,20,0x000000" type="flash.text.TextFormat"/> 
+  </sets>  
+  <customDisplay> 
+    <custom classname="flash.geom.Point" stylename="treasure.pos.line1" x="16" y="135"/>  
+    <custom classname="flash.geom.Point" stylename="treasure.pos.line2" x="16" y="79"/>  
+    <custom classname="flash.geom.Point" stylename="asset.treasure.returnBar.position" x="906" y="966"/>  
+    <custom classname="flash.geom.Point" stylename="cartoon2.pos" x="-171" y="-126"/>  
+    <custom classname="flash.geom.Point" stylename="cartoon1.pos" x="64" y="5"/>  
+    <custom classname="flash.geom.Point" stylename="cartoon3.pos" x="69" y="46"/>  
+    <custom classname="flash.geom.Point" stylename="help.mask.pos" x="13" y="33"/>  
+    <custom classname="flash.geom.Point" stylename="help.mask.pos1" x="13" y="25"/>  
+    <custom classname="flash.geom.Point" stylename="treasure.cell.numTf.pos" x="42" y="42"/>  
+    <custom classname="flash.geom.Point" stylename="treasure.cell.pos" x="-21" y="-10"/>  
+    <custom classname="treasure.view.TreasureReturnBar" stylename="asset.treasure.returnMenu" x="906" y="521"/>  
+    <custom classname="treasure.view.TreasureHelpFrame" stylename="asset.treasure.helpFrame" x="704" y="3"/> 
+  </customDisplay>  
+  <components> 
+    <component classname="com.pickgliss.ui.image.ScaleUpDownImage" stylename="asset.treasure.infoFrame.BG" resourceLink="asset.treasure.frameUp,asset.treasure.frameMiddle,asset.treasure.frameDown" x="0" y="0" width="305" height="217"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.treasure.loginDaysTf" textFormatStyle="treasure.frame.txt.tf" filterString="treasure.frame.txt.gf" autoSize="none" x="152" y="55" width="48" height="20"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasure.beginbtn" backStyle="core.bgTreasureBegin" x="581" y="512"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="treasure.endbtn" backStyle="core.bgTreasureEnd" x="581" y="512"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.bgTreasureBegin" resourceLink="core.treasure.bg68991,asset.treasure.font1" imageRectString="180|55|0|0|9,176|59|0|-94|9"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.bgTreasureEnd" resourceLink="core.treasure.bg68991,asset.treasure.font2" imageRectString="180|55|0|0|9,176|59|0|-94|9"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.treasure.bg68991" parentStyle="core.bg6899" width="200"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.treasure.returnBar.stretchBtn" unSelectedStyle="asset.treasure.returnBar.unselected" selectedStyle="asset.treasure.returnBar.selected" filterString="null,lightFilter,null,grayFilter" x="4" y="10"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.treasure.returnBar.returnBtn" backStyle="asset.treasure.returnBar.returnBtn.back" x="41" y="6"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.treasure.returnBar.returnBtn.back" resourceLink="asset.treasure.returnBar.btnImg,asset.treasure.returnBar.btnImg.selected,asset.treasure.returnBar.btnImg.selected,asset.treasure.returnBar.btnImg.selected"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="treasure.helpPanel" parentStyle="core.ScrollPanel" width="240" height="215" vUnitIncrement="3" vScrollProxy="0" x="34" y="49"/>  
+    <component classname="com.pickgliss.ui.image.ScaleUpDownImage" stylename="asset.treasure.helpFrame.BG" resourceLink="asset.treasure.help.frameUp,asset.treasure.help.frameMiddle,asset.treasure.help.frameDown" x="10" y="0" width="289" height="300"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="treasure.helpBtn" unSelectedStyle="treasure.downSelect" backgoundInnerRectString="-3|70|11|36|13,-3|67|7|30|13" selectedStyle="treasure.upSelect" filterString="null,lightFilter,null,grayFilter" x="83" y="-7"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasure.upSelect" resourceLink="asset.treasure.upSelect" scaleGridString="10,5,54,19" x="0" y="4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="treasure.downSelect" resourceLink="asset.treasure.downSelect" scaleGridString="20,13,50,24" x="0" y="4"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="treasure.CountText" textFormatStyle="treasure.NumberTF" filterString="P_g4" x="19" y="20" autoSize="right" width="20" height="20"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.treasure.returnBar.btnImg.selected.bg" resourceLink="asset.treasure.returnBar.btnImg.selected,asset.treasure.returnBar.btnImg"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.treasure.sun" x="1" y="3"/>  
+    <bitmapData resourceLink="asset.treasure.loginDays" x="33" y="52"/>  
+    <bitmapData resourceLink="asset.treasure.numBg" x="146" y="53"/>  
+    <bitmapData resourceLink="asset.treasure.digTimes" x="33" y="89"/>  
+    <bitmapData resourceLink="asset.treasure.helpTimes" x="33" y="144"/>  
+    <bitmapData resourceLink="asset.treasure.star" y="113"/>  
+    <bitmapData resourceLink="asset.treasure.sun" y="109"/>  
+    <bitmapData resourceLink="asset.treasure.forfex" y="166"/>  
+    <bitmapData resourceLink="asset.treasure.returnBar.btnImg.selected" x="-5" y="-2"/> 
+  </bitmaps> 
+</style>

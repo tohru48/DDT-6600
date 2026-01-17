@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="academyCommon" version="1.0.1" source="ui/turkey/swf/academycommon.swf"> 
+  <sets> 
+    <set stylename="academy.AcademyRegisterFrame.NicknameTF" args="Arial,12,0x000000" type="flash.text.TextFormat"/>  
+    <set stylename="academy.AcademyRegisterFrame.LabelTF" args="Arial,12,0x000000,true" type="flash.text.TextFormat"/>  
+    <set stylename="academy.AcademyRegisterFrame.MatrimonyFieldTF" args="Arial,15,0xffdd3f,true" type="flash.text.TextFormat"/>  
+    <set stylename="academy.AcademyRegisterFrame.IntrodoctionTF" args="Arial,14,0x013465" type="flash.text.TextFormat"/>  
+    <set stylename="academy.AcademyRegisterFrame.MatrimonyFieldGF" args="0x3e1f00,1,3,3,10,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="academy.AcademyRegisterFrame.RecommendPlayerCellView.guildTxtTF" args="Arial,14,0x000000,true" type="flash.text.TextFormat"/>  
+    <set stylename="academy.AcademyRegisterFrame.RecommendPlayerCellView.guildTxtGF" args="0xFFFFFF,1,3,3,10,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="academy.AcademyRegisterFrame.checkBoxLabelFieldTF" args="Arial,12,0xFFFFFF" type="flash.text.TextFormat"/>  
+    <set stylename="academy.AcademyRegisterFrame.checkBoxLabelGF" args="0x000000,1,3,3,10,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="academy.MyAcademyMasterItem.NameTF" args="Arial,14,0x000000,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="academy.MyAcademyMasterItem.StateTF" args="Arial,12,0x000000,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="academy.MyAcademyMasterItem.NameGF" args="0xFFFFFF,1,3,3,10,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="academyCommon.academyRequest.inputxt.frameTitleTF" args="Arial,16,0xfc2130,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="academyCommon.academyIcon.contentLabelTF" args="Arial,14,0xfec955" type="flash.text.TextFormat"/>  
+    <set stylename="academyCommon.academyIcon.contentTxtGF" args="0x000000,1,3,3,6" type="flash.filters.GlowFilter"/>  
+    <set stylename="academyCommon.academyIcon.contentTxtTF" args="Arial,14,0xFFFFFF" type="flash.text.TextFormat"/>  
+    <set stylename="academyCommon.academyIcon.gradueteTxtTF" args="Arial,18,0xFFFFFF,true" type="flash.text.TextFormat"/>  
+    <set stylename="ddt.view.academyCommon.recommend.AcademyApprenticeMainFrame.checkBoxBtnTxtTF" args="Arial,10,0xfffbe3," type="flash.text.TextFormat"/>  
+    <set stylename="ddt.view.academyCommon.recommend.AcademyApprenticeMainFrame.checkBoxBtnTxtGF" args="0x411212,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="academyCommon.academyRequest.inputxt.inputGF" args="0xfcf7f7,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="academyCommon.academyRequest.explainNameTextTF" args="Arial,16,0x000000" type="flash.text.TextFormat"/>  
+    <set stylename="academyCommon.graduate.ApprenticeGraduate.explainTextTF" args="Arial,12,0xFFF4d4,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="academyCommon.explainTextTF2" args="Arial,14,0xfc2130,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="academyCommon.graduate.ApprenticeGraduate.explainTextGF" args="0x644022,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="academyCommon.graduate.ApprenticeGraduate.explainTextGF2" args="0xfcf7f7,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set args="0x000000,1,3,3,100" stylename="gradueteNumGF" type="flash.filters.GlowFilter"/>  
+    <set stylename="gradueteNumTF" args="Arial,18,0x000000,true" type="flash.text.TextFormat"/>  
+    <set stylename="academyCommon.academyRequest.inputxtTF" args="Arial,14,0xFFF4d4,,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="academyCommon.academyRequest.inputxtGF" args="0x644022,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!-- new -->  
+    <set stylename="RecommendPlayerCellView.masterTF" args="Arial,12,0xe3ffb4,true" type="flash.text.TextFormat"/>  
+    <set stylename="RecommendPlayerCellView.masterTF2" args="Arial,12,0xe3ffb4,true" type="flash.text.TextFormat"/>  
+    <set stylename="RecommendPlayerCellView.masterGF" args="0x006255,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtacademycommon.TF1" args="Arial,12,0xfff6a8,ture,,,,,center" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set stylename="ddtacademycommon.GF1" args="0x715008,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!-- 收徒弹框 -->  
+    <set stylename="ddtacademycommon.TF3" args="Arial,14,0xffea9c,true" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set stylename="ddtacademycommon.TF33" args="Arial,14,0xffea9c,true" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set stylename="ddtacademycommon.GF3" args="0x4f3700,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtacademycommon.TF4" args="Arial,12,0xebfeff,true,,,,,center" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set stylename="ddtacademycommon.GF4" args="0x005774,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtacademycommon.TF5" args="Arial,14,0xfff8d6,true,,,,,center" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set stylename="ddtacademycommon.GF5" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtacademycommon.TF6" args="Arial,14,0xffffff,,,,,,left" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set stylename="ddtacademycommon.GF6" args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtacademycommon.TF9" args="Arial,12,0xfff6a8,true,,,,,center" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set stylename="ddtacademycommon.GF9" args="0x715008,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtacademycommon.TF10" args="Arial,10,0xe3ffb4,true,,,,,center" letterSpacing="0" type="flash.text.TextFormat" leading="-2"/>  
+    <set stylename="ddtacademycommon.GF10" args="0x006255,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="academy.AcademyAnswerApprenticeFrame.textTF" args="Arial,12,0x79451c,true,,,,,center" letterSpacing="0" type="flash.text.TextFormat"/>  
+    <set stylename="academy.AcademyAnswerApprenticeFrame.textGF" args="0xf0ead8,1,4,4,30,1" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtacademycommon.TF11" args="Arial,11,0xffea9c,true" type="flash.text.TextFormat" letterSpacing="0"/> 
+  </sets>  
+  <customDisplay> 
+    <!-- 等级 VIP 结婚 -->  
+    <custom classname="ddt.view.common.LevelIcon" stylename="academy.RecommendPlayerCellView.levelIcon" x="140" y="35"/>  
+    <custom classname="ddt.view.common.MarriedIcon" stylename="academy.RecommendPlayerCellView.MarriedIcon" tipStyle="ddt.view.tips.MarriedTip" tipDirctions="7" tipGapV="5" tipGapH="5"/>  
+    <custom classname="ddt.view.common.VipLevelIcon" stylename="academy.RecommendPlayerCellView.VipIcon"/>  
+    <!-- 玩家图像 -->  
+    <custom classname="flash.geom.Point" stylename="academy.RecommendPlayerCellView.playerPos" x="142" y="39"/>  
+    <!-- 弹窗按钮 -->  
+    <custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.framebuttonPos" x="149" y="427"/>  
+    <!-- 我要拜师\我要收徒(小) -->  
+    <custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.requireSmallPos" x="139" y="166"/>  
+    <custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.ApprentrequireSmallPos" x="123" y="166"/>  
+    <!-- 去师徒圣殿 -->  
+    <custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.gotoMainlPos" x="159" y="421"/>  
+    <!-- 我的师徒 去师徒圣殿 -->  
+    <custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.gotoMainlPos2" x="200" y="346"/>  
+    <custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.academyAnswerFrame" x="196" y="104"/> 
+  </customDisplay>  
+  <components> 
+    <!--academy师徒相关的弹窗-->  
+    <!--AcademyRegisterFrame-->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="academy.AcademyRegisterFrame.title" resourceLink="asset.academy.title2Asset,asset.academy.title3Asset" x="138" y="58"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyRegisterFrame.NicknameLabel" textFormatStyle="academy.AcademyRegisterFrame.LabelTF" x="38" y="102"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyRegisterFrame.NicknameField" textFormatStyle="academy.AcademyRegisterFrame.NicknameTF" x="80" y="102"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyRegisterFrame.academyHonorLabel" textFormatStyle="academy.AcademyRegisterFrame.LabelTF" x="248" y="102"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyRegisterFrame.academyHonorField" textFormatStyle="academy.AcademyRegisterFrame.MatrimonyFieldTF" filterString="academy.AcademyRegisterFrame.MatrimonyFieldGF" x="320" y="102"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyRegisterFrame.checkBoxLabel" textFormatStyle="academy.AcademyRegisterFrame.checkBoxLabelFieldTF" filterString="academy.AcademyRegisterFrame.checkBoxLabelGF" x="53" y="293"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyRegisterFrame.IntroductionLabel" textFormatStyle="academy.AcademyRegisterFrame.LabelTF" x="38" y="122"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyRegisterFrame.IntroductionInput" textFormatStyle="academy.AcademyRegisterFrame.IntrodoctionTF" type="input" multiline="true" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="academy.AcademyRegisterFrame.IntroductionField" parentStyle="core.SimpleTextArea" backgoundStyle="academy.register.introductionbackground" backgoundInnerRectString="5,3,4,6,-1" textStyle="academy.AcademyRegisterFrame.IntroductionInput" vScrollProxy="0" x="42" y="156" width="382" height="110" vUnitIncrement="10"/>  
+    <component classname="ddt.view.academyCommon.register.AcademyRegisterFrame" stylename="academy.AcademyRegisterFrame" backStyle="SimpleFrameBackgound" closestyle="core.closebt" cancelButtonStyle="core.simplebt" submitButtonStyle="core.simplebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,6,5" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" width="460" height="400" moveEnable="false" escEnable="true" enterEnable="true"/>  
+    <!--RecommendPlayerCellView-->  
+    <!-- 玩家名字 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.RecommendPlayerCellView.nameTxt" textFormatStyle="ddtacademycommon.TF6" filterString="ddtacademycommon.GF6" width="158" height="21" x="16" y="12"/>  
+    <!-- 公会名字 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.RecommendPlayerCellView.guildTxt" textFormatStyle="academy.AcademyRegisterFrame.RecommendPlayerCellView.guildTxtTF" filterString="academy.AcademyRegisterFrame.RecommendPlayerCellView.guildTxtGF" x="15" y="34"/>  
+    <!-- VIP 结婚 图标 -->  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="asset.RecommendPlayerCellView.iconContainer" x="142" y="70" spacing="4"/>  
+    <!-- 推荐拜师 收他为徒 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="RecommendPlayerCellView.apprenticeTxt" textFormatStyle="RecommendPlayerCellView.masterTF" filterString="RecommendPlayerCellView.masterGF" x="0" y="0" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academyCommon.RecommendPlayerCellView.apprentice" backStyle="core.bg6912" textStyle="RecommendPlayerCellView.apprenticeTxt" x="23" y="243" backgoundInnerRectString="15,-6,6,-3,0" filterString="null,lightFilter,null,grayFilter" autoSizeAble="false" width="150" height="33"/>  
+    <!-- 推荐拜师 拜他为师 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="RecommendPlayerCellView.masterTxt" textFormatStyle="RecommendPlayerCellView.masterTF" filterString="RecommendPlayerCellView.masterGF" x="0" y="0" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academyCommon.RecommendPlayerCellView.master" backStyle="core.bg6912" textStyle="RecommendPlayerCellView.masterTxt" x="44" y="241" backgoundInnerRectString="22,22,8,13,-1" filterString="null,lightFilter,null,grayFilter"/>  
+    <!-- 师傅称号 -->  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="academyCommon.RecommendPlayerCellView.masterHonor" x="17" y="180" resourceLink="asset.academyCommon.RecommendPlayerCellView.masterHonor1,asset.academyCommon.RecommendPlayerCellView.masterHonor2,asset.academyCommon.RecommendPlayerCellView.masterHonor3,asset.academyCommon.RecommendPlayerCellView.masterHonor4,asset.academyCommon.RecommendPlayerCellView.masterHonor5"/>  
+    <!-- 1对1聊天 -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="academyCommon.RecommendPlayerCellView.masterChat" backStyle="RecommendPlayerCellView.masterChat.asset" width="66" height="20" x="50" y="277"/>  
+    <!--AcademyApprenticeMainFrame-->  
+    <!-- 推荐拜师 -->  
+    <component classname="ddt.view.academyCommon.recommend.AcademyApprenticeMainFrame" stylename="academyCommon.AcademyApprenticeMainFrame" parentStyle="BaseFrame" backStyle="SimpleFrameBackgoundOneIV" submitButtonStyle="academy.SimpleFrameBackgound.AcademyApprenticeMainFrame.submitButton" cancelButtonStyle="" width="660" height="489"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="academy.SimpleFrameBackgound.AcademyApprenticeMainFrame.submitButton" backStyle="gotoMainBtnImage" backgoundInnerRectString="18,18,4,4,-1" filterString="null,lightFilter,null,grayFilter" x="0" y="0"/>  
+    <!-- 去师徒圣殿 按钮 -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotoMainBtnImage" resourceLink="core.bg6899,asset.ddtacademy.gotomain" imageRectString=",20|241|8|34|13" width="272" height="48"/>  
+    <!-- 大背景 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="AcademyApprenticeMainFrame.scale9cornerImageTree" width="622" height="365" x="19" y="45" parentStyle="core.bg6920"/>  
+    <!-- 小背景 -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="AcademyApprenticeMainFrame.scale9cornerImageTree2" parentStyle="core.Scale9CornerImage.scale9CornerImage19" width="608" height="244" x="26" y="96"/>  
+    <!-- 今日提醒 -->  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddt.view.academyCommon.recommend.AcademyApprenticeMainFrame.checkBoxBtn" parentStyle="core.simpleSelectBtn" textStyle="ddt.view.academyCommon.recommend.AcademyApprenticeMainFrame.checkBoxBtnTxt" displacement="false" x="483" y="441"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.view.academyCommon.recommend.AcademyApprenticeMainFrame.checkBoxBtnTxt" textFormatStyle="ddt.view.academyCommon.recommend.AcademyApprenticeMainFrame.checkBoxBtnTxtTF" filterString="ddt.view.academyCommon.recommend.AcademyApprenticeMainFrame.checkBoxBtnTxtGF" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="10,10,3,2,0" x="20" y="-4"/>  
+    <component classname="com.pickgliss.ui.controls.container.HBox" stylename="academyCommon.AcademyApprenticeMainFrame.playerContainer" spacing="10" x="33" y="105"/>  
+    <!-- 师徒福利 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.AcademyMain.freeBtnTxt" textFormatStyle="ddtacademycommon.TF1" filterString="ddtacademycommon.GF1" x="0" y="0" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academyCommon.AcademyApprenticeMainFrame.titleBtn" backStyle="core.simplebtbg" textStyle="asset.AcademyMain.freeBtnTxt" backgoundInnerRectString="20,20,8,13,-1" filterString="null,lightFilter,null,grayFilter" x="474" y="47"/>  
+    <!--AcademyMasterMainFrame-->
+    <!-- 我的徒弟 -->  
+    <component classname="ddt.view.academyCommon.recommend.AcademyMasterMainFrame" stylename="academyCommon.AcademyMasterMainFrame" parentStyle="BaseFrame" backStyle="SimpleFrameBackgoundOneIV" submitButtonStyle="academyCommon.AcademyMasterMainFrame.submitButton" cancelButtonStyle="" width="656" height="489"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="academyCommon.AcademyMasterMainFrame.submitButton" backStyle="gotoMainBtnImage" backgoundInnerRectString="18,18,4,4,-1" filterString="null,lightFilter,null,grayFilter" x="0" y="0"/>  
+    <!-- ItemBg -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.academyCommon.itemButtomBg1" resourceLink="asset.core.btmc011" width="618" height="236" x="24" y="99" scaleGridString="20,20,60,40"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.academyCommon.itemButtomBg2" resourceLink="asset.core.goldlinebg" width="603" height="173" x="32" y="109" scaleGridString="20,20,60,40"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.academyCommon.itemButtomBg3" resourceLink="asset.core.goldlinebg" width="603" height="42" x="32" y="286" scaleGridString="20,20,60,40"/>  
+    <!-- 标题分割线 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.academyCommon.formIineBig1" resourceLink="asset.corel.formLineBig" x="186" y="126"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.academyCommon.formIineBig2" resourceLink="asset.corel.formLineBig" x="282" y="126"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.academyCommon.formIineBig3" resourceLink="asset.corel.formLineBig" x="395" y="126"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.academyCommon.formIineBig4" resourceLink="asset.corel.formLineBig" x="508" y="126"/>  
+    <!-- 标题 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.item.nameTitle" textFormatStyle="ddtacademycommon.TF3" filterString="ddtacademycommon.GF3" autoSize="none" isAutoFitLength="true" x="65" y="131" width="150" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.item.levelTitle" textFormatStyle="ddtacademycommon.TF33" filterString="ddtacademycommon.GF3" autoSize="none" isAutoFitLength="true" x="209" y="131" width="150" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.item.offLineTitle" textFormatStyle="ddtacademycommon.TF3" filterString="ddtacademycommon.GF3" autoSize="none" isAutoFitLength="true" x="298" y="121" width="150" height="44" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.item.disposeTitle" textFormatStyle="ddtacademycommon.TF3" filterString="ddtacademycommon.GF3" autoSize="none" isAutoFitLength="true" x="405" y="131" width="150" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.item.emailTitle" textFormatStyle="ddtacademycommon.TF3" filterString="ddtacademycommon.GF3" autoSize="none" isAutoFitLength="true" x="526" y="131" width="100" height="22" type="dynamic"/>  
+    <!-- 内容分割线 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="academyCommon.MyAcademyItem.formIine11" resourceLink="asset.corel.formLine" x="136" y="4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="academyCommon.MyAcademyItem.formIine22" resourceLink="asset.corel.formLine" x="233" y="4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="academyCommon.MyAcademyItem.formIine33" resourceLink="asset.corel.formLine" x="346" y="4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="academyCommon.MyAcademyItem.formIine44" resourceLink="asset.corel.formLine" x="459" y="4"/>  
+    <!-- 出徒总数 师徒称号 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.apprenCount" textFormatStyle="ddtacademycommon.TF5" filterString="ddtacademycommon.GF5" autoSize="none" isAutoFitLength="true" x="21" y="298" width="250" height="22" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.academyCalled" textFormatStyle="ddtacademycommon.TF5" filterString="ddtacademycommon.GF5" autoSize="none" isAutoFitLength="true" x="324" y="298" width="250" height="22" type="dynamic"/>  
+    <!--MyAcademyMasterFrame-->  
+    <component classname="ddt.view.academyCommon.myAcademy.MyAcademyMasterFrame" stylename="academyCommon.myAcademy.MyAcademyMasterFrame" backStyle="SimpleFrameBackgoundOneIV" submitButtonStyle="academy.SimpleFrameBackgound.submitButton" cancelButtonStyle="" width="665" height="414" moveEnable="false" escEnable="true" enterEnable="true" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="16,11,5" closeInnerRectString="44,11,5,30,14" moveInnerRectString="6,30,7,30,1"/>  
+    <!-- 师徒福利 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.AcademyCommon.freeBtnTxt" textFormatStyle="ddtacademycommon.TF1" filterString="ddtacademycommon.GF1" x="0" y="0" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academyCommon.myAcademy.MyAcademyMasterFrame.titleBtn" backStyle="core.simplebtbg" textStyle="asset.AcademyCommon.freeBtnTxt" backgoundInnerRectString="20,20,9,13,-1" filterString="null,lightFilter,null,grayFilter" x="486" y="45"/>  
+    <custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.MyAcademyMasterFrame.Apprentice" x="50" y="163"/>  
+    <custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.MyAcademyMasterFrame.ApprenticeII" x="50" y="198"/>  
+    <custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.MyAcademyMasterFrame.ApprenticeIII" x="50" y="234"/>  
+    <custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.MyAcademyApprenticeFrame.masterItem" x="50" y="164"/>  
+    <custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.MyAcademyApprenticeFrame.classmateItem" x="50" y="253"/>  
+    <custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.MyAcademyApprenticeFrame.classmateItemII" x="50" y="287"/>  
+    <custom classname="flash.geom.Point" stylename="ddt.view.academyCommon.recommend.lightPint" x="90" y="108"/>  
+    <custom classname="flash.geom.Point" stylename="ddt.view.academyCommon.recommend.BtnlightPint" x="-6" y="-6"/>  
+    <!-- 去师徒圣殿 -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="academy.SimpleFrameBackgound.submitButton" backStyle="gotoMainBtnImage" backgoundInnerRectString="18,18,0,0,-1" filterString="null,lightFilter,null,grayFilter" x="230" y="346"/>  
+    <!--MyAcademyApprenticeFrame-->  
+    <!-- 我的师徒 -->  
+    <component classname="ddt.view.academyCommon.myAcademy.MyAcademyApprenticeFrame" stylename="academyCommon.myAcademy.MyAcademyApprenticeFrame" parentStyle="academyCommon.AcademyMasterMainFrame" width="665" height="414"/>  
+    <!--MyAcademyMasterItem-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.academyCommon.academyItemButtomBg1" resourceLink="asset.core.btmc011" width="618" height="236" x="24" y="99" scaleGridString="20,20,60,40"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.academyCommon.academyItemButtomBg2" resourceLink="asset.core.goldlinebg" width="603" height="221" x="32" y="109" scaleGridString="20,20,60,40"/>  
+    <!-- title 我的师傅-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.MyAcademyMasterItem.nameTitle" parentStyle="academyCommon.item.nameTitle" x="59" y="131"/>  
+    <!-- title 我的同门-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.MyAcademyClassmatesItem.nameTitle" parentStyle="academyCommon.item.nameTitle" x="57" y="222"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.MyAcademyClassmatesItem.levelTitle" parentStyle="academyCommon.item.levelTitle" x="209" y="222"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.MyAcademyClassmatesItem.offLineTitle" parentStyle="academyCommon.item.offLineTitle" x="298" y="212"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.MyAcademyClassmatesItem.addFriendTitle" parentStyle="academyCommon.item.disposeTitle" x="434" y="222"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.MyAcademyClassmatesItem.emailTitle" parentStyle="academyCommon.item.emailTitle" x="526" y="222"/>  
+    <!-- 分割线 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.academyCommon.MyAcademyMasterItem.formIineBig1" resourceLink="asset.corel.formLineBig" x="186" y="216"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.academyCommon.MyAcademyMasterItem.formIineBig2" resourceLink="asset.corel.formLineBig" x="282" y="216"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.academyCommon.MyAcademyMasterItem.formIineBig3" resourceLink="asset.corel.formLineBig" x="395" y="216"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.academyCommon.MyAcademyMasterItem.formIineBig4" resourceLink="asset.corel.formLineBig" x="508" y="216"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.myAcademy.MyAcademyMasterItem.nameTxt" autoSize="none" textFormatStyle="academy.MyAcademyMasterItem.NameTF" filterString="academy.MyAcademyMasterItem.NameGF" width="140" height="22" isAutoFitLength="true" x="13" y="7"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.myAcademy.MyAcademyMasterItem.offLineText" autoSize="none" textFormatStyle="academy.MyAcademyMasterItem.StateTF" filterString="academy.MyAcademyMasterItem.NameGF" width="94" height="34" x="245" y="8"/>  
+    <custom classname="ddt.view.common.LevelIcon" stylename="academyCommon.myAcademy.MyAcademyMasterItem.levelIcon" x="169" y="2"/>  
+    <!-- 解除 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="MyAcademyMasterItem.removeBtnText" textFormatStyle="ddtacademycommon.TF4" filterString="ddtacademycommon.GF4" x="0" y="0" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academyCommon.myAcademy.MyAcademyMasterItem.removeBtn" backStyle="core.bg6906" textStyle="MyAcademyMasterItem.removeBtnText" backgoundInnerRectString="25,25,7,10,-1" filterString="null,lightFilter,lightFilter,grayFilter" x="363" y="-1"/>  
+    <!-- 加为好友 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="MyAcademyMasterItem.addFriendBtnText" textFormatStyle="ddtacademycommon.TF10" filterString="ddtacademycommon.GF10" x="0" y="0" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academyCommon.myAcademy.MyAcademyMasterItem.addFriendBtn" backStyle="core.bg6902" textStyle="MyAcademyMasterItem.addFriendBtnText" backgoundInnerRectString="11,15,1,6,-1" filterString="null,lightFilter,lightFilter,grayFilter" x="363" y="2"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="MyAcademyMasterItem.emailBtnText" textFormatStyle="ddtacademycommon.TF9" filterString="ddtacademycommon.GF9" x="0" y="0" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academyCommon.myAcademy.MyAcademyMasterItem.emailBtn" backStyle="core.bg6905" textStyle="MyAcademyMasterItem.emailBtnText" backgoundInnerRectString="25,25,7,10,-1" filterString="null,lightFilter,lightFilter,grayFilter" x="472" y="-1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="academyCommon.myAcademy.MyAcademyMasterItem.itemBG1" width="573" height="33" parentStyle="core.ScaleleftrightImage.lineBg3"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="academyCommon.myAcademy.MyAcademyMasterItem.itemBG2" width="573" height="33" parentStyle="core.ScaleleftrightImage.lineBg2"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="academyCommon.myAcademy.MyAcademyMasterItem.itemBG" resourceLink="academyCommon.myAcademy.MyAcademyMasterItem.itemBG1,academyCommon.myAcademy.MyAcademyMasterItem.itemBG2" x="-2" y="0"/>  
+    <!-- 内容分割线 -->  
+    <!--MyAcademyApprenticeItem-->  
+    <!-- 
+		<custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.MyAcademyApprenticeItem.stateTxt" x="241" y="8"/>
+		<custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.MyAcademyApprenticeItem.levelIcon" x="169" y="3"/>
+		<custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.MyAcademyApprenticeItem.sexIcon" x="279" y="5"/>
+		 -->  
+    <!--MyAcademyClassmateItem-->  
+    <!-- 
+		<custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.MyAcademyClassmateItem.offLineText" x="463" y="8"/>
+		<custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.MyAcademyClassmateItem.SexIcon" x="350" y="5"/>
+		<custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.MyAcademyClassmateItem.levelIcon" x="199" y="4"/>
+		<custom classname="flash.geom.Point" stylename="academyCommon.myAcademy.MyAcademyClassmateItem.addFriend" x="463" y="3"/>
+		 -->  
+    <!--AcademyRequestMasterFrame-->  
+    <component classname="ddt.view.academyCommon.academyRequest.AcademyRequestMasterFrame" backStyle="SimpleFrameBackgoundOneIII" width="387" height="221" stylename="academyCommon.academyRequest.AcademyRequestMasterFrame" escEnable="true" enterEnable="true" x="347" y="210" parentStyle="BaseFrame" moveEnable="true" buttonToBottom="0" containerX="20" containerY="40" submitButtonStyle="academy.AcademyRequestMasterFrame.submitButton"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.academyRequest.inputxt" type="input" autoSize="none" textFormatStyle="academyCommon.academyRequest.inputxtTF" filterString="academyCommon.academyRequest.inputxtGF" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="10,10,3,2,0" x="20" y="42" width="300" height="70" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.academyRequest.MessageText" autoSize="none" textFormatStyle="academyCommon.academyRequest.inputxtTF" filterString="academyCommon.academyRequest.inputxtGF" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="10,10,3,2,0" x="3" y="32" width="260" height="90" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.academyRequestApprenticeFrame.explainText" textFormatStyle="academyCommon.explainTextTF2" filterString="academyCommon.graduate.ApprenticeGraduate.explainTextGF2" wordWrap="true" multiline="true" width="256" height="40" x="6" y="13"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.academyAnswerMasterFrame.explainText" textFormatStyle="academyCommon.explainTextTF2" filterString="academyCommon.graduate.ApprenticeGraduate.explainTextGF2" wordWrap="true" multiline="true" width="330" height="40" x="0" y="8"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.academyRequestMasterFrame.explainText" textFormatStyle="academyCommon.explainTextTF2" filterString="academyCommon.graduate.ApprenticeGraduate.explainTextGF2" wordWrap="true" multiline="true" width="256" height="40" x="6" y="13"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.academyAnswerApprenticeFrame.explainText" textFormatStyle="academyCommon.explainTextTF2" filterString="academyCommon.graduate.ApprenticeGraduate.explainTextGF2" wordWrap="true" multiline="true" width="330" height="40" x="0" y="10"/>  
+    <custom classname="flash.geom.Point" stylename="AcademyAnswerMasterFrame.inputPos1" x="13" y="32"/>  
+    <custom classname="flash.geom.Point" stylename="AcademyAnswerMasterFrame.inputPos2" x="20" y="39"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="academyCommon.academyRequest.inputBg" resourceLink="asset.core.btmc011" width="346" height="110" x="-1" y="5" scaleGridString="10,20,40,23"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="academyCommon.academyRequest.inputBg2" resourceLink="asset.core.textAreaBG" width="320" height="70" x="11" y="35" scaleGridString="10,20,40,83"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.academyCommon.myAcademy.myAcademyApprenticeBG" resourceLink="asset.academyCommon.myAcademy.myAcademyApprenticeBGMovieImage" x="39" y="121"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.academyCommon.myAcademy.myAcademyMasterBG" resourceLink="asset.academyCommon.myAcademy.myAcademyMasterBGMovieImage" x="39" y="121"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.Academy.reqMasterBtnTxt" textFormatStyle="ddtacademycommon.TF1" filterString="ddtacademycommon.GF1" autoSize="none" x="0" y="0" width="78" height="20" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academy.AcademyRequestMasterFrame.submitButton" backStyle="core.simplebtbg" textStyle="asset.Academy.reqMasterBtnTxt" backgoundInnerRectString="21,-55,9,13,-1" filterString="null,lightFilter,null,grayFilter" x="211" y="157"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="academyCommon.academyRequest.checkBoxBtn" parentStyle="core.simpleSelectBtn" displacement="false" x="33" y="295"/>  
+    <!--AcademyRequestApprenticeFrame-->  
+    <component classname="ddt.view.academyCommon.academyRequest.AcademyRequestApprenticeFrame" backStyle="SimpleFrameBackgoundOneIII" width="387" height="221" stylename="academyCommon.academyRequest.AcademyRequestApprenticeFrame" escEnable="true" enterEnable="true" x="347" y="210" parentStyle="BaseFrame" moveEnable="true" buttonToBottom="13" containerX="20" containerY="40" submitButtonStyle="academy.AcademyRequestApprenticeFrame.submitButton"/>  
+    <!--AcademyAnswerMasterFrame-->  
+    <component classname="ddt.view.academyCommon.academyRequest.AcademyAnswerMasterFrame" backStyle="SimpleFrameBackgoundOneIII" width="387" height="221" stylename="academyCommon.academyRequest.AcademyAnswerMasterFrame" escEnable="true" enterEnable="false" x="347" y="210" parentStyle="BaseFrame" moveEnable="true" buttonToBottom="13" containerX="20" containerY="40"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtacademyCommon.academy.look" textFormatStyle="ddtacademycommon.TF1" filterString="ddtacademycommon.GF1" autoSize="none" x="0" y="0" width="78" height="20" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.Academy.reqBtnTxt" textFormatStyle="ddtacademycommon.TF1" filterString="ddtacademycommon.GF1" autoSize="none" x="0" y="0" width="78" height="20" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academy.AcademyRequestApprenticeFrame.submitButton" backStyle="core.simplebtbg" textStyle="asset.Academy.reqBtnTxt" backgoundInnerRectString="21,-96,9,13,-1" filterString="null,lightFilter,null,grayFilter" x="205" y="126"/>  
+    <!--AcademyAnswerApprenticeFrame-->  
+    <component classname="ddt.view.academyCommon.academyRequest.AcademyAnswerApprenticeFrame" backStyle="SimpleFrameBackgoundOneIII" width="387" height="221" stylename="academyCommon.academyRequest.AcademyAnswerApprenticeFrame" escEnable="true" enterEnable="false" x="347" y="210" parentStyle="BaseFrame" moveEnable="true" buttonToBottom="13" containerX="20" containerY="40"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academy.AcademyAnswerApprenticeFrame.LookButton" backStyle="core.simplebtbg" textStyle="asset.ddtacademyCommon.academy.look" backgoundInnerRectString="21,-4,9,13,-1" filterString="null,lightFilter,null,grayFilter" x="21" y="126"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="academy.AcademyAnswerApprenticeFrame.submitButton" backStyle="core.simplebtbg" textStyle="asset.Academy.reqBtnTxt" backgoundInnerRectString="21,-56,9,13,-1" filterString="null,lightFilter,null,grayFilter" x="205" y="126"/>  
+    <!-- 师徒请求的弹窗 -->  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="academy.AcademyAnswerApprenticeFrame.selectBtn" parentStyle="core.simpleSelectBtn" textStyle="academy.AcademyAnswerApprenticeFrame.text" displacement="false" fieldX="17" fieldY="-1" x="112" y="104"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyAnswerApprenticeFrame.text" textFormatStyle="academy.AcademyAnswerApprenticeFrame.textTF" filterString="academy.AcademyAnswerApprenticeFrame.textGF"/>  
+    <!--ICON-->  
+    <custom classname="ddt.view.academyCommon.academyIcon.AcademyIcon" stylename="academyCommon.academyIcon.AcademyIcon" tipStyle="ddt.view.tips.MarriedTip" tipDirctions="7" tipGapV="5" tipGapH="5" x="132" y="96"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="academyCommon.academyIcon.academyIconBG" resourceLink="asset.academyCommon.apprenticeIcon_simple,asset.academyCommon.masterIcon_simple"/>  
+    <!--Tip-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="academyCommon.academyIcon.academyIconTipsBG" resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40" width="300" height="130"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.academyIcon.contentTxt" textFormatStyle="academyCommon.academyIcon.contentTxtTF" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="10,10,3,2,0" x="3" y="1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.academyIcon.contentTxtII" textFormatStyle="academyCommon.academyIcon.contentTxtTF" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="10,10,3,2,0" x="3" y="22"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.academyIcon.contentTxtIII" textFormatStyle="academyCommon.academyIcon.contentTxtTF" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="10,10,3,2,0" x="3" y="44"/>  
+    <!--ApprenticeGraduate-->  
+    <component classname="ddt.view.academyCommon.graduate.ApprenticeGraduate" backStyle="SimpleFrameBackgoundOneIII" width="369" height="200" stylename="academyCommon.graduate.apprenticeGraduate" escEnable="true" enterEnable="true" x="347" y="210" parentStyle="BaseFrame" moveEnable="true" buttonToBottom="13" containerX="20" containerY="40"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.graduate.ApprenticeGraduate.titleText" textFormatStyle="academyCommon.academyRequest.inputxt.frameTitleTF" filterString="academyCommon.academyRequest.inputxt.inputGF" wordWrap="true" autoSize="none" width="352" height="55" x="-13" y="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.graduate.MasterGraduate.explainText" textFormatStyle="academyCommon.graduate.ApprenticeGraduate.explainTextTF" filterString="academyCommon.graduate.ApprenticeGraduate.explainTextGF" autoSize="none" width="342" height="32" x="0" y="61"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academyCommon.graduate.ApprenticeGraduate.explainText" textFormatStyle="academyCommon.graduate.ApprenticeGraduate.explainTextTF" filterString="academyCommon.graduate.ApprenticeGraduate.explainTextGF" autoSize="none" width="342" height="42" x="-4" y="61"/>  
+    <component classname="ddt.view.academyCommon.graduate.MasterGraduate" backStyle="SimpleFrameBackgoundOneIII" width="369" height="200" stylename="academyCommon.graduate.masterGraduate" escEnable="true" enterEnable="true" x="347" y="210" parentStyle="BaseFrame" moveEnable="true" buttonToBottom="13" containerX="20" containerY="40"/>  
+    <!--AcademyPreviewFrame-->  
+    <!-- 师徒福利 -->  
+    <component classname="ddt.view.common.PreviewFrame" stylename="view.common.masterAcademyPreviewFrame" parentStyle="BaseFrame" backStyle="SimpleFrameBackgoundOneIV" containerX="10" containerY="40" width="545" height="495" submitButtonStyle="view.common.AcademyPreviewFrame.masterSubmitButton"/>  
+    <component classname="ddt.view.common.PreviewFrame" stylename="view.common.apprenticeAcademyPreviewFrame" parentStyle="BaseFrame" backStyle="SimpleFrameBackgoundOneIV" containerX="10" containerY="40" width="545" height="495" submitButtonStyle="view.common.AcademyPreviewFrame.apprenticeSubmitButton"/>  
+    <!-- 我要拜师 -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="view.common.AcademyPreviewFrame.masterSubmitButton" backStyle="reqMasterBtn" filterString="null,lightFilter,null,grayFilter" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="reqMasterBtn" resourceLink="core.bg6899,aaset.ddtacademyPreview.reqMasterBtn" imageRectString=",66|115|8|32|13" width="255" height="48"/>  
+    <!-- 我要收徒 -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="view.common.AcademyPreviewFrame.apprenticeSubmitButton" backStyle="reqApprenticeBtn" filterString="null,lightFilter,null,grayFilter" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="reqApprenticeBtn" resourceLink="core.bg6908,aaset.ddtacademyPreview.reqApprenticeBtn" imageRectString=",19|216|8|35|13" width="255" height="48"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="view.common.MyAcademyMasterFrame.gradueteNumFFT" textFormatStyle="gradueteNumTF"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="view.common.MyAcademyMasterFrame.gradueteNumText" textFieldStyle="view.common.MyAcademyMasterFrame.gradueteNumFFT" colors="0xffdc38,0xd51a1a" filterString="gradueteNumGF" alphas="1,1" ratios="75,255" x="250" y="298"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="view.common.MyAcademyMasterFrame.masterHonorText" textFieldStyle="view.common.MyAcademyMasterFrame.gradueteNumFFT" colors="0xffdc38,0xd51a1a" filterString="gradueteNumGF" alphas="1,1" ratios="75,255" x="530" y="297"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="view.common.RecommendPlayerCellView.masterHonorText" textFieldStyle="view.common.MyAcademyMasterFrame.gradueteNumFFT" colors="0xffdc38,0xd51a1a" filterString="gradueteNumGF" alphas="1,1" ratios="75,255" x="7" y="168"/>  
+    <component classname="com.pickgliss.ui.controls.alert.SimpleAlert" stylename="academySimpleAlert" parentStyle="SimpleAlert"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.academyCommon.myAcademy.myAcademyMasterIcon" x="30" y="80"/>  
+    <bitmapData resourceLink="asset.academyCommon.myAcademy.MyAcademyApprenticeIcon" x="30" y="80"/>  
+    <bitmapData resourceLink="asset.academyCommon.myAcademy.myAcademyTitle" x="101" y="41"/>  
+    <bitmapData resourceLink="asset.ddtacademy.recommendTitleAsset" x="26" y="50"/>  
+    <bitmapData resourceLink="asset.academy.recommendTitleAssetII" x="37" y="49"/>  
+    <bitmapData resourceLink="asset.academyCommon.Graduate.graduateTitle" x="11" y="15"/>  
+    <bitmapData resourceLink="academyCommon.RecommendPlayerCellView.recommendOverLight" visible="false" x="1" y="0"/>  
+    <bitmapData resourceLink="asset.academyCommon.icon_simple" x="0" y="0"/>  
+    <bitmapData resourceLink="asset.academyCommon.RecommendPlayerCellView.masterHonorBG" x="15" y="187"/> 
+  </bitmaps> 
+</style>

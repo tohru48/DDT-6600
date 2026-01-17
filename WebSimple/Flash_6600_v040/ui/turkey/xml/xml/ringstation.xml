@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ringstation" version="1.0.1" source="ui/turkey/swf/ringstation.swf"> 
+  <sets> 
+    <set type="flash.text.TextFormat" stylename="ringStation.view.rankTxt.tf" args="Arial,14,0xffe41c,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="ringStation.view.rankTxt.gf" args="0x43210e,2,2,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="ringStation.view.signTxt.tf" args="Arial,12,0xffffff,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="ringStation.view.signTxt.gf" args="0x240800,2,2,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="ringStation.view.rankNumTxt.tf" args="Arial,14,0xfff8d6,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="ringStation.view.rankNumTxt.gf" args="0x4b270d,2,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="ringStation.view.challengeInfoTxt.tf" args="Arial,12,0xffea75,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="ringStation.view.challengeInfoTxt.gf" args="0x371103,2,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="ringStation.view.challengeTimeTxt.tf" args="Arial,12,0xffd843,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="ringStation.view.challengeTimeTxt.gf" args="0x471e00,2,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="ringStation.view.challengeTimeNumTxt.tf" args="Arial,12,0xfffaad,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="ringStation.view.challengeTimeNumTxt.gf" args="0x471e00,2,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="ringStation.view.person.nametf" args="Arial,14,0xffecb9,true"/>  
+    <set type="flash.filters.GlowFilter" stylename="ringStation.view.person.namegf" args="0x281800,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="ringStation.view.person.ranktf" args="Arial,14,0xffeb8d,true"/>  
+    <set type="flash.text.TextFormat" stylename="ringStation.view.armory.List.textTF1" args="Arial,14,0xffffff,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="ringStation.view.armory.List.textGF1" args="0x000000,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="ringStation.view.armory.List.textTF2" args="Arial,12,0xfff8d6,,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="ringStation.view.armory.List.textGF2" args="0x4b270d,2,4,4,30"/>  
+    <set type="flash.text.TextFormat" stylename="ringStation.view.battleField.infotf" args="Arial,12,0xf6dc8f"/>  
+    <set type="flash.filters.GlowFilter" stylename="ringStation.view.battleField.infogf" args="0x6c400b,1,2,2,10"/>  
+    <set type="flash.text.TextFormat" stylename="ringStation.helpView.infotf" args="Arial,12,0xf5edb9,true" leading="10"/>  
+    <set type="flash.filters.GlowFilter" stylename="ringStation.helpView.infogf" args="0x693812,2,4,4,30"/> 
+    
+    <set type="flash.text.TextFormat" stylename="ringStation.view.person.nametf2" args="Arial,14,0xffecb9,true,,,,,center"/>
+    <set type="flash.text.TextFormat" stylename="ringStation.view.person.nametf3" args="Arial,14,0xffecb9,true,,,,,center"/>
+	<set type="flash.text.TextFormat" stylename="ringStation.view.challengeInfoTxt.tf2" args="Arial,14,0xffea75,,,,,,left"/>
+	<set type="flash.text.TextFormat" stylename="ringStation.view.signTxt.tf1" args="Arial,12,0xffffff"/>
+  </sets>  
+  <bitmaps> 
+    <bitmapData resourceLink="ringstation.view.title" x="185" y="-2"/>  
+    <bitmapData resourceLink="ringStation.view.userInfoBg" x="4" y="294"/>  
+    <bitmapData resourceLink="ringStation.view.awardIcon" x="85" y="320"/>  
+    <bitmapData resourceLink="ringStation.view.armory.bg" x="0" y="6"/>  
+    <bitmapData resourceLink="ringStation.view.player.waiting" x="17" y="95"/>  
+    <bitmapData resourceLink="ringStation.view.signBG" x="10" y="270"/>  
+    <bitmapData resourceLink="ringStation.view.challengeSingBG" x="7" y="49"/> 
+    
+    <bitmapData resourceLink="ringStation.view.swordIcon" x="-1" y="2"/>
+	<bitmapData resourceLink="ringStation.view.fightIconBg" x="-3" y="0"/>
+	<bitmapData resourceLink="ringStation.view.shieldIcon" x="1" y="2"/>
+  </bitmaps>  
+  <components> 
+  	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.battleItem.nickNameText" textFormatStyle="ringStation.view.person.nametf3" filterString="ringStation.view.person.namegf" autoSize="none" width="104" height="22" isAutoFitLength="true" x="37" y="0"/>
+  	
+    <!--窗口-->  
+    <component classname="ringStation.view.RingStationView" stylename="ringStation.RingStationView" backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,14,6,30,14" containerX="15" containerY="38" titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1" width="781" height="528" moveEnable="false" escEnable="true"/>  
+    <component classname="ringStation.view.ArmoryView" stylename="ringStation.ArmoryView" backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,14,6,30,14" containerX="15" containerY="38" titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1" width="437" height="505" moveEnable="false" escEnable="true"/>  
+    <component classname="ringStation.view.BattleFieldsView" stylename="ringStation.BattleFieldsView" backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,14,6,30,14" containerX="15" containerY="38" titleOuterRectPosString="24,12,5" moveInnerRectString="0,30,0,30,1" width="485" height="435" moveEnable="false" escEnable="true"/>  
+    <component classname="ringStation.view.HelpView" stylename="ringStation.helpView" backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,10,5" containerX="8" containerY="31" width="404" height="484" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ringstation.frameBottom" parentStyle="core.bg6920" width="740" height="428" x="5" y="45" scaleGridString="5,10,80,20"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ringStation.view.helpBtn" backStyle="ringStation.view.help" x="589" y="4"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.rankInfo" textFormatStyle="ringStation.view.rankTxt.tf" filterString="ringStation.view.rankTxt.gf" x="15" y="13"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.rankNum" textFormatStyle="ringStation.view.rankNumTxt.tf" filterString="ringStation.view.rankNumTxt.gf" x="143" y="13"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.champion" textFormatStyle="ringStation.view.person.nametf" filterString="ringStation.view.person.namegf" autoSize="none" width="340" height="22" x="15" y="36"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.challengeInfo" textFormatStyle="ringStation.view.challengeInfoTxt.tf" filterString="ringStation.view.challengeInfoTxt.gf" x="10" y="247"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.challengeTime" textFormatStyle="ringStation.view.challengeTimeTxt.tf" filterString="ringStation.view.challengeTimeTxt.gf" x="2" y="4"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.challengeTimeNum" textFormatStyle="ringStation.view.challengeTimeNumTxt.tf" filterString="ringStation.view.challengeTimeNumTxt.gf" x="161" y="4"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ringStation.view.addChallegeCountBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="0" backStyle="ringStation.view.userAddCount" x="140" y="245"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ringStation.view.fastforwardBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="0" backStyle="ringStation.view.fastforward" x="196" y="5"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ringStation.view.balltleFieldsBtn" backStyle="ringStation.view.balltleFields" x="196" y="369"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ringStation.view.heroStandingsBtn" backStyle="ringStation.view.heroStandings" x="49" y="369"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.rankAwardInfo" textFormatStyle="ringStation.view.challengeInfoTxt.tf" filterString="ringStation.view.challengeInfoTxt.gf" x="27" y="317"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.getAwardTimeInfo" textFormatStyle="ringStation.view.challengeInfoTxt.tf" filterString="ringStation.view.challengeInfoTxt.gf" x="187" y="317"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.getAwardTime" textFormatStyle="ringStation.view.challengeTimeNumTxt.tf" filterString="ringStation.view.challengeTimeNumTxt.gf" x="256" y="317"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.getAwardNum" textFormatStyle="ringStation.view.challengeTimeNumTxt.tf" filterString="ringStation.view.challengeTimeNumTxt.gf" x="123" y="324"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.person.nickNameText" textFormatStyle="ringStation.view.person.nametf" filterString="ringStation.view.person.namegf" autoSize="none" width="104" height="22" isAutoFitLength="true" x="37" y="6"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.person.rank" textFormatStyle="ringStation.view.person.ranktf" x="11" y="29"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ringStation.view.player.challengeBtn" resourceLink="ringStation.view.player.challenge" x="59" y="85"/>  
+    <!-- 英雄榜界面 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ringStation.view.armory.closeBg" parentStyle="asset.core.btmBimap" x="1" y="394" width="400" height="55"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ringStation.view.armory.closeBtn" backStyle="ringStation.view.armory.close" x="124" y="398"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="ringStation.view.armory.List" hScrollbarStyle="core.HScrollbar" vScrollbarStyle="core.VScrollbar" hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,4,0,0,3" viewportInnerRectString="2,0,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|ringStation.view.ArmoryListItem,38,344" listStyle="com.pickgliss.ui.controls.list.List" hScrollProxy="2" vUnitIncrement="10" width="397" height="339" x="6" y="45"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ringStation.view.armory.List.itemBG" resourceLink="ringStation.view.armory.itemBG1,ringStation.view.armory.itemBG2"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.armory.List.text1" textFormatStyle="ringStation.view.armory.List.textTF1" filterString="ringStation.view.armory.List.textGF1" autoSize="none" x="2" y="11" width="50" height="24" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.armory.List.text2" textFormatStyle="ringStation.view.armory.List.textTF1" filterString="ringStation.view.armory.List.textGF1" autoSize="none" x="53" y="11" width="158" height="24" type="dynamic"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.armory.List.text3" textFormatStyle="ringStation.view.armory.List.textTF2" filterString="ringStation.view.armory.List.textGF2" autoSize="none" x="278" y="11" width="89" height="24" type="dynamic"/>  
+    <!--component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ringStation.view.armory.List.light" 
+			parentStyle="core.Scale9CornerImage.scale9CornerSparkBG"  width="375" height="39" x="-3" y="0" /-->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ringStation.view.armory.itemBG1" resourceLink="ringStation.view.armory.listItem.ScaleLeftRightImage1,ringStation.view.armory.listItemVLine" x="-1" y="5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ringStation.view.armory.itemBG2" resourceLink="ringStation.view.armory.listItem.ScaleLeftRightImage2,ringStation.view.armory.listItemVLine" x="-1" y="5"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="ringStation.view.armory.listItem.ScaleLeftRightImage1" resourceLink="asset.core.ScaleLeftRightImage3.1,asset.core.ScaleLeftRightImage3.2,asset.core.ScaleLeftRightImage3.3" width="373"/>  
+    <component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="ringStation.view.armory.listItem.ScaleLeftRightImage2" resourceLink="asset.core.ScaleLeftRightImage2.1,asset.core.ScaleLeftRightImage2.2,asset.core.ScaleLeftRightImage2.3" width="373"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ringStation.view.armory.listItemVLine" resourceLink="ringStation.view.armory.listItem.VlineI,ringStation.view.armory.listItem.VlineII,ringStation.view.armory.listItem.VlineIII"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="ringStation.view.armory.listItem.VlineI" resourceLink="asset.corel.formLine" x="51" y="4"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="ringStation.view.armory.listItem.VlineII" parentStyle="ringStation.view.armory.listItem.VlineI" x="211"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="ringStation.view.armory.listItem.VlineIII" parentStyle="ringStation.view.armory.listItem.VlineI" x="279"/>  
+    <!-- 查看战报界面 -->  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.battleField.itembg" resourceLink="ringStation.view.battleField.itembg"/>  
+    <component classname="com.pickgliss.ui.image.TiledImage" stylename="asset.battleField.item.line" resourceLink="asset.ddtcore.line"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ringStation.view.battleField.bg" resourceLink="core.bg6919,asset.battleField.itembg,asset.battleField.itembg,asset.battleField.itembg,asset.battleField.itembg,asset.battleField.itembg,asset.battleField.item.line,asset.battleField.item.line,asset.battleField.item.line,asset.battleField.item.line,asset.battleField.item.line,asset.battleField.item.line,asset.battleField.item.line,asset.battleField.item.line,asset.battleField.item.line,asset.battleField.item.line" imageRectString=",3|3|34|34|1,3|3|102|34|1,3|3|170|34|1,3|3|238|34|1,3|3|306|34|1,3|3|33|3|1,2|3|68|3|1,2|3|101|3|1,2|3|136|3|1,2|3|169|3|1,2|3|204|3|1,2|3|237|3|1,2|3|272|3|1,2|3|305|3|1,2|3|340|3|1" width="450" height="375" x="2" y="6"/>  
+    <!-- component classname="com.pickgliss.ui.controls.ListPanel" stylename="ringStation.view.battleField.List" 
+			hScrollbarStyle="core.HScrollbar" vScrollbarStyle="core.VScrollbar" hScrollbarInnerRectString="0,22,21,0,4" 
+			vScrollbarInnerRectString="21,4,0,0,3" viewportInnerRectString="2,0,0,0,0" 
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|ringStation.view.BattleFieldListItem,34,344" 
+			listStyle="com.pickgliss.ui.controls.list.List" hScrollProxy="2" vUnitIncrement="10"
+			width="310" height="367" x="0" y="8" /-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.battleField.itemInfo" textFormatStyle="ringStation.view.battleField.infotf" filterString="ringStation.view.battleField.infogf" autoSize="none" wordWrap="true" width="361" height="35" x="30" />  
+    <!-- 帮助说明界面 -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ringStation.helpView.frameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="9" y="13" width="370" height="376"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="ringStation.helpView.sumitBtn" parentStyle="core.simplebt" x="149" y="399"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.helpView.infoText" textFormatStyle="ringStation.helpView.infotf" filterString="ringStation.helpView.infogf" autoSize="none" wordWrap="true" width="340" height="300" x="26" y="79"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.signText" textFormatStyle="ringStation.view.signTxt.tf" filterString="ringStation.view.signTxt.gf" x="15" y="272"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.view.signText2" 
+			textFormatStyle="ringStation.view.signTxt.tf" filterString="ringStation.view.signTxt.gf" autoSize="none" width="155" height="20" isAutoFitLength="true" x="10" y="50"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ringStation.view.signBnt" backStyle="ringStation.view.signBntbg" x="326" y="271"/>  
+    <component classname="ringStation.view.RingStationSingInputFrame" stylename="ringStation.RingStationSingInputFrame" parentStyle="BaseFrame" containerX="10" containerY="30" closeInnerRectString="44,6,3,30,14" cancelButtonStyle="" moveInnerRectString="0,30,0,30,1" escEnable="true" width="356" height="276"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ringStation.RingStationSingInputFrameInputText" textFormatStyle="chat.BugleInputFrameInputTF" filterString="chat.BugleInputFrameInputGF" autoSize="none" type="input" maxChars="25" multiline="true" wordWrap="true" width="274" height="106" x="33" y="72"/> 
+  
+  <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ringStation.view.getRewardBtn" backStyle="ringStation.view.getReward" x="257" y="334"/>
+  
+  </components>  
+  <customs> 
+    <custom classname="flash.geom.Point" stylename="ringStation.view.userViewPos" x="11" y="52"/>  
+    <custom classname="flash.geom.Point" stylename="ringStation.view.countDownPos" x="14" y="219"/>  
+    <custom classname="flash.geom.Point" stylename="ringStation.view.challenge.arrowPos" x="512" y="88"/>  
+    <custom classname="flash.geom.Point" stylename="ringStation.challenge.personPos0" x="374" y="54"/>  
+    <custom classname="flash.geom.Point" stylename="ringStation.challenge.personPos1" x="557" y="54"/>  
+    <custom classname="flash.geom.Point" stylename="ringStation.challenge.personPos2" x="374" y="261"/>  
+    <custom classname="flash.geom.Point" stylename="ringStation.challenge.personPos3" x="557" y="261"/>  
+    <custom classname="flash.geom.Point" stylename="ringStation.view.playerPos" x="235" y="76"/>  
+    <custom classname="flash.geom.Point" stylename="ringStation.view.player.levelPos" x="6" y="-2"/>  
+    <custom classname="flash.geom.Point" stylename="ringStation.view.player.playerPos" x="38" y="39"/>  
+    <custom classname="flash.geom.Point" stylename="ringStation.view.armory.listItem.levelPos" x="228" y="4"/>  
+    <custom classname="flash.geom.Point" stylename="ringStation.view.battleField.itemPos" x="7" y="7"/>  
+    <custom classname="flash.geom.Point" stylename="ringstation.view.ok.textPos" x="135" y="222"/> 
+    <custom classname="flash.geom.Point" stylename="ringStation.challenge.fightPowerPos" x="2" y="180"/>
+  </customs>  
+  <bitmaps> 
+    <bitmapData resourceLink="ringStation.view.countdownBg" width="228"/> 
+    <bitmapData resourceLink="ringStation.view.fightingBg" x="6" y="178"/>
+  </bitmaps> 
+</style>

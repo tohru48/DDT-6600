@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtfeedback" version="1.0.1" source="ui/turkey/swf/ddtfeedback.swf"> 
+  <sets> 
+    <!--Filter-->  
+    <!--TextFormat-->  
+    <set stylename="ddtfeedback.TF1" args="Arial,12,0xfff9da,true" type="flash.text.TextFormat"/>  
+    <set stylename="feedback.Input_1" args="Arial,14,0xfff9da" type="flash.text.TextFormat" leading="5"/>  
+    <set stylename="feedback.T_1" args="Arial,12,0xff002a,true" type="flash.text.TextFormat"/>  
+    <set stylename="feedback.T_2" args="Arial,14,0xfff9da" type="flash.text.TextFormat"/>  
+    <set stylename="ddtfeedback.GF1" args="0x730000,2,4,4,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="feedback.G_1" args="0xffffff,2,4,4,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="feedback.G_2" args="0x5f3d11,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="feedback.G_3" args="0x5f3d11,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtfeedback.csTel.TF1" args="Arial,12,0xfff9da,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtfeedback.csTel.GF1" args="0x730000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtfeedback.yesNoText.TF" args="Arial,14,0xFFFFFF,true,,,,,right" type="flash.text.TextFormat"/> 
+  </sets>  
+  <bitmaps> 
+    <!--星号.png-->  
+    <bitmapData resourceLink="asset.feedback.asteriskImg"/>  
+    <!--发生时间Text.png-->  
+    <bitmapData resourceLink="asset.feedback.occurrenceTimeTextImg"/>  
+    <!--详细描述Text.png-->  
+    <bitmapData resourceLink="asset.feedback.detailTextImg"/>  
+    <!--客服回复Text.png-->  
+    <bitmapData resourceLink="asset.feedback.customerTextImg"/>  
+    <!--标题文字背景.png-->  
+    <bitmapData resourceLink="asset.feedback.titleTextBgImg"/>  
+    <!--玩家评价.png-->  
+    <bitmapData resourceLink="asset.feedback.playerEvaluationTextImg"/>  
+    <!--回复评价Text.png-->  
+    <bitmapData resourceLink="asset.feedback.replyEvaluationTextImg"/>  
+    <!--差Text.png-->  
+    <bitmapData resourceLink="asset.feedback.poorTextImg"/>  
+    <!--一般Text.png-->  
+    <bitmapData resourceLink="asset.feedback.generalTextImg"/>  
+    <!--满意Text.png-->  
+    <bitmapData resourceLink="asset.feedback.satisfactoryTextImg"/>  
+    <!--非常满意Text.png-->  
+    <bitmapData resourceLink="asset.feedback.verySatisfiedTextImg"/> 
+  </bitmaps>  
+  <components> 
+    <!--窗口-->  
+    <component classname="feedback.view.FeedbackSubmitFrame" stylename="feedback.feedbackSubmitFrame" backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" closeInnerRectString="44,6,5,30,14" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,11,5" containerX="20" moveInnerRectString="0,30,0,30,1" containerY="40" width="550" height="450" moveEnable="false" escEnable="true"/>  
+    <component classname="feedback.view.FeedbackReplyFrame" stylename="feedback.feedbackReplyFrame" parentStyle="feedback.feedbackSubmitFrame" closestyle="null"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="feedback.textBgImg_style" parentStyle="core.bg6920" width="510" height="175" x="0" y="147" scaleGridString="5,10,80,20"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.ddtfeedback.textinputBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="480" height="200" x="4" y="123"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.ddtfeedback.textinputBg1" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" x="-1" y="8"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="feedback.textBgImg_style1" parentStyle="church.main.createRoomFrameLeftTopBg" width="512" height="120" x="1" y="5"/>  
+    <!--下拉菜单-->  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ddtfeedback.comboxInputbg" resourceLink="asset.ddtfeedback.comboxInputBg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtfeedback.comboxButtonAsset" resourceLink="ddtfeedback.comboxInputbg,asset.ddtfeedback.comboxBTS" imageRectString=",1|3|20|19|12"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtfeedback.comboxButton" backStyle="ddtfeedback.comboxButtonAsset" displacement="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="feedback.comboxtxt" filterString="feedback.G_3" textFormatStyle="feedback.T_2"/>  
+    <component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter" stylename="feedback.comboxListCell" backStyle="core.comboxListCellAsset2" textStyle="core.comboxListCellTxt" backgoundInnerRectString="3,10,2,5,-1" autoSizeAble="false" width="400" height="22"/>  
+    <component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter" stylename="feedback.comboxListCell2" parentStyle="feedback.comboxListCell" width="37" height="22"/>  
+    <component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter" stylename="feedback.comboxListCell3" parentStyle="feedback.comboxListCell" width="10" height="22"/>  
+    <component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter" stylename="feedback.comboxListCell4" parentStyle="feedback.comboxListCell" width="15" height="22"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="feedback.ComboxListpanel3" vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="3,0,22,0,5" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|feedback.comboxListCell,24,150" listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.GoodsTipBg" backgoundInnerRectString="2,6,6,3,-1" hScrollProxy="2" vScrollProxy="1" vUnitIncrement="5"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="feedback.ComboxListpanel32" parentStyle="feedback.ComboxListpanel3" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|feedback.comboxListCell2,24,150"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="feedback.ComboxListpanel33" parentStyle="feedback.ComboxListpanel3" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|feedback.comboxListCell3,24,150"/>  
+    <component classname="com.pickgliss.ui.controls.ListPanel" stylename="feedback.ComboxListpanel34" parentStyle="feedback.ComboxListpanel3" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|feedback.comboxListCell4,24,150"/>  
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="feedback.combox" listPanelStyle="feedback.ComboxListpanel3" buttonStyle="ddtfeedback.comboxButton" width="140" height="28" textStyle="feedback.comboxtxt" listInnerRectString="5,33,10,100,18" textInnerRectString="10,25,3,0,0"/>  
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="feedback.combox2" parentStyle="feedback.combox" listPanelStyle="feedback.ComboxListpanel32"/>  
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="feedback.combox3" parentStyle="feedback.combox" listPanelStyle="feedback.ComboxListpanel33"/>  
+    <component classname="com.pickgliss.ui.controls.ComboBox" stylename="feedback.combox4" parentStyle="feedback.combox" listPanelStyle="feedback.ComboxListpanel34"/>  
+    <!--文本框-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="feedback.infoText" textFormatStyle="feedback.T_1" filterString="feedback.G_1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="feedback.csTelText" textFormatStyle="ddtfeedback.csTel.TF1" filterString="ddtfeedback.csTel.GF1" x="327" y="56"/>  
+    <!--<component classname="com.pickgliss.ui.text.FilterFrameText" stylename='feedback.text'
+			textFormatStyle="feedback.Input_1"   maxChars='20' multiline='false' height= "28"
+		/>-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtfeedback.typeText" textFormatStyle="ddtfeedback.TF1" filterString="ddtfeedback.GF1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtfeedback.titleText" textFormatStyle="ddtfeedback.TF1" filterString="ddtfeedback.GF1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtfeedback.timerText" textFormatStyle="ddtfeedback.TF1" filterString="ddtfeedback.GF1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtfeedback.yearText" textFormatStyle="ddtfeedback.TF1" filterString="ddtfeedback.GF1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtfeedback.monthText" textFormatStyle="ddtfeedback.TF1" filterString="ddtfeedback.GF1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtfeedback.dayText" textFormatStyle="ddtfeedback.TF1" filterString="ddtfeedback.GF1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtfeedback.descriptionText" textFormatStyle="ddtfeedback.TF1" filterString="ddtfeedback.GF1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="feedback.text1" textFormatStyle="feedback.Input_1" filterString="feedback.G_2" type="input" multiline="true" wordWrap="true" maxChars="400"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="feedback.text" textFormatStyle="feedback.Input_1" filterString="feedback.G_2" type="input" maxChars="20" height="28" wordWrap="false" multiline="false"/>  
+    <component classname="com.pickgliss.ui.controls.TextInput" stylename="feedback.textInput" backStyle="asset.ddtfeedback.textinputBg1" textStyle="feedback.text" focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="4,-5,13,2,0" maxChars="10" height="28"/>  
+    <component classname="com.pickgliss.ui.controls.TextInput" stylename="feedback.textInputMobile" backStyle="asset.ddtfeedback.textinputBg1" textStyle="feedback.text" focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="4,-5,13,2,0" maxChars="11" height="28"/>  
+    <!--按钮-->  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="feedback.btn" parentStyle="core.simplebt"/>  
+    <!--带下条的输入框-->  
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="feedback.simpleTextArea" parentStyle="core.SimpleTextArea" backgoundStyle="asset.ddtfeedback.textinputBg" backgoundInnerRectString="-1,20,5,3,0" viewportInnerRectString="8,22,12,10,0" textStyle="feedback.text1" maxChars="400" vScrollProxy="0"/>  
+    <!--按钮  是-->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtfeedback.yesNoText" textFormatStyle="ddtfeedback.yesNoText.TF"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="feedback.yesSelectedCheckButton" parentStyle="store.MoneySelectBtn" fieldX="21" fieldY="-1" textStyle="ddtfeedback.yesNoText"/>  
+    <!--按钮  否-->  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="feedback.noSelectedCheckButton" parentStyle="store.MoneySelectBtn" fieldX="21" fieldY="-1" textStyle="ddtfeedback.yesNoText"/>  
+    <!--按钮  差-->  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="feedback.poorCheckButton" parentStyle="store.MoneySelectBtn" fieldX="24" fieldY="2" textStyle="asset.feedback.poorTextImg"/>  
+    <!--按钮  一般-->  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="feedback.generalCheckButton" parentStyle="store.MoneySelectBtn" fieldX="24" fieldY="2" textStyle="asset.feedback.generalTextImg"/>  
+    <!--按钮  满意-->  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="feedback.satisfactoryCheckButton" parentStyle="store.MoneySelectBtn" fieldX="24" fieldY="2" textStyle="asset.feedback.satisfactoryTextImg"/>  
+    <!--按钮  非常满意-->  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="feedback.verySatisfiedCheckButton" parentStyle="store.MoneySelectBtn" fieldX="24" fieldY="2" textStyle="asset.feedback.verySatisfiedTextImg"/> 
+  </components>  
+  <!--提交问题坐标-->  
+  <customs> 
+    <!--发光坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemTypesTextImgRec" x="9" y="16"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.comboxRec" x="85" y="16" width="410" height="24"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemTypesAsteriskTextRec" x="496" y="20"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemTitleTextImgRec" x="8" y="57"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemTitleInputRec" x="84" y="45" width="410"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemTitleAsteriskTextRec" x="496" y="62"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.occurrenceTimeTextImgRec2" x="7" y="56"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.occurrenceTimeTextImgRec" x="7" y="92"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.yearComboxRec" x="80" y="90" width="70" height="24"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.yearTextImgRec" x="155" y="93"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.monthComboxRec" x="180" y="90" width="50" height="24"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.monthTextImgRec" x="235" y="94"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.dayComboxRec" x="260" y="90" width="55" height="24"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.dayTextImgRec" x="320" y="94"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.submitBtnRec" x="105" y="356"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.closeBtnRec" parentStyle="feedback.submitBtnRec" x="325"/>  
+    <!--咨询游戏问题-->  
+    <!--建议反馈-->  
+    <!--BUG信息反馈-->  
+    <!--其它-->  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.detailTextImgRec" x="9" y="135"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.detailInfoTextRec" x="2" y="328"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.detailSimpleTextAreaRec" x="5" y="153" width="500" height="165"/>  
+    <!--咨询活动相关-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="feedbackproblem.textBgImg_style" parentStyle="core.bg6920" width="510" height="148" x="0" y="177" scaleGridString="5,10,80,20"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemsWhetherTheActivitiesTextImgRec" x="9" y="113"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.yesSelectedCheckButtonRec" x="10" y="133"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.noSelectedCheckButtonRec" x="119" y="133"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemsActivityTitleTextImgRec" x="280" y="133"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemsActivityTitleInputRec" x="354" y="121" width="140" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemsActivityTitleAsteriskRec" x="500" y="135"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemsDetailTextImgRec" x="9" y="161"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemsInfoTextRec" x="2" y="328"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemsDetailTextAreaRec" x="5" y="182" width="500" height="140"/>  
+    <!--物品道具异常消失-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="feedbackprop.textBgImg_style" parentStyle="core.bg6920" width="510" height="110" x="0" y="216" scaleGridString="5,10,80,20"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.propsAcquirementTextImgRec" x="9" y="138"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.propsAcquirementInputRec" x="122" y="123" width="263" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.propsAcquirementAsteriskRec" x="390" y="138"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.propsGetTimeTextImgRec" x="9" y="169"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.propsGetTimeInputRec" x="141" y="157" width="245" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.propsGetTimeAsteriskRec" x="390" y="172"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.propsInfoDateTextRec" x="405" y="170" width="96" height="40"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.propsDisappearDetailTextImgRec" x="9" y="201"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.propsDisappearInfoTextRec" x="2" y="328"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.propsDisappearDetailTextAreaRec" x="5" y="219" width="500" height="105"/>  
+    <!--盗号受理类-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="feedbackStealHand.textBgImg_style" parentStyle="core.bg6920" width="510" height="242" x="0" y="105" scaleGridString="5,10,80,20"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandExplainTextAreaRec" x="6" y="125" width="500" height="200"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandAcquirementTextImgRec" x="0" y="91"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandAcquirementInputRec" x="115" y="82" width="270" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandAcquirementAsteriskRec" x="390" y="95"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandGetTimeTextImgRec" x="0" y="129"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandGetTimeInputRec" x="115" y="120" width="270" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandGetTimeAsteriskRec" x="390" y="134"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandInfoDateTextRec" x="405" y="132"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandDetailTextImgRec" x="0" y="163"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandDisappearInfoTextRec" x="2" y="328"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandDetailTextAreaRec" x="5" y="190" width="500" height="135"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandNextBtnRec" parentStyle="feedback.submitBtnRec"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandBackBtnRec" parentStyle="feedback.submitBtnRec"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.stealHandSubmitBtnRec" parentStyle="feedback.submitBtnRec" x="320"/>  
+    <!--充值卡类-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="feedbackCard.textBgImg_style" parentStyle="core.bg6920" width="510" height="110" x="0" y="216" scaleGridString="5,10,80,20"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardOrderNumberValueTextImgRec" x="7" y="131"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardOrderNumberValueInputRec" x="166" y="119" width="330" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardOrderNumberValueAsteriskRec" x="500" y="133"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardPrepaidModeTextImgRec" x="7" y="161"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardPrepaidModeInputRec" x="92" y="150" width="150" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardPrepaidModeAsteriskRec" x="241" y="164"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardPrepaidAmountTextImgRec" x="254" y="162"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardPrepaidAmountInputRec" x="352" y="150" width="146" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardPrepaidAmountAsteriskRec" x="500" y="164"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardDetailTextImgRec" x="0" y="202"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardDisappearInfoTextRec" x="2" y="328"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardDetailTextAreaRec" x="5" y="222" width="500" height="100"/>  
+    <!--举报非法-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="feedbackreport.textBgImg_style" parentStyle="core.bg6920" width="510" height="120" x="0" y="205" scaleGridString="5,10,80,20"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.reportTitleOrUrlTextImgRec" x="9" y="130"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.reportTitleOrUrlInputRec" x="171" y="118" width="310" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.reportTitleOrUrlAsteriskRec" x="480" y="131"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.reportUserNameTextImgRec" x="9" y="162"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.reportUserNameInputRec" x="133" y="149" width="347" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.reportUserNameAsteriskRec" x="480" y="162"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.reportDetailTextImgRec" x="9" y="190"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.reportDisappearInfoTextRec" x="2" y="328"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.reportDetailTextAreaRec" x="5" y="208" width="500" height="115"/>  
+    <!--服务投诉-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="feedbackreport.textBgImg_style1" parentStyle="core.bg6920" width="510" height="100" x="0" y="224" scaleGridString="5,10,80,20"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.playersNameTextImgRec" x="9" y="133"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.playersNamelInputRec" x="83" y="122" width="160" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.playersNameAsteriskRec" x="240" y="136"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.playersMobileTextImgRec" x="260" y="135"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.playersMobileInputRec" x="380" y="123" width="121" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.playersMobileAsteriskRec" x="500" y="137"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.complaintTitleTextImgRec" x="9" y="172"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.complaintTitleInputRec" x="100" y="158" width="140" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.complaintTitleAsteriskRec" x="240" y="172"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.complaintSourceTextImgRec" x="260" y="172"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.complaintSourceInputRec" x="353" y="159" width="148" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.complaintSourceAsteriskRec" x="500" y="173"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.complaintDetailTextImgRec" x="9" y="208"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.complaintDisappearInfoTextRec" x="2" y="328"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.complaintDetailTextAreaRec" x="5" y="227" width="500" height="95"/> 
+  </customs>  
+  <!--回复问题坐标-->  
+  <customs> 
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemTitleTextImg1Rec" x="7" y="16"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.problemTitleInput1Rec" x="80" y="6" width="350" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.dateInputRec" x="80" y="46" width="350" height="26"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.detailTextImg1Rec" x="7" y="90"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.detailSimpleTextArea1Rec" x="5" y="120" width="240" height="205"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.customerTextImgRec" x="262" y="90"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.detailSimpleTextArea2Rec" x="260" y="120" width="240" height="205"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.continueSubmitBtnRec" parentStyle="feedback.submitBtnRec" x="300"/>  
+    <!--结贴坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.titleTextBgImgRec" x="5" y="5"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.playerEvaluationTextImgRec" x="200" y="8"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.replyEvaluationTextImgRec" x="0" y="50"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.poorCheckButtonRec" x="10" y="75"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.generalCheckButtonRec" x="110" y="75"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.satisfactoryCheckButtonRec" x="225" y="75"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.verySatisfiedCheckButtonRec" x="340" y="75"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.detailTextImg3Rec" x="0" y="120"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.detailSimpleTextArea3Rec" x="5" y="150" width="500" height="175"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.submitAssessmentBtnRec" parentStyle="feedback.submitBtnRec" x="195"/>  
+    <!--继续提交坐标-->  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.detailTextImg4Rec" x="7" y="46"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.detailTextInfoText4Rec" x="80" y="48"/>  
+    <custom classname="flash.geom.Rectangle" stylename="feedback.detailSimpleTextArea4Rec" x="5" y="75" width="500" height="250"/>  
+    <custom classname="flash.geom.Point" stylename="feedback.FeedbackStealHandSp.pos" x="0" y="40"/> 
+    
+    <custom classname="flash.geom.Point" stylename="prepaidAmountTextSp.pos" x="231" y="153"/>
+	<custom classname="flash.geom.Point" stylename="whetherTheActivitiesTextSp.pos" x="266" y="0"/>
+	<custom classname="flash.geom.Point" stylename="acquirementTextSp.pos" x="9" y="134"/>
+  </customs> 
+</style>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="worldBossHelper" version="1.0.1" source="ui/turkey/swf/worldBossHelper.swf"> 
+  <sets> 
+    <set stylename="worldBossHelper.view.infoTF" args="Arial,12,0xfff8d6" type="flash.text.TextFormat" leading="5" letterSpacing="1"/>  
+    <set stylename="worldBossHelper.view.infoFilter" args="0x4b270d,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="worldBossHelper.view.buffTF" args="Arial,14,0xffd74a" type="flash.text.TextFormat" leading="5" letterSpacing="1"/>  
+    <set stylename="worldBossHelper.view.buffFilter" args="0x542a05,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="worldBossHelper.view.numTF" args="Arial,14,0xfff8d6,true,,,,,center" type="flash.text.TextFormat" leading="5" letterSpacing="1"/>  
+    <set stylename="worldBossHelper.view.descritionTf" args="Arial,11,0xc69a05,true" leading="0" type="flash.text.TextFormat" letterSpacing="0"/>  
+    <set stylename="worldBossHelper.view.descritionFilter" args="0x462b00,2,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="worldBossHelper.view.helperStateTf" args="Arial,14,0xffff99,true" type="flash.text.TextFormat"/>  
+    <set stylename="worldBossHelper.view.helperStateFilter" args="0x572525,2,4,4,30" type="flash.filters.GlowFilter"/> 
+    
+    <set stylename="worldBossHelper.view.allHonorAndMoneyTf" args="Arial,14,0xfffaad,,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="worldBossHelper.view.allHonorAndMoneyFilter" args="0x471e00,2,4,4,30" type="flash.filters.GlowFilter"/>
+  </sets>  
+  <components> 
+  	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossHelper.view.allHonorAndMoneyText" textFormatStyle="worldBossHelper.view.allHonorAndMoneyTf" filterString="worldBossHelper.view.allHonorAndMoneyFilter" autoSize="none" width="70" height="20"/>
+  	
+    <custom classname="worldbosshelper.helpTxt" stylename="worldbosshelper.helpBg" x="16" y="44"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="worldBossHelper.view.rightBg" width="328" height="377" x="360" y="0" parentStyle="core.bg6920"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossHelper.view.titleInfoText" textFormatStyle="worldBossHelper.view.infoTF" filterString="worldBossHelper.view.infoFilter" x="10"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossHelper.view.infoText" textFormatStyle="worldBossHelper.view.infoTF" filterString="worldBossHelper.view.infoFilter" autoSize="true" wordWrap="true" width="250"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossHelper.view.helperStateText" textFormatStyle="worldBossHelper.view.helperStateTf" filterString="worldBossHelper.view.helperStateFilter" y="328" x="150"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossHelper.view.buffText" textFormatStyle="worldBossHelper.view.buffTF" filterString="worldBossHelper.view.buffFilter" y="28" x="374" autoSize="none" width="100" height="60" wordWrap="true"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossHelper.view.buffNumText" textFormatStyle="worldBossHelper.view.numTF" filterString="worldBossHelper.view.buffFilter"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossHelper.view.descritionText" textFormatStyle="worldBossHelper.view.descritionTf" filterString="worldBossHelper.view.descritionFilter" autoSize="none" isAutoFitLength="true" width="305" height="25"/>  
+    <component classname="worldBossHelper.view.WorldBossHelperFrame" backStyle="SimpleFrameBackgound" closestyle="core.closebt" stylename="worldBossHelperFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true" closeInnerRectString="44,19,6,30,14" width="730" height="448"/>  
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="worldBossHelper.Vbox" x="0" y="10" spacing="1"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="worldBossHelper.scrollPanel" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="1" width="325" height="250" x="13" y="46" vUnitIncrement="1"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="worldBossHelper.buybornBtn" parentStyle="ddtshop.CartItemSelectBtn" x="372" y="84" textStyle="worldBossHelper.buyborn" fieldX="20" fieldY="-2"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="worldBossHelper.fightnowBtn" parentStyle="ddtshop.CartItemSelectBtn" x="372" y="135" textStyle="worldBossHelper.fightnow" fieldX="20" fieldY="-3"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="worldBossHelper.startOnceBtn" parentStyle="ddtshop.CartItemSelectBtn" x="372" y="195" textStyle="worldBossHelper.startOnce" fieldX="20" fieldY="-3"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="worldBossHelper.startBtn" parentStyle="ddtshop.CartItemSelectBtn" x="372" y="285" textStyle="worldBossHelper.start" fieldX="20" fieldY="-2"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossHelper.NumberInputText" textFormatStyle="worldBossHelper.view.numTF" filterString="worldBossHelper.view.buffFilter" autoSize="none" type="input" x="472" y="29" width="66" height="24"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="worldBossHelper.view.maxBtn" backStyle="worldBossHelper.max" x="546" y="27"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="worldBossHelper.view.openBtn" backStyle="worldBossHelper.open" x="230" y="313" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="worldBossHelper.view.closeBtn" backStyle="worldBossHelper.close" x="230" y="313"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="worldbosshelper.chatButton" tipStyle="ddt.view.tips.OneLineTip" backStyle="worldBossHelper.chat" tipDirctions="0,4,5" x="647" y="80"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="worldbosshelper.helpBtn" backStyle="worldBossHelper.helpBtn" x="612" y="-41"/>  
+    <component classname="store.HelpFrame" stylename="worldBossHelper.HelpFrame" parentStyle="BaseFrame" width="404" height="484"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossHelper.view.descritionText2" textFormatStyle="worldBossHelper.view.descritionTf" filterString="worldBossHelper.view.descritionFilter" autoSize="none" isAutoFitLength="true" wordWrap="true" width="305" height="60"/>
+  </components>  
+  <customDisplay> 
+    <custom classname="flash.geom.Point" stylename="worldBossHelper.HelpFramePos" x="188" y="458"/>
+	<custom classname="flash.geom.Point" stylename="worldBossHelper.view.allHonorPos" x="108" y="16"/>
+	<custom classname="flash.geom.Point" stylename="worldBossHelper.view.allMoneyPos" x="268" y="16"/>
+  </customDisplay>  
+  <bitmaps> 
+    <bitmapData resourceLink="worldBossHelper.info" x="0" y="0"/>  
+    <bitmapData resourceLink="worldBossHelper.buff" width="316" x="366" y="10"/>  
+    <bitmapData resourceLink="worldBossHelper.num" x="472" y="24"/>  
+    <bitmapData resourceLink="worldBossHelper.frame1" width="316" x="366" y="73"/>  
+    <bitmapData resourceLink="worldBossHelper.frame2" width="316" x="366" y="183"/> 
+  </bitmaps> 
+</style>

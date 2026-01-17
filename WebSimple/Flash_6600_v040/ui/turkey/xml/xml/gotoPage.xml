@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="gotoPage" version="1.0.1" source="ui/turkey/swf/gotoPage.swf"> 
+  <sets> 
+    <set stylename="gotopage.LeagueShowFrame.statisticsFieldTF" args="Arial,16,0xffffff,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="league.leagueTitleTF" args="Arial,16,0xffedbc,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="leagueShow.leagueTitleGF" args="0x760606,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <!-- 积分按钮 -->  
+    <set stylename="asset.league.TF18" args="Arial,14,0xfffbe9,true" type="flash.text.TextFormat" leading="1"/>  
+    <set stylename="asset.league.TF19" args="Arial,12,0xefd099,true" type="flash.text.TextFormat" leading="1"/>  
+    <set stylename="asset.league.GF14" args="0x744a16,1,3,3,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="asset.league.GF15" args="0x4a310b,1,3,3,10" type="flash.filters.GlowFilter"/> 
+  </sets>  
+  <components> 
+    <!--Frame-->  
+    <component classname="gotopage.view.GotoPageView" stylename="gotopage.mainFrame" backStyle="SimpleFrameBackgoundOne" width="328" height="235" moveEnable="false" escEnable="true" enterEnable="true" cancelButtonStyle="core.simplebt" buttonToBottom="13" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="17,12,5" containerX="0" containerY="0" closestyle="core.closebt" closeInnerRectString="44,11,6,30,14" x="653" y="300"/>  
+    <!-- new -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="gotopage.GotoPageView.bg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" width="290" height="182" x="19" y="41"/>
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="gotopage.GotoPageView.light1" resourceLink="asset.core.btnLight" scaleGridString="15,15,94,42" width="140" height="42" x="-10" y="-7"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="gotopage.GotoPageView.light2" resourceLink="asset.core.btnLight" scaleGridString="15,15,94,42" width="140" height="42" x="-10" y="-6"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.dockBtn.bg" resourceLink="asset.gotopage.dockBtn,gotopage.GotoPageView.light1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.dockBtnBG" resourceLink="asset.gotopage.dockBtn,gotopage.dockBtn.bg,gotopage.dockBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.gamehallBtn.bg" resourceLink="asset.gotopage.gamehallBtn,gotopage.GotoPageView.light2" imageRectString="0|135|0|34|13,-12|150|-6|43|13"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.gamehallBtnBG" resourceLink="asset.gotopage.gamehallBtn,gotopage.gamehallBtn.bg,gotopage.gamehallBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.templeBtn.bg" resourceLink="asset.gotopage.templeBtn,gotopage.GotoPageView.light1" imageRectString="0|136|0|38|13,-10|140|-5|43|13"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.templeBtnBG" resourceLink="asset.gotopage.templeBtn,gotopage.templeBtn.bg,gotopage.templeBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.setBtn.bg" resourceLink="asset.gotopage.setBtn,gotopage.GotoPageView.light1" imageRectString="0|126|0|32|13,-10|140|-7|43|13"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.setBtnBG" resourceLink="asset.gotopage.setBtn,gotopage.setBtn.bg,gotopage.setBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.auctionBtn.bg" resourceLink="asset.gotopage.auctionBtn,gotopage.GotoPageView.light2" imageRectString="0|135|0|34|13,-12|150|-8|43|13"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.auctionBtnBG" resourceLink="asset.gotopage.auctionBtn,gotopage.auctionBtn.bg,gotopage.auctionBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.leagumatchesBtn.bg" resourceLink="asset.gotopage.leagumatchesBtn,gotopage.GotoPageView.light2" imageRectString="0|136|0|31|13,-8|150|-6|43|13"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.leagumatchesBtnBG" resourceLink="asset.gotopage.leagumatchesBtn,gotopage.leagumatchesBtn.bg,gotopage.leagumatchesBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.eliteBtn.bg" resourceLink="asset.gotopage.eliteBtn,gotopage.GotoPageView.light2" imageRectString="2|122|-3|37|13,-10|140|-7|43|13"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.eliteBtnBG" resourceLink="asset.gotopage.eliteBtn,gotopage.eliteBtn.bg,gotopage.eliteBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.battleBtn.bg" resourceLink="asset.gotopage.battleBtn,gotopage.GotoPageView.light2" imageRectString="0|114|0|37|13,-12|150|-6|43|13"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.battleBtnBG" resourceLink="asset.gotopage.battleBtn,gotopage.battleBtn.bg,gotopage.battleBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.clubBtn.bg" resourceLink="asset.gotopage.clubBtn,gotopage.GotoPageView.light2" imageRectString="0|135|0|30|13,-12|150|-6|43|13"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.clubBtnBG" resourceLink="asset.gotopage.clubBtn,gotopage.clubBtn.bg,gotopage.clubBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.dailyBtn.bg" resourceLink="asset.gotopage.dailyBtn,gotopage.GotoPageView.light1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.dailyBtnBG" resourceLink="asset.gotopage.dailyBtn,gotopage.dailyBtn.bg,gotopage.dailyBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.friendBtn.bg" resourceLink="asset.gotopage.friendBtn,gotopage.GotoPageView.light1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.friendBtnBG" resourceLink="asset.gotopage.friendBtn,gotopage.friendBtn.bg,gotopage.friendBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.framBtn.bg" resourceLink="asset.gotopage.framBtn,gotopage.GotoPageView.light1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.framBtnBG" resourceLink="asset.gotopage.framBtn,gotopage.framBtn.bg,gotopage.framBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.VIPBtn.bg" resourceLink="asset.gotopage.VIPBtn,gotopage.GotoPageView.light1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.VIPBtnBG" resourceLink="asset.gotopage.VIPBtn,gotopage.VIPBtn.bg,gotopage.VIPBtn.bg"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.dockBtn" backStyle="gotopage.dockBtnBG" x="175" y="48"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.gamehallBtn" backStyle="gotopage.gamehallBtnBG" x="33" y="48"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.templeBtn" backStyle="gotopage.templeBtnBG" x="34" y="114"/>  
+    <!-- 将名人堂按钮移到拍卖场按钮位置 原来位置 是 x="176" y="221"-->  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.setBtn" backStyle="gotopage.setBtnBG" x="176" y="153"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.auctionBtn" backStyle="gotopage.auctionBtnBG" x="33" y="117"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.leagumatchesBtn" backStyle="gotopage.leagumatchesBtnBG" x="28" y="187"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.eliteBtn" backStyle="gotopage.eliteBtnBG" x="34" y="83"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.battleBtn" backStyle="gotopage.battleBtnBG" x="34" y="186"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.clubBtn" backStyle="gotopage.clubBtnBG" x="33" y="83"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.dailyBtn" backStyle="gotopage.dailyBtnBG" x="176" y="117"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.friendBtn" backStyle="gotopage.friendBtnBG" x="35" y="153"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.framBtn" backStyle="gotopage.framBtnBG" x="175" y="119"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.VIPBtn" backStyle="gotopage.VIPBtnBG" x="37" y="49"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="gotopage.vlineI" resourceLink="asset.gotopage.vline" x="33" y="1"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="gotopage.vlineII" parentStyle="gotopage.vlineI" y="35"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="gotopage.vlineIII" parentStyle="gotopage.vlineI" y="70"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="gotopage.vlineIV" parentStyle="gotopage.vlineI" y="104"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="gotopage.vlineV" parentStyle="gotopage.vlineI" y="140"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="gotopage.vlineVI" parentStyle="gotopage.vlineI" y="173"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.vline" resourceLink="gotopage.vlineI,gotopage.vlineII,gotopage.vlineIII,gotopage.vlineIV,gotopage.vlineV" x="133" y="42"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="gotopage.hlineI" resourceLink="asset.gotopage.hline" x="3" y="3"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="gotopage.hlineII" parentStyle="gotopage.hlineI" y="38"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="gotopage.hlineIII" parentStyle="gotopage.hlineI" y="72"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="gotopage.hlineIV" parentStyle="gotopage.hlineI" y="106"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="gotopage.hlineIVI" parentStyle="gotopage.hlineI" y="141"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.hline" resourceLink="gotopage.hlineI,gotopage.hlineII,gotopage.hlineIII,gotopage.hlineIV,gotopage.hlineIVI" x="7" y="77"/>  
+    <!-- textFieldBg -->  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.leagueShow.TextFieldBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="122" height="23" x="146" y="434"/>  
+    <component classname="gotopage.view.LeagueShowFrame" stylename="gotopage.leagueShowFrame" backStyle="SimpleFrameBackgound" closestyle="core.closebt" containerY="-6" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="17,11,5" closeInnerRectString="44,16,4,30,14" moveInnerRectString="0,30,0,30,1" width="785" height="550" moveEnable="false" escEnable="true" enterEnable="false"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.leagueShow.leftFrameBg" parentStyle="core.Scale9CornerImage.redBgGoldLine" x="21" y="64" width="282" height="474"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="leagueShow.leftBack" resourceLink="asset.leagueShow.leftFrameBg,asset.leagueShow.recordStatisticsTitle,asset.leagueShow.leftRankFramebg,asset.leagueShow.rankContainer,asset.ddtleagueShow.rankcolorBg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.leagueShow.leftRankFramebg" resourceLink="leagueShow.BG01,leagueShow.BG02" x="33" y="98"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="leagueShow.BG01" width="258" height="424" parentStyle="core.Scale9CornerImage.BGAsset5"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="leagueShow.BG02" resourceLink="core.Scale9CornerImage.SimpleTableBackgound2,core.Scale9CornerImage.weilifur" imageRectString=",5|5|5|5|0" width="257" height="423" x="1" y="1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.ddtleagueShow.rankcolorBg" resourceLink="asset.leagueShow.rankcolorBg" width="237" height="170" x="43" y="341"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="leagueShow.view.todayNumberField" textFormatStyle="gotopage.LeagueShowFrame.statisticsFieldTF" autoSize="none" width="84" height="24" x="166" y="435"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="leagueShow.view.todayScoreField" parentStyle="leagueShow.view.todayNumberField" y="472"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="leagueShow.view.weekRankingField" parentStyle="leagueShow.view.todayNumberField" y="357"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="leagueShow.view.weekScoreField" parentStyle="leagueShow.view.todayNumberField" y="394"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="leagueShow.rightBack" resourceLink="asset.leagueShow.rightBack,asset.leagueShow.explanationBack,asset.leagueShow.entryRulesTitle,asset.leagueShow.awardBack" x="308" y="51"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.leagueShow.rightBack" resourceLink="asset.background.mapBg" width="458" height="488"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.leagueShow.explanationBack" resourceLink="core.Scale9CornerImage.deepFur" width="430" height="217" x="13" y="13"/>  
+    <!-- 联赛说明底 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="leagueShow.explanationContentBg" resourceLink="asset.leagueShow.explanationContentBg" x="331" y="100" width="411" height="170"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="leagueShow.view.lv20_29selectBtn" filterString="null,lightFilter,null,grayFilter" unSelectedStyle="asset.leagueShow.lv20_29unselected" selectedStyle="asset.leagueShow.lv20_29selected" x="327" y="282" displacement="false"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.leagueShow.lv20_29unselected" resourceLink="asset.core.selectButton20_29Asset"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.leagueShow.lv20_29selected" resourceLink="asset.core.selectButton20_29Asset,asset.leagueShow.lv20_29light"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.leagueShow.lv20_29light" parentStyle="core.Scale9CornerImage.scale9CornerSparkBG" width="142" height="51" x="-2" y="-2"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="leagueShow.view.lv30_39selectBtn" filterString="null,lightFilter,null,grayFilter" unSelectedStyle="asset.leagueShow.lv30_39unselected" selectedStyle="asset.leagueShow.lv30_39selected" x="466" y="282" displacement="false"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.leagueShow.lv30_39unselected" resourceLink="asset.core.selectButton30_39Asset"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.leagueShow.lv30_39selected" resourceLink="asset.core.selectButton30_39Asset,asset.leagueShow.lv30_39light"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.leagueShow.lv30_39light" parentStyle="core.Scale9CornerImage.scale9CornerSparkBG" width="142" height="51" x="-2" y="-2"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="leagueShow.view.lv40_49selectBtn" filterString="null,lightFilter,null,grayFilter" unSelectedStyle="asset.leagueShow.lv40_49unselected" selectedStyle="asset.leagueShow.lv40_49selected" x="610" y="283" displacement="false"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.leagueShow.lv40_49unselected" resourceLink="asset.core.selectButton40_60Asset"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.leagueShow.lv40_49selected" resourceLink="asset.core.selectButton40_60Asset,asset.leagueShow.lv40_60light"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.leagueShow.lv40_60light" parentStyle="core.Scale9CornerImage.scale9CornerSparkBG" width="142" height="51" x="-2" y="-2"/>  
+    <!-- 积分按钮 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.league.FBTypeText1" textFormatStyle="asset.league.TF18" filterString="asset.league.GF14" type="dynamic" wordWrap="true" width="89" x="12" y="14"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.league.FBTypeText2" textFormatStyle="asset.league.TF19" filterString="asset.league.GF15" type="dynamic" wordWrap="true" width="80" x="17" y="19"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="awardScoreBtnAssetUnsel" resourceLink="asset.leagueShow.awardScoreBtnAssetII" scaleGridString="14,12,64,26"/>
+    <!--  -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="awardScoreBtnAssetSel" resourceLink="asset.leagueShow.awardScoreBtnAssetI" scaleGridString="14,18,74,38"/>
+    <!--  -->  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="leagueShow.view.awardScoreBtnI" selectedStyle="awardScoreBtnAssetSel" unSelectedStyle="awardScoreBtnAssetUnsel" textStyle="asset.league.FBTypeText1,asset.league.FBTypeText2" backgoundInnerRectString="12|13|13|19|-1,14|14|7|5|-1" unSelectedButtonOuterRectPosString="3,7,5" x="331" y="335"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="leagueShow.view.awardScoreBtnII" parentStyle="leagueShow.view.awardScoreBtnI" x="433"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="leagueShow.view.awardScoreBtnIII" parentStyle="leagueShow.view.awardScoreBtnI" x="536"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="leagueShow.view.awardScoreBtnIV" parentStyle="leagueShow.view.awardScoreBtnI" x="638"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.leagueShow.awardScoreBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="403" height="119" x="334" y="391"/>  
+    <!-- 空物品背景 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="leagueShow.view.awardcellBg" parentStyle="core.goods.cellBg" height="47" width="47" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="leagueShow.view.explanationPanel" viewportInnerRectString="13,0,0,0,0" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="0" width="410" height="157" x="326" y="106" vUnitIncrement="10"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.leagueShow.awardBack" resourceLink="leagueShow.awardBack.BG01,leagueShow.awardBack.BG02" x="11" y="316"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="leagueShow.awardBack.BG01" width="436" height="158" parentStyle="core.Scale9CornerImage.BGAsset5" x="0" y="1"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="leagueShow.awardBack.BG02" resourceLink="core.Scale9CornerImage.SimpleTableBackgound2,core.Scale9CornerImage.weilifur" imageRectString=",5|7|5|5|0" width="431" height="153" x="3" y="5"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="leagueShow.view.leagueTitle" textFormatStyle="league.leagueTitleTF" filterString="leagueShow.leagueTitleGF" autoSize="none" width="104" height="24" x="109" y="262"/>  
+    <component classname="vip.view.VipViewFrame" stylename="vip.VipViewFrameOne" backStyle="vip.SimpleFrameBackgound" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,10,6,30,14" containerX="15" containerY="38" titleOuterRectPosString="12,12,5" moveInnerRectString="0,30,0,30,1" width="740" height="486" moveEnable="false" escEnable="true"/>  
+    <!-- 名人堂 -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.famehallBtn.bg" resourceLink="asset.gotopage.famehallBtn,gotopage.GotoPageView.light1" imageRectString="0|109|0|31|13,-9|140|-6|43|13"/>/&gt; 
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.famehallBtnBG" resourceLink="asset.gotopage.famehallBtn,gotopage.famehallBtn.bg,gotopage.famehallBtn.bg"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.famehallBtn" backStyle="gotopage.famehallBtnBG" x="176" y="221"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="gotopage.GotoPageView.light3" resourceLink="asset.core.btnLight" scaleGridString="15,15,94,42" width="140" height="42" x="-13" y="-6"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.dailyBtn.sns" backStyle="gotopage.dailyBtnBG.sns" x="176" y="187"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.dailyBtn.bg.sns" resourceLink="asset.gotopage.dailyBtn.sns,gotopage.GotoPageView.light1"/>  
+    <component classname="com.pickgliss.ui.controls.container.HBox" stylename="leagueShow.view.awardScoreBtn.hbox" x="329" y="-1" spacing="2"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.dailyBtnBG.sns" resourceLink="asset.gotopage.dailyBtn.sns,gotopage.dailyBtn.bg.sns,gotopage.dailyBtn.bg.sns"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.giftViewBtn.bg" resourceLink="asset.gotopage.giftViewBtn,gotopage.GotoPageView.light1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.giftViewBtnBG" resourceLink="asset.gotopage.giftViewBtn,gotopage.giftViewBtn.bg,gotopage.giftViewBtn.bg"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.giftViewBtn" backStyle="gotopage.giftViewBtnBG" x="176" y="221"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.boguShopBtn" backStyle="gotopage.boguShopBtnBG" x="175" y="118"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.giftBoxBtn.bg" resourceLink="asset.gotopage.giftBoxBtn,gotopage.GotoPageView.light1" imageRectString="0|109|0|31|13,-10|140|-7|43|13"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.giftBoxBtnBG" resourceLink="asset.gotopage.giftBoxBtn,gotopage.giftBoxBtn.bg,gotopage.giftBoxBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.kingBlessBtn.bg" resourceLink="asset.gotopage.kingBlessBtn,gotopage.GotoPageView.light1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.kingBlessBtnBG" resourceLink="asset.gotopage.kingBlessBtn,gotopage.kingBlessBtn.bg,gotopage.kingBlessBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.battleShopBtn.bg" resourceLink="asset.gotopage.battleShopBtn,gotopage.GotoPageView.light1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.battleShopBtnBG" resourceLink="asset.gotopage.battleShopBtn,gotopage.battleShopBtn.bg,gotopage.battleShopBtn.bg"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="gotopage.boguShopBtn.bg" resourceLink="asset.gotopage.boguShopBtn,gotopage.GotoPageView.light1"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gotopage.boguShopBtnBG" resourceLink="asset.gotopage.boguShopBtn,gotopage.boguShopBtn.bg,gotopage.boguShopBtn.bg"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.giftBoxBtn" backStyle="gotopage.giftBoxBtnBG" x="38" y="187"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.kingBlessBtn" backStyle="gotopage.kingBlessBtnBG" x="175" y="48"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gotopage.battleShopBtn" backStyle="gotopage.battleShopBtnBG" x="175" y="83"/> 
+ 	<component classname="com.pickgliss.ui.image.Image" stylename="gotopage.hlineV" parentStyle="gotopage.hlineI" y="140"/>
+  </components>  
+  <customDisplay> 
+    <custom classname="flash.geom.Point" stylename="leagueShow.view.leagueRankPos" x="139" y="200"/>  
+    <custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="leagueShow.view.awardBox" x="348" y="401" hSpace="8" vSpace="4"/> 
+    
+  </customDisplay>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.leagueShow.recordStatisticsTitle" x="16" y="37"/>  
+    <bitmapData resourceLink="asset.leagueShow.entryRulesTitle" x="22" y="23"/>  
+    <bitmapData resourceLink="asset.leagueShow.todayNumberTxt" x="56" y="432"/>  
+    <bitmapData resourceLink="asset.leagueShow.todayScoreTxt" x="56" y="469"/>  
+    <bitmapData resourceLink="asset.leagueShow.weekRankingTxt" x="56" y="354"/>  
+    <bitmapData resourceLink="asset.leagueShow.weekScoreTxt" x="56" y="392"/>  
+    <bitmapData resourceLink="asset.leagueShow.selected20_29Asset" x="8" y="6"/>  
+    <bitmapData resourceLink="asset.leagueShow.unselected20_29Asset" x="8" y="6"/>  
+    <bitmapData resourceLink="asset.leagueShow.selected30_39Asset" x="8" y="6"/>  
+    <bitmapData resourceLink="asset.leagueShow.unselected30_39Asset" x="8" y="6"/>  
+    <bitmapData resourceLink="asset.leagueShow.selected40_49Asset" x="8" y="6"/>  
+    <bitmapData resourceLink="asset.leagueShow.unselected40_49Asset" x="8" y="6"/>  
+    <bitmapData resourceLink="asset.leagueShow.rankContainer" x="31" y="99"/>  
+    <!-- 
+		<bitmapData resourceLink="asset.leagueShow.awardScoreBtnAssetII" x="10" y="4"/>
+		<bitmapData resourceLink="asset.leagueShow.awardScoreBtnAssetI" x="2" y="0.5"/>
+		 -->  
+    <bitmapData resourceLink="asset.gotopage.selectedBox" x="23" y="43"/>  
+    <bitmapData resourceLink="asset.gotopage.leagumatchesBtn" x="4"/>  
+    <bitmapData resourceLink="asset.gotopage.eliteBtn" x="2" y="-3"/>
+  </bitmaps> 
+</style>

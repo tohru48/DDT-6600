@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style name="ddtlittleGame" version="1.0.1" source="ui/turkey/swf/ddtlittleGame.swf"> 
+  <sets> 
+    <set stylename="ddtlittleGame.TF" args="Arial,12,0xfffaae,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtlittleGame.TF1" args="Arial,12,0xfff8d6,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="littleGame.pointTF" args="Arial,14,0xfff3d1,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="littleGame.ScoreFieldTF" args="Arial,28,0xffffff,bold,,,,,right" type="flash.text.TextFormat" letterSpacing="13"/>  
+    <set stylename="littleGame.AwardScoreFieldTF" args="Arial,12,0xffa751" type="flash.text.TextFormat"/>  
+    <set type="flash.text.TextFormat" stylename="littleGame.exchangeTf" args="Arial,12,0xfff3bc"/>  
+    <set stylename="littleGame.AwardScoreFieldGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="littleGame.ScoreFieldGF" args="0x501009,1,3,3,2" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtlittleGame.GF" args="0x7a0b00,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtlittleGame.GF1" args="0x613d1d,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="littleGame.pointGF" args="0x3e1900,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="littleGame.LivingNameFieldTF" args="Arial,14,0x00ff00,bold,,,,,center" type="flash.text.TextFormat"/>  
+    <set type="flash.filters.GlowFilter" stylename="littleGame.exchangeGf" args="0x4b270d,1,2,2,10"/> 
+  </sets>  
+  <customDisplay> 
+    <custom classname="flash.geom.Point" stylename="littleGame.previewMap.pos" x="33" y="41"/>  
+    <custom classname="littleGame.view.LittleAwardListView" stylename="littleGame.awardList" x="510" y="74"/>  
+    <custom classname="littleGame.view.AwardGoodItem" stylename="littleGame.GoodItem"/>  
+    <custom classname="flash.geom.Point" stylename="littleGame.goodItemContainer.pos" x="31" y="-1"/>  
+    <custom classname="flash.geom.Point" stylename="littleGame.PayPaneBuyBtn.pos" x="105" y="55"/>  
+    <custom classname="flash.geom.Point" stylename="littleGame.GoodPayTypeLabel.pos" x="142" y="26"/>  
+    <custom classname="flash.geom.Point" stylename="littleGame.GoodItemPrice.pos" x="81" y="31"/>  
+    <custom classname="flash.geom.Point" stylename="littleGame.GoodItemName.pos" x="81" y="2"/>  
+    <custom classname="flash.geom.Point" stylename="littleGame.GoodItemCellTypeBg.pos" x="3" y="54"/>  
+    <custom classname="flash.geom.Point" stylename="littleGame.GoodItemDotLine.pos" x="78" y="47"/>  
+    <custom classname="flash.geom.Point" stylename="littleGame.GoodItemCellBg.pos" x="5" y="5"/>  
+    <custom classname="flash.geom.Rectangle" stylename="littleGame.GoodItemName.size" width="108" x="74"/>  
+    <custom classname="flash.geom.Rectangle" stylename="littleGame.GoodItemBG.size" width="188" height="83"/>  
+    <custom classname="flash.geom.Rectangle" stylename="littleGame.GoodItemDotLine.size" width="100"/>  
+    <custom classname="flash.geom.Point" stylename="littleGame.GoodItemCell.pos" x="1" y="2"/>  
+    <custom classname="flash.geom.Point" stylename="littleGame.menu.pos1" x="906" y="536"/>  
+    <custom classname="flash.geom.Point" stylename="littleGame.menu.pos2" x="966" y="536"/>  
+    <custom classname="asset.littleGame.MouseNote" stylename="LittleMouseNote" x="741" y="415"/>  
+    <custom classname="littleGame.menu.LittleMenuBar" stylename="LittleMenuBar" x="906" y="536"/>  
+    <custom classname="littleGame.view.PlayerNameField" stylename="littleGame.PlayerName" y="-160"/>  
+    <custom classname="littleGame.view.LittleSoundButton" stylename="LittleSoundButton" x="10" y="10"/> 
+  </customDisplay>  
+  <components> 
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="littleGame.exchangeText" filterString="littleGame.exchangeGf" textFormatStyle="littleGame.exchangeTf" x="6" y="3"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ddtlittleGame.BG1" resourceLink="asset.background.littlegameroomlist" width="969" height="557" x="14" y="25"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtlittleGameLeftViewBG1" resourceLink="asset.core.ScaleBitmapImage1" width="480" height="332" x="26" y="37" scaleGridString="33,26,59,70"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ddtlittleGameRightViewBG1" resourceLink="asset.ddtlittlegameRight.bg" width="435" height="415" x="524" y="51"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtlittleGameRightViewBG2" parentStyle="core.Scale9CornerImage.BGAsset3" width="432" height="412" x="525" y="54"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtlittleGameRightViewBG3" parentStyle="core.Scale9CornerImage.deepFur" width="140" height="90" x="523" y="472"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtlittleGameRightViewBG4" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="80" height="21" x="550" y="528"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtlittleGameRightViewBG5" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="65" height="21" x="270" y="400"/>  
+    <!-- button -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="littleGame.btnGobackHot" backStyle="littleGame.btnGobackHotAsset" x="739" y="511" filterString="null,lightFilter,lightFilter,grayFilter"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="littleGame.btnGobackHotAsset" resourceLink="ddtlittlegame.btn,asset.ddtlittlegame.backGame" imageRectString="135|45|0|0|9,80|40|2|-68|9"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="littleGame.btnEnterGame" backStyle="littleGame.btnEnterGameAsset" x="893" y="511" filterString="null,lightFilter,lightFilter,grayFilter"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="littleGame.btnEnterGameAsset" resourceLink="ddtlittlegame.btn1,asset.ddtlittlegame.acctionGame" imageRectString="135|45|0|0|9,91|26|8|-68|9"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtlittlegame.btn" parentStyle="core.bg6908"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtlittlegame.btn1" parentStyle="core.bg6899"/>  
+    <!-- room_menu -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="littleGame.ReturnButton" backStyle="littleGame.ReturnButton.back" x="34" y="4"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="littleGame.ReturnButton.back" resourceLink="asset.littleGame.menu.return,asset.littleGame.menu.selected,asset.littleGame.menu.selected,asset.littleGame.menu.selected"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="littleGame.SwitchButton.back" resourceLink="asset.littleGame.menu.close,asset.littleGame.menu.open" x="6" y="9"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="littleGame.SoundBack" resourceLink="asset.littleGame.SoundOn,asset.littleGame.SoundOff"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="littleGame.LivingNameField" textFormatStyle="littleGame.LivingNameFieldTF" x="4" y="2" isAutoFitLength="true" autoSize="none" width="100" height="30"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="littleGame.ScoreText" textFormatStyle="littleGame.ScoreFieldTF" x="0" y="0" autoSize="none" width="100" height="30"/>  
+    <component classname="com.pickgliss.ui.text.GradientText" stylename="littleGame.ScoreField" textFieldStyle="littleGame.ScoreText" filterString="littleGame.ScoreFieldGF" colors="0xf3ff32,0xea7a2f" alphas="1,1" ratios="75,255" y="17"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="littleGame.BtnFirstPage" backStyle="asset.ddtcore.firstBtn" filterString="null,lightFilter,null,grayFilter" x="158" y="397"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="littleGame.BtnPrePage" backStyle="asset.ddtcore.leftBtn" filterString="null,lightFilter,null,grayFilter" x="212" y="397"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="littleGame.BtnNextPage" backStyle="asset.ddtcore.rightBtn" filterString="null,lightFilter,null,grayFilter" x="340" y="397"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="littleGame.BtnEndPage" backStyle="asset.ddtcore.endBtn" filterString="null,lightFilter,null,grayFilter" x="393" y="397"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="littleGame.pointTxt" textFormatStyle="littleGame.pointTF" filterString="littleGame.pointGF" x="556" y="529" autoSize="none" width="70" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="littleGame.MypointTxt" textFormatStyle="ddtlittleGame.TF" filterString="ddtlittleGame.GF" x="541" y="490" autoSize="none" width="100" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="littleGame.CurrentPage" textFormatStyle="ddtlittleGame.TF1" filterString="ddtlittleGame.GF1" x="268" y="402" autoSize="none" width="70" height="20" text="1/1"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="littleGame.AwardScoreField" textFormatStyle="littleGame.AwardScoreFieldTF" filterString="littleGame.AwardScoreFieldGF" x="115" y="28" autoSize="none" width="60" height="20"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="littleGame.AwardScoreTitleField" textFormatStyle="littleGame.AwardScoreFieldTF" filterString="littleGame.AwardScoreFieldGF" x="81" y="28" autoSize="none" width="36" height="20"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.littleGame.background" resourceLink="asset.ddtlittlegame.bg" width="188" height="80"/> 
+  </components>  
+  <bitmaps> 
+    <bitmapData resourceLink="asset.ddtlittlegame.titlebg" x="4" y="-1" width="1004"/>  
+    <bitmapData resourceLink="asset.ddtlittleGame.pointbg" x="516" y="485"/>  
+    <bitmapData resourceLink="asset.littleGame.menu.switchBtn2" visible="false"/>  
+    <bitmapData resourceLink="asset.littleGame.menu.return" x="8" y="4"/>  
+    <bitmapData resourceLink="asset.littleGame.InhaleNote" y="20"/>  
+    <bitmapData resourceLink="asset.littleGame.ScoreNote" x="34" y="351"/>  
+    <bitmapData resourceLink="asset.ddtlittleGame.ItemlBg" width="188" height="80"/>` 
+    <bitmapData resourceLink="asset.littleGame.price" y="-5"/> 
+  </bitmaps> 
+</style>
